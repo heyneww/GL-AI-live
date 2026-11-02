@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T12:31:55Z",
+ "generated_at": "2026-11-02T12:34:53Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-02, https://heyneww.github.io/GL-AI-live/",
@@ -183,6 +183,45 @@
    ],
    "origin": "curated",
    "counted_usd": 3000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "oracle-alphabet-2026-10-tpu-oci",
+   "kind": "order",
+   "subkind": "TPU supply for cloud deployment (OCI)",
+   "subkind_zh": "TPU 供应（部署于甲骨文云）",
+   "from": "oracle",
+   "to": "alphabet",
+   "amount_usd": null,
+   "amount_text": "Not disclosed; described by Oracle as a \"multi-year, multi-gigawatt partnership\"; chip count and financial terms not given",
+   "amount_text_zh": "金额未披露；甲骨文称其为“多年期、数吉瓦级合作”，未公布芯片数量和财务条款",
+   "announced": "2026-10-27",
+   "term": "Multi-year; TPUs available on OCI from calendar 2027",
+   "term_zh": "多年期；自 2027 年起在甲骨文云上提供 TPU",
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "Oracle to deploy Google TPUs in its cloud in multi-gigawatt partnership",
+   "title_zh": "甲骨文将在其云中部署谷歌 TPU，双方达成数吉瓦级合作",
+   "summary_en": "At Oracle AI World, Oracle and Google said Google's eighth-generation TPUs (TPU 8t and 8i) will be offered on Oracle Cloud Infrastructure from 2027, making OCI the first hyperscale cloud outside Google to offer them; Oracle runs the data centres, power and cooling and Google supplies the chips and software. Oracle called it a multi-year, multi-gigawatt partnership but gave no value or chip count.",
+   "summary_zh": "在甲骨文 AI World 大会上，甲骨文与谷歌宣布，谷歌第八代 TPU（TPU 8t 和 8i）将自 2027 年起在甲骨文云基础设施上提供，甲骨文云由此成为谷歌之外首家提供 TPU 的超大规模云厂商；甲骨文负责数据中心、电力和冷却，谷歌提供芯片和软件。甲骨文称这是多年期、数吉瓦级的合作，但未披露金额和芯片数量。",
+   "sources": [
+    {
+     "url": "https://oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/",
+     "publisher": "Oracle",
+     "date": "2026-10-27",
+     "title": "Oracle brings Google TPUs to Oracle Cloud Infrastructure",
+     "type": "official"
+    },
+    {
+     "url": "https://datacenterknowledge.com/data-center-chips/oracle-cloud-to-offer-google-tpus-and-new-ai-chips",
+     "publisher": "Data Center Knowledge",
+     "date": "2026-10-27",
+     "title": "Oracle Cloud to Offer Google TPUs and New AI Chips",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 0,
    "contingent_usd": 0
   },
   {
