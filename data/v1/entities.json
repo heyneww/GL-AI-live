@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T12:34:53Z",
+ "generated_at": "2026-11-02T15:52:43Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-02, https://heyneww.github.io/GL-AI-live/",
@@ -392,7 +392,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 4,
+     "order": 5,
      "investment": 5,
      "debt": 0,
      "lease": 0,
@@ -401,8 +401,8 @@
     },
     "guaranteed_out_usd": 6230000000,
     "guaranteed_in_usd": 0,
-    "degree": 30,
-    "degree_curated": 30,
+    "degree": 31,
+    "degree_curated": 31,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -415,7 +415,7 @@
     "binding_usd": 327830000000,
     "last_edge": "2026-10-27",
     "last_source": "2026-10-29",
-    "counterparties": 17,
+    "counterparties": 18,
     "inflow_total_usd": 280080000000,
     "outflow_total_usd": 47750000000,
     "top_counterparties": [
@@ -482,7 +482,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 3,
+     "order": 5,
      "investment": 3,
      "debt": 0,
      "lease": 3,
@@ -491,8 +491,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 20,
-    "degree_curated": 20,
+    "degree": 22,
+    "degree_curated": 22,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -505,7 +505,7 @@
     "binding_usd": 553760000000,
     "last_edge": "2026-10-30",
     "last_source": "2026-10-30",
-    "counterparties": 10,
+    "counterparties": 12,
     "inflow_total_usd": 458860000000,
     "outflow_total_usd": 94900000000,
     "top_counterparties": [
@@ -799,7 +799,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 2300000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -815,7 +815,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -831,25 +831,31 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
      "signed": 0,
      "in_progress": 0,
-     "completed": 0,
+     "completed": 2300000000,
      "reported": 0
     },
     "confirmed_usd": 0,
-    "binding_usd": 0,
+    "binding_usd": 2300000000,
     "last_edge": "2026-06-16",
     "last_source": "2026-10-22",
-    "counterparties": 1,
-    "inflow_total_usd": 0,
+    "counterparties": 2,
+    "inflow_total_usd": 2300000000,
     "outflow_total_usd": 0,
-    "top_counterparties": [],
-    "concentration_top3": 0
+    "top_counterparties": [
+     {
+      "id": "private-investors",
+      "usd": 2300000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
    }
   },
   {
@@ -2156,7 +2162,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 573477500000,
+     "debt": 575110500000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2172,58 +2178,58 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 69,
+     "debt": 70,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 69,
-    "degree_curated": 69,
+    "degree": 70,
+    "degree_curated": 70,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
      "signed": 25000000000,
      "in_progress": 0,
-     "completed": 548477500000,
+     "completed": 550110500000,
      "reported": 0
     },
-    "confirmed_usd": 282719500000,
-    "binding_usd": 573477500000,
+    "confirmed_usd": 284352500000,
+    "binding_usd": 575110500000,
     "last_edge": "2026-10-29",
-    "last_source": "2026-10-30",
+    "last_source": "2026-11-02",
     "counterparties": 28,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 573477500000,
+    "outflow_total_usd": 575110500000,
     "top_counterparties": [
      {
       "id": "amazon",
       "usd": 113360000000,
-      "share": 0.1976712251134526
+      "share": 0.19710994669719992
      },
      {
       "id": "alphabet",
       "usd": 105630000000,
-      "share": 0.18419205635792163
+      "share": 0.18366905142576948
      },
      {
       "id": "meta",
       "usd": 55000000000,
-      "share": 0.09590611663055656
+      "share": 0.09563379559232531
      },
      {
       "id": "oracle",
       "usd": 43000000000,
-      "share": 0.07498114572934422
+      "share": 0.07476824019036342
      },
      {
       "id": "beignet-investor",
       "usd": 27300000000,
-      "share": 0.04760430880025807
+      "share": 0.04746913853946329
      }
     ],
-    "concentration_top3": 0.47776939810193075
+    "concentration_top3": 0.4764127937152947
    }
   },
   {
@@ -2990,7 +2996,7 @@
     "confirmed_usd": 0,
     "binding_usd": 4000000000,
     "last_edge": "2025-08-26",
-    "last_source": "2025-08-26",
+    "last_source": "2026-02-20",
     "counterparties": 1,
     "inflow_total_usd": 4000000000,
     "outflow_total_usd": 0,
@@ -3016,7 +3022,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 5060000000,
+     "debt": 6693000000,
      "lease": 11300000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3032,7 +3038,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 4,
+     "debt": 5,
      "lease": 3,
      "vendor_financing": 0,
      "guarantee": 1
@@ -3047,38 +3053,38 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 1730000000,
-    "degree": 8,
-    "degree_curated": 8,
+    "degree": 9,
+    "degree_curated": 9,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
      "signed": 2000000000,
      "in_progress": 9300000000,
-     "completed": 5060000000,
+     "completed": 6693000000,
      "reported": 0
     },
-    "confirmed_usd": 10860000000,
-    "binding_usd": 16360000000,
+    "confirmed_usd": 12493000000,
+    "binding_usd": 17993000000,
     "last_edge": "2026-10-14",
-    "last_source": "2026-10-16",
+    "last_source": "2026-11-02",
     "counterparties": 4,
-    "inflow_total_usd": 16360000000,
+    "inflow_total_usd": 17993000000,
     "outflow_total_usd": 0,
     "top_counterparties": [
      {
       "id": "amazon",
       "usd": 7500000000,
-      "share": 0.45843520782396086
+      "share": 0.41682876674262215
      },
      {
       "id": "bond-investors",
-      "usd": 5060000000,
-      "share": 0.3092909535452323
+      "usd": 6693000000,
+      "share": 0.371977991441116
      },
      {
       "id": "fluidstack",
       "usd": 3800000000,
-      "share": 0.23227383863080683
+      "share": 0.21119324181626187
      }
     ],
     "concentration_top3": 1.0
@@ -3165,6 +3171,76 @@
    }
   },
   {
+   "id": "classiq",
+   "name": "Classiq",
+   "name_zh": "Classiq（以色列量子软件公司）",
+   "group": "other",
+   "ticker": null,
+   "country": "IL",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 2300000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 2300000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 2300000000,
+    "last_edge": "2026-10-26",
+    "last_source": "2026-10-28",
+    "counterparties": 1,
+    "inflow_total_usd": 2300000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "intel",
+      "usd": 2300000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
    "id": "constellation-energy",
    "name": "Constellation Energy",
    "name_zh": "Constellation 能源",
@@ -3190,7 +3266,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 3,
+     "order": 4,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3207,8 +3283,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 3,
-    "degree_curated": 3,
+    "degree": 4,
+    "degree_curated": 4,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -3221,7 +3297,7 @@
     "binding_usd": 0,
     "last_edge": "2026-10-06",
     "last_source": "2026-10-07",
-    "counterparties": 3,
+    "counterparties": 4,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0,
     "top_counterparties": [],
@@ -4189,7 +4265,7 @@
     "confirmed_usd": 28360000000,
     "binding_usd": 28360000000,
     "last_edge": "2026-09-03",
-    "last_source": "2026-09-03",
+    "last_source": "2026-11-02",
     "counterparties": 5,
     "inflow_total_usd": 2330000000,
     "outflow_total_usd": 27530000000,
@@ -4827,7 +4903,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 14200000000,
+     "investment": 16500000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4843,7 +4919,7 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4851,51 +4927,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 11,
-    "degree_curated": 11,
+    "degree": 12,
+    "degree_curated": 12,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 0,
+     "signed": 2300000000,
      "in_progress": 8900000000,
      "completed": 57100000000,
      "reported": 0
     },
     "confirmed_usd": 64100000000,
-    "binding_usd": 66000000000,
-    "last_edge": "2026-08-11",
+    "binding_usd": 68300000000,
+    "last_edge": "2026-10-26",
     "last_source": "2026-10-30",
-    "counterparties": 10,
+    "counterparties": 11,
     "inflow_total_usd": 51800000000,
-    "outflow_total_usd": 14200000000,
+    "outflow_total_usd": 16500000000,
     "top_counterparties": [
      {
       "id": "apollo",
       "usd": 25200000000,
-      "share": 0.38181818181818183
+      "share": 0.3689604685212299
      },
      {
       "id": "public-equity-investors",
       "usd": 23000000000,
-      "share": 0.3484848484848485
+      "share": 0.3367496339677892
      },
      {
       "id": "us-government",
       "usd": 8900000000,
-      "share": 0.13484848484848486
+      "share": 0.13030746705710103
      },
      {
       "id": "nvidia",
       "usd": 5000000000,
-      "share": 0.07575757575757576
+      "share": 0.07320644216691069
      },
      {
-      "id": "softbank",
-      "usd": 2000000000,
-      "share": 0.030303030303030304
+      "id": "classiq",
+      "usd": 2300000000,
+      "share": 0.03367496339677892
      }
     ],
-    "concentration_top3": 0.8651515151515152
+    "concentration_top3": 0.83601756954612
    }
   },
   {
@@ -5653,6 +5729,70 @@
    }
   },
   {
+   "id": "lumentum",
+   "name": "Lumentum",
+   "name_zh": "Lumentum（光器件制造商）",
+   "group": "other",
+   "ticker": "LITE",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 0,
+    "last_edge": "2026-11-02",
+    "last_source": "2026-11-02",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
+   }
+  },
+  {
    "id": "magnetar",
    "name": "Magnetar Capital",
    "name_zh": "Magnetar 资本",
@@ -5849,6 +5989,70 @@
     "binding_usd": 0,
     "last_edge": "2025-12-29",
     "last_source": "2026-04-27",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
+   }
+  },
+  {
+   "id": "marvell",
+   "name": "Marvell Technology",
+   "name_zh": "迈威尔科技（Marvell）",
+   "group": "chip",
+   "ticker": "MRVL",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 0,
+    "last_edge": "2026-11-02",
+    "last_source": "2026-11-02",
     "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0,
@@ -6961,7 +7165,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 1,
+     "order": 3,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -6978,8 +7182,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -6992,7 +7196,7 @@
     "binding_usd": 0,
     "last_edge": "2026-10-16",
     "last_source": "2026-10-28",
-    "counterparties": 1,
+    "counterparties": 3,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0,
     "top_counterparties": [],
@@ -7631,7 +7835,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 189610000000,
+     "investment": 191910000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -7647,7 +7851,7 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 24,
+     "investment": 25,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -7655,51 +7859,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 24,
-    "degree_curated": 24,
+    "degree": 25,
+    "degree_curated": 25,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
      "signed": 2800000000,
      "in_progress": 3900000000,
-     "completed": 162110000000,
+     "completed": 164410000000,
      "reported": 20800000000
     },
     "confirmed_usd": 111200000000,
-    "binding_usd": 168810000000,
+    "binding_usd": 171110000000,
     "last_edge": "2026-10-22",
     "last_source": "2026-10-29",
-    "counterparties": 12,
+    "counterparties": 13,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 189610000000,
+    "outflow_total_usd": 191910000000,
     "top_counterparties": [
      {
       "id": "anthropic",
       "usd": 90220000000,
-      "share": 0.47581878592901217
+      "share": 0.470116200302225
      },
      {
       "id": "xai",
       "usd": 32000000000,
-      "share": 0.16876747007014398
+      "share": 0.16674482830493462
      },
      {
       "id": "openai",
       "usd": 28600000000,
-      "share": 0.1508359263751912
+      "share": 0.1490281902975353
      },
      {
       "id": "deepseek",
       "usd": 15800000000,
-      "share": 0.08332893834713359
+      "share": 0.08233025897556145
      },
      {
       "id": "moonshot-ai",
       "usd": 6000000000,
-      "share": 0.031643900638152
+      "share": 0.03126465530717524
      }
     ],
-    "concentration_top3": 0.7954221823743474
+    "concentration_top3": 0.7858892189046949
    }
   },
   {
@@ -8890,7 +9094,7 @@
     "confirmed_usd": 0,
     "binding_usd": 0,
     "last_edge": "2025-08-06",
-    "last_source": "2025-08-06",
+    "last_source": "2025-11-03",
     "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0,
