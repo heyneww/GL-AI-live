@@ -1,41 +1,41 @@
 {
- "generated_at": "2026-11-02T15:52:43Z",
+ "generated_at": "2026-11-02T22:48:46Z",
  "monitor": {
-  "last_run": "2026-11-02T14:20:45Z",
-  "sec_items": 200,
-  "news_items": 3466,
+  "last_run": "2026-11-02T22:18:03Z",
+  "sec_items": 202,
+  "news_items": 3588,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-02T14:20:45Z",
+    "last_run": "2026-11-02T22:18:03Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
-    "matched": 184,
-    "added": 3,
-    "total": 200,
-    "fulltext_hits": 4,
+    "matched": 186,
+    "added": 1,
+    "total": 202,
+    "fulltext_hits": 5,
     "fulltext_errors": [],
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-02T14:20:45Z",
+    "last_run": "2026-11-02T22:18:03Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 499,
-    "added": 47,
+    "items": 549,
+    "added": 78,
     "evicted": 0,
-    "unread": 466,
+    "unread": 588,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3466,
+    "total": 3588,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-02T14:20:45Z",
+    "last_run": "2026-11-02T22:18:03Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -409,7 +409,7 @@
    "origin": "core",
    "stats": {
     "inflow_usd": {
-     "order": 124500000000,
+     "order": 131300000000,
      "investment": 49950000000,
      "debt": 105630000000,
      "lease": 0,
@@ -447,46 +447,46 @@
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 124500000000,
+     "signed": 131300000000,
      "in_progress": 40000000000,
      "completed": 163330000000,
      "reported": 0
     },
-    "confirmed_usd": 251750000000,
-    "binding_usd": 327830000000,
+    "confirmed_usd": 258550000000,
+    "binding_usd": 334630000000,
     "last_edge": "2026-10-27",
-    "last_source": "2026-10-29",
+    "last_source": "2026-11-02",
     "counterparties": 18,
-    "inflow_total_usd": 280080000000,
+    "inflow_total_usd": 286880000000,
     "outflow_total_usd": 47750000000,
     "top_counterparties": [
      {
       "id": "anthropic",
-      "usd": 157500000000,
-      "share": 0.4804319311838453
+      "usd": 164300000000,
+      "share": 0.4909900487105161
      },
      {
       "id": "bond-investors",
       "usd": 105630000000,
-      "share": 0.3222096818472989
+      "share": 0.315662074530078
      },
      {
       "id": "public-equity-investors",
       "usd": 39950000000,
-      "share": 0.12186194063996583
+      "share": 0.11938559005468727
      },
      {
       "id": "berkshire-hathaway",
       "usd": 10000000000,
-      "share": 0.030503614678339383
+      "share": 0.029883752203926726
      },
      {
       "id": "meta",
       "usd": 10000000000,
-      "share": 0.030503614678339383
+      "share": 0.029883752203926726
      }
     ],
-    "concentration_top3": 0.92450355367111
+    "concentration_top3": 0.9260377132952814
    }
   },
   {
@@ -757,7 +757,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 485800000000,
+     "order": 492600000000,
      "investment": 0,
      "debt": 0,
      "lease": 189300000000,
@@ -787,46 +787,46 @@
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 565300000000,
+     "signed": 572100000000,
      "in_progress": 200500000000,
      "completed": 101220000000,
      "reported": 51300000000
     },
-    "confirmed_usd": 898220000000,
-    "binding_usd": 867020000000,
+    "confirmed_usd": 905020000000,
+    "binding_usd": 873820000000,
     "last_edge": "2026-10-26",
-    "last_source": "2026-10-30",
+    "last_source": "2026-11-02",
     "counterparties": 20,
     "inflow_total_usd": 243220000000,
-    "outflow_total_usd": 675100000000,
+    "outflow_total_usd": 681900000000,
     "top_counterparties": [
      {
       "id": "broadcom",
       "usd": 203200000000,
-      "share": 0.2212736301071522
+      "share": 0.2196471809062608
      },
      {
       "id": "alphabet",
-      "usd": 157500000000,
-      "share": 0.17150884223364404
+      "usd": 164300000000,
+      "share": 0.1775985818056036
      },
      {
       "id": "amazon",
       "usd": 143000000000,
-      "share": 0.15571913929784825
+      "share": 0.1545745416810792
      },
      {
       "id": "spacex",
       "usd": 120500000000,
-      "share": 0.13121787612161337
+      "share": 0.13025337253545485
      },
      {
       "id": "private-investors",
       "usd": 90220000000,
-      "share": 0.09824462061155152
+      "share": 0.09752248356969907
      }
     ],
-    "concentration_top3": 0.5485016116386445
+    "concentration_top3": 0.5518203043929436
    }
   },
   {
@@ -3275,6 +3275,76 @@
      {
       "id": "intel",
       "usd": 2300000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "coherent",
+   "name": "Coherent",
+   "name_zh": "Coherent（光器件制造商）",
+   "group": "other",
+   "ticker": "COHR",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 2000000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 2000000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 2000000000,
+    "binding_usd": 2000000000,
+    "last_edge": "2026-03-02",
+    "last_source": "2026-03-03",
+    "counterparties": 1,
+    "inflow_total_usd": 2000000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "nvidia",
+      "usd": 2000000000,
       "share": 1.0
      }
     ],
@@ -5780,7 +5850,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 2000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -5796,7 +5866,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -5812,25 +5882,31 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 0,
+     "signed": 2000000000,
      "in_progress": 0,
      "completed": 0,
      "reported": 0
     },
-    "confirmed_usd": 0,
-    "binding_usd": 0,
+    "confirmed_usd": 2000000000,
+    "binding_usd": 2000000000,
     "last_edge": "2026-11-02",
     "last_source": "2026-11-02",
-    "counterparties": 1,
-    "inflow_total_usd": 0,
+    "counterparties": 2,
+    "inflow_total_usd": 2000000000,
     "outflow_total_usd": 0,
-    "top_counterparties": [],
-    "concentration_top3": 0
+    "top_counterparties": [
+     {
+      "id": "nvidia",
+      "usd": 2000000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
    }
   },
   {
@@ -7333,7 +7409,7 @@
     },
     "outflow_usd": {
      "order": 36800000000,
-     "investment": 73000000000,
+     "investment": 77000000000,
      "debt": 3500000000,
      "lease": 21100000000,
      "vendor_financing": 0,
@@ -7349,7 +7425,7 @@
     },
     "outflow_count": {
      "order": 10,
-     "investment": 14,
+     "investment": 16,
      "debt": 1,
      "lease": 3,
      "vendor_financing": 0,
@@ -7357,51 +7433,51 @@
     },
     "guaranteed_out_usd": 105000000000,
     "guaranteed_in_usd": 0,
-    "degree": 39,
-    "degree_curated": 39,
+    "degree": 41,
+    "degree_curated": 41,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 8000000000,
-     "signed": 54200000000,
+     "signed": 58200000000,
      "in_progress": 50000000000,
      "completed": 87200000000,
      "reported": 0
     },
-    "confirmed_usd": 55900000000,
-    "binding_usd": 191400000000,
+    "confirmed_usd": 59900000000,
+    "binding_usd": 195400000000,
     "last_edge": "2026-10-27",
     "last_source": "2026-10-27",
-    "counterparties": 27,
+    "counterparties": 29,
     "inflow_total_usd": 65000000000,
-    "outflow_total_usd": 134400000000,
+    "outflow_total_usd": 138400000000,
     "top_counterparties": [
      {
       "id": "oracle",
       "usd": 40000000000,
-      "share": 0.20060180541624875
+      "share": 0.19665683382497542
      },
      {
       "id": "openai",
       "usd": 30000000000,
-      "share": 0.15045135406218657
+      "share": 0.14749262536873156
      },
      {
       "id": "bond-investors",
       "usd": 25000000000,
-      "share": 0.12537612838515547
+      "share": 0.12291052114060963
      },
      {
       "id": "tsmc",
       "usd": 23200000000,
-      "share": 0.11634904714142427
+      "share": 0.11406096361848574
      },
      {
       "id": "hut-8",
       "usd": 19600000000,
-      "share": 0.09829488465396188
+      "share": 0.09636184857423795
      }
     ],
-    "concentration_top3": 0.4764292878635908
+    "concentration_top3": 0.4670599803343166
    }
   },
   {
@@ -7876,7 +7952,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 191910000000,
+     "investment": 193910000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -7892,7 +7968,7 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 25,
+     "investment": 26,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -7900,51 +7976,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 25,
-    "degree_curated": 25,
+    "degree": 26,
+    "degree_curated": 26,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
      "signed": 2800000000,
      "in_progress": 3900000000,
-     "completed": 164410000000,
+     "completed": 166410000000,
      "reported": 20800000000
     },
     "confirmed_usd": 111200000000,
-    "binding_usd": 171110000000,
+    "binding_usd": 173110000000,
     "last_edge": "2026-10-22",
     "last_source": "2026-10-29",
-    "counterparties": 13,
+    "counterparties": 14,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 191910000000,
+    "outflow_total_usd": 193910000000,
     "top_counterparties": [
      {
       "id": "anthropic",
       "usd": 90220000000,
-      "share": 0.470116200302225
+      "share": 0.4652673920891135
      },
      {
       "id": "xai",
       "usd": 32000000000,
-      "share": 0.16674482830493462
+      "share": 0.16502501160332111
      },
      {
       "id": "openai",
       "usd": 28600000000,
-      "share": 0.1490281902975353
+      "share": 0.14749110412046826
      },
      {
       "id": "deepseek",
       "usd": 15800000000,
-      "share": 0.08233025897556145
+      "share": 0.08148109947913981
      },
      {
       "id": "moonshot-ai",
       "usd": 6000000000,
-      "share": 0.03126465530717524
+      "share": 0.030942189675622712
      }
     ],
-    "concentration_top3": 0.7858892189046949
+    "concentration_top3": 0.7777835078129028
    }
   },
   {
@@ -8262,7 +8338,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 5000000000,
+     "investment": 7000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -8278,7 +8354,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -8294,28 +8370,33 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 5000000000,
      "signed": 0,
      "in_progress": 0,
-     "completed": 0,
+     "completed": 2000000000,
      "reported": 0
     },
     "confirmed_usd": 0,
-    "binding_usd": 0,
+    "binding_usd": 2000000000,
     "last_edge": "2026-07-27",
     "last_source": "2026-07-27",
-    "counterparties": 1,
-    "inflow_total_usd": 5000000000,
+    "counterparties": 2,
+    "inflow_total_usd": 7000000000,
     "outflow_total_usd": 0,
     "top_counterparties": [
      {
       "id": "nvidia",
       "usd": 5000000000,
-      "share": 1.0
+      "share": 0.7142857142857143
+     },
+     {
+      "id": "private-investors",
+      "usd": 2000000000,
+      "share": 0.2857142857142857
      }
     ],
     "concentration_top3": 1.0
@@ -15968,17 +16049,32 @@
    "subkind": "multi-gigawatt TPU capacity agreement",
    "from": "anthropic",
    "to": "alphabet",
-   "amount_usd": 114500000000,
-   "amount_text": "At least ~$114.5B of Google TPU spend between April 2026 and July 2033 per Anthropic's S-1 (26 Oct 2026), non-cancelable except for Google's uncured material breach, with a true-up if spending falls short; this covers Anthropic's Google TPU deals together, so the Oct 2025 edge stays without an amount. 5 GW of next-gen TPU capacity from 2027 (Anthropic); a Broadcom filing cited ~3.5 GW",
+   "amount_usd": 121300000000,
+   "amount_text": "At least ~$121.3B of Google TPU spend between April 2026 and July 2033 per Anthropic's amended S-1 (2 Nov 2026; ~$114.5B in the 26 Oct S-1), non-cancelable except for Google's uncured material breach, with a true-up if spending falls short; this covers Anthropic's Google TPU deals together, so the Oct 2025 edge stays without an amount. 5 GW of next-gen TPU capacity from 2027 (Anthropic); a Broadcom filing cited ~3.5 GW",
    "announced": "2026-04-06",
    "term": "April 2026 to July 2033",
    "status": "signed",
    "confidence": "confirmed",
    "title_en": "Anthropic 5 GW TPU deal with Google and Broadcom",
    "title_zh": "Anthropic 与谷歌、博通的 5 吉瓦 TPU 协议",
-   "summary_en": "Anthropic signed with Google and Broadcom for 5 GW of next-generation TPU capacity coming online from 2027, which its CFO called its largest compute commitment to date; an earlier Broadcom filing cited about 3.5 GW. Anthropic's S-1 (October 2026) shows a minimum of about $114.5B of Google TPU commitments from April 2026 through July 2033, with a true-up payment if spending falls short, plus further TPU compute to be delivered in 2028-2031.",
-   "summary_zh": "Anthropic 与谷歌及博通签约，自 2027 年起获得 5 吉瓦下一代 TPU 算力，其首席财务官称这是公司迄今最大的算力承诺；博通此前的文件显示规模约 3.5 吉瓦。Anthropic 2026 年 10 月的 S-1 显示，2026 年 4 月至 2033 年 7 月间对谷歌 TPU 的最低承诺约 1145 亿美元，支出不足须补足差额，另有 2028–2031 年交付的更多 TPU 算力。",
+   "summary_en": "Anthropic signed with Google and Broadcom for 5 GW of next-generation TPU capacity coming online from 2027, which its CFO called its largest compute commitment to date; an earlier Broadcom filing cited about 3.5 GW. Anthropic's amended S-1 (2 November 2026) raises the minimum Google TPU commitment from April 2026 through July 2033 to about $121.3B (from about $114.5B in the October filing), with a true-up payment if spending falls short; a further $125B-150B of TPU compute for delivery in 2028-2031 has no fixed commitment and is not counted.",
+   "summary_zh": "Anthropic 与谷歌及博通签约，自 2027 年起获得 5 吉瓦下一代 TPU 算力，其首席财务官称这是公司迄今最大的算力承诺；博通此前的文件显示规模约 3.5 吉瓦。Anthropic 2026 年 11 月 2 日的修订版 S-1 将 2026 年 4 月至 2033 年 7 月间对谷歌 TPU 的最低承诺上调至约 1213 亿美元（10 月文件为约 1145 亿美元），支出不足须补足差额；另有 2028–2031 年交付、约 1250 亿至 1500 亿美元的 TPU 算力未设固定承诺，不计入本条。",
+   "last_checked": "2026-11-02",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-02",
+     "title": "Anthropic, PBC - Form S-1/A (Amendment No. 1)",
+     "type": "filing"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/article/anthropics-new-ipo-filing-puts-its-computing-bill-near-900-billion-151830444.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-11-02",
+     "title": "Anthropic's new IPO filing puts its computing bill near $900 billion",
+     "type": "news"
+    },
     {
      "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm",
      "publisher": "SEC EDGAR",
@@ -16776,6 +16872,73 @@
      "publisher": "The Next Web",
      "date": "2026-05-01",
      "title": "SpaceX used a $20 billion bridge loan to slash Musk's debt costs in half, IPO filing reveals (day not given)"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "nvidia-coherent-2026-03-equity",
+   "kind": "investment",
+   "subkind": "strategic equity investment",
+   "subkind_zh": "战略股权投资",
+   "from": "nvidia",
+   "to": "coherent",
+   "amount_usd": 2000000000,
+   "amount_text": "$2B investment; the separate multi-billion-dollar Nvidia purchase agreement for laser and optical networking products and future capacity rights are not counted here",
+   "amount_text_zh": "投资 20 亿美元；英伟达另行签订的数十亿美元激光和光网络产品采购协议及未来产能使用权不计入本条",
+   "announced": "2026-03-02",
+   "term": "Multiyear, non-exclusive agreement",
+   "term_zh": "多年期非独家协议",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "NVIDIA invests $2B in Coherent",
+   "title_zh": "英伟达向 Coherent 投资 20 亿美元",
+   "summary_en": "Nvidia agreed to invest $2B in the optics maker Coherent to support R&D, capacity and US manufacturing, under a multiyear, non-exclusive deal that includes a multi-billion-dollar Nvidia purchase agreement for Coherent's lasers and optical networking products and future capacity rights. It was announced the same day as a matching $2B investment in Lumentum (separate edge).",
+   "summary_zh": "英伟达同意向光器件制造商 Coherent 投资 20 亿美元，支持其研发、扩产和美国制造；这项多年期非独家协议包括英伟达对 Coherent 激光器和光网络产品的数十亿美元采购协议及未来产能使用权。同日英伟达还宣布向 Lumentum 投资同样的 20 亿美元（另列一条）。",
+   "sources": [
+    {
+     "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Coherent-Announce-Strategic-Partnership-to-Develop-Optics-Technology-to-Scale-Next-Generation-Data-Center-Architecture/default.aspx",
+     "publisher": "NVIDIA",
+     "date": "2026-03-02",
+     "title": "NVIDIA and Coherent Announce Strategic Partnership to Develop Optics Technology to Scale Next-Generation Data Center Architecture",
+     "type": "official"
+    },
+    {
+     "url": "https://evertiq.com/design/2026-03-03-nvidia-to-invest-2-billion-in-coherent",
+     "publisher": "Evertiq",
+     "date": "2026-03-03",
+     "title": "Nvidia to invest $2 billion in Coherent",
+     "type": "news"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "nvidia-lumentum-2026-03-equity",
+   "kind": "investment",
+   "subkind": "strategic equity investment",
+   "subkind_zh": "战略股权投资",
+   "from": "nvidia",
+   "to": "lumentum",
+   "amount_usd": 2000000000,
+   "amount_text": "$2B investment; the separate multi-billion-dollar Nvidia purchase commitment for advanced laser components and future capacity rights are not counted here",
+   "amount_text_zh": "投资 20 亿美元；英伟达另行作出的数十亿美元先进激光器件采购承诺及未来产能使用权不计入本条",
+   "announced": "2026-03-02",
+   "term": "Multi-year, non-exclusive agreement",
+   "term_zh": "多年期非独家协议",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "NVIDIA invests $2B in Lumentum",
+   "title_zh": "英伟达向 Lumentum 投资 20 亿美元",
+   "summary_en": "Nvidia agreed to invest $2B in the optical laser maker Lumentum to fund R&D, capacity and a new US fab, under a multi-year, non-exclusive deal that also includes a multi-billion-dollar Nvidia purchase commitment for laser components and future capacity rights. Nvidia made a matching $2B investment in Coherent the same day (separate edge); Marvell agreed to buy Lumentum in November 2026 (separate edge).",
+   "summary_zh": "英伟达同意向光激光器制造商 Lumentum 投资 20 亿美元，用于研发、扩产和新建美国晶圆厂；这项多年期非独家协议还包括英伟达对激光器件的数十亿美元采购承诺和未来产能使用权。英伟达同日向 Coherent 投资同样的 20 亿美元（另列一条）；迈威尔科技于 2026 年 11 月同意收购 Lumentum（另列一条）。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526085412/d41019dex991.htm",
+     "publisher": "Lumentum (SEC 8-K exhibit 99.1)",
+     "date": "2026-03-02",
+     "title": "NVIDIA to invest $2B in Lumentum to grow capacity, advance U.S.-based manufacturing and deepen R&D collaboration in data center optics",
+     "type": "filing"
     }
    ],
    "origin": "curated"
@@ -19659,6 +19822,7 @@
   },
   {
    "id": "oracle-applied-digital-2025-10-polaris-forge-2-lease",
+   "last_checked": "2026-11-02",
    "kind": "lease",
    "subkind": "15-year AI data-centre lease",
    "from": "oracle",
@@ -19723,6 +19887,7 @@
   },
   {
    "id": "meta-beignet-2025-10-hyperion-lease",
+   "last_checked": "2026-11-02",
    "kind": "lease",
    "subkind": "data-centre lease (off-balance-sheet SPV)",
    "from": "meta",
@@ -19756,6 +19921,7 @@
   },
   {
    "id": "meta-beignet-2025-10-residual-value-guarantee",
+   "last_checked": "2026-11-02",
    "kind": "guarantee",
    "subkind": "residual value guarantee",
    "from": "meta",
@@ -19922,6 +20088,7 @@
   },
   {
    "id": "microsoft-nscale-2025-10-gpu",
+   "last_checked": "2026-11-02",
    "kind": "order",
    "subkind": "GPU capacity contract",
    "from": "microsoft",
@@ -19966,6 +20133,7 @@
   },
   {
    "id": "oracle-amd-2025-10-mi450",
+   "last_checked": "2026-11-02",
    "kind": "order",
    "subkind": "GPU purchase",
    "from": "oracle",
@@ -19993,6 +20161,7 @@
   },
   {
    "id": "brookfield-bloom-energy-2025-10-fuel-cells",
+   "last_checked": "2026-11-02",
    "kind": "order",
    "subkind": "on-site fuel-cell power framework",
    "from": "brookfield",
@@ -20019,6 +20188,7 @@
   },
   {
    "id": "openai-broadcom-2025-10-10gw",
+   "last_checked": "2026-11-02",
    "kind": "order",
    "subkind": "custom accelerator co-development and supply",
    "from": "openai",
@@ -20046,6 +20216,7 @@
   },
   {
    "id": "openai-amd-2025-10-6gw",
+   "last_checked": "2026-11-02",
    "kind": "order",
    "subkind": "GPU supply agreement",
    "from": "openai",
@@ -20072,6 +20243,7 @@
   },
   {
    "id": "openai-amd-2025-10-warrant",
+   "last_checked": "2026-11-02",
    "kind": "investment",
    "subkind": "warrant (vendor equity incentive)",
    "from": "openai",
@@ -20098,6 +20270,7 @@
   },
   {
    "id": "xai-nvidia-2025-10-colossus-2-gpus",
+   "last_checked": "2026-11-02",
    "kind": "order",
    "subkind": "GPU purchases (Colossus 2, reported)",
    "subkind_zh": "GPU 采购（Colossus 2，据报）",
@@ -20133,6 +20306,7 @@
   },
   {
    "id": "openai-samsung-2025-10-loi",
+   "last_checked": "2026-11-02",
    "kind": "order",
    "subkind": "memory supply letter of intent",
    "from": "openai",
@@ -20159,6 +20333,7 @@
   },
   {
    "id": "openai-sk-hynix-2025-10-loi",
+   "last_checked": "2026-11-02",
    "kind": "order",
    "subkind": "memory supply letter of intent",
    "from": "openai",
@@ -22035,6 +22210,42 @@
    "origin": "curated"
   },
   {
+   "id": "private-investors-safe-superintelligence-2025-04-round",
+   "kind": "investment",
+   "subkind": "venture round",
+   "subkind_zh": "风险投资",
+   "from": "private-investors",
+   "to": "safe-superintelligence",
+   "amount_usd": 2000000000,
+   "amount_text": "$2B at a ~$32B valuation, led by Greenoaks with Alphabet and Nvidia also investing (as reported by the FT and Reuters; SSI did not comment; individual amounts not disclosed)",
+   "amount_text_zh": "20 亿美元，估值约 320 亿美元，由 Greenoaks 领投，Alphabet 和英伟达参投（据英国《金融时报》和路透社报道；SSI 未置评；各方金额未披露）",
+   "announced": "2025-04-12",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Safe Superintelligence raises $2B at $32B",
+   "title_zh": "Safe Superintelligence 融资 20 亿美元，估值 320 亿美元",
+   "summary_en": "Ilya Sutskever's Safe Superintelligence raised about $2B at a $32B valuation in a round led by Greenoaks, with Alphabet and Nvidia taking stakes, according to the Financial Times and Reuters; Alphabet also signed SSI as an anchor customer for its TPUs. SSI did not comment on the round.",
+   "summary_zh": "据英国《金融时报》和路透社报道，伊利亚·苏茨克维创立的 Safe Superintelligence 完成约 20 亿美元融资，估值 320 亿美元，由 Greenoaks 领投，Alphabet 和英伟达入股；Alphabet 同时将 SSI 列为其 TPU 的主要客户。SSI 未就该轮融资置评。",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b",
+     "publisher": "TechCrunch",
+     "date": "2025-04-12",
+     "title": "OpenAI co-founder Ilya Sutskever's Safe Superintelligence reportedly valued at $32B",
+     "type": "news"
+    },
+    {
+     "url": "https://builtin.com/articles/safe-superintelligence-raises-2b-32b-valuation-20250415",
+     "publisher": "Built In",
+     "date": "2025-04-15",
+     "title": "AI Innovator Safe Superintelligence Raises $2B at $32B Valuation",
+     "type": "news"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "private-investors-openai-2025-03-round",
    "kind": "investment",
    "subkind": "equity investment (co-investors in a SoftBank-led round)",
@@ -23709,20 +23920,20 @@
   }
  ],
  "stats": {
-  "entities": 136,
-  "edges": 391,
-  "curated_edges": 391,
+  "entities": 137,
+  "edges": 394,
+  "curated_edges": 394,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
     "count": 107,
-    "usd": 1517489000000,
+    "usd": 1524289000000,
     "undisclosed": 63,
     "cancelled": 0
    },
    "investment": {
-    "count": 123,
-    "usd": 875873790000,
+    "count": 126,
+    "usd": 881873790000,
     "undisclosed": 37,
     "cancelled": 3
    },
@@ -23777,18 +23988,18 @@
     "usd": 0
    }
   },
-  "total_usd": 3869943861259,
+  "total_usd": 3882743861259,
   "contingent_usd": 183230000000,
   "by_status_usd": {
    "announced": 10000000000,
-   "signed": 1793253571259,
+   "signed": 1804053571259,
    "in_progress": 541636000000,
-   "completed": 1385654290000,
+   "completed": 1387654290000,
    "reported": 139400000000
   },
-  "confirmed_usd": 2475116861259,
-  "reported_usd": 1394827000000,
-  "binding_usd": 3720543861259,
+  "confirmed_usd": 2485916861259,
+  "reported_usd": 1396827000000,
+  "binding_usd": 3733343861259,
   "announced_usd": 149400000000,
   "circular": [
    {
@@ -24113,7 +24324,7 @@
        "order",
        "order"
       ],
-      "usd": 114500000000,
+      "usd": 121300000000,
       "undisclosed": 1
      }
     ],
@@ -24133,10 +24344,10 @@
     ],
     "usd": [
      43000000000,
-     114500000000
+     121300000000
     ],
     "min_usd": 43000000000,
-    "max_usd": 114500000000,
+    "max_usd": 121300000000,
     "undisclosed_legs": 0
    },
    {
@@ -24182,7 +24393,7 @@
        "order",
        "order"
       ],
-      "usd": 114500000000,
+      "usd": 121300000000,
       "undisclosed": 1
      }
     ],
@@ -24201,10 +24412,10 @@
     "usd": [
      null,
      42000000000,
-     114500000000
+     121300000000
     ],
     "min_usd": 42000000000,
-    "max_usd": 114500000000,
+    "max_usd": 121300000000,
     "undisclosed_legs": 1
    },
    {
@@ -25497,12 +25708,12 @@
    },
    {
     "month": "2025-04",
-    "count": 2,
-    "usd": 1750000000,
-    "cumulative_usd": 200095000000,
+    "count": 3,
+    "usd": 3750000000,
+    "cumulative_usd": 202095000000,
     "by_kind": {
      "order": 0,
-     "investment": 0,
+     "investment": 2000000000,
      "debt": 1750000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -25513,7 +25724,7 @@
     "month": "2025-05",
     "count": 10,
     "usd": 90100000000,
-    "cumulative_usd": 290195000000,
+    "cumulative_usd": 292195000000,
     "by_kind": {
      "order": 40000000000,
      "investment": 6500000000,
@@ -25527,7 +25738,7 @@
     "month": "2025-06",
     "count": 5,
     "usd": 7750000000,
-    "cumulative_usd": 297945000000,
+    "cumulative_usd": 299945000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -25541,7 +25752,7 @@
     "month": "2025-07",
     "count": 5,
     "usd": 27380000000,
-    "cumulative_usd": 325325000000,
+    "cumulative_usd": 327325000000,
     "by_kind": {
      "order": 16500000000,
      "investment": 0,
@@ -25555,7 +25766,7 @@
     "month": "2025-08",
     "count": 10,
     "usd": 37139000000,
-    "cumulative_usd": 362464000000,
+    "cumulative_usd": 364464000000,
     "by_kind": {
      "order": 10139000000,
      "investment": 14900000000,
@@ -25569,7 +25780,7 @@
     "month": "2025-09",
     "count": 19,
     "usd": 412281000000,
-    "cumulative_usd": 774745000000,
+    "cumulative_usd": 776745000000,
     "by_kind": {
      "order": 357900000000,
      "investment": 20830000000,
@@ -25583,7 +25794,7 @@
     "month": "2025-10",
     "count": 24,
     "usd": 418625000000,
-    "cumulative_usd": 1193370000000,
+    "cumulative_usd": 1195370000000,
     "by_kind": {
      "order": 255000000000,
      "investment": 49600000000,
@@ -25597,7 +25808,7 @@
     "month": "2025-11",
     "count": 19,
     "usd": 183228000000,
-    "cumulative_usd": 1376598000000,
+    "cumulative_usd": 1378598000000,
     "by_kind": {
      "order": 95600000000,
      "investment": 17565000000,
@@ -25611,7 +25822,7 @@
     "month": "2025-12",
     "count": 9,
     "usd": 19100000000,
-    "cumulative_usd": 1395698000000,
+    "cumulative_usd": 1397698000000,
     "by_kind": {
      "order": 0,
      "investment": 6250000000,
@@ -25625,7 +25836,7 @@
     "month": "2026-01",
     "count": 26,
     "usd": 55617571259,
-    "cumulative_usd": 1451315571259,
+    "cumulative_usd": 1453315571259,
     "by_kind": {
      "order": 21800000000,
      "investment": 24177000000,
@@ -25639,7 +25850,7 @@
     "month": "2026-02",
     "count": 19,
     "usd": 308300000000,
-    "cumulative_usd": 1759615571259,
+    "cumulative_usd": 1761615571259,
     "by_kind": {
      "order": 101400000000,
      "investment": 138450000000,
@@ -25651,12 +25862,12 @@
    },
    {
     "month": "2026-03",
-    "count": 23,
-    "usd": 269917500000,
-    "cumulative_usd": 2029533071259,
+    "count": 25,
+    "usd": 273917500000,
+    "cumulative_usd": 2035533071259,
     "by_kind": {
      "order": 70800000000,
-     "investment": 14000000000,
+     "investment": 18000000000,
      "debt": 141117500000,
      "lease": 2000000000,
      "vendor_financing": 42000000000,
@@ -25666,10 +25877,10 @@
    {
     "month": "2026-04",
     "count": 22,
-    "usd": 371840690000,
-    "cumulative_usd": 2401373761259,
+    "usd": 378640690000,
+    "cumulative_usd": 2414173761259,
     "by_kind": {
-     "order": 251500000000,
+     "order": 258300000000,
      "investment": 81740690000,
      "debt": 38600000000,
      "lease": 0,
@@ -25681,7 +25892,7 @@
     "month": "2026-05",
     "count": 24,
     "usd": 244650000000,
-    "cumulative_usd": 2646023761259,
+    "cumulative_usd": 2658823761259,
     "by_kind": {
      "order": 128100000000,
      "investment": 64850000000,
@@ -25695,7 +25906,7 @@
     "month": "2026-06",
     "count": 20,
     "usd": 280210000000,
-    "cumulative_usd": 2926233761259,
+    "cumulative_usd": 2939033761259,
     "by_kind": {
      "order": 20000000000,
      "investment": 136200000000,
@@ -25709,7 +25920,7 @@
     "month": "2026-07",
     "count": 24,
     "usd": 133614100000,
-    "cumulative_usd": 3059847861259,
+    "cumulative_usd": 3072647861259,
     "by_kind": {
      "order": 1500000000,
      "investment": 46387100000,
@@ -25723,7 +25934,7 @@
     "month": "2026-08",
     "count": 21,
     "usd": 164149000000,
-    "cumulative_usd": 3223996861259,
+    "cumulative_usd": 3236796861259,
     "by_kind": {
      "order": 54600000000,
      "investment": 35200000000,
@@ -25737,7 +25948,7 @@
     "month": "2026-09",
     "count": 21,
     "usd": 207209000000,
-    "cumulative_usd": 3431205861259,
+    "cumulative_usd": 3444005861259,
     "by_kind": {
      "order": 56700000000,
      "investment": 45709000000,
@@ -25751,7 +25962,7 @@
     "month": "2026-10",
     "count": 26,
     "usd": 438738000000,
-    "cumulative_usd": 3869943861259,
+    "cumulative_usd": 3882743861259,
     "by_kind": {
      "order": 11400000000,
      "investment": 59600000000,
@@ -25765,7 +25976,7 @@
     "month": "2026-11",
     "count": 1,
     "usd": 0,
-    "cumulative_usd": 3869943861259,
+    "cumulative_usd": 3882743861259,
     "by_kind": {
      "order": 0,
      "investment": 0,
