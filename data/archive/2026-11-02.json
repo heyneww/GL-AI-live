@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T12:01:10Z",
+ "generated_at": "2026-11-02T12:31:55Z",
  "monitor": {
   "last_run": "2026-11-02T10:30:22Z",
   "sec_items": 196,
@@ -1262,6 +1262,76 @@
       "id": "oracle",
       "usd": 5000000000,
       "share": 0.22634676324128564
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "aramco",
+   "name": "Saudi Aramco",
+   "name_zh": "沙特阿美",
+   "group": "energy",
+   "ticker": "2222.SR",
+   "country": "SA",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 2600000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 2600000000,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 2600000000,
+    "last_edge": "2025-10-28",
+    "last_source": "2026-11-02",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 2600000000,
+    "top_counterparties": [
+     {
+      "id": "humain",
+      "usd": 2600000000,
+      "share": 1.0
      }
     ],
     "concentration_top3": 1.0
@@ -4630,6 +4700,76 @@
    }
   },
   {
+   "id": "humain",
+   "name": "HUMAIN",
+   "name_zh": "HUMAIN（沙特 AI 公司）",
+   "group": "neocloud",
+   "ticker": null,
+   "country": "SA",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 2600000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 2600000000,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 2600000000,
+    "last_edge": "2025-10-28",
+    "last_source": "2026-11-02",
+    "counterparties": 1,
+    "inflow_total_usd": 2600000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "aramco",
+      "usd": 2600000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
    "id": "hut-8",
    "name": "Hut 8",
    "name_zh": "Hut 8",
@@ -5259,6 +5399,76 @@
    }
   },
   {
+   "id": "kling-ai",
+   "name": "Kling AI (Kuaishou)",
+   "name_zh": "可灵 AI（快手旗下）",
+   "group": "model_lab",
+   "ticker": null,
+   "country": "CN",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 2800000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 2800000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 2800000000,
+    "last_edge": "2026-07-02",
+    "last_source": "2026-07-03",
+    "counterparties": 1,
+    "inflow_total_usd": 2800000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "private-investors",
+      "usd": 2800000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
    "id": "kunlunxin",
    "name": "Kunlunxin (Baidu AI chip unit)",
    "name_zh": "昆仑芯（百度旗下 AI 芯片公司）",
@@ -5685,6 +5895,76 @@
     "outflow_total_usd": 0,
     "top_counterparties": [],
     "concentration_top3": 0
+   }
+  },
+  {
+   "id": "mediatek",
+   "name": "MediaTek",
+   "name_zh": "联发科",
+   "group": "chip",
+   "ticker": "2454.TW",
+   "country": "TW",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 3500000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 1,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 3500000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 3500000000,
+    "last_edge": "2026-08-31",
+    "last_source": "2026-09-01",
+    "counterparties": 1,
+    "inflow_total_usd": 3500000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "nvidia",
+      "usd": 3500000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
    }
   },
   {
@@ -6850,7 +7130,7 @@
     "outflow_usd": {
      "order": 36800000000,
      "investment": 73000000000,
-     "debt": 0,
+     "debt": 3500000000,
      "lease": 21100000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -6866,58 +7146,58 @@
     "outflow_count": {
      "order": 10,
      "investment": 14,
-     "debt": 0,
+     "debt": 1,
      "lease": 3,
      "vendor_financing": 0,
      "guarantee": 1
     },
     "guaranteed_out_usd": 105000000000,
     "guaranteed_in_usd": 0,
-    "degree": 38,
-    "degree_curated": 38,
+    "degree": 39,
+    "degree_curated": 39,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 8000000000,
-     "signed": 50700000000,
+     "signed": 54200000000,
      "in_progress": 50000000000,
      "completed": 87200000000,
      "reported": 0
     },
     "confirmed_usd": 55900000000,
-    "binding_usd": 187900000000,
+    "binding_usd": 191400000000,
     "last_edge": "2026-10-27",
     "last_source": "2026-10-27",
-    "counterparties": 26,
+    "counterparties": 27,
     "inflow_total_usd": 65000000000,
-    "outflow_total_usd": 130900000000,
+    "outflow_total_usd": 134400000000,
     "top_counterparties": [
      {
       "id": "oracle",
       "usd": 40000000000,
-      "share": 0.20418580908626852
+      "share": 0.20060180541624875
      },
      {
       "id": "openai",
       "usd": 30000000000,
-      "share": 0.15313935681470137
+      "share": 0.15045135406218657
      },
      {
       "id": "bond-investors",
       "usd": 25000000000,
-      "share": 0.1276161306789178
+      "share": 0.12537612838515547
      },
      {
       "id": "tsmc",
       "usd": 23200000000,
-      "share": 0.11842776927003573
+      "share": 0.11634904714142427
      },
      {
       "id": "hut-8",
       "usd": 19600000000,
-      "share": 0.10005104645227157
+      "share": 0.09829488465396188
      }
     ],
-    "concentration_top3": 0.4849412965798877
+    "concentration_top3": 0.4764292878635908
    }
   },
   {
@@ -7392,7 +7672,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 186810000000,
+     "investment": 189610000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -7408,7 +7688,7 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 23,
+     "investment": 24,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -7416,51 +7696,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 23,
-    "degree_curated": 23,
+    "degree": 24,
+    "degree_curated": 24,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 0,
+     "signed": 2800000000,
      "in_progress": 3900000000,
      "completed": 162110000000,
      "reported": 20800000000
     },
     "confirmed_usd": 111200000000,
-    "binding_usd": 166010000000,
+    "binding_usd": 168810000000,
     "last_edge": "2026-10-22",
     "last_source": "2026-10-29",
-    "counterparties": 11,
+    "counterparties": 12,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 186810000000,
+    "outflow_total_usd": 189610000000,
     "top_counterparties": [
      {
       "id": "anthropic",
       "usd": 90220000000,
-      "share": 0.48295059151009045
+      "share": 0.47581878592901217
      },
      {
       "id": "xai",
       "usd": 32000000000,
-      "share": 0.17129703977303143
+      "share": 0.16876747007014398
      },
      {
       "id": "openai",
       "usd": 28600000000,
-      "share": 0.15309672929714682
+      "share": 0.1508359263751912
      },
      {
       "id": "deepseek",
       "usd": 15800000000,
-      "share": 0.08457791338793426
+      "share": 0.08332893834713359
      },
      {
       "id": "moonshot-ai",
       "usd": 6000000000,
-      "share": 0.03211819495744339
+      "share": 0.031643900638152
      }
     ],
-    "concentration_top3": 0.8073443605802687
+    "concentration_top3": 0.7954221823743474
    }
   },
   {
@@ -11402,6 +11682,56 @@
    "origin": "curated"
   },
   {
+   "id": "nvidia-mediatek-2026-08-convertible-bonds",
+   "kind": "debt",
+   "subkind": "convertible notes",
+   "subkind_zh": "可转换票据",
+   "from": "nvidia",
+   "to": "mediatek",
+   "amount_usd": 3500000000,
+   "amount_text": "$3.5B of MediaTek's $3.9B overseas convertible bond offering (the largest ever by a Taiwanese company); Alphabet bought part of the rest, size undisclosed. Coupon, maturity and conversion terms not confirmed by the companies",
+   "amount_text_zh": "认购联发科 39 亿美元海外可转换债券中的 35 亿美元（台湾企业史上规模最大的海外可转债）；谷歌 / Alphabet 认购其余部分中的一部分，金额未披露。票面利率、期限和转换条款未经公司证实",
+   "announced": "2026-08-31",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "NVIDIA buys $3.5B of MediaTek convertible bonds",
+   "title_zh": "英伟达认购联发科 35 亿美元可转换债券",
+   "summary_en": "NVIDIA invested $3.5 billion in MediaTek through convertible bonds that can later convert into MediaTek shares, taking most of a $3.9 billion overseas offering in which Alphabet also took part. Alongside the investment, MediaTek will adopt NVIDIA's NVLink Fusion for the custom AI accelerators it designs for data-centre operators, and the partnership extends to PC and automotive chips.",
+   "summary_zh": "英伟达通过可转换债券向联发科投资 35 亿美元，该债券日后可转换为联发科股票；英伟达认购了这笔 39 亿美元海外发行的大部分，谷歌 / Alphabet 也参与认购。作为合作的一部分，联发科将在为数据中心运营商设计的定制 AI 加速器中采用英伟达的 NVLink Fusion，双方合作还扩展到个人电脑和汽车芯片。",
+   "sources": [
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/08/31/nvidia-invests-35-billion-in-mediatek-convertible-bonds",
+     "publisher": "The Star (Reuters)",
+     "date": "2026-08-31",
+     "title": "Nvidia invests $3.5 billion in MediaTek convertible bonds",
+     "type": "news"
+    },
+    {
+     "url": "https://news.bgov.com/california-brief/nvidia-to-invest-3-5-billion-in-chipmaker-mediatek",
+     "publisher": "Bloomberg",
+     "date": "2026-08-31",
+     "title": "Nvidia to Invest $3.5 Billion in Chipmaker MediaTek",
+     "type": "news"
+    },
+    {
+     "url": "https://focustaiwan.tw/business/202609010010",
+     "publisher": "Focus Taiwan (CNA)",
+     "date": "2026-09-01",
+     "title": "Nvidia invests US$3.5 billion in MediaTek convertible bonds",
+     "type": "news"
+    },
+    {
+     "url": "https://www.sullcrom.com/About/News-and-Events/Highlights/2026/September/SC-Advises-MediaTek-Record-3-9-Billion-Convertible-Bond-Offering-NVIDIA-3-5-Billion-Strategic-Investment",
+     "publisher": "Sullivan & Cromwell",
+     "date": "2026-09-01",
+     "title": "S&C Advises MediaTek on Record $3.9 Billion Convertible Bond Offering and NVIDIA $3.5 Billion Strategic Investment",
+     "type": "news"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "blue-owl-iren-2026-08-gpu-financing",
    "kind": "debt",
    "subkind": "GPU-backed term loan and senior secured notes",
@@ -12911,6 +13241,53 @@
      "publisher": "TeraWulf (SEC 10-Q)",
      "date": "2026-08-05",
      "title": "TeraWulf Form 10-Q for the quarter ended June 30, 2026"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-kling-ai-2026-07-pre-ipo-round",
+   "kind": "investment",
+   "subkind": "equity investment (funding round)",
+   "subkind_zh": "股权投资（融资轮）",
+   "from": "private-investors",
+   "to": "kling-ai",
+   "amount_usd": 2800000000,
+   "amount_text": "RMB 19.05B committed (~US$2.8B as reported, ~0.147 USD per yuan) per Kuaishou's 2 July 2026 Hong Kong filing; up to $3B if more investors sign within 60 days; ~$18B post-money valuation; investors include Tencent (reportedly ~$200M), Alibaba and Baidu",
+   "amount_text_zh": "已承诺约 190.5 亿元人民币（据报道约合 28 亿美元，按约 0.147 美元兑 1 元人民币换算），据快手 2026 年 7 月 2 日的港交所公告；若 60 天内有更多投资者加入，最高可达 30 亿美元；投后估值约 180 亿美元；投资者包括腾讯（据报道约 2 亿美元）、阿里巴巴和百度",
+   "currency": "CNY",
+   "amount_native": 19048000000,
+   "fx_rate": 0.147,
+   "fx_date": "2026-07-02",
+   "announced": "2026-07-02",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Kling AI raises ~$2.8B pre-IPO round at ~$18B valuation",
+   "title_zh": "可灵 AI 完成约 28 亿美元上市前融资，估值约 180 亿美元",
+   "summary_en": "Kuaishou disclosed on 2 July 2026 that investors had committed about RMB 19.05B (~$2.8B) to its video-generation unit Kling AI at a post-money valuation of about $18B, with room to reach $3B if more investors join within 60 days. Dozens of investors took part, including Tencent, Alibaba and Baidu; Kuaishou plans a Hong Kong listing of the unit.",
+   "summary_zh": "快手于 2026 年 7 月 2 日披露，投资者已向其视频生成子公司可灵 AI 承诺出资约 190.5 亿元人民币（约 28 亿美元），投后估值约 180 亿美元；若 60 天内有更多投资者加入，融资额最高可达 30 亿美元。数十家投资者参与，包括腾讯、阿里巴巴和百度；快手计划推动该子公司在香港上市。",
+   "sources": [
+    {
+     "url": "https://www.caixinglobal.com/2026-07-03/kuaishou-secures-nearly-3-billion-for-ai-video-unit-102460466.html",
+     "publisher": "Caixin Global",
+     "date": "2026-07-03",
+     "title": "Kuaishou secures nearly $3 billion for AI video unit",
+     "type": "news"
+    },
+    {
+     "url": "https://technode.com/2026/07/03/kuaishous-kling-ai-raises-nearly-3-billion-in-funding/",
+     "publisher": "TechNode",
+     "date": "2026-07-03",
+     "title": "Kuaishou's Kling AI raises nearly $3 billion in funding",
+     "type": "news"
+    },
+    {
+     "url": "https://www.thestandard.com.hk/innovation/article/347059/Kuaishous-Kling-AI-unit-completes-a-near-20-billion-yuan-funding-round",
+     "publisher": "The Standard (Hong Kong)",
+     "date": "2026-07-03",
+     "title": "Kuaishou's Kling AI unit completes a near 20 billion yuan funding round",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -18607,6 +18984,56 @@
    "origin": "curated"
   },
   {
+   "id": "aramco-humain-2025-10-minority-stake",
+   "kind": "investment",
+   "subkind": "equity investment",
+   "subkind_zh": "股权投资",
+   "from": "aramco",
+   "to": "humain",
+   "amount_usd": 2600000000,
+   "amount_text": "~$2.6B cash for a 49% stake (counted here), alongside Aramco AI, compute and digital assets contributed in kind; PIF keeps 51%; closed 1 Nov 2026 (term sheet signed 28 Oct 2025)",
+   "amount_text_zh": "约 26 亿美元现金，换取 49% 股权；沙特阿美另注入 AI、算力和数字资产（未估值）；沙特公共投资基金保留 51%；2026 年 11 月 1 日完成交割（2025 年 10 月 28 日签署不具约束力的条款书）",
+   "announced": "2025-10-28",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Aramco takes a 49% stake in Saudi AI company HUMAIN for ~$2.6B",
+   "title_zh": "沙特阿美以约 26 亿美元入股沙特 AI 公司 HUMAIN 49%",
+   "summary_en": "Aramco completed its purchase of a 49% stake in HUMAIN, the PIF-owned Saudi AI and data-centre company, on 1 November 2026 through a wholly owned subsidiary, paying about $2.6B in cash and contributing its own AI, compute and digital assets; PIF keeps 51%. PIF and Aramco had signed a non-binding term sheet on 28 October 2025.",
+   "summary_zh": "2026 年 11 月 1 日，沙特阿美通过全资子公司完成收购沙特公共投资基金旗下 AI 与数据中心公司 HUMAIN 的 49% 股权，支付约 26 亿美元现金，并注入自身的 AI、算力和数字资产；沙特公共投资基金保留 51%。双方曾于 2025 年 10 月 28 日签署不具约束力的条款书。",
+   "sources": [
+    {
+     "url": "https://www.saudigulfprojects.com/2026/11/aramco-closes-2-6-billion-deal-49-percent-stake-humain-pif/",
+     "publisher": "SaudiGulf Projects",
+     "date": "2026-11-01",
+     "title": "Aramco Closes $2.6 Billion Deal for 49% Stake in HUMAIN",
+     "type": "news"
+    },
+    {
+     "url": "https://startupfortune.com/aramco-closes-26-billion-deal-for-49-of-saudi-arabias-ai-champion-humain/",
+     "publisher": "Startup Fortune",
+     "date": "2026-11-02",
+     "title": "Aramco closes $2.6 billion deal for 49% of Saudi Arabia's AI champion Humain",
+     "type": "news"
+    },
+    {
+     "url": "https://www.arabnews.com/finance/aramco-closes-26bn-deal-for-49-stake-in-humain-3009220",
+     "publisher": "Arab News",
+     "date": "2026-11-01",
+     "title": "Aramco closes $2.6bn deal for 49% stake in Humain",
+     "type": "news"
+    },
+    {
+     "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/pif-and-aramco-agree-for-aramco-to-acquire-a-significant-minority-stake-in-humain-with-pif-retaining-majority-ownership/",
+     "publisher": "PIF",
+     "date": "2025-10-28",
+     "title": "PIF and Aramco agree for Aramco to acquire a significant minority stake in HUMAIN, with PIF retaining majority ownership",
+     "type": "official"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "fluidstack-terawulf-2025-10-abernathy-lease",
    "kind": "lease",
    "subkind": "25-year AI data-centre lease (JV campus)",
@@ -22698,9 +23125,9 @@
   }
  ],
  "stats": {
-  "entities": 129,
-  "edges": 380,
-  "curated_edges": 380,
+  "entities": 133,
+  "edges": 383,
+  "curated_edges": 383,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -22710,14 +23137,14 @@
     "cancelled": 0
    },
    "investment": {
-    "count": 118,
-    "usd": 865873790000,
+    "count": 120,
+    "usd": 871273790000,
     "undisclosed": 36,
     "cancelled": 3
    },
    "debt": {
-    "count": 125,
-    "usd": 1120272071259,
+    "count": 126,
+    "usd": 1123772071259,
     "undisclosed": 5,
     "cancelled": 0
    },
@@ -22766,18 +23193,18 @@
     "usd": 0
    }
   },
-  "total_usd": 3854810861259,
+  "total_usd": 3863710861259,
   "contingent_usd": 183230000000,
   "by_status_usd": {
    "announced": 10000000000,
-   "signed": 1784653571259,
+   "signed": 1790953571259,
    "in_progress": 541636000000,
-   "completed": 1379121290000,
+   "completed": 1381721290000,
    "reported": 139400000000
   },
   "confirmed_usd": 2473483861259,
-  "reported_usd": 1381327000000,
-  "binding_usd": 3705410861259,
+  "reported_usd": 1390227000000,
+  "binding_usd": 3714310861259,
   "announced_usd": 149400000000,
   "circular": [
    {
@@ -24570,12 +24997,12 @@
    },
    {
     "month": "2025-10",
-    "count": 23,
-    "usd": 416025000000,
-    "cumulative_usd": 1189470000000,
+    "count": 24,
+    "usd": 418625000000,
+    "cumulative_usd": 1192070000000,
     "by_kind": {
      "order": 255000000000,
-     "investment": 47000000000,
+     "investment": 49600000000,
      "debt": 99525000000,
      "lease": 14500000000,
      "vendor_financing": 0,
@@ -24586,7 +25013,7 @@
     "month": "2025-11",
     "count": 17,
     "usd": 180595000000,
-    "cumulative_usd": 1370065000000,
+    "cumulative_usd": 1372665000000,
     "by_kind": {
      "order": 95600000000,
      "investment": 15265000000,
@@ -24600,7 +25027,7 @@
     "month": "2025-12",
     "count": 9,
     "usd": 19100000000,
-    "cumulative_usd": 1389165000000,
+    "cumulative_usd": 1391765000000,
     "by_kind": {
      "order": 0,
      "investment": 6250000000,
@@ -24614,7 +25041,7 @@
     "month": "2026-01",
     "count": 26,
     "usd": 55617571259,
-    "cumulative_usd": 1444782571259,
+    "cumulative_usd": 1447382571259,
     "by_kind": {
      "order": 21800000000,
      "investment": 24177000000,
@@ -24628,7 +25055,7 @@
     "month": "2026-02",
     "count": 19,
     "usd": 308300000000,
-    "cumulative_usd": 1753082571259,
+    "cumulative_usd": 1755682571259,
     "by_kind": {
      "order": 101400000000,
      "investment": 138450000000,
@@ -24642,7 +25069,7 @@
     "month": "2026-03",
     "count": 23,
     "usd": 269917500000,
-    "cumulative_usd": 2023000071259,
+    "cumulative_usd": 2025600071259,
     "by_kind": {
      "order": 70800000000,
      "investment": 14000000000,
@@ -24656,7 +25083,7 @@
     "month": "2026-04",
     "count": 21,
     "usd": 371840690000,
-    "cumulative_usd": 2394840761259,
+    "cumulative_usd": 2397440761259,
     "by_kind": {
      "order": 251500000000,
      "investment": 81740690000,
@@ -24670,7 +25097,7 @@
     "month": "2026-05",
     "count": 24,
     "usd": 244650000000,
-    "cumulative_usd": 2639490761259,
+    "cumulative_usd": 2642090761259,
     "by_kind": {
      "order": 128100000000,
      "investment": 64850000000,
@@ -24684,7 +25111,7 @@
     "month": "2026-06",
     "count": 20,
     "usd": 280210000000,
-    "cumulative_usd": 2919700761259,
+    "cumulative_usd": 2922300761259,
     "by_kind": {
      "order": 20000000000,
      "investment": 136200000000,
@@ -24696,12 +25123,12 @@
    },
    {
     "month": "2026-07",
-    "count": 23,
-    "usd": 130814100000,
-    "cumulative_usd": 3050514861259,
+    "count": 24,
+    "usd": 133614100000,
+    "cumulative_usd": 3055914861259,
     "by_kind": {
      "order": 1500000000,
-     "investment": 43587100000,
+     "investment": 46387100000,
      "debt": 56927000000,
      "lease": 28800000000,
      "vendor_financing": 0,
@@ -24710,13 +25137,13 @@
    },
    {
     "month": "2026-08",
-    "count": 20,
-    "usd": 160649000000,
-    "cumulative_usd": 3211163861259,
+    "count": 21,
+    "usd": 164149000000,
+    "cumulative_usd": 3220063861259,
     "by_kind": {
      "order": 54600000000,
      "investment": 35200000000,
-     "debt": 57049000000,
+     "debt": 60549000000,
      "lease": 13800000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -24726,7 +25153,7 @@
     "month": "2026-09",
     "count": 20,
     "usd": 207209000000,
-    "cumulative_usd": 3418372861259,
+    "cumulative_usd": 3427272861259,
     "by_kind": {
      "order": 56700000000,
      "investment": 45709000000,
@@ -24740,7 +25167,7 @@
     "month": "2026-10",
     "count": 24,
     "usd": 436438000000,
-    "cumulative_usd": 3854810861259,
+    "cumulative_usd": 3863710861259,
     "by_kind": {
      "order": 11400000000,
      "investment": 57300000000,
@@ -24754,7 +25181,7 @@
     "month": "2026-11",
     "count": 0,
     "usd": 0,
-    "cumulative_usd": 3854810861259,
+    "cumulative_usd": 3863710861259,
     "by_kind": {
      "order": 0,
      "investment": 0,
