@@ -17,6 +17,9 @@ the private repository's workflows (monitor, daily curation, approvals, manual p
   `changes.json` (the per-deal change log from git history), `feed.xml` (Atom feed of changes), `schema.json`
   (JSON Schema) and `README.md` (field reference, in both languages). `data/changes.json` and `data/feed.xml`
   are the same change log and feed.
+- **Excel / 表格:** `data/v1/deals.xlsx`: every deal in a bilingual workbook (summary, all deals, one sheet per
+  type, companies), rebuilt at each publish. 全部交易的 Excel 数据表（摘要、全部交易、按类型分表、公司），每次发布时重建。
+- **Weekly summary / 每周摘要:** `weekly.html`: deals added and changed in the last 7 days, in both languages.
 - **A past day / 查看历史某日:** `https://heyneww.github.io/GL-AI-live/?snapshot=YYYY-MM-DD`
 - **Freshness / 时效:** the page re-reads `data/graph.json` every 5 minutes and shows **Live** while the graph is
   less than 8 hours old, **Stale** (数据较旧) after that. GitHub Pages' CDN caches `data/graph.json` for up to
