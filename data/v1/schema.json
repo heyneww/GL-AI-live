@@ -116,6 +116,10 @@
      ],
      "description": "nominal USD total; null when undisclosed"
     },
+    "headline_usd": {
+     "type": "number",
+     "description": "the figure as announced for a deal whose amount_usd is null (programme, MOU, all-stock value, press estimate); only stats.broad_usd adds it"
+    },
     "amount_text": {
      "type": [
       "string",

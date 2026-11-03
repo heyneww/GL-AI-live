@@ -15,7 +15,7 @@ non-USD deal. Text is UTF-8; dates are ISO `YYYY-MM-DD` (a day of `-01` can mean
 |---|---|
 | `entities.json` | `{generated_at, version, licence, citation, entities: [...]}`. Each entity: `id`, `name`, `name_zh`, `group` (model_lab, hyperscaler, chip, neocloud, datacenter, energy, financier, spv, other), `ticker`, `country`, and `stats` (per-entity flows: `inflow_usd` / `outflow_usd` by kind, `guaranteed_in_usd` / `guaranteed_out_usd`, degree, counterparties). · 实体列表及每个实体的资金流统计。 |
 | `edges.json` | `{generated_at, version, licence, citation, edges: [...]}`. Every curated deal exactly as in `graph.json`, plus `counted_usd` (what the totals count) and `contingent_usd` (a guarantee's face amount). · 全部已核实交易，附 `counted_usd`（计入总额的金额）和 `contingent_usd`（担保面额）。 |
-| `stats.json` | `{generated_at, version, licence, citation, stats: {...}}`: totals by kind (`by_kind`), `total_usd`, `contingent_usd`, counts, `latest_announced`, and the counting-rule notes in both languages. · 汇总统计。 |
+| `stats.json` | `{generated_at, version, licence, citation, stats: {...}}`: totals by kind (`by_kind`), `total_usd`, `contingent_usd`, `headline_usd`, `broad_usd`, counts, `latest_announced`, and the counting-rule notes in both languages. · 汇总统计。 |
 | `edges.csv` | All deals, one row each, columns below. `edges-<kind>.csv` holds one kind each (`order`, `investment`, `debt`, `lease`, `vendor_financing`, `guarantee`); an empty kind has the header only. No comment lines: the licence is this file. · 全部交易的 CSV，另有按类型拆分的文件。 |
 | `changes.json` | `{generated_at, history_complete, last_commit, changes: [...]}`: the per-deal change log derived from the git history of the curated data, newest first, at most 2000 entries. Each entry: `date`, `commit`, `edge`, `kind` (`added`, `removed`, `changed`), `fields` (for `changed`: `{field: {from, to}}`; `sources` is counted, not diffed), `title_en`, `title_zh`. `history_complete: false` means the build saw only part of the history. · 每笔交易的变更记录（来自 git 历史）。 |
 | `feed.xml` | Atom feed: one entry per commit that changed the data (last 50), bilingual title, the deal titles as the summary. · Atom 订阅：每次数据变更一条。 |
@@ -33,7 +33,12 @@ Money flows `from` → `to`: `order` buyer → seller; `investment` investor →
 
 `counted_usd` = `amount_usd` when the deal has a disclosed amount, its `status` is not `cancelled` and its
 `kind` is not `guarantee`; otherwise 0. `contingent_usd` = a live guarantee's `amount_usd`, otherwise 0.
-`stats.total_usd` is the sum of `counted_usd`; `stats.contingent_usd` the sum of `contingent_usd`. A programme
+`stats.total_usd` is the sum of `counted_usd`; `stats.contingent_usd` the sum of `contingent_usd`. Some deals with
+`amount_usd: null` carry `headline_usd`, the figure as announced (a programme such as Stargate, an MOU, an all-stock
+merger's value, a press estimate): it is never in `total_usd`; `stats.headline_usd` sums it and `stats.broad_usd` =
+`total_usd` + `contingent_usd` + `headline_usd`, the site's "broad view" (closer to trackers that count announced
+ambitions; not money committed). 部分 `amount_usd` 为 null 的交易带有 `headline_usd`（公布数字，如计划、备忘录、换股合并
+估值、媒体估计），不计入 `total_usd`；`stats.broad_usd` 为宽口径总额（承诺金额 + 担保 + 公布数字）。 A programme
 (`part_of`) carries its amount once, on the umbrella or on its parts, never both. `confidence` is `confirmed`
 (a filing or official release among the sources) or `reported` (major outlets); unverified machine extractions
 are never published.

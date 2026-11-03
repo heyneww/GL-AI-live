@@ -28,6 +28,7 @@
   var VIEWS = ["graph", "table", "loops", "changes"];
   var LS_LANG = "aod.lang";
   var LS_SEEN = "aod.seenEdges";
+  var LS_TOTALS = "aod.totalsView";
   /* binding = the parties have signed (or are performing / have performed); announced and reported are not yet */
   var BINDING = ["signed", "in_progress", "completed"];
   var CHANGES_MAX = 100;
@@ -115,6 +116,9 @@
 
   var state = {
     lang: initialLang(),
+    /* totals view: "committed" (stats.total_usd, the default) or "broad" (stats.broad_usd: + guarantees + the
+       headline figures of programmes, MOUs, all-stock mergers and estimates). Only the summary tiles change. */
+    totalsView: store.get(LS_TOTALS) === "broad" ? "broad" : "committed",
     raw: null,
     sample: false,
     source: null,
@@ -171,6 +175,11 @@
   /* a live guarantee's face amount, shown beside the totals as contingent exposure (stats.contingent_usd) */
   function contingentAmount(e) {
     return e && e.kind === "guarantee" && e.status !== "cancelled" ? (e.amount_usd || 0) : 0;
+  }
+  /* the figure as announced for a deal with no committed amount (programme, MOU, all-stock value, estimate):
+     only the broad totals view adds it (stats.headline_usd); never counted in the committed total */
+  function headlineAmount(e) {
+    return e && e.status !== "cancelled" && e.amount_usd == null && e.headline_usd > 0 ? e.headline_usd : 0;
   }
   /* why a row's amount is not in the totals: "cancelled" or "contingent"; null for a counted deal */
   function notCountedKey(e) {
@@ -628,6 +637,8 @@
     $("csv").textContent = t("csv", { n: state.visible.length });
     $("f-confirmed").title = t("f_confirmed_hint");
     $("f-binding").title = t("f_binding_hint");
+    $("tv-committed").title = t("tv_committed_hint");
+    $("tv-broad").title = t("tv_broad_hint");
     $("tl-note").textContent = state.timelineNote && state.timelineNote[state.lang] ? state.timelineNote[state.lang] : t("tl_hint");
     $("about-cite").textContent = citation();
     var eb = $("error-banner");
@@ -754,6 +765,13 @@
 
   function wireControls() {
     $("lang-en").addEventListener("click", function () { setLang("en"); });
+    ["committed", "broad"].forEach(function (v) {
+      $("tv-" + v).addEventListener("click", function () {
+        state.totalsView = v;
+        store.set(LS_TOTALS, v);
+        renderSummary();
+      });
+    });
     $("lang-zh").addEventListener("click", function () { setLang("zh"); });
 
     var qTimer;
@@ -1130,14 +1148,18 @@
   /* one tile per kind; the guarantee tile is contingent exposure and sits outside the headline total */
   var TILE_KINDS = ["order", "investment", "debt", "lease", "guarantee"];
   function renderSummary() {
-    var sums = {}, nulls = {}, deals = {}, cancelled = {}, total = 0;
+    var broad = state.totalsView === "broad";
+    var sums = {}, nulls = {}, deals = {}, cancelled = {}, total = 0, heads = 0, guar = 0;
     TILE_KINDS.forEach(function (k) { sums[k] = 0; nulls[k] = 0; deals[k] = 0; cancelled[k] = 0; });
     state.visible.forEach(function (e) {
       total += countedAmount(e);
+      heads += headlineAmount(e);
+      guar += contingentAmount(e);
       if (!(e.kind in sums)) return;
       deals[e.kind]++;
       if (e.status === "cancelled") cancelled[e.kind]++;
       else if (e.amount_usd) sums[e.kind] += e.kind === "guarantee" ? contingentAmount(e) : countedAmount(e);
+      else if (broad && headlineAmount(e)) sums[e.kind] += headlineAmount(e);
       else nulls[e.kind]++;
     });
     TILE_KINDS.forEach(function (k) {
@@ -1164,9 +1186,14 @@
        vendor financing, disclosed and not cancelled; guarantees excluded) */
     var tot = $("sum-total");
     tot.textContent = "";
-    tot.appendChild(h("span", { class: "tile__total-l", text: t("sum_total") }));
-    tot.appendChild(h("b", { text: usdSum(total, state.visible.length) }));
-    tot.title = t("sum_total_hint");
+    tot.appendChild(h("span", { class: "tile__total-l", text: t(broad ? "sum_total_broad" : "sum_total") }));
+    tot.appendChild(h("b", { text: usdSum(broad ? total + heads + guar : total, state.visible.length) }));
+    tot.title = t(broad ? "tv_broad_hint" : "sum_total_hint");
+    $("tv-committed").setAttribute("aria-pressed", String(!broad));
+    $("tv-broad").setAttribute("aria-pressed", String(broad));
+    var bl = $("sum-broad");
+    bl.hidden = !broad;
+    bl.textContent = broad ? t("sum_broad_breakdown", { c: usd(total || null), h: usd(heads || null), g: usd(guar || null) }) : "";
     renderMix();
     /* how much of the total rests on filings vs press reports, and how much is binding */
     var conf = 0, rep = 0, bind = 0;
@@ -2477,6 +2504,7 @@
     var body = h("div", { class: "panel__body" });
     body.appendChild(h("div", {}, [
       h("div", { class: "deal-amt" + (e.status === "cancelled" ? " is-cancelled" : "") }, [usd(e.amount_usd), ctag(e)]),
+      headlineAmount(e) ? h("p", { class: "deal-note", title: t("tv_broad_hint") }, [t("p_headline", { v: usd(e.headline_usd) })]) : null,
       /* 中文: the edge's own amount_text_zh when curated, else the English text under an "as reported (English)" label */
       zh && e.amount_text_zh ? h("p", { class: "deal-note", text: e.amount_text_zh }) :
       e.amount_text ? h("p", { class: "deal-note" }, [
