@@ -1,9 +1,48 @@
 {
- "generated_at": "2026-11-03T22:19:36Z",
+ "generated_at": "2026-11-03T22:47:01Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-03, https://heyneww.github.io/GL-AI-live/",
  "edges": [
+  {
+   "id": "bond-investors-oracle-2026-11-notes",
+   "kind": "debt",
+   "subkind": "corporate bonds (investment grade)",
+   "subkind_zh": "公司债券（投资级）",
+   "from": "bond-investors",
+   "to": "oracle",
+   "amount_usd": 10000000000,
+   "amount_text": "$10B senior notes in five tranches: $2.0B 7.000% due 2029, $1.75B 7.450% due 2031, $2.25B 7.850% due 2033, $2.5B 8.000% due 2037, $1.5B 8.650% due 2046; priced 2 Nov 2026, closing 4 Nov 2026",
+   "amount_text_zh": "100 亿美元优先票据，分五档：20 亿美元票息 7.000%（2029 年到期）、17.5 亿美元 7.450%（2031 年）、22.5 亿美元 7.850%（2033 年）、25 亿美元 8.000%（2037 年）、15 亿美元 8.650%（2046 年）；2026 年 11 月 2 日定价，11 月 4 日交割",
+   "announced": "2026-11-02",
+   "term": "3 to 20 years (2029 to 2046)",
+   "term_zh": "3 至 20 年（2029 至 2046 年到期）",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Oracle $10B bond sale alongside a $10B share sale",
+   "title_zh": "甲骨文发行 100 亿美元债券，同时出售 100 亿美元股票",
+   "summary_en": "Oracle priced $10B of senior notes in five tranches with coupons from 7.0% to 8.65%, alongside a separate $10B common stock sale, to fund its AI data-centre build-out; Oracle had said these two deals use its whole $20B cap on new capital through fiscal 2030. Both were set to close on 4 November 2026.",
+   "summary_zh": "甲骨文定价发行 100 亿美元优先票据，分五档，票息 7.0% 至 8.65%，同时另行出售 100 亿美元普通股，为其 AI 数据中心建设融资；甲骨文此前表示，这两笔交易用尽了其至 2030 财年新增融资 200 亿美元的上限。两笔交易预计于 2026 年 11 月 4 日交割。",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-announces-pricing-20-billion-030900901.html",
+     "publisher": "Oracle (PR Newswire via Yahoo Finance)",
+     "date": "2026-11-02",
+     "title": "Oracle Announces Pricing of $20 Billion of Common Stock and Senior Notes",
+     "type": "official"
+    },
+    {
+     "url": "https://www.stocktitan.net/news/ORCL/oracle-announces-pricing-of-20-billion-of-common-stock-and-senior-jz9c35ilep3f.html",
+     "publisher": "Stock Titan",
+     "date": "2026-11-02",
+     "title": "Oracle priced bonds paying 8.65% interest and due in 2046, alongside a stock offering",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 10000000000,
+   "contingent_usd": 0
+  },
   {
    "id": "marvell-lumentum-2026-11-acquisition",
    "kind": "investment",
@@ -42,6 +81,44 @@
    ],
    "origin": "curated",
    "counted_usd": 0,
+   "contingent_usd": 0
+  },
+  {
+   "id": "public-equity-investors-oracle-2026-11-common-stock",
+   "kind": "investment",
+   "subkind": "underwritten common stock offering",
+   "subkind_zh": "包销普通股发行",
+   "from": "public-equity-investors",
+   "to": "oracle",
+   "amount_usd": 10000000000,
+   "amount_text": "$10.0B: 86,206,897 shares at $116.00 (an 11.2% discount to the 30 Oct close of $130.67); ~$9.9B net; priced 2 Nov 2026, closing 4 Nov 2026",
+   "amount_text_zh": "100 亿美元：86,206,897 股，每股 116.00 美元（较 10 月 30 日收盘价 130.67 美元折价 11.2%）；净额约 99 亿美元；2026 年 11 月 2 日定价，11 月 4 日交割",
+   "announced": "2026-11-02",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Oracle $10B share sale alongside a $10B bond sale",
+   "title_zh": "甲骨文出售 100 亿美元股票，同时发行 100 亿美元债券",
+   "summary_en": "Oracle priced an underwritten sale of about 86.2 million new shares at $116, raising $10B before costs, alongside a separate $10B bond sale, to fund its AI data-centre build-out. The shares were sold at an 11% discount and Oracle's stock fell sharply on the news; the deals were set to close on 4 November 2026.",
+   "summary_zh": "甲骨文定价包销发行约 8620 万股新股，每股 116 美元，扣除费用前募资 100 亿美元，同时另行发行 100 亿美元债券，为其 AI 数据中心建设融资。新股折价 11% 发行，消息公布后甲骨文股价大跌；两笔交易预计于 2026 年 11 月 4 日交割。",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-announces-pricing-20-billion-030900901.html",
+     "publisher": "Oracle (PR Newswire via Yahoo Finance)",
+     "date": "2026-11-02",
+     "title": "Oracle Announces Pricing of $20 Billion of Common Stock and Senior Notes",
+     "type": "official"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-prices-10-billion-stock-121801477.html",
+     "publisher": "GuruFocus via Yahoo Finance",
+     "date": "2026-11-03",
+     "title": "Oracle Prices $10 Billion Stock Sale at $116 Amid AI Expansion",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 10000000000,
    "contingent_usd": 0
   },
   {
@@ -3432,6 +3509,41 @@
    ],
    "origin": "curated",
    "counted_usd": 520000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "public-equity-investors-zhipu-2026-07-placement",
+   "kind": "investment",
+   "subkind": "share placement (Hong Kong H shares)",
+   "subkind_zh": "H 股配售",
+   "from": "public-equity-investors",
+   "to": "zhipu",
+   "amount_usd": 4010000000,
+   "amount_text": "HK$31.41B (~US$4.01B at 0.1277): 19.78M new H shares at HK$1,588, up to 13% below the 8 July close; launched 8 July 2026",
+   "amount_text_zh": "314.1 亿港元（按约 0.1277 的汇率约合 40.1 亿美元）：以每股 1,588 港元配售 1,978 万股新 H 股，较 7 月 8 日收盘价最多折让 13%；2026 年 7 月 8 日启动",
+   "currency": "HKD",
+   "amount_native": 31410000000,
+   "fx_rate": 0.1277,
+   "fx_date": "2026-07-09",
+   "announced": "2026-07-08",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Zhipu AI raises ~$4B in a Hong Kong share placement",
+   "title_zh": "智谱通过香港配股募资约 40 亿美元",
+   "summary_en": "Zhipu AI (Knowledge Atlas), listed in Hong Kong since January 2026, sold 19.78 million new H shares at HK$1,588 in a placement worth about US$4B after its post-IPO lock-up ended and its shares had risen about 15-fold, per Bloomberg; the deal was oversubscribed.",
+   "summary_zh": "据彭博社报道，2026 年 1 月在香港上市的智谱在上市禁售期结束、股价上涨约 15 倍后，以每股 1,588 港元配售 1,978 万股新 H 股，募资约 40 亿美元，获超额认购。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-07-08/ai-firm-zhipu-to-sell-4-billion-of-shares-after-1-500-rally",
+     "publisher": "Bloomberg",
+     "date": "2026-07-08",
+     "title": "AI Firm Zhipu to Raise $4 Billion With Hong Kong Share Offering",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 4010000000,
    "contingent_usd": 0
   },
   {
@@ -10715,6 +10827,45 @@
    "fx_date": "2025-09-30",
    "origin": "curated",
    "counted_usd": 560000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "amazon-vistra-2025-09-comanche-peak-ppa",
+   "kind": "order",
+   "subkind": "power purchase agreements (nuclear)",
+   "subkind_zh": "购电协议（核电）",
+   "from": "amazon",
+   "to": "vistra",
+   "amount_usd": null,
+   "amount_text": "Not disclosed; 1,200 MW of carbon-free power from the Comanche Peak nuclear plant for 20 years (options to extend up to 20 more), deliveries from Q4 2027 ramping to full capacity by 2032; Vistra put the effect at ~8-10% of adjusted free cash flow before growth",
+   "amount_text_zh": "金额未披露；20 年购买 Comanche Peak 核电站 1,200 兆瓦无碳电力（可再延长最多 20 年），2027 年第四季度开始供电，2032 年前达到满负荷；Vistra 估计将使其增长前调整后自由现金流增加约 8% 至 10%",
+   "announced": "2025-09-29",
+   "term": "20 years with options for up to 20 more; deliveries Q4 2027 to full capacity by 2032",
+   "term_zh": "20 年，可再延长最多 20 年；2027 年第四季度开始供电，2032 年达到满负荷",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Amazon 20-year nuclear power agreement with Vistra (Comanche Peak, 1,200 MW)",
+   "title_zh": "亚马逊与 Vistra 的 20 年核电购电协议（Comanche Peak，1,200 兆瓦）",
+   "summary_en": "Vistra agreed a 20-year deal to supply 1,200 MW from its Comanche Peak nuclear plant in Texas to a buyer it first called a large investment-grade company, later named in its 2025 annual report as Amazon Web Services. Deliveries start in Q4 2027 and reach full capacity by 2032; the price was not disclosed.",
+   "summary_zh": "Vistra 与一家起初称为“大型投资级公司”的买家签订 20 年协议，由其得州 Comanche Peak 核电站供应 1,200 兆瓦电力，后在 2025 年年报中披露买家为亚马逊云服务（AWS）。2027 年第四季度开始供电，2032 年前达到满负荷；价格未披露。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm",
+     "publisher": "Vistra (SEC 10-K)",
+     "date": "2026-02-26",
+     "title": "Vistra Corp. annual report for 2025 (Comanche Peak agreement with Amazon Web Services)",
+     "type": "filing"
+    },
+    {
+     "url": "https://world-nuclear-news.org/articles/ppas-support-extended-operations-at-vistra-plants",
+     "publisher": "World Nuclear News",
+     "date": "2026-01-12",
+     "title": "Amazon and Meta agreements boost Vistra nuclear plants",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 0,
    "contingent_usd": 0
   },
   {
