@@ -2348,6 +2348,8 @@
     }
     if (x.cancelled) body.appendChild(h("p", { class: "panel__contingent", text: t("p_cancelled_line", { n: x.cancelled }) }));
     renderNodeExtras(body, id, x);
+    var cdsSec = cdsSection(id);
+    if (cdsSec) body.appendChild(cdsSec);
 
     /* direction rule: debt from=lender to=borrower; order from=buyer; investment from=investor; lease from=lessee */
     var defs = [
@@ -2404,6 +2406,58 @@
 
   /* who the money is with, how sure and how binding it is, how fresh the record is, and the loops it closes
      (the same figures build.py writes as per-entity stats, here over the current filter) */
+  /* CDS levels quoted in the news (graph.json cds[id], oldest first): a small chart of the 5-year levels and the
+     quotes with their articles. Data points, not a continuous price series: the line joins published quotes. */
+  function cdsSection(id) {
+    var rows = state.raw && state.raw.cds && state.raw.cds[id];
+    if (!rows || !rows.length) return null;
+    var five = rows.filter(function (r) { return r.tenor === "5y"; });
+    var pts = five.length ? five : rows;
+    var last = pts[pts.length - 1], first = pts[0];
+    var sec = h("section", { class: "psec psec--cds" }, [h("h4", { text: t("cds_h", { tenor: last.tenor }) })]);
+    var change = pts.length > 1 ? last.bp - first.bp : null;
+    sec.appendChild(h("p", { class: "cds__latest" }, [
+      h("b", { text: t("cds_bp", { bp: Math.round(last.bp) }) }),
+      " " + t("cds_on", { d: day(last.as_of) }),
+      change != null ? h("span", { class: "cds__chg " + (change > 0 ? "is-up" : change < 0 ? "is-down" : ""),
+        text: t("cds_since", { c: (change > 0 ? "+" : "") + Math.round(change), d: day(first.as_of) }) }) : null
+    ]));
+    if (pts.length > 1) {
+      var W = 300, H = 90, P = 6;
+      var t0 = Date.parse(first.as_of), t1 = Date.parse(last.as_of) || t0 + 1;
+      var lo = Math.min.apply(null, pts.map(function (r) { return r.bp; }));
+      var hi = Math.max.apply(null, pts.map(function (r) { return r.bp; }));
+      if (hi === lo) { hi += 1; lo -= 1; }
+      var xs = function (d) { return P + (W - 2 * P) * ((Date.parse(d) - t0) / ((t1 - t0) || 1)); };
+      var ys = function (v) { return H - P - (H - 2 * P) * ((v - lo) / (hi - lo)); };
+      var svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, class: "cds__chart", role: "img",
+        "aria-label": t("cds_chart_aria", { n: pts.length, lo: Math.round(lo), hi: Math.round(hi) }) });
+      svg.appendChild(svgEl("polyline", { points: pts.map(function (r) { return xs(r.as_of).toFixed(1) + "," + ys(r.bp).toFixed(1); }).join(" "),
+        fill: "none", class: "cds__line" }));
+      pts.forEach(function (r) {
+        var c = svgEl("circle", { cx: xs(r.as_of).toFixed(1), cy: ys(r.bp).toFixed(1), r: 2.5, class: "cds__dot" });
+        var tt = svgEl("title", {}); tt.textContent = day(r.as_of) + " · " + t("cds_bp", { bp: Math.round(r.bp) }) + " · " + (r.publisher || "");
+        c.appendChild(tt); svg.appendChild(c);
+      });
+      var ax = h("div", { class: "cds__axis" }, [h("span", { text: dayMeta(first.as_of) }), h("span", { text: t("cds_range", { lo: Math.round(lo), hi: Math.round(hi) }) }), h("span", { text: dayMeta(last.as_of) })]);
+      sec.appendChild(svg);
+      sec.appendChild(ax);
+    }
+    var list = h("ul", { class: "cds__list" });
+    rows.slice().reverse().slice(0, 8).forEach(function (r) {
+      var u = safeUrl(r.url);
+      list.appendChild(h("li", {}, [
+        h("span", { class: "cds__d", text: dayMeta(r.as_of) }),
+        h("span", { class: "cds__v", text: t("cds_bp", { bp: Math.round(r.bp) }) + (r.tenor !== "5y" ? " (" + r.tenor + ")" : "") }),
+        u ? h("a", { href: u, target: "_blank", rel: "noopener", text: r.publisher || u }) : h("span", { text: r.publisher || "" })
+      ]));
+    });
+    sec.appendChild(list);
+    if (rows.length > 8) sec.appendChild(h("p", { class: "psec__note", text: t("cds_more", { n: rows.length - 8 }) }));
+    sec.appendChild(h("p", { class: "psec__note", text: t("cds_note") }));
+    return sec;
+  }
+
   function renderNodeExtras(body, id, x) {
     var sep = state.lang === "zh" ? "，" : " · ";
     var top = topCounterparties(x, 5);

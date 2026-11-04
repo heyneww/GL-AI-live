@@ -674,6 +674,21 @@ button, input, select { font: inherit; color: inherit; }
 .deals td.num .ctag { margin-left: 0; }
 
 /* panel sections (one per relation type) */
+/* CDS levels quoted in the news, in the company panel */
+.cds__latest { margin: 2px 0 6px; font-size: 13px; color: var(--ink-2); }
+.cds__latest b { font-size: 17px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.cds__chg { margin-left: 6px; font-size: 12px; }
+.cds__chg.is-up { color: var(--k-debt); }
+.cds__chg.is-down { color: var(--k-investment); }
+.cds__chart { width: 100%; height: auto; display: block; }
+.cds__line { stroke: var(--k-debt); stroke-width: 1.6; }
+.cds__dot { fill: var(--surface); stroke: var(--k-debt); stroke-width: 1.4; }
+.cds__axis { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); margin-top: 2px; }
+.cds__list { list-style: none; margin: 8px 0 4px; padding: 0; font-size: 12.5px; }
+.cds__list li { display: grid; grid-template-columns: 7.5em 5em minmax(0, 1fr); gap: 6px; padding: 2px 0; border-top: 1px solid var(--line); }
+.cds__list a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cds__d { color: var(--muted); font-variant-numeric: tabular-nums; }
+.cds__v { font-variant-numeric: tabular-nums; }
 .psec h4 {
   margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2);
   display: flex; align-items: center; gap: 8px;
