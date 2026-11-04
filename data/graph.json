@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-04T01:40:39Z",
+ "generated_at": "2026-11-04T02:02:30Z",
  "monitor": {
-  "last_run": "2026-11-04T01:40:11Z",
+  "last_run": "2026-11-04T02:01:54Z",
   "sec_items": 198,
-  "news_items": 3336,
+  "news_items": 3358,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-04T01:40:11Z",
+    "last_run": "2026-11-04T02:01:54Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-04T01:40:11Z",
+    "last_run": "2026-11-04T02:01:54Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 576,
-    "added": 55,
-    "evicted": 587,
-    "unread": 336,
+    "items": 560,
+    "added": 22,
+    "evicted": 0,
+    "unread": 358,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3336,
+    "total": 3358,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-04T01:40:11Z",
+    "last_run": "2026-11-04T02:01:54Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24089,6 +24089,64 @@
  ],
  "news": [
   {
+   "id": "nef85d3c119bbfea9",
+   "title": "Generative Media Inference Platform fal Raises $1.3B Series F",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuSWV6TnREcWM2azhzVXlEdGFQRjJTN0RGZHBtdnRmV1BvbE9zbURJbmJaU1pVWUVvMXoyaEFwNEFJaXdVcU1UODUxTF9Tdnh4dTh3?oc=5",
+   "publisher_url": null,
+   "publisher": "Wowtale",
+   "published": "2026-11-04T01:50:58Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-04T02:02:17Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "ne4b345fc71684c48",
+   "title": "AMD sales forecast tops estimates on soaring AI chip demand",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVkI5UnVaOXYybmZYWmp6bzYzU2RFeEV1bVhKOHVTdWVGZzNSRG81U0FxNWdVYWViWlFzYlJGa3B5R3hVZXo3TzVCeWpGalQ3cDFqYzFBSEtkTjdUZEx3Q29ISTI1aGx5dDdFQUI2VWpuQVBGaXo0T3RzbFI5cExJbDAxclUwR1VMczhRN1ZIX05oQU5GVFZBQ2dHblpvZw?oc=5",
+   "publisher_url": null,
+   "publisher": "The Straits Times",
+   "published": "2026-11-04T01:50:00Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "amd"
+   ],
+   "fetched_at": "2026-11-04T02:02:17Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n3664c8f736ed0475",
+   "title": "Antonio Gracias’ Valor raises $3.3B for its flagship fund",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORy1ZMTRaUDJaM1hrUzh1YTZNTjdndGVxeXpzY3pZdkM1U3NKMlUySTRUbmhJY1owZ21RWEV5MHBHU2hCbFp1ZXNfeFNkb3JUcVZObmN3cDU5X3ZCcGJWdGYyNmpDWERoWDVyODVjWnhTYlU5a042TXY3NkxrQTNRdGtuaERUbGlkM2d6X0VQdVNSY3VrdmVUNjE4SlAxNGNvR3lkSm5pekI?oc=5",
+   "publisher_url": null,
+   "publisher": "Crain's Chicago Business",
+   "published": "2026-11-04T01:49:38Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-04T02:02:17Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n6704896f175d084e",
+   "title": "Talen Energy (TLN) Unveils $1.5 Billion Share Repurchase Program",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdDlDRDZnTk8zQlNPZjNaRUpWNndfaDdRTm5YaWIwd0xnRTV0dGZ0aVV4QngwZjRQLTRsN29Wbm83MGR4T3dxVW9yV2F5ZkxJTVl5eGh3RVI1RDAwdFlnZGdkUGltVkRmS0NjTVdCNjgyZzlpQkVhRlVCMzNLaWI2eElXZUFfTHM0enBLNjlrUjhCaDVrdmdQcnlHdERfMG9HUmdmLXhudFo3TGdicUJoQi1WWVlNY3dldjBuTE1HSXFyckpaWTF4bmNTRdIB0AFBVV95cUxNWXBNUzBsLTloR1ZUbTktWjhPcVgyTEQ0dzFkb3VuRVo3WTVzcUpTbnlvbUZVS1lGS3YyX3VBWC1ra2lxWVBGVXlXVTR1NV9tVTZmN1BLcWQ5d3U4UVplLVhMSjJIRnBkWFBFX2ZjVFdmdEZhMkRIQzJacHZSMFlfN2FzTW4wRlhZanM1R1pqMVd2c0RuYThQMklXTmtTUXZMNWRkWGhraTBQVVhDZUF2YzNOWDNleFpKcy1ZcExycllpQ1lUOUZoMzJLYTZYVWhW?oc=5",
+   "publisher_url": null,
+   "publisher": "Simply Wall St",
+   "published": "2026-11-04T01:37:46Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-04T02:02:17Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n7fb7ae25be0e68ff",
    "title": "New York Angels' Peck Says Anthropic IPO Could Lift Tech After AI Selloffs",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNNkwwV2ppaWJ5SGFtQ3BoU0pPcXVvZjRCTjlOZ19wYWNPbS0wQVBnbExLcE5nNHFBVnc2eUtNSnF2YnJBUnU0RWR2dlU1UG9fZkJYekxlMERSd21TSDNXeDVPWjh1a0VmRllj?oc=5",
@@ -24293,6 +24351,22 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "nea94dd01f170394a",
+   "title": "AMD forecasts $17 billion fourth-quarter revenue as AI demand drives record data-center sales | Business News",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVkgwWWFJMUJ0RTlaMVVOS2RxSVh4ME5LN1M1Q3A1UHBzSXViX05MVXlHTEM5ZnRzV1U0U3hHMkxIYUQ2SDIxR3liRDhPcW5WejB4R2N3Z19ZdlJGekUyV25RUHFvMGRWaHQyZlpGbWhUbmE4ZExubWkwenktWVlYOEt1WlhPVFRqWlFOQTRkNkhrVVJoUmRMZ0RzSHZoRllKcFZGWW1URmVCQ05aRTZfQUl3MjZndlcyOXRTbkMxR0lydVU5SGlaaDEzTlR5UVZack5aemNXc0RzTkg1Qlh6VDNwMzIxd3Fi0gHuAUFVX3lxTE5ZamREV1RVYkwyd2FoU2U1VHZGazd2cTRPU2ZrQy1XOE9jQUhPT1g2V3BEQnlOY0prNVRzSDNlVGpQY0pBRU00REkteGxZRE9MaWtyamFyc24yTkk5c2NTLXdUSjFoeGRva3VlVXhtQ1VNWmdYa1ZDekNCVjk5LTY5UlNsankzb2JuVlVCTFMtWEdIUXMtSnRvWUZkeFpIRGdNV0xRWmFVVk10VTBhZ1VlVWNremk2NktyeW5PTUY4cWxRY0hpbGZkOVNhcUtjTUk5V1FkMDJaRWkyeEE5aEQxNHAxQ1QwZ2pqT05scGc?oc=5",
+   "publisher_url": null,
+   "publisher": "Hindustan Times",
+   "published": "2026-11-03T23:31:09Z",
+   "date": "2026-11-03",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "amd"
+   ],
+   "fetched_at": "2026-11-04T02:02:17Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n4acc1fb57078f782",
    "title": "AI sparks new wave of Big Tech bond sales",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaks4eFBEcE94aVRleXFrbXlwYV8ybEhSdXdqLTVvZl9OYlZldTZWa2xWeGNWNUpfbTIyZ213ZzRqLV9IakRXdlZYZFFuZWRvc3hGVUdkbFZkTFFYTy00SjU2SG56SndyT1c2VWhnSzcxYVZEd1ctS1l1blpGa0hxQnhDYldLcHpUOExZeXhWUVN2Z2llaVE?oc=5",
@@ -24396,6 +24470,22 @@
    "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
    "entities": [],
    "fetched_at": "2026-11-04T01:40:25Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nee9784980e3cba55",
+   "title": "AMD Stock Surges 8% After Hours As Q3 Sales Surge 45% On AI Boom, And Expectations For 80% Revenue Jump In 2027",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOX0daOEZpdUdzbVprVFVwTGN3NnAxcjlrbHVuQ1BRMXgzYlM3OXIxSHExblVvenNxYzBjN2FMUFZ1OE5UbXd3dEpSZWZBbWl1UjktUjFxNUFjSWw5S1lvZVJXeGIwU2M0cGwwNWg3cS1hZldUOUhHUi1JMWU5aklpZTBOOENGekhZb3YyQ2xmNXhXRUhneDV3eWF3amhKbFUwbFl4R0VKNFBKV1U0b2RJeWhYYThSb0MyZE5CbnZLWl80U0lHU3BveUFkekVRZDVCV0l6MTIwNk5pclFEdTJjWGhxLVJaa3hYVVRMSHZKc1R6SnFFeGh3OGFKZDI?oc=5",
+   "publisher_url": null,
+   "publisher": "TradingView",
+   "published": "2026-11-03T22:38:31Z",
+   "date": "2026-11-03",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "amd"
+   ],
+   "fetched_at": "2026-11-04T02:02:17Z",
    "matcher_version": "3.2"
   },
   {
@@ -24591,6 +24681,20 @@
     "nebius"
    ],
    "fetched_at": "2026-11-03T22:19:21Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n5dc9373905700782",
+   "title": "Stock Sell-Off, Bond Market Jitters Signal Financing Trouble For AI Data Centers",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUlZyaFFFcjBvMG5RZHE4aV9sdTBqYlk0T3haTV9CbXlLcW9yNTBpeDU5Wk1RNm5QZmZZeF9lQ2N6dTFQSFM1ekdyZTdpTkQxdlVNem9qak5zQjVMSE91WVJOR0F0NFVNRk9tWXlMbmFIaV9aNHZKN3lpRXczbmFDV19fSndUSC13NUNjNFg5eFA0TG9hOWZQQWdBNHpMWktUREFBQmR3WHNXTnNod0pLaHZkTWRJRVdlcnc?oc=5",
+   "publisher_url": null,
+   "publisher": "Bisnow",
+   "published": "2026-11-03T21:36:24Z",
+   "date": "2026-11-03",
+   "lang": "en-US",
+   "query": "AI bond sale hyperscaler when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-04T02:02:17Z",
    "matcher_version": "3.2"
   },
   {
@@ -24889,112 +24993,6 @@
    "lang": "en-US",
    "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
    "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n4d2566bd2e724261",
-   "title": "Ouster Announces Results for Third Quarter 2026",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYUVRcnFvWlV4ekFycGhRNDdnZXdZVmlvOUg5MmtycF9fZHdGaTQ1WFVBd0h3aWRZTFItVVdjWG5NQ0NqNFBwYzdYWllQRUkwZGJicDhhNHI0R2RmNkxTWkhfSUgxd0ZCRmh1SGhKY3hhOXRsV1ZNRFQtUDVDbjBxejl4ZWFPVEJkaFdzUHFKMnFlU0MwRVBpeWtfbUpKMHNJMm95NnhKWQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-03T21:05:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n04bf4eccfeb32f53",
-   "title": "Addus HomeCare Announces Third Quarter 2026 Financial Results",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTUlMbGcydVNUVjRhSjVndGtjRzdmak9aTU9ZaXV1enlucmMxeG1VMHVVU1NMdjJpTWY5bHRlYThyeUd5U2pSVmJHTm52UGJDVm9qX2QybDNDTDc0OHZIdHVSVzBRV0tyLVMyc0Rad0Iteksxc2FacmpxUEFGcExtS1VYZmtkTmdTYWFEbkxpb2VxS0lMdC1xbzgzeGVndExIaFRQLWtybWRyYVFwbVdVTlRLTmhtWlMyX1E?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-03T21:05:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nf2e440af9fe49218",
-   "title": "New Era Energy & Digital to file Q3 2026 report on Nov 12",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQnZ4UUt5QVoyV3hndi03ZnJ1Y2hCYnZteHNYekdoeWFvOHlUN1hrd254YXdLdmd6NzFZcXVPNEFzV0s0MmIxQk9UeGtSTm9CU0trdVVOcEhkNzIzaHRlY1drZnBHTzFUTmlWZ1JfLUh5clBNZzJRUkFvWGZqQzNtRDBWZmIyUWhZWHVwUWJQTExna0Y4b1liMDhvR3BJWnJqX1lodUhQOFlKQQ?oc=5",
-   "publisher_url": null,
-   "publisher": "scanx.trade",
-   "published": "2026-11-03T21:02:36Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-04T01:40:25Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n94f1389a3b2f2efb",
-   "title": "‘Gathering Steam’ in AI. Anthropic, Marvell & OpenAI. ARD #198",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVGE2Wjl5MHdHYmRVUXN0NHVYeEoyQkJ2cnVaUlJJU2V0b0stY0g2Rk1YSDU2RlZjSFFPRkpmMTVEV0tqZUNBZ1d4a2t5ZFh6U1V4aWRCNF95UEQzNDFla3VVbjYyUFI1cVpnaFYyM3BXck1vVW5BMlA3ZVBHendSc0N3?oc=5",
-   "publisher_url": null,
-   "publisher": "AI: Reset to Zero",
-   "published": "2026-11-03T21:02:29Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
-   "entities": [
-    "anthropic",
-    "openai"
-   ],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nf6b6f99463ea83ab",
-   "title": "Altaba Announces Liquidating Distribution of $0.36 Per Share",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcFdYR1owTVJYNFFUNUY0V2N2YkF1ZnFQQ01TdnB1dHV0dm9MVFNWVmdaMVpfMDhJTE83ZG5pV1ptVURaT3M4ZVhtbmh6OTZVWXR2SkNMZ1V1QzZxVFpOaGc5MWxQdE93cmZockhBTVlmeUFkX3ByVEhQbnlCYVpRVnpCa0pjNW9Odlo2OEQ1dV9rWVJIUnRpMzdIU0RIdXNIMG1lcl84Rl94cWwxQW5vUDRXMjZxQQ?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-03T21:00:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n935b468c8f11494f",
-   "title": "Huawei Cloud to Retire openPangu-2.0 Models From MaaS, Recommends DeepSeek-V4.1-Flash and GLM-5.3",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORXJiejlQNkFkN2xsVlU4OFRKWU80amRyV3M1OWpqMmNCRVhDbXExdzM2SjZzQ3ZwYlA1S1lERDJaNUZXTjVoY2Q5eWhKZEVUQVFDY2hnaFpZdkVPdTRvTDB0YkpEVElJYTJxaUFXTzZuRjdIVFpvY2hFWEJuUUx0SlFNZVFGQy1pREtpNE43Tk8wcldvX1ZSQkVKRkpraW14aTA2OVR5d2o?oc=5",
-   "publisher_url": null,
-   "publisher": "Pandaily",
-   "published": "2026-11-03T20:55:27Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [
-    "deepseek"
-   ],
-   "fetched_at": "2026-11-04T01:40:25Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ncd89e9c36e30e24c",
-   "title": "OpenAI And Anthropic Are Soaking Up VC Cash As Startup Deals Dry Up",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUS03eUl1OG5VSHgxb3NrX3RBTnlDVkNlaE1yOUJ6a0N0dEV2M1Jnb29vTU5WU3RROHIwcmp4QllrSVI0eXM1VXhicGJEYnZLemtLNHhDVU11cUJfTHkyd09yOFRjSjVWdklQZnluOVpkclU0TkpPMHVXYVNabkZRY1R6bHRnU3EtVHQtMEl4eUVfVm9HN2dpLW1qXy1sVzFCQXpnbmZycFVOVEZ3d3NmOHNkZk1YU0VqLWdqdEU1YjBOekZGS29mOW9wOA?oc=5",
-   "publisher_url": null,
-   "publisher": "Benzinga",
-   "published": "2026-11-03T20:54:58Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic",
-    "openai"
-   ],
    "fetched_at": "2026-11-03T22:19:21Z",
    "matcher_version": "3.2"
   }
