@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-11-04T10:41:55Z",
+ "generated_at": "2026-11-04T10:46:00Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-04, https://heyneww.github.io/GL-AI-live/",
  "stats": {
   "entities": 137,
-  "edges": 398,
-  "curated_edges": 398,
+  "edges": 401,
+  "curated_edges": 401,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
     "count": 108,
-    "usd": 1524289000000,
+    "usd": 1517289000000,
     "undisclosed": 64,
-    "cancelled": 0
+    "cancelled": 1
    },
    "investment": {
-    "count": 128,
-    "usd": 895883790000,
+    "count": 129,
+    "usd": 897883790000,
     "undisclosed": 37,
     "cancelled": 3
    },
    "debt": {
-    "count": 128,
-    "usd": 1135405071259,
+    "count": 129,
+    "usd": 1150405071259,
     "undisclosed": 5,
     "cancelled": 0
    },
    "lease": {
-    "count": 25,
+    "count": 26,
     "usd": 309176000000,
-    "undisclosed": 6,
+    "undisclosed": 7,
     "cancelled": 0
    },
    "vendor_financing": {
@@ -72,21 +72,21 @@
     "usd": 0
    }
   },
-  "total_usd": 3906753861259,
+  "total_usd": 3916753861259,
   "contingent_usd": 183230000000,
   "headline_usd": 1955460000000,
-  "broad_usd": 6045443861259,
+  "broad_usd": 6055443861259,
   "by_status_usd": {
    "announced": 10000000000,
-   "signed": 1824053571259,
+   "signed": 1839053571259,
    "in_progress": 541636000000,
-   "completed": 1391664290000,
-   "reported": 139400000000
+   "completed": 1393664290000,
+   "reported": 132400000000
   },
   "confirmed_usd": 2505916861259,
-  "reported_usd": 1400837000000,
-  "binding_usd": 3757353861259,
-  "announced_usd": 149400000000,
+  "reported_usd": 1410837000000,
+  "binding_usd": 3774353861259,
+  "announced_usd": 142400000000,
   "circular": [
    {
     "id": "loop-nvidia-openai-oracle",
@@ -1948,12 +1948,12 @@
    },
    {
     "month": "2026-03",
-    "count": 25,
-    "usd": 273917500000,
-    "cumulative_usd": 2035533071259,
+    "count": 26,
+    "usd": 275917500000,
+    "cumulative_usd": 2037533071259,
     "by_kind": {
      "order": 70800000000,
-     "investment": 18000000000,
+     "investment": 20000000000,
      "debt": 141117500000,
      "lease": 2000000000,
      "vendor_financing": 42000000000,
@@ -1964,7 +1964,7 @@
     "month": "2026-04",
     "count": 22,
     "usd": 378640690000,
-    "cumulative_usd": 2414173761259,
+    "cumulative_usd": 2416173761259,
     "by_kind": {
      "order": 258300000000,
      "investment": 81740690000,
@@ -1978,7 +1978,7 @@
     "month": "2026-05",
     "count": 24,
     "usd": 244650000000,
-    "cumulative_usd": 2658823761259,
+    "cumulative_usd": 2660823761259,
     "by_kind": {
      "order": 128100000000,
      "investment": 64850000000,
@@ -1992,7 +1992,7 @@
     "month": "2026-06",
     "count": 20,
     "usd": 280210000000,
-    "cumulative_usd": 2939033761259,
+    "cumulative_usd": 2941033761259,
     "by_kind": {
      "order": 20000000000,
      "investment": 136200000000,
@@ -2004,9 +2004,9 @@
    },
    {
     "month": "2026-07",
-    "count": 25,
+    "count": 26,
     "usd": 137624100000,
-    "cumulative_usd": 3076657861259,
+    "cumulative_usd": 3078657861259,
     "by_kind": {
      "order": 1500000000,
      "investment": 50397100000,
@@ -2020,7 +2020,7 @@
     "month": "2026-08",
     "count": 21,
     "usd": 164149000000,
-    "cumulative_usd": 3240806861259,
+    "cumulative_usd": 3242806861259,
     "by_kind": {
      "order": 54600000000,
      "investment": 35200000000,
@@ -2034,7 +2034,7 @@
     "month": "2026-09",
     "count": 21,
     "usd": 207209000000,
-    "cumulative_usd": 3448015861259,
+    "cumulative_usd": 3450015861259,
     "by_kind": {
      "order": 56700000000,
      "investment": 45709000000,
@@ -2046,11 +2046,11 @@
    },
    {
     "month": "2026-10",
-    "count": 26,
-    "usd": 438738000000,
-    "cumulative_usd": 3886753861259,
+    "count": 25,
+    "usd": 431738000000,
+    "cumulative_usd": 3881753861259,
     "by_kind": {
-     "order": 11400000000,
+     "order": 4400000000,
      "investment": 59600000000,
      "debt": 166538000000,
      "lease": 201200000000,
@@ -2060,13 +2060,13 @@
    },
    {
     "month": "2026-11",
-    "count": 3,
-    "usd": 20000000000,
-    "cumulative_usd": 3906753861259,
+    "count": 4,
+    "usd": 35000000000,
+    "cumulative_usd": 3916753861259,
     "by_kind": {
      "order": 0,
      "investment": 10000000000,
-     "debt": 10000000000,
+     "debt": 25000000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2077,7 +2077,7 @@
    "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
    "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
   },
-  "latest_announced": "2026-11-02",
+  "latest_announced": "2026-11-03",
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount whose status is not cancelled: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"

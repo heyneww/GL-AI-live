@@ -1,9 +1,48 @@
 {
- "generated_at": "2026-11-04T10:41:55Z",
+ "generated_at": "2026-11-04T10:46:00Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-04, https://heyneww.github.io/GL-AI-live/",
  "edges": [
+  {
+   "id": "bond-investors-meta-2026-11-notes",
+   "kind": "debt",
+   "subkind": "corporate bonds (investment grade)",
+   "subkind_zh": "公司债券（投资级）",
+   "from": "bond-investors",
+   "to": "meta",
+   "amount_usd": 15000000000,
+   "amount_text": "$15B of US-dollar senior notes in five tranches (5 to 30 years), priced 3 Nov 2026 with about $58B of orders; the longest, due 2056, at 2.2 percentage points over Treasuries; a separate debut euro sale in six tranches launched on 4 Nov (not included)",
+   "amount_text_zh": "150 亿美元美元计价优先票据，分五档（5 至 30 年），2026 年 11 月 3 日定价，认购约 580 亿美元；最长一档 2056 年到期，较美国国债利差 2.2 个百分点；11 月 4 日另行启动首次欧元债券发行（共六档，不计入本条）",
+   "announced": "2026-11-03",
+   "term": "5 to 30 years (2031 to 2056)",
+   "term_zh": "5 至 30 年（2031 至 2056 年到期）",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Meta $15B bond sale, then a debut euro offering",
+   "title_zh": "Meta 发行 150 亿美元债券，随后首次发行欧元债券",
+   "summary_en": "Meta sold $15B of investment-grade bonds in five tranches on 3 November 2026, drawing about $58B of orders, a week after its $37.5B share and convertible offerings, to fund AI infrastructure. It then opened its first euro bond sale, which is expected to take the combined raise above $20B.",
+   "summary_zh": "Meta 于 2026 年 11 月 3 日发行 150 亿美元投资级债券，分五档，获约 580 亿美元认购，距其 375 亿美元股票和可转换优先股发行仅一周，资金用于 AI 基础设施。随后 Meta 启动首次欧元债券发行，预计合计融资将超过 200 亿美元。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/meta-kicks-off-debt-offering-in-push-to-fund-ai-investments",
+     "publisher": "Bloomberg",
+     "date": "2026-11-03",
+     "title": "Meta Raises $15 Billion as Elevated Bond Yields Stoke Demand",
+     "type": "news"
+    },
+    {
+     "url": "https://www.gurufocus.com/news/9168868/meta-launches-euro-bond-offering-following-15-billion-usd-debt-raise",
+     "publisher": "GuruFocus",
+     "date": "2026-11-04",
+     "title": "Meta Launches Euro Bond Offering Following $15 Billion USD Debt Raise",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 15000000000,
+   "contingent_usd": 0
+  },
   {
    "id": "bond-investors-oracle-2026-11-notes",
    "kind": "debt",
@@ -1224,16 +1263,31 @@
    "from": "tencent",
    "to": "oracle",
    "amount_usd": 7000000000,
-   "amount_text": "~$7B over 5 years for ~100,000 AI chips, ~30% paid upfront, per FT (not confirmed by either company)",
+   "amount_text": "~$7B over 5 years for ~100,000 AI chips, ~30% paid upfront, per FT (not confirmed by either company); cancelled in November 2026 per FT, so not counted",
    "announced": "2026-10-01",
    "term": "5 years",
-   "status": "reported",
+   "status": "cancelled",
    "confidence": "reported",
-   "title_en": "Tencent leases 100,000 AI chips from Oracle for ~$7B",
-   "title_zh": "腾讯以约 70 亿美元向甲骨文租用 10 万颗 AI 芯片",
-   "summary_en": "The Financial Times reported that Tencent agreed a five-year, roughly $7B deal to rent about 100,000 advanced AI chips in Oracle data centres in Southeast Asia, with about 30% paid upfront. Neither company confirmed it.",
-   "summary_zh": "据英国《金融时报》报道，腾讯与甲骨文达成为期五年、价值约 70 亿美元的协议，在甲骨文东南亚数据中心租用约 10 万颗先进 AI 芯片，约 30% 预付。双方均未确认。",
+   "title_en": "Tencent's ~$7B lease of 100,000 AI chips from Oracle (cancelled)",
+   "title_zh": "腾讯以约 70 亿美元向甲骨文租用 10 万颗 AI 芯片（已取消）",
+   "summary_en": "The Financial Times reported in October 2026 that Tencent agreed a five-year, roughly $7B deal to rent about 100,000 advanced AI chips in Oracle data centres in Southeast Asia, with about 30% paid upfront. On 4 November the FT reported that Oracle cancelled the deal after US officials raised concerns. Neither company has commented.",
+   "summary_zh": "英国《金融时报》2026 年 10 月报道，腾讯与甲骨文达成为期五年、价值约 70 亿美元的协议，在甲骨文东南亚数据中心租用约 10 万颗先进 AI 芯片，约 30% 预付。该报 11 月 4 日报道，甲骨文在美国官员表达关切后取消了这笔交易。双方均未置评。",
+   "last_checked": "2026-11-04",
    "sources": [
+    {
+     "url": "https://www.thestandard.com.hk/finance/article/347470/Oracle-abandons-US7-billion-Tencent-AI-deal-under-Trump-pressure-FT-reports",
+     "publisher": "The Standard (HK), citing FT",
+     "date": "2026-11-04",
+     "title": "Oracle abandons US$7 billion Tencent AI deal under Trump pressure, FT reports",
+     "type": "news"
+    },
+    {
+     "url": "https://sg.finance.yahoo.com/news/oracle-cancels-7-bln-chip-055216451.html",
+     "publisher": "Reuters via Yahoo Finance",
+     "date": "2026-11-04",
+     "title": "Oracle cancels $7 bln chip leasing deal with Tencent, FT reports",
+     "type": "news"
+    },
     {
      "url": "https://www.trendforce.com/news/2026/10/01/news-tencent-reportedly-signs-7b-deal-to-lease-100000-ai-chips-from-oracle-in-southeast-asia/",
      "publisher": "TrendForce (citing FT)",
@@ -1248,7 +1302,7 @@
     }
    ],
    "origin": "curated",
-   "counted_usd": 7000000000,
+   "counted_usd": 0,
    "contingent_usd": 0
   },
   {
@@ -2811,6 +2865,38 @@
    ],
    "origin": "curated",
    "counted_usd": 4700000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "anthropic-nexus-data-centers-2026-07-hubbard-leases",
+   "kind": "lease",
+   "subkind": "AI data-centre leases (campus with on-site gas power)",
+   "subkind_zh": "AI 数据中心租约（园区配套燃气电厂）",
+   "from": "anthropic",
+   "to": "nexus-data-centers",
+   "amount_usd": null,
+   "amount_text": "Rent not disclosed; four data-centre leases at Nexus's Hubbard, Texas campus with a 1.6 GW on-site gas plant, plus related power purchase agreements; the campus is financed by a ~$15.6B Morgan Stanley-led package (separate edge)",
+   "amount_text_zh": "租金未披露；Nexus 位于得州哈伯德园区的四份数据中心租约，园区配套 1.6 吉瓦燃气电厂，另有相关购电协议；园区由摩根士丹利牵头的约 156 亿美元融资建设（另列一条）",
+   "announced": "2026-07-30",
+   "term": "Not disclosed; construction from January 2026, completion targeted for October 2027",
+   "term_zh": "期限未披露；2026 年 1 月开工，目标 2027 年 10 月完工",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Anthropic leases Nexus's Hubbard, Texas AI campus",
+   "title_zh": "Anthropic 租用 Nexus 位于得州哈伯德的 AI 园区",
+   "summary_en": "The Wall Street Journal reported that Anthropic signed four data-centre leases and related power agreements at Nexus Data Centers' campus in Hubbard, Texas, which has a 1.6 GW on-site gas plant and will run Google-designed TPUs; Google was reported to be backing the lease and power payments in return for about 20% of the project. Anthropic and Nexus declined to comment.",
+   "summary_zh": "据《华尔街日报》报道，Anthropic 在 Nexus Data Centers 位于得州哈伯德的园区签署了四份数据中心租约及相关购电协议，该园区配套 1.6 吉瓦燃气电厂，将使用谷歌设计的 TPU；据报谷歌为租金和电费提供担保，换取该项目约 20% 的股权。Anthropic 和 Nexus 均未置评。",
+   "sources": [
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/07/31/banks-in-talks-to-lend-15-billion-for-anthropic-data-center-backed-by-google-wsj-reports",
+     "publisher": "The Star (Reuters, citing WSJ)",
+     "date": "2026-07-31",
+     "title": "Banks in talks to lend $15 billion for Anthropic data center backed by Google, WSJ reports",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 0,
    "contingent_usd": 0
   },
   {
@@ -6835,6 +6921,44 @@
    "amount_native": 53800000000,
    "origin": "curated",
    "counted_usd": 53800000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "private-investors-nscale-2026-03-series-c",
+   "kind": "investment",
+   "subkind": "venture round (Series C)",
+   "subkind_zh": "风险投资（C 轮）",
+   "from": "private-investors",
+   "to": "nscale",
+   "amount_usd": 2000000000,
+   "amount_text": "$2B Series C at a $14.6B valuation, led by Aker and 8090 Industries, with Nvidia, Dell, Citadel and Nokia among the investors (individual amounts not disclosed)",
+   "amount_text_zh": "20 亿美元 C 轮融资，估值 146 亿美元，由 Aker 和 8090 Industries 领投，英伟达、戴尔科技、Citadel 和诺基亚等参投（各方金额未披露）",
+   "announced": "2026-03-09",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Nscale raises $2B Series C at $14.6B",
+   "title_zh": "Nscale 完成 20 亿美元 C 轮融资，估值 146 亿美元",
+   "summary_en": "UK neocloud Nscale raised $2B in a Series C led by Aker and 8090 Industries at a $14.6B valuation, reported as Europe's largest venture round, to expand its AI infrastructure across Europe, North America and Asia; Nvidia, Dell, Citadel and Nokia also invested.",
+   "summary_zh": "英国新兴算力云公司 Nscale 完成由 Aker 和 8090 Industries 领投的 20 亿美元 C 轮融资，估值 146 亿美元，据报为欧洲史上最大的一轮风险投资，资金用于在欧洲、北美和亚洲扩建 AI 基础设施；英伟达、戴尔科技、Citadel 和诺基亚亦参投。",
+   "sources": [
+    {
+     "url": "https://www.techzine.eu/news/infrastructure/139366/nscale-sets-european-record-2-billion-raised-in-funding-round",
+     "publisher": "Techzine",
+     "date": "2026-03-09",
+     "title": "Nscale sets European record: $2 billion raised in funding round",
+     "type": "news"
+    },
+    {
+     "url": "https://invezz.com/news/2026/03/09/ai-data-centre-startup-nscale-raises-2b-nvidia-among-backers/",
+     "publisher": "Invezz",
+     "date": "2026-03-09",
+     "title": "AI data centre startup Nscale raises $2B, Nvidia among backers",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 2000000000,
    "contingent_usd": 0
   },
   {
