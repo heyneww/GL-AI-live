@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-04T19:59:46Z",
+ "generated_at": "2026-11-04T22:23:10Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-04, https://heyneww.github.io/GL-AI-live/",
  "stats": {
   "entities": 137,
-  "edges": 401,
-  "curated_edges": 401,
+  "edges": 402,
+  "curated_edges": 402,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -22,9 +22,9 @@
     "cancelled": 3
    },
    "debt": {
-    "count": 129,
+    "count": 130,
     "usd": 1150405071259,
-    "undisclosed": 5,
+    "undisclosed": 6,
     "cancelled": 0
    },
    "lease": {
@@ -2060,7 +2060,7 @@
    },
    {
     "month": "2026-11",
-    "count": 4,
+    "count": 5,
     "usd": 35000000000,
     "cumulative_usd": 3916753861259,
     "by_kind": {
@@ -2077,7 +2077,7 @@
    "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
    "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
   },
-  "latest_announced": "2026-11-03",
+  "latest_announced": "2026-11-04",
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount whose status is not cancelled: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
