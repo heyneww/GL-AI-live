@@ -1,26 +1,70 @@
 {
- "generated_at": "2026-11-04T22:23:10Z",
+ "generated_at": "2026-11-04T22:48:28Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-04, https://heyneww.github.io/GL-AI-live/",
  "edges": [
+  {
+   "id": "alphabet-terawulf-2026-11-hawesville-lease-backstop",
+   "kind": "guarantee",
+   "subkind": "lease payment backstop (credit support)",
+   "subkind_zh": "租金兜底（信用支持）",
+   "from": "alphabet",
+   "to": "terawulf",
+   "amount_usd": null,
+   "amount_text": "Not disclosed; backstops Anthropic's obligations under the three Hawesville leases (~401 MW, ~$19B of contracted rent over 20 years); on default Google may pay the rent and take over the lease, or pay an amortizing termination fee for an equity interest in the lessor",
+   "amount_text_zh": "金额未披露；为 Anthropic 在 Hawesville 三份租约（约 401 兆瓦，20 年合同租金约 190 亿美元）下的义务提供兜底；违约时谷歌可代付租金并承接租约，或支付逐年摊减的终止费以换取出租方的股权",
+   "announced": "2026-11-04",
+   "term": "From the last data hall's commencement until Anthropic holds investment-grade ratings for three months",
+   "term_zh": "自最后一个数据机房起租日起，至 Anthropic 取得投资级评级并维持三个月为止",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Google backstops Anthropic's Hawesville leases with TeraWulf",
+   "title_zh": "谷歌为 Anthropic 在 TeraWulf Hawesville 园区的租约提供兜底",
+   "summary_en": "Google signed three credit support agreements with TeraWulf's Hawesville, Kentucky subsidiaries and Anthropic, backstopping Anthropic's rent under its 20-year, ~401 MW leases there (Anthropic is the obligor). If Anthropic defaults, Google can pay the rent and take over the lease or pay a termination fee that gives it equity in the lessor; the backstop ends once Anthropic is rated investment grade.",
+   "summary_zh": "谷歌与 TeraWulf 在肯塔基州 Hawesville 的子公司及 Anthropic 签署三份信用支持协议，为 Anthropic 在当地 20 年期、约 401 兆瓦租约下的租金提供兜底（付款义务人为 Anthropic）。若 Anthropic 违约，谷歌可代付租金并承接租约，或支付终止费并取得出租方股权；Anthropic 获得投资级评级后兜底终止。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulf-20261104.htm",
+     "publisher": "TeraWulf (SEC 8-K)",
+     "date": "2026-11-04",
+     "title": "TeraWulf 8-K: credit support agreements with Google LLC for the Hawesville leases with Anthropic",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 0,
+   "contingent_usd": 0
+  },
   {
    "id": "bond-investors-alphabet-2026-11-notes",
    "kind": "debt",
    "subkind": "senior notes (EUR)",
    "from": "bond-investors",
    "to": "alphabet",
-   "amount_usd": null,
-   "amount_text": "€6B in 7 tranches: €750M Floating Rate Notes due 2028; €750M 3.700% Notes due 2028; €1.25B 4.050% Notes due 2030; €750M 4.250% Notes due 2032; €750M 4.500% Notes due 2035; €750M 4.875% Notes due 2039; €1B 5.250% Notes due 2045; USD equivalent not converted",
+   "amount_usd": 6700000000,
+   "amount_text": "€6B, ~US$6.7B at ~1.117 as reported: 7 tranches: €750M Floating Rate Notes due 2028; €750M 3.700% Notes due 2028; €1.25B 4.050% Notes due 2030; €750M 4.250% Notes due 2032; €750M 4.500% Notes due 2035; €750M 4.875% Notes due 2039; €1B 5.250% Notes due 2045; settlement 5 Nov 2026",
+   "currency": "EUR",
+   "amount_native": 6000000000,
+   "fx_rate": 1.117,
+   "fx_date": "2026-11-02",
    "announced": "2026-11-04",
    "term": "due 2028–2045",
    "status": "completed",
    "confidence": "confirmed",
    "title_en": "Alphabet €6B notes offering",
    "title_zh": "Alphabet发行 60 亿欧元票据",
-   "summary_en": "Alphabet sold €6B of notes in 7 tranches due 2028–2045, according to its 424B2 prospectus filed on 2026-11-04. The notes are not denominated in US dollars; no USD equivalent is recorded.",
-   "summary_zh": "Alphabet于 2026 年 11 月 4 日提交 424B2 发行说明书，发行 7 档共 60 亿欧元票据，2028 至 2045 年到期。该票据非美元计价，未折算美元金额。",
+   "summary_en": "Alphabet sold €6B (about $6.7B) of notes in 7 tranches due 2028–2045, its second euro bond sale of 2026, according to its 424B2 prospectus filed on 2026-11-04; the dollar figure is the conversion reported at launch.",
+   "summary_zh": "Alphabet于 2026 年 11 月 4 日提交 424B2 发行说明书，发行 7 档共 60 亿欧元（约 67 亿美元）票据，2028 至 2045 年到期，为其 2026 年第二次发行欧元债券；美元金额为发行时报道的折算值。",
+   "amount_text_zh": "60 亿欧元，按报道约 1.117 的汇率约合 67 亿美元，共 7 档：7.5 亿欧元浮息票据（2028 年到期）、7.5 亿欧元 3.700%（2028 年）、12.5 亿欧元 4.050%（2030 年）、7.5 亿欧元 4.250%（2032 年）、7.5 亿欧元 4.500%（2035 年）、7.5 亿欧元 4.875%（2039 年）、10 亿欧元 5.250%（2045 年）；2026 年 11 月 5 日交割",
    "sources": [
+    {
+     "url": "https://www.globalbankingandfinance.com/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-tech/",
+     "publisher": "Global Banking & Finance Review (Reuters)",
+     "date": "2026-11-02",
+     "title": "Alphabet Tests Tech Debt Market with €6 Billion Bond Sale",
+     "type": "news"
+    },
     {
      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm",
      "publisher": "SEC EDGAR (Alphabet Inc. 424B2)",
@@ -30,7 +74,7 @@
    ],
    "added_by": "rules",
    "origin": "curated",
-   "counted_usd": 0,
+   "counted_usd": 6700000000,
    "contingent_usd": 0
   },
   {
@@ -88,10 +132,18 @@
    "status": "signed",
    "confidence": "confirmed",
    "title_en": "Oracle $10B bond sale alongside a $10B share sale",
+   "last_checked": "2026-11-04",
    "title_zh": "甲骨文发行 100 亿美元债券，同时出售 100 亿美元股票",
    "summary_en": "Oracle priced $10B of senior notes in five tranches with coupons from 7.0% to 8.65%, alongside a separate $10B common stock sale, to fund its AI data-centre build-out; Oracle had said these two deals use its whole $20B cap on new capital through fiscal 2030. Both were set to close on 4 November 2026.",
    "summary_zh": "甲骨文定价发行 100 亿美元优先票据，分五档，票息 7.0% 至 8.65%，同时另行出售 100 亿美元普通股，为其 AI 数据中心建设融资；甲骨文此前表示，这两笔交易用尽了其至 2030 财年新增融资 200 亿美元的上限。两笔交易预计于 2026 年 11 月 4 日交割。",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445846/d181336d424b2.htm",
+     "publisher": "Oracle (SEC 424B2)",
+     "date": "2026-11-04",
+     "title": "Oracle final prospectus supplement: $10,000,000,000 senior notes",
+     "type": "filing"
+    },
     {
      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-announces-pricing-20-billion-030900901.html",
      "publisher": "Oracle (PR Newswire via Yahoo Finance)",
@@ -170,6 +222,13 @@
    "summary_en": "Oracle priced an underwritten sale of about 86.2 million new shares at $116, raising $10B before costs, alongside a separate $10B bond sale, to fund its AI data-centre build-out. The shares were sold at an 11% discount and Oracle's stock fell sharply on the news; the deals were set to close on 4 November 2026.",
    "summary_zh": "甲骨文定价包销发行约 8620 万股新股，每股 116 美元，扣除费用前募资 100 亿美元，同时另行发行 100 亿美元债券，为其 AI 数据中心建设融资。新股折价 11% 发行，消息公布后甲骨文股价大跌；两笔交易预计于 2026 年 11 月 4 日交割。",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445847/d181425d424b5.htm",
+     "publisher": "Oracle (SEC 424B5)",
+     "date": "2026-11-04",
+     "title": "Oracle final prospectus supplement: 86,206,897 shares of common stock",
+     "type": "filing"
+    },
     {
      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-announces-pricing-20-billion-030900901.html",
      "publisher": "Oracle (PR Newswire via Yahoo Finance)",
@@ -295,6 +354,45 @@
    ],
    "origin": "curated",
    "counted_usd": 25000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "anthropic-riot-platforms-2026-10-corsicana-lease",
+   "kind": "lease",
+   "subkind": "data-centre lease (powered land, triple net)",
+   "subkind_zh": "数据中心租约（电力配套土地，三重净租赁）",
+   "from": "anthropic",
+   "to": "riot-platforms",
+   "amount_usd": 28000000000,
+   "amount_text": "~$28B over the 15-year initial term per Riot; base rent $130 per kW of critical IT load a month for each delivered block, rising 3% a year; 910 MW in three phases (400, 200 and 310 MW); two five-year extensions at the tenant's option",
+   "amount_text_zh": "据 Riot 披露，15 年初始租期约 280 亿美元；每个已交付区块的基本租金为每千瓦关键 IT 负载每月 130 美元，每年递增 3%；910 兆瓦分三期（400、200 和 310 兆瓦）；租户可选择两次各续租 5 年",
+   "announced": "2026-10-28",
+   "term": "15 years from the last phase's commencement; phases due Sept 2027, Jan 2028 and July 2028",
+   "term_zh": "自最后一期起租日起 15 年；三期分别预计于 2027 年 9 月、2028 年 1 月和 2028 年 7 月交付",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Anthropic leases Riot's entire Corsicana campus (910 MW, ~$28B)",
+   "title_zh": "Anthropic 租用 Riot 科西卡纳整个园区（910 兆瓦，约 280 亿美元）",
+   "summary_en": "Riot Platforms leased the whole 910 MW of its Corsicana, Texas campus to Anthropic for a 15-year initial term worth about $28B, its second lease with Anthropic after Rockdale. Riot builds the power and site infrastructure; Anthropic brings its own computing equipment and pays taxes, insurance and electricity. The lease was signed on 28 October and took effect on 4 November 2026.",
+   "summary_zh": "Riot Platforms 将其得州科西卡纳园区全部 910 兆瓦租给 Anthropic，15 年初始租期价值约 280 亿美元，是继 Rockdale 之后与 Anthropic 的第二份租约。Riot 负责建设电力和场地基础设施，Anthropic 自备计算设备并承担税费、保险和电费。租约于 2026 年 10 月 28 日签署，11 月 4 日生效。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926122417/riot-20260930x10q.htm",
+     "publisher": "Riot Platforms (SEC 10-Q)",
+     "date": "2026-11-04",
+     "title": "Riot Platforms quarterly report for the period ended 30 September 2026 (Corsicana Lease with Anthropic PBC)",
+     "type": "filing"
+    },
+    {
+     "url": "https://www.tradingview.com/news/cointelegraph:df36f8a9d094b:0-riot-shares-surge-on-28b-ai-lease-as-hut-8-sinks-on-revenue-miss/",
+     "publisher": "Cointelegraph via TradingView",
+     "date": "2026-11-04",
+     "title": "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 28000000000,
    "contingent_usd": 0
   },
   {
@@ -2587,16 +2685,24 @@
    "from": "anthropic",
    "to": "riot-platforms",
    "amount_usd": 9100000000,
-   "amount_text": "~$9.1B expected contract revenue over 20 years to June 2048 (~$16.1B if both five-year extensions are exercised); tenant named by Bloomberg, not by Riot",
+   "amount_text": "~$9.1B expected contract revenue over 20 years to June 2048 (~$16.1B if both five-year extensions are exercised); Riot's Q3 2026 10-Q names the tenant as Anthropic PBC",
    "announced": "2026-08-10",
    "term": "20 years; 96 MW from Dec 2027, full 191 MW from Jun 2028",
    "status": "signed",
-   "confidence": "reported",
-   "title_en": "Riot leases 191 MW at Rockdale to a frontier AI lab, reported to be Anthropic (~$9.1B)",
-   "title_zh": "Riot 将 Rockdale 191 兆瓦租给前沿 AI 实验室（据报为 Anthropic，约 91 亿美元）",
-   "summary_en": "Riot Platforms signed a 20-year lease of 191 MW of critical IT capacity at its Rockdale, Texas site with what it called a leading frontier AI lab, worth about $9.1 billion; Bloomberg reported the tenant is Anthropic. Morgan Stanley provides a $573 million interim loan for the build-out.",
-   "summary_zh": "Riot Platforms 与一家“领先的前沿 AI 实验室”签订得州 Rockdale 园区 191 兆瓦关键 IT 容量、为期 20 年的租约，价值约 91 亿美元；彭博社报道租户为 Anthropic。摩根士丹利为建设提供 5.73 亿美元过桥贷款。",
+   "confidence": "confirmed",
+   "title_en": "Riot leases 191 MW at Rockdale to Anthropic (~$9.1B)",
+   "title_zh": "Riot 将 Rockdale 191 兆瓦租给 Anthropic（约 91 亿美元）",
+   "summary_en": "Riot Platforms signed a 20-year lease of 191 MW of critical IT capacity at its Rockdale, Texas site with what it first called a leading frontier AI lab, worth about $9.1 billion; Bloomberg reported the tenant was Anthropic and Riot's Q3 2026 10-Q confirms it. A $573 million delayed-draw term loan funds the build-out.",
+   "summary_zh": "Riot Platforms 与一家起初称为“领先的前沿 AI 实验室”的租户签订得州 Rockdale 园区 191 兆瓦关键 IT 容量、为期 20 年的租约，价值约 91 亿美元；彭博社报道租户为 Anthropic，Riot 2026 年第三季度 10-Q 予以确认。一笔 5.73 亿美元延迟提取定期贷款为建设提供资金。",
+   "last_checked": "2026-11-04",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926122417/riot-20260930x10q.htm",
+     "publisher": "Riot Platforms (SEC 10-Q)",
+     "date": "2026-11-04",
+     "title": "Riot Platforms quarterly report for the period ended 30 September 2026 (Rockdale and Corsicana leases with Anthropic PBC)",
+     "type": "filing"
+    },
     {
      "url": "https://www.datacenterdynamics.com/en/news/riot-platforms-agrees-191mw-20-year-lease-agreement-with-anthropic-worth-91bn-report/",
      "publisher": "DatacenterDynamics",
@@ -2725,6 +2831,45 @@
    "amount_native": 2000000000,
    "origin": "curated",
    "counted_usd": 2000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "amd-taalas-2026-08-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition",
+   "subkind_zh": "收购",
+   "from": "amd",
+   "to": "taalas",
+   "amount_usd": 2900000000,
+   "amount_text": "~$2.9B in cash and stock including up to ~$1.4B of contingent consideration, per AMD's Q3 2026 10-Q (not disclosed at announcement); closing expected by the end of 2026",
+   "amount_text_zh": "据 AMD 2026 年第三季度 10-Q，约 29 亿美元（现金加股票，含最多约 14 亿美元或有对价；宣布时未披露）；预计 2026 年底前完成",
+   "announced": "2026-08-06",
+   "term": "Closing expected by the end of 2026, subject to regulatory approvals",
+   "term_zh": "预计 2026 年底前完成，须获监管批准",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AMD to acquire AI inference chip start-up Taalas (~$2.9B)",
+   "title_zh": "AMD 收购 AI 推理芯片初创公司 Taalas（约 29 亿美元）",
+   "summary_en": "AMD agreed to buy Taalas, a Toronto start-up that hard-wires AI models into specialised inference chips, to pair its silicon with AMD Instinct GPUs. AMD did not give a price at announcement; its Q3 2026 10-Q values the deal at about $2.9B in cash and stock, including up to about $1.4B of contingent payments.",
+   "summary_zh": "AMD 同意收购多伦多初创公司 Taalas，该公司将 AI 模型固化到专用推理芯片中，AMD 计划将其芯片与 AMD Instinct GPU 搭配。宣布时 AMD 未披露价格；其 2026 年第三季度 10-Q 显示交易价值约 29 亿美元（现金加股票），其中或有对价最多约 14 亿美元。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+     "publisher": "AMD (SEC 10-Q)",
+     "date": "2026-11-04",
+     "title": "AMD quarterly report for the period ended 26 September 2026 (Taalas acquisition)",
+     "type": "filing"
+    },
+    {
+     "url": "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
+     "publisher": "AMD",
+     "date": "2026-08-06",
+     "title": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market",
+     "type": "official"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 2900000000,
    "contingent_usd": 0
   },
   {
@@ -3009,6 +3154,46 @@
    ],
    "origin": "curated",
    "counted_usd": 3500000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "amd-core-scientific-2026-07-leases",
+   "kind": "lease",
+   "subkind": "AI data-centre leases (triple net) with lease credit support",
+   "subkind_zh": "AI 数据中心租约（三重净租赁）及租约信用支持",
+   "from": "amd",
+   "to": "core-scientific",
+   "amount_usd": null,
+   "amount_text": "Core Scientific cites more than $14B of base contracted revenue over 15 years (2.5% annual escalators) for ~530 MW at five campuses: ~380 MW leased to AMD directly and ~150 MW leased to an unnamed neocloud with AMD's full credit support; the split is not disclosed, so no amount is counted on this edge. AMD received warrants for up to 30M Core Scientific shares at $23.47 and reservation rights for ~2 GW more",
+   "amount_text_zh": "Core Scientific 称五个园区约 530 兆瓦的 15 年基础合同收入逾 140 亿美元（每年递增 2.5%）：约 380 兆瓦直接租给 AMD，约 150 兆瓦租给一家未具名新兴算力云公司，由 AMD 提供全额信用支持；两部分金额未分开披露，故本条不计金额。AMD 另获认购最多 3000 万股 Core Scientific 股票的认股权证（行权价 23.47 美元），以及约 2 吉瓦的额外容量预留权",
+   "headline_usd": 14000000000,
+   "announced": "2026-07-28",
+   "term": "15 years; about half delivered in 2027, the rest in 2028",
+   "term_zh": "15 年；约一半容量 2027 年交付，其余 2028 年交付",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "AMD leases ~530 MW from Core Scientific (>$14B, with warrants)",
+   "title_zh": "AMD 向 Core Scientific 租用约 530 兆瓦（逾 140 亿美元，附认股权证）",
+   "summary_en": "Core Scientific signed 15-year agreements with AMD for about 530 MW at five campuses, which it says carry more than $14B of base contracted revenue: roughly 380 MW leased to AMD and about 150 MW to an unnamed neocloud whose rent AMD fully backs. AMD also got warrants for up to 30 million Core Scientific shares and reservation rights for about 2 GW more, a rare case of a chipmaker leasing data-centre space itself.",
+   "summary_zh": "Core Scientific 与 AMD 签署 15 年协议，涉及五个园区约 530 兆瓦，公司称基础合同收入逾 140 亿美元：约 380 兆瓦租给 AMD，约 150 兆瓦租给一家未具名新兴算力云公司，其租金由 AMD 全额担保。AMD 还获得认购最多 3000 万股 Core Scientific 股票的认股权证及约 2 吉瓦额外容量的预留权，芯片厂商直接租用数据中心实属少见。",
+   "sources": [
+    {
+     "url": "https://lasvegassun.com/news/2026/jul/28/core-scientific-announces-second-quarter-2026-resu/",
+     "publisher": "Core Scientific (press release via Las Vegas Sun)",
+     "date": "2026-07-28",
+     "title": "Core Scientific Announces Second Quarter 2026 Results",
+     "type": "news"
+    },
+    {
+     "url": "https://datacenterknowledge.com/deals/core-scientific-doubles-ai-capacity-to-1-1-gw-in-14b-amd-deal",
+     "publisher": "Data Center Knowledge",
+     "date": "2026-07-29",
+     "title": "Core Scientific Doubles AI Capacity to 1.1 GW in $14B AMD Deal",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 0,
    "contingent_usd": 0
   },
   {
