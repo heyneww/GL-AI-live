@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-04T02:02:30Z",
+ "generated_at": "2026-11-04T04:30:38Z",
  "monitor": {
-  "last_run": "2026-11-04T02:01:54Z",
+  "last_run": "2026-11-04T04:30:07Z",
   "sec_items": 198,
-  "news_items": 3358,
+  "news_items": 3377,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-04T02:01:54Z",
+    "last_run": "2026-11-04T04:30:07Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-04T02:01:54Z",
+    "last_run": "2026-11-04T04:30:07Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 560,
-    "added": 22,
-    "evicted": 0,
-    "unread": 358,
+    "items": 592,
+    "added": 20,
+    "evicted": 1,
+    "unread": 377,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3358,
+    "total": 3377,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-04T02:01:54Z",
+    "last_run": "2026-11-04T04:30:07Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24089,6 +24089,150 @@
  ],
  "news": [
   {
+   "id": "n00b74018c5071221",
+   "title": "Nvidia’s China Clients Expect 1% of $70B in RTX Chip Orders",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObWdoSy02cENMMFBMZXlhS183cHk0VTdMakRiWkp3dGV1SlREdEg4Rk5ZVTNqTGdXQWRaMEw4TGFkUFdXSUdfaVhJSjFUWmE5MFZjOVhqN1FDa19nX3BvY0RqTTRoZm1lZkpnRnlNS1FEU25Mam5VX2MzQTNPRndIb3FDYTNGV3FUeVJmQw?oc=5",
+   "publisher_url": null,
+   "publisher": "FourWeekMBA",
+   "published": "2026-11-04T04:00:11Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n93ece296120c687c",
+   "title": "AMD’s AI Chip Surge Exposes the Infrastructure Race Behind Data Centres",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdE5hOHNqVjFNcVAzUzh2cVVlaHhCRHo4MmpwdnpnQThEV0xXTGJyLW9JTGp5TllYM2NQNlNOTVRCdXU1MGtOQTFVTVFsd1cwMmZFR21jYmRGQWJuVWJpRmRQTnlvUDR4UlBiZXRWNWNMMW04dXQ3cFBCR0RwbFdTS1VMenp0c3NtYVFyLUZEamE1Y0o1cG9BZQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Urban Acres",
+   "published": "2026-11-04T03:43:21Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "amd"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nd7e2a6071b6d1400",
+   "title": "Nvidia allocates 1% of $70B RTX chip order to China clients",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYWm1GR2txMVhFVFQ0LU1FSUs1SHZJRWIzMUpQY2swYlJhSkVxSlJ4M3ZpTkxEVjMzT3QzMVJSMENOck1GSk9yRkF4bmtRV0lXN1Mwcm8wVWlGOTJKRVdfWU9BYXVJTHJ3blNUdmtJYU9lQQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Crypto Briefing",
+   "published": "2026-11-04T03:21:42Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n19b30229721fdab6",
+   "title": "Brookfield (TSX:BN) Plans £20 Billion England AI Data Center Push",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT1l3LTdleEFkN0VhTlVwSENVYVlKR0JCQVlmenFTNHZsZ1pCOHF4LV9ydEk3YjJJRGNQN3V5T1RrR1BoUG5aczdDcHRTMU9sa0lwTzJqdnVwRG15UkpxOHAtNkFmV2doNjN6QV85Vlp2aC1VM3ZhZ2JHdmJHQ19pbg?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance Australia",
+   "published": "2026-11-04T03:21:00Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:2d",
+   "entities": [
+    "brookfield"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nfd607b78eef80d71",
+   "title": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDF2WGJ0VTU5c0hYZ3BSLTJzWHd4eHc2N0trQlNwZ2MzcjYwRnpOUXExalczVW9yODBJTXVnUDZ6MGVPQzI3allYS0Q3eG1qblB3Nm1oQlcyQ0xzOU9CTjdqR0dTeURvUzhSYkQ1dnJFbTVieFplUmU3Unh1VjlWNS02SVZWWk1NRVBWQ1hvWGxRczhqVWt4ektFUWRjMW1KMEpYRmpNY2N0X1dySmRuUzNB?oc=5",
+   "publisher_url": null,
+   "publisher": "Bloomberg.com",
+   "published": "2026-11-04T03:14:00Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nc2be19bc15c61a4b",
+   "title": "PDG secures USD 1.3 billion green loan for Johor data center expansion",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTWFTYmNXWmxtMURSSlFoeHh1dWk3LTJTazZjWGUtNmVlTVE2bEx6bFYyc0NRR1VrZ3BQWEpnZW1oQVVhYXloT0lIUE1KT2dSR0tNcWxvd3FJWWw0cFZRallPdGpqOFpSTGpvWDA1dkh2dE5RZi1hOVNEeXRPS1JiY1NUUF9PTmt4RDhmUDRNaFI?oc=5",
+   "publisher_url": null,
+   "publisher": "W.Media",
+   "published": "2026-11-04T03:01:00Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n8035debcf52da709",
+   "title": "Meta raises US$15 billion in five-part US bond sale to fund AI expansion",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNC1ZR3dlUE93cmFPRDY5YS1oQ0hkZ2hYeG5hQ3A2d2N6SXl6ZGRoQVlxclVLc2Uzbk5ucG9DSWkzSzNYbzIxMmdGcDRtNU1HaXd0X2syRkdxSWxTUlBLRkdRaFFqaWRRQWFOMGNEdmI4eEUtQU9wRUxqaXRGOVRqX28tendGMlBnN202SEQ2Vk1LdlZJWWxVMFlPdW52ZVJ1Y0xraTFRSU1FZUtQc2YzQ2Z0QkpnX1Zfb2ZwTHJjeFpmUHM?oc=5",
+   "publisher_url": null,
+   "publisher": "The Standard (HK)",
+   "published": "2026-11-04T02:35:14Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "AI data center financing debt when:2d",
+   "entities": [
+    "meta"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nc56f05d847122f32",
+   "title": "AMD, Supermicro surge on AI-driven earnings",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVkM2QVo0Q0RFaUZzSXR1R3FySmt5Mi1VdUthbmVKeC1TZ21DVV9teGVGeGtwLUpkY0tnQ1gzZHc3clZubmNybmNYTEdoTEVoMnAzb0R1dXBBNF9SeFpROXM1aHNOS084TWNVa2VhbUR1bWRJZ2EzTVVTVzAtRWR5cWF6SXBwUG9X?oc=5",
+   "publisher_url": null,
+   "publisher": "조선일보",
+   "published": "2026-11-04T02:25:32Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "amd"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n23745740db6e1641",
+   "title": "AMD's OpenAI, Meta chip deals trigger $1 billion quarterly charge",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY3RKZ3JJTFBHVzJUVXg5b3plRk1ia1FPSFhZNE9FUEtPd3pBQ2ZSa2psVmphTk43UEs2cUxxc1ZfMDRYOUFzMHhROXN5WmoxZURqU29xRDVhS05CRnFJZjZwTHNySkJGbzd1Z0ZadDdlcUdxaV9CSE1xUERDQXZ4S1hWT0dZME1mV1VpTW45dXVMRzNiRmcyZHN0Ql9mbHlpdzBZd216czZCY29ydzdZbGtWSFByRDdvcGc?oc=5",
+   "publisher_url": null,
+   "publisher": "Reuters",
+   "published": "2026-11-04T02:12:00Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "amd",
+    "meta",
+    "openai"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "nef85d3c119bbfea9",
    "title": "Generative Media Inference Platform fal Raises $1.3B Series F",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuSWV6TnREcWM2azhzVXlEdGFQRjJTN0RGZHBtdnRmV1BvbE9zbURJbmJaU1pVWUVvMXoyaEFwNEFJaXdVcU1UODUxTF9Tdnh4dTh3?oc=5",
@@ -24144,6 +24288,22 @@
    "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
    "entities": [],
    "fetched_at": "2026-11-04T02:02:17Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n523ca3d43d8cc1f3",
+   "title": "Bitdeer on building AI/HPC infrastructure across three regions",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZDJ3T2lQaUtsbnhSZFZIb0w2OTRqZk5zeEF6NG1JRkNuYmMzLWpDeXZqS3FxRDk5cFR1VXkxTmpLcElMNkNqUTUzX1hINDlub2Ytc2lUOTFfeFVxb1ZXUDc2ci1mX0lYWHgwQUlaQU1wRVBzSGh3UkRpM0Z5MWwyV3Bud0xYemtoa3c?oc=5",
+   "publisher_url": null,
+   "publisher": "TNGlobal",
+   "published": "2026-11-04T01:28:04Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
+   "entities": [
+    "bitdeer"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
    "matcher_version": "3.2"
   },
   {
@@ -24206,6 +24366,22 @@
     "anthropic"
    ],
    "fetched_at": "2026-11-04T01:40:25Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n1d86f73ccf5535fb",
+   "title": "Why Riot Platforms Stock Is In Focus As $573 Million Loan Deadline Nears",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2pmaDhWdGZUblRVWThlOGxjWW1hVU5lSk8wc3k5YjJxMVkya3kxaFJ6UGxYSnhCRUh0b0Q3R3FMNG5KUzRqS3Z3VEtFVEo4X2x3STNPSmxVU09MOHg4UTM5dVNtNXNDZzd4RFZick1TbkQyUEptWmJ4djFkbmJLZXd0dWlwTXZDX09xQkctRTQ5Y18wX2I1dmJlWQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-04T01:11:00Z",
+   "date": "2026-11-04",
+   "lang": "en-US",
+   "query": "private credit AI data center loan when:2d",
+   "entities": [
+    "riot-platforms"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
    "matcher_version": "3.2"
   },
   {
@@ -24473,6 +24649,22 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "nc00df74c05a8b3b5",
+   "title": "IREN (NASDAQ:IREN) Shares Up 11.1% - What's Next?",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdU11clJZZERyMC02bmxxQ2ZULTZvUTF1TXU2TXFRdnN5V2ZleWhVdEgydmNremJwb2tVSV9xY09KbElnWEJNcmhFWXQ3R2dsZ040dVhFWGhvSERDdWRvcWZCZTY0ZXQwdzJtTUctSDFVeUVjY3Y2NWQzQV9Gb1dIdWlVdFppcDJ4Vk5PelVkanFWb3lDX3hOTXRmSTJTQVptbjZB?oc=5",
+   "publisher_url": null,
+   "publisher": "MarketBeat",
+   "published": "2026-11-03T22:41:09Z",
+   "date": "2026-11-03",
+   "lang": "en-US",
+   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
+   "entities": [
+    "iren"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "nee9784980e3cba55",
    "title": "AMD Stock Surges 8% After Hours As Q3 Sales Surge 45% On AI Boom, And Expectations For 80% Revenue Jump In 2027",
    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOX0daOEZpdUdzbVprVFVwTGN3NnAxcjlrbHVuQ1BRMXgzYlM3OXIxSHExblVvenNxYzBjN2FMUFZ1OE5UbXd3dEpSZWZBbWl1UjktUjFxNUFjSWw5S1lvZVJXeGIwU2M0cGwwNWg3cS1hZldUOUhHUi1JMWU5aklpZTBOOENGekhZb3YyQ2xmNXhXRUhneDV3eWF3amhKbFUwbFl4R0VKNFBKV1U0b2RJeWhYYThSb0MyZE5CbnZLWl80U0lHU3BveUFkekVRZDVCV0l6MTIwNk5pclFEdTJjWGhxLVJaa3hYVVRMSHZKc1R6SnFFeGh3OGFKZDI?oc=5",
@@ -24502,6 +24694,24 @@
     "amd"
    ],
    "fetched_at": "2026-11-04T01:40:25Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n71e6dc3e53de6051",
+   "title": "Top 20 by Trading Volume | Oracle surges 6%, issuing shares worth tens of billions at an 11% discount; Jensen Huang personally approves a mega-merger in the optics industry; Tesla's European sales soar; Apple's debut under its new leadership falters, with",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcFZfTGZWZE5fSFJSRG5tNGNQQWNGeEozQ1VkMVpHa2ZuZ3hDZndERVl1VkhyWVBkSUNqLTFjaF94YlVTTTRJRDVkR0dBeDd5Nmg1YlpZdkJUVXJQaHZGMDRrbnN4ZkwzeldxUk1XTmIwT1BuUnA5Tm1DWWlIVmJ5dDFOU0thZHMzTzMxd3docWVaTy1VbTNwUnJ2TEdGVVU?oc=5",
+   "publisher_url": null,
+   "publisher": "富途牛牛",
+   "published": "2026-11-03T22:26:12Z",
+   "date": "2026-11-03",
+   "lang": "en-US",
+   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:2d",
+   "entities": [
+    "apple",
+    "oracle",
+    "tesla"
+   ],
+   "fetched_at": "2026-11-04T04:30:24Z",
    "matcher_version": "3.2"
   },
   {
@@ -24803,197 +25013,6 @@
     "amd"
    ],
    "fetched_at": "2026-11-04T01:40:25Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ndadcb329c4642ada",
-   "title": "While the Rest of the Market Focuses on the Anthropic IPO, These Are My Top 2 Stocks to Buy in November",
-   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQcnJZNjJZckt1SHRkVElXME5vYkdtamlzZWFpMDlsTk55b3pudjJjRURNZnpnLWJlY0xtcERPNkh1bHc1Q3VjN1FSWVR4U0oyMlo2R0htaVN1aUg4WEdydllYLWNaUnpTWEZ3Uzh0MVVhTHhPdWJpVlBOUTVqVVU0NXcyRkZPclFkcFpZajhJcGN3TWg0ZTJlVTM5U2ZSLWFxNk5lMndDaDgzNG1oaXZDRGwwR29DT2MzdkVDd2h1T0RhVXFNd1NoUHpnQXJmdFNWV3hxX1k0VlFDSmFaamFpelI2OFRydUhPWUhJdkZWbEYyQzdXWTdIVnFIRTd5ckdCVWdnRGVtS3VyWHZQM1FYVGdVd21VQQ?oc=5",
-   "publisher_url": null,
-   "publisher": "The Globe and Mail",
-   "published": "2026-11-03T21:21:23Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n79129fdcf569296b",
-   "title": "Anthropic's $100B+ IPO Could Value It at $1.5T, Rivaling SpaceX's Record",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjMyeHlMczd5dEtZWTQwRWt3NnowblRBSDlZRmtKUFBNa1VqNV92Rl90aXVmZUlUX0RDLXFzMlllTW9fUGtDUGJVVW1uVVp3d01vYzVQcUhKeDlzMnlmRWtja1BPQkdSVV9oQzdOSjlhS01XbFloRnF5akdWTHVoXzdkV0VsSWMtVTBxUl9hSy1BbUJjQVRJNk4xbEo1STc3YS1keA?oc=5",
-   "publisher_url": null,
-   "publisher": "KuCoin",
-   "published": "2026-11-03T21:15:10Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic",
-    "spacex"
-   ],
-   "fetched_at": "2026-11-04T01:40:25Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n8db86712d1bd8916",
-   "title": "Mayville Engineering Company Announces Third Quarter 2026 Results",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM21EUUp0Y25rWjVsRUpGWUJpamN4bnNDUHBpbklKdzhETTNxaHdTMThWMl9xVFFyYmV1NVpyYkVlTHhBRkJ3Q0l4Yi1nUU1qb2xSdTNHc2lyaF9VM1VvRWs0Si0yelNNamZVMG1wNWxxNUNPZ3o3ZkhvSGZYWnN4c05KR193X05lZ2pLT21iRkpCbEkwUjM3S2tvZTJWTkdFR3NPMmprSXBEQ1VzSkZRQzZvczRzaXlIYWVpaWZJSQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-03T21:15:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-04T01:40:25Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n8477703c8b667cd2",
-   "title": "Community Healthcare Trust Announces Results for the Three Months Ended September 30, 2026",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTnEzdlRKMlozbzhOeVNOcm1NZ3ZPODdPaE1WeGNqa05aR1BzZ3FNQkNpNWc3dUpsSkk1QlRxbWFyQUtReERZeHUtYi1WU1k1czFGcTVaTVBKMUlJbFY2WHlMallQbGF5a1ktUS04dmZWeF80VmJVWTRiS0dZYkJZOWFDYUtOazR1SzRMaV9aZWNyRGtTT3VNUGlvek1MUHlmck5CelI1WkRzdzFXWW9qTFpoU1RXWjBwbHlac21ZWi1RX1NZbEI1Yk1kd3Q0THlRN0ZfU0c5VEwtMmxHcXc?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-03T21:15:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n7129de3858ada9f2",
-   "title": "BRAEMAR HOTELS & RESORTS ANNOUNCES CLOSING ON SALE OF FOUR SEASONS RESORT SCOTTSDALE",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRm5DclhFNW1EQ2lFUThfbV9GT0liMG9laWcxQnB6R0t6bGFqZEtBckZWV0p5MU14TG9BZUk0R19rSno0TllrOUd5RGJQVkdpaWRJc0J5dFc5MElISXdGbjRtbmJnNXNKSURjY3F2Z0pjM0pHMEx5eUxuLUIxd05LaHJJd2o1NzN2OHFwWkdSTEwzV1JHaEQzN3VMM0Q5WmxaNGJhNlF4aWJadlVOM1BoWmduNGFMVTNIaVFQY1hBVWFjQ3VxeWNHZHRTcEh4dEFOVDVUb2ln?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-03T21:15:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n6b1070aab15f6251",
-   "title": "Talos Energy Announces Third Quarter 2026 Operational and Financial Results",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMFdhcXlhWVdPRlBoVHRfQTR0YmNlaC14dkpWa2d3YWkyT3NFLXZnWEYxQ3JibDB2OEtWVVdONUtLOUJZWTJnMmFHSnNZb1ByRE10anZncVo2M3o5bUtuMEtOR1JwRlNESlkxVUNNeE83NjhBRGV0Q3plSUhnanlfY2ZzV04wTk51c2Nka3dDN1VUNmJXSVlqS0VsT1RmNXZMbnRDRXN5aW5BU0IzLXl3b180SENMVnE2OEVTQ1FRVkktVFNRS3BJeEk0TQ?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-03T21:15:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nc7c8270a93be1c7f",
-   "title": "Verizon advances AI presence with $4B in AI Connect contracts",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbG4yMFdMTUcwU2tLQUEwS0Z4V1Q3d2JkZlpsaWpmT3ZncGRYUEhvN3gwSmVHWlhPQ1JFSlpFWkJZN0JORWtvT1Y0a201MjNpR19xS3prUFh2dGN6ZEVvNFZLZlJBNVEwdG9KNHFRd3VpYWdHdHlUSVpnN29fWUNVUl9nZTJwbEpXeXhUUjFtYW9fS1dBeUVJVXBXSFJZdGpWNHZRSnJWOG00b1FEM215Vw?oc=5",
-   "publisher_url": null,
-   "publisher": "Lightwave Online",
-   "published": "2026-11-03T21:14:32Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "(Microsoft OR Google OR Amazon OR Meta) AI infrastructure agreement billion when:2d",
-   "entities": [
-    "verizon"
-   ],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n1213b681a3a05b64",
-   "title": "TeraWulf Lost 20% in a Month. KBW Cut Its Target but Still Sees 62% Upside",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV193c0dGNk5zdktxZk9NY3RQcEFmLVNjMmFFM0g3N0hRcnFNWFpJZHB0Nm1TZmFKa1k5dVJkb0NTYWM5SW9tZjF2bWFzdE5WZVBuV0R3NFh3ellDeGhBaEpyUjNlZ09vdTl1d1MwalBEc0NJY0syZDN4d3dDNUJNX1BoZTlYamkyeWFPVkRlOE8tNTdRMEgwcUJwTWU3d0E?oc=5",
-   "publisher_url": null,
-   "publisher": "TIKR.com",
-   "published": "2026-11-03T21:11:15Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:2d",
-   "entities": [
-    "terawulf"
-   ],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nbea3596379a6d8b4",
-   "title": "Supermicro Announces First Quarter of Fiscal Year 2027 Financial Results",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWEZ2UTUtbjNYOURCMTluZ1dJaWs5aEZjb293ZXBTSS1kVVlieXFmb080ZEpKdUNWZTNKUENtV1cwSWM3VnRXdzkwa25sYXptM3RwSThoa2hoSEFSLWFTY3IyaTQ4eWhkTy1YNmJKcDlkSVBWVGlQSTE5ZUxHOFcxRnQtZmxfOGNaTVduQUNxQVU5R2NwdXpTX290UmRxeUwzMURpSTQ5WmpaTWQxMjhBUXF4ZmxXSkVOd1lIOG5fQmtHQmh2Tk1SOA?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-03T21:05:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "na4efae34c5edb293",
-   "title": "BlueLinx Announces Third Quarter 2026 Results",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY0s1cncwa2FOUW11LW44RzAzS3l2SnI1QTQ4XzgzbEJGamhDSzhxX0p5R3hhV0lEc0lJdnhZRXBsMDZYMGctXzJXeW40QXRrSURYMldTcmVrdVNLdzludEcyOHF5Z0VJVXl2b0EwLVA2WlhQWmw1Unhxb19pTmVkSDFRNE91b2M1YVcyXzZpeFRLSXUwZm5CMC1jY2tXTjM1MENudA?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-03T21:05:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n8215cc3714ef0d88",
-   "title": "Fortune Brands Announces Third Quarter Results, Taking Action to Revitalize the Company's Performance",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObmc5UUdtVnlCX2tIdEhVVXNqTndJaTQyOW5nQ1AyX3ZlazJQNDRWU2lVbEdDa3B0b0tfbi1jTVVMT0lldzcyYkJpX1IzS08yQmJGNVhPVXVSUk5laEZRQlhDVnVzN1NJc0JWcUNiVlY4eUs2NzVuaXQ2bUNUdE1jU01jTUxRV3pkRkNFTU1mWUkxS1MzVnVuYmFrWVN2UkhEY20wZmdXUVZSS2FKWng2cFJUNklGdDNVVTZ6TFBBOEhZVzdHM0cwMHNvMXBVMGNER1RNQ1ljNDFDcnp4NTBvUnZmSG1IbXRyZkpRTQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-03T21:05:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n7bd4881377312d8c",
-   "title": "Robotics Industry Breaking News and Press Releases",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vT0c0NElja29qWE83ZnFnNlAwWmhWV0RzUUo3RFBBNndidEd1Y1BWU2tBY3ZkVXpvd2pUSE91N0FIcjZXZ09yMDFqSEQ4Y2c3cjBYc0ktZ3EwbE5qMDlBa3B1VXNtUVdFdjZXaWNUeHNzRXcy?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-03T21:05:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n5c0cac50d159e1be",
-   "title": "Procore Announces Third Quarter 2026 Financial Results",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTVNuaDhmZDZRdWFQWWlxbEF1MFk1SUZGd0xNVXBEbzJkYVZrS2dqSmdaZ1JZQ2d4cUYzUlpVNkQ0c1RaYnIxQXozcmlIcFotNGdIMDRtUTlmTUl5VjBlNnZOeDREOGZ3TFdCSjJBWEIyRG10TGJ0TkFubk9aVUdSbWMyVy1OWU5GRXVJcU9ISmtaQThubENDOS1XeEJmLUNKTktVbVg3RUx0NGlDVU4tdw?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-03T21:05:00Z",
-   "date": "2026-11-03",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-03T22:19:21Z",
    "matcher_version": "3.2"
   }
  ],
