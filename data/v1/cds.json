@@ -1,8 +1,363 @@
 {
- "generated_at": "2026-11-04T08:23:09Z",
+ "generated_at": "2026-11-04T09:38:04Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-04, https://heyneww.github.io/GL-AI-live/",
  "note": "CDS levels as quoted in the news, each with its article; data points, not a continuous price series. Basis points a year. 媒体报道的信用违约互换水平。",
- "cds": {}
+ "cds": {
+  "alphabet": [
+   {
+    "id": "alphabet-5y-2026-07-27-seoul-economic-daily",
+    "as_of": "2026-07-27",
+    "tenor": "5y",
+    "bp": 67,
+    "url": "https://en.sedaily.com/international/2026/07/28/ai-investment-fears-grow-as-big-tech-cds-premiums-hit",
+    "publisher": "Seoul Economic Daily",
+    "title": "AI Investment Fears Grow as Big Tech CDS Premiums Hit Record Highs"
+   },
+   {
+    "id": "alphabet-5y-2026-10-29-the-edge-malaysia",
+    "as_of": "2026-10-29",
+    "tenor": "5y",
+    "bp": 84,
+    "url": "https://theedgemalaysia.com/node/823870",
+    "publisher": "The Edge Malaysia (Bloomberg story, ICE Data Services data)",
+    "title": "Google debt-risk gauge rises as earnings revive AI debt jitters"
+   }
+  ],
+  "amazon": [
+   {
+    "id": "amazon-5y-2026-10-21-beinsure",
+    "as_of": "2026-10-21",
+    "tenor": "5y",
+    "bp": 80,
+    "url": "https://beinsure.com/news/oracle-stock-price-forecast-20bn-ai-financing-raises-debt/",
+    "publisher": "Beinsure (LSEG data)",
+    "title": "Oracle (NYSE: ORCL) stock price forecast: $20 bn AI financing raises debt and dilution risks"
+   }
+  ],
+  "broadcom": [
+   {
+    "id": "broadcom-5y-2026-10-08-b-rse-global",
+    "as_of": "2026-10-08",
+    "tenor": "5y",
+    "bp": 136,
+    "url": "https://www.boerse-global.de/broadcom-aktie-die-kreditfalle/831844",
+    "publisher": "Börse Global",
+    "title": "Broadcom Aktie: Die Kreditfalle?"
+   }
+  ],
+  "coreweave": [
+   {
+    "id": "coreweave-5y-2026-10-15-cnbc",
+    "as_of": "2026-10-15",
+    "tenor": "5y",
+    "bp": 1038,
+    "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+    "publisher": "CNBC",
+    "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt"
+   },
+   {
+    "id": "coreweave-5y-2026-10-19-cnbc",
+    "as_of": "2026-10-19",
+    "tenor": "5y",
+    "bp": 1082,
+    "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html",
+    "publisher": "CNBC",
+    "title": "Stock investors are ready to move on from the AI rout. Credit investors are not"
+   }
+  ],
+  "intel": [
+   {
+    "id": "intel-5y-2025-01-31-solve",
+    "as_of": "2025-01-31",
+    "tenor": "5y",
+    "bp": 73,
+    "url": "https://solvefixedincome.com/resources/investment-grade-cds-market-summary-january-2025/",
+    "publisher": "Solve (Investment Grade CDS Market Summary)",
+    "title": "Investment Grade CDS Market Summary – January 2025",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "intel-5y-2025-02-28-solve",
+    "as_of": "2025-02-28",
+    "tenor": "5y",
+    "bp": 61,
+    "url": "https://solvefixedincome.com/resources/investment-grade-cds-market-summary-february-2025/",
+    "publisher": "Solve (Investment Grade CDS Market Summary)",
+    "title": "Investment Grade CDS Market Summary – February 2025",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "intel-5y-2025-07-31-solve",
+    "as_of": "2025-07-31",
+    "tenor": "5y",
+    "bp": 75,
+    "url": "https://solvefixedincome.com/resources/investment-grade-cds-market-summary-august-2025/",
+    "publisher": "Solve (Investment Grade CDS Market Summary)",
+    "title": "Investment Grade CDS Market Summary – August 2025",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "intel-5y-2025-08-29-solve",
+    "as_of": "2025-08-29",
+    "tenor": "5y",
+    "bp": 58,
+    "url": "https://solvefixedincome.com/resources/investment-grade-cds-market-summary-august-2025/",
+    "publisher": "Solve (Investment Grade CDS Market Summary)",
+    "title": "Investment Grade CDS Market Summary – August 2025",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "intel-5y-2026-03-31-solve",
+    "as_of": "2026-03-31",
+    "tenor": "5y",
+    "bp": 82,
+    "url": "https://solvefixedincome.com/resources/investment-grade-cds-market-summary-april-2026/",
+    "publisher": "Solve (Investment Grade CDS Market Summary)",
+    "title": "Investment Grade CDS Market Summary – April 2026",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "intel-5y-2026-04-30-solve",
+    "as_of": "2026-04-30",
+    "tenor": "5y",
+    "bp": 62,
+    "url": "https://solvefixedincome.com/resources/investment-grade-cds-market-summary-april-2026/",
+    "publisher": "Solve (Investment Grade CDS Market Summary)",
+    "title": "Investment Grade CDS Market Summary – April 2026",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "intel-5y-2026-06-30-solve",
+    "as_of": "2026-06-30",
+    "tenor": "5y",
+    "bp": 65,
+    "url": "https://solvefixedincome.com/investment-grade-cds-market-summary-july-2026/",
+    "publisher": "Solve (Investment Grade CDS Market Summary)",
+    "title": "Investment Grade CDS Market Summary – July 2026",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "intel-5y-2026-07-31-solve",
+    "as_of": "2026-07-31",
+    "tenor": "5y",
+    "bp": 81,
+    "url": "https://solvefixedincome.com/investment-grade-cds-market-summary-july-2026/",
+    "publisher": "Solve (Investment Grade CDS Market Summary)",
+    "title": "Investment Grade CDS Market Summary – July 2026",
+    "note": "month-end level from Solve's CDS market summary"
+   }
+  ],
+  "meta": [
+   {
+    "id": "meta-5y-2026-03-27-dow-jones-newswires",
+    "as_of": "2026-03-27",
+    "tenor": "5y",
+    "bp": 68,
+    "url": "https://www.itiger.com/news/2622875350",
+    "publisher": "Dow Jones Newswires (Market Talk, republished by Tiger Brokers)",
+    "title": "Meta's, Alphabet's Credit Default Protection Costs Jump After Social Media Ruling -- Market Talk"
+   },
+   {
+    "id": "meta-5y-2026-10-22-reuters",
+    "as_of": "2026-10-22",
+    "tenor": "5y",
+    "bp": 114.79,
+    "url": "https://www.ksl.com/article/51639655/metas-credit-risk-indicator-jumps-to-record-high-after-results",
+    "publisher": "Reuters (via KSL.com)",
+    "title": "Meta's credit risk indicator hits record high on increased AI spending plan"
+   }
+  ],
+  "nvidia": [
+   {
+    "id": "nvidia-5y-2026-07-24-investing-com",
+    "as_of": "2026-07-24",
+    "tenor": "5y",
+    "bp": 68,
+    "url": "https://www.investing.com/news/stock-market-news/nvidias-rising-cds-the-talk-of-wall-street-amid-circular-financing-fears-4816626",
+    "publisher": "Investing.com",
+    "title": "Nvidia's rising CDS the talk of Wall Street amid circular financing fears"
+   },
+   {
+    "id": "nvidia-5y-2026-07-27-investing-com",
+    "as_of": "2026-07-27",
+    "tenor": "5y",
+    "bp": 82,
+    "url": "https://www.investing.com/news/stock-market-news/nvidias-rising-cds-the-talk-of-wall-street-amid-circular-financing-fears-4816626",
+    "publisher": "Investing.com",
+    "title": "Nvidia's rising CDS the talk of Wall Street amid circular financing fears"
+   },
+   {
+    "id": "nvidia-5y-2026-07-29-36kr",
+    "as_of": "2026-07-29",
+    "tenor": "5y",
+    "bp": 83.7,
+    "url": "https://eu.36kr.com/en/p/3934783641566341",
+    "publisher": "36Kr (republished from Cailian Press / CLS)",
+    "title": "NVIDIA CDS Surges: The $500 Billion Off-Balance-Sheet \"Debt Ghost\" Detonates"
+   },
+   {
+    "id": "nvidia-5y-2026-08-19-investing-com",
+    "as_of": "2026-08-19",
+    "tenor": "5y",
+    "bp": 80.77,
+    "url": "https://www.investing.com/news/stock-market-news/nvidia-credit-risk-gauge-hits-new-peak-as-softbank-readies-record-bond-issue-4866761",
+    "publisher": "Investing.com",
+    "title": "Nvidia credit risk gauge hits new peak as SoftBank readies record bond issue"
+   },
+   {
+    "id": "nvidia-5y-2026-09-25-webeconomia",
+    "as_of": "2026-09-25",
+    "tenor": "5y",
+    "bp": 87,
+    "url": "https://www.webeconomia.it/cds-oracle-rischio-credito-investment-grade/",
+    "publisher": "WebEconomia",
+    "title": "Oracle sotto pressione: proteggersi dal default costa 4 volte la media investment grade"
+   }
+  ],
+  "oracle": [
+   {
+    "id": "oracle-5y-2025-11-19-sherwood-news",
+    "as_of": "2025-11-19",
+    "tenor": "5y",
+    "bp": 111,
+    "url": "https://www.sherwood.news/markets/insurance-against-oracle-default-becomes-favorite-ai-bust-hedge-bloomberg/",
+    "publisher": "Sherwood News",
+    "title": "Oracle slides as traders sour on the recently anointed AI darling",
+    "note": "stated as 1.11 percentage points a year, per ICE Data Services"
+   },
+   {
+    "id": "oracle-5y-2025-11-25-cailian-press",
+    "as_of": "2025-11-25",
+    "tenor": "5y",
+    "bp": 125,
+    "url": "https://www.cls.cn/detail/2212198",
+    "publisher": "Cailian Press (财联社)",
+    "title": "红灯闪烁！大摩警告：甲骨文CDS可能升破金融危机峰值"
+   },
+   {
+    "id": "oracle-5y-2025-12-02-fx168",
+    "as_of": "2025-12-02",
+    "tenor": "5y",
+    "bp": 128.1,
+    "url": "https://www.fx168news.com/article/%E7%94%B2%E9%AA%A8%E6%96%87-971673",
+    "publisher": "FX168",
+    "title": "甲骨文CDS飙至128基点创2009年新高！AI泡沫担忧下科技债市承压，数百亿债务或成爆雷导火索"
+   },
+   {
+    "id": "oracle-5y-2026-07-17-21",
+    "as_of": "2026-07-17",
+    "tenor": "5y",
+    "bp": 198.23,
+    "url": "https://m.21jingji.com/article/20260721/herald/1830103628cbfe43d48de3803b304fdc.html",
+    "publisher": "21世纪经济报道 (21jingji, 财联社 wire)",
+    "title": "AI信贷市场已现“恐慌迹象”？甲骨文五年期CDS创下历史新高"
+   },
+   {
+    "id": "oracle-5y-2026-07-20-21",
+    "as_of": "2026-07-20",
+    "tenor": "5y",
+    "bp": 203,
+    "url": "https://m.21jingji.com/article/20260721/herald/1830103628cbfe43d48de3803b304fdc.html",
+    "publisher": "21世纪经济报道 (21jingji, 财联社 wire)",
+    "title": "AI信贷市场已现“恐慌迹象”？甲骨文五年期CDS创下历史新高",
+    "note": "intraday high per ICE Data Services"
+   },
+   {
+    "id": "oracle-5y-2026-10-15-cnbc",
+    "as_of": "2026-10-15",
+    "tenor": "5y",
+    "bp": 282,
+    "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+    "publisher": "CNBC",
+    "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt"
+   },
+   {
+    "id": "oracle-5y-2026-10-19-cnbc",
+    "as_of": "2026-10-19",
+    "tenor": "5y",
+    "bp": 315,
+    "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html",
+    "publisher": "CNBC",
+    "title": "Stock investors are ready to move on from the AI rout. Credit investors are not"
+   },
+   {
+    "id": "oracle-5y-2026-10-28-seoul-economic-daily",
+    "as_of": "2026-10-28",
+    "tenor": "5y",
+    "bp": 274.365,
+    "url": "https://en.sedaily.com/international/2026/11/03/oracle-curbs-borrowing-as-credit-risk-eases-microsoft-bonds",
+    "publisher": "Seoul Economic Daily",
+    "title": "Oracle Curbs Borrowing as Credit Risk Eases, Microsoft Bonds Slip"
+   }
+  ],
+  "softbank": [
+   {
+    "id": "softbank-5y-2025-02-17-bloomberg",
+    "as_of": "2025-02-17",
+    "tenor": "5y",
+    "bp": 210,
+    "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/nissan-cds-rises-to-highest-in-japan-topping-rakuten-softbank",
+    "publisher": "Bloomberg (via Bloomberg Law)",
+    "title": "Nissan CDS Rises to Highest in Japan, Topping Rakuten, SoftBank"
+   },
+   {
+    "id": "softbank-5y-2025-06-30-solve",
+    "as_of": "2025-06-30",
+    "tenor": "5y",
+    "bp": 290,
+    "url": "https://solvefixedincome.com/resources/high-yield-cds-market-summary-july-2025/",
+    "publisher": "Solve (High Yield CDS Market Summary)",
+    "title": "High Yield CDS Market Summary – July 2025",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "softbank-5y-2025-07-31-solve",
+    "as_of": "2025-07-31",
+    "tenor": "5y",
+    "bp": 232,
+    "url": "https://solvefixedincome.com/resources/high-yield-cds-market-summary-july-2025/",
+    "publisher": "Solve (High Yield CDS Market Summary)",
+    "title": "High Yield CDS Market Summary – July 2025",
+    "note": "month-end level from Solve's CDS market summary"
+   },
+   {
+    "id": "softbank-5y-2026-01-05-cnbc",
+    "as_of": "2026-01-05",
+    "tenor": "5y",
+    "bp": 284,
+    "url": "https://www.cnbc.com/2026/10/22/ai-debt-and-french-bonds-stress-test.html",
+    "publisher": "CNBC",
+    "title": "AI debt and French bonds face a stress test — why it may not be over"
+   },
+   {
+    "id": "softbank-5y-2026-03-05-bloomberg",
+    "as_of": "2026-03-05",
+    "tenor": "5y",
+    "bp": 355,
+    "url": "https://news.bgov.com/private-equity/softbank-group-cds-rises-to-near-year-high-on-s-p-outlook-cut",
+    "publisher": "Bloomberg (via Bloomberg Government)",
+    "title": "SoftBank Group CDS Rises to Near Year-High on S&P Outlook Cut"
+   },
+   {
+    "id": "softbank-5y-2026-03-09-cn-press",
+    "as_of": "2026-03-09",
+    "tenor": "5y",
+    "bp": 380,
+    "url": "http://www.zhitongcaijing.com/content/detail/1411546.html",
+    "publisher": "智通财经 (Zhitong Caijing)",
+    "title": "星际之门AI项目隐忧拖累股价 软银集团CDS利差显著走阔"
+   },
+   {
+    "id": "softbank-5y-2026-09-16-cailian-press",
+    "as_of": "2026-09-16",
+    "tenor": "5y",
+    "bp": 384.6,
+    "url": "https://www.cls.cn/detail/2485268",
+    "publisher": "Cailian Press (财联社)",
+    "title": "软银五年期CDS升至2023年来最高水平"
+   }
+  ]
+ }
 }

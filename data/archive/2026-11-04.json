@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T08:23:09Z",
+ "generated_at": "2026-11-04T09:38:04Z",
  "monitor": {
   "last_run": "2026-11-04T08:22:45Z",
   "sec_items": 198,
@@ -26165,6 +26165,84 @@
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount whose status is not cancelled: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
+  },
+  "cds": {
+   "companies": 9,
+   "quotes": 36,
+   "latest": {
+    "alphabet": {
+     "as_of": "2026-10-29",
+     "tenor": "5y",
+     "bp": 84,
+     "quotes": 2,
+     "first_as_of": "2026-07-27",
+     "first_bp": 67
+    },
+    "amazon": {
+     "as_of": "2026-10-21",
+     "tenor": "5y",
+     "bp": 80,
+     "quotes": 1,
+     "first_as_of": "2026-10-21",
+     "first_bp": 80
+    },
+    "broadcom": {
+     "as_of": "2026-10-08",
+     "tenor": "5y",
+     "bp": 136,
+     "quotes": 1,
+     "first_as_of": "2026-10-08",
+     "first_bp": 136
+    },
+    "coreweave": {
+     "as_of": "2026-10-19",
+     "tenor": "5y",
+     "bp": 1082,
+     "quotes": 2,
+     "first_as_of": "2026-10-15",
+     "first_bp": 1038
+    },
+    "intel": {
+     "as_of": "2026-07-31",
+     "tenor": "5y",
+     "bp": 81,
+     "quotes": 8,
+     "first_as_of": "2025-01-31",
+     "first_bp": 73
+    },
+    "meta": {
+     "as_of": "2026-10-22",
+     "tenor": "5y",
+     "bp": 114.79,
+     "quotes": 2,
+     "first_as_of": "2026-03-27",
+     "first_bp": 68
+    },
+    "nvidia": {
+     "as_of": "2026-09-25",
+     "tenor": "5y",
+     "bp": 87,
+     "quotes": 5,
+     "first_as_of": "2026-07-24",
+     "first_bp": 68
+    },
+    "oracle": {
+     "as_of": "2026-10-28",
+     "tenor": "5y",
+     "bp": 274.365,
+     "quotes": 8,
+     "first_as_of": "2025-11-19",
+     "first_bp": 111
+    },
+    "softbank": {
+     "as_of": "2026-09-16",
+     "tenor": "5y",
+     "bp": 384.6,
+     "quotes": 7,
+     "first_as_of": "2025-02-17",
+     "first_bp": 210
+    }
+   }
   }
  },
  "notes": {
