@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-05T19:30:26Z",
+ "generated_at": "2026-11-05T19:57:23Z",
  "monitor": {
-  "last_run": "2026-11-05T19:29:56Z",
+  "last_run": "2026-11-05T19:56:56Z",
   "sec_items": 208,
-  "news_items": 3407,
+  "news_items": 3419,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-05T19:29:56Z",
+    "last_run": "2026-11-05T19:56:56Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-05T19:29:56Z",
+    "last_run": "2026-11-05T19:56:56Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 565,
-    "added": 60,
+    "items": 568,
+    "added": 12,
     "evicted": 0,
-    "unread": 407,
+    "unread": 419,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3407,
+    "total": 3419,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-05T19:29:56Z",
+    "last_run": "2026-11-05T19:56:56Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24502,6 +24502,88 @@
  ],
  "news": [
   {
+   "id": "nca8580999bd9dfdf",
+   "title": "Forecasters give Anthropic a 74% chance of announcing an IPO this year",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vR21DN3RlV3ZiTEtBQTNTVmpuZlFKcjk5TERucGRVQjlDZFdFRm8wdnhSMG1SeHRucGNZaFRGcm5weUJGclJDVXBiSG9hNzJJTlZ6NUVTLWlUcjk4YVkxSFlGc2FlUEd4bjJub1h3MUQycEJMT21lMw?oc=5",
+   "publisher_url": null,
+   "publisher": "Crypto Briefing",
+   "published": "2026-11-05T19:36:31Z",
+   "date": "2026-11-05",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-05T19:57:10Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nf3c1d2b2d959503d",
+   "title": "ETF providers plan Anthropic exposure products ahead of anticipated IPO",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaU4zNEJKamc5VGwza2x6UElVa1pyY2tzYjZpYlJGZG5PbWU0YmlPMTRiVzFNV0tUZXNhdjlzTnhHclBlR01hTWY2b18zdkxXbVZxV2NVV1RhOE1PTmx1bHp6dXkyT0E2cmlXVXYyTmRSdUF3N2tBajdFLWFtUF9VT08tcUVOWnRZTXJycW84cDZqOVRzNUNkZ2NaY2RJbkNY?oc=5",
+   "publisher_url": null,
+   "publisher": "Crypto Briefing",
+   "published": "2026-11-05T19:35:13Z",
+   "date": "2026-11-05",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-05T19:57:10Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n04f7762d897e2ff4",
+   "title": "Anthropic Fever Fuels Race Among ETF Issuers to Offer Pre-IPO Exposure",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVFZsQnZjM2VOYUlTQ0xrVDZXV0R1dDgzVUZ3dUMyV1ZtSWV0YTllMURFVVBObF9nSlh1Nk1CNHc1bnZ4Y1Zrb1hQcnN4RWhqUmpzWHpzVGtKakV0aDhrdUVmdXVOeFo5MDVEcGdENHQ4SHpZZkdQdzVBczdCbUlzdDh1a19NZTUwVzZob0xSNWdoTmswOWxwYk1uQUQwMzRyTXA3anRuZkVvc1dzODBjMmtZanpjYkx5SDNoMHVSMGNPZw?oc=5",
+   "publisher_url": null,
+   "publisher": "Bloomberg.com",
+   "published": "2026-11-05T19:28:34Z",
+   "date": "2026-11-05",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-05T19:57:10Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n6d157e38b208902e",
+   "title": "What Anthropic's IPO could mean for Amazon and Google",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXd6NEY2WG1OWVdrbGg5Ty1ROXgwdHZXNlBzd2J1VXBfWVNlSGFsdVBKNHVYMTNTYURkdkZram9lVHhDdmV6MnZqZ0lqOEQtU2diY1czeXBWbEc5al9NUEZ5M1NVYVM5MC0yUHV2VkJLWVZZNDVVZUh0YU43cThrSUw2ejlFOG9jZGpZZlZkdmdQaC12d056LU9QbFljcEQtOEdzZF9qUXJsSTJhWGNRcWJ3?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-05T19:27:16Z",
+   "date": "2026-11-05",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "alphabet",
+    "amazon",
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-05T19:57:10Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nb2b72cce35143118",
+   "title": "Anthropic's IPO plans run up against a battered Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORGgtTzd4WVd2bVRwUzNpLU9TU09TMWNzM2QzV1dPM01NeDhmMVV5ejlFTFkwLUx3RS04cVdrU3Q3WFdYbUFXUmNTZ0tYUF8yQjlMS1ZQcnZPTkdTSmhSYndyY0FlaE05VFpGQmRCVERaQjBlSEhNaVpSZWlVMVRqanJfLTNiUDhPVjFmUUo0Ul9FRzhhZGZsQjhKYXFIUlVBTWdERFBha0ttdExDeXBQaVVabU9YMFlTT0E?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-05T19:21:38Z",
+   "date": "2026-11-05",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-05T19:57:10Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "nd176d72f8f3848e8",
    "title": "Apple Seeks About $7 Billion From First Bond Sale in Over a Year",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX25fSHREY3NhWXh5ZUNNVTRrdWxVMlRDQnRneGh3N2p2dTBXalRnSUJuMkdsZDBPRWZ1WDhINVdSMEdjYUMyY2dDS29ITENRSmYyUGVMWDI1cjhCejBSMDFWRzlqR183SUhvMmhwM0JLMHdLTDdoUHlvTWNKcjJ6ejNMUE1peFlyU0p2YVI3eExrLXA4elRkTllCNUc1RW9acUp3d0RMMTZUOExQMHFR?oc=5",
@@ -24834,6 +24916,20 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "n598043f63102dfcb",
+   "title": "Macquarie-backed AI start-up hits $1.7b valuation, readies ASX float",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnFGd1k1UDVrRVRPdEM2VlEzSThrQUU3TW1KT1Atcm45dUw1WXlsc0NHeVkyMm5yNzJYRlpwQUZsRm96T3lmbkNyS3BTNnpTcVUyeVEtVkx2eE90akd1TFE0UTdCR29OTmVGbFZrZktJY3VMcndvaEpoSDhlVy1lZUFkRE9TdGltTHdsV1pEQUZIVkQ5b3NBU0Y2ZmdFTnlnd1B1V1BUM2tSOWZBemh5RTl5RQ?oc=5",
+   "publisher_url": null,
+   "publisher": "AFR",
+   "published": "2026-11-05T18:00:00Z",
+   "date": "2026-11-05",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-05T19:57:10Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n39f49f8bdb737838",
    "title": "SpaceX Stock Falls as Banks Test Demand for AI Debt",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWVA4a0tRV0tCZ25qY3duTFdKa0NPWTRLcVludWcyZWRhTDl2bC1MQm5QMDhweGlTcnZLNE9vRXZNbjlSbko0bThXVXRMRGxtRG5YZlFvU3BxODA0NHVVOXRpdXhRek5DMlh4Uk5qc1BCT18wTTBNUWwzSEpZUjc3SXJGaWRrZDk0ZnpPVDg0Wjdpd0tTMV9ndlhR?oc=5",
@@ -24939,6 +25035,20 @@
     "anthropic"
    ],
    "fetched_at": "2026-11-05T19:30:13Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n833c43fb78718a04",
+   "title": "QUICK SPARK: Partners Group Brings In Data Center, Telecom, Infrastructure Veterans To Drive New Investments",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZk11VjRObkh5LXR2MXdCbVFTWkgwTmZ4dGZYa1RtWDU1dkNaS3B4b2c1VTFUUV9wT0ZvRUVfYVFOay13UFFueTFSNnBJYmZjbW9XZzdzRGVYQ0k5ZkZpSXp3UWtaa2ZSU0FXSmh1RG8zU3JIT0Jhd05ack1ORmJJZXlmRjFqWFhDU2pTOFNiLTN5QmFaWUU3MEFn?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-05T17:16:11Z",
+   "date": "2026-11-05",
+   "lang": "en-US",
+   "query": "private credit AI data center loan when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-05T19:57:10Z",
    "matcher_version": "3.2"
   },
   {
@@ -25186,6 +25296,22 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "nbeaee0cf29205d49",
+   "title": "Blue Owl Technology Finance Q3 2026 Earnings Call Is Live",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaF9YaUJ5dExHX0xtcGNJaHY3Z0Nya29mVnRVcVpPWVJSZEFEZ0tlN3BqcUZjUWRrZ1JzQ2JCVVFzU1ZoWW9MWnluOWNyZmZmNWtaNmp0VE1uaXpISVh5WjgyajJDQ0VGbkZfVXpCS1doZDBlVzdxSVd1VnhQajZwXzFGNU9FMi02TnY1UkJYd0RFSm1Lc3lYdE5aQW1NdkxrVlZ4MzF3WFhxa3NZTExzQ2FsNERHTnFnekNXU2JxT1U1T3Ax?oc=5",
+   "publisher_url": null,
+   "publisher": "TradingView",
+   "published": "2026-11-05T16:27:03Z",
+   "date": "2026-11-05",
+   "lang": "en-US",
+   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:2d",
+   "entities": [
+    "blue-owl"
+   ],
+   "fetched_at": "2026-11-05T19:57:10Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n6f036037bd74e87b",
    "title": "IA Capital Group Announces Initial Close of Inter-Atlantic Opportunity Fund I, Anchored by QBE Insurance Group",
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdHVJRE84djB6SmQzaV93UzVpS0pUcnVERHVodjRyZDRQNW83aFc3NUJPYnNFU0ZFZTFoekJPQXZOTXh2dHdobHViNmV5NlJKcDJGd1NjTE01N1JPQ0libWx2SV96WUhkbk5saFhKM2RfT3RDdGZZWXFSN2xwUHRHeEVqMzQ0a1QwUVpkeklYOHZsVXlvNWp1WE9aSGF0WXdhQkl2VmNMR1g2VU5ncmIzbE52SDhraFVzZnBIUWEtaG5aalk1SXgwUXJyZWY0MXdLdXE3VVVYZjFPdXRRRUhKVkFZMjh3QTZ5VnhjLTVaM1lkVkFscTZzVA?oc=5",
@@ -25317,133 +25443,6 @@
    "query": "AI data center financing debt when:2d",
    "entities": [],
    "fetched_at": "2026-11-05T19:30:13Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n878457d1781503c8",
-   "title": "SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ3FPNFVNS29WSDJ6eFFqa3kwc0p0ZUZUbm5rbUp6M3poX3ZYNjFwMVR3bXJ6Tko4c0Y2ZUpGZ202LU1pQlc0cEVvQS01Z0RUMVVxemNzcGlIcmdaTkdIWjlrYlpaUFRxYXA5aTBPVWRCRkdSR3VsVjkwREJxLUt0elduNmdESVFQbWphX1RTQ3p1YkdsV1pneXAtYmlCcVgzZUFobGhZMmZxTl9CV1FVSEY0Z1k5dEk5M2U3d0hFQXI3RktJS1FKT2pYdjBFei1maGpjTEFNdjRmWTRIUGxLaVRmN2YtTlE?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-05T15:53:06Z",
-   "date": "2026-11-05",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:2d",
-   "entities": [
-    "spacex",
-    "tesla"
-   ],
-   "fetched_at": "2026-11-05T16:38:19Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n79d403b08cc35cde",
-   "title": "China’s Moonshot AI seeks Nvidia Blackwell access in Europe, CNBC reports",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcERRU0dWMkpSUzZrSHBTZEpVMHd0RjdNaHNNX21sRE5ubnFzb21pckhaN0FTU3B6c0wwQVd2dFU2Nm4tb2dBVXExTTM3eV9mSWRIVGNGalhWcG10SXpOZDhuVk9GcFpJQ1dWQlJGRVpzZVdjb3FfWnJCM09IMUJ3WkZCdG1tOXlDa3l5X01zOFlKZHNUY2tNS3JR?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-05T15:51:40Z",
-   "date": "2026-11-05",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [
-    "moonshot-ai",
-    "nvidia"
-   ],
-   "fetched_at": "2026-11-05T16:38:19Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n3e46af65ccb0bfdd",
-   "title": "SpaceX Default Risk Hits Fresh Peak as Tech-Led Selloff Builds",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOGJsa2I1NzhqeU5WWEVkVVZyUUpTNmh0SmZtQnBPZG5PbDZoUkp4WV9WSGY4blNtR0ZWUE12VmFZSzl6TVJVV2U0cW92MHBUdXRQc1dpcUlQdzZWMC1SNThZOWhQTkRZa0o0RkNzMHdOdXNrNDBsaXZtaHBYd3ZNS0VrcWNHRE1ZTFc2QXF2UE5TMkRhOEIwWXU0LU5tSlE0ZGNkRlFwWWNROTZ6ajYzUXBkQQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Bloomberg.com",
-   "published": "2026-11-05T15:48:12Z",
-   "date": "2026-11-05",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:2d",
-   "entities": [
-    "spacex"
-   ],
-   "fetched_at": "2026-11-05T16:38:19Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ncb4b9a9a1f37fde7",
-   "title": "U.S. Election Regulatory Storm Hits AI Data Centers, South Korean Chips",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNDhXcFE1azI0czFRWVNwZTFGYXE3alJXVXZ0YUJkandOWV9IMHRQanF2WnhRN1lQMWhWdUFfNjMzYzEyZGhWZHYzU256cklEc3BzTDlDak1lak1DMGtGNEI3SmpnZXlpVW11eHJxQVZ2U25kbWxNcHA0Y0JySjhSenRtOHNJeVA2?oc=5",
-   "publisher_url": null,
-   "publisher": "조선일보",
-   "published": "2026-11-05T15:45:26Z",
-   "date": "2026-11-05",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-05T16:38:19Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "na33e063f418e156b",
-   "title": "Anthropic Just Paid a News Publisher for the First Time, and It Was AP",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbEJldHJ4dVk2UUZUMEMzcS04bkswajBlRnNNOHBwdjdCMEY3MnpaRjcxUnpOX0RwUWFOTDU2TGtfdXBKOHJFZnllaDJ1VmpXbzlvWTRJYzFiZUVhNnhZU000dlRZLURQYWgzMHAzekdDX1oyYm9LWTFFeW05bTQwbnV0NDM3emxWalFrdmhmVVlXVlhxeF9JQkZVMXlHUm8?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-05T15:42:13Z",
-   "date": "2026-11-05",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-05T16:38:19Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nd66f8e8f4a9c5424",
-   "title": "Vistra: The Market Is Underpricing Its Shift To Contracted Earnings (NYSE:VST)",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1A4WWFGUVF5OXJCUlplcWdHcktPV3ptWVJKdFV4U0xfc3F3OGUwSXF0eXhVM0JkQ0c0bTNHWmxlVFo4SVNOdzlKZnlydGdNTkZYUGtkYXg4S2NYT2ItNXprYUlpbnRXVDFFem1seFBfaExZbmx0RVRaODR0WXJNc2ZxZ2hMQTFiNVE3d3lHRHdqdzhWVklFcFNFYThZOXFMa0pLZG9nakhDdjg?oc=5",
-   "publisher_url": null,
-   "publisher": "Seeking Alpha",
-   "published": "2026-11-05T15:42:00Z",
-   "date": "2026-11-05",
-   "lang": "en-US",
-   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
-   "entities": [
-    "vistra"
-   ],
-   "fetched_at": "2026-11-05T16:38:19Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ndb215257b5be174f",
-   "title": "Port Announces PortCon - the First AI Software Factory Summit",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzRBSUNjeG45OXV3cUhRdGp1LW9yWGV5Mzlzc21LSktKZWtsVmFoZDlwWmRQczZuRVlfQWJtRUd3X2dmMGczUUZ0dWJEVy0tN1Z6Zl9OVGI5SVpPandZUnhBeGh2ckpJVUtBdHBZYlppVFo5MUFiN0p4eXZuaWtsNGNDbkJ0X2tudDRYaDdWSVVPMnNRNFd0S291N21Wb1Nlb1hWd2FZQ0xoZFhjOWE1OGhPNXhBMU0?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-05T15:38:00Z",
-   "date": "2026-11-05",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-05T16:38:19Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n18376990a829e2f1",
-   "title": "SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI buildout",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNREkzM0lDRXJmY29XeDlFbEFqaHByQ09QQjdfUVJwRjBQVERmX24wbm5XdW1yellJSmRvSkcxTmNhbjhCTzQ5SHhvbHI1OVVQdFVBR2RjMEtselpRUFJnREZHbkt2c1dvbkp6RW5MR2pMVjNoYjYzTUJxZXNNWkRIRUVYcVBLMnBDcXZwaC1zQUVxcUZBbGJ1VmlkV19SSHdqQUJTTUNNcHZkSTRnRWg0U2VlaFM3by1Db0gwR2NwNU56R2RNQkVRRFZvQTI?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance Singapore",
-   "published": "2026-11-05T15:35:28Z",
-   "date": "2026-11-05",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:2d",
-   "entities": [
-    "spacex",
-    "tesla"
-   ],
-   "fetched_at": "2026-11-05T16:38:19Z",
    "matcher_version": "3.2"
   }
  ],
