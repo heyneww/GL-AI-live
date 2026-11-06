@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T10:36:25Z",
+ "generated_at": "2026-11-06T10:45:07Z",
  "monitor": {
   "last_run": "2026-11-06T10:36:00Z",
   "sec_items": 216,
@@ -249,6 +249,76 @@
       "id": "smbc",
       "usd": 2980000000,
       "share": 0.15618448637316562
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "akamai",
+   "name": "Akamai",
+   "name_zh": "阿卡迈（Akamai）",
+   "group": "other",
+   "ticker": "AKAM",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 11600000000,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 11600000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 11600000000,
+    "binding_usd": 11600000000,
+    "last_edge": "2026-09-24",
+    "last_source": "2026-11-05",
+    "counterparties": 1,
+    "inflow_total_usd": 11600000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "anthropic",
+      "usd": 11600000000,
+      "share": 1.0
      }
     ],
     "concentration_top3": 1.0
@@ -757,7 +827,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 492600000000,
+     "order": 504200000000,
      "investment": 0,
      "debt": 0,
      "lease": 217300000000,
@@ -773,7 +843,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 12,
+     "order": 13,
      "investment": 0,
      "debt": 0,
      "lease": 5,
@@ -782,51 +852,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 35,
-    "degree_curated": 35,
+    "degree": 36,
+    "degree_curated": 36,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 600100000000,
+     "signed": 611700000000,
      "in_progress": 200500000000,
      "completed": 101220000000,
      "reported": 51300000000
     },
-    "confirmed_usd": 942120000000,
-    "binding_usd": 901820000000,
+    "confirmed_usd": 953720000000,
+    "binding_usd": 913420000000,
     "last_edge": "2026-10-28",
-    "last_source": "2026-11-04",
-    "counterparties": 21,
+    "last_source": "2026-11-05",
+    "counterparties": 22,
     "inflow_total_usd": 243220000000,
-    "outflow_total_usd": 709900000000,
+    "outflow_total_usd": 721500000000,
     "top_counterparties": [
      {
       "id": "broadcom",
       "usd": 203200000000,
-      "share": 0.213194561020648
+      "share": 0.21063106393564973
      },
      {
       "id": "alphabet",
       "usd": 164300000000,
-      "share": 0.17238123216384085
+      "share": 0.17030848329048842
      },
      {
       "id": "amazon",
       "usd": 143000000000,
-      "share": 0.15003357394661743
+      "share": 0.14822953810432044
      },
      {
       "id": "spacex",
       "usd": 120500000000,
-      "share": 0.12642689273124055
+      "share": 0.12490670868231196
      },
      {
       "id": "private-investors",
       "usd": 90220000000,
-      "share": 0.09465754574450226
+      "share": 0.09351936313127125
      }
     ],
-    "concentration_top3": 0.5356093671311063
+    "concentration_top3": 0.5291690853304586
    }
   },
   {
@@ -5281,7 +5351,7 @@
     "confirmed_usd": 28100000000,
     "binding_usd": 28100000000,
     "last_edge": "2026-08-28",
-    "last_source": "2026-08-28",
+    "last_source": "2026-11-06",
     "counterparties": 6,
     "inflow_total_usd": 26500000000,
     "outflow_total_usd": 1600000000,
@@ -6532,7 +6602,7 @@
     "confirmed_usd": 352000000000,
     "binding_usd": 365000000000,
     "last_edge": "2026-10-29",
-    "last_source": "2026-11-05",
+    "last_source": "2026-11-06",
     "counterparties": 13,
     "inflow_total_usd": 319900000000,
     "outflow_total_usd": 45100000000,
@@ -11817,6 +11887,50 @@
      "publisher": "The Next Web",
      "date": "2026-09-29",
      "title": "Samsung and five affiliates put $1bn into KKR's AI infrastructure firm"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "anthropic-akamai-2026-09-cloud",
+   "kind": "order",
+   "subkind": "cloud compute contract (with warrant)",
+   "subkind_zh": "云算力合同（附认股权证）",
+   "from": "anthropic",
+   "to": "akamai",
+   "amount_usd": 11600000000,
+   "amount_text": "$11.6B over seven years per Akamai; Anthropic may expand it by up to $9B more (~$20B in total, not counted); Anthropic received a warrant for about 5% of Akamai's shares, about 2% vesting with the initial commitment",
+   "amount_text_zh": "据阿卡迈，七年期合同 116 亿美元；Anthropic 可再扩大最多 90 亿美元（合计约 200 亿美元，扩大部分不计入）；Anthropic 获得约占阿卡迈 5% 股份的认股权证，其中约 2% 随初始承诺归属",
+   "announced": "2026-09-24",
+   "term": "Seven years",
+   "term_zh": "七年",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Anthropic signs $11.6B cloud contract with Akamai",
+   "title_zh": "Anthropic 与阿卡迈签署 116 亿美元云算力合同",
+   "summary_en": "Akamai agreed to run Anthropic workloads on its distributed Akamai Cloud under a seven-year, $11.6B contract that Anthropic can expand by up to $9B more. In return for the commitment Anthropic received a warrant for about 5% of Akamai, vesting as its spending grows; Akamai expects about $5.5B of capital spending to deliver the contract and said on its Q3 2026 call that all the colocation space and power for it are contracted.",
+   "summary_zh": "阿卡迈同意在其分布式 Akamai Cloud 上为 Anthropic 运行工作负载，合同为期七年、金额 116 亿美元，Anthropic 可再扩大最多 90 亿美元。作为承诺的回报，Anthropic 获得约占阿卡迈 5% 股份的认股权证，随其支出增加而归属；阿卡迈预计需约 55 亿美元资本支出来履行合同，并在 2026 年第三季度业绩会上表示，合同所需的全部托管空间和电力均已签约。",
+   "sources": [
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html",
+     "publisher": "Akamai (GlobeNewswire)",
+     "date": "2026-09-24",
+     "title": "Akamai Announces $11.6 Billion Multi-year Agreement with Anthropic to Support Growing Demand",
+     "type": "official"
+    },
+    {
+     "url": "https://www.bostonglobe.com/2026/09/27/business/akamai-billion-dollar-deal-anthropic/",
+     "publisher": "The Boston Globe",
+     "date": "2026-09-27",
+     "title": "Akamai expands deal to $11.6 billion partnership with Anthropic",
+     "type": "news"
+    },
+    {
+     "url": "https://finance.biggo.com/news/US_AKAM_2026-11-05",
+     "publisher": "BigGo Finance",
+     "date": "2026-11-05",
+     "title": "[Akamai Technologies Q3 2026 Earnings Call] Akamai Lands $11.6 Billion Anthropic Deal, Lifts 2028 Revenue Target Above $7 Billion Despite Q4 Supply Chain Delay",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -19972,6 +20086,7 @@
   },
   {
    "id": "microsoft-iren-2025-11-gpu",
+   "last_checked": "2026-11-06",
    "kind": "order",
    "subkind": "GPU cloud services contract",
    "from": "microsoft",
@@ -19984,8 +20099,8 @@
    "confidence": "confirmed",
    "title_en": "Microsoft $9.7B AI cloud contract with IREN",
    "title_zh": "微软与 IREN 的 97 亿美元 AI 云合同",
-   "summary_en": "IREN will give Microsoft access to Nvidia GB300 GPUs for five years at its Childress, Texas campus for about $9.7B, with a 20% prepayment; IREN is buying the chips from Dell for about $5.8B.",
-   "summary_zh": "IREN 将在其得州 Childress 园区向微软提供为期五年的英伟达 GB300 GPU 算力，合同约 97 亿美元，含 20% 预付款；IREN 以约 58 亿美元向戴尔采购相关芯片和设备。",
+   "summary_en": "IREN will give Microsoft access to Nvidia GB300 GPUs for five years at its Childress, Texas campus for about $9.7B, with a 20% prepayment; IREN is buying the chips from Dell for about $5.8B. In November 2026 IREN said some deliveries are delayed by a Microsoft-requested network design change and supplier timing (without penalties to IREN), pushing its target run rate from year-end to January, possibly the end of February 2027.",
+   "summary_zh": "IREN 将在其得州 Childress 园区向微软提供为期五年的英伟达 GB300 GPU 算力，合同约 97 亿美元，含 20% 预付款；IREN 以约 58 亿美元向戴尔采购相关芯片和设备。2026 年 11 月，IREN 表示因微软要求修改网络设计及供应商交付时间，部分交付推迟（IREN 无需支付罚金），其目标收入规模的实现时间由年底推迟至 2027 年 1 月，最晚可能到 2 月底。",
    "sources": [
     {
      "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft",
@@ -19993,6 +20108,13 @@
      "date": "2025-11-03",
      "title": "IREN Secures $9.7bn AI Cloud Contract with Microsoft",
      "type": "official"
+    },
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/06/ai-data-center-firm-iren-delays-microsoft-ai-deliveries-plans-15-billion-spending-push",
+     "publisher": "The Star (Reuters)",
+     "date": "2026-11-06",
+     "title": "AI data center firm IREN delays Microsoft AI deliveries, plans $15 billion spending push",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -24515,14 +24637,14 @@
   }
  ],
  "stats": {
-  "entities": 138,
-  "edges": 406,
-  "curated_edges": 406,
+  "entities": 139,
+  "edges": 407,
+  "curated_edges": 407,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 108,
-    "usd": 1517289000000,
+    "count": 109,
+    "usd": 1528889000000,
     "undisclosed": 64,
     "cancelled": 1
    },
@@ -24583,20 +24705,20 @@
     "usd": 0
    }
   },
-  "total_usd": 3954353861259,
+  "total_usd": 3965953861259,
   "contingent_usd": 183230000000,
   "headline_usd": 1969460000000,
-  "broad_usd": 6107043861259,
+  "broad_usd": 6118643861259,
   "by_status_usd": {
    "announced": 10000000000,
-   "signed": 1854953571259,
+   "signed": 1866553571259,
    "in_progress": 541636000000,
    "completed": 1415364290000,
    "reported": 132400000000
   },
-  "confirmed_usd": 2567616861259,
+  "confirmed_usd": 2579216861259,
   "reported_usd": 1386737000000,
-  "binding_usd": 3811953861259,
+  "binding_usd": 3823553861259,
   "announced_usd": 142400000000,
   "circular": [
    {
@@ -26543,11 +26665,11 @@
    },
    {
     "month": "2026-09",
-    "count": 21,
-    "usd": 207209000000,
-    "cumulative_usd": 3452915861259,
+    "count": 22,
+    "usd": 218809000000,
+    "cumulative_usd": 3464515861259,
     "by_kind": {
-     "order": 56700000000,
+     "order": 68300000000,
      "investment": 45709000000,
      "debt": 101860000000,
      "lease": 2940000000,
@@ -26559,7 +26681,7 @@
     "month": "2026-10",
     "count": 26,
     "usd": 459738000000,
-    "cumulative_usd": 3912653861259,
+    "cumulative_usd": 3924253861259,
     "by_kind": {
      "order": 4400000000,
      "investment": 59600000000,
@@ -26573,7 +26695,7 @@
     "month": "2026-11",
     "count": 5,
     "usd": 41700000000,
-    "cumulative_usd": 3954353861259,
+    "cumulative_usd": 3965953861259,
     "by_kind": {
      "order": 0,
      "investment": 10000000000,

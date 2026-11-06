@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T10:36:25Z",
+ "generated_at": "2026-11-06T10:45:07Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-06, https://heyneww.github.io/GL-AI-live/",
@@ -1517,6 +1517,52 @@
    ],
    "origin": "curated",
    "counted_usd": 1000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "anthropic-akamai-2026-09-cloud",
+   "kind": "order",
+   "subkind": "cloud compute contract (with warrant)",
+   "subkind_zh": "云算力合同（附认股权证）",
+   "from": "anthropic",
+   "to": "akamai",
+   "amount_usd": 11600000000,
+   "amount_text": "$11.6B over seven years per Akamai; Anthropic may expand it by up to $9B more (~$20B in total, not counted); Anthropic received a warrant for about 5% of Akamai's shares, about 2% vesting with the initial commitment",
+   "amount_text_zh": "据阿卡迈，七年期合同 116 亿美元；Anthropic 可再扩大最多 90 亿美元（合计约 200 亿美元，扩大部分不计入）；Anthropic 获得约占阿卡迈 5% 股份的认股权证，其中约 2% 随初始承诺归属",
+   "announced": "2026-09-24",
+   "term": "Seven years",
+   "term_zh": "七年",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Anthropic signs $11.6B cloud contract with Akamai",
+   "title_zh": "Anthropic 与阿卡迈签署 116 亿美元云算力合同",
+   "summary_en": "Akamai agreed to run Anthropic workloads on its distributed Akamai Cloud under a seven-year, $11.6B contract that Anthropic can expand by up to $9B more. In return for the commitment Anthropic received a warrant for about 5% of Akamai, vesting as its spending grows; Akamai expects about $5.5B of capital spending to deliver the contract and said on its Q3 2026 call that all the colocation space and power for it are contracted.",
+   "summary_zh": "阿卡迈同意在其分布式 Akamai Cloud 上为 Anthropic 运行工作负载，合同为期七年、金额 116 亿美元，Anthropic 可再扩大最多 90 亿美元。作为承诺的回报，Anthropic 获得约占阿卡迈 5% 股份的认股权证，随其支出增加而归属；阿卡迈预计需约 55 亿美元资本支出来履行合同，并在 2026 年第三季度业绩会上表示，合同所需的全部托管空间和电力均已签约。",
+   "sources": [
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html",
+     "publisher": "Akamai (GlobeNewswire)",
+     "date": "2026-09-24",
+     "title": "Akamai Announces $11.6 Billion Multi-year Agreement with Anthropic to Support Growing Demand",
+     "type": "official"
+    },
+    {
+     "url": "https://www.bostonglobe.com/2026/09/27/business/akamai-billion-dollar-deal-anthropic/",
+     "publisher": "The Boston Globe",
+     "date": "2026-09-27",
+     "title": "Akamai expands deal to $11.6 billion partnership with Anthropic",
+     "type": "news"
+    },
+    {
+     "url": "https://finance.biggo.com/news/US_AKAM_2026-11-05",
+     "publisher": "BigGo Finance",
+     "date": "2026-11-05",
+     "title": "[Akamai Technologies Q3 2026 Earnings Call] Akamai Lands $11.6 Billion Anthropic Deal, Lifts 2028 Revenue Target Above $7 Billion Despite Q4 Supply Chain Delay",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 11600000000,
    "contingent_usd": 0
   },
   {
@@ -10138,6 +10184,7 @@
   },
   {
    "id": "microsoft-iren-2025-11-gpu",
+   "last_checked": "2026-11-06",
    "kind": "order",
    "subkind": "GPU cloud services contract",
    "from": "microsoft",
@@ -10150,8 +10197,8 @@
    "confidence": "confirmed",
    "title_en": "Microsoft $9.7B AI cloud contract with IREN",
    "title_zh": "微软与 IREN 的 97 亿美元 AI 云合同",
-   "summary_en": "IREN will give Microsoft access to Nvidia GB300 GPUs for five years at its Childress, Texas campus for about $9.7B, with a 20% prepayment; IREN is buying the chips from Dell for about $5.8B.",
-   "summary_zh": "IREN 将在其得州 Childress 园区向微软提供为期五年的英伟达 GB300 GPU 算力，合同约 97 亿美元，含 20% 预付款；IREN 以约 58 亿美元向戴尔采购相关芯片和设备。",
+   "summary_en": "IREN will give Microsoft access to Nvidia GB300 GPUs for five years at its Childress, Texas campus for about $9.7B, with a 20% prepayment; IREN is buying the chips from Dell for about $5.8B. In November 2026 IREN said some deliveries are delayed by a Microsoft-requested network design change and supplier timing (without penalties to IREN), pushing its target run rate from year-end to January, possibly the end of February 2027.",
+   "summary_zh": "IREN 将在其得州 Childress 园区向微软提供为期五年的英伟达 GB300 GPU 算力，合同约 97 亿美元，含 20% 预付款；IREN 以约 58 亿美元向戴尔采购相关芯片和设备。2026 年 11 月，IREN 表示因微软要求修改网络设计及供应商交付时间，部分交付推迟（IREN 无需支付罚金），其目标收入规模的实现时间由年底推迟至 2027 年 1 月，最晚可能到 2 月底。",
    "sources": [
     {
      "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft",
@@ -10159,6 +10206,13 @@
      "date": "2025-11-03",
      "title": "IREN Secures $9.7bn AI Cloud Contract with Microsoft",
      "type": "official"
+    },
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/06/ai-data-center-firm-iren-delays-microsoft-ai-deliveries-plans-15-billion-spending-push",
+     "publisher": "The Star (Reuters)",
+     "date": "2026-11-06",
+     "title": "AI data center firm IREN delays Microsoft AI deliveries, plans $15 billion spending push",
+     "type": "news"
     }
    ],
    "origin": "curated",

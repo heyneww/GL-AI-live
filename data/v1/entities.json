@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T10:36:25Z",
+ "generated_at": "2026-11-06T10:45:07Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-06, https://heyneww.github.io/GL-AI-live/",
@@ -208,6 +208,76 @@
       "id": "smbc",
       "usd": 2980000000,
       "share": 0.15618448637316562
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "akamai",
+   "name": "Akamai",
+   "name_zh": "阿卡迈（Akamai）",
+   "group": "other",
+   "ticker": "AKAM",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 11600000000,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 11600000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 11600000000,
+    "binding_usd": 11600000000,
+    "last_edge": "2026-09-24",
+    "last_source": "2026-11-05",
+    "counterparties": 1,
+    "inflow_total_usd": 11600000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "anthropic",
+      "usd": 11600000000,
+      "share": 1.0
      }
     ],
     "concentration_top3": 1.0
@@ -716,7 +786,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 492600000000,
+     "order": 504200000000,
      "investment": 0,
      "debt": 0,
      "lease": 217300000000,
@@ -732,7 +802,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 12,
+     "order": 13,
      "investment": 0,
      "debt": 0,
      "lease": 5,
@@ -741,51 +811,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 35,
-    "degree_curated": 35,
+    "degree": 36,
+    "degree_curated": 36,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 600100000000,
+     "signed": 611700000000,
      "in_progress": 200500000000,
      "completed": 101220000000,
      "reported": 51300000000
     },
-    "confirmed_usd": 942120000000,
-    "binding_usd": 901820000000,
+    "confirmed_usd": 953720000000,
+    "binding_usd": 913420000000,
     "last_edge": "2026-10-28",
-    "last_source": "2026-11-04",
-    "counterparties": 21,
+    "last_source": "2026-11-05",
+    "counterparties": 22,
     "inflow_total_usd": 243220000000,
-    "outflow_total_usd": 709900000000,
+    "outflow_total_usd": 721500000000,
     "top_counterparties": [
      {
       "id": "broadcom",
       "usd": 203200000000,
-      "share": 0.213194561020648
+      "share": 0.21063106393564973
      },
      {
       "id": "alphabet",
       "usd": 164300000000,
-      "share": 0.17238123216384085
+      "share": 0.17030848329048842
      },
      {
       "id": "amazon",
       "usd": 143000000000,
-      "share": 0.15003357394661743
+      "share": 0.14822953810432044
      },
      {
       "id": "spacex",
       "usd": 120500000000,
-      "share": 0.12642689273124055
+      "share": 0.12490670868231196
      },
      {
       "id": "private-investors",
       "usd": 90220000000,
-      "share": 0.09465754574450226
+      "share": 0.09351936313127125
      }
     ],
-    "concentration_top3": 0.5356093671311063
+    "concentration_top3": 0.5291690853304586
    }
   },
   {
@@ -5240,7 +5310,7 @@
     "confirmed_usd": 28100000000,
     "binding_usd": 28100000000,
     "last_edge": "2026-08-28",
-    "last_source": "2026-08-28",
+    "last_source": "2026-11-06",
     "counterparties": 6,
     "inflow_total_usd": 26500000000,
     "outflow_total_usd": 1600000000,
@@ -6491,7 +6561,7 @@
     "confirmed_usd": 352000000000,
     "binding_usd": 365000000000,
     "last_edge": "2026-10-29",
-    "last_source": "2026-11-05",
+    "last_source": "2026-11-06",
     "counterparties": 13,
     "inflow_total_usd": 319900000000,
     "outflow_total_usd": 45100000000,
