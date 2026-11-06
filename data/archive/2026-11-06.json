@@ -1,41 +1,41 @@
 {
- "generated_at": "2026-11-06T10:45:07Z",
+ "generated_at": "2026-11-06T13:45:37Z",
  "monitor": {
-  "last_run": "2026-11-06T10:36:00Z",
-  "sec_items": 216,
-  "news_items": 3377,
+  "last_run": "2026-11-06T13:45:09Z",
+  "sec_items": 220,
+  "news_items": 3240,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-06T10:36:00Z",
+    "last_run": "2026-11-06T13:45:09Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
-    "matched": 196,
-    "added": 0,
-    "total": 216,
-    "fulltext_hits": 14,
+    "matched": 200,
+    "added": 4,
+    "total": 220,
+    "fulltext_hits": 17,
     "fulltext_errors": [],
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-06T10:36:00Z",
+    "last_run": "2026-11-06T13:45:09Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 571,
-    "added": 35,
-    "evicted": 0,
-    "unread": 377,
-    "retagged": 0,
+    "items": 560,
+    "added": 84,
+    "evicted": 221,
+    "unread": 240,
+    "retagged": 1,
     "matcher_version": "3.2",
-    "total": 3377,
+    "total": 3240,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-06T10:36:00Z",
+    "last_run": "2026-11-06T13:45:09Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -2289,15 +2289,15 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 73,
+     "debt": 74,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 73,
-    "degree_curated": 73,
+    "degree": 74,
+    "degree_curated": 74,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -2308,8 +2308,8 @@
     },
     "confirmed_usd": 316052500000,
     "binding_usd": 606810500000,
-    "last_edge": "2026-11-04",
-    "last_source": "2026-11-05",
+    "last_edge": "2026-11-06",
+    "last_source": "2026-11-06",
     "counterparties": 28,
     "inflow_total_usd": 0,
     "outflow_total_usd": 606810500000,
@@ -6345,7 +6345,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 3,
-     "debt": 3,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -6360,8 +6360,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 28,
-    "degree_curated": 28,
+    "degree": 29,
+    "degree_curated": 29,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 4000000000,
@@ -6372,8 +6372,8 @@
     },
     "confirmed_usd": 125500000000,
     "binding_usd": 182700000000,
-    "last_edge": "2026-11-03",
-    "last_source": "2026-11-05",
+    "last_edge": "2026-11-06",
+    "last_source": "2026-11-06",
     "counterparties": 19,
     "inflow_total_usd": 111500000000,
     "outflow_total_usd": 95200000000,
@@ -10448,6 +10448,33 @@
   }
  ],
  "edges": [
+  {
+   "id": "bond-investors-meta-2026-11-notes-2",
+   "kind": "debt",
+   "subkind": "senior notes (EUR)",
+   "from": "bond-investors",
+   "to": "meta",
+   "amount_usd": null,
+   "amount_text": "€9B in 6 tranches: €1.75B 4.300% Senior Notes due 2031; €1.25B 4.650% Senior Notes due 2033; €1B 4.900% Senior Notes due 2035; €1.75B 5.400% Senior Notes due 2038; €1.75B 6.050% Senior Notes due 2044; €1.5B 6.400% Senior Notes due 2065; USD equivalent not converted",
+   "announced": "2026-11-06",
+   "term": "due 2031–2065",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Meta €9B notes offering",
+   "title_zh": "Meta发行 90 亿欧元票据",
+   "summary_en": "Meta sold €9B of notes in 6 tranches due 2031–2065, according to its 424B5 prospectus filed on 2026-11-06. The notes are not denominated in US dollars; no USD equivalent is recorded.",
+   "summary_zh": "Meta于 2026 年 11 月 6 日提交 424B5 发行说明书，发行 6 档共 90 亿欧元票据，2031 至 2065 年到期。该票据非美元计价，未折算美元金额。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+     "publisher": "SEC EDGAR (Meta Platforms, Inc. 424B5)",
+     "date": "2026-11-06",
+     "title": "Meta Platforms, Inc. 424B5: Prospectus (securities / bond offering)"
+    }
+   ],
+   "added_by": "rules",
+   "origin": "curated"
+  },
   {
    "id": "alphabet-terawulf-2026-11-hawesville-lease-backstop",
    "kind": "guarantee",
@@ -24638,8 +24665,8 @@
  ],
  "stats": {
   "entities": 139,
-  "edges": 407,
-  "curated_edges": 407,
+  "edges": 408,
+  "curated_edges": 408,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -24655,9 +24682,9 @@
     "cancelled": 3
    },
    "debt": {
-    "count": 130,
+    "count": 131,
     "usd": 1157105071259,
-    "undisclosed": 5,
+    "undisclosed": 6,
     "cancelled": 0
    },
    "lease": {
@@ -26693,7 +26720,7 @@
    },
    {
     "month": "2026-11",
-    "count": 5,
+    "count": 6,
     "usd": 41700000000,
     "cumulative_usd": 3965953861259,
     "by_kind": {
@@ -26710,7 +26737,7 @@
    "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
    "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
   },
-  "latest_announced": "2026-11-04",
+  "latest_announced": "2026-11-06",
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount whose status is not cancelled: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
