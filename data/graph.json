@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T22:46:45Z",
+ "generated_at": "2026-11-06T00:25:05Z",
  "monitor": {
   "last_run": "2026-11-05T22:24:11Z",
   "sec_items": 216,
@@ -28777,8 +28777,8 @@
    "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
   },
   "cds": {
-   "companies": 9,
-   "quotes": 36,
+   "companies": 10,
+   "quotes": 37,
    "latest": {
     "alphabet": {
      "as_of": "2026-10-29",
@@ -28851,6 +28851,14 @@
      "quotes": 7,
      "first_as_of": "2025-02-17",
      "first_bp": 210
+    },
+    "spacex": {
+     "as_of": "2026-11-05",
+     "tenor": "5y",
+     "bp": 284.3,
+     "quotes": 1,
+     "first_as_of": "2026-11-05",
+     "first_bp": 284.3
     }
    }
   }
@@ -29212,6 +29220,18 @@
     "url": "https://www.cls.cn/detail/2485268",
     "publisher": "Cailian Press (财联社)",
     "title": "软银五年期CDS升至2023年来最高水平"
+   }
+  ],
+  "spacex": [
+   {
+    "id": "spacex-5y-2026-11-05-panews",
+    "as_of": "2026-11-05",
+    "tenor": "5y",
+    "bp": 284.3,
+    "url": "https://panews.io/articles/01a1ac8a-a5b6-7017-8dd0-d5a44d33b1f3",
+    "publisher": "PANews (citing Bloomberg)",
+    "title": "SpaceX Credit Default Swap Spread Hits Record High",
+    "note": "intraday: widened by as much as 14.6 bp to a record, per ICE Data Services data reported by Bloomberg (original paywalled: bloomberg.com/news/articles/2026-11-05/spacex-default-risk-hits-fresh-peak-as-tech-led-selloff-builds)"
    }
   ]
  }
