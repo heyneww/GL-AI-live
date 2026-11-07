@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-07T07:39:13Z",
+ "generated_at": "2026-11-07T08:03:07Z",
  "monitor": {
-  "last_run": "2026-11-07T07:38:47Z",
+  "last_run": "2026-11-07T08:02:41Z",
   "sec_items": 225,
-  "news_items": 3275,
+  "news_items": 3282,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-07T07:38:47Z",
+    "last_run": "2026-11-07T08:02:41Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-07T07:38:47Z",
+    "last_run": "2026-11-07T08:02:41Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 556,
-    "added": 29,
+    "items": 559,
+    "added": 7,
     "evicted": 0,
-    "unread": 275,
+    "unread": 282,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3275,
+    "total": 3282,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-07T07:38:47Z",
+    "last_run": "2026-11-07T08:02:41Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24723,6 +24723,36 @@
  ],
  "news": [
   {
+   "id": "n8747929d28f846eb",
+   "title": "李佳琦直播间半小时卖出2万亿Token；可灵完成198亿元融资，估值超母公司快手丨AI周报",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rN3h6N0NOVEZoSTlGSDlIU3c0d1JfMGc4N3k2Z2Y5UGFzRFczNnNiUy1SQ09WZVFucWFhR1FlXy1CcUdWcXFQRC1SM2ZHaFFY?oc=5",
+   "publisher_url": null,
+   "publisher": "创业邦",
+   "published": "2026-11-07T07:56:36Z",
+   "date": "2026-11-07",
+   "lang": "zh-CN",
+   "query": "(阿里巴巴 OR 腾讯 OR 字节跳动 OR 百度) (配售 OR 发债 OR 贷款 OR 融资 OR 订单) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-07T08:02:56Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n7937d1d3a3125d23",
+   "title": "Anthropic is expected to begin its IPO roadshow next week",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXJZclkwUlpSLVNIS1hWcm0zaElZc19zT2tZaTFwcUxuel92UndmZE1PRGdkRW1LRk51dTEyaDhuekN3Z3k5ajNhVzlmR0h3enFFNjlBQWNoV3d4TDRqc3huVjJkQ0w2cDNMbUp2RGZEcENrN19uZ2tCLUFvYzJkaktSTzVPSXlsWGV6YlBjUlRsQ3dlS0g5SV9icnYyNXBYWHc0VtIBqgFBVV95cUxNLUZLTEV6dFdPNldRSTFWRG1CM3R3N211X20wczdxbzBLUXRCWERJX2FlQUduaUxZeUI3XzRxZ2duNHZVUm80bFpIMVhLamI5bjBSWUN5THNaT3RjU3JUdFAxZzRqLTgwdmFCUFVmcGZ0RGt0ODBLYXF4VFowamJUVXRwS0tmOEJ0RXdRY0FISDVrVWlwbnRENlFzUGpodXhQdGF5VDZkN3pZdw?oc=5",
+   "publisher_url": null,
+   "publisher": "WION",
+   "published": "2026-11-07T07:44:00Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-07T08:02:56Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "ncf79f29e7ac92657",
    "title": "AI’s power needs outpace data center growth, impacting Oklo and NuScale Power",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVUF2Um5jd3A2VzM5ODQxanRxYy1seXFEbjFJYnNxWlJ0TTIxRnZDNTI3TVhfd2h1MmJqcGlWZXRPQ1pmcW9NY3pqbGxGaEFmdDFaSzFZV2FnNUlRZVBUc2t2LWlwOGwxbTE3akNlYjViNjhwUWd6Wk4xMkZ4dUcyWWstMGVkVU0tU19wX0wySjhTME5nTFB2TlJpZUFNUjlmTWx3cTd3?oc=5",
@@ -24785,6 +24815,22 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "nd6af8c8cbfdd84d8",
+   "title": "Anthropic IPO Imminent: How to Participate via Bitget in This Year's Most Anticipated Tech IPO",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40OVVnZU53N3Z2eEV5Y0w0REtMUlJsRkxpc3lITEJ3QzF6Wmp3Qmh6QUQ5X2NBTlZ4NmhGcUtJM0owd3RHRUFKR1J5ZTRtZk5HWThVQTFjUWlZV0ww?oc=5",
+   "publisher_url": null,
+   "publisher": "深潮TechFlow",
+   "published": "2026-11-07T07:17:35Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-07T08:02:56Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n50c83fd251650f3b",
    "title": "XN Intends to Be a ‘Large Participant’ in Anthropic’s IPO",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN01kUnItQXhsaVFKVnlNLVg5WUJLQWI4N0VrWlhkU2hqWS1Dc2JPMkV6Ni1JUWlvSlBFelR6NUZ5UWh6QVFmVEZlNWJCaDk3SkV1UGVUT1JZTDBMcVdmVzhheXFrdHdvRWt6cTRucHJpNnprSElrbmR3WVgwN1U1LU5SQkNiSFNOWlE?oc=5",
@@ -24829,6 +24875,20 @@
     "apple"
    ],
    "fetched_at": "2026-11-07T07:39:02Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n842468320a6dde66",
+   "title": "Go.AI Raises $85 Million in Series A Funding to Expand Private AI Infrastructure for Regulated Industries",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHRJR3BvTlgya0FCRkpQZEctTXprR3h4d05rR2dncGt3T3RrZGt3QjhGclJhMUtDb1M3Z25BR0diMmo3d1U0ZGRNVF9rSXoyWlpXR3Nia3puVENkZnY0UWVhWXpYMHZGb3Y3dXNKRDFiYnpyUTk4aU5KRkplN3AxazRLQmVkWTJmUnlENHRYQzlmSndfbF8wRnNzR21ab0dnQ3c?oc=5",
+   "publisher_url": null,
+   "publisher": "openPR.com",
+   "published": "2026-11-07T06:00:03Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-07T08:02:56Z",
    "matcher_version": "3.2"
   },
   {
@@ -25608,69 +25668,6 @@
    "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
    "entities": [
     "alphabet"
-   ],
-   "fetched_at": "2026-11-07T01:38:10Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nc14e378d9c2b0535",
-   "title": "OpenAI新一轮融资缩水！报道：完成110亿美元首批融资，估值1.25万亿美元，软银、红杉参投",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzZEl6UjhiR1N6RmdScHpJTlhFOEExaGp6cE9iTTN2VUJpZUs0WWRNeElodlF6Q08zMUR5cTBTYUxHb0d2Zk1Rbk13WWdwdUZRYjJJ?oc=5",
-   "publisher_url": null,
-   "publisher": "华尔街见闻",
-   "published": "2026-11-06T22:23:35Z",
-   "date": "2026-11-06",
-   "lang": "zh-CN",
-   "query": "(阿里巴巴 OR 腾讯 OR 字节跳动 OR 百度) (配售 OR 发债 OR 贷款 OR 融资 OR 订单) when:2d",
-   "entities": [
-    "openai",
-    "softbank"
-   ],
-   "fetched_at": "2026-11-07T07:39:02Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n239fb5cd4c70e04f",
-   "title": "Anthropic’s falling IPO valuation could test the broader AI trade",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWHkwVW05WjhodkM4UjU1RzJOZXNxcWZMd0l3SGU3QzktZEdocXB6SnNMS2VfRl9Kbi0tR3ZlS1VrMFdFYW9hUC0zR2dZeXhYQTFJLWJURzY1MGhkUkMyN3RVZDBVdDh6MGhncnNIZVBCeU5HbHU5cW4wS2N0SldsQVp0YjRLSk1TU1E?oc=5",
-   "publisher_url": null,
-   "publisher": "Mezha.net",
-   "published": "2026-11-06T22:22:18Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-07T01:38:10Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nebfd4914a4e7a773",
-   "title": "Chicago Rivet & Machine Co. Announces Third Quarter Results of Operations",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZ2ZCWmRmZmtWc1hKdjQ3a29iQjVSSkIwdTYybGV6TVg3Q09LanVxWFgyNWlzZVRodWRBanpjbnAya1V2X2ppWkRQWk84VEp2T1VGWHdTWE5JbWpLWlJ3bmw3MldYeEpxUERkdUsxenlKcDlvd0JhMHM2NDNobjhKZ25RdEhLWm1TZVp5V003b2llWUYwd1FjVzh6dkRSZmM4b2lZMXJ1WjA2YXVOcEJiUHBybG40d3BZNkZ1b2VocEVUdVlqbkE?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-06T22:19:00Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-07T04:27:28Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n3d3afc7117348c6f",
-   "title": "Anthropic investors trim IPO valuation after tech rout",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM294Z2dWbHRJZ0R6emJ4Wm4zdmQyZFdnYnlNdURIWlM3bEhUVzQwUnE0bEp2NHUxSndIdGtKV2hrbmwtWWhKSDV5RFl2Y3pfQ0hicVpGTTJKenVPc1NNY3hPR0VjRzV3SXNQdWQ0VUFEZHZ3c2dkMGtPZGJMazhESkRXVnRzcnAwTkZwX0xkbS1WOWFuWFRzcFRIWVJXb1BSUnp6a3BseUIyekFaSkxvejJyQlhtaS1PNjdwQ09xLXllYTZsRklHUjZ1YnM?oc=5",
-   "publisher_url": null,
-   "publisher": "Capital Brief",
-   "published": "2026-11-06T22:18:08Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
    ],
    "fetched_at": "2026-11-07T01:38:10Z",
    "matcher_version": "3.2"
