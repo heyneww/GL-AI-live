@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-07T01:59:25Z",
+ "generated_at": "2026-11-07T04:27:40Z",
  "monitor": {
-  "last_run": "2026-11-07T01:58:59Z",
+  "last_run": "2026-11-07T04:27:11Z",
   "sec_items": 225,
-  "news_items": 3222,
+  "news_items": 3246,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-07T01:58:59Z",
+    "last_run": "2026-11-07T04:27:11Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-07T01:58:59Z",
+    "last_run": "2026-11-07T04:27:11Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 570,
-    "added": 3,
+    "items": 566,
+    "added": 24,
     "evicted": 0,
-    "unread": 222,
+    "unread": 246,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3222,
+    "total": 3246,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-07T01:58:59Z",
+    "last_run": "2026-11-07T04:27:11Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24723,6 +24723,182 @@
  ],
  "news": [
   {
+   "id": "n59ef01fdba675bee",
+   "title": "Anthropic's pre-IPO valuation falls to $1.1 trillion amid election and market volatility",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc2FpcTR3Q3hoVzRQNlFpNzJ0WjFOd0J3dGVkdzhLZ1JjOXhuUTBXSTlJU0NhbVo5Szc0LWV3b0N4ZzNBTUprZEhRX3AxQm5TTUhFT2l6c3R6VDY1RXJ5WVZVSEZsNEZOOXlGUl82Sno3bzFYRXJ1Rk5sYm9vWFhpbmxvSDhfMmtuRmVnMzVnMUw3ZEgxUERlREpjczM1ZjZTb3NYM21WYy1MVlo0cm50RVhkRQ?oc=5",
+   "publisher_url": null,
+   "publisher": "KuCoin",
+   "published": "2026-11-07T03:23:59Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nd653c02b35d44b14",
+   "title": "“The AI Gap Between China and the US Has Narrowed to Just Six Months!” Former Google CEO Eric Schmidt Reveals in Latest Interview That Attempts to Invest in DeepSeek Were Unsuccessful",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbWhaTjg5U1RNazB2NmE5RmVFQXUza0F3eWpzTzZJenYyb0RieS1qUkw1bGRlT01wazJ1NFJ6U3VKaTZKQXZvRzJrRDNEc2RzeHRzRzRfTER6cFp0eHNWSG82bFI2X01nejgxNjdMak9ZWklMRDJGNGJKT0FCYmZxWDNsMlhFeFk4d1JYQWtSWXJDaWppTlJiQXFn?oc=5",
+   "publisher_url": null,
+   "publisher": "富途牛牛",
+   "published": "2026-11-07T03:22:02Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
+   "entities": [
+    "alphabet",
+    "deepseek"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n8f116b6fc7359a5e",
+   "title": "Tokenized Anthropic Shares Launch by Dinari on IPO Day",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NUGFfZ21OcXlFU2VyWjAyTGtNZjBlamttclZPMjctOW5FczZOOFliRXg3RTV2UFBQNjJsS3RvWjZBTkpQVTd2QWFFZjlHSHNZTjlZYksyWnBac0VwZ0hvbFNlYTZoTUdKaGxZbl8zQVRsNDFITk5JVTZmcHg?oc=5",
+   "publisher_url": null,
+   "publisher": "The Cryptonomist",
+   "published": "2026-11-07T03:21:02Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nacac1f4225c748ae",
+   "title": "Why Would Anthropic Go Public Now? — Jamin Ball, Altimeter｜Latent Space",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KRnJULVdlMTBsQzdHSVpDLXgwR3dTOTA2bFlYOHp4TXB3YUdMZGtaM1BaX0FZSVliUmtvQjlwTm84SlJEZXZYWTJndzNtMUhTZ29hSk1vcWV0bW1YWXA0?oc=5",
+   "publisher_url": null,
+   "publisher": "finance.biggo.com",
+   "published": "2026-11-07T03:08:15Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n78ebcd4e2936d17d",
+   "title": "Anthropic IPO 2026: $1.5T-$1.6T Valuation Sought",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaEpjSGMySVp1VG9KQk1VWnZlSmhVa1JmTUhyUHZBb0xtaTNZNV81ZWdDdE1jU2pVUjN3VnNRZTNpaUxENXBhUjVVVkN3bk9pTGljOFBuX1RwNFM5NEpVZjRMWGhvaTI0R2RBOHJDX2J3UWQxWWtmTThKVkRfN1drVVFpdnFBbVpoSDAzNVR3NGRZcllqeXZjRVFWZllhRWZh?oc=5",
+   "publisher_url": null,
+   "publisher": "https://tech-insider.org/",
+   "published": "2026-11-07T03:04:29Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nf549fa7933dacfe9",
+   "title": "TeraWulf, IREN Accelerate Shift to AI Infrastructure as Bitcoin Mining Revenue Plunges",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yUHo0MUkzTnk0aGtsMHpBWnZoX0piWFJ2S1NWNmRqaUc2aG9tVTFpSG13ZFQ0Zy1fTHI1SUYxWXNYQmJGcmgtSjF2aEV0Z2g1OHFHVA?oc=5",
+   "publisher_url": null,
+   "publisher": "bloomingbit",
+   "published": "2026-11-07T02:48:57Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
+   "entities": [
+    "iren",
+    "terawulf"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "ndd1452fc70731472",
+   "title": "Intel Discloses $1.9B Classiq Deal Terms, With Up to $350M More at Stake",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TOWlnZjlidDg0YTRyQjEtRzNBUzRkQ3lQWkJYbVQzMkNnRkdOUlgyMFlpWVE2ckpzeGxING8xWEIzUTM2WVlmWnZtNk9TUjJTS2FRRWFKSF93Qjk4YmdNSWlLbUtidzJEd3dSdnROVVR4Qnk5Nmc?oc=5",
+   "publisher_url": null,
+   "publisher": "BigGo Finance",
+   "published": "2026-11-07T02:35:00Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
+   "entities": [
+    "classiq",
+    "intel"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n6dac95a9d03da757",
+   "title": "ING Groep (ENXTAM:INGA) Is Seeking Buyers For Data Center Loans",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGEtcEpxU1V3YUlQVzQtYV9UNks1VFQ4NFNIY0d1UzRISHczQjIwUV9VdDdBT0JmWURuVW4yZlRMRllLdlhOWV9GeVFQd0oxdTdpRTJzei01UGpiamE3UUkyYzBSa28weUdjdlRwSXdmQVVXa3MyM0ZaTUFLS2UwdmVFRkRLM0VlZERpVmU3d2E3ZzhWX2R2SGJR?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-07T02:15:00Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "private credit AI data center loan when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "naa965bba16a54a60",
+   "title": "DDR5 RAM Price: $8.70 Chip Now $48, Up 450% [2026]",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcUJPRTJqd05IZ0p5VFNXeVczVHg4WXhMeDhDVmVMTXRmYmprNzNCM1d5ajZDTjF1Uk9ReWd6UUJLMm94T2Fwc1FxVGVSUThsR0ZSd1FsczZjaHE2WnpkRkJfanFEa3hVODNYenRfQ0RsaUkzRVZ3Vlg1ZkU5d3hVUkxCR3psTWhzZnhOVA?oc=5",
+   "publisher_url": null,
+   "publisher": "shattered.io",
+   "published": "2026-11-07T02:08:33Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "ne1083c6b2a744d8a",
+   "title": "OpenAI Raises $11 Billion, Company Valued at $1.25 Trillion Amid Funding Surge",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTXo4WkJNNGU0WmFEcnlGSjJaUll0aFMyZnBiSGhwZG9WdzRocGZ5aGJmUEhVR2hUVVdLc0dVQnpabG1scjJYSEdDVnFRMFJNVUJnLVFIMWd6YlAwZXdlS0NuTEFRcGgxbm5hbmdIb0tYU1RVUjNKZXktNEtzQzlsb2ZmMV9JUDZjUjhwd2hMVU1uaEVpYVh3el9vcDdDZm5xOHVWeW9sRzR3UdIBrwFBVV95cUxPMEFTZnFuNkNxOEJtRnRYLTNfdzZEVTIxTm45eWxjUFhNdlkwc0xyVldTLXNtZWR3OWpPak1iUHBkRTFPZ29DTlVxS3FhQ1pIWmZEc3JfWmhtZm4xWUZrSjl2TW5aTlVzTzB2aV9LM1gtdTdhOHJZVi1GcWJnbC14cjNDSEZEMVViSVpxZmJSWlZKT05pbTFLamtJN014d3NIWEZ5ZXJnUTlKMFQzZGJR?oc=5",
+   "publisher_url": null,
+   "publisher": "Gagadget.com",
+   "published": "2026-11-07T02:05:16Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "openai"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n58c2b318c2b17cc6",
+   "title": "Crusoe sells troubled Wyoming data center project to Google",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ0JjR1A5c1QwZHZ0WGNXZGtlT3FEV0swMWFRUGlzX1F1eFp3ZEJPRlRZM0FRRkRzdzFxSFFqbkdvYnh2ZS14MHczeHJSSGs4LWkweXB2UzJwMjZnbDVkOFU5ME9zUW8wbXM3M1VFUmkzczlzYndNckxCZTdJbVc2bWkzQV9kSXpDTHgyS0ZtZDRqWlJKYVRUUUZfTUNTWjQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-07T01:40:00Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [
+    "alphabet",
+    "crusoe"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "na297ebd2e1a575e7",
    "title": "Oracle Stock $116 After $109 Low: Bull $123.73, Bear $108",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORTFOMGFycW56R0RHTFdqVkZVYVBMNWVKZ2tSUVB2ZUh2SzZxVXI0UGpCeEdnV0tMSVl3TWN4dUd1OWtkYldUWGtJX1JVQzI4SV9LZmF3UFZPcl9QNE1tU3Y2akc0dC1rU3VmOERjYU9IcmhSa0RWTXFiRTA0eFJKUWJ3X2l5dWpoU0d0N2VrSEp3Z3JobEFFbk9VRjlnczctR05KSm9vVkNzQQ?oc=5",
@@ -24739,6 +24915,22 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "na4ae4a58dd18cf7c",
+   "title": "XN plans to buy more Anthropic shares at IPO as AI sell-off tests valuation",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pV2tnU3NNS0JCNEltRFIzOVpna3ZHY0Jobzg4WGYtNFpkYkxtbEZ1aFluVmdwYjhtOXRQOWVpY0YzWnhSTmFhNGpScU1BN3dIZS1RbUJ3ZEY?oc=5",
+   "publisher_url": null,
+   "publisher": "Cryptonews.net",
+   "published": "2026-11-07T01:25:26Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n61e10632bf411ef4",
    "title": "Samsung Posts 107.4T Won Profit on RAM Shortage [2026]",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORmN0ZkZMenFKTlJxeTcxb0ZzQU55MTExOG5EbEo4b2tJMGtieGxDY3VORWZFVG5RV2xUV2pnOUpiU2haZUFteU44ZmdMT3B3SHUwMmV3S0REakp6eXlHZ3Fyc2NWS3pQQ0tKVG9zV1M4TWpUUW1zeHRwQnhSSDE3aDVtZ3ZyYTd2TDdfRWtoT1pjdXpMcklz?oc=5",
@@ -24752,6 +24944,22 @@
     "samsung"
    ],
    "fetched_at": "2026-11-07T01:38:10Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n2c48ca9480e2cd07",
+   "title": "How an Engine Almost Cost Kimi Antonelli the F1 Title",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNWFsQmNvTHlSZ1VYdVJ1WXJ4bXpwcDdoOHY0Zld1c2pORWNFcUxON0w4dVlPRVVqWVlsbjh4a0hoU19WZ2N0WFRZWWhnbmlCSmJJR2w4ZFluaTBBQWJUWG1Bb0lLTTBLaklRSkFWVlNhZHhNR0U0X1Vhd0xwUkpKaHBiSmI2NDlqTDlXdnpoNk5RMHZo?oc=5",
+   "publisher_url": null,
+   "publisher": "roundtable.io",
+   "published": "2026-11-07T01:15:49Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
+   "entities": [
+    "moonshot-ai"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
    "matcher_version": "3.2"
   },
   {
@@ -24782,6 +24990,22 @@
     "coreweave"
    ],
    "fetched_at": "2026-11-07T01:38:10Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nb61059911b7955fc",
+   "title": "Goldman raises global data center capacity forecast to 273 GW by 2030",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSno5d0JsV2taVkdQdVRCXzZUYUVUZi1PYkQ3MlhtTXhmZXR3Z0FWQ1R1azdFd2tFd0tNX0RZWnlIMEl6Q1A4cU9Td0FISXpUaWwwQzNnYzJxWlhHX2RUN3cwUjZMTTB5ZkNLQWNxN0NmdWU2RDJSWW85aDY5ZEZ2ZlhKdzJUdWVva2VQdEZuSE96R1c5X21SNHJXS2RrUQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-07T00:43:13Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "private credit AI data center loan when:2d",
+   "entities": [
+    "goldman-sachs"
+   ],
+   "fetched_at": "2026-11-07T04:27:28Z",
    "matcher_version": "3.2"
   },
   {
@@ -25120,6 +25344,20 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "ne386b54d31b9c4e2",
+   "title": "Elliott Investment Management Boosts Triple Flag Margin Loan Capacity to $1.3 Billion",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQalRJLU9EWTMzTl93dTZJc3VuTnRGSXVZUEdfUV9ZRlNsUEJhOFVJRUFvc2VFcWJoWHRYZmhXYnZCaU1UaXlnY19ibkNFc0RheHVicUkyX2RnNm9BSmpjbnZSZlM5MFVmR0tURmZNUTZSNG40WE1DVDJSUUJyam13dzB4cDFsWVBTZmdBOFZNankxcXVjallVWTNiQVVyM2ljcTFQZUx5cTdlMG82SXhZekdKZURoVjRuSFlrSFBYbTl3YWxqUDM3NTVB?oc=5",
+   "publisher_url": null,
+   "publisher": "Kalkine Media",
+   "published": "2026-11-06T22:40:36Z",
+   "date": "2026-11-06",
+   "lang": "en-US",
+   "query": "(Alibaba OR Tencent OR ByteDance OR Baidu) (bond OR notes OR placement OR \"share sale\" OR loan) billion when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n1a2265d58f0723a8",
    "title": "12 Anthropic ETFs Are on File Before IPO; Half Are Inverse",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSmFvVmZueVRQZ3dLVk15VjBHODNYVkMzZEFkUjc1My05YjhiOFZoS3prT3VwT0RIdVNGVkZBNnpneVNFR0xYLVc4bVZ4SmlHWXdUY1RvUWdXMFA0cGdlUWJPWEhyQ1c0OU5GQ0ZDWjhCY1Nxa29DWUJHRm9telpJWi1XY1RGeUs3Yk1EZThn?oc=5",
@@ -25201,6 +25439,20 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "nebfd4914a4e7a773",
+   "title": "Chicago Rivet & Machine Co. Announces Third Quarter Results of Operations",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZ2ZCWmRmZmtWc1hKdjQ3a29iQjVSSkIwdTYybGV6TVg3Q09LanVxWFgyNWlzZVRodWRBanpjbnAya1V2X2ppWkRQWk84VEp2T1VGWHdTWE5JbWpLWlJ3bmw3MldYeEpxUERkdUsxenlKcDlvd0JhMHM2NDNobjhKZ25RdEhLWm1TZVp5V003b2llWUYwd1FjVzh6dkRSZmM4b2lZMXJ1WjA2YXVOcEJiUHBybG40d3BZNkZ1b2VocEVUdVlqbkE?oc=5",
+   "publisher_url": null,
+   "publisher": "PR Newswire",
+   "published": "2026-11-06T22:19:00Z",
+   "date": "2026-11-06",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n3d3afc7117348c6f",
    "title": "Anthropic investors trim IPO valuation after tech rout",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM294Z2dWbHRJZ0R6emJ4Wm4zdmQyZFdnYnlNdURIWlM3bEhUVzQwUnE0bEp2NHUxSndIdGtKV2hrbmwtWWhKSDV5RFl2Y3pfQ0hicVpGTTJKenVPc1NNY3hPR0VjRzV3SXNQdWQ0VUFEZHZ3c2dkMGtPZGJMazhESkRXVnRzcnAwTkZwX0xkbS1WOWFuWFRzcFRIWVJXb1BSUnp6a3BseUIyekFaSkxvejJyQlhtaS1PNjdwQ09xLXllYTZsRklHUjZ1YnM?oc=5",
@@ -25228,6 +25480,34 @@
    "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
    "entities": [],
    "fetched_at": "2026-11-06T22:16:39Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n437b17781fb68e5b",
+   "title": "Kenorland Closes Oversubscribed $16 Million Exploration Financing",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmdwT0ZfU2xDSXdRdUZfMmJiR09xRXNKek5ScGtkNUFVRWcxWDlDUTFHNzRzdWRSVmI4eVlKMFlrUnZ1RHdwOTRDUldIYVpJRkdLbnFzN1ZJd0ZDd0I0N1Y2OU14dE8tenZlb1dtNGpGNG9ma3ZBeERMVnZJcXAzYkRZOS1OLVdUWFgyRVczcWhQMDdwcl9zejVmVFNUS0phaldkZFdfelpwNFJmVG9DUW1wRFp2OEE?oc=5",
+   "publisher_url": null,
+   "publisher": "TipRanks",
+   "published": "2026-11-06T22:11:55Z",
+   "date": "2026-11-06",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-07T04:27:28Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n1c69d3a51d460a14",
+   "title": "Decade Resources Closes $2.17 Million Flow-Through Financing",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNTVsR1hfRFFDak9fNi11dUNkZlVjRklFdFBMMXEzQWw3d2dTNmJKN1phUEJVYVFLc2Z1QzFKdk5SVTZfaG5TZm1rQXlQMFhuZml2UVNVbVVxOS1LWmVDcEJYbXh5M3o2Z2lhdEpIYzJKZUF6MGwwMi1odTZtcGt3UFk3YkIwYlRfV0FqNzJjblJMNFRuekxzOVF1cm9Ta2FyY1d4U0MxZXBwaFl5SjF0Ng?oc=5",
+   "publisher_url": null,
+   "publisher": "TipRanks",
+   "published": "2026-11-06T22:11:37Z",
+   "date": "2026-11-06",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-07T04:27:28Z",
    "matcher_version": "3.2"
   },
   {
@@ -25375,278 +25655,6 @@
    "lang": "en-US",
    "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
    "entities": [],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ne8fbff93259a8c95",
-   "title": "ING Seeks Buyers For $500M In U.S. Data Center Loans",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmJJLThMZEJiUGNuX3owMXVpdUxuRktDZkowZm4tZm96bXprYmFnczZnZmRYQTBQNVVhVFBSMWxLX2JXMkJsaXotUDJkZVlXNkdQa1d5dTJuU3ozNmIzcURSNFlXcFRsdUhyZWlVVHJPMHR3eDlpZm9PN0prY1FBNjBUUUhJNUFnRERrYllDMVMxUXBRZXV1SVBBZVBlNFRWUDUzRlJvdE5kV05FSVpSYVY0WTNVSmYwMGlXckhoVQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Bisnow",
-   "published": "2026-11-06T21:44:58Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nbb5da752f9fd3a49",
-   "title": "Anthropic IPO Valuation Expectations Fall After Technology Selloff",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQVdFVG56OTVyY0E4ZDkwOHVqTlVhSjBxVVYzYnpISy1vZS1iV3VsS1ctTWtGQnlhVF9lQlF2M3pnZF9vem1KczRoY2o3OUtXWjIxeDdXRmFzTVFDMFJyRXZpeG1OSF85eVdxVWVIazhEaUMxZUNsQkw4SVBmUmRVaVlkMzd2YnE2bUJsWWs3UDFiUQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Unite.AI",
-   "published": "2026-11-06T21:42:05Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ncfe486bc18a2e8c4",
-   "title": "The Louisiana First Horizon Foundation Announces Investment in Louisiana Music Museum",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSkFrUmp4bVdoMnhlVjhZUXZmbVBhSVNtMWdUUEpkS2dTQ0IzNUFzaDRjWEYwbE5IMFB1Nm82WnVCbzZDNmt5bm80aUhDWmVTcFFWVlktQXh3YUNsQktKdXI0REkyNGxIN2FHVnFBaURBOW5CM0libWVWOEM4S0Y3ZndRRmcyTm9GdEozZlFFSEFiWXl4clB2Si02RXRkQVNLbXVvcjhBWktxSXhySmVoOFF1VzUzbEMxSVZ1UlVodWZFLUdZWFE3cFV4ZFpSblZVQVFxUmplMzc?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-06T21:41:00Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-07T01:38:10Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n1dea61c712803e82",
-   "title": "Anthropic Said to Press On With $1.5T Pre-Thanksgiving IPO",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTWZrbjlIMWh2NHBraXI3a3ZlWUN1ZF9wdVhWVE82LTluNHh1T1Rld1dEekRGSVMzOEphWEx6cVR4eGYwTVJ3aU94bTB6Q1Fmams4TXExeUtxV2FOUGZoOHhIaGk5MV94bGczOFFvN2d4YWRFbkxPSDJpMGF1UU5pc0EyOXJqQWdJUTAzZExB?oc=5",
-   "publisher_url": null,
-   "publisher": "FourWeekMBA",
-   "published": "2026-11-06T21:39:30Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n6efe9ea5d70c9222",
-   "title": "Big Tech Bond Issuance Hits $1.88T US Record [2026]",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWFZpR0xaNUdaa2RsSjI0NGxobWN4QjEwcm53bTNEWlVtZ2Z5RE9NeUVkQU0yMHpsZ0szNk5OYm9Nb2ozSWlNY1Fmb0ZEbDk0THhnbVYtZTF3X2ExRExWc1pUajlUZ1htY1J0NmNBUmtZSGJfRDdSVTZRYWhZWWpnTDVJUmI?oc=5",
-   "publisher_url": null,
-   "publisher": "https://tech-insider.org/",
-   "published": "2026-11-06T21:37:30Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "AI bond sale hyperscaler when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n816ba4c43da0d793",
-   "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPR21ITlM5Q3NUTnN2TXAxQlVNNl81Z3lrQjF4bUpOQ0VQUFRTT1JuRGxXRUMwYVlzSjNkYm8wM3JaQl9MbjNWam9KNElxQ2ZWNmd0aVdEM1pXb09RRXVmU0ZwMjhONGZCMkFUcVlKcmdnX01Ub0RxZk1Nbzc4UVo2VUhJakFxY3BwYTBaQklqM1pxMjh1ZlhmOHAzQ1I5ekQ1MVFfYlNrOXFaT3FzSnlMRkpjZFBGRFVPb1FJbWZMdTFXVGJmMTRfckpMdUpNX1J4N2VJTA?oc=5",
-   "publisher_url": null,
-   "publisher": "MarketWatch",
-   "published": "2026-11-06T21:37:00Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "AI data center financing debt when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n683c43714e9e1b13",
-   "title": "Uranium Digital Raises $16.5 Million to Expand Uranium Trading Platform",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIWF9lU1RrZlY2cVhmakdNbE95WlItcVd3UmlIaEtoZHJTd2R1MExsTVYyWTlpR0tMWEJOcjlZbHJuSndUaktlODdzdzVEd2QtbzNidzVOY0g?oc=5",
-   "publisher_url": null,
-   "publisher": "www.tokenpost.com",
-   "published": "2026-11-06T21:36:56Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-07T01:38:10Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n62c7080f95bb9d18",
-   "title": "AI Daily: Anthropic IPO Talk Falls to $1.2T; Stocks Rebound",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS3JfQ3hzeTlpQ1k0QVliZXpwaEQ3cVhwbUpJN213NnlveEFYdm5jTlRVei1nVUhFX0VWeXNxVVZlNTVkajR5NU9CV3R2dFRFazRYNE5iLWJZUkp0VnpwaFdmdDJiUEs3NFJZNkxnNWxXekJad3BXNTFvN2tmN3ZFRUpn?oc=5",
-   "publisher_url": null,
-   "publisher": "FourWeekMBA",
-   "published": "2026-11-06T21:35:49Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n96861a26f1a96235",
-   "title": "Cautious Bank Outlook Weighs on Stocks Despite Strong Earnings",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uT1JoMy05S256R0J0YWU1TDhuTDJiUWNuVVVZYnh1azNyMDhEZW4tTmc1TXlPNUhWUWdSemZxMVpWaUhobGtYVFM5dnJsTHhwU2hWQ2ZQSFFtLWRRTWR0S1I2WC1Rd1ZEVlg3UDBWWS10YTY1cFJFYg?oc=5",
-   "publisher_url": null,
-   "publisher": "Global Finance Magazine",
-   "published": "2026-11-06T21:33:39Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "private credit AI data center loan when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nd46706405786917e",
-   "title": "Broadcom's AI Revenue Is Exploding. Here's What Investors Should Watch Next.",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMnphczN1ZXprVERBV1VDcWVEVnRRa0tZUFRKLWFMMF9oZTdNaWZxS0NZYnBzc2JFY0t6dVpTenp0RVJfSDB6VUFDUEtNRWNyYmlGRzA2cTNCNmtLSXVZNWpxbER2X1JLOFVJam51V01Fb0NaeFU0N0psQkhUaTc2b0NKb0M3cHo5TjAweXB4bjFLSk5xUVdkME9WNGdZaTJ2bzJ3YllLX1pVUXBlVEp5UUdfeWRJY2JOWTI5ODlvTU13UzViWHF2bE9LVWN0NFBCaVk0Vk02OTJLMVJUd2RxSXB2NFFjX01UUWh6U2p3?oc=5",
-   "publisher_url": null,
-   "publisher": "The Globe and Mail",
-   "published": "2026-11-06T21:33:02Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
-   "entities": [
-    "broadcom"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n310a49dbf5aa5877",
-   "title": "OpenAI secures $11 billion funding at $1.25 trillion valuation, Bloomberg News reports",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNMGRsU2FZZ2ttRzJRWGxpV2lTTnVCWE1uUjZuMERYNVo1VEo5Y1FoLWx3eElsMXQtS1dlN1diYVVYVlY5bFJQUURJVTNNMjVhS2IzTVV6UG1JTGJzMF96Z1B3UGhxZ2lNcVE2WUZWVlhkd2g5NmpBTnczaFNvRk1vR21rTnVDS2RUTjhRUmliV3FFTE81eFlwdmd1OFdTMmZuZUJWWG54X1JRMjI3anhvSWUxbHJ1a1ExaEhkOXhURURBT0RTWU1NcVRIbV9Pa3poZUVlOG1lNXE2dGVKRHFGbjNVd0pMRlZrQTFEeEhJbEhmLVJnQUtXa0FXeldkWkxFSWhGTnVNeVN6VHBFMksw?oc=5",
-   "publisher_url": null,
-   "publisher": "Central Oregon Daily",
-   "published": "2026-11-06T21:31:29Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
-   "entities": [
-    "openai"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n5bf913f966f3c24f",
-   "title": "Anthropic November IPO Odds Jump to 76% After FT Report",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZXJ0SmtKWklRUk1IRlB4U216LVpPZGZKWjFfX0dwczJLX1pydE1OU1k5d0dMN0xHNHZ6QmNMUnQ5T0pfRlJocml4bEt5WFRWb25hRnlBdlpRTFJNejRnZmU2bXFVdTY1UEZMalhWNnF6VFUxa0ZoWXNPR3R3Z0tMUHhPdkN0QlIyNEE?oc=5",
-   "publisher_url": null,
-   "publisher": "FourWeekMBA",
-   "published": "2026-11-06T21:29:44Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "na13ddcb7d90d2037",
-   "title": "TeraWulf shares rise 4% after beating Q3 estima...",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ0pXSF9nd1BFYlNqWU54bXBvSUtDa1lacXRtWTlYdGR2SHJlUVJNal96OUxRNjRCWk5yeklyZk11QXYzZG82RE9FUHgwQWQ2eDB1VUNnSFU1NnhMSWtyQS1sVE9MTEI4S0dKeTBGWTh1YWY3cThYMkhSVld0bU9kRDduVkRSVlZSaDhXOTRzVEFVbkx2X1lFbE9vVlZ0WUJJYzMtSnBiTnBmc2Rw?oc=5",
-   "publisher_url": null,
-   "publisher": "Pluang",
-   "published": "2026-11-06T21:25:57Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
-   "entities": [
-    "terawulf"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n0c3a2ed1e547088c",
-   "title": "Anthropic IPO Tokens Exclude US Buyers: 4 Regions [2026]",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLXhjcGJRRkVLQ2ZWLUNoTkpYNkRwOHBreVd3dnJBUUdGeUtieVlfUFZGOC1tN1dMYl9LVnZqZ0ZOY1puSzlIbmx0blEwN0VBekdwYXFBUlJyQW9WVk5YQ1NpRjVlRkV2RlhETDhNa1RGUllKRlAxQTBZTHZBZmV0RUl0WXMtUmxnNjctck1rUFo?oc=5",
-   "publisher_url": null,
-   "publisher": "https://tech-insider.org/",
-   "published": "2026-11-06T21:21:02Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nfd182c753a87d5f1",
-   "title": "Applied Compute Raises $350M at $3.25B as Run Rate Hits $100M in Under 18 Months",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sazVRdkF5aXAzdENfNlJ0RnY1MXRLVU5Cb2tzOURsVDMxeEpROXZvUEdYU0Q0SHVRcnVqZ04wRUk5LWszV1ZIUWNQeVZqa3Y5WjE0?oc=5",
-   "publisher_url": null,
-   "publisher": "Wowtale",
-   "published": "2026-11-06T21:16:53Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n3d2ee2b064c5fc7b",
-   "title": "CleanSpark Announces Participation in Upcoming Investor Events",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVnpaUmo0N1N0c0lQU2pvR2RJUkRuV2lwVHlSdnhWRHVEMEFqa3Z0NzB6V2stcWxkMVgtRU80VE9UUFZmV2FfWUV6b3hwQk1nWlo0RkNBVlZnbGRuZVlsQlFkVldUQ29yVVFkVVVFdzJWNHNabUduYWlvbzBBNXU1R1dvV1lBMUlOVWRBRmFGc0dxeWhkRjJwLXAyb0N3M0lTSmZjR0l2OWpEV0dRcnRiZnhMZUZueU5Va2c?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-06T21:15:00Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n7cc2ae1657586fae",
-   "title": "Google buys Wyoming data center site as hyperscalers move to own AI capacity",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORThFbzkyelpJeGxkWHBLeFhIeEtzX2NOdURhektUNjUxQXVPd2JHUUdpU081ZGZOZWFNZW41T1pOd2JKOURUUS13VUZuOU1SMG9DeHY3RFNfREZxU2hyVUZob1EyQ2p4ZjUwYUZtMmpoX19IVVpmWWJjUTJRMVQ2Mml5UEo2bGs?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance Singapore",
-   "published": "2026-11-06T21:00:33Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
-   "entities": [
-    "alphabet"
-   ],
-   "fetched_at": "2026-11-06T22:16:39Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n839d345c16d719f5",
-   "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc2xnRmphZ1JWMGh1OHplODE3ek1GTHFoLXBkNkY2RVlDM2NVRHJBdzBsYlNVMFlJSWdXMVpBMkV5TFRMbUxSaGsyVmN4T0pKSGhiYnhKWkg5Q1ZkZEVmUE9RVUhXTlJWSFAtOE4yM0JCbG5PdGVIbnE4VURQam9RNWcyNHFrZUFZdkdCNzlGbzJuRzhYYjBDb0JPSk91cUhlWnRaemVR?oc=5",
-   "publisher_url": null,
-   "publisher": "CNBC",
-   "published": "2026-11-06T21:00:14Z",
-   "date": "2026-11-06",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
    "fetched_at": "2026-11-06T22:16:39Z",
    "matcher_version": "3.2"
   }
