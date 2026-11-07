@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T10:19:18Z",
+ "generated_at": "2026-11-07T10:44:40Z",
  "monitor": {
   "last_run": "2026-11-07T10:18:53Z",
   "sec_items": 225,
@@ -3292,7 +3292,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 2300000000,
+     "investment": 1900000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3329,22 +3329,22 @@
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 2300000000,
+     "signed": 1900000000,
      "in_progress": 0,
      "completed": 0,
      "reported": 0
     },
-    "confirmed_usd": 0,
-    "binding_usd": 2300000000,
+    "confirmed_usd": 1900000000,
+    "binding_usd": 1900000000,
     "last_edge": "2026-10-26",
-    "last_source": "2026-10-28",
+    "last_source": "2026-10-30",
     "counterparties": 1,
-    "inflow_total_usd": 2300000000,
+    "inflow_total_usd": 1900000000,
     "outflow_total_usd": 0,
     "top_counterparties": [
      {
       "id": "intel",
-      "usd": 2300000000,
+      "usd": 1900000000,
       "share": 1.0
      }
     ],
@@ -5084,7 +5084,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 16500000000,
+     "investment": 16100000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -5113,46 +5113,46 @@
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 2300000000,
+     "signed": 1900000000,
      "in_progress": 8900000000,
      "completed": 57100000000,
      "reported": 0
     },
-    "confirmed_usd": 64100000000,
-    "binding_usd": 68300000000,
+    "confirmed_usd": 66000000000,
+    "binding_usd": 67900000000,
     "last_edge": "2026-10-26",
     "last_source": "2026-10-30",
     "counterparties": 11,
     "inflow_total_usd": 51800000000,
-    "outflow_total_usd": 16500000000,
+    "outflow_total_usd": 16100000000,
     "top_counterparties": [
      {
       "id": "apollo",
       "usd": 25200000000,
-      "share": 0.3689604685212299
+      "share": 0.3711340206185567
      },
      {
       "id": "public-equity-investors",
       "usd": 23000000000,
-      "share": 0.3367496339677892
+      "share": 0.3387334315169367
      },
      {
       "id": "us-government",
       "usd": 8900000000,
-      "share": 0.13030746705710103
+      "share": 0.13107511045655376
      },
      {
       "id": "nvidia",
       "usd": 5000000000,
-      "share": 0.07320644216691069
+      "share": 0.07363770250368189
      },
      {
-      "id": "classiq",
-      "usd": 2300000000,
-      "share": 0.03367496339677892
+      "id": "softbank",
+      "usd": 2000000000,
+      "share": 0.029455081001472753
      }
     ],
-    "concentration_top3": 0.83601756954612
+    "concentration_top3": 0.8409425625920471
    }
   },
   {
@@ -11294,19 +11294,26 @@
    "subkind_zh": "收购",
    "from": "intel",
    "to": "classiq",
-   "amount_usd": 2300000000,
-   "amount_text": "~$2.3B in cash and stock as reported by Calcalist (Ynet) and The Next Platform; Intel did not disclose the price",
-   "amount_text_zh": "据 Calcalist（Ynet）和 The Next Platform 报道约 23 亿美元（现金加股票）；英特尔未披露价格",
+   "amount_usd": 1900000000,
+   "amount_text": "~$1.9B for 100% of Classiq, subject to customary purchase price adjustments, per Intel's Q3 2026 10-Q; Israeli press (Calcalist) had reported ~$2.3B in cash and stock, which may include amounts beyond the purchase price",
+   "amount_text_zh": "据英特尔 2026 年第三季度 10-Q，收购 Classiq 全部股权约 19 亿美元，可按惯例调整收购价；以色列媒体（Calcalist）此前报道约 23 亿美元（现金加股票），可能包含收购价以外的款项",
    "announced": "2026-10-26",
    "term": "Closing expected in the first half of 2027, subject to regulatory approvals",
    "term_zh": "预计 2027 年上半年完成，须获监管批准",
    "status": "signed",
-   "confidence": "reported",
-   "title_en": "Intel to acquire quantum software firm Classiq (~$2.3B)",
-   "title_zh": "英特尔收购量子软件公司 Classiq（约 23 亿美元）",
-   "summary_en": "Intel signed a definitive agreement to buy Classiq, an Israeli quantum-computing software company, to make its quantum group a full-stack business; Israeli press put the price at about $2.3B in cash and stock, the largest quantum acquisition so far. Intel did not state a price, and closing is expected in the first half of 2027.",
-   "summary_zh": "英特尔签署最终协议，收购以色列量子计算软件公司 Classiq，使其量子计算部门成为全栈业务；以色列媒体报道价格约 23 亿美元（现金加股票），为迄今最大的量子领域收购。英特尔未披露价格，交易预计于 2027 年上半年完成。",
+   "confidence": "confirmed",
+   "title_en": "Intel to acquire quantum software firm Classiq (~$1.9B)",
+   "title_zh": "英特尔收购量子软件公司 Classiq（约 19 亿美元）",
+   "summary_en": "Intel signed a definitive agreement to buy Classiq, an Israeli quantum-computing software company, to make its quantum group a full-stack business. Intel's Q3 2026 10-Q puts the price at about $1.9B, subject to customary adjustments (Israeli press had reported about $2.3B in cash and stock); closing is expected in the first half of 2027.",
+   "summary_zh": "英特尔签署最终协议，收购以色列量子计算软件公司 Classiq，使其量子计算部门成为全栈业务。英特尔 2026 年第三季度 10-Q 显示收购价约 19 亿美元，可按惯例调整（以色列媒体此前报道约 23 亿美元，现金加股票）；交易预计于 2027 年上半年完成。",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000191/intc-20260926.htm",
+     "publisher": "Intel (SEC 10-Q)",
+     "date": "2026-10-30",
+     "title": "Intel quarterly report for the period ended 26 September 2026 (subsequent event: Classiq acquisition)",
+     "type": "filing"
+    },
     {
      "url": "https://www.ynetnews.com/business/article/rkd8qnanme",
      "publisher": "Ynet News (Calcalist)",
@@ -24735,7 +24742,7 @@
    },
    "investment": {
     "count": 131,
-    "usd": 911783790000,
+    "usd": 911383790000,
     "undisclosed": 37,
     "cancelled": 3
    },
@@ -24790,20 +24797,20 @@
     "usd": 0
    }
   },
-  "total_usd": 3987003861259,
+  "total_usd": 3986603861259,
   "contingent_usd": 183230000000,
   "headline_usd": 1969460000000,
-  "broad_usd": 6139693861259,
+  "broad_usd": 6139293861259,
   "by_status_usd": {
    "announced": 10000000000,
-   "signed": 1876603571259,
+   "signed": 1876203571259,
    "in_progress": 541636000000,
    "completed": 1415364290000,
    "reported": 143400000000
   },
-  "confirmed_usd": 2589266861259,
-  "reported_usd": 1397737000000,
-  "binding_usd": 3833603861259,
+  "confirmed_usd": 2591166861259,
+  "reported_usd": 1395437000000,
+  "binding_usd": 3833203861259,
   "announced_usd": 153400000000,
   "circular": [
    {
@@ -26765,11 +26772,11 @@
    {
     "month": "2026-10",
     "count": 26,
-    "usd": 459738000000,
-    "cumulative_usd": 3924253861259,
+    "usd": 459338000000,
+    "cumulative_usd": 3923853861259,
     "by_kind": {
      "order": 4400000000,
-     "investment": 59600000000,
+     "investment": 59200000000,
      "debt": 166538000000,
      "lease": 229200000000,
      "vendor_financing": 0,
@@ -26780,7 +26787,7 @@
     "month": "2026-11",
     "count": 7,
     "usd": 62750000000,
-    "cumulative_usd": 3987003861259,
+    "cumulative_usd": 3986603861259,
     "by_kind": {
      "order": 0,
      "investment": 21000000000,
