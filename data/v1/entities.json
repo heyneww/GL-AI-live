@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T10:18:52Z",
+ "generated_at": "2026-11-08T10:45:13Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-08, https://heyneww.github.io/GL-AI-live/",
@@ -9786,7 +9786,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 8900000000,
-     "debt": 5000000000,
+     "debt": 9200000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -9802,18 +9802,18 @@
     "outflow_count": {
      "order": 0,
      "investment": 1,
-     "debt": 1,
+     "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
     "by_status_usd": {
-     "announced": 0,
+     "announced": 4200000000,
      "signed": 5000000000,
      "in_progress": 8900000000,
      "completed": 0,
@@ -9821,21 +9821,26 @@
     },
     "confirmed_usd": 8900000000,
     "binding_usd": 13900000000,
-    "last_edge": "2025-08-22",
-    "last_source": "2025-08-22",
-    "counterparties": 2,
+    "last_edge": "2026-10-06",
+    "last_source": "2026-10-06",
+    "counterparties": 3,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 13900000000,
+    "outflow_total_usd": 18100000000,
     "top_counterparties": [
      {
       "id": "intel",
       "usd": 8900000000,
-      "share": 0.6402877697841727
+      "share": 0.49171270718232046
      },
      {
       "id": "tsmc",
       "usd": 5000000000,
-      "share": 0.3597122302158273
+      "share": 0.27624309392265195
+     },
+     {
+      "id": "vistra",
+      "usd": 4200000000,
+      "share": 0.23204419889502761
      }
     ],
     "concentration_top3": 1.0
@@ -10063,7 +10068,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 4200000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -10079,7 +10084,7 @@
     "inflow_count": {
      "order": 2,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -10094,11 +10099,11 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
     "by_status_usd": {
-     "announced": 0,
+     "announced": 4200000000,
      "signed": 0,
      "in_progress": 0,
      "completed": 0,
@@ -10106,13 +10111,19 @@
     },
     "confirmed_usd": 0,
     "binding_usd": 0,
-    "last_edge": "2026-01-09",
-    "last_source": "2026-02-26",
-    "counterparties": 2,
-    "inflow_total_usd": 0,
+    "last_edge": "2026-10-06",
+    "last_source": "2026-10-06",
+    "counterparties": 3,
+    "inflow_total_usd": 4200000000,
     "outflow_total_usd": 0,
-    "top_counterparties": [],
-    "concentration_top3": 0
+    "top_counterparties": [
+     {
+      "id": "us-government",
+      "usd": 4200000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
    }
   },
   {

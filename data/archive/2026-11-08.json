@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T10:18:52Z",
+ "generated_at": "2026-11-08T10:45:13Z",
  "monitor": {
   "last_run": "2026-11-08T10:18:27Z",
   "sec_items": 224,
@@ -9827,7 +9827,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 8900000000,
-     "debt": 5000000000,
+     "debt": 9200000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -9843,18 +9843,18 @@
     "outflow_count": {
      "order": 0,
      "investment": 1,
-     "debt": 1,
+     "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
     "by_status_usd": {
-     "announced": 0,
+     "announced": 4200000000,
      "signed": 5000000000,
      "in_progress": 8900000000,
      "completed": 0,
@@ -9862,21 +9862,26 @@
     },
     "confirmed_usd": 8900000000,
     "binding_usd": 13900000000,
-    "last_edge": "2025-08-22",
-    "last_source": "2025-08-22",
-    "counterparties": 2,
+    "last_edge": "2026-10-06",
+    "last_source": "2026-10-06",
+    "counterparties": 3,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 13900000000,
+    "outflow_total_usd": 18100000000,
     "top_counterparties": [
      {
       "id": "intel",
       "usd": 8900000000,
-      "share": 0.6402877697841727
+      "share": 0.49171270718232046
      },
      {
       "id": "tsmc",
       "usd": 5000000000,
-      "share": 0.3597122302158273
+      "share": 0.27624309392265195
+     },
+     {
+      "id": "vistra",
+      "usd": 4200000000,
+      "share": 0.23204419889502761
      }
     ],
     "concentration_top3": 1.0
@@ -10104,7 +10109,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 4200000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -10120,7 +10125,7 @@
     "inflow_count": {
      "order": 2,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -10135,11 +10140,11 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
     "by_status_usd": {
-     "announced": 0,
+     "announced": 4200000000,
      "signed": 0,
      "in_progress": 0,
      "completed": 0,
@@ -10147,13 +10152,19 @@
     },
     "confirmed_usd": 0,
     "binding_usd": 0,
-    "last_edge": "2026-01-09",
-    "last_source": "2026-02-26",
-    "counterparties": 2,
-    "inflow_total_usd": 0,
+    "last_edge": "2026-10-06",
+    "last_source": "2026-10-06",
+    "counterparties": 3,
+    "inflow_total_usd": 4200000000,
     "outflow_total_usd": 0,
-    "top_counterparties": [],
-    "concentration_top3": 0
+    "top_counterparties": [
+     {
+      "id": "us-government",
+      "usd": 4200000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
    }
   },
   {
@@ -11824,6 +11835,42 @@
      "publisher": "The Daily Record",
      "date": "2026-10-06",
      "title": "MD-based Constellation enters massive power deal with Google"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "us-government-vistra-2026-10-nuclear-uprate-loan",
+   "kind": "debt",
+   "subkind": "federal loan (conditional commitment, DOE Office of Energy Dominance Financing)",
+   "subkind_zh": "联邦贷款（有条件承诺，美国能源部能源主导融资办公室）",
+   "from": "us-government",
+   "to": "vistra",
+   "amount_usd": 4200000000,
+   "amount_text": "~$4.2B conditional loan commitment for uprates and modernisation at Beaver Valley, Davis-Besse and Perry; definitive financing documents not yet signed (DOE conditions still to be met)",
+   "amount_text_zh": "约 42 亿美元有条件贷款承诺，用于 Beaver Valley、Davis-Besse 和 Perry 核电站的增容和现代化改造；最终融资文件尚未签署（须满足美国能源部的条件）",
+   "announced": "2026-10-06",
+   "term": null,
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "US Energy Department to lend Vistra ~$4.2B for nuclear uprates sold to Meta",
+   "title_zh": "美国能源部拟向 Vistra 提供约 42 亿美元贷款，用于已售予 Meta 的核电增容",
+   "summary_en": "The US Department of Energy made a conditional commitment to lend Vistra about $4.2B to uprate and modernise its Beaver Valley, Davis-Besse and Perry nuclear plants, adding 433 MW. Those uprates are part of the 20-year power purchase agreements Vistra signed with Meta in January 2026 (its own edge), so the loan funds capacity already sold to an AI buyer. DOE funds only after Vistra meets its technical, legal, environmental and financial conditions.",
+   "summary_zh": "美国能源部有条件承诺向 Vistra 提供约 42 亿美元贷款，用于其 Beaver Valley、Davis-Besse 和 Perry 核电站的增容和现代化改造，新增 433 兆瓦容量。这些增容属于 Vistra 于 2026 年 1 月与 Meta 签署的 20 年购电协议的一部分（另列为一条边），因此该贷款资助的是已售予 AI 买家的容量。Vistra 须满足技术、法律、环境和财务条件后，能源部才会放款。",
+   "sources": [
+    {
+     "url": "https://www.ans.org/news/2026-10-06/article-8464/",
+     "publisher": "American Nuclear Society (Nuclear Newswire)",
+     "date": "2026-10-06",
+     "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
+     "type": "news"
+    },
+    {
+     "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
+     "publisher": "Utility Dive",
+     "date": "2026-10-06",
+     "title": "DOE intends to loan Vistra $4.2B for nuclear fleet improvements",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -24730,8 +24777,8 @@
  ],
  "stats": {
   "entities": 139,
-  "edges": 409,
-  "curated_edges": 409,
+  "edges": 410,
+  "curated_edges": 410,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -24747,8 +24794,8 @@
     "cancelled": 3
    },
    "debt": {
-    "count": 131,
-    "usd": 1167155071259,
+    "count": 132,
+    "usd": 1171355071259,
     "undisclosed": 5,
     "cancelled": 0
    },
@@ -24797,21 +24844,21 @@
     "usd": 0
    }
   },
-  "total_usd": 3986603861259,
+  "total_usd": 3990803861259,
   "contingent_usd": 183230000000,
   "headline_usd": 1969460000000,
-  "broad_usd": 6139293861259,
+  "broad_usd": 6143493861259,
   "by_status_usd": {
-   "announced": 10000000000,
+   "announced": 14200000000,
    "signed": 1876203571259,
    "in_progress": 541636000000,
    "completed": 1415364290000,
    "reported": 143400000000
   },
   "confirmed_usd": 2591166861259,
-  "reported_usd": 1395437000000,
+  "reported_usd": 1399637000000,
   "binding_usd": 3833203861259,
-  "announced_usd": 153400000000,
+  "announced_usd": 157600000000,
   "circular": [
    {
     "id": "loop-nvidia-openai-oracle",
@@ -26771,13 +26818,13 @@
    },
    {
     "month": "2026-10",
-    "count": 26,
-    "usd": 459338000000,
-    "cumulative_usd": 3923853861259,
+    "count": 27,
+    "usd": 463538000000,
+    "cumulative_usd": 3928053861259,
     "by_kind": {
      "order": 4400000000,
      "investment": 59200000000,
-     "debt": 166538000000,
+     "debt": 170738000000,
      "lease": 229200000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -26787,7 +26834,7 @@
     "month": "2026-11",
     "count": 7,
     "usd": 62750000000,
-    "cumulative_usd": 3986603861259,
+    "cumulative_usd": 3990803861259,
     "by_kind": {
      "order": 0,
      "investment": 21000000000,
