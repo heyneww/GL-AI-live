@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-08T01:43:30Z",
+ "generated_at": "2026-11-08T02:07:09Z",
  "monitor": {
-  "last_run": "2026-11-08T01:43:07Z",
+  "last_run": "2026-11-08T02:06:36Z",
   "sec_items": 224,
-  "news_items": 3117,
+  "news_items": 3124,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-08T01:43:07Z",
+    "last_run": "2026-11-08T02:06:36Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-08T01:43:07Z",
+    "last_run": "2026-11-08T02:06:36Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 495,
-    "added": 28,
-    "evicted": 214,
-    "unread": 117,
+    "items": 492,
+    "added": 7,
+    "evicted": 0,
+    "unread": 124,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3117,
+    "total": 3124,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-08T01:43:07Z",
+    "last_run": "2026-11-08T02:06:36Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24730,6 +24730,36 @@
  ],
  "news": [
   {
+   "id": "n45293057c41f671a",
+   "title": "朱一明投了梁文锋 参与DeepSeek第二轮融资",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MRjMzZ3Nndk9GZVVHRkxYT1hJMDYxUGFWWEZrRk1UOEtpcnFRall1LUtYcFhCNnBfV3NlczJkWGc0YmhCOV9jdklqT1VaMHZ1ZEdaZGxZcVc1alZWRVVkMDVn?oc=5",
+   "publisher_url": null,
+   "publisher": "证券之星",
+   "published": "2026-11-08T01:37:43Z",
+   "date": "2026-11-08",
+   "lang": "zh-CN",
+   "query": "(DeepSeek OR 深度求索 OR 月之暗面 OR Kimi OR 智谱 OR MiniMax OR 阶跃星辰) (融资 OR 上市 OR IPO) when:2d",
+   "entities": [
+    "deepseek"
+   ],
+   "fetched_at": "2026-11-08T02:06:57Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n7d23e0fa2ae8082d",
+   "title": "For Zoomers, blue wave in US election evokes 'millennial optimism'",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOF93cGZ0ci0yc3pIT2MtS3Y1dTFKc3paRjhmVVpMYjUzVUZZMDVZQkZ5S1lCbThqYVFGU3NMMGlwUlBxV1l3VF9TOE9BRTVqRUZlSXhDV1o3aUVEcjhFdUhSckNvWVNobnZhcVRhX1BabmpWYWRDdEZoY1FadFhidEZUeEVYVk96NmlqeEExWEkweDg?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo",
+   "published": "2026-11-08T01:35:00Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-08T02:06:57Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "naffa662711a46779",
    "title": "Anthropic Presses On With IPO as Bids Slip to $1.2T [2026]",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYmdRVDZHUVFKMi1sbXBNcTN0RmJTXzdDTFpEOElFaXBic251aTE2QlN2b2U4czFCOFRkbTJIbVFwY2tyUGdRc2UtLTBNMnkxejZkV0xrR1ZCZU43VFAtSHdTUUJNZk5aSnhtSXN6OHBoTGRFTjlhZ1J1ay1NMlJGZlgwNWNHYmp4cmpKVnE2ZVREQQ?oc=5",
@@ -25048,6 +25078,22 @@
     "anthropic"
    ],
    "fetched_at": "2026-11-07T22:12:18Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n22fc003a7a1c3ca7",
+   "title": "Firmly raises $15 million from Squarepoint, J.P. Morgan Payments and Mastercard to connect merchants to AI shopping agents",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQa2d3Yk1LUksxRDUtc0ktOU5WMGs5bFZ2NUtZcnBQcV83NzFjdXV5WjlkTnlQZS0tekZldzZIU2swTy1hQmQ3R2Y0bzctWTdyNGFTZFN5b1ltdEZvaTF1R1JJb3dOX1JELXpLUzNZSUNFc0JaRXpqZjJjWkRCcTdUb0x6WUc4OWVSd09UNVBoaFpyb3BTeGNlTEM2SnpNNnRHVTZJUUE1Yzd0eF9SS1VQSE9NeUtucDF3VjZ5Yy1kRVRtMHZNVTVPdmtDMXM0V1gzLXo1dS1n?oc=5",
+   "publisher_url": null,
+   "publisher": "MLQ.ai",
+   "published": "2026-11-07T20:05:29Z",
+   "date": "2026-11-07",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [
+    "jpmorgan"
+   ],
+   "fetched_at": "2026-11-08T02:06:57Z",
    "matcher_version": "3.2"
   },
   {
@@ -25620,55 +25666,6 @@
    "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
    "entities": [
     "anthropic"
-   ],
-   "fetched_at": "2026-11-07T16:13:49Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n224230fde0aa1da1",
-   "title": "Wall Street Already Has 10 Leveraged Anthropic ETFs Lined Up, and Half Bet Against It",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWGVkWlZlVC1TSGtqLVRMREo2enJ6X3FiNjYxeTJpX3BxOGRuMXFDcXlRVGpScWFSN3ctQTlHNEVGMGZDSFd1REFid0JFQmxxbVJlVFQ5ZUNVSTVHR0RjbmZCWFc3MEVOVXd1Z2xKanh4clNXN0FfT2JtWWI0bkZZUmVyM1VQci13M2NfczNzVEp3bklWOExiQlVaNHJrOTg?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-07T14:28:48Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-07T16:13:49Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n318e6d49cc1d7336",
-   "title": "Microsoft is renting less AI capacity, and the neoclouds that built on its contracts are exposed",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRHV4Y0xyWW1saTNLRUQ2XzM1V0RlT05LSDF4Tm5CVUFsT1pLSjNDbXFvOUhMalJWdzdkR2pLVy1nY1JHbFlrSGlLY2V0aFU3U1hHa0dIei00bF9aY0hTQnMtVk9SQUdsY0NFNDI3ZFhaWWpfUHZKQk1vWHVlazdMdGhaWGYxdUFienB6dFdTSnU0OVJFVDZoNEdFQnUwUDVLTk1HWFgzcDlIWXNReGtJbWhLWHA0YXc?oc=5",
-   "publisher_url": null,
-   "publisher": "MLQ.ai",
-   "published": "2026-11-07T14:25:44Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:2d",
-   "entities": [
-    "microsoft"
-   ],
-   "fetched_at": "2026-11-07T16:13:49Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nbdf0ad38225ec3c2",
-   "title": "Memory makers earn 80% margins as the AI crunch reaches Apple, PCs and Nvidia's supply chain",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzEtQ01YeEdxdUh1dVZlMDhDZWJPaEYzUUt0MTdWOUd2LUdLZ2dEX3N5VFJVdUoyNHY1ZFo5UVE0ekpQMVIwNkFTSmlSd0YxYXgtUUh5WGU2UW93VV9GNWRGVzNfVnhOUW9JSk5HMHN0QkU5N0drLU1IdXlVRnVHVF8tYzRmU2FPZDhUb1dQcTJma0VsZmhaZmFvQi1HWlFPVTZDWGVocWcxdzBkVDFn?oc=5",
-   "publisher_url": null,
-   "publisher": "MLQ.ai",
-   "published": "2026-11-07T14:25:23Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:2d",
-   "entities": [
-    "apple",
-    "nvidia"
    ],
    "fetched_at": "2026-11-07T16:13:49Z",
    "matcher_version": "3.2"
