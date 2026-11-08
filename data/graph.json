@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-08T13:28:29Z",
+ "generated_at": "2026-11-08T13:53:33Z",
  "monitor": {
-  "last_run": "2026-11-08T13:28:01Z",
+  "last_run": "2026-11-08T13:53:06Z",
   "sec_items": 224,
-  "news_items": 3081,
+  "news_items": 3094,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-08T13:28:01Z",
+    "last_run": "2026-11-08T13:53:06Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-08T13:28:01Z",
+    "last_run": "2026-11-08T13:53:06Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
     "items": 463,
-    "added": 33,
-    "evicted": 153,
-    "unread": 81,
+    "added": 13,
+    "evicted": 0,
+    "unread": 94,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3081,
+    "total": 3094,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-08T13:28:01Z",
+    "last_run": "2026-11-08T13:53:06Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24777,6 +24777,69 @@
  ],
  "news": [
   {
+   "id": "n325c15c96fb9ea81",
+   "title": "PowerUp Money Raises $10 Million Led By Flourish Ventures To Expand Wealth Management And Investment Advisory Platform",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNd3JpMlZWZTQ2Z1VndUdYUDNkT09mYmpqNmVLdEV2WXRsTHUxa2NmWVZFQ0R5S3o5Y0d2dXE1a283MUozZkJ2bzVxZnJzTHhua0dDMkEtVEc1THFtbDdyemx4b1haZWxuZXd6X1EwNXdyM25DXzJ2Wmk2RXlNb1BTbE1nOXI0alZvbGpZSVNBbEFFLVRwT21sUFdJVF8xejFlUWdnQzhQZ2RMQXpOb3lMRmhCVDhvMnNJc04zZjNiMmdYMWhPN3ExYXNvSkR2clZCTlUw?oc=5",
+   "publisher_url": null,
+   "publisher": "Pulse 2.0",
+   "published": "2026-11-08T13:36:32Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-08T13:53:20Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nd7ac43b30c475461",
+   "title": "Broadcom's Anthropic Rack Deal: A $63 Billion Financing Wrapper With a $43 Billion Backstop",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeXFWbFpyVzJXazdRdWVCbTdQRVA5S3hqeXVvakg5U25fcW5zc2N4SDlMZHZ0VWZyVV9hT1I5d21ZZTkya2d1RGlpUTM2VXlPQXdkNExMTjB5YS1QbW1YRzE3TzRlWndXMm1BNF9BUnV4Q2gtWEdNb3EzemZsaThVUjFkcU94UXBVT1ZzVVZrcFJjREN6cmUzYjJvT3Joc2ZYR3BsUDZDWThQb3hXUWhSNWZlNEhMTlhIOG1wN28tc01xbnJQT01kNzRXbFFvWFdWeDNLYW0tdE1rLW04S2hmbFBHOUtoak1zTmRMYy1kZWZoQQ?oc=5",
+   "publisher_url": null,
+   "publisher": "ad-hoc-news.de",
+   "published": "2026-11-08T13:31:44Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "anthropic",
+    "broadcom"
+   ],
+   "fetched_at": "2026-11-08T13:53:20Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "na3b636dff8ff9762",
+   "title": "Broadcom's AI Ambitions Rest on Two Timetables: Rack Deliveries in 2027 and a Singapore Packaging Pl",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSzNvU1VkZktoSjVIbXJxWWJYb0dyN3N2Y0tKMlpaVnFCcElMNl9WNkp2SkJiTnRlY29OSzU3UWNZU2FDM2lJZHpBYlJSaWNXWDQ5bFNVdHZZS21lOHVFVzRra2dmNUVQaDQtVjgyTExWWXlPVFN6Smo4UUJKcTIxeTY4ZnEzd0ZTR3h4a0RFalhsbnpWZnhJalFNVXYwRFhDZlJ2OTFuS2JRNWNaOEEwMm1RSE9Ba3p5TjBiQzJwaW5TYkhMNEV4OWp2US1SSXhYcVZ3WTZLQkd4cWdHSm1LQnI3dmgxOGhyelJiOVF2SkpELVpyN0x0MGhPcGs?oc=5",
+   "publisher_url": null,
+   "publisher": "ad-hoc-news.de",
+   "published": "2026-11-08T13:31:44Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
+   "entities": [
+    "broadcom"
+   ],
+   "fetched_at": "2026-11-08T13:53:20Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n56c1d641a73e0b5d",
+   "title": "Anthropic clinches US$3.4 billion generator deal for AI data centres",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN1ZIWThYc1lOcXEzMXA2cldIc05EbEtOX2IzeHVaQUk1ZWJfOUJGUE5ZTk12RUt0S2FXTkxIMVJWYzB0TWlwd0gwMTQ4MlhZT2c2QXdCQThST1dDNWxkVVVkSllzMXB2bFZZeTJQMDZCVGpVODlMak14aS0tQW1qQjF0TjAtdzgwOHZYeG9LMlRIclh3Q0dwRUV0WQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Dimsum Daily",
+   "published": "2026-11-08T13:24:01Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-08T13:53:20Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n2be4e323550c611f",
    "title": "Stock market week ahead: Cisco leads 9 big earnings reports",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAzNWNWdmg0QTZVVmZ4cHVnU2V1YVlnYzRfMTh5SmNrZ2pyMGhXa2hKVU5KMmdrcFRiS3BrSTI0RXB0bTh1eGdXXzkzNllYaUV6MmVWWUE5UWotaXlhcHRaLUd0TTZoRjVicktPUWwyUmpPSjJqeUk3R0ROZmVQQQ?oc=5",
@@ -25488,6 +25551,20 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "nc53cfbb9e2aab806",
+   "title": "ideaForge secures ₹151 Cr TDB loan for autonomous aerial vehicle project",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTnl3TkhVNUNtNzhvekZCV2I2cFl6dFFSRXRieWYwT1Q4UUJxcnduNkpnVWZPQlBRalZUcEREdjMwcVR1SVh5RXh4TFJ0dlhrZk12Rk15cnRxb3E0amNnaW1Pcm02dFY3dFVxVFJtSnYwV1lzeDZpX2piVG1CT21yX1RoOHBuRUprcS1vbU9Ja2VpeTM0UDFSZ2EzX2NTVTdlTFZEZk9UZXl4ZExrcUtZVkxPXy1XSGZBMnNLbkRTbEJhdjFqdmln?oc=5",
+   "publisher_url": null,
+   "publisher": "scanx.trade",
+   "published": "2026-11-08T05:25:39Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-08T13:53:20Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "ne0faa8561874e389",
    "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity: Report",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdGVlOVdiWUtkVkJEU25XdE1DS3dhNTRxTXp3ZC11cGpHbnc1SlF0OHpqM0oxaXhPYWgycnp1cVMxbGMtZGs3NWVScVdaWjgzdHk2YUI5TXpPWUlyOVkyMUZub1NMeVBsYWJEVGZ0eUQwRHZWX29oejBlQ2JlMmFRZDgweGdBRkowRUQ2U2FIaFU0VE91WUcwZGtBNE4yUG13WkR6amo2UC1mNUdkcFBBWUlHTmxVNnlFWmFvN0ExXzhmYVRJTkZfTFU5QW1oYmtDdzRrRVpsRk0tbDdnTWpj0gHmAUFVX3lxTE13cTZ6dHA1QmNWRkRvVU9xN2ZjbnM0bFhMQzRyZDVaMmNHX2dqVDFmZGNnZFV5OFA3TU9qaGlpWnlpSHRhaTMyZnpTSDdJNDdRdERBdnA0a1pzUnBCZ2M1d21KLUNuWjRGYktrVEZERDVDYXhTOWhQYnhxZnYyNi1oeFJYQk0tWUlsUU5iXzNiNzlhOTg2MGdpaUVOMFB0VDNnektFYmN0dEhvRlRyVkRHakFoQXpNNVV6Q2xJaHRhaHVUZXdFb3ctb0FzdkhESU1SUmd2dU12QzltY2NKTHVPU2RQTmNB?oc=5",
@@ -25614,9 +25691,9 @@
    "matcher_version": "3.2"
   },
   {
-   "id": "n47784b06cfa43714",
-   "title": "Anthropic Presses Ahead With Pre-Thanksgiving IPO at Lower Valuation",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZVdmV0xKUjljSFpySjNJNGtERHlWU2pLM2Z3cHZEdmY2SHU3VlR2WllnazB3b0hYRUgzS3NST2ZqNlJNd2Q3TXJlR3RON3VGM2JrOG1YOHk3TjJCbGJVdnotR2x4OWp1b2JIak84MnR0OUR3NEVvWlY2YXJnUmM2ZkctVQ?oc=5",
+   "id": "na9c738bf07377919",
+   "title": "OpenAI Raises $11B at $1.25T Valuation, Falls Far Short of $30B Target",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mSTlKS1RjcVZyZE56MU16M3g5WVNyQ2d4elZJWnMyeC1TZEJ2RkhuZ0ZMaHB3QlJnY3JDbHByU2J3M3hWRnJMR2dkcU8yYnVEcTJlQmxVOTFGU0xyYnVDM0NEUTFuZjZUMkxkakJrNHRqTTBsbGl1dFFMMWRtdGM?oc=5",
    "publisher_url": null,
    "publisher": "OpenTools",
    "published": "2026-11-08T04:07:07Z",
@@ -25624,83 +25701,9 @@
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
-    "anthropic"
+    "openai"
    ],
-   "fetched_at": "2026-11-08T10:18:40Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n61bf012f6e89d67c",
-   "title": "AI Rounds of $100M+ Raised $3.32B in a Week; Infra Took 42%",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2FwWkF6MVN4VzFFRExvVjByTG5JWEFHZkM3UUxhRHVNSjBUUm1SVVBMdklsTkhoVDdZWWROcHZQMC10ODYtaG1rNGd2SGZRTUp4eDVpQlVsTE81ZlVHdkFoN1BMQTQwcG83a2xvVWhpVjl1ODZZMk5jOE9xR3FMOXNyeXh1Zw?oc=5",
-   "publisher_url": null,
-   "publisher": "FourWeekMBA",
-   "published": "2026-11-08T03:57:49Z",
-   "date": "2026-11-08",
-   "lang": "en-US",
-   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-08T04:28:38Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nf45b5e35435cd2b0",
-   "title": "What are the AI lab compute commitments?",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQjBsSnYxOFoyaHc0cGZnUFZsZmhvV2JiMG5YOHFHcU5YV2VzZF9wNWs0TUstbzRmSHVoMmt4M20xS2VIN3M2TEVnSmpHaVE4M3dpb2lWVG4zSDgwWHM2VTlHS3IwOWpCclhJLW5yNGRPUmppa1BBUDNuU2h1TVBHdnVub3Zwd0E3RUliMVlBZlpoZUdv?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-08T03:47:49Z",
-   "date": "2026-11-08",
-   "lang": "en-US",
-   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-08T04:28:38Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ned4f7790eb4eff66",
-   "title": "Intel Rides Chip Rally as Insider Buying and a $300 Million Israel Hit Frame the Q4 Test",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORnltV1VqQkZuemxxeWtEekpuMHRGNXF4SG5Jdk13Y3dzZHhINDN1MkpiRWwtdmdUeUhmQUdnMUVYeUo1SzJ5bEJ6SmlhSW5sR0FxdUp0V1hydEZ3Ym9fVjhETVFoZ2VuMkNYcm5wbkdQTzgzeWdHZVdCVFhtYjFFN1czempwVGRHQXF0d3YtV01vcWpfcGEwaEdQcFRuVWtZNXVMeUhrTDJ0VDlYemxaQzV6YlNRNldHX25TRjYzWjJ3R2Y1SlJ5WFY5d0hkRFhJajZLTFNJU3BGM0ZzRURHd0h6WjJ4aXF4UlpCVFdQd1Q?oc=5",
-   "publisher_url": null,
-   "publisher": "ad-hoc-news.de",
-   "published": "2026-11-08T03:32:48Z",
-   "date": "2026-11-08",
-   "lang": "en-US",
-   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
-   "entities": [
-    "intel"
-   ],
-   "fetched_at": "2026-11-08T10:18:40Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ncee14705d1b397e8",
-   "title": "Riot Platforms (RIOT) Stock Gets Fair Value Trim As Analysts Weigh Lease Wins And Funding Costs",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGVNbTNWdE5oMnFBcm03VzFRcFZwSEtOWGxhQmhQM0ZSMDBUZ1RBOGxkbTUyZUVCLWRET3RPeHZXQkFDUk1wWEVBanJCM1hGTXVxZl94eFZFRktaQ1VmSzJUYkN3MkhsUnR6ZE9yZG5seG9ZU3p3QUZETm1GNU0yZUtmdG9NQQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance Singapore",
-   "published": "2026-11-08T03:11:00Z",
-   "date": "2026-11-08",
-   "lang": "en-US",
-   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
-   "entities": [
-    "riot-platforms"
-   ],
-   "fetched_at": "2026-11-08T04:28:38Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n2f0513f70e6e7b2e",
-   "title": "NEXIM Secures $30m Afreximbank Facility to Finance Export-oriented SMEs",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNkkwYkJ5NFhGckVZejl3MjNZb0x4dEFqX3hONWZMbFRITVNEQWFCRklFT1RqQlNHZzFWblFOa09PRGdvZTc1RFVaNGZSaDduVXBMRVZYWGhsY18xNk14Y0F6OU54Z2N2UFpCdFdIT2xDOWhsTW5VSUpNZjlxV3l3SVJTZ05zWGdDRGk3STNORGFGYVBoYTFzZG1KM1lsRk1WM0FrUGgzR2JVMlc0cFpz?oc=5",
-   "publisher_url": null,
-   "publisher": "THISDAYLIVE",
-   "published": "2026-11-08T02:43:12Z",
-   "date": "2026-11-08",
-   "lang": "en-US",
-   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-08T04:28:38Z",
+   "fetched_at": "2026-11-08T13:53:20Z",
    "matcher_version": "3.2"
   }
  ],
