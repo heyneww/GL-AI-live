@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-08T07:39:10Z",
+ "generated_at": "2026-11-08T08:04:33Z",
  "monitor": {
-  "last_run": "2026-11-08T07:38:46Z",
+  "last_run": "2026-11-08T08:04:07Z",
   "sec_items": 224,
-  "news_items": 3167,
+  "news_items": 3175,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-08T07:38:46Z",
+    "last_run": "2026-11-08T08:04:07Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-08T07:38:46Z",
+    "last_run": "2026-11-08T08:04:07Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 470,
-    "added": 23,
+    "items": 474,
+    "added": 8,
     "evicted": 0,
-    "unread": 167,
+    "unread": 175,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3167,
+    "total": 3175,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-08T07:38:46Z",
+    "last_run": "2026-11-08T08:04:07Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24730,6 +24730,80 @@
  ],
  "news": [
   {
+   "id": "n5cc0e112f0897a97",
+   "title": "Cancer Moonshot: NCI Funding & Research Grants",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43NmxOMW92ZFg3TmFMTkxtT25PakRGbjJfOXdhX3FMbVlXa1Zjd1VTblBEaG5oS2FMamhaVmt6TzVQQTlLaVhneE81aHFIRmh0aG9V?oc=5",
+   "publisher_url": null,
+   "publisher": "CASRAI",
+   "published": "2026-11-08T07:55:59Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-08T08:04:21Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n9a0d9bedb83f1a7c",
+   "title": "Constellation Energy Just Dropped 17% in a Month. Is It Time to Sell, or Load Up?",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVVhUMFFmUEFWNFpVS0RFcVhFcU5pcTU4VGJkN0pmZkJPX1VhZUVRY3FITktHT1NSOFFEbHZuZ2ZSU3NxVWZKVzVFNFpQNG5hV0F0N0h2NVNpcG5xY1k5M1dpRklvRDdEbGdVano1QVFEc21OYjFELThBWkFqZHlxYnp6U1FocjBKQUZtdDBGeXFoQk93cm55VGUtdG1RN2dBci11LTNOVQ?oc=5",
+   "publisher_url": null,
+   "publisher": "TIKR.com",
+   "published": "2026-11-08T07:52:30Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
+   "entities": [
+    "constellation-energy"
+   ],
+   "fetched_at": "2026-11-08T08:04:21Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "ne4de48c4f6a24eea",
+   "title": "The AI Boom’s Real Test Is Who Pays When Data Centers Run Late",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAybW1fQWZQTlMwZmVKb19tT0tnSEVFYXRkWTJwMnNYTUpVYzdBcW5VT1VwLWd0LWx1YXFQMDRhV016WU5veGJyOU9rNDhqOWljSElWS21IbVFrcndCTVd2Nzk0SF9fQ1Bab3NNTzhqb2hWWGxFZG1WTlV5SQ?oc=5",
+   "publisher_url": null,
+   "publisher": "The Eastern Herald",
+   "published": "2026-11-08T07:46:04Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "AI data center financing debt when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-08T08:04:21Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n8b5bbedfb2a730bb",
+   "title": "Broadcom's AI Build-Out Faces a Two-Front Test: Policy Risk and a $43 Billion Guarantee",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMW9sc0g3a3hBekNrLTd3Y0tJaDQ5QnVjYnJydHNLdlB5QTl3UVlFYlhWa2VKUFNhZHFxaF9VQWVzcVhoNGZXS3NLT2xGQ3FMaFhodHpRQlRYSU1nV0xPbk55YnZQNlhkRThYR0FZZkVyZXh4bDBSR1UzdXl4N21tNnZBaWxJcGhsTEVHNHJLa01qV3B3amRHWWpfcjBBeGtwRTAzV2tpTzdDU21sdmVtMkJyMl85QmNLeHdQaHMzSHA4YWhWdi1zcDk5UnBYR1NGVkV0SHZJcUlaeURfU0hMRjNPZUpid3pTYVVWZVhn?oc=5",
+   "publisher_url": null,
+   "publisher": "ad-hoc-news.de",
+   "published": "2026-11-08T07:40:53Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
+   "entities": [
+    "broadcom"
+   ],
+   "fetched_at": "2026-11-08T08:04:21Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "ne3b4a4e9c776fbc5",
+   "title": "闫俊杰首次英文播客采访：中美模型最后那 5%，比前 95% 更难追",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFByaVpvdVVhMFVWbFQ4NjAwMVR4S1dabXV0NUozZ2NXaE1sZVU1cjVzWmZsYWFJTVNNbHZtOThvRDl4eW4tT25kSw?oc=5",
+   "publisher_url": null,
+   "publisher": "智源社区",
+   "published": "2026-11-08T07:40:00Z",
+   "date": "2026-11-08",
+   "lang": "zh-CN",
+   "query": "(DeepSeek OR 深度求索 OR 月之暗面 OR Kimi OR 智谱 OR MiniMax OR 阶跃星辰) (融资 OR 上市 OR IPO) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-08T08:04:21Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "naefdbba3ee1abea2",
    "title": "Riot Platforms Is Up 30% in a Week. Is Its $28 Billion AI Lease Really That Good?",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZUxpUXpaWVBLMHlHWGM1ZWw1ZHY0Qk9IWmZlcXhLYm9wZnhvZ1NuaWdfY1VEeFdILWUyVm12UTVaRnJCQWstY2ZwZzllZWxaYTM3aEE0YUYzRW81ZE9mNlE5OWxObUF1ZFpmd19xZXRReHhCdW0tQkdhZnQyenlZOVRlcXV6dWo0dTg3c0lFbFRpUHhWZmtNLTNWZmlac0pUb215blNWMA?oc=5",
@@ -24773,6 +24847,20 @@
     "anthropic"
    ],
    "fetched_at": "2026-11-08T07:38:58Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n0c9b294558ba9f3a",
+   "title": "Vulture's vantage point",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaUk4UlRmNF9pNGN0VjF0V0xtZGhjejZKQXF5Tkw3VWttT3JQekYzX3VydlVuNGlTQ0xOUEdDemtoODhxNmJ0WWd1WFZNMHVCX1RXc3gyaDFvRFV0RS02aWRNQzNWSWlOSEZlMS12SGFFM043VktSQWprV1pJOWtLNGktX2pBRzJ1VWU5ZG9oSkRwU3VVUmY4bA?oc=5",
+   "publisher_url": null,
+   "publisher": "TelegraphHerald.com",
+   "published": "2026-11-08T07:00:00Z",
+   "date": "2026-11-08",
+   "lang": "en-US",
+   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-08T08:04:21Z",
    "matcher_version": "3.2"
   },
   {
@@ -25566,101 +25654,6 @@
     "openai"
    ],
    "fetched_at": "2026-11-08T07:38:58Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n262b8a5242f89eeb",
-   "title": "Musk Says SpaceX Could Buy a Legacy Telco and Use Its Spectrum 10 Times Better",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMEhycVJDTFlVM3FJU2lfLTUyWkI0RlAwNGdOTWZmWXZuZVhJS3lGTjVEai15OXpwUnBfMlJUc2RmVGpidlNKVGUxbExVQXBXcmV4bi1iVGoxelp3WUU1WFZYNDJGSFVIV3hBM29WdGNMWjFReUZqZS1fQmo2WkdodWFJRGtjOG5QT2Z0SWtRemtvUVdZMmZ4NmNRLWtyMWYwNlhYRy1XOHdVdUEtamJEeXRKbE00X1dvUWQ5TFp4bw?oc=5",
-   "publisher_url": null,
-   "publisher": "24/7 Wall St.",
-   "published": "2026-11-07T18:26:00Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:2d",
-   "entities": [
-    "spacex"
-   ],
-   "fetched_at": "2026-11-07T19:21:13Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "na594a9aa1466a881",
-   "title": "Oracle Stock Nears Death Cross as Microsoft Deal Unwinding Points to More Risks",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNX2x3aG9PRElvcDl2djZjM3FQaTJ3dmRpOVhGZEVCWHQ4bHppQlI3TUxVVVFYc19oRTV0WU53YnRtc1ptaHpVakxBZUplWTNtNXlKbVFMWTdoWmlzRzdvblIyMkFqazVLeXRWRGRmUWdmVWVtOHdWVlQxcDUwaW9XRUpNcFl3Z3NQZmZ4ZHlVZnctejVWZzZtV3ZnM3VsMGpkSEJMb1R1U3M4alA5WDBpVGI2VExtMnZ2Ti1wczFOUDJTd3NGLUFfTXFwX2FlT2poQnc?oc=5",
-   "publisher_url": null,
-   "publisher": "Benzinga",
-   "published": "2026-11-07T18:15:35Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:2d",
-   "entities": [
-    "microsoft",
-    "oracle"
-   ],
-   "fetched_at": "2026-11-07T19:21:13Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ne4d11086a82f44cc",
-   "title": "Older Nvidia Chips Just Cost Oracle Its Microsoft AI Deal",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVpHMU9kNjRsUWlWREtkdlBPbGU4WlRZdXVaYUlGaS1HUWFBeTY5MWUtZ0sxUFVtOEpnRi1mVl9rWEV2U2dOcmFaZExsdzh1dGlyUHBpQmVtcmdMMzJrMmZ2V1RBZnROZDJIU2ctdWpIdlByUG0tTUlwd3hvMkY2Rm1jU3p3ZmFQOTBkS2xEOTI5U3dtNHRPb25IZkV2RloyOUxv?oc=5",
-   "publisher_url": null,
-   "publisher": "24/7 Wall St.",
-   "published": "2026-11-07T18:08:00Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:2d",
-   "entities": [
-    "microsoft",
-    "nvidia",
-    "oracle"
-   ],
-   "fetched_at": "2026-11-07T19:21:13Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n324fa76182a87a15",
-   "title": "NatGold Digital Announces Immediate Delisting of NATG from MEXC Following U.S. Treasury Action",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWFlUWlZwV2g4dTB3SVNzOHhVZzhoRmVzLXoySHBMYVh1MktQcjZKMEw0aEFGYWZiTkRlQTZRYkhZdGNWdVFkSmpYUWl1ZzloREZmVVJwM05sRzJHMWNTMWhfc1Zqd3FPbGxyMDN0ekZIeFVNUXZEMHZpNVVIb05KeU9WQmlmV3JublVIcFRSbllaTjhxeERVaEg0dHdJRDZwZWl5WjA3b3pDZVZQM3N3LWdYTlhCTkUydjF6TVlFMFRBcEJKZDdkQW5Ga3VIMzJ2UXI4S3NEZGdhekFMeEtzeklR?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-07T18:01:00Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-07T19:21:13Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n3bf61e96748f5ea3",
-   "title": "Seaport offers preliminary thoughts on Anthropic stock",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM05wUHozZnlRc3FiR3JTMWVySnFrVzdHUDkzSXJnekUzVjNNdUMtR3ROR3JQckFZdDktbUFvX0JQaS1wV2J6YS1aRXN1d3FWRVdqMWZ4RDBub0ZtNU5zSWZvaXJ6LTNaTVp1Vi15dm9ZOThzRDdvWlRyVnVLWnFfZExzc252YnRQN0szYVNNM0o5UU1Ia1pJdDhhMnhYdVhHdGRraUs1TUlfTnZRY1E?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-07T17:57:53Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-07T19:21:13Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ne3710ce3197723d3",
-   "title": "AI Boom Long-Term Winners: 4 Stocks, $800B Capex [2026]",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaG1jSXl5MkpNVzY4b1JITmF0MFZNTTlVdTF2by13aXRMSzBNR0F2bGNBRnRweXh5eWNkSFJkSGgwSTdqamk4c2RrQ1hvWlZpNDdVQktzNEVMUnNxUnV4Z3JFLW1rMDJZQ3Y4cnhWdUwtNWVMTFZ0Q1c3RGpleVZWM3RnVG5qeGtrNFdXbTMxSENnLUxHdUE?oc=5",
-   "publisher_url": null,
-   "publisher": "https://tech-insider.org/",
-   "published": "2026-11-07T17:37:44Z",
-   "date": "2026-11-07",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-07T19:21:13Z",
    "matcher_version": "3.2"
   }
  ],
