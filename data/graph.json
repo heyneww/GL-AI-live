@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T19:58:49Z",
+ "generated_at": "2026-11-09T22:46:50Z",
  "monitor": {
   "last_run": "2026-11-09T19:58:23Z",
   "sec_items": 224,
@@ -503,7 +503,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 5,
+     "order": 6,
      "investment": 5,
      "debt": 0,
      "lease": 0,
@@ -512,8 +512,8 @@
     },
     "guaranteed_out_usd": 6230000000,
     "guaranteed_in_usd": 0,
-    "degree": 33,
-    "degree_curated": 33,
+    "degree": 34,
+    "degree_curated": 34,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -525,8 +525,8 @@
     "confirmed_usd": 265250000000,
     "binding_usd": 341330000000,
     "last_edge": "2026-11-04",
-    "last_source": "2026-11-04",
-    "counterparties": 18,
+    "last_source": "2026-11-09",
+    "counterparties": 19,
     "inflow_total_usd": 293580000000,
     "outflow_total_usd": 47750000000,
     "top_counterparties": [
@@ -615,7 +615,7 @@
     "confirmed_usd": 475860000000,
     "binding_usd": 553760000000,
     "last_edge": "2026-10-30",
-    "last_source": "2026-10-30",
+    "last_source": "2026-11-09",
     "counterparties": 13,
     "inflow_total_usd": 458860000000,
     "outflow_total_usd": 94900000000,
@@ -3477,7 +3477,7 @@
     "confirmed_usd": 0,
     "binding_usd": 0,
     "last_edge": "2026-10-06",
-    "last_source": "2026-10-07",
+    "last_source": "2026-11-09",
     "counterparties": 4,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0,
@@ -4313,6 +4313,70 @@
      }
     ],
     "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "fervo",
+   "name": "Fervo Energy",
+   "name_zh": "Fervo Energy（地热发电公司）",
+   "group": "energy",
+   "ticker": "FRVO",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 0,
+    "last_edge": "2026-09-02",
+    "last_source": "2026-09-02",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
    }
   },
   {
@@ -11920,7 +11984,7 @@
    "announced": "2026-10-06",
    "term": "20 years (890 MW uprates, first in 2028, all by 2032) and 15 years (2,700 MW)",
    "status": "signed",
-   "confidence": "reported",
+   "confidence": "confirmed",
    "title_en": "Google nuclear power agreements with Constellation (3.6 GW)",
    "title_zh": "谷歌与 Constellation 的核电购电协议（3.6 吉瓦）",
    "summary_en": "Google signed a 20-year power purchase agreement for 890 MW of new output from uprates at 11 Constellation reactors in Illinois, Pennsylvania and New Jersey, which Constellation says means more than $4.3B of investment, plus a separate 15-year agreement for 2,700 MW of existing Constellation generation in PJM. The price Google pays was not disclosed.",
@@ -11937,6 +12001,13 @@
      "publisher": "The Daily Record",
      "date": "2026-10-06",
      "title": "MD-based Constellation enters massive power deal with Google"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+     "publisher": "Constellation Energy (SEC 8-K, Q3 2026 results)",
+     "date": "2026-11-09",
+     "title": "Constellation Reports Third Quarter 2026 Results (20-year PPA with Google; 15-year 2,700 MW load-following agreement)",
+     "type": "filing"
     }
    ],
    "origin": "curated"
@@ -12077,7 +12148,7 @@
    "term": "20 years; uprate capacity online between 2030 and 2032",
    "term_zh": "20 年；增容电力于 2030 至 2032 年间投运",
    "status": "signed",
-   "confidence": "reported",
+   "confidence": "confirmed",
    "title_en": "Amazon 20-year nuclear power agreement with Constellation (Calvert Cliffs, 690 MW)",
    "title_zh": "亚马逊与 Constellation 的 20 年核电购电协议（Calvert Cliffs，690 兆瓦）",
    "summary_en": "Amazon agreed to buy 690 MW from Constellation's Calvert Cliffs nuclear plant in Maryland for 20 years, including about 190 MW of new output from a roughly $3B uprate due between 2030 and 2032; the commitment supports relicensing the plant for another 20 years. A related retail agreement covers Amazon's operations across PJM, and the financial terms were not disclosed.",
@@ -12096,6 +12167,13 @@
      "date": "2026-10-01",
      "title": "Constellation And Amazon Sign 20-Year Nuclear Power Agreement Supporting $3 Billion In Maryland Investment",
      "type": "news"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+     "publisher": "Constellation Energy (SEC 8-K, Q3 2026 results)",
+     "date": "2026-11-09",
+     "title": "Constellation Reports Third Quarter 2026 Results (20-year, 690 MW PPA with Amazon)",
+     "type": "filing"
     }
    ],
    "origin": "curated"
@@ -12766,6 +12844,43 @@
      "publisher": "Bloomberg",
      "date": "2026-04-15",
      "title": "Jane Street in Talks to Back Fluidstack at $18 Billion Valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-fervo-2026-09-cape-station-ppa",
+   "kind": "order",
+   "subkind": "power purchase agreement (enhanced geothermal)",
+   "subkind_zh": "购电协议（增强型地热）",
+   "from": "alphabet",
+   "to": "fervo",
+   "amount_usd": null,
+   "amount_text": "Not disclosed; 396 MW from Fervo's Cape Station in Utah, with an option to expand by about 600 MW to nearly 1 GW by June 2030",
+   "amount_text_zh": "金额未披露；从 Fervo 位于犹他州的 Cape Station 购买 396 兆瓦电力，另有约 600 兆瓦的扩容选择权，2030 年 6 月前合计接近 1 吉瓦",
+   "announced": "2026-09-02",
+   "term": "Cape Station Phase II due online by 2028",
+   "term_zh": "Cape Station 二期预计 2028 年前投运",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Google buys 396 MW of geothermal power from Fervo (Utah)",
+   "title_zh": "谷歌向 Fervo 采购 396 兆瓦地热电力（犹他州）",
+   "summary_en": "Google signed a power purchase agreement for 396 MW from Fervo Energy's Cape Station enhanced-geothermal project in Utah, described as the largest geothermal PPA so far, to serve as a building block for a potential Google data centre in the state. Fervo gave Google an option to add about 600 MW, nearly 1 GW in all, by June 2030; the data centre plans remain subject to engineering, approvals and commercial conditions, and the price was not disclosed.",
+   "summary_zh": "谷歌与 Fervo Energy 签署购电协议，从其位于犹他州的 Cape Station 增强型地热项目购买 396 兆瓦电力，据称是迄今最大的地热购电协议，用于支持谷歌可能在该州建设的数据中心。Fervo 给予谷歌约 600 兆瓦的扩容选择权，2030 年 6 月前合计接近 1 吉瓦；数据中心计划仍取决于工程可行性、审批和商业条件，价格未披露。",
+   "sources": [
+    {
+     "url": "https://www.renewableenergyworld.com/energy-business/new-project-development/fervo-energy-and-google-ink-largest-ever-geothermal-ppa-to-power-data-centers/",
+     "publisher": "Renewable Energy World",
+     "date": "2026-09-02",
+     "title": "Fervo Energy and Google ink largest-ever geothermal PPA to power data centers",
+     "type": "news"
+    },
+    {
+     "url": "https://pulse2.com/fervo-energy-and-google-sign-396-mw-geothermal-power-purchase-agreement/",
+     "publisher": "Pulse 2.0",
+     "date": "2026-09-02",
+     "title": "Fervo Energy And Google Sign 396 MW Geothermal Power Purchase Agreement",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -19381,6 +19496,7 @@
   },
   {
    "id": "openai-cerebras-2026-01-customer-loan",
+   "last_checked": "2026-11-09",
    "kind": "debt",
    "subkind": "customer working-capital loan (secured promissory note)",
    "from": "openai",
@@ -19489,6 +19605,7 @@
   },
   {
    "id": "nvidia-groq-2025-12-licence",
+   "last_checked": "2026-11-09",
    "kind": "order",
    "subkind": "technology licence and acqui-hire",
    "from": "nvidia",
@@ -19575,6 +19692,7 @@
   },
   {
    "id": "alphabet-hut-8-2025-12-river-bend-lease-backstop",
+   "last_checked": "2026-11-09",
    "kind": "guarantee",
    "subkind": "lease obligation backstop",
    "from": "alphabet",
@@ -19602,6 +19720,7 @@
   },
   {
    "id": "fluidstack-hut-8-2025-12-river-bend-lease",
+   "last_checked": "2026-11-09",
    "kind": "lease",
    "subkind": "15-year AI data-centre lease",
    "from": "fluidstack",
@@ -19672,6 +19791,7 @@
   },
   {
    "id": "disney-openai-2025-12-equity",
+   "last_checked": "2026-11-09",
    "kind": "investment",
    "subkind": "equity investment with warrants",
    "from": "disney",
@@ -19756,6 +19876,7 @@
   },
   {
    "id": "amazon-nisource-2025-11-indiana-power",
+   "last_checked": "2026-11-09",
    "kind": "order",
    "subkind": "utility power supply agreement",
    "subkind_zh": "公用事业供电协议",
@@ -19800,6 +19921,7 @@
   },
   {
    "id": "nvidia-brookfield-2025-11-ai-infrastructure-fund",
+   "last_checked": "2026-11-09",
    "kind": "investment",
    "subkind": "fund commitment (LP)",
    "from": "nvidia",
@@ -19885,6 +20007,7 @@
   },
   {
    "id": "microsoft-anthropic-2025-11-equity",
+   "last_checked": "2026-11-09",
    "kind": "investment",
    "subkind": "equity investment",
    "from": "microsoft",
@@ -19924,6 +20047,7 @@
   },
   {
    "id": "nvidia-anthropic-2025-11-equity",
+   "last_checked": "2026-11-09",
    "kind": "investment",
    "subkind": "equity investment",
    "from": "nvidia",
@@ -20075,6 +20199,7 @@
   },
   {
    "id": "anthropic-fluidstack-2025-11-datacenters",
+   "last_checked": "2026-11-09",
    "kind": "order",
    "subkind": "custom data-centre build",
    "from": "anthropic",
@@ -20103,6 +20228,7 @@
   },
   {
    "id": "jpmorgan-coreweave-2025-11-revolver",
+   "last_checked": "2026-11-09",
    "kind": "debt",
    "subkind": "revolving credit facility (upsized)",
    "from": "jpmorgan",
@@ -20135,6 +20261,7 @@
   },
   {
    "id": "meta-nebius-2025-11-cloud",
+   "last_checked": "2026-11-09",
    "kind": "order",
    "subkind": "cloud compute contract",
    "from": "meta",
@@ -27086,15 +27213,15 @@
   }
  ],
  "stats": {
-  "entities": 140,
-  "edges": 411,
-  "curated_edges": 411,
+  "entities": 141,
+  "edges": 412,
+  "curated_edges": 412,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 110,
+    "count": 111,
     "usd": 1528889000000,
-    "undisclosed": 65,
+    "undisclosed": 66,
     "cancelled": 1
    },
    "investment": {
@@ -29114,7 +29241,7 @@
    },
    {
     "month": "2026-09",
-    "count": 22,
+    "count": 23,
     "usd": 218809000000,
     "cumulative_usd": 3464515861259,
     "by_kind": {
