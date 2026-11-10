@@ -361,6 +361,7 @@ button, input, select { font: inherit; color: inherit; }
   white-space: nowrap; vertical-align: middle; text-transform: none;
 }
 .ctag--cancelled { border-color: var(--offline); color: var(--offline); }
+.ctag--superseded { border-color: var(--muted); color: var(--muted); }
 .tile__label { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); font-weight: 600; }
 .tile__value {
   font-family: var(--f-display); font-stretch: 85%; font-weight: 700; font-size: var(--fs-kpi); line-height: 1.1;

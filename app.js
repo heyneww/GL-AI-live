@@ -155,6 +155,9 @@
     return { kinds: new Set(KIND_ORDER), group: "", min: 0, period: "all", from: "", to: "", q: "", onlyNew: false, confirmedOnly: false, bindingOnly: false };
   }
   function isBinding(e) { return BINDING.indexOf(e.status) >= 0; }
+  /* a deal that still carries its amount: not cancelled and not replaced by a later edge (superseded_by: a
+     refinancing, amendment or later stake restating it). The same rule as contract.is_live in the monitor. */
+  function isLive(e) { return !!e && e.status !== "cancelled" && !e.superseded_by; }
 
   function t(key, vars) { return I.t(state.lang, key, vars); }
   /* bare: drop 美元 where a column header already carries the unit (Chinese only) */
@@ -165,26 +168,27 @@
     return deals > 0 ? t("undisclosed") : "–";
   }
   /* the amount a deal contributes to any total (tiles, node size, money in/out, rankings, line widths, table
-     footer): nothing when it is cancelled, nothing for a guarantee. A guarantee is contingent (the guarantor pays
+     footer): nothing when it is cancelled or superseded, nothing for a guarantee. A guarantee is contingent (the guarantor pays
      only if the obligor fails) and the lease or loan it backs is already counted; build.py applies the same rule
      to stats.total_usd and the per-entity inflow/outflow, so the headline total here matches the data file. */
   function countedAmount(e) {
-    if (!e || e.status === "cancelled" || e.kind === "guarantee") return 0;
+    if (!isLive(e) || e.kind === "guarantee") return 0;
     return e.amount_usd || 0;
   }
   /* a live guarantee's face amount, shown beside the totals as contingent exposure (stats.contingent_usd) */
   function contingentAmount(e) {
-    return e && e.kind === "guarantee" && e.status !== "cancelled" ? (e.amount_usd || 0) : 0;
+    return isLive(e) && e.kind === "guarantee" ? (e.amount_usd || 0) : 0;
   }
   /* the figure as announced for a deal with no committed amount (programme, MOU, all-stock value, estimate):
      only the broad totals view adds it (stats.headline_usd); never counted in the committed total */
   function headlineAmount(e) {
-    return e && e.status !== "cancelled" && e.amount_usd == null && e.headline_usd > 0 ? e.headline_usd : 0;
+    return isLive(e) && e.amount_usd == null && e.headline_usd > 0 ? e.headline_usd : 0;
   }
-  /* why a row's amount is not in the totals: "cancelled" or "contingent"; null for a counted deal */
+  /* why a row's amount is not in the totals: "cancelled", "superseded" or "contingent"; null for a counted deal */
   function notCountedKey(e) {
     if (!e) return null;
     if (e.status === "cancelled") return "cancelled";
+    if (e.superseded_by) return "superseded";
     if (e.kind === "guarantee") return "contingent";
     return null;
   }
@@ -198,7 +202,7 @@
   function amtEl(e, cls, bare) {
     var k = notCountedKey(e);
     if (e.amount_usd == null) return h("span", { class: cls + " is-undisclosed", title: t("not_counted_undisclosed") }, [undisclosedBadge()]);
-    return h("span", { class: cls + (k === "cancelled" ? " is-cancelled" : ""), title: k ? t("not_counted_" + k) : null }, [usd(e.amount_usd, bare)]);
+    return h("span", { class: cls + (k === "cancelled" || k === "superseded" ? " is-cancelled" : ""), title: k ? t("not_counted_" + k) : null }, [usd(e.amount_usd, bare)]);
   }
   function undisclosedBadge() { return h("span", { class: "ctag ctag--undisclosed", text: t("undisclosed_badge") }); }
   function day(s) { return I.fmtDate(s, state.lang); }
@@ -453,7 +457,7 @@
         var c = x.cp.get(other) || { usd: 0, n: 0 };
         c.usd += a; c.n++; x.cp.set(other, c);
         if (e.confidence === "confirmed") x.confirmed += a; else x.reported += a;
-        if (isBinding(e)) x.binding += a; else if (e.status !== "cancelled") x.nonBinding += a;
+        if (isBinding(e)) x.binding += a; else if (isLive(e)) x.nonBinding += a;
         if (e.amount_usd == null) x.undisclosed++;
         if ((e.announced || "") > x.lastEdge) x.lastEdge = e.announced;
         if (lastSrc > x.lastSource) x.lastSource = lastSrc;
@@ -517,7 +521,7 @@
   function computeLoops(edges) {
     var pair = new Map();
     edges.forEach(function (e) {
-      if (e.status === "cancelled") return;
+      if (!isLive(e)) return;
       var k = e.from + "|" + e.to;
       if (!pair.has(k)) pair.set(k, []);
       pair.get(k).push(e);
@@ -1149,8 +1153,8 @@
   var TILE_KINDS = ["order", "investment", "debt", "lease", "guarantee"];
   function renderSummary() {
     var broad = state.totalsView === "broad";
-    var sums = {}, nulls = {}, deals = {}, cancelled = {}, total = 0, heads = 0, guar = 0;
-    TILE_KINDS.forEach(function (k) { sums[k] = 0; nulls[k] = 0; deals[k] = 0; cancelled[k] = 0; });
+    var sums = {}, nulls = {}, deals = {}, cancelled = {}, superseded = {}, total = 0, heads = 0, guar = 0;
+    TILE_KINDS.forEach(function (k) { sums[k] = 0; nulls[k] = 0; deals[k] = 0; cancelled[k] = 0; superseded[k] = 0; });
     state.visible.forEach(function (e) {
       total += countedAmount(e);
       heads += headlineAmount(e);
@@ -1158,6 +1162,7 @@
       if (!(e.kind in sums)) return;
       deals[e.kind]++;
       if (e.status === "cancelled") cancelled[e.kind]++;
+      else if (!isLive(e)) superseded[e.kind]++;
       else if (e.amount_usd) sums[e.kind] += e.kind === "guarantee" ? contingentAmount(e) : countedAmount(e);
       else if (broad && headlineAmount(e)) sums[e.kind] += headlineAmount(e);
       else nulls[e.kind]++;
@@ -1175,6 +1180,7 @@
       var fullParts = [], shortParts = [];
       if (nulls[k]) { fullParts.push(t("sum_undisclosed", { n: nulls[k] })); shortParts.push(t("sum_undisclosed_short", { n: nulls[k] })); }
       if (cancelled[k]) { fullParts.push(t("sum_cancelled", { n: cancelled[k] })); shortParts.push(t("sum_cancelled_short", { n: cancelled[k] })); }
+      if (superseded[k]) { fullParts.push(t("sum_superseded", { n: superseded[k] })); shortParts.push(t("sum_superseded_short", { n: superseded[k] })); }
       var sep = state.lang === "zh" ? "，" : " · ";
       full.textContent = fullParts.join(sep);
       short.textContent = shortParts.join(sep);
@@ -1183,7 +1189,7 @@
       $("tile-" + k).title = t(k === "guarantee" ? "sum_hint_contingent" : k === "lease" ? "sum_hint_lease" : "sum_hint");
     });
     /* the headline total: the same rule as stats.total_usd in graph.json (orders + investments + debt + leases +
-       vendor financing, disclosed and not cancelled; guarantees excluded) */
+       vendor financing, disclosed, not cancelled or superseded; guarantees excluded) */
     var tot = $("sum-total");
     tot.textContent = "";
     tot.appendChild(h("span", { class: "tile__total-l", text: t(broad ? "sum_total_broad" : "sum_total") }));
@@ -2096,7 +2102,7 @@
     tip.appendChild(h("span", { class: "tooltip__t", text: t("p_bundle", { n: l.edges.length }) + " · " + entName(l.from) + " → " + entName(l.to) }));
     tip.appendChild(h("span", { class: "tooltip__m" }, [h("span", { class: "key", style: "--c:" + kindColor(l.kind) }), I.kind(state.lang, l.kind)]));
     l.edges.slice(0, 4).forEach(function (e) {
-      tip.appendChild(h("span", { class: "tooltip__m" + (e.status === "cancelled" ? " is-cancelled" : ""), text: usd(e.amount_usd) + " · " + edgeTitle(e) }));
+      tip.appendChild(h("span", { class: "tooltip__m" + (!isLive(e) ? " is-cancelled" : ""), text: usd(e.amount_usd) + " · " + edgeTitle(e) }));
     });
     if (l.edges.length > 4) tip.appendChild(h("span", { class: "tooltip__m", text: "+" + (l.edges.length - 4) }));
     tip.hidden = false;
@@ -2557,7 +2563,7 @@
     ]));
     var body = h("div", { class: "panel__body" });
     body.appendChild(h("div", {}, [
-      h("div", { class: "deal-amt" + (e.status === "cancelled" ? " is-cancelled" : "") }, [usd(e.amount_usd), ctag(e)]),
+      h("div", { class: "deal-amt" + (!isLive(e) ? " is-cancelled" : "") }, [usd(e.amount_usd), ctag(e)]),
       headlineAmount(e) ? h("p", { class: "deal-note", title: t("tv_broad_hint") }, [t("p_headline", { v: usd(e.headline_usd) })]) : null,
       /* 中文: the edge's own amount_text_zh when curated, else the English text under an "as reported (English)" label */
       zh && e.amount_text_zh ? h("p", { class: "deal-note", text: e.amount_text_zh }) :
@@ -2674,7 +2680,7 @@
           ])
         ]),
         h("td", { class: "num" }, [e.amount_usd == null ? amtEl(e, "amt") :
-          h("span", { class: "amt" + (e.status === "cancelled" ? " is-cancelled" : ""), title: notCountedKey(e) ? t("not_counted_" + notCountedKey(e)) : null }, [usd(e.amount_usd, true),
+          h("span", { class: "amt" + (!isLive(e) ? " is-cancelled" : ""), title: notCountedKey(e) ? t("not_counted_" + notCountedKey(e)) : null }, [usd(e.amount_usd, true),
           /* phones show rows as cards with no column header, so the unit comes back there */
           state.lang === "zh" ? h("span", { class: "amt__u" }, ["美元"]) : null]), ctag(e), bar]),
         h("td", { class: "state" }, [h("div", { class: "stack" }, [statusEl(e.status), confEl(e.confidence)])]),

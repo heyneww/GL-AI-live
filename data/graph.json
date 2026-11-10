@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T03:47:24Z",
+ "generated_at": "2026-11-10T04:33:40Z",
  "monitor": {
   "last_run": "2026-11-10T03:46:58Z",
   "sec_items": 225,
@@ -1052,7 +1052,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 11000000000,
+     "investment": 0,
      "debt": 38500000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -1083,31 +1083,31 @@
      "announced": 0,
      "signed": 3500000000,
      "in_progress": 0,
-     "completed": 60200000000,
+     "completed": 49200000000,
      "reported": 0
     },
-    "confirmed_usd": 63700000000,
-    "binding_usd": 63700000000,
+    "confirmed_usd": 52700000000,
+    "binding_usd": 52700000000,
     "last_edge": "2026-06-09",
     "last_source": "2026-10-30",
     "counterparties": 4,
     "inflow_total_usd": 14200000000,
-    "outflow_total_usd": 49500000000,
+    "outflow_total_usd": 38500000000,
     "top_counterparties": [
      {
       "id": "broadcom-ai-xpv",
       "usd": 35000000000,
-      "share": 0.5494505494505495
+      "share": 0.6641366223908919
      },
      {
       "id": "intel",
-      "usd": 25200000000,
-      "share": 0.3956043956043956
+      "usd": 14200000000,
+      "share": 0.269449715370019
      },
      {
       "id": "valor-compute-infrastructure",
       "usd": 3500000000,
-      "share": 0.054945054945054944
+      "share": 0.06641366223908918
      }
     ],
     "concentration_top3": 1.0
@@ -1738,7 +1738,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 44020000000,
+     "debt": 43500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1754,40 +1754,35 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 2,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 1,
+    "degree_curated": 1,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 44020000000,
+     "signed": 43500000000,
      "in_progress": 0,
      "completed": 0,
      "reported": 0
     },
     "confirmed_usd": 0,
-    "binding_usd": 44020000000,
+    "binding_usd": 43500000000,
     "last_edge": "2026-10-26",
     "last_source": "2026-10-27",
-    "counterparties": 2,
+    "counterparties": 1,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 44020000000,
+    "outflow_total_usd": 43500000000,
     "top_counterparties": [
      {
       "id": "broadcom-anthropic-rack-spv",
       "usd": 43500000000,
-      "share": 0.9881871876419809
-     },
-     {
-      "id": "openai",
-      "usd": 520000000,
-      "share": 0.011812812358019082
+      "share": 1.0
      }
     ],
     "concentration_top3": 1.0
@@ -3497,7 +3492,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 4900000000,
+     "debt": 4300000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3513,7 +3508,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 1,
-     "debt": 4,
+     "debt": 3,
      "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3528,38 +3523,38 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 6,
-    "degree_curated": 6,
+    "degree": 5,
+    "degree_curated": 5,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 600000000,
+     "signed": 0,
      "in_progress": 0,
      "completed": 4300000000,
      "reported": 0
     },
-    "confirmed_usd": 4900000000,
-    "binding_usd": 4900000000,
-    "last_edge": "2026-08-25",
+    "confirmed_usd": 4300000000,
+    "binding_usd": 4300000000,
+    "last_edge": "2026-07-28",
     "last_source": "2026-11-05",
     "counterparties": 5,
-    "inflow_total_usd": 4900000000,
+    "inflow_total_usd": 4300000000,
     "outflow_total_usd": 0,
     "top_counterparties": [
      {
       "id": "bond-investors",
       "usd": 3300000000,
-      "share": 0.673469387755102
+      "share": 0.7674418604651163
      },
      {
       "id": "jpmorgan",
-      "usd": 1100000000,
-      "share": 0.22448979591836735
+      "usd": 500000000,
+      "share": 0.11627906976744186
      },
      {
       "id": "morgan-stanley",
       "usd": 500000000,
-      "share": 0.10204081632653061
+      "share": 0.11627906976744186
      }
     ],
     "concentration_top3": 1.0
@@ -5140,7 +5135,7 @@
    "stats": {
     "inflow_usd": {
      "order": 1900000000,
-     "investment": 49900000000,
+     "investment": 38900000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -5179,44 +5174,44 @@
      "announced": 0,
      "signed": 1900000000,
      "in_progress": 8900000000,
-     "completed": 57100000000,
+     "completed": 46100000000,
      "reported": 0
     },
-    "confirmed_usd": 66000000000,
-    "binding_usd": 67900000000,
+    "confirmed_usd": 55000000000,
+    "binding_usd": 56900000000,
     "last_edge": "2026-10-26",
     "last_source": "2026-10-30",
     "counterparties": 11,
-    "inflow_total_usd": 51800000000,
+    "inflow_total_usd": 40800000000,
     "outflow_total_usd": 16100000000,
     "top_counterparties": [
      {
-      "id": "apollo",
-      "usd": 25200000000,
-      "share": 0.3711340206185567
-     },
-     {
       "id": "public-equity-investors",
       "usd": 23000000000,
-      "share": 0.3387334315169367
+      "share": 0.40421792618629176
+     },
+     {
+      "id": "apollo",
+      "usd": 14200000000,
+      "share": 0.24956063268892795
      },
      {
       "id": "us-government",
       "usd": 8900000000,
-      "share": 0.13107511045655376
+      "share": 0.15641476274165203
      },
      {
       "id": "nvidia",
       "usd": 5000000000,
-      "share": 0.07363770250368189
+      "share": 0.08787346221441125
      },
      {
       "id": "softbank",
       "usd": 2000000000,
-      "share": 0.029455081001472753
+      "share": 0.0351493848857645
      }
     ],
-    "concentration_top3": 0.8409425625920471
+    "concentration_top3": 0.8101933216168717
    }
   },
   {
@@ -5544,7 +5539,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 103608000000,
+     "debt": 103008000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -5560,58 +5555,58 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 12,
+     "debt": 11,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 12,
-    "degree_curated": 12,
+    "degree": 11,
+    "degree_curated": 11,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 15708000000,
+     "signed": 15108000000,
      "in_progress": 38000000000,
      "completed": 49900000000,
      "reported": 0
     },
-    "confirmed_usd": 56208000000,
-    "binding_usd": 103608000000,
+    "confirmed_usd": 55608000000,
+    "binding_usd": 103008000000,
     "last_edge": "2026-10-01",
     "last_source": "2026-10-01",
     "counterparties": 8,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 103608000000,
+    "outflow_total_usd": 103008000000,
     "top_counterparties": [
      {
       "id": "softbank",
       "usd": 40000000000,
-      "share": 0.3860705737008725
+      "share": 0.3883193538365952
      },
      {
       "id": "vantage-data-centers",
       "usd": 38000000000,
-      "share": 0.3667670450158289
+      "share": 0.3689033861447655
      },
      {
       "id": "crusoe",
       "usd": 9400000000,
-      "share": 0.09072658481970504
+      "share": 0.09125504815159988
      },
      {
       "id": "coreweave",
       "usd": 5100000000,
-      "share": 0.04922399814686124
+      "share": 0.04951071761416589
      },
      {
       "id": "amd",
       "usd": 5000000000,
-      "share": 0.04825882171260906
+      "share": 0.0485399192295744
      }
     ],
-    "concentration_top3": 0.8435642035364065
+    "concentration_top3": 0.8484777881329606
    }
   },
   {
@@ -7823,7 +7818,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 193600000000,
-     "debt": 4520000000,
+     "debt": 4000000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -7839,7 +7834,7 @@
     "inflow_count": {
      "order": 1,
      "investment": 11,
-     "debt": 2,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -7854,51 +7849,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 32,
-    "degree_curated": 32,
+    "degree": 31,
+    "degree_curated": 31,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 1000000000,
-     "signed": 655524571259,
+     "signed": 655004571259,
      "in_progress": 110400000000,
      "completed": 158600000000,
      "reported": 11000000000
     },
     "confirmed_usd": 495904571259,
-    "binding_usd": 924524571259,
+    "binding_usd": 924004571259,
     "last_edge": "2026-11-06",
     "last_source": "2026-11-06",
-    "counterparties": 20,
-    "inflow_total_usd": 198120000000,
+    "counterparties": 19,
+    "inflow_total_usd": 197600000000,
     "outflow_total_usd": 738404571259,
     "top_counterparties": [
      {
       "id": "oracle",
       "usd": 300000000000,
-      "share": 0.3203332931208632
+      "share": 0.3205112551923505
      },
      {
       "id": "microsoft",
       "usd": 263000000000,
-      "share": 0.2808255203026234
+      "share": 0.28098153371862733
      },
      {
       "id": "amazon",
       "usd": 188000000000,
-      "share": 0.20074219702240761
+      "share": 0.20085371992053966
      },
      {
       "id": "softbank",
       "usd": 60000000000,
-      "share": 0.06406665862417264
+      "share": 0.0641022510384701
      },
      {
       "id": "private-investors",
       "usd": 39600000000,
-      "share": 0.042283994691953944
+      "share": 0.04230748568539027
      }
     ],
-    "concentration_top3": 0.8019010104458942
+    "concentration_top3": 0.8023465088315175
    }
   },
   {
@@ -13077,38 +13072,6 @@
    "origin": "curated"
   },
   {
-   "id": "jpmorgan-core-scientific-2026-08-credit-facility",
-   "kind": "debt",
-   "subkind": "senior secured revolving credit and letter-of-credit facilities",
-   "from": "jpmorgan",
-   "to": "core-scientific",
-   "amount_usd": 600000000,
-   "amount_text": "$600M of committed senior secured facilities: $100M revolver (Adjusted Term SOFR + 1.75%, 3-year) + $500M letter-of-credit facility; JPMorgan administrative and collateral agent, Morgan Stanley lead-left arranger, commitments split equally among Morgan Stanley, JPMorgan, Goldman Sachs and TD; undrawn at closing; credit agreement dated 2026-08-25, 8-K filed 2026-08-27",
-   "announced": "2026-08-25",
-   "term": "revolver matures 3 years from closing (extendable to 4 at the company's election)",
-   "status": "signed",
-   "confidence": "confirmed",
-   "title_en": "Core Scientific $600M senior secured revolver and letter-of-credit facilities",
-   "title_zh": "Core Scientific 6 亿美元优先担保循环信贷及信用证额度",
-   "summary_en": "Core Scientific entered a senior secured credit agreement on 25 August 2026 with JPMorgan as agent: a $100 million revolver for working capital and a $500 million letter-of-credit facility to back utility and project obligations, secured by a first lien on substantially all assets; nothing was drawn at closing and the company expects it to free about $300 million of restricted cash. This is a new facility, distinct from the $1.0 billion March 2026 bridge that was repaid in May.",
-   "summary_zh": "Core Scientific 于 2026 年 8 月 25 日与作为代理行的摩根大通签署优先担保信贷协议：1 亿美元循环信贷用于营运资金，5 亿美元信用证额度用于支持电力及项目义务，以几乎全部资产的第一顺位留置权作抵押；交割时未提款，公司预计可释放约 3 亿美元受限现金。这是一笔新额度，与 2026 年 3 月、已于 5 月偿还的 10 亿美元过桥贷款无关。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000021/core-20260825.htm",
-     "publisher": "Core Scientific (SEC 8-K)",
-     "date": "2026-08-27",
-     "title": "Core Scientific, Inc. 8-K: Entry into a material definitive agreement; Creation of a direct financial obligation"
-    },
-    {
-     "url": "https://investors.corescientific.com/news-events/press-releases/detail/143/core-scientific-secures-600-million-of-senior-secured-credit-facilities",
-     "publisher": "Core Scientific",
-     "date": "2026-08-27",
-     "title": "Core Scientific Secures $600 Million of Senior Secured Credit Facilities"
-    }
-   ],
-   "origin": "curated"
-  },
-  {
    "id": "public-equity-investors-alibaba-2026-08-placement",
    "kind": "investment",
    "subkind": "share placement (new H shares)",
@@ -14449,38 +14412,6 @@
      "publisher": "Al Jazeera",
      "date": "2026-07-10",
      "title": "South Korea's SK Hynix raises $26.5bn in record-breaking US IPO"
-    }
-   ],
-   "origin": "curated"
-  },
-  {
-   "id": "bank-of-america-openai-2026-07-credit-line",
-   "kind": "debt",
-   "subkind": "revolving credit line",
-   "from": "bank-of-america",
-   "to": "openai",
-   "amount_usd": 520000000,
-   "amount_text": "$520M credit line; pricing, collateral and maturity not disclosed",
-   "announced": "2026-07-08",
-   "term": null,
-   "status": "signed",
-   "confidence": "reported",
-   "title_en": "Bank of America extends OpenAI a $520M credit line",
-   "title_zh": "美国银行向 OpenAI 提供 5.2 亿美元授信",
-   "summary_en": "Bank of America gave OpenAI a $520M credit line, its first loan to the company and a reversal after it earlier declined a request, as OpenAI prepares for a possible IPO. Reported by Reuters and Bloomberg citing people familiar.",
-   "summary_zh": "美国银行向 OpenAI 提供 5.2 亿美元授信额度，这是其向该公司发放的首笔贷款，此前该行曾拒绝过相关请求；OpenAI 正为可能的上市做准备。路透社和彭博社援引知情人士报道。",
-   "sources": [
-    {
-     "url": "https://www.bnnbloomberg.ca/business/company-news/2026/07/08/bofa-extends-first-us520-million-loan-to-openai-ahead-of-ipo-reuters-source-says/",
-     "publisher": "BNN Bloomberg (Reuters)",
-     "date": "2026-07-08",
-     "title": "BofA extends first US$520 million loan to OpenAI ahead of IPO, Reuters source says"
-    },
-    {
-     "url": "https://letsdatascience.com/news/openai-secures-520-million-credit-line-from-bank-of-america-c7bb2f54",
-     "publisher": "Let's Data Science (citing Bloomberg)",
-     "date": "2026-07-08",
-     "title": "OpenAI Secures $520 Million Credit Line From Bank of America"
     }
    ],
    "origin": "curated"
@@ -27195,45 +27126,51 @@
  ],
  "stats": {
   "entities": 141,
-  "edges": 412,
-  "curated_edges": 412,
+  "edges": 410,
+  "curated_edges": 410,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
     "count": 111,
     "usd": 1528889000000,
     "undisclosed": 66,
-    "cancelled": 1
+    "cancelled": 1,
+    "superseded": 0
    },
    "investment": {
     "count": 131,
-    "usd": 911383790000,
+    "usd": 900383790000,
     "undisclosed": 37,
-    "cancelled": 3
+    "cancelled": 3,
+    "superseded": 1
    },
    "debt": {
-    "count": 132,
-    "usd": 1171355071259,
+    "count": 130,
+    "usd": 1170235071259,
     "undisclosed": 5,
-    "cancelled": 0
+    "cancelled": 0,
+    "superseded": 0
    },
    "lease": {
     "count": 28,
     "usd": 337176000000,
     "undisclosed": 8,
-    "cancelled": 0
+    "cancelled": 0,
+    "superseded": 0
    },
    "vendor_financing": {
     "count": 1,
     "usd": 42000000000,
     "undisclosed": 0,
-    "cancelled": 0
+    "cancelled": 0,
+    "superseded": 0
    },
    "guarantee": {
     "count": 9,
     "usd": 183230000000,
     "undisclosed": 3,
-    "cancelled": 0
+    "cancelled": 0,
+    "superseded": 0
    }
   },
   "candidates_by_kind": {
@@ -27262,20 +27199,20 @@
     "usd": 0
    }
   },
-  "total_usd": 3990803861259,
+  "total_usd": 3978683861259,
   "contingent_usd": 183230000000,
   "headline_usd": 1972860000000,
-  "broad_usd": 6146893861259,
+  "broad_usd": 6134773861259,
   "by_status_usd": {
    "announced": 14200000000,
-   "signed": 1876203571259,
+   "signed": 1875083571259,
    "in_progress": 541636000000,
-   "completed": 1415364290000,
+   "completed": 1404364290000,
    "reported": 143400000000
   },
-  "confirmed_usd": 2591166861259,
-  "reported_usd": 1399637000000,
-  "binding_usd": 3833203861259,
+  "confirmed_usd": 2579566861259,
+  "reported_usd": 1399117000000,
+  "binding_usd": 3821083861259,
   "announced_usd": 157600000000,
   "circular": [
    {
@@ -28123,54 +28060,6 @@
     "undisclosed_legs": 1
    },
    {
-    "id": "loop-apollo-intel",
-    "entities": [
-     "apollo",
-     "intel"
-    ],
-    "legs": [
-     {
-      "from": "apollo",
-      "to": "intel",
-      "edge_ids": [
-       "apollo-intel-2024-06-fab34-jv"
-      ],
-      "kinds": [
-       "investment"
-      ],
-      "usd": 11000000000,
-      "undisclosed": 0
-     },
-     {
-      "from": "intel",
-      "to": "apollo",
-      "edge_ids": [
-       "intel-apollo-2026-04-fab34-stake-buyback"
-      ],
-      "kinds": [
-       "investment"
-      ],
-      "usd": 14200000000,
-      "undisclosed": 0
-     }
-    ],
-    "edges": [
-     "apollo-intel-2024-06-fab34-jv",
-     "intel-apollo-2026-04-fab34-stake-buyback"
-    ],
-    "kinds": [
-     "investment",
-     "investment"
-    ],
-    "usd": [
-     11000000000,
-     14200000000
-    ],
-    "min_usd": 11000000000,
-    "max_usd": 14200000000,
-    "undisclosed_legs": 0
-   },
-   {
     "id": "loop-anthropic-coreweave-nvidia",
     "entities": [
      "anthropic",
@@ -28844,12 +28733,12 @@
    },
    {
     "month": "2024-06",
-    "count": 2,
-    "usd": 11645000000,
-    "cumulative_usd": 57045000000,
+    "count": 1,
+    "usd": 645000000,
+    "cumulative_usd": 46045000000,
     "by_kind": {
      "order": 0,
-     "investment": 11645000000,
+     "investment": 645000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -28860,7 +28749,7 @@
     "month": "2024-07",
     "count": 1,
     "usd": 5000000000,
-    "cumulative_usd": 62045000000,
+    "cumulative_usd": 51045000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -28874,7 +28763,7 @@
     "month": "2024-08",
     "count": 2,
     "usd": 0,
-    "cumulative_usd": 62045000000,
+    "cumulative_usd": 51045000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -28888,7 +28777,7 @@
     "month": "2024-09",
     "count": 5,
     "usd": 31900000000,
-    "cumulative_usd": 93945000000,
+    "cumulative_usd": 82945000000,
     "by_kind": {
      "order": 0,
      "investment": 16100000000,
@@ -28902,7 +28791,7 @@
     "month": "2024-10",
     "count": 3,
     "usd": 10600000000,
-    "cumulative_usd": 104545000000,
+    "cumulative_usd": 93545000000,
     "by_kind": {
      "order": 0,
      "investment": 6600000000,
@@ -28916,7 +28805,7 @@
     "month": "2024-11",
     "count": 2,
     "usd": 10000000000,
-    "cumulative_usd": 114545000000,
+    "cumulative_usd": 103545000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -28930,7 +28819,7 @@
     "month": "2024-12",
     "count": 3,
     "usd": 6000000000,
-    "cumulative_usd": 120545000000,
+    "cumulative_usd": 109545000000,
     "by_kind": {
      "order": 0,
      "investment": 6000000000,
@@ -28944,7 +28833,7 @@
     "month": "2025-01",
     "count": 7,
     "usd": 6300000000,
-    "cumulative_usd": 126845000000,
+    "cumulative_usd": 115845000000,
     "by_kind": {
      "order": 0,
      "investment": 1000000000,
@@ -28958,7 +28847,7 @@
     "month": "2025-02",
     "count": 1,
     "usd": 0,
-    "cumulative_usd": 126845000000,
+    "cumulative_usd": 115845000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -28972,7 +28861,7 @@
     "month": "2025-03",
     "count": 11,
     "usd": 71500000000,
-    "cumulative_usd": 198345000000,
+    "cumulative_usd": 187345000000,
     "by_kind": {
      "order": 24550000000,
      "investment": 43570000000,
@@ -28986,7 +28875,7 @@
     "month": "2025-04",
     "count": 3,
     "usd": 3750000000,
-    "cumulative_usd": 202095000000,
+    "cumulative_usd": 191095000000,
     "by_kind": {
      "order": 0,
      "investment": 2000000000,
@@ -29000,7 +28889,7 @@
     "month": "2025-05",
     "count": 10,
     "usd": 90100000000,
-    "cumulative_usd": 292195000000,
+    "cumulative_usd": 281195000000,
     "by_kind": {
      "order": 40000000000,
      "investment": 6500000000,
@@ -29014,7 +28903,7 @@
     "month": "2025-06",
     "count": 5,
     "usd": 7750000000,
-    "cumulative_usd": 299945000000,
+    "cumulative_usd": 288945000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -29028,7 +28917,7 @@
     "month": "2025-07",
     "count": 5,
     "usd": 27380000000,
-    "cumulative_usd": 327325000000,
+    "cumulative_usd": 316325000000,
     "by_kind": {
      "order": 16500000000,
      "investment": 0,
@@ -29042,7 +28931,7 @@
     "month": "2025-08",
     "count": 10,
     "usd": 37139000000,
-    "cumulative_usd": 364464000000,
+    "cumulative_usd": 353464000000,
     "by_kind": {
      "order": 10139000000,
      "investment": 14900000000,
@@ -29056,7 +28945,7 @@
     "month": "2025-09",
     "count": 20,
     "usd": 412281000000,
-    "cumulative_usd": 776745000000,
+    "cumulative_usd": 765745000000,
     "by_kind": {
      "order": 357900000000,
      "investment": 20830000000,
@@ -29070,7 +28959,7 @@
     "month": "2025-10",
     "count": 24,
     "usd": 418625000000,
-    "cumulative_usd": 1195370000000,
+    "cumulative_usd": 1184370000000,
     "by_kind": {
      "order": 255000000000,
      "investment": 49600000000,
@@ -29084,7 +28973,7 @@
     "month": "2025-11",
     "count": 19,
     "usd": 183228000000,
-    "cumulative_usd": 1378598000000,
+    "cumulative_usd": 1367598000000,
     "by_kind": {
      "order": 95600000000,
      "investment": 17565000000,
@@ -29098,7 +28987,7 @@
     "month": "2025-12",
     "count": 9,
     "usd": 19100000000,
-    "cumulative_usd": 1397698000000,
+    "cumulative_usd": 1386698000000,
     "by_kind": {
      "order": 0,
      "investment": 6250000000,
@@ -29112,7 +29001,7 @@
     "month": "2026-01",
     "count": 26,
     "usd": 55617571259,
-    "cumulative_usd": 1453315571259,
+    "cumulative_usd": 1442315571259,
     "by_kind": {
      "order": 21800000000,
      "investment": 24177000000,
@@ -29126,7 +29015,7 @@
     "month": "2026-02",
     "count": 19,
     "usd": 308300000000,
-    "cumulative_usd": 1761615571259,
+    "cumulative_usd": 1750615571259,
     "by_kind": {
      "order": 101400000000,
      "investment": 138450000000,
@@ -29140,7 +29029,7 @@
     "month": "2026-03",
     "count": 26,
     "usd": 275917500000,
-    "cumulative_usd": 2037533071259,
+    "cumulative_usd": 2026533071259,
     "by_kind": {
      "order": 70800000000,
      "investment": 20000000000,
@@ -29154,7 +29043,7 @@
     "month": "2026-04",
     "count": 22,
     "usd": 378640690000,
-    "cumulative_usd": 2416173761259,
+    "cumulative_usd": 2405173761259,
     "by_kind": {
      "order": 258300000000,
      "investment": 81740690000,
@@ -29168,7 +29057,7 @@
     "month": "2026-05",
     "count": 24,
     "usd": 244650000000,
-    "cumulative_usd": 2660823761259,
+    "cumulative_usd": 2649823761259,
     "by_kind": {
      "order": 128100000000,
      "investment": 64850000000,
@@ -29182,7 +29071,7 @@
     "month": "2026-06",
     "count": 20,
     "usd": 280210000000,
-    "cumulative_usd": 2941033761259,
+    "cumulative_usd": 2930033761259,
     "by_kind": {
      "order": 20000000000,
      "investment": 136200000000,
@@ -29194,13 +29083,13 @@
    },
    {
     "month": "2026-07",
-    "count": 27,
-    "usd": 137624100000,
-    "cumulative_usd": 3078657861259,
+    "count": 26,
+    "usd": 137104100000,
+    "cumulative_usd": 3067137861259,
     "by_kind": {
      "order": 1500000000,
      "investment": 50397100000,
-     "debt": 56927000000,
+     "debt": 56407000000,
      "lease": 28800000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -29208,13 +29097,13 @@
    },
    {
     "month": "2026-08",
-    "count": 22,
-    "usd": 167049000000,
-    "cumulative_usd": 3245706861259,
+    "count": 21,
+    "usd": 166449000000,
+    "cumulative_usd": 3233586861259,
     "by_kind": {
      "order": 54600000000,
      "investment": 38100000000,
-     "debt": 60549000000,
+     "debt": 59949000000,
      "lease": 13800000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -29224,7 +29113,7 @@
     "month": "2026-09",
     "count": 23,
     "usd": 218809000000,
-    "cumulative_usd": 3464515861259,
+    "cumulative_usd": 3452395861259,
     "by_kind": {
      "order": 68300000000,
      "investment": 45709000000,
@@ -29238,7 +29127,7 @@
     "month": "2026-10",
     "count": 27,
     "usd": 463538000000,
-    "cumulative_usd": 3928053861259,
+    "cumulative_usd": 3915933861259,
     "by_kind": {
      "order": 4400000000,
      "investment": 59200000000,
@@ -29252,7 +29141,7 @@
     "month": "2026-11",
     "count": 8,
     "usd": 62750000000,
-    "cumulative_usd": 3990803861259,
+    "cumulative_usd": 3978683861259,
     "by_kind": {
      "order": 0,
      "investment": 21000000000,
@@ -29269,8 +29158,8 @@
   },
   "latest_announced": "2026-11-08",
   "notes": {
-   "en": "total_usd sums curated deals with a disclosed amount whose status is not cancelled: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
-   "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
+   "en": "total_usd sums curated deals with a disclosed amount that are not cancelled or superseded: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
+   "zh": "total_usd 为人工核实、已披露金额且未取消、未被取代交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
   },
   "cds": {
    "companies": 10,
@@ -29360,8 +29249,8 @@
   }
  },
  "notes": {
-  "en": "total_usd sums curated deals with a disclosed amount whose status is not cancelled: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
-  "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
+  "en": "total_usd sums curated deals with a disclosed amount that are not cancelled or superseded: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
+  "zh": "total_usd 为人工核实、已披露金额且未取消、未被取代交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
  },
  "cds": {
   "alphabet": [

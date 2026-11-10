@@ -32,8 +32,8 @@ source_urls, added_by`. `source_urls` joins the deal's source URLs with ` | `. E
 Money flows `from` → `to`: `order` buyer → seller; `investment` investor → investee; `debt` lender → borrower;
 `lease` lessee → lessor; `vendor_financing` financier → beneficiary; `guarantee` guarantor → the protected party.
 
-`counted_usd` = `amount_usd` when the deal has a disclosed amount, its `status` is not `cancelled` and its
-`kind` is not `guarantee`; otherwise 0. `contingent_usd` = a live guarantee's `amount_usd`, otherwise 0.
+`counted_usd` = `amount_usd` when the deal has a disclosed amount, its `status` is not `cancelled`, it has no
+`superseded_by` (a later edge restates it) and its `kind` is not `guarantee`; otherwise 0. `contingent_usd` = a live guarantee's `amount_usd`, otherwise 0.
 `stats.total_usd` is the sum of `counted_usd`; `stats.contingent_usd` the sum of `contingent_usd`. Some deals with
 `amount_usd: null` carry `headline_usd`, the figure as announced (a programme such as Stargate, an MOU, an all-stock
 merger's value, a press estimate): it is never in `total_usd`; `stats.headline_usd` sums it and `stats.broad_usd` =
@@ -46,7 +46,7 @@ are never published.
 
 资金方向 `from` → `to`：`order` 买方→卖方；`investment` 投资方→被投方；`debt` 贷款方→借款方；`lease` 承租方→出租方；
 `vendor_financing` 融资提供方→受益方；`guarantee` 担保方→被担保的债权人。`counted_usd`：有披露金额、状态不是
-`cancelled`、类型不是 `guarantee` 的交易计入，否则为 0；`contingent_usd` 为有效担保的面额。总额 `total_usd` 是
+`cancelled`、没有 `superseded_by`（未被后续交易取代）、类型不是 `guarantee` 的交易计入，否则为 0；`contingent_usd` 为有效担保的面额。总额 `total_usd` 是
 `counted_usd` 之和，担保单独列为 `contingent_usd`。
 
 ## Licence and citation · 许可与引用

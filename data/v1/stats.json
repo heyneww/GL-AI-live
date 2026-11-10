@@ -1,49 +1,55 @@
 {
- "generated_at": "2026-11-10T03:47:24Z",
+ "generated_at": "2026-11-10T04:33:40Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-10, https://heyneww.github.io/GL-AI-live/",
  "stats": {
   "entities": 141,
-  "edges": 412,
-  "curated_edges": 412,
+  "edges": 410,
+  "curated_edges": 410,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
     "count": 111,
     "usd": 1528889000000,
     "undisclosed": 66,
-    "cancelled": 1
+    "cancelled": 1,
+    "superseded": 0
    },
    "investment": {
     "count": 131,
-    "usd": 911383790000,
+    "usd": 900383790000,
     "undisclosed": 37,
-    "cancelled": 3
+    "cancelled": 3,
+    "superseded": 1
    },
    "debt": {
-    "count": 132,
-    "usd": 1171355071259,
+    "count": 130,
+    "usd": 1170235071259,
     "undisclosed": 5,
-    "cancelled": 0
+    "cancelled": 0,
+    "superseded": 0
    },
    "lease": {
     "count": 28,
     "usd": 337176000000,
     "undisclosed": 8,
-    "cancelled": 0
+    "cancelled": 0,
+    "superseded": 0
    },
    "vendor_financing": {
     "count": 1,
     "usd": 42000000000,
     "undisclosed": 0,
-    "cancelled": 0
+    "cancelled": 0,
+    "superseded": 0
    },
    "guarantee": {
     "count": 9,
     "usd": 183230000000,
     "undisclosed": 3,
-    "cancelled": 0
+    "cancelled": 0,
+    "superseded": 0
    }
   },
   "candidates_by_kind": {
@@ -72,20 +78,20 @@
     "usd": 0
    }
   },
-  "total_usd": 3990803861259,
+  "total_usd": 3978683861259,
   "contingent_usd": 183230000000,
   "headline_usd": 1972860000000,
-  "broad_usd": 6146893861259,
+  "broad_usd": 6134773861259,
   "by_status_usd": {
    "announced": 14200000000,
-   "signed": 1876203571259,
+   "signed": 1875083571259,
    "in_progress": 541636000000,
-   "completed": 1415364290000,
+   "completed": 1404364290000,
    "reported": 143400000000
   },
-  "confirmed_usd": 2591166861259,
-  "reported_usd": 1399637000000,
-  "binding_usd": 3833203861259,
+  "confirmed_usd": 2579566861259,
+  "reported_usd": 1399117000000,
+  "binding_usd": 3821083861259,
   "announced_usd": 157600000000,
   "circular": [
    {
@@ -933,54 +939,6 @@
     "undisclosed_legs": 1
    },
    {
-    "id": "loop-apollo-intel",
-    "entities": [
-     "apollo",
-     "intel"
-    ],
-    "legs": [
-     {
-      "from": "apollo",
-      "to": "intel",
-      "edge_ids": [
-       "apollo-intel-2024-06-fab34-jv"
-      ],
-      "kinds": [
-       "investment"
-      ],
-      "usd": 11000000000,
-      "undisclosed": 0
-     },
-     {
-      "from": "intel",
-      "to": "apollo",
-      "edge_ids": [
-       "intel-apollo-2026-04-fab34-stake-buyback"
-      ],
-      "kinds": [
-       "investment"
-      ],
-      "usd": 14200000000,
-      "undisclosed": 0
-     }
-    ],
-    "edges": [
-     "apollo-intel-2024-06-fab34-jv",
-     "intel-apollo-2026-04-fab34-stake-buyback"
-    ],
-    "kinds": [
-     "investment",
-     "investment"
-    ],
-    "usd": [
-     11000000000,
-     14200000000
-    ],
-    "min_usd": 11000000000,
-    "max_usd": 14200000000,
-    "undisclosed_legs": 0
-   },
-   {
     "id": "loop-anthropic-coreweave-nvidia",
     "entities": [
      "anthropic",
@@ -1654,12 +1612,12 @@
    },
    {
     "month": "2024-06",
-    "count": 2,
-    "usd": 11645000000,
-    "cumulative_usd": 57045000000,
+    "count": 1,
+    "usd": 645000000,
+    "cumulative_usd": 46045000000,
     "by_kind": {
      "order": 0,
-     "investment": 11645000000,
+     "investment": 645000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1670,7 +1628,7 @@
     "month": "2024-07",
     "count": 1,
     "usd": 5000000000,
-    "cumulative_usd": 62045000000,
+    "cumulative_usd": 51045000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -1684,7 +1642,7 @@
     "month": "2024-08",
     "count": 2,
     "usd": 0,
-    "cumulative_usd": 62045000000,
+    "cumulative_usd": 51045000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -1698,7 +1656,7 @@
     "month": "2024-09",
     "count": 5,
     "usd": 31900000000,
-    "cumulative_usd": 93945000000,
+    "cumulative_usd": 82945000000,
     "by_kind": {
      "order": 0,
      "investment": 16100000000,
@@ -1712,7 +1670,7 @@
     "month": "2024-10",
     "count": 3,
     "usd": 10600000000,
-    "cumulative_usd": 104545000000,
+    "cumulative_usd": 93545000000,
     "by_kind": {
      "order": 0,
      "investment": 6600000000,
@@ -1726,7 +1684,7 @@
     "month": "2024-11",
     "count": 2,
     "usd": 10000000000,
-    "cumulative_usd": 114545000000,
+    "cumulative_usd": 103545000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -1740,7 +1698,7 @@
     "month": "2024-12",
     "count": 3,
     "usd": 6000000000,
-    "cumulative_usd": 120545000000,
+    "cumulative_usd": 109545000000,
     "by_kind": {
      "order": 0,
      "investment": 6000000000,
@@ -1754,7 +1712,7 @@
     "month": "2025-01",
     "count": 7,
     "usd": 6300000000,
-    "cumulative_usd": 126845000000,
+    "cumulative_usd": 115845000000,
     "by_kind": {
      "order": 0,
      "investment": 1000000000,
@@ -1768,7 +1726,7 @@
     "month": "2025-02",
     "count": 1,
     "usd": 0,
-    "cumulative_usd": 126845000000,
+    "cumulative_usd": 115845000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -1782,7 +1740,7 @@
     "month": "2025-03",
     "count": 11,
     "usd": 71500000000,
-    "cumulative_usd": 198345000000,
+    "cumulative_usd": 187345000000,
     "by_kind": {
      "order": 24550000000,
      "investment": 43570000000,
@@ -1796,7 +1754,7 @@
     "month": "2025-04",
     "count": 3,
     "usd": 3750000000,
-    "cumulative_usd": 202095000000,
+    "cumulative_usd": 191095000000,
     "by_kind": {
      "order": 0,
      "investment": 2000000000,
@@ -1810,7 +1768,7 @@
     "month": "2025-05",
     "count": 10,
     "usd": 90100000000,
-    "cumulative_usd": 292195000000,
+    "cumulative_usd": 281195000000,
     "by_kind": {
      "order": 40000000000,
      "investment": 6500000000,
@@ -1824,7 +1782,7 @@
     "month": "2025-06",
     "count": 5,
     "usd": 7750000000,
-    "cumulative_usd": 299945000000,
+    "cumulative_usd": 288945000000,
     "by_kind": {
      "order": 0,
      "investment": 0,
@@ -1838,7 +1796,7 @@
     "month": "2025-07",
     "count": 5,
     "usd": 27380000000,
-    "cumulative_usd": 327325000000,
+    "cumulative_usd": 316325000000,
     "by_kind": {
      "order": 16500000000,
      "investment": 0,
@@ -1852,7 +1810,7 @@
     "month": "2025-08",
     "count": 10,
     "usd": 37139000000,
-    "cumulative_usd": 364464000000,
+    "cumulative_usd": 353464000000,
     "by_kind": {
      "order": 10139000000,
      "investment": 14900000000,
@@ -1866,7 +1824,7 @@
     "month": "2025-09",
     "count": 20,
     "usd": 412281000000,
-    "cumulative_usd": 776745000000,
+    "cumulative_usd": 765745000000,
     "by_kind": {
      "order": 357900000000,
      "investment": 20830000000,
@@ -1880,7 +1838,7 @@
     "month": "2025-10",
     "count": 24,
     "usd": 418625000000,
-    "cumulative_usd": 1195370000000,
+    "cumulative_usd": 1184370000000,
     "by_kind": {
      "order": 255000000000,
      "investment": 49600000000,
@@ -1894,7 +1852,7 @@
     "month": "2025-11",
     "count": 19,
     "usd": 183228000000,
-    "cumulative_usd": 1378598000000,
+    "cumulative_usd": 1367598000000,
     "by_kind": {
      "order": 95600000000,
      "investment": 17565000000,
@@ -1908,7 +1866,7 @@
     "month": "2025-12",
     "count": 9,
     "usd": 19100000000,
-    "cumulative_usd": 1397698000000,
+    "cumulative_usd": 1386698000000,
     "by_kind": {
      "order": 0,
      "investment": 6250000000,
@@ -1922,7 +1880,7 @@
     "month": "2026-01",
     "count": 26,
     "usd": 55617571259,
-    "cumulative_usd": 1453315571259,
+    "cumulative_usd": 1442315571259,
     "by_kind": {
      "order": 21800000000,
      "investment": 24177000000,
@@ -1936,7 +1894,7 @@
     "month": "2026-02",
     "count": 19,
     "usd": 308300000000,
-    "cumulative_usd": 1761615571259,
+    "cumulative_usd": 1750615571259,
     "by_kind": {
      "order": 101400000000,
      "investment": 138450000000,
@@ -1950,7 +1908,7 @@
     "month": "2026-03",
     "count": 26,
     "usd": 275917500000,
-    "cumulative_usd": 2037533071259,
+    "cumulative_usd": 2026533071259,
     "by_kind": {
      "order": 70800000000,
      "investment": 20000000000,
@@ -1964,7 +1922,7 @@
     "month": "2026-04",
     "count": 22,
     "usd": 378640690000,
-    "cumulative_usd": 2416173761259,
+    "cumulative_usd": 2405173761259,
     "by_kind": {
      "order": 258300000000,
      "investment": 81740690000,
@@ -1978,7 +1936,7 @@
     "month": "2026-05",
     "count": 24,
     "usd": 244650000000,
-    "cumulative_usd": 2660823761259,
+    "cumulative_usd": 2649823761259,
     "by_kind": {
      "order": 128100000000,
      "investment": 64850000000,
@@ -1992,7 +1950,7 @@
     "month": "2026-06",
     "count": 20,
     "usd": 280210000000,
-    "cumulative_usd": 2941033761259,
+    "cumulative_usd": 2930033761259,
     "by_kind": {
      "order": 20000000000,
      "investment": 136200000000,
@@ -2004,13 +1962,13 @@
    },
    {
     "month": "2026-07",
-    "count": 27,
-    "usd": 137624100000,
-    "cumulative_usd": 3078657861259,
+    "count": 26,
+    "usd": 137104100000,
+    "cumulative_usd": 3067137861259,
     "by_kind": {
      "order": 1500000000,
      "investment": 50397100000,
-     "debt": 56927000000,
+     "debt": 56407000000,
      "lease": 28800000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2018,13 +1976,13 @@
    },
    {
     "month": "2026-08",
-    "count": 22,
-    "usd": 167049000000,
-    "cumulative_usd": 3245706861259,
+    "count": 21,
+    "usd": 166449000000,
+    "cumulative_usd": 3233586861259,
     "by_kind": {
      "order": 54600000000,
      "investment": 38100000000,
-     "debt": 60549000000,
+     "debt": 59949000000,
      "lease": 13800000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2034,7 +1992,7 @@
     "month": "2026-09",
     "count": 23,
     "usd": 218809000000,
-    "cumulative_usd": 3464515861259,
+    "cumulative_usd": 3452395861259,
     "by_kind": {
      "order": 68300000000,
      "investment": 45709000000,
@@ -2048,7 +2006,7 @@
     "month": "2026-10",
     "count": 27,
     "usd": 463538000000,
-    "cumulative_usd": 3928053861259,
+    "cumulative_usd": 3915933861259,
     "by_kind": {
      "order": 4400000000,
      "investment": 59200000000,
@@ -2062,7 +2020,7 @@
     "month": "2026-11",
     "count": 8,
     "usd": 62750000000,
-    "cumulative_usd": 3990803861259,
+    "cumulative_usd": 3978683861259,
     "by_kind": {
      "order": 0,
      "investment": 21000000000,
@@ -2079,8 +2037,8 @@
   },
   "latest_announced": "2026-11-08",
   "notes": {
-   "en": "total_usd sums curated deals with a disclosed amount whose status is not cancelled: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
-   "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
+   "en": "total_usd sums curated deals with a disclosed amount that are not cancelled or superseded: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
+   "zh": "total_usd 为人工核实、已披露金额且未取消、未被取代交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
   },
   "cds": {
    "companies": 10,
