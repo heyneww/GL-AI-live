@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-10T21:25:00Z",
+ "generated_at": "2026-11-10T22:48:26Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-10, https://heyneww.github.io/GL-AI-live/",
  "stats": {
   "entities": 141,
-  "edges": 410,
-  "curated_edges": 410,
+  "edges": 417,
+  "curated_edges": 417,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
     "count": 111,
-    "usd": 1528889000000,
+    "usd": 1531189000000,
     "undisclosed": 66,
     "cancelled": 1,
     "superseded": 0
    },
    "investment": {
-    "count": 131,
-    "usd": 900383790000,
+    "count": 138,
+    "usd": 926383790000,
     "undisclosed": 37,
     "cancelled": 3,
     "superseded": 1
@@ -78,21 +78,21 @@
     "usd": 0
    }
   },
-  "total_usd": 3952683861259,
+  "total_usd": 3980983861259,
   "contingent_usd": 183230000000,
   "headline_usd": 1972860000000,
-  "broad_usd": 6108773861259,
+  "broad_usd": 6137073861259,
   "by_status_usd": {
    "announced": 14200000000,
-   "signed": 1875083571259,
+   "signed": 1944683571259,
    "in_progress": 541636000000,
    "completed": 1378364290000,
-   "reported": 143400000000
+   "reported": 102100000000
   },
-  "confirmed_usd": 2578566861259,
+  "confirmed_usd": 2606866861259,
   "reported_usd": 1374117000000,
-  "binding_usd": 3795083861259,
-  "announced_usd": 157600000000,
+  "binding_usd": 3864683861259,
+  "announced_usd": 116300000000,
   "circular": [
    {
     "id": "loop-nvidia-openai-oracle",
@@ -303,30 +303,34 @@
       "from": "broadcom",
       "to": "anthropic",
       "edge_ids": [
+       "broadcom-anthropic-2026-11-ipo-placement",
        "broadcom-anthropic-2026-03-convertible-note-facility"
       ],
       "kinds": [
+       "investment",
        "vendor_financing"
       ],
-      "usd": 42000000000,
+      "usd": 43000000000,
       "undisclosed": 0
      }
     ],
     "edges": [
      "anthropic-broadcom-2026-10-equipment-leases",
      "anthropic-broadcom-2025-ironwood",
+     "broadcom-anthropic-2026-11-ipo-placement",
      "broadcom-anthropic-2026-03-convertible-note-facility"
     ],
     "kinds": [
      "lease",
      "order",
+     "investment",
      "vendor_financing"
     ],
     "usd": [
      161200000000,
-     42000000000
+     43000000000
     ],
-    "min_usd": 42000000000,
+    "min_usd": 43000000000,
     "max_usd": 161200000000,
     "undisclosed_legs": 0
    },
@@ -393,6 +397,7 @@
       "from": "alphabet",
       "to": "anthropic",
       "edge_ids": [
+       "alphabet-anthropic-2026-11-ipo-placement",
        "alphabet-anthropic-2026-04-equity",
        "alphabet-anthropic-2025-01-equity",
        "alphabet-anthropic-2023-09-convertible-notes"
@@ -400,9 +405,10 @@
       "kinds": [
        "investment",
        "investment",
+       "investment",
        "investment"
       ],
-      "usd": 43000000000,
+      "usd": 53000000000,
       "undisclosed": 0
      },
      {
@@ -421,6 +427,7 @@
      }
     ],
     "edges": [
+     "alphabet-anthropic-2026-11-ipo-placement",
      "alphabet-anthropic-2026-04-equity",
      "alphabet-anthropic-2025-01-equity",
      "alphabet-anthropic-2023-09-convertible-notes",
@@ -431,14 +438,15 @@
      "investment",
      "investment",
      "investment",
+     "investment",
      "order",
      "order"
     ],
     "usd": [
-     43000000000,
+     53000000000,
      121300000000
     ],
-    "min_usd": 43000000000,
+    "min_usd": 53000000000,
     "max_usd": 121300000000,
     "undisclosed_legs": 0
    },
@@ -466,12 +474,14 @@
       "from": "broadcom",
       "to": "anthropic",
       "edge_ids": [
+       "broadcom-anthropic-2026-11-ipo-placement",
        "broadcom-anthropic-2026-03-convertible-note-facility"
       ],
       "kinds": [
+       "investment",
        "vendor_financing"
       ],
-      "usd": 42000000000,
+      "usd": 43000000000,
       "undisclosed": 0
      },
      {
@@ -491,22 +501,24 @@
     ],
     "edges": [
      "alphabet-broadcom-2026-04-tpu-lta",
+     "broadcom-anthropic-2026-11-ipo-placement",
      "broadcom-anthropic-2026-03-convertible-note-facility",
      "anthropic-alphabet-2026-04-tpu",
      "anthropic-alphabet-2025-10-tpu"
     ],
     "kinds": [
      "order",
+     "investment",
      "vendor_financing",
      "order",
      "order"
     ],
     "usd": [
      null,
-     42000000000,
+     43000000000,
      121300000000
     ],
-    "min_usd": 42000000000,
+    "min_usd": 43000000000,
     "max_usd": 121300000000,
     "undisclosed_legs": 1
    },
@@ -578,36 +590,40 @@
       "kinds": [
        "order"
       ],
-      "usd": 44900000000,
+      "usd": 47200000000,
       "undisclosed": 0
      },
      {
       "from": "microsoft",
       "to": "anthropic",
       "edge_ids": [
+       "microsoft-anthropic-2026-11-ipo-placement",
        "microsoft-anthropic-2025-11-equity"
       ],
       "kinds": [
+       "investment",
        "investment"
       ],
-      "usd": 5000000000,
+      "usd": 6000000000,
       "undisclosed": 0
      }
     ],
     "edges": [
      "anthropic-microsoft-2025-11-azure",
+     "microsoft-anthropic-2026-11-ipo-placement",
      "microsoft-anthropic-2025-11-equity"
     ],
     "kinds": [
      "order",
+     "investment",
      "investment"
     ],
     "usd": [
-     44900000000,
-     5000000000
+     47200000000,
+     6000000000
     ],
-    "min_usd": 5000000000,
-    "max_usd": 44900000000,
+    "min_usd": 6000000000,
+    "max_usd": 47200000000,
     "undisclosed_legs": 0
    },
    {
@@ -875,6 +891,74 @@
     "undisclosed_legs": 1
    },
    {
+    "id": "loop-anthropic-coreweave-nvidia",
+    "entities": [
+     "anthropic",
+     "coreweave",
+     "nvidia"
+    ],
+    "legs": [
+     {
+      "from": "anthropic",
+      "to": "coreweave",
+      "edge_ids": [
+       "anthropic-coreweave-2026-04-cloud"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "coreweave",
+      "to": "nvidia",
+      "edge_ids": [
+       "coreweave-nvidia-2025-03-gpu-purchases"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "nvidia",
+      "to": "anthropic",
+      "edge_ids": [
+       "nvidia-anthropic-2026-11-ipo-placement",
+       "nvidia-anthropic-2025-11-equity"
+      ],
+      "kinds": [
+       "investment",
+       "investment"
+      ],
+      "usd": 20000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "anthropic-coreweave-2026-04-cloud",
+     "coreweave-nvidia-2025-03-gpu-purchases",
+     "nvidia-anthropic-2026-11-ipo-placement",
+     "nvidia-anthropic-2025-11-equity"
+    ],
+    "kinds": [
+     "order",
+     "order",
+     "investment",
+     "investment"
+    ],
+    "usd": [
+     null,
+     null,
+     20000000000
+    ],
+    "min_usd": 20000000000,
+    "max_usd": 20000000000,
+    "undisclosed_legs": 2
+   },
+   {
     "id": "loop-amd-meta-oracle",
     "entities": [
      "amd",
@@ -937,70 +1021,6 @@
     "min_usd": 1000000000,
     "max_usd": 20000000000,
     "undisclosed_legs": 1
-   },
-   {
-    "id": "loop-anthropic-coreweave-nvidia",
-    "entities": [
-     "anthropic",
-     "coreweave",
-     "nvidia"
-    ],
-    "legs": [
-     {
-      "from": "anthropic",
-      "to": "coreweave",
-      "edge_ids": [
-       "anthropic-coreweave-2026-04-cloud"
-      ],
-      "kinds": [
-       "order"
-      ],
-      "usd": null,
-      "undisclosed": 1
-     },
-     {
-      "from": "coreweave",
-      "to": "nvidia",
-      "edge_ids": [
-       "coreweave-nvidia-2025-03-gpu-purchases"
-      ],
-      "kinds": [
-       "order"
-      ],
-      "usd": null,
-      "undisclosed": 1
-     },
-     {
-      "from": "nvidia",
-      "to": "anthropic",
-      "edge_ids": [
-       "nvidia-anthropic-2025-11-equity"
-      ],
-      "kinds": [
-       "investment"
-      ],
-      "usd": 10000000000,
-      "undisclosed": 0
-     }
-    ],
-    "edges": [
-     "anthropic-coreweave-2026-04-cloud",
-     "coreweave-nvidia-2025-03-gpu-purchases",
-     "nvidia-anthropic-2025-11-equity"
-    ],
-    "kinds": [
-     "order",
-     "order",
-     "investment"
-    ],
-    "usd": [
-     null,
-     null,
-     10000000000
-    ],
-    "min_usd": 10000000000,
-    "max_usd": 10000000000,
-    "undisclosed_legs": 2
    },
    {
     "id": "loop-coreweave-nvidia",
@@ -1069,12 +1089,14 @@
       "from": "amd",
       "to": "anthropic",
       "edge_ids": [
+       "amd-anthropic-2026-11-ipo-placement",
        "amd-anthropic-2026-07-equity"
       ],
       "kinds": [
+       "investment",
        "investment"
       ],
-      "usd": 5000000000,
+      "usd": 7500000000,
       "undisclosed": 0
      },
      {
@@ -1091,19 +1113,21 @@
      }
     ],
     "edges": [
+     "amd-anthropic-2026-11-ipo-placement",
      "amd-anthropic-2026-07-equity",
      "anthropic-amd-2026-07-2gw"
     ],
     "kinds": [
      "investment",
+     "investment",
      "order"
     ],
     "usd": [
-     5000000000,
+     7500000000,
      null
     ],
-    "min_usd": 5000000000,
-    "max_usd": 5000000000,
+    "min_usd": 7500000000,
+    "max_usd": 7500000000,
     "undisclosed_legs": 1
    },
    {
@@ -1205,6 +1229,70 @@
     "min_usd": 1000000000,
     "max_usd": 1000000000,
     "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-amd-tsmc-anthropic",
+    "entities": [
+     "amd",
+     "tsmc",
+     "anthropic"
+    ],
+    "legs": [
+     {
+      "from": "amd",
+      "to": "tsmc",
+      "edge_ids": [
+       "amd-tsmc-2025-04-n2-arizona"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "tsmc",
+      "to": "anthropic",
+      "edge_ids": [
+       "tsmc-anthropic-2026-11-ipo-placement"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 500000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "anthropic",
+      "to": "amd",
+      "edge_ids": [
+       "anthropic-amd-2026-07-2gw"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "amd-tsmc-2025-04-n2-arizona",
+     "tsmc-anthropic-2026-11-ipo-placement",
+     "anthropic-amd-2026-07-2gw"
+    ],
+    "kinds": [
+     "order",
+     "investment",
+     "order"
+    ],
+    "usd": [
+     null,
+     500000000,
+     null
+    ],
+    "min_usd": 500000000,
+    "max_usd": 500000000,
+    "undisclosed_legs": 2
    },
    {
     "id": "loop-amd-samsung-anthropic",
@@ -1851,10 +1939,10 @@
    {
     "month": "2025-11",
     "count": 19,
-    "usd": 183228000000,
-    "cumulative_usd": 1362598000000,
+    "usd": 185528000000,
+    "cumulative_usd": 1364898000000,
     "by_kind": {
-     "order": 95600000000,
+     "order": 97900000000,
      "investment": 17565000000,
      "debt": 64563000000,
      "lease": 5500000000,
@@ -1866,7 +1954,7 @@
     "month": "2025-12",
     "count": 9,
     "usd": 19100000000,
-    "cumulative_usd": 1381698000000,
+    "cumulative_usd": 1383998000000,
     "by_kind": {
      "order": 0,
      "investment": 6250000000,
@@ -1880,7 +1968,7 @@
     "month": "2026-01",
     "count": 26,
     "usd": 55617571259,
-    "cumulative_usd": 1437315571259,
+    "cumulative_usd": 1439615571259,
     "by_kind": {
      "order": 21800000000,
      "investment": 24177000000,
@@ -1894,7 +1982,7 @@
     "month": "2026-02",
     "count": 19,
     "usd": 308300000000,
-    "cumulative_usd": 1745615571259,
+    "cumulative_usd": 1747915571259,
     "by_kind": {
      "order": 101400000000,
      "investment": 138450000000,
@@ -1908,7 +1996,7 @@
     "month": "2026-03",
     "count": 23,
     "usd": 254917500000,
-    "cumulative_usd": 2000533071259,
+    "cumulative_usd": 2002833071259,
     "by_kind": {
      "order": 70800000000,
      "investment": 20000000000,
@@ -1922,7 +2010,7 @@
     "month": "2026-04",
     "count": 22,
     "usd": 378640690000,
-    "cumulative_usd": 2379173761259,
+    "cumulative_usd": 2381473761259,
     "by_kind": {
      "order": 258300000000,
      "investment": 81740690000,
@@ -1936,7 +2024,7 @@
     "month": "2026-05",
     "count": 24,
     "usd": 244650000000,
-    "cumulative_usd": 2623823761259,
+    "cumulative_usd": 2626123761259,
     "by_kind": {
      "order": 128100000000,
      "investment": 64850000000,
@@ -1950,7 +2038,7 @@
     "month": "2026-06",
     "count": 20,
     "usd": 280210000000,
-    "cumulative_usd": 2904033761259,
+    "cumulative_usd": 2906333761259,
     "by_kind": {
      "order": 20000000000,
      "investment": 136200000000,
@@ -1964,7 +2052,7 @@
     "month": "2026-07",
     "count": 26,
     "usd": 137104100000,
-    "cumulative_usd": 3041137861259,
+    "cumulative_usd": 3043437861259,
     "by_kind": {
      "order": 1500000000,
      "investment": 50397100000,
@@ -1978,7 +2066,7 @@
     "month": "2026-08",
     "count": 21,
     "usd": 166449000000,
-    "cumulative_usd": 3207586861259,
+    "cumulative_usd": 3209886861259,
     "by_kind": {
      "order": 54600000000,
      "investment": 38100000000,
@@ -1992,7 +2080,7 @@
     "month": "2026-09",
     "count": 23,
     "usd": 218809000000,
-    "cumulative_usd": 3426395861259,
+    "cumulative_usd": 3428695861259,
     "by_kind": {
      "order": 68300000000,
      "investment": 45709000000,
@@ -2006,7 +2094,7 @@
     "month": "2026-10",
     "count": 27,
     "usd": 463538000000,
-    "cumulative_usd": 3889933861259,
+    "cumulative_usd": 3892233861259,
     "by_kind": {
      "order": 4400000000,
      "investment": 59200000000,
@@ -2018,12 +2106,12 @@
    },
    {
     "month": "2026-11",
-    "count": 8,
-    "usd": 62750000000,
-    "cumulative_usd": 3952683861259,
+    "count": 15,
+    "usd": 88750000000,
+    "cumulative_usd": 3980983861259,
     "by_kind": {
      "order": 0,
-     "investment": 21000000000,
+     "investment": 47000000000,
      "debt": 41750000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -2035,7 +2123,7 @@
    "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
    "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
   },
-  "latest_announced": "2026-11-08",
+  "latest_announced": "2026-11-10",
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount that are not cancelled or superseded: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消、未被取代交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"

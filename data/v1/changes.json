@@ -1,8 +1,152 @@
 {
- "generated_at": "2026-11-10T15:12:29Z",
+ "generated_at": "2026-11-10T22:48:38Z",
  "history_complete": true,
- "last_commit": "ae26f26c8ef7a803d93dcc99b455b48ba5901bed",
+ "last_commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
  "changes": [
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "anthropic-lambda-2026-09-cloud",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "~$35B, ~350 MW at Hut 8's Nueces County, Texas site (WSJ/Reuters); not confirmed by Anthropic, Lambda or Hut 8",
+     "to": "~$41.3B across three agreements (May, June and August 2026) per Anthropic's S-1/A; the August agreement (~$34.9B, the ~350 MW Hut 8 Texas site first reported by the WSJ/Reuters) is currently terminable by either party because Lambda did not secure the facility lease by the agreed date; neither side had given notice as of 10 Nov 2026"
+    },
+    "amount_text_zh": {
+     "from": null,
+     "to": "据 Anthropic 修订版 S-1，三份协议（2026 年 5 月、6 月和 8 月）合计约 413 亿美元；其中 8 月协议（约 349 亿美元，即《华尔街日报》和路透社最早报道的 Hut 8 得州约 350 兆瓦站点）因 Lambda 未能在约定日期前取得设施租约，目前任一方均可终止；截至 2026 年 11 月 10 日双方均未发出终止通知"
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-10"
+    },
+    "sources": {
+     "from": 3,
+     "to": 4
+    },
+    "status": {
+     "from": "reported",
+     "to": "signed"
+    },
+    "summary_en": {
+     "from": "Anthropic's S-1 shows three 2026 agreements with Nvidia-backed Lambda for Nvidia GPU compute worth about $41.3B over terms into 2034. The largest, signed in August (~$34.9B), is the roughly $35B deal for about 350 MW at a Hut 8 site in Texas first reported by the WSJ and Reuters; either side may end it if Lambda does not secure the facility lease in time.",
+     "to": "Anthropic's S-1 shows three 2026 agreements with Nvidia-backed Lambda for Nvidia GPU compute worth about $41.3B over terms into 2034. The largest, signed in August (~$34.9B), is the roughly $35B deal for about 350 MW at a Hut 8 site in Texas first reported by the WSJ and Reuters; either side may end it if Lambda does not secure the facility lease in time. Anthropic's amended S-1 of 10 November 2026 says Lambda missed that date, so the August agreement is now terminable by either party, though neither has given notice and Anthropic does not intend to terminate."
+    },
+    "summary_zh": {
+     "from": "《华尔街日报》和路透社报道，Anthropic 与英伟达支持的 Lambda 签署约 350 亿美元协议，使用 Hut 8 位于得州的约 350 兆瓦容量，据报道由英伟达持有该数据中心租约。相关公司未予置评。",
+     "to": "Anthropic 的 S-1 显示，其于 2026 年与英伟达支持的 Lambda 签署三份英伟达 GPU 算力协议，合计约 413 亿美元，期限至 2034 年。其中最大的一份于 8 月签署（约 349 亿美元），即《华尔街日报》和路透社最早报道的 Hut 8 得州站点约 350 兆瓦协议；若 Lambda 未能按时取得设施租约，任一方可终止。2026 年 11 月 10 日的修订版 S-1 显示 Lambda 未能按期取得租约，该协议目前任一方均可终止，但双方均未发出通知，Anthropic 亦无意终止。"
+    }
+   },
+   "title_en": "Anthropic commits ~$41.3B to Lambda cloud compute",
+   "title_zh": "Anthropic 向 Lambda 承诺约 413 亿美元云算力"
+  },
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "anthropic-microsoft-2025-11-azure",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "At least $44.9B of Azure spend from November 2026 to May 2033, non-cancelable except for an uncured Microsoft breach or undelivered capacity, per Anthropic's S-1 (26 Oct 2026, amended agreement); announced as $30B of Azure compute plus additional capacity up to 1 GW in Nov 2025",
+     "to": "At least $47.2B and up to $49.2B of Azure spend from November 2026 to June 2033, regardless of usage, per Anthropic's S-1/A of 10 Nov 2026 (agreement amended between February and November 2026; the 26 Oct S-1 gave at least $44.9B to May 2033); announced as $30B of Azure compute plus additional capacity up to 1 GW in Nov 2025"
+    },
+    "amount_text_zh": {
+     "from": null,
+     "to": "据 Anthropic 2026 年 11 月 10 日修订版 S-1，2026 年 11 月至 2033 年 6 月间至少 472 亿美元、最多 492 亿美元的 Azure 支出，无论实际用量如何均须支付（协议于 2026 年 2 月至 11 月间修订；10 月 26 日的 S-1 为至少 449 亿美元，至 2033 年 5 月）；2025 年 11 月宣布时为 300 亿美元 Azure 算力及最多 1 吉瓦额外容量"
+    },
+    "amount_usd": {
+     "from": 44900000000,
+     "to": 47200000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-10"
+    },
+    "sources": {
+     "from": 5,
+     "to": 6
+    },
+    "summary_en": {
+     "from": "Anthropic committed in November 2025 to buy $30B of Azure compute and to contract additional capacity up to 1 GW (Nvidia Grace Blackwell / Vera Rubin), as Microsoft and Nvidia agreed to invest in it. Its October 2026 S-1 shows the agreement was amended to a minimum of $44.9B of Azure spending between November 2026 and May 2033, owed regardless of usage.",
+     "to": "Anthropic committed in November 2025 to buy $30B of Azure compute and to contract additional capacity up to 1 GW (Nvidia Grace Blackwell / Vera Rubin), as Microsoft and Nvidia agreed to invest in it. Its October 2026 S-1 showed the agreement amended to a minimum of $44.9B; the amended S-1 of 10 November 2026 raises it to at least $47.2B (up to $49.2B) of Azure spending between November 2026 and June 2033, owed regardless of usage."
+    },
+    "summary_zh": {
+     "from": "Anthropic 于 2025 年 11 月承诺采购 300 亿美元 Azure 算力，并另签最多 1 吉瓦的额外算力（英伟达 Grace Blackwell / Vera Rubin 系统）；同时微软和英伟达同意向其投资。其 2026 年 10 月的 S-1 显示协议已修订为 2026 年 11 月至 2033 年 5 月间最低 449 亿美元的 Azure 支出，无论实际用量如何均须支付。",
+     "to": "Anthropic 于 2025 年 11 月承诺采购 300 亿美元 Azure 算力，并另签最多 1 吉瓦的额外算力（英伟达 Grace Blackwell / Vera Rubin 系统）；同时微软和英伟达同意向其投资。其 2026 年 10 月的 S-1 显示协议已修订为最低 449 亿美元；2026 年 11 月 10 日的修订版 S-1 将其提高至 2026 年 11 月至 2033 年 6 月间至少 472 亿美元（最多 492 亿美元）的 Azure 支出，无论实际用量如何均须支付。"
+    },
+    "term": {
+     "from": "Nov 2026 to May 2033",
+     "to": "Nov 2026 to June 2033"
+    },
+    "title_en": {
+     "from": "Anthropic commits $44.9B to Microsoft Azure ($30B announced)",
+     "to": "Anthropic commits $47.2B to Microsoft Azure ($30B announced)"
+    },
+    "title_zh": {
+     "from": "Anthropic 承诺采购 449 亿美元微软 Azure 算力（公告时为 300 亿美元）",
+     "to": "Anthropic 承诺采购 472 亿美元微软 Azure 算力（公告时为 300 亿美元）"
+    }
+   },
+   "title_en": "Anthropic commits $47.2B to Microsoft Azure ($30B announced)",
+   "title_zh": "Anthropic 承诺采购 472 亿美元微软 Azure 算力（公告时为 300 亿美元）"
+  },
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "alphabet-anthropic-2026-11-ipo-placement",
+   "kind": "added",
+   "title_en": "Google to buy $10.0B of Anthropic stock alongside its IPO",
+   "title_zh": "谷歌将在 Anthropic IPO 同时认购 100 亿美元股票"
+  },
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "amd-anthropic-2026-11-ipo-placement",
+   "kind": "added",
+   "title_en": "AMD to buy $2.5B of Anthropic stock alongside its IPO",
+   "title_zh": "AMD 将在 Anthropic IPO 同时认购 25 亿美元股票"
+  },
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "broadcom-anthropic-2026-11-ipo-placement",
+   "kind": "added",
+   "title_en": "Broadcom to buy $1.0B of Anthropic stock alongside its IPO",
+   "title_zh": "博通将在 Anthropic IPO 同时认购 10 亿美元股票"
+  },
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "micron-anthropic-2026-11-ipo-placement",
+   "kind": "added",
+   "title_en": "Micron to buy $1.0B of Anthropic stock alongside its IPO",
+   "title_zh": "美光将在 Anthropic IPO 同时认购 10 亿美元股票"
+  },
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "microsoft-anthropic-2026-11-ipo-placement",
+   "kind": "added",
+   "title_en": "Microsoft to buy $1.0B of Anthropic stock alongside its IPO",
+   "title_zh": "微软将在 Anthropic IPO 同时认购 10 亿美元股票"
+  },
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "nvidia-anthropic-2026-11-ipo-placement",
+   "kind": "added",
+   "title_en": "Nvidia to buy $10.0B of Anthropic stock alongside its IPO",
+   "title_zh": "英伟达将在 Anthropic IPO 同时认购 100 亿美元股票"
+  },
+  {
+   "date": "2026-11-10T22:48:26Z",
+   "commit": "5ddfd36edf2f5b4ddf179dc91e537c8d79cc01ac",
+   "edge": "tsmc-anthropic-2026-11-ipo-placement",
+   "kind": "added",
+   "title_en": "TSMC to buy $0.5B of Anthropic stock alongside its IPO",
+   "title_zh": "台积电将在 Anthropic IPO 同时认购 5 亿美元股票"
+  },
   {
    "date": "2026-11-10T20:46:53+08:00",
    "commit": "ae26f26c8ef7a803d93dcc99b455b48ba5901bed",

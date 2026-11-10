@@ -1,9 +1,296 @@
 {
- "generated_at": "2026-11-10T21:25:00Z",
+ "generated_at": "2026-11-10T22:48:26Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-10, https://heyneww.github.io/GL-AI-live/",
  "edges": [
+  {
+   "id": "alphabet-anthropic-2026-11-ipo-placement",
+   "kind": "investment",
+   "subkind": "concurrent private placement (Class N common stock)",
+   "subkind_zh": "同步私募配售（N 类普通股）",
+   "from": "alphabet",
+   "to": "anthropic",
+   "amount_usd": 10000000000,
+   "amount_text": "~$10.0B of Class N common stock at the IPO price (135,135,135 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text_zh": "据 Anthropic 修订版 S-1，按 IPO 价格认购约 100 亿美元的 N 类普通股（按 70 至 78 美元区间中值 74 美元计为 135,135,135 股），属七家供应商合计 260 亿美元私募配售的一部分，于 IPO 完成后立即交割，以 IPO 完成为前提",
+   "announced": "2026-11-10",
+   "term": "Closes immediately after the IPO, subject to its completion and other conditions",
+   "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Google to buy $10.0B of Anthropic stock alongside its IPO",
+   "title_zh": "谷歌将在 Anthropic IPO 同时认购 100 亿美元股票",
+   "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Google will buy about $10.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
+   "summary_zh": "Anthropic 2026 年 11 月 10 日的修订版 S-1 显示，谷歌将以 IPO 价格认购约 100 亿美元的无投票权 N 类普通股，该私募配售于 IPO 完成后立即交割。七家认购方（谷歌、英伟达、AMD、博通、美光、微软和台积电）均为 Anthropic 的供应商，合计承诺 260 亿美元；若 IPO 未能完成，配售随之取消。",
+   "distinct_from": [
+    "nvidia-anthropic-2026-11-ipo-placement",
+    "amd-anthropic-2026-11-ipo-placement",
+    "broadcom-anthropic-2026-11-ipo-placement",
+    "micron-anthropic-2026-11-ipo-placement",
+    "microsoft-anthropic-2026-11-ipo-placement",
+    "tsmc-anthropic-2026-11-ipo-placement"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Concurrent Private Placement)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 10000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "amd-anthropic-2026-11-ipo-placement",
+   "kind": "investment",
+   "subkind": "concurrent private placement (Class N common stock)",
+   "subkind_zh": "同步私募配售（N 类普通股）",
+   "from": "amd",
+   "to": "anthropic",
+   "amount_usd": 2500000000,
+   "amount_text": "~$2.5B of Class N common stock at the IPO price (33,783,783 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text_zh": "据 Anthropic 修订版 S-1，按 IPO 价格认购约 25 亿美元的 N 类普通股（按 70 至 78 美元区间中值 74 美元计为 33,783,783 股），属七家供应商合计 260 亿美元私募配售的一部分，于 IPO 完成后立即交割，以 IPO 完成为前提",
+   "announced": "2026-11-10",
+   "term": "Closes immediately after the IPO, subject to its completion and other conditions",
+   "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AMD to buy $2.5B of Anthropic stock alongside its IPO",
+   "title_zh": "AMD 将在 Anthropic IPO 同时认购 25 亿美元股票",
+   "summary_en": "Anthropic's amended S-1 of 10 November 2026 says AMD will buy about $2.5B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
+   "summary_zh": "Anthropic 2026 年 11 月 10 日的修订版 S-1 显示，AMD 将以 IPO 价格认购约 25 亿美元的无投票权 N 类普通股，该私募配售于 IPO 完成后立即交割。七家认购方（谷歌、英伟达、AMD、博通、美光、微软和台积电）均为 Anthropic 的供应商，合计承诺 260 亿美元；若 IPO 未能完成，配售随之取消。",
+   "distinct_from": [
+    "alphabet-anthropic-2026-11-ipo-placement",
+    "nvidia-anthropic-2026-11-ipo-placement",
+    "broadcom-anthropic-2026-11-ipo-placement",
+    "micron-anthropic-2026-11-ipo-placement",
+    "microsoft-anthropic-2026-11-ipo-placement",
+    "tsmc-anthropic-2026-11-ipo-placement"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Concurrent Private Placement)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 2500000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "broadcom-anthropic-2026-11-ipo-placement",
+   "kind": "investment",
+   "subkind": "concurrent private placement (Class N common stock)",
+   "subkind_zh": "同步私募配售（N 类普通股）",
+   "from": "broadcom",
+   "to": "anthropic",
+   "amount_usd": 1000000000,
+   "amount_text": "~$1.0B of Class N common stock at the IPO price (13,513,513 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text_zh": "据 Anthropic 修订版 S-1，按 IPO 价格认购约 10 亿美元的 N 类普通股（按 70 至 78 美元区间中值 74 美元计为 13,513,513 股），属七家供应商合计 260 亿美元私募配售的一部分，于 IPO 完成后立即交割，以 IPO 完成为前提",
+   "announced": "2026-11-10",
+   "term": "Closes immediately after the IPO, subject to its completion and other conditions",
+   "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Broadcom to buy $1.0B of Anthropic stock alongside its IPO",
+   "title_zh": "博通将在 Anthropic IPO 同时认购 10 亿美元股票",
+   "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Broadcom will buy about $1.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
+   "summary_zh": "Anthropic 2026 年 11 月 10 日的修订版 S-1 显示，博通将以 IPO 价格认购约 10 亿美元的无投票权 N 类普通股，该私募配售于 IPO 完成后立即交割。七家认购方（谷歌、英伟达、AMD、博通、美光、微软和台积电）均为 Anthropic 的供应商，合计承诺 260 亿美元；若 IPO 未能完成，配售随之取消。",
+   "distinct_from": [
+    "alphabet-anthropic-2026-11-ipo-placement",
+    "nvidia-anthropic-2026-11-ipo-placement",
+    "amd-anthropic-2026-11-ipo-placement",
+    "micron-anthropic-2026-11-ipo-placement",
+    "microsoft-anthropic-2026-11-ipo-placement",
+    "tsmc-anthropic-2026-11-ipo-placement"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Concurrent Private Placement)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 1000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "micron-anthropic-2026-11-ipo-placement",
+   "kind": "investment",
+   "subkind": "concurrent private placement (Class N common stock)",
+   "subkind_zh": "同步私募配售（N 类普通股）",
+   "from": "micron",
+   "to": "anthropic",
+   "amount_usd": 1000000000,
+   "amount_text": "~$1.0B of Class N common stock at the IPO price (13,513,513 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text_zh": "据 Anthropic 修订版 S-1，按 IPO 价格认购约 10 亿美元的 N 类普通股（按 70 至 78 美元区间中值 74 美元计为 13,513,513 股），属七家供应商合计 260 亿美元私募配售的一部分，于 IPO 完成后立即交割，以 IPO 完成为前提",
+   "announced": "2026-11-10",
+   "term": "Closes immediately after the IPO, subject to its completion and other conditions",
+   "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Micron to buy $1.0B of Anthropic stock alongside its IPO",
+   "title_zh": "美光将在 Anthropic IPO 同时认购 10 亿美元股票",
+   "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Micron will buy about $1.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
+   "summary_zh": "Anthropic 2026 年 11 月 10 日的修订版 S-1 显示，美光将以 IPO 价格认购约 10 亿美元的无投票权 N 类普通股，该私募配售于 IPO 完成后立即交割。七家认购方（谷歌、英伟达、AMD、博通、美光、微软和台积电）均为 Anthropic 的供应商，合计承诺 260 亿美元；若 IPO 未能完成，配售随之取消。",
+   "distinct_from": [
+    "alphabet-anthropic-2026-11-ipo-placement",
+    "nvidia-anthropic-2026-11-ipo-placement",
+    "amd-anthropic-2026-11-ipo-placement",
+    "broadcom-anthropic-2026-11-ipo-placement",
+    "microsoft-anthropic-2026-11-ipo-placement",
+    "tsmc-anthropic-2026-11-ipo-placement"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Concurrent Private Placement)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 1000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "microsoft-anthropic-2026-11-ipo-placement",
+   "kind": "investment",
+   "subkind": "concurrent private placement (Class N common stock)",
+   "subkind_zh": "同步私募配售（N 类普通股）",
+   "from": "microsoft",
+   "to": "anthropic",
+   "amount_usd": 1000000000,
+   "amount_text": "~$1.0B of Class N common stock at the IPO price (13,513,513 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text_zh": "据 Anthropic 修订版 S-1，按 IPO 价格认购约 10 亿美元的 N 类普通股（按 70 至 78 美元区间中值 74 美元计为 13,513,513 股），属七家供应商合计 260 亿美元私募配售的一部分，于 IPO 完成后立即交割，以 IPO 完成为前提",
+   "announced": "2026-11-10",
+   "term": "Closes immediately after the IPO, subject to its completion and other conditions",
+   "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Microsoft to buy $1.0B of Anthropic stock alongside its IPO",
+   "title_zh": "微软将在 Anthropic IPO 同时认购 10 亿美元股票",
+   "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Microsoft will buy about $1.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
+   "summary_zh": "Anthropic 2026 年 11 月 10 日的修订版 S-1 显示，微软将以 IPO 价格认购约 10 亿美元的无投票权 N 类普通股，该私募配售于 IPO 完成后立即交割。七家认购方（谷歌、英伟达、AMD、博通、美光、微软和台积电）均为 Anthropic 的供应商，合计承诺 260 亿美元；若 IPO 未能完成，配售随之取消。",
+   "distinct_from": [
+    "alphabet-anthropic-2026-11-ipo-placement",
+    "nvidia-anthropic-2026-11-ipo-placement",
+    "amd-anthropic-2026-11-ipo-placement",
+    "broadcom-anthropic-2026-11-ipo-placement",
+    "micron-anthropic-2026-11-ipo-placement",
+    "tsmc-anthropic-2026-11-ipo-placement"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Concurrent Private Placement)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 1000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "nvidia-anthropic-2026-11-ipo-placement",
+   "kind": "investment",
+   "subkind": "concurrent private placement (Class N common stock)",
+   "subkind_zh": "同步私募配售（N 类普通股）",
+   "from": "nvidia",
+   "to": "anthropic",
+   "amount_usd": 10000000000,
+   "amount_text": "~$10.0B of Class N common stock at the IPO price (135,135,135 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text_zh": "据 Anthropic 修订版 S-1，按 IPO 价格认购约 100 亿美元的 N 类普通股（按 70 至 78 美元区间中值 74 美元计为 135,135,135 股），属七家供应商合计 260 亿美元私募配售的一部分，于 IPO 完成后立即交割，以 IPO 完成为前提",
+   "announced": "2026-11-10",
+   "term": "Closes immediately after the IPO, subject to its completion and other conditions",
+   "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Nvidia to buy $10.0B of Anthropic stock alongside its IPO",
+   "title_zh": "英伟达将在 Anthropic IPO 同时认购 100 亿美元股票",
+   "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Nvidia will buy about $10.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
+   "summary_zh": "Anthropic 2026 年 11 月 10 日的修订版 S-1 显示，英伟达将以 IPO 价格认购约 100 亿美元的无投票权 N 类普通股，该私募配售于 IPO 完成后立即交割。七家认购方（谷歌、英伟达、AMD、博通、美光、微软和台积电）均为 Anthropic 的供应商，合计承诺 260 亿美元；若 IPO 未能完成，配售随之取消。",
+   "distinct_from": [
+    "alphabet-anthropic-2026-11-ipo-placement",
+    "amd-anthropic-2026-11-ipo-placement",
+    "broadcom-anthropic-2026-11-ipo-placement",
+    "micron-anthropic-2026-11-ipo-placement",
+    "microsoft-anthropic-2026-11-ipo-placement",
+    "tsmc-anthropic-2026-11-ipo-placement"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Concurrent Private Placement)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 10000000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "tsmc-anthropic-2026-11-ipo-placement",
+   "kind": "investment",
+   "subkind": "concurrent private placement (Class N common stock)",
+   "subkind_zh": "同步私募配售（N 类普通股）",
+   "from": "tsmc",
+   "to": "anthropic",
+   "amount_usd": 500000000,
+   "amount_text": "~$0.5B of Class N common stock at the IPO price (6,756,756 shares at the $74 midpoint of the $70–78 range) through TSMC Partners, part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A; TSMC's board approved up to $500M on 10 Nov 2026",
+   "amount_text_zh": "据 Anthropic 修订版 S-1，通过 TSMC Partners 按 IPO 价格认购约 5 亿美元的 N 类普通股（按 70 至 78 美元区间中值 74 美元计为 6,756,756 股），属七家供应商合计 260 亿美元私募配售的一部分，于 IPO 完成后立即交割，以 IPO 完成为前提；台积电董事会于 2026 年 11 月 10 日批准最多 5 亿美元",
+   "announced": "2026-11-10",
+   "term": "Closes immediately after the IPO, subject to its completion and other conditions",
+   "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "TSMC to buy $0.5B of Anthropic stock alongside its IPO",
+   "title_zh": "台积电将在 Anthropic IPO 同时认购 5 亿美元股票",
+   "summary_en": "Anthropic's amended S-1 of 10 November 2026 says TSMC, through TSMC Partners, will buy about $0.5B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO; TSMC's board approved the investment the same day. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
+   "summary_zh": "Anthropic 2026 年 11 月 10 日的修订版 S-1 显示，台积电将通过 TSMC Partners 以 IPO 价格认购约 5 亿美元的无投票权 N 类普通股，该私募配售于 IPO 完成后立即交割；台积电董事会同日批准该项投资。七家认购方（谷歌、英伟达、AMD、博通、美光、微软和台积电）均为 Anthropic 的供应商，合计承诺 260 亿美元；若 IPO 未能完成，配售随之取消。",
+   "distinct_from": [
+    "alphabet-anthropic-2026-11-ipo-placement",
+    "nvidia-anthropic-2026-11-ipo-placement",
+    "amd-anthropic-2026-11-ipo-placement",
+    "broadcom-anthropic-2026-11-ipo-placement",
+    "micron-anthropic-2026-11-ipo-placement",
+    "microsoft-anthropic-2026-11-ipo-placement"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Concurrent Private Placement)",
+     "type": "filing"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
+     "publisher": "TSMC (SEC 6-K)",
+     "date": "2026-11-10",
+     "title": "TSMC board resolutions: investment in Anthropic, PBC at its IPO price not to exceed US$500 million",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 500000000,
+   "contingent_usd": 0
+  },
   {
    "id": "anthropic-onepwr-2026-11-gas-generators",
    "kind": "order",
@@ -2429,15 +2716,17 @@
    "from": "anthropic",
    "to": "lambda",
    "amount_usd": 41300000000,
-   "amount_text": "~$35B, ~350 MW at Hut 8's Nueces County, Texas site (WSJ/Reuters); not confirmed by Anthropic, Lambda or Hut 8",
+   "amount_text": "~$41.3B across three agreements (May, June and August 2026) per Anthropic's S-1/A; the August agreement (~$34.9B, the ~350 MW Hut 8 Texas site first reported by the WSJ/Reuters) is currently terminable by either party because Lambda did not secure the facility lease by the agreed date; neither side had given notice as of 10 Nov 2026",
+   "amount_text_zh": "据 Anthropic 修订版 S-1，三份协议（2026 年 5 月、6 月和 8 月）合计约 413 亿美元；其中 8 月协议（约 349 亿美元，即《华尔街日报》和路透社最早报道的 Hut 8 得州约 350 兆瓦站点）因 Lambda 未能在约定日期前取得设施租约，目前任一方均可终止；截至 2026 年 11 月 10 日双方均未发出终止通知",
    "announced": "2026-09-01",
    "term": "Into 2034",
-   "status": "reported",
+   "last_checked": "2026-11-10",
+   "status": "signed",
    "confidence": "confirmed",
    "title_en": "Anthropic commits ~$41.3B to Lambda cloud compute",
    "title_zh": "Anthropic 向 Lambda 承诺约 413 亿美元云算力",
-   "summary_en": "Anthropic's S-1 shows three 2026 agreements with Nvidia-backed Lambda for Nvidia GPU compute worth about $41.3B over terms into 2034. The largest, signed in August (~$34.9B), is the roughly $35B deal for about 350 MW at a Hut 8 site in Texas first reported by the WSJ and Reuters; either side may end it if Lambda does not secure the facility lease in time.",
-   "summary_zh": "《华尔街日报》和路透社报道，Anthropic 与英伟达支持的 Lambda 签署约 350 亿美元协议，使用 Hut 8 位于得州的约 350 兆瓦容量，据报道由英伟达持有该数据中心租约。相关公司未予置评。",
+   "summary_en": "Anthropic's S-1 shows three 2026 agreements with Nvidia-backed Lambda for Nvidia GPU compute worth about $41.3B over terms into 2034. The largest, signed in August (~$34.9B), is the roughly $35B deal for about 350 MW at a Hut 8 site in Texas first reported by the WSJ and Reuters; either side may end it if Lambda does not secure the facility lease in time. Anthropic's amended S-1 of 10 November 2026 says Lambda missed that date, so the August agreement is now terminable by either party, though neither has given notice and Anthropic does not intend to terminate.",
+   "summary_zh": "Anthropic 的 S-1 显示，其于 2026 年与英伟达支持的 Lambda 签署三份英伟达 GPU 算力协议，合计约 413 亿美元，期限至 2034 年。其中最大的一份于 8 月签署（约 349 亿美元），即《华尔街日报》和路透社最早报道的 Hut 8 得州站点约 350 兆瓦协议；若 Lambda 未能按时取得设施租约，任一方可终止。2026 年 11 月 10 日的修订版 S-1 显示 Lambda 未能按期取得租约，该协议目前任一方均可终止，但双方均未发出通知，Anthropic 亦无意终止。",
    "sources": [
     {
      "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-35bn-cloud-agreement-with-lambda-report/",
@@ -2456,6 +2745,13 @@
      "publisher": "Anthropic (SEC S-1)",
      "date": "2026-10-26",
      "title": "Anthropic, PBC - Form S-1"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Lambda Agreements; August agreement terminable)",
+     "type": "filing"
     }
    ],
    "origin": "curated",
@@ -9839,16 +10135,18 @@
    "subkind": "cloud compute commitment",
    "from": "anthropic",
    "to": "microsoft",
-   "amount_usd": 44900000000,
-   "amount_text": "At least $44.9B of Azure spend from November 2026 to May 2033, non-cancelable except for an uncured Microsoft breach or undelivered capacity, per Anthropic's S-1 (26 Oct 2026, amended agreement); announced as $30B of Azure compute plus additional capacity up to 1 GW in Nov 2025",
+   "amount_usd": 47200000000,
+   "amount_text": "At least $47.2B and up to $49.2B of Azure spend from November 2026 to June 2033, regardless of usage, per Anthropic's S-1/A of 10 Nov 2026 (agreement amended between February and November 2026; the 26 Oct S-1 gave at least $44.9B to May 2033); announced as $30B of Azure compute plus additional capacity up to 1 GW in Nov 2025",
+   "amount_text_zh": "据 Anthropic 2026 年 11 月 10 日修订版 S-1，2026 年 11 月至 2033 年 6 月间至少 472 亿美元、最多 492 亿美元的 Azure 支出，无论实际用量如何均须支付（协议于 2026 年 2 月至 11 月间修订；10 月 26 日的 S-1 为至少 449 亿美元，至 2033 年 5 月）；2025 年 11 月宣布时为 300 亿美元 Azure 算力及最多 1 吉瓦额外容量",
    "announced": "2025-11-18",
-   "term": "Nov 2026 to May 2033",
+   "last_checked": "2026-11-10",
+   "term": "Nov 2026 to June 2033",
    "status": "signed",
    "confidence": "confirmed",
-   "title_en": "Anthropic commits $44.9B to Microsoft Azure ($30B announced)",
-   "title_zh": "Anthropic 承诺采购 449 亿美元微软 Azure 算力（公告时为 300 亿美元）",
-   "summary_en": "Anthropic committed in November 2025 to buy $30B of Azure compute and to contract additional capacity up to 1 GW (Nvidia Grace Blackwell / Vera Rubin), as Microsoft and Nvidia agreed to invest in it. Its October 2026 S-1 shows the agreement was amended to a minimum of $44.9B of Azure spending between November 2026 and May 2033, owed regardless of usage.",
-   "summary_zh": "Anthropic 于 2025 年 11 月承诺采购 300 亿美元 Azure 算力，并另签最多 1 吉瓦的额外算力（英伟达 Grace Blackwell / Vera Rubin 系统）；同时微软和英伟达同意向其投资。其 2026 年 10 月的 S-1 显示协议已修订为 2026 年 11 月至 2033 年 5 月间最低 449 亿美元的 Azure 支出，无论实际用量如何均须支付。",
+   "title_en": "Anthropic commits $47.2B to Microsoft Azure ($30B announced)",
+   "title_zh": "Anthropic 承诺采购 472 亿美元微软 Azure 算力（公告时为 300 亿美元）",
+   "summary_en": "Anthropic committed in November 2025 to buy $30B of Azure compute and to contract additional capacity up to 1 GW (Nvidia Grace Blackwell / Vera Rubin), as Microsoft and Nvidia agreed to invest in it. Its October 2026 S-1 showed the agreement amended to a minimum of $44.9B; the amended S-1 of 10 November 2026 raises it to at least $47.2B (up to $49.2B) of Azure spending between November 2026 and June 2033, owed regardless of usage.",
+   "summary_zh": "Anthropic 于 2025 年 11 月承诺采购 300 亿美元 Azure 算力，并另签最多 1 吉瓦的额外算力（英伟达 Grace Blackwell / Vera Rubin 系统）；同时微软和英伟达同意向其投资。其 2026 年 10 月的 S-1 显示协议已修订为最低 449 亿美元；2026 年 11 月 10 日的修订版 S-1 将其提高至 2026 年 11 月至 2033 年 6 月间至少 472 亿美元（最多 492 亿美元）的 Azure 支出，无论实际用量如何均须支付。",
    "sources": [
     {
      "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm",
@@ -9881,10 +10179,17 @@
      "publisher": "Anthropic (SEC S-1)",
      "date": "2026-10-26",
      "title": "Anthropic, PBC - Form S-1"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+     "publisher": "Anthropic (SEC S-1/A)",
+     "date": "2026-11-10",
+     "title": "Anthropic, PBC - Form S-1/A (Microsoft agreement: at least $47.2B to June 2033)",
+     "type": "filing"
     }
    ],
    "origin": "curated",
-   "counted_usd": 44900000000,
+   "counted_usd": 47200000000,
    "contingent_usd": 0
   },
   {
