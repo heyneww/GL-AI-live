@@ -1,41 +1,41 @@
 {
- "generated_at": "2026-11-10T15:12:30Z",
+ "generated_at": "2026-11-10T20:27:08Z",
  "monitor": {
-  "last_run": "2026-11-10T15:12:02Z",
+  "last_run": "2026-11-10T20:26:41Z",
   "sec_items": 228,
-  "news_items": 3181,
+  "news_items": 3297,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-10T15:12:02Z",
+    "last_run": "2026-11-10T20:26:41Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
     "matched": 191,
-    "added": 3,
+    "added": 0,
     "total": 228,
     "fulltext_hits": 4,
     "fulltext_errors": [],
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-10T15:12:02Z",
+    "last_run": "2026-11-10T20:26:41Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 496,
-    "added": 181,
-    "evicted": 196,
-    "unread": 181,
+    "items": 476,
+    "added": 116,
+    "evicted": 0,
+    "unread": 297,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3181,
+    "total": 3297,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-10T15:12:02Z",
+    "last_run": "2026-11-10T20:26:41Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -24932,948 +24932,972 @@
  ],
  "news": [
   {
-   "id": "n4f4ec645dd13a424",
-   "title": "Anthropic Aims for $1.4 Trillion IPO Valuation",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVllTbU5yai1nVV9VRGFkU2M1MDI2WFhnRWJ4eUJKSzJqYWdlVnNSVzBGS1JXNUR0QWRlNHR5SWcwSjlTbGdUZ21aOHliNFMzZDFlVWVXUHA2dmxCUmZtR005RHhVQmp4OGhOVG12NzFaODVNdXpSSElXTGtuVWRuMmNXa3MzeFZ6NkstdHkwdUtoLUhnTEl3ZlZCbGVrTkZ2ZDZRbUFR?oc=5",
-   "publisher_url": null,
-   "publisher": "PYMNTS.com",
-   "published": "2026-11-10T15:07:06Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nf3700eb75ef78035",
-   "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGhNalRVVHVqYVlZUDU1NnNxcEFQYVJybGZjS3NDUDRPSHJ4SEJnMXZQNDV5X1Z2d2xRVk5HMjZaUkM0ZG9oQXVhd1pVZU9wMjZOLUlIQTdHelAtVHFlZ0o5UHRvT0ZQUTN3dW5FeUk1MWVIZmtJRDBweHV2c3pjQUJuMGEweklCOEdkbk5rVlZ2RUltSnk0TXVlRk55SmZJQm81RzEyR25oRDJFeDlkdjhYN3ZlRE8tR3FvZ0ZwczNaTl9VSGc?oc=5",
-   "publisher_url": null,
-   "publisher": "CNBC",
-   "published": "2026-11-10T15:06:37Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nfa84a7f5eae3a2e1",
-   "title": "Oracle Lost a $7 Billion Tencent Deal and a Microsoft Contract in 3 Days: Sell, or Load Up?",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUjNzUlFucVlmRzdZTG1FZGN5Y2k2N2dRenhmNjZRekQtQVFQZ3RmaWpMQlBPUDRyUF9SYnJYZVY0cHhXaFZqTTBTVUpiV0QxenJzSVQ1NW5QMzM4OUdjUGR6Y25sRUN2YXhpWFZzZ3JpSGNrNXNQRVlWXzUtd2cwMWp3OGRJc2tRVy14T1hUeVNGTWpXMFVRVkJqMHJacTJJaXJmeDV6UzRYQzVUSDdEeDNHMTY?oc=5",
-   "publisher_url": null,
-   "publisher": "TIKR.com",
-   "published": "2026-11-10T15:05:07Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:2d",
-   "entities": [
-    "microsoft",
-    "oracle",
-    "tencent"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n3c76cc7d112801b8",
-   "title": "Anthropic embraces ‘Super Intelligence’ in updated IPO filing (ANT:Pending)",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOemxYNEhSV1dQWGhaV3hocXZQUmNmYXpZeTN4VzhLX1hnNU13OVBCNm5lYWNGM0ZYUk5ZZ3ZOOW1mTnZJOVV3MFFUVjhQbl83NnpkYnpDY1pqbFdUbzQ0UzZDV0d3RDU1R1djazFKdHAzdXk4STZhWmtHcVVMYUlDZkR3ekw5Qy11elVoX25mMjZaUEhxYVU0ekNlUkg5QQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Seeking Alpha",
-   "published": "2026-11-10T15:02:00Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nd1523a73e1895267",
-   "title": "Goldman Analysts See Anthropic Revenue at $685 Billion By 2030",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN1RKamhydkhuY0JnSlJrcl9LcjVzdUtTdURJRzNZX0x1ejFlbWZJMmVaRUJzRk1aUVBJbnp5dlhiUE1KaXR1UWdpNTdIb2JTLXlZenJJOVlWNjR6UWczRVRSbGxmQm5SRjFmSVpOY3ZKZFpKM1FtVmNrblZSM2ZEc3VxNDd0U2VMMl9FM2tJUFJPcEMxVEFzS2hETUNBc25PcTViQzNpZnd1M0I3d2tNV1Fn?oc=5",
-   "publisher_url": null,
-   "publisher": "Bloomberg.com",
-   "published": "2026-11-10T15:01:24Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic",
-    "goldman-sachs"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "naa2fe3e235b4596d",
-   "title": "Fannie Mae Announces Winner of Twenty-Ninth Community Impact Pool of Non-Performing Loans",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUzlsRXp3dGZZbjlZQmVXNHo0WkExUmQtZnF0cGxDQkVTMzFHd1k3aEJjYjNLSDBqZmV2YjBTckdSaERkSWRmQm9WSjNDeFltT0tZeEdjc0ZaSzl0UGdBSWN4bE1UUl9UcWRSNUNSTjJubGlLVVZ4cm9LT056OGZKMDBmMGFlSWpKUXNEUkc0akE2XzBxYXBMdnhUZVZSTkNJd3l6ZFRnSlBDX19tT3dDdVc4NzlUUTdDM3FtUTFhTmUyeUVMMEV3NjlZcDhQSy12d3VGTE1pOWp6ZnZaYUE?oc=5",
+   "id": "n5c774b2a4304bb5d",
+   "title": "iCareManager Announces Growth Investment From Five Elms Capital",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYm5XSmpjMTEwRE5hNHQxamZBQ2Q0d2YtdTRGNFktRWd0OGVEZ1kxbmo0WHMwM2EyRnRjeHFMeVdudnZxSG1mcGw5NVlDQjY0cHF2dkpSMFA5Y25IQ2t1TTFLTnMxR2FhelAxT2dWYkg0UlQzWjZNbkR1NGItYUZfc2FfVHQyakJtd1ZuRUlmR2JxdjZxR0JzZlhfVjd3aUUwdUdWRU9xY0lrYWtyWmtnMDVIVWJadnB4bEZN?oc=5",
    "publisher_url": null,
    "publisher": "PR Newswire",
-   "published": "2026-11-10T15:00:00Z",
+   "published": "2026-11-10T20:05:00Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
    "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n3c18da9ac9a9e432",
-   "title": "Anthropic IPO: Claude Developer Chases $1.4T Valuation, What to Know",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmE0b0M1U2tYVmtNd2RBd1RnM1ZXZzdvWFlwS2twYXFWWE54cjBRUlZlN1hOSEhqSU5GQUluZkVwdXphdkszOXZQUjZvN1JoMXVjOXIzVG1JR001SHhOamxqZUZ5d1JUU28tR0RJVTZvdi1INzhzaGRVT3prSWItTm1TWHU?oc=5",
+   "id": "ne44195d41e1bf062",
+   "title": "Anthropic’s IPO Price Isn’t So Outlandish. Here’s the Case for the Stock.",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1USjhqd0lCMDVDNGJneXpZbzBrVVE1WW80X28yNDVCYzg5dzhBazVsUEc4Z0UyUHRQWVVSZ2JYeGU5dHA4ZUUxZGI2M2pBNGRjVGZ6V1Z2QldrckFBdmMwT0JBc0lObTBWVUpzV0F0WFZidTBwV0hSc3dfWQ?oc=5",
    "publisher_url": null,
    "publisher": "Barron's",
-   "published": "2026-11-10T14:55:00Z",
+   "published": "2026-11-10T20:02:00Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n4d8c7aa44d782db9",
-   "title": "Could the Government Seize Anthropic at a Discount?",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTkFYRWxFR0xteFBtS1lKRTRTV3dGamV6TFFUYm40aUxYZVhkVGxCTlA2SVktcktaNUhMa1doMDlldEJkS0hQbVlpNWZFTldkUDBPNkwteUZHQ0M4bjBiSnhSZlh4X1BucWFiT0RuSDlYeklqQWU4dDNpME5TUkpxVjNUdmpJQQ?oc=5",
+   "id": "n23324bef386c53fd",
+   "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMjJoMFk5cWxCTmNuUDFDbkFYSUxFUzk3ZFYwYmk5WGhhcGNOdlBRbUxidU9QZVJ4bEpQajFIWlE1Ym1adXk1LTM1dW9yUE5xX0ZEREZPQXlYVDhhWUFGd1Vqa3IwZU9hVExxNG1NU0dUcnlnLVFRWDEtaHowaXEtMjVIemxfY3ljUHNQS1YzNDhQejdCelFzWnM1bkc?oc=5",
    "publisher_url": null,
-   "publisher": "Tech Policy Press",
-   "published": "2026-11-10T14:53:01Z",
+   "publisher": "TechCrunch",
+   "published": "2026-11-10T19:57:52Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n4e789c864cca0970",
-   "title": "阿里巴巴重大宣布：拟分拆平头哥赴港独立上市",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE41X0Jkb0UzanM2bGpyODE1RktYTTRORGRtSmRZb1doekt2aEdYTjl0VkVwbEoyNjZ4N2NkZHlQNDE2VTgyT0hRTFFzc3ROMUEzMVZUNDdPOTMtWFRPX1dBcmg2SUpJdU5hOVlDYTIxaW5FQQ?oc=5",
-   "publisher_url": null,
-   "publisher": "新浪财经_金融信息服务商",
-   "published": "2026-11-10T14:52:56Z",
-   "date": "2026-11-10",
-   "lang": "zh-CN",
-   "query": "(阿里巴巴 OR 腾讯 OR 字节跳动 OR 百度) (配售 OR 发债 OR 贷款 OR 融资 OR 订单) when:2d",
-   "entities": [
-    "alibaba"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ndb9381c8319b119d",
-   "title": "Goldman Sachs expects Anthropic revenue to exceed $600bn by 2030",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0tWeGNDOUh5S1RleHBrVDlUdGNiRjktVDZGbmtRNlBUcXkwbDRfNXBuSXZ4Yk1NNVBOUTZXNDRlc09LdDI0VlpKMlFRMUVCaVh6VndVSWlwT2NkNElsc1JxUDVZUWFYZ2pWY3NFTFNKQm9fZnk1YkNTZWV6dnFVc2s0T2o?oc=5",
-   "publisher_url": null,
-   "publisher": "Financial Times",
-   "published": "2026-11-10T14:52:07Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic",
-    "goldman-sachs"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n907d44d43f731ab4",
-   "title": "Anthropic IPO date: Nasdaq listing expected in November at $1 tn valuation",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VN1RDUnVDZGtIZVJ2OFpHMUlxaTVoUHBvX1c0bHBaOVh4T0Z3YlFEa2p1djVGR0g4eWsyUEtkRGJ0LVVWcGRrT0UzU1N3T0hBWFlRSmNmTHVzRkxkRmFjV1hweFVTVWdmR2l5RA?oc=5",
-   "publisher_url": null,
-   "publisher": "Beinsure",
-   "published": "2026-11-10T14:46:45Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n2730adb471d5c5c5",
-   "title": "Southfield Capital Announces the Sale of TFS",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY0hNVU5ENk45YUVaR2dxUUVMdXdyYVNucmxSTXpxcklnQWg1Qkc2bUo4WllheFhENjZOelJvME9JMUd3VlFOWENPNmRDV0ozWGhPX3hCTUplNi1mMU1QRFJWRmJqNklhTzdEYUZHWnl5TXp6SnFlT3l6VjZROFV2VkpfWHozT0NBU0R3UjFOOVRzNlczeGloMm91dndmSFB6MFE?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-10T14:45:00Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n6ac800e3d6b5fc51",
-   "title": "TalentLMS Announces the Winners of its 2026 Training Excellence Awards",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNmVDWU5pTFlXTGZyanAwbXI3dW83UVJDc3pTc09LUEZBZUFFNVE5Y2ZXMGFEMW5JdTBPZFVOc3M3b2s0dzhBdloxN3NydVkzNEZoVWZmTVdodEJ4d3UtNGhnQ2pzbDBleWZWREhmY1RsV21aa3ZPUTF1d1Jad1R4TExnQTBPMVVkbElFYzlwYmpPN3g0TENyVXpYMnNrSVVGQm5nc09RbVF4VWFncER5V3RHVnc2YXoyN1E4UTQtb0taaVVZ?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-10T14:40:00Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n150cde540a57e6bd",
-   "title": "Anthropic IPO: $81 billion revenue run rate looks impressive, but can a $900 billion computing bill justif",
-   "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQeG9HMnBlclZxYnNERTU0dHA5TWplSW84dTR4TG5Ldm1UaC1PRGFFOFNqYmhGTXVFY3FZa1pnSW1jaUJ0Y3hKajFwUENMUHo2ZDZZbk9wTjlHQXZhNkNLQ2plV3lmTW5aak5iWEF6UFQybnAtaFo0aEIyYm16cFRPR19EU194MU02RmlDbEpnWHVfODdPaWxQQURxYml6VGtpWDUtZzVwaFR5dy0wVXJTTlJSTk5MXzJNZVAxcUpGaWp1STI4Y1Z5OGZielB0Z09LZmRKeEpiUFVRY2hkMlBqZWtRM2UzV0F3cUFxY1FqUFlraVBmUzNvMHBkUWNKUjg5Y0lXWUlZUGtjSG84QmNWVDRDT3oxUTZGLWltR1ZmZ1VOTU5RcXJNQm1FYktjZGxwVlB3eFFFTGZpZWtBTi1zMXpvU0txbGs1TnfSAc8CQVVfeXFMTlFFYzUxZGRYUXN5WnFpQlEtX0hjRU9hWmRvNVBFd19OZ0FfVERKQnhkSnlfNEdBaDdnZElzMzlRYkN1SnNXSEFyQ2tMMGJ2dVB6bDlfbHZyWXBEanJEaEk1RGFjS2k1V2tiSXByQ0c1Z1VuUm1KTEwwY0VEcDl4djkyREhXbkM5OFJVc21hTDRTeHZ2b0hmYjBVbmYxeEhNYUNRMUhCeUlOQ0phVkk3Q3hacUNEMURsM0MtQnBQZEo5S3d0RjFTQ2tmdGtBNG4tWWFOOERkYk5qdXdkU2pyejcyY3hGZHNNOV9JNGxKelVjYmxPV2dBcTFuYVh4WnhSQ3ktbnlaSlp2ZE83dVg1TTY5WFpXcFd4NE15aTlpY2JSSUJzUjJKeDlibENzYTdhZmVkMEhtakRkdEotQkl5U014d0ZoejgtXzFHTEc3SnM?oc=5",
-   "publisher_url": null,
-   "publisher": "The Economic Times",
-   "published": "2026-11-10T14:39:58Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n0a8e244a6665803b",
-   "title": "Can you buy Anthropic stock at the IPO price? Only through listed brokers, and shares aren't guaranteed",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemxJM2d5M2RRY2Fhc0VSVms1ajVSWjhUZlFNWXV5aUhxOW1lRnBmY0NZd1UzUGl6Z0VFdEkwWUxRb25jOEU1Q0dpMEVyV0RkRFp6VlVIZG8wZkVKTWtaZExhS09zbWdEMzdCMk41OUh5SWdwcl9rVTRicDd0U3NKR2ZXNENON0ZzTUZpdTFWQWVWZ3ZNci1kVXNhdTFWcEJUNkNDQ2ptMFBIempEamtjc2ZUellDTUV4dlFwRkJENA?oc=5",
-   "publisher_url": null,
-   "publisher": "Nacionale",
-   "published": "2026-11-10T14:38:39Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n50bb25acdb69e951",
-   "title": "Watch CNBC’s full discussion of Anthropic's IPO and Nvidia's future on 'Squawk on the Street'",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVURpbVBoSER1eHI0cjNfNUVLQjNrWElBLV81VHktRzdRcEMyVWRnV1d4ZGg4aTBpUzRjXzNlUzVJX0lTLUhmemI4QjFGaWtiVTZQaEtLVkJscFlFREF3TUhObkhxSElQU0ZqQnBMcUxGR2RkZ01TdEZQLUtzM2VKTE9aaThoSXRNU0lHT3g3WmVJZENzWjktWHNJdHkwZUJTTkNhN1NNNFI0LVZZUTluRl93cDBZRGFOc2EzV1h6Nk9VcWZKdmxNV0haN1Y?oc=5",
+   "id": "n2eb91a432659d493",
+   "title": "Traders bet on a pop for Anthropic's historic IPO",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1M4d1VnRm5QRlJjRUREb0tQZXpUYXVDdkQ4RVVFeEotck1JUlZkcFUwYlFDdGtycFhqaHFReENVYy1PcWRDS3ZfVnhmdUo0dUdONXd1Zmc4TVQ3NldrUG5RY3JCN0lKQUVqbjJnTlg5SGhMazVzYmhaeTR3czhqY19XTldxOUpuaTAtMVF3?oc=5",
    "publisher_url": null,
    "publisher": "CNBC",
-   "published": "2026-11-10T14:37:52Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic",
-    "nvidia"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nabc1090c4a1a30c3",
-   "title": "Anthropic Taps UK Lobby Firm Before IPO to Counter AI Backlash",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0VzLWZLNE5ZWEdFa3dRbEpxXzFqVmRvbTNQbmFYRjBnd1NzRzRDU1Q0bzlyblZRbHMwYVVUR0t2SWd0dTY5ZUFkQUxfdUtLemsyeXpQQ2RUcHNnVlpiUWp6VGpRSEQ3WlNPSzFLNUVxeUdGWFJWa2dnQlFEWS02eUdPN3FOOEppSmxUZXBnamhuVTRUNWM5akxXem5SdnRwcTk3UUpMcFEzU3Q4UmdiU2NLZ3ZkSmM0aEE?oc=5",
-   "publisher_url": null,
-   "publisher": "Bloomberg.com",
-   "published": "2026-11-10T14:37:33Z",
+   "published": "2026-11-10T19:51:18Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n1aed29ec56dd2852",
-   "title": "Just say no to Anthropic’s IPO",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00cGRfTDZZaURrQzNYT1JMX001MEJ2UU5qRVhKZmN3SHlrODhtUUhiMEd4Q1dobE5yZThLVzE2MV8wbWVUNjlmOGNKQ0NtMkpHdjB4c3Z3S1QzRTMxTFdZZ1hyRmxKanVVZDVQWWpIN0I?oc=5",
-   "publisher_url": null,
-   "publisher": "Marcus on AI | Substack",
-   "published": "2026-11-10T14:37:21Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nadcc2f61c35d3ec4",
-   "title": "Alibaba chip unit T-Head files for Hong Kong IPO amid China’s AI push",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZUJHVlpyRkNPSWRKNUFKWGdGVVFBdnl3YzluMm9MdDM5UHFvdFFJVUlwanNlaTFscXo4N3Y3S0pzQ0pFb21oV2l4SjB2bzFicEdmY19rZW1FOXFvcXQ4cXl2Q19fbkNPejZhXzdJQ1g2MnY1bDI0V3I1bHUyWHJKT2lCZEl3WHVGdDRPNzlFRzhQX3FTNFlmTGZhSElZa0xuUkN6eDRnNDV1b2FBOVRsSE5ldFo5YlI4NExScTlCZ1lCQ2RJLTBGTDA5THhRcmlsUDFNNVBjWjhZdkU?oc=5",
-   "publisher_url": null,
-   "publisher": "South China Morning Post",
-   "published": "2026-11-10T14:37:20Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(Alibaba OR Tencent OR ByteDance OR Baidu) (bond OR notes OR placement OR \"share sale\" OR loan) billion when:2d",
-   "entities": [
-    "alibaba"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ncdb7a59cd178ddaf",
-   "title": "Anthropic kicks off IPO roadshow: Here's what you need to know",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONXdtaGtITXlIZXFtOTdsbzZMQ28wTUdwd2p3YjVxbkFHZlFaZ3NZYXJfdnVBcEg2Nzh4M3hCSlNNSmxNOTlrX2p0N3Z2OURpTHFpM1FUWHliQnZBU1BjVk16U2Jtb3kwc0dIaFNySzJXM1dwVWg4ZS1zaFA1OFlIdw?oc=5",
-   "publisher_url": null,
-   "publisher": "CNBC",
-   "published": "2026-11-10T14:36:58Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n9331638a0e0f04de",
-   "title": "Anthropic's $1.4 trillion IPO bid sets up high-stakes test for AI market",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VloxT0x1ankyMHpSSmFnd05JR1Z0d3lhbHMzRXg4dU5ETk16Qk9MeU4yTWh1V0ZwMDVvbXZ0NEhQbVVVd1VYMGtCY2szampfSTFiYzM0VG5Zemh6VnZZbU1ReFpYcHh6ZzRfTUJoZmZGVGdRVHYxRA?oc=5",
-   "publisher_url": null,
-   "publisher": "Charlotte Observer",
-   "published": "2026-11-10T14:33:07Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ndeaa6d3af7268b22",
-   "title": "EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street's AI fervor",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUtnS210c1pKNVpEZXJ1V1JpdUdyZ0h5OGh2SzVCXzJaVGRwaDZnb0NQZUxFS0ZFWmxwbU53ZlJtdlBkOWplZHdaNkloU0xwV3hvdlpjNnh0R1FISXdMOExfc09JckJqTWxjSWlZSjZpN0RWR1kyRUF6YUlXN0dqSm5XQU5TUmFmbWpFbGlzT3FZRllaMGU4cld0cDlsaFVYY0IzV2ZNYmwxYW0yd1FDaw?oc=5",
+   "id": "n858ea94f248f2536",
+   "title": "Wall St retreats as hot inflation data, Fed comments fuel rate worries",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
    "publisher_url": null,
    "publisher": "Reuters",
-   "published": "2026-11-10T14:31:28Z",
+   "published": "2026-11-10T19:45:44Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n92649e8bfc9f37ae",
-   "title": "Anthropic stock listing: Target price range hints at valuation lower than rumored reports as IPO date nears",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU3pQUFloamNVbERqb0EwZDI2ck9fdGphdHdNUVo3cV9UTXJMdG5MRzd4VG5HeDkwYmU1Z1cweGp0Zk1mNm1RNDNxeUU4eDZvUmdWVTNmdUV0d2hrVU05SjBmeEpuUzVLSXpMX1VBUjFMdVJlTHZaQWxnSGlaMnFzSUNMbURGeWluSE1RR0hqOHc1T21yWGdYaFZqd0E4VGpuLUNB?oc=5",
-   "publisher_url": null,
-   "publisher": "Fast Company",
-   "published": "2026-11-10T14:30:18Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nd70a69702d06a0c9",
-   "title": "Kentucky Benefits from 19,000 New Kinetic Fiber Builds",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLWRvMGxXejZyT3JYRHBpRjJsV2xEZ2hLdDFJSzI3SDg0cmN3SmNETGZwb2lmckdrQ01hc1UtQ1lRemN0ZmxfQmszNDRsaks3NlJ3cEN4TjNQZ1dIZDZhazAyb25vbHdjd0s4dHRneG5QYUc1aVZ1d0wtYTZ1cjJlUFBXLW5NRzhU?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance Australia",
-   "published": "2026-11-10T14:30:00Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:2d",
    "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n07600702383cb8ae",
-   "title": "Jensen Huang's affair aided at least $7.5 billion in AI chip shipments to China, report says",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oek5KWl9iOGxYWE96Z3puZ2M0NEpnM1dRVEplQV9jczdKSDIycU1ITXlIeUJjYnc5NTN6eWYwNEdaaVRKNVhhbXBleGdoaWEyX0ZVak9DaGVJMXV5TzdqSXM5Rjl6aHhlS2dDT3FCVE9ncHkzN0NVRmln?oc=5",
+   "id": "nb6da2bb5d2f923e3",
+   "title": "Anthropic files for IPO targeting $1T valuation amid AI stock surge",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGcUV3akZzZDhrRFJ1SlYwRVNTeDgxX0RUZ3dIb3VZWlVFMlhSTlBWM1YwVFduRkRrRjNMZ1Nmcms4UWl0VkE1d0Y3bjRTVmhNLVBwMDZ3?oc=5",
    "publisher_url": null,
-   "publisher": "Quartz",
-   "published": "2026-11-10T14:22:14Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n5eb3a77a0f6168f2",
-   "title": "Anthropic eyes $1 trillion US valuation in hotly anticipated IPO that's a key test for AI market",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NaFJMWVZha2g0ckhoZ3ZBSHREekpic1JpTklORkJlNnA3LVpCY1E4Y29ENFZ5WWYyRW5ndDNIWXZEX055Y2hWTU1Yd2ZZWlBOc2xqNnlKVUFfRnc5bW1LenNlZ0trOEE?oc=5",
-   "publisher_url": null,
-   "publisher": "CBC",
-   "published": "2026-11-10T14:20:09Z",
+   "publisher": "Fox News",
+   "published": "2026-11-10T19:38:25Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n3f79d1fc530a987c",
-   "title": "Anthropic Updates S-1 Filing, Plans To Issue Shares At Between $70-$78",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTllqa25Hc085R3RPTGVXYXk1VmxsY2QzWnpGTXlodDlaNU9kVWIxaEFsb3owQUZYZ2tjVUtSaGR3SHdyX2FYV29PclRwMEpvd2NEQVUwR3U2XzFMdktvNVFFT0VqZmplSWI2NkNETXh0T1U3NTlXclJ0aDZYTU1Ed0NzTC1HbkdoaUc4c2tIVXNYcWtGN3ZIY0xBLTdLc25uZWQ0ajRDNjJIVVptWVhYWW5WZXNTcG8?oc=5",
+   "id": "n362cf701b6acf552",
+   "title": "Anthropic's amended S-1 says its $35 billion Lambda compute deal can now be cancelled, and raises its Microsoft commitment",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSzY3THpXN29LRC1TQ3lqRXFIREdCV3A5MDV2NW1lZnY1UVdLXzl4SWhobTd0ai1fd0UxWkYtZ3N0Z3hXQmNVVGZsd0RrWGdtTUNxR3J5SldVZnJmZ0p2TnNUbzBTYjJ6NVpYYk1fVV95VTlpTk9LcGJORVZXcmVUWWhyQlZrTFVwT2JST3JoNEJ1R2JmWEpLOFZfZ2F3MnJxQmI4clRmdl9sVFBYdUx4NExfcEhhWU5qV3hBUjdwNF9BYnVzaG80ejEwNWo4bXVldzFoYWd2VQ?oc=5",
    "publisher_url": null,
-   "publisher": "Crowdfund Insider",
-   "published": "2026-11-10T14:18:59Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n009852f235bfad96",
-   "title": "Newsroom | 8948 results",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WMnVOVk5tVkEyUEttVy0xNEIwbmJjR2RYM1BaeWVTY1lCTXVxbzY4VVRMYlBnM2QxTThObTg4bTVBZzZUbzk2S19SeG5jTHlhcjFUY19TLTNQcC1CVHlVQUNfcW4?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-10T14:18:00Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n5fdf1321de146b46",
-   "title": "AMD vs. Intel: Which Is the Better Artificial Intelligence (AI) Chip Stock to Buy Right Now?",
-   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQRUdHVWtvX1JqY3JIWVZJV2xHUjlxTVh2US16Z0VRRXlTaVNvR1JRZ1BOcWhqTzlMSzdvbW1teFhBX0lxRVFWcGhRWm1ZSTN5U3ZxdGN6QkdFcjVBc3g0Ny0zMEZ5SlVWWE5YOERxWldEem5CNFYySkRSNXZHbW1WSi12ejhMWHhyVlMtNF93bnJ2VzRhNTJRX1pnSEFObG1mRlJqbHB3b0VRLTBVVUFHcUd5NVpjXzB1akdwbXpEZUNhYkk4TTJrd0pYTktvSWlQcnI3ZEZiUkZienR3MHlTZkhuMlpNVFhoZ0tFZ3JzcklpMVMzT2p3NDZBOExmTXV2dkdN?oc=5",
-   "publisher_url": null,
-   "publisher": "The Globe and Mail",
-   "published": "2026-11-10T14:15:30Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
-   "entities": [
-    "amd",
-    "intel"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nafaae1abd68fde88",
-   "title": "Anthropic values itself at nearly $1.3 trillion, according to new IPO filing",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYjJvM0IzbWxfT1AzbEpMTDR4QzNNLVZ6R3JtdV9DR3hwUllTbHNqeC1HUFE5VWF5aW9GRm9iVkFOTjJqRXJMNUdQeUxKXzZxSkVSQVBYN1BGakJxejVVdU9BVFBLa3JkSkIzZmRiODl3bVVXZENzc1dJOUhVR3Byd0hURjlwUTZhWDRHWS1neVcwVHFZSzBYNlNkWlJPaGs?oc=5",
-   "publisher_url": null,
-   "publisher": "ABC7 Bay Area",
-   "published": "2026-11-10T14:13:20Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nddf22b4a4c2598d5",
-   "title": "Anthropic IPO pricing shows healthy discovery, says Plexo's Lo Toney",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUHJCNENMNGJ2ZEl2Uk5iVmNSclEyVEt6Y20tX25ITGpVelNNdGdjb3NZb0VBYUpuWDlXTUNOYmwxU1E4clBoS1VMNXJQM3ktUlBBQkExYlFHYy0zX2hmUTlYRFFpN1lPQkhvOHFkZTl1RmxhVW9FekI1TVYzLURwT1JKdUNzWmg5N0RQeFVIUTAtbkc2QWFCbkszWUVjZTBPaC1ya2JoVGhtWXpQMkE?oc=5",
-   "publisher_url": null,
-   "publisher": "CNBC",
-   "published": "2026-11-10T14:09:12Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nd84581260b6fc950",
-   "title": "Anthropic targets $1.4 trillion IPO",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTDhfVFVTbkZEOU8wSlRzOGdibGxKbEp5bGMza3ozc1RHLU5UeW5ldFJpMDdyQktsbGJxa29HTkw1SS10RnB3Q3hfdmViMlJfTUV5UEVnMEU0ejRsTURONkNGakpsRkVuQzc3SS1JWXlxaVpnQUJhTGF4LTlQVENNOEIzemVDM2h2Q2ZYU0lDQQ?oc=5",
-   "publisher_url": null,
-   "publisher": "The Verge",
-   "published": "2026-11-10T14:06:54Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "ne4a8e1b3bf29c1d3",
-   "title": "Anthropic Targets $1.4 Trillion Valuation in Blockbuster IPO",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTgtOV9zN3Ywb2UycWxaSlNwOGltSV91cjMtRWdlNnJibWhnTVgtQkZkd0ZYU0NweVB5MEhaMkd6ZVNpUXlra3JiQ2ltcU4xUUUta0pPV2dqb19uWWpLZWVkanNqTnlsVEo2YmdFeGw2M2dNcGtGVHdGb1hBMTN4MFRteXhkbUctZWIxSURUQjcxczZxbmdtbGQ0d3ZLWWJCcjFQQVpwb1pjNHNzWlE?oc=5",
-   "publisher_url": null,
-   "publisher": "Bloomberg.com",
-   "published": "2026-11-10T14:06:52Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nd5b5545a8ff02fd7",
-   "title": "阿里巴巴旗下平头哥申请赴港上市 拟分拆晶片业务",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKTjhKRVY4WFNuVnEyamVqT0dfWTN6bi0wZjl0VHlmbUI3X29FZnE1NWFaQTllMWlhTmxoczB4QmhZU2RHeXFRTVB2LUVVWG5CQWdDYUpOeGQwSUZpUGN0NnJMdllIRUNIYnc?oc=5",
-   "publisher_url": null,
-   "publisher": "联合早报",
-   "published": "2026-11-10T14:06:31Z",
-   "date": "2026-11-10",
-   "lang": "zh-CN",
-   "query": "(阿里巴巴 OR 腾讯 OR 字节跳动 OR 百度) (配售 OR 发债 OR 贷款 OR 融资 OR 订单) when:2d",
-   "entities": [
-    "alibaba"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n9695fb648fec609d",
-   "title": "Anthropic Sets IPO Price Range at $70 to $78, Valuing Company at Up to $1.4 Trillion",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPazlCUWZlSWdNODhxbW9CM2k4aFhUbmdMZVN1T1JERW52RkNoRWRfMm1zNzZleFJDM0VzYVBKNWNVUGd5d1dnM3RtWldMZmdzR1lOWktxUi1lOG9XbzQ3c0ZMQnpjNkVrZl9vSW1zRGRLd1pFNUdTdVlIY3dWUlBWTHZmV1dxSVBVWDFtNzZyanFBdDFrMlF3X0NhYw?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-10T14:06:02Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n9df34825bd1adbad",
-   "title": "US Stock Futures Trade Mixed With Focus on CPI, Anthropic IPO",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdjBQVFA0Nll1UzlIOTRoQVA1d2ZnRUtFSnFGNERjXzMtOG0tcmpfS1IxOGR4Vzk1bGpzbzZvejFZbW1Jc25VNFBWeEdhdk1lSVV2dmNUeXg5MVZObVg3R2dKX3BCdmFkX3dSNndwWmFlcUY2LW1EM19FeGZtWnhJWjhfX0ltZHlfWTI5eW1pR3hOZl96aW1xNXlPUnBoSy1pVmdxMjkxZTM3MDlLYm1sLQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Bloomberg.com",
-   "published": "2026-11-10T14:05:43Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nb8eb2397d0f113c3",
-   "title": "Here's what we learned in Anthropic's amended filing",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSGh5eEt6cllXVzBDQXZ3MnpkcXBSMVZBVXN3VU1Lc0ZsZ2J3VjE5eXdqZFNDam9MSHZLb2h3Y3FXYmZRdi1LNzA2T2JxNkIycnY2RjRrdDlGTGRNSDU2NWZ2cG9PU3I0TWJnTjN6R3JKalNWN0tqSzVTQm85b2ptQlVoT0dhTGhaQ3RPb2JkTmUwTlNvcXp5U0JCOGVHZw?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-10T14:05:22Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nca324a30056e65b9",
-   "title": "Path Robotics Announces $300 Million Series E Financing at $2.45 Billion Valuation to Scale Physical AI for Manufacturing",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOdU5TcmFGRlFleHdXM2FhcTU3aE55UDYwUjR5ZXMwRTdWaFppZ1ZOanhQU21YTTZUMVZGc2lPblg0cU5EbkRuU1hGNllNT2hORERaUFdtU0hiSUNkbU9IOWlaSnpFc2FCc2FhNFluRTdGU1JzVWRZbTI4Wld2dzNVR01KN1RNQ1d5aFV5SDhGVE15ZlB6d2w4M255ZkIzVG9RYXNvTzZCTF80eW4tRU5VMGtkZ3FTRS1VeEtoT3RfQk92REloUDZZNmFQQk44MlF1U2tqLWFwRVBjYTZ5X1lQRE9TMEI5NFhHWTNzY3d5TE9YblZHUTFfNm4yZzRRNlNaRTRtRkMtRWoxczNyX19J?oc=5",
-   "publisher_url": null,
-   "publisher": "Business Wire",
-   "published": "2026-11-10T14:05:00Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nb7ea11ae9c7b0af0",
-   "title": "From Space to Storytelling: Crayola Announces Global Creativity Week with Talent Inspiring More Than 20MM Students",
-   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNb2FpWWdOU0x3SnZxUnFFX1FUWnd3QlBOS2F5Yll6UTJEQTg2WGpkOUdKbUhhc1VuOTkzUE92M084eTN2NWVnRzJudFZ1eWh3T3BCbnd4Vkp4SGs1ZnNkZDUxVmVjTnphNWFDNndFRG1tamtkQzFWWE0tOE5zZTZfVEx0V29xTFUyMGZNdmhkbWFJMFVYa2R2Q1ZTMmJQZzVzZWFMb2M4N1pmNDROY3RnejZyemZnN0kxcjlFX0oybl9zbjdQOG81c21kSTBpamV2LW9lZnlFaV9SLUxKa3JiSzRJMGtxOTFhTEk0SHJMcXhjQ0pMNk9KRy1pdU8yYWxUZkE?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-10T14:04:32Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n6dfdc8eb0d926640",
-   "title": "GIGABYTE Expands Its Local AI Portfolio with the Launch of AI TOP AERO Powered by NVIDIA RTX SPARK™",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMFMwWGxaZjNMWjBxSURsNzc0ZUZvd1luUnVhMUp1UUVsU0ZwRzY3aFlSSmZLWjZrM2RFSGVKUHE5T0tEVHlXVWhDYmtuSkFkZFNodG1rUXJKS2k4cGRibkJEME9aODlyekJ6RFl5VHZLVXpzOUo2UHNPRE1Tdkx2RmNHVDFXVVB4OUp6RGZnZjBKcmxZZTVGUjZfdDZEWGZ5TzE2YzFWQnVEc3dNU2xCaHB2NVFoVk9vazVIZVZDSTJkemYzUWpNQmxoekJlWE04bEFrc3V3MFA0cHFVbU1xNjM4VVlDc0VfckJKS2pB?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-10T14:03:43Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [
-    "nvidia"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n0dce0cb18f419674",
-   "title": "Google, Nvidia and Microsoft Are Among 7 Tech Giants Putting $26 Billion Into Anthropic’s IPO",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMEtJeF9nel9IRUpWQ29OSF9YZ1NiTzFiLXZXWGxiMTRFd0R1UkRzQVE5NGRrVmFVY192T095WVZpOVN0V256cGN4RnljRDdvQlNhbi14NGtHNmVrWU9hVHFqZFBIdWRyYWwzVTRRMmMwWkRVMHBxeWE4TXVuVFlnMU5DUEpVV2h0eW41LXpvNlhWaEo4SlFGbDFJWHJWSlRHOURTb1JEa0JPQjZtTERLSTJaZEh2UlZTTms1aVFWWC1hRWFTazdldUpCemJ1eHc?oc=5",
-   "publisher_url": null,
-   "publisher": "24/7 Wall St.",
-   "published": "2026-11-10T14:02:00Z",
+   "publisher": "MLQ.ai",
+   "published": "2026-11-10T19:34:35Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "anthropic",
+    "microsoft"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n57f344b11da655ff",
+   "title": "Anthropic's compute bill: $901 billion of cloud, chip and data center commitments against an $81 billion run-rate",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPckk3NzFkRGxGQnVQUHFNUGw1UUZKUVRHeXY4TXdrYU0tSDdWVi1BWjZ0MXd5ZGFnem54SjBCenBISjBzWkZCN3BlMkF1U2ZWU0llNUNJTTdYMURBU1ZBNWN1R1BXSHE1MG5jdkdDMFRlNWlGR0xJN0xxR1hLT3U3MXV3TlJmYllySkNsbEV1TEhiZWlfLVBkcC13Y2Zza2hKenh4eDNVdlFJd2hNb2pnT0NJbFg5MWtrVy1Ka29lbklnMnp0Ry04ZQ?oc=5",
+   "publisher_url": null,
+   "publisher": "MLQ.ai",
+   "published": "2026-11-10T19:34:30Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n737a5c0044aec9bf",
+   "title": "Anthropic's Blockbuster IPO Filing Contains a Surprising Nod to Washington",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQXVqbm5zMXRtcEc5c25ETmZoelU2dy11Z0F2enZlMlNhaTJ1Mml3dHVGcWQ2WHg4OEJSa2JGSEozUk1LUUhIN2x2X1pWamEyYnAzMWF4c3N5Z0VkbTlxUVE1NTdWazRuZWh4MkRjQmpGRnlJRlNoVnpMcVNaeW5fNHRCZ0RBbHplR2UwS1RYUV9xOVpvOXc?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo! Finance Canada",
+   "published": "2026-11-10T19:31:49Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "ncc921556aeaab5eb",
+   "title": "Should You Forget SpaceX and Buy These 2 Artificial Intelligence (AI) Stocks Instead?",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSUlqaVhhTmUwQ21XQ3ZCZ0laWTBfRDZ3NWJiTnMxUDd5dktGdW9lZ0RONElvM0VUd3dYWGNMYVI3dm9sX2FKUXhhZnVRRmdmWVIwU1NKaXo0R3BERWJLRnNkRXRycjd2d2Z0aW5fNVM0TzkzRFJZX3pWZ3ZuQTRldGk2bXhJYzNSYTd2UjhLdzVJQmlRLTVZbi02VGkxVVdGMzJlYTFoUTJldWtZbnZCbGdWN2JHQ1ZoaXdUUGhDVWhKTkdlcHpHMGxuTEhtR0lIS0k0RUVuanNyajRKQ3BOQXhrNmk2WFI5TlN2N3RMYVNoRGFZWTJFWkFhaw?oc=5",
+   "publisher_url": null,
+   "publisher": "The Globe and Mail",
+   "published": "2026-11-10T19:30:34Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "spacex"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nc409e1d5c579cc52",
+   "title": "Anthropic’s $1.4 Trillion IPO is Getting Closer",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb25Sc2w3RjZOZWt3UHJmcjBxYnhaY1lZZGU5V0xraG9yYVhrd2V4RGcxaUNYZjhlTUhVZUcwZ2RxX2ZyRlNrdGRvdXRheGpReFFUeTA4M3l3OEhGSDZxY3pVTlFTMFVISkYxZEpIRDVxajAzd3o3dC1EbWVyVllsWQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Cheddar",
+   "published": "2026-11-10T19:22:05Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n0ad1a7e4a369e80c",
+   "title": "GRUPO SIMEC ANNOUNCES AGREEMENT WITH VOTORANTIM, S.A. TO ACQUIRE ACERBRAG, S.A.",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY0RLOWxsSlRHQWExclQ5QlAxVW9idjhNMGdRclhhT2NnLV9HUEk1TmJBNVdUTVgxaXdBaGctb1VKOGlhZVNWQmNfWHZnRnNrVkZubHptX0YwOXdRZ3NJN3E4eEgwRGloa3hISV80UWJndkRZSTlfWU5UcFZUMXhxSEllMHFpYnIzVkxxVUUtUzFGRGYyN0xzYWhwUjgxei11TzZqQlFYQ3JrclVBTVp0bm9qend3QS1OLXVXTl91a0lFTGVKWGVyRA?oc=5",
+   "publisher_url": null,
+   "publisher": "PR Newswire",
+   "published": "2026-11-10T19:21:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n335974acd0379dd4",
+   "title": "Forget Direct Lending? Goldman Sachs Says Asset-Backed Finance Is the Next Big Private Credit Opportunity",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOV25vMmJfdlV1clJTa0tWd3JDRWxOc1U1RU16dzF2Q0czZ1JabXhiMjhlaDNaTVl3dEgyOWh5X2llX0V5UU54Q2twbkpkQmlscW1NbXRoSDNuNHloSldkNWxjUlhEOS0zWDlIbDJVdFB0bXVURFNCZlRRTWhGb2M3VFlHc3FRTXdwcmd1R3E4UjFMa2pfUlRRWkdTWnVPQlRPZ1Uxd3JMOXFHQWN6WlgtUTFWM1ZPbk80U0c3TFU1bnVNREE2blA3cmNEcWdtNXdFYkE1X1p3VUZmMlQwaDFBMTA4YmVxZ3N2djJ1NFdZVy1BR05rM3ZVeWJNckI?oc=5",
+   "publisher_url": null,
+   "publisher": "Benzinga",
+   "published": "2026-11-10T19:18:12Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "private credit AI data center loan when:2d",
+   "entities": [
+    "goldman-sachs"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n473486e57b39b6bc",
+   "title": "Anthropic to seek $1.4 trillion valuation in blockbuster IPO",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeFVES1ZlOVJUQzN5MDN4bngwaUFEa2NobG8zLWpXNldkamNLOFpSSFNNcHNXY1ZCTHlNeVVqbkRsaU85TDB1S2ctc1NKdzl1WWhCLUZHUm9LQUlIbHBoUEVvYmpBVWVQUnZYS0JhSmE2SlRDdjhXVUZLdU40cTR2Uk5abjhhS0hxYXJhSjFZSTJUYXNlNjNPZDVjdlR3VkNWNTBHZ2RzdjhWQlBaVDl5VlVWUEtJUE9GTmtYU013TDJzZTZSQnlFTFR0ZGlpRWlGR0JQTjJjOEdkel94?oc=5",
+   "publisher_url": null,
+   "publisher": "KITV",
+   "published": "2026-11-10T19:14:37Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n3f7c51e872ec6fd9",
+   "title": "Bitcoin Miners Now Earn a Third of Their Revenue From AI. Will They Keep Selling Their Bitcoin?",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPb1Z0VTA0YWpvcTItUHZFc0Y1eUVCdFhfX1RCeEJGTVk4My1yNkVmaFFMdFJ5blhlcFVjcml3MjhBeEVpZzdTbk9BclVFVGZoMUlGUldIZUhHaVFEVWJKZV9QT0swMFFLQ0tLMEpyUWxQQjRWaHRUSHJmT09icWYtTWRBVTBadm83ODJUbWd1SDhDSGNBNl9OS1RxZFZzVDBraENHcW5tZkFaOVdpdl9HbDVleXF2WXZQeUpuZ3R4b3hOYWs4Tnowal96V0FYWEhQTjRuTHBCWjdZdDBYTHRxb1hoWlRGYjA?oc=5",
+   "publisher_url": null,
+   "publisher": "24/7 Wall St.",
+   "published": "2026-11-10T19:14:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nfd813e72f8dcd4bc",
+   "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWZNcUt6ZldxUnNyTXZySGZacWZueTYtS0JOUVZ2S3JUWENYcThEMm9CSnVXX25QTGJYZGc3UVhKNXloQ0pPdUJpbkxZQ3Q1NEdSMzJEWjB5M3UwVDJ5UjhxdllTMEhjQm41UDg1QndqbE5KWkNBZ3RoMlhHSjM5SDkyN2tmQjZjcEpyNGMxVjF1MV9vRmpJb3d4X1NibmRYd3V5TUNxMGtacGJjXzNqRURn?oc=5",
+   "publisher_url": null,
+   "publisher": "The Guardian",
+   "published": "2026-11-10T19:02:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n286b1cfb3bc31d81",
+   "title": "Watch Anthropic Targets $1.4T Valuation in Blockbuster IPO",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWV9wYk9oSGNvTk9KcFNCNVJmTEZreGZ4NGd3ZXg1Vnh1VHV4a3cxVjFsMWVfYjRlUDZoTl92VUhfN1pTNnVvZHBuMmEwY2VqYzNwQmxpbEJRSTNPb2pqOUdwNVJ5Q2ZwNkttN29UZXpoWnN6WTcxUThTdG5NSU82UTYtWjRxQjVSZHNZdm9COU14ak91dWYzNzM1c2E0QkVxOWl3MkZXWmpFUQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Bloomberg.com",
+   "published": "2026-11-10T19:00:29Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "na9df083e16101c78",
+   "title": "Breakingviews - COMMENTARY: Anthropic's IPO valuation has an identity crisis",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcThEcWRSYlEyS0I1Rnh6djMwejk3QmdrTTFwQlBXczQ5UTdwM2hRVGdDbndfQUVER1F5SnlvSklVX0ZOd0Zyd0VmWWJBV1FvODR1WGw1UmFlMjAyMUNqdTBZNjVjcVUwc2FwOTlJUGU5ajNWSU1kM1BGTlg2ZFdRRHFPTmtsSzFGUVcxRW9ScTh5Y2o4YkN0ci1BNjRPbzNMYmpWT242MXNEYlI0?oc=5",
+   "publisher_url": null,
+   "publisher": "Reuters",
+   "published": "2026-11-10T18:59:38Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n259b06f6f741c9d0",
+   "title": "Anthropic files amended S-1 for IPO targeting $1T valuation",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2V2xrUGxaSmRYNlR5R19hMkdYdmhuQUNBek12UjdVbHJua0dpRFc4YkRkNDZTSDEtNDFKdjF2V2VyajZwWkpoYm04NHZGV3Y4YzlJT1k2UlFZdWc?oc=5",
+   "publisher_url": null,
+   "publisher": "Fox Business",
+   "published": "2026-11-10T18:59:14Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n9bf1c109522ea8e6",
+   "title": "TSMC Approves Up to $500 Million Anthropic IPO Stake as Anthropic Filing Flags TSMC Chip Supply Risk",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWHR4MTFnOXNWZjlhZDhWd0liQV9DaWN2RVRTUTFfUndfM25YMkF6SmZsLTZnLU01ajBBMklnbVp6ekEtX09sbGcwdGFmaTB2dEQ0UmR3YnkzYUNKSHJzQnBIMEUzMVloNHVWVDBHM3FsZHFzQUxud1gtdGY3UGNxNWpDNTF5R043SVh4YndFV1BNVVdPZUVrNGNCTVZIWXZGMHpuSUg2dENKaTRaMlhvUWZlQWhFc29OaXZhLVFFRG11dUtWcXRGWE9UU1B1cDV3U0ZvekNSUjRzTHNMVFE?oc=5",
+   "publisher_url": null,
+   "publisher": "Tech Times",
+   "published": "2026-11-10T18:48:23Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
+   "entities": [
+    "anthropic",
+    "tsmc"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "neb28b0b023df85c2",
+   "title": "Nvidia in the hot seat, Anthropic to test the IPO market, hotter-than-expected US inflation",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTllNSTZkLUhsVlowdmR2d2taMkNhNzJJZmZlMWxURDNDLUFya0ZJMGFmbTVZdmkxd1UwR3Uyejd6aHlKQjAxejFsWTZVdXV2eS1VNlMzQk9RYW1vWS1fbFoweHo1UTBoOEtxQkQyWDl2aC1zU3Jpc25VOU91ZkdiaE9vT25VdE9UZHBTRmJGbnF4b2N6NGNXb2JoRTY3MWNrTXBvZHZuVDdjcEVJTlFyd1BmWFdldjh1ajI4Yk1vU2t5a1pQQjJoZlBwMUZVRGtHd3c?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-10T18:46:26Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nfa5011b41e44ea7b",
+   "title": "Anthropic to Seek $1.3 Trillion Valuation in IPO",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWWWhzNWttUWJZVjlpX2xCcnhyRVhRVGNBVnlXWGZBWnNVbE55bm1SQVVfR2xuekhqbVJCZkVmRlZFS0xZMmZvdXVkVF9pX0g4V3cwSzZDV1hEMHBVazNRSVlPejM0ZXpWeERaWVpyZ0lDdHF3aGc?oc=5",
+   "publisher_url": null,
+   "publisher": "WSJ",
+   "published": "2026-11-10T18:41:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n9f712ad92e2eb90e",
+   "title": "Anthropic’s IPO Gives Investors, Critics a Lot to Work With",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYlNkM1dxWlBGUnZ2WmxNcUZpSklxdWViRmpKNmxpYnozTi1wd2VaMG5uWGpwQ1hFcmtYOERQOTNrdmdMWjVhb3FlQnJ5ZjNncHhsQ1lxR3VXU2JvYmRCWVY1LXVCN0lBSVZ6WGZSdDgwTmEtM01WT3BsVld1eEZtcDFhODFnY3ZUeWwydjA3UTNxek40cFVrbUxMcjF3QksxNlNDTjMzT2w0YzN3N2hOcmV3?oc=5",
+   "publisher_url": null,
+   "publisher": "Bloomberg.com",
+   "published": "2026-11-10T18:39:29Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n0a2c384f024c12f1",
+   "title": "Anthropic Has Budgeted $41.5 Million in Legal Fees for Its IPO",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb2VnMzgzWHBOa2txOHM3WDZpOEhJMVBSdkF5dkl5aGx1X0pjV2tnTW5GNnZCUXVBVmZDLTFacGpnSTM1Yzl1OFBWQXVUTDhOYl9SQURZN2cydUFWVlM5el9YQ2p1MnNDVUJSTFgyN0V3R211N2ZRU2xWNTBVbjNyQ3JnWEQwQjN6Zk9wTkpZUWNweEhF?oc=5",
+   "publisher_url": null,
+   "publisher": "Business Insider",
+   "published": "2026-11-10T18:37:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n95474e56b138a987",
+   "title": "The stock market 'dodged a real bullet' — Cramer on Anthropic's new IPO valuation",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUmQ4UjVKMzh2UVMxSzd1MnRVRG5QbGlVbW10S0taOEFTNjFnWTJIVzZJa25KZXNOZnFHN1J2bUJGb3FGT1hxNEl4MUNfY0tsUTA5aUhjeWRhc3htVWVhTE9iR3pkNTBpZ3VIR1NoejlwZnhyMEJ1dnNqaUt3SVVSaU9wRkswT2tIdzEwZm5teVY3bzVpQlVRVTd3YlNidFdjU1RWQmJIcEZLS1RmUEVTS3Jabw?oc=5",
+   "publisher_url": null,
+   "publisher": "CNBC",
+   "published": "2026-11-10T18:22:16Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n522e0f22ed5a85dd",
+   "title": "Anthropic is unveiling office tools that rival Microsoft and Google ahead of its IPO",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtYXYxVF9YT0cySEtaYnc5dGlra29YbnhVSEZ4cG1RRHZ2UDlZRjRySUlyUzNHdElTX1lRT0Jpa2dBbG96YjdXaE9hcHhjMU05OHdvby1GalVGdm5PV0xkQ3JlYTJqeTRoazY4MzFDeF91Wjg?oc=5",
+   "publisher_url": null,
+   "publisher": "Quartz",
+   "published": "2026-11-10T18:21:47Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "alphabet",
+    "anthropic",
+    "microsoft"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "naa00d11919a7fd2b",
+   "title": "Google, Nvidia and Microsoft “Literally Feeding Themselves Money” with $26 Billion Anthropic IPO Buy",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNGh0ZjFSSmVoWFlBQkdMM09VX1lkV0w3RzFEMHN2ckw0akRuQzBHQ204VFRmUU5XekZXbmNvbzV2SWxxZEdWeldQSU9DT3ZsZEtNTWdEb3RXb0xvcU9OU3FlMldnODJoOVNYd0w1T1dzajNaZmtISnJQR1ZzN3ZiX3BoZG8tYWF2MjUyZ0JmVUllbUdXWWtPSnJjd3lEVi1UR2hwNFVLUjNYZw?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-10T18:21:34Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "alphabet",
     "anthropic",
     "microsoft",
     "nvidia"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n167ca3148192f4ba",
-   "title": "Anthropic's IPO reveals $70–$78 price range and $26B raise",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZGdsQXNpcXFLeURrRl9aSkZGQWMwWGlFMEMzNlFSWXduTUw5V0NHcFFnWFlTV3BzamU2dUpRVnlpdDVkdU5xRHBFSlJKZVBNaUpKX1ZNeVF6SWNfSE4yMFdjanNtVGNjcGY0NDRmWkltclk3bU1SN1BNTllLOC1NNDEyOEF1R21KaGxMS1pOenc1VzZvOFFYeVhDWl9aMmlxV3RzS2pB?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance Singapore",
-   "published": "2026-11-10T14:01:55Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n23f257e4254332a2",
-   "title": "Nvidia's China Chip Scandal Reaches Shanghai-Listed Firm - NVIDIA (NASDAQ:NVDA)",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOGpkOFkyNXRmVUJ6M0haR3ZCdG1kZ2JUV082Nll5NUxZTTM2U2RSUDFZMDhJd0RicnVEQWlhZU5fOG01bi1JTGdkVFlRNV9iSjNWT0RCUDZjNlh3QW01bEg2dThOVzE4S1dfbDJGb2lsRlNWOWZtakg5aGJhYUZuTDRLaEVGSlVwTFN1WUJiVQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Benzinga",
-   "published": "2026-11-10T14:01:49Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
-   "entities": [
-    "nvidia"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n48896798f45e7958",
-   "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdjJNdmJTYXR1eFhPRm5fN2lYY3p4MUt4UWhUM0ZVT2VKZ2xaU3hWMTkzTlFGUEV4bWFlY3Z0dVRhVHpETWhCejlJaFhOQXpvenBqc2ZLa1hkOGVySmZodC1ndjhwS01oM3BfR1pPdGhHdUwxQ19LRjgwc1dPbTFfX2hkVEVNQXdOTUU2VjdZR1N6WS13Z2Y2TzdvNGZrWmRZZ00zRlY2OEpVTkx2V25BQThIRFJUakRIcUVDd2h5NmdlTFRKaUx2ei1PbGplUDl6?oc=5",
-   "publisher_url": null,
-   "publisher": "TechCrunch",
-   "published": "2026-11-10T14:01:39Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nd4a5d1a3c0885fad",
-   "title": "Ambrosia Biosciences Announces Late-Breaking Poster Presentations at ObesityWeek® 2026",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOG42d2xRSjFPdWg1eDdqdGdMSTdDbnBpMmNwejdubURTWHViZGk1R1BlVWhHU01Pa0g1N0gxNjJyM0hJUG9FdHNBb0YyenU1eHpmMzhzZm5rc3RTMUFnbExmRlE5ZVdnNlh0T0xZeFJYYkZxZGRVVk84YU5uRmZreWR3SlY5WENENzZRa2ltNlNCRVdjcWR3MXF1dTdka3BucTkwLTlESHpVSDBuOFlYWWkwbEhrWXhoUjJvUGdNN042dlA0OXJ3Qk1kSXRjV21FbGJhV1dMcF8?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-10T14:00:00Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n6699eba657270d3b",
-   "title": "The CareSource Foundation Announces $1 Million Initiative to Advance Responsible AI-Enabled Solutions to Improve Care and Community Health",
-   "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRUZfVUdhZHkwUXU3SlRiMDRtVXFoNmRsLWlfUVY1SW8xcTI1ODQwMEotaVV6bTZVM3I2SjZYZDloRkN2ZlFkdlBEcDVFRjktWFhGYW50ejZ1VjRGOXZaUWZ6STcxLVhpeTlsZ0tXUzU2ckNYSEVjN2dIOUdVVjdWVk00eVR2TXR5R1JtcXpRTHlJWmdEZ2dVb05ibFRrazAyZzZMWkF1WWtJQ0Zyc3dXTDhNdnVZUHg2b1ptWjhWNzVlUVlzSGU3b3BzemFtcHluUktmUjZILURERVdWVGJLanNfUUlJRjNrMTNUaUlUZm53Y3J5SDZRYnc4Ynl1N0diY21ZbWtJVUVmdVBOb2VFbERBQmZISF92SEVIdXBn?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-10T14:00:00Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n19327fab9cfcf7d0",
-   "title": "AGIX, the First ETF to Own Anthropic, Highlights Private Holdings Performance as Anthropic IPO Nears",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNVlDQ3JlazliWk5lT3g4TzhXUndQMnRBc0ZxVDNCVjVZUmNvZkQtR2JWdy1heWpWb2ZJbE5PbV9KbG8zOE93Y0RtVjYzMS1MWk9fRnNIQ19OZmwyZE0xWW81cS1Na1VGQWJmdmh5T0ZidU1yUnpJUDZTWU9PSHpON3BhV054S2lTNjZvWFU3NS1oQ0xYTFhZ?oc=5",
+   "id": "ne12cc48fc9df6e0e",
+   "title": "Anthropic IPO Could Value Claude Maker at $1.4 Trillion",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMGZDZ1ItTWo2Z3hjdl91bUdIUmJ1S0hZRlk4dWZ3dUVBNWgycHI2Q3NSdnF2UzJzSUtfUXhONE9uT3lfcEFyeWg0RTRPMEFNV0lxbTlCamR6VWw2SnZmRktBT2ZFcTlDcEVPanBHSFdvdVlpWlRuMmpmaGo4Y21IRTd3bWYzUkNHc21ab2lZWWdTMDZNZEpkdDBwUzQ?oc=5",
    "publisher_url": null,
    "publisher": "Yahoo Finance",
-   "published": "2026-11-10T14:00:00Z",
+   "published": "2026-11-10T18:20:49Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n14497483f87a7da8",
-   "title": "Francis Medical Announces Strategic Financing to Accelerate Commercial Expansion and Complete Prostate Cancer Management Indication PMA Program",
-   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQSWt3XzNFQlB2d3JtZ180WnVwYjBaelNYTFF2Ukppd2Z0alJJdUtXZk1FVEFmR0pGRVhLaEtDT0NKczA1UGg5aFdJU1g0MVBMQXNMMkN1dVRNaWJfbFV0VGFvbkVISGZzTjVrblNPZERpTldVbmc3b0h4czhENGt2Z0FmWUlvUFV0Rk1UNHNKV0t3RmFjRTdYNXNaeS1XN05RdlljbnF1alJmSWFSSzFnYnhnek5nNERfSEl1aFViZ3hPRlFHeVRMZG5TU0VCVHpiaDNzT3JpQk9UaXhKQnhLV3V4Z3d1dTVkWWktTnlwczB2MTBmZGpjT3ZxeGM4M1lEWTlrZFFKQ2N3UER3cXBsY1pDaXVKTnhselhlWDczZ0JNaVYxMnc?oc=5",
+   "id": "nbae0bfcee5e73609",
+   "title": "Jefferies Cuts Price Targets on Three Bitcoin Miners Pivoting to AI, Keeps Buy Ratings and Long-Term Delivery Potential in View",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95dmNVVktqdktKQkNlRFF1bXZlaVZUNTFnWHdadmhQQTFNcEJQdHZQeHZlWjFham5MZHhJZ1BTdklMYzdVQmZidG40RVRGX1V1Ukl0Rk1sREVncWdOTGtOWTZEd0k1ZUNtdmszOTdhYTlhWENyRkE?oc=5",
    "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-10T14:00:00Z",
+   "publisher": "BigGo Finance",
+   "published": "2026-11-10T18:15:00Z",
    "date": "2026-11-10",
    "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
+   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
    "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n50a0df42b956fb54",
-   "title": "Grab, SoftBank and PETROS commit $1.85 billion in seed capital to Malaysian AI data centers",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUXJlQThiM0dJYnJfMWF5dFBER3R5NERNZ21XZ1NlOHFDcC1MaV80QlV1WkhsLWJoM3VNTzZxS2tvbXBVVkFEUjg1alg2cF9ETDN5Um5TU3FlU0ZfTzdkd1g0Q1JIYWJqMVgxTWViZldvbHo3emhFSGFrRUNFNngzck53NkRmTVBIZXlpcEFHVVh5TmljNkJWSEhxeGQyOUZDNGFKZW1vSXpmeUFlcGsw?oc=5",
+   "id": "n35be693cacfd3f83",
+   "title": "How to participate in the Anthropic IPO",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVFLMmFINVppZ09jYmdROFFLaFB5NF9aMTdTY3o2OHFNenVWWlJfTXV1T2FoWTdTNDRfMFY2RXFxV05icDdxS2phMmtrdkwxVnhfWHlFSTJxdlVFX0dZbVVmbXdJM1hVYnh0RVoybVhWbUZaNElhd2p4Q1NRMTNXbnR1LXdNbnNlT1YxaUln?oc=5",
    "publisher_url": null,
-   "publisher": "MLQ.ai",
-   "published": "2026-11-10T13:59:27Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(Microsoft OR Google OR Amazon OR Meta) AI infrastructure agreement billion when:2d",
-   "entities": [
-    "softbank"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n23087db8a2578525",
-   "title": "Anthropic targets a company value of more than $1 trillion in its IPO",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFE0dU4wY2luc29lUDBBNmx1bFA1VUVNb000aFNwLWd2OHREbml5ck5GRWFRcU1jeUxxOTdwWVduR1p5azFHUFUwN0NBMjRMQjBIaWR2RHh2Unh5RjVZLVo1SEdyc0o5V19sZ1FDZVZUWUhaaWxBYnRHN29XRC1BMS1wVTJWQ1JZc3JWOFpkdFpMclktYVdyQ2prNEdVZVl3dW1Pb2s3SE1BZUZIanh6b3pn?oc=5",
-   "publisher_url": null,
-   "publisher": "The Washington Post",
-   "published": "2026-11-10T13:54:06Z",
+   "publisher": "Fidelity Investments",
+   "published": "2026-11-10T18:05:23Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n20bea87fb57de036",
-   "title": "American Global Strategies Announces Rachel Noble as Senior Advisor",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUm51WS13akJzdUV5UjJDNE81Skt2WUd3Y3ZYNHZnbUpzWEF4WVUxNFlmWi0zNE5tWG1SaklmVS0tWXp6RnNXaUN6NGlnR29Yc1V0OWFaWlhlNXBVczF0ZWR1YnhQSGNSOGUtQlhUdE9ueWE3RkoyUXBXYzVaQzZrdVFqcmQ4bm10WXA0YS02WEtnUEdtanZaeGlDaUFxZnZlM0JkZVBUYVlqNTI0LVptYzJsTTk5WHgxRGdDZjc3RDk?oc=5",
+   "id": "ncac0d2fd7484834e",
+   "title": "Microsoft stock falls as Anthropic takes aim at Excel and workplace software",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDhIR2N3YWVsRk1wWTZtRmNTTFVwRDdxb1hUVmtqQ3NfTXRRaGJXa211U240YjNxa1hzRUJ0bjJ4RnI0cFlVM3VleXV4XzlqTVp1V0dzQUFtQTR0R09IQzBSeGZzR3RJaHZPS1BMbGpBeWRaM3JkU2o1OF9jQ1ZPV1B2WmxfQU05ZDh2bXVLR0N6YlFza21nOHlVaER1ek4xSTBN?oc=5",
    "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-10T13:54:00Z",
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-10T18:04:33Z",
    "date": "2026-11-10",
    "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "microsoft"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "nc154a913262a7476",
-   "title": "Anthropic Targets $90 Billion Haul With IPO, Big Tech Placement",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR2RDTEFmUnE2dC02YVNOV0QyaElZSmhETE5HZmpXa29uRDB4Z2xrdDJTNzE3SnRWYl90ekQzaHlxNE5Rc3otME1vczVia0FyMk9oc2xQVmtKSVRtXzcyNW1qVHVJMEZERmNiSDEyQnE1T2xyS1VscV9Ka1p1bG9ReERSYlJqVHB0Q3A5QlZnSDF0cmJFdDAzRUV6dEVDZllnNS0xTWw5VWwybUZSSmhINnItTUJvZw?oc=5",
+   "id": "n81864b5b9b3f78b5",
+   "title": "Anthropic targets $1 trillion valuation in US stock market debut",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWll1VlB2WVB5OUVrMGRZMzdObF9zTjNzdlp4VkNKdmpsUUJaaTFtVGw2XzVIMzhsT3VGN2NTdTh1WmtuMUZlY0RRYzgtelRCQkpqd2xBeW5Lc2RMd0JoNm1EdEZ1WGJ2Y3EyUUtnVk5wYmlQOTF1T0FVYjM0aFJDOVEtcnEzdjVjd2pQWVktXzltTF9oMjJfbjM5OVhmcTk2Z0tDaHVR?oc=5",
    "publisher_url": null,
-   "publisher": "Bloomberg.com",
-   "published": "2026-11-10T13:53:55Z",
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-10T18:03:33Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "nb4e7c2dcef808774",
-   "title": "Broadcom Just Had Its Best Day in Nearly a Year, Back Above $1.5 Trillion",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWXFua3lJQTdMT3hmZkhHWThJR0pTUUszOTBZWjV3U1lHWFRvb3doNVlJbnY5SVAtdGZzc1pyMkx1bC11M2ZWdzJPN0U0aktieXJBdGtYNFpZMlM2Nmg5TTNkRlFmQm5sbUYwdXF0bkxZQURFcV9CLTBCT1VvQzAyQ011Yk1DNV80WWk4dUJCVXN6LTlMd1FqUkJKdnNEM1pNc2dGWUhqcjZtWXY4YkdmNFBPbEpDdw?oc=5",
+   "id": "n195550e807a980c8",
+   "title": "IREN Sinks 10% as Analyst Target Cuts Pile Up After Microsoft Delay; Cipher Digital Falls 6%, TeraWulf Slides 2%",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQi05OEJfU1g5cjNtZFNJN3lsYVVIMG9GR1ppcG43aVNsYWxWSHpwYUZpeUpoU0dWU3JkZmxodXpJTVNoSUVqZDExUlpjRGE5WWdCcGtULTJIb3IxOEpMbEtzOU5NMjBGc0hyMG4zZl9NU3hFZkpEZExlbHpzYXBGdmJoeXdLU1owZkRKSE5COW5WakNYNHNKMWg4ZV9RRkhjWE5pbko1T3l2cVVsbWFFd1hkMkw4YlVLOFYtWmEzU3k1bnpkUVlZWFQzWmphdzlvbDRNMXRHel9DdFJpLVFBSE9XaDNaUQ?oc=5",
    "publisher_url": null,
    "publisher": "24/7 Wall St.",
-   "published": "2026-11-10T13:53:00Z",
+   "published": "2026-11-10T18:02:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
+   "entities": [
+    "cipher-mining",
+    "iren",
+    "microsoft",
+    "terawulf"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nd56688d88c5362d4",
+   "title": "Gallaudet University Announces Institutional Position on Gene Editing, Gene Therapy; Affirms Deaf Lives Essential to Humanity, Champions a Future Shaped by Deaf People",
+   "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPLS1KdGh0MVZmV1djaEN0dkZjREJ1TloxV3hWakoxS0lXWmJYcmtDLUNpYWtVdkdwbWdfWmE4MndBNjlwZ3BZblZmb0JhQjdYSTF3V3kyeC13T2h5VmRETmF4azE5Sy1NTWIxVVA0MlpTZTNsbVQ3QTdaNE1hbXR5c3dFblBDcnJyTEk5NG4tNC1SZ3ZmQVR1aGNGRjhtNXlDMEpzQUJPRkdQWlUzdlBkMTF3dWNnVVlnRDJyWmNSMFRUZzNobm5OT2dwclp3dTBYbGtTVjhCQ09icnpQaXJhdFlKWE9vVEFOdVNqYV9kblI0QlVlV3AwVEdzbzlvbzlUbkFjSjdqMzg1YXYwOXR6T3RYSGttbjZsRjRxUWR5T1FUT1JOaUNKdmcxMkwwM0lXRFd2T1h0SkpmNjJ1RmcyYm13?oc=5",
+   "publisher_url": null,
+   "publisher": "PR Newswire",
+   "published": "2026-11-10T18:00:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n4c2227c651ef9e9c",
+   "title": "Anthropic seeks valuation of up to $1.4 trillion in IPO",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd0d2ekNCeG5LVGFGeW5NelZwcE9vLUFJOU9ndFI5emhHZG5MeGwtWldDZjlSNzlKdGFWVndKdVJHYzNBZHpiM2I3bjJBV0ZnSDlab0Z4aTFyNUpIa1NIemV3RElMYlpRRlFwM3VpcWJUbEIyQkFBVDBVaUxGdVNXZklYR2U?oc=5",
+   "publisher_url": null,
+   "publisher": "The San Joaquin Valley Sun",
+   "published": "2026-11-10T17:56:38Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n436c7ffec3b53558",
+   "title": "Amazon Stocks Rise 1.15% as Anthropic IPO Range Puts a Price on Its Stake",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObjRWNGUxcDg0YUN1R2EtSFRqdkhrWVg1cFA3cTZQY0s4WFZNQ1JseVYyUEF4bzhBNk5EcVl5dXRFa0dPdUxrd3I4QWU4RjdOY0tIWm9MMG1vWGtBOTJ3RDVxSEVNSmJYWUFhSERuRWx1Y3d2NmpmVHRLdDQydEFuWFVjaW5yYVkwZFFvSDlja1dTMDB5cEJZRlh6N3pMWHZkcjZ1d0pKbm1zVUJ6RmV2dUZ5Ri16UVV4Y1pkdjkwN0NQSHFvcGxocXg4VF8?oc=5",
+   "publisher_url": null,
+   "publisher": "TradingView",
+   "published": "2026-11-10T17:56:09Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "amazon",
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nf245f806bf42bd0b",
+   "title": "Anthropic IPO: UMD Smith Experts Available on AI Competition, Governance and Valuation | Newswise",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeWpCX1ZEMm5jc0NMbWNtbnh2YjlmWlNUYV9GNEZ3NzlXNVlNS3dtalZUM2ZkcE9OdC1VbjJHVVA0eWtQSlI3TGVkaHNkMGhIazR1WlViY05fZVNfT3VsMlgzY0lGS2ZnMUdRS2cwRk43OFl1OEJYY2E2ZWw2WlBNTzVVQndiU0tuZG14SVQtWFFKTW9BTi1kcW1DYUtIVGZ6ckozZGVUZG0tV09tdEo2d1JLLUZhV3VKVVHSAboBQVVfeXFMTnlqQl9WRDJuY3NDTG1jbW54dmI5ZlpTVGFfRjRGdzc5VzVZTUt3bWpWVDNmZHBPTnQtVW4yR1VQNHlrUEpSN0xlZGhzZDBoSGs0dVpVYmNOX2VTX091bDJYM2NJRktmZzFHUUtnMEZONzhZdThCWGNhNmVsNlpQTU81VUJ3YlNLbmRteElULVhRSk1vQU4tZHFtQ2FLSFRmenJKM2RlVGRtLVdPbXRKNndSSy1GYVd1SlVR?oc=5",
+   "publisher_url": null,
+   "publisher": "Newswise",
+   "published": "2026-11-10T17:55:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n65daa1e5806206bb",
+   "title": "Anthropic Founders’ Stakes Are Worth $18 Billion Apiece at IPO Price",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWUtYdllmSW95VWkwdFI3akdQdVQ1QkpVdU1uajh2WmpTVGUyTkJYbHVXVlVOVmxCVkFyaEdROWcxZ1dxOFlSOFZJeDg0ZHE3ZXljUnM1TUd6ZUUzMWxKQld1bkFhVW9OYktUUFROdkpfN2tVV0ljWVozWEdRaEp6eTBxWDA1Z0hQd0VLY05XYXp4WUJJV3gwcWZXb1N0LXlwZS03U1FR?oc=5",
+   "publisher_url": null,
+   "publisher": "WSJ",
+   "published": "2026-11-10T17:54:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n9906b79c04e5a2ac",
+   "title": "Microsoft tumbles as Anthropic unveils office tools ahead of IPO (MSFT:NASDAQ)",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNk5XZzZTN001ckRmLXd3cmt5T0dYMXBnYkd5aUs2dmMzcU9kNFlSYU5ZaFY0UVE3U2VVdGxzbnJoZVp4blJkMDMySktmWTFVZFZEU3YyeWRXeW1TSHNpQnFwMmNuaGYyVXRmakRsQ3lNU08xaVhrdGphSGNWdmZTeVlpWER6SW9VaW1PZzU5QWZMOGg1b1M2UDMxamE4MHl2RzFTRg?oc=5",
+   "publisher_url": null,
+   "publisher": "Seeking Alpha",
+   "published": "2026-11-10T17:53:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "microsoft"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "na84d52348bbed0a7",
+   "title": "Anthropic Launches IPO Roadshow at $70–$78 a Share",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQWk3WDktY3hQZzJQTlk0bXZCSmc4UmxKeG9RSnNhbG1qXy01ZXIwVlZOVDFiZFhraHhIa0J0N2E4MDdPUFdubEdCcUkzeFFSLWVUN05Ndmg4cWhUMWFRM1ZNeHp3Mi0yQnlSaWozNDV4UEx2aTNlaU56cXNxaG9KdjRtQjdfeHZnVjVVdjlUajc2TTg2b1pZME1NVGpXSzA?oc=5",
+   "publisher_url": null,
+   "publisher": "The Defiant",
+   "published": "2026-11-10T17:46:32Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n70cd235eb6046c8b",
+   "title": "If CoreWeave Implodes, It’s Taking This Neocloud With It First",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeUFOLVJUbUZ5YUliNlBfVlNDQzJ6X1hYSjdLajRqdXY5YWVDUC1zcUFtcDFKSE1KdkIxemx5UDdFbWFiOFY4VmJaTzdBVS01aGtzTVdQNy1URC11M1FnQnc0TkVobjV0eFlaWUltN3d6aW1waDR6UWxtbmhyWEhFaE1GcjVWRmtMLVpGQng3amg4SDVBY2RpcWtFRUpkZVdXMm5hcmJ0MA?oc=5",
+   "publisher_url": null,
+   "publisher": "24/7 Wall St.",
+   "published": "2026-11-10T17:45:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(Cipher OR TeraWulf OR \"Core Scientific\" OR \"Applied Digital\" OR \"Hut 8\" OR Galaxy OR \"Riot Platforms\" OR Bitdeer OR IREN) (notes OR lease OR financing) AI data center when:2d",
+   "entities": [
+    "coreweave"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n03c44eb2bb1ec24f",
+   "title": "Anthropic’s IPO Is the Signal Amid the AI Noise",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS2JqUjg3T00tNlVlM3M5ZzlqNllfV21zdWVTVndMemMyOVNUQ2liVm1NeVRPbTJTWG52VElEOVlHX2lfWVVCblQ0OHFqTzRpZVBfM3N4ZVNnM3ZyYmJpa3lZcVBFQTUzc0diTThRZ2NpcXhCV2szR1lMTm9Ga2s3cXJyY21fYlctaTZv?oc=5",
+   "publisher_url": null,
+   "publisher": "WSJ",
+   "published": "2026-11-10T17:45:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nc7b9a5e4a656d4e5",
+   "title": "Constellation and Vistra Get the Headlines. These 2 Power Producers Barely Get Mentioned.",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVXhkYUF0M1N5ZV9Vc29xQ1RaOEM1WWlSN2ZjcVRjb1JCNFgzRHNjTnJvR0JzeGNCU0twdU83Ti1tVW05Tm4xTU5adU5QNERnLVRDQUF1dVlSRmxEbEpmY0JhWTZmTmlvY1djbmM0bEtmMndwbXpEaGRsVnA1dmtXMklCcE5TZ1lPZWtBVXRXN3BMZ1VOMDZ6ZlpsODRJVGJ4TmJSX2NuR0xRUGN2aHRQTjhWa3Q2QWJGcGVJNjd1TTNJMUhFYndnNjliSU5wMU00MUNnX0FfczdtOWtQaDBSWHpOeUtocHZWVGhVeHJDYXJyanp6c01PZHBwZ2RxVHdL?oc=5",
+   "publisher_url": null,
+   "publisher": "The Globe and Mail",
+   "published": "2026-11-10T17:42:52Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
+   "entities": [
+    "vistra"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n884ff54b92ac1046",
+   "title": "Broadcom Stocks Rise 2.69% as It Joins $26 Billion Anthropic Placement",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY1dnbG1zYVpzbGVQcUxEWkZIdG9pSURlZWdRNWk1d1d1cG5CdmVSNzZpRFpuamdtT0plbmNIenYzajl5bmJEN1dOZV9BeHZHQnNjZDdiRUlJWF82dTJXcE9QeV9EbnhjS29FcFRrejg1cjd5SGJPQTlkZzRReThWM19sX0Uwc0Vjb2Y0TksyVTVEelFU?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-10T17:39:50Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
    "entities": [
+    "anthropic",
     "broadcom"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "nb8e61c82c23e14f8",
-   "title": "Anthropic seeks $1.4 trillion valuation in highly anticipated IPO amid AI boom",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNFd6MGdLa3YwRWRsck0xaEFGNHNwYm9nSW1idFZSeWVLVzczSG5mYy1hazd3bUppeW9NNlhTM3p0Si0xZWxYd0R0QU9ReXZONmVPMHNtMTYwRG43N3FfWEJjMXltM2pGZXRJWGxiNXV5WXVndXlOQ3E4VTBTQ3gwdzhJc1l6VTh2ODJKNFMtOXRzMWJDYS05TGl0UzR2bXBkc2xB?oc=5",
+   "id": "n6ee56a08f15ae06a",
+   "title": "Microsoft Stocks Move Lower Despite $1 Billion Anthropic Placement Commitment",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaE5HWkZ6RlhGZ2RVeTFWZGxQcUhCdm1acDcxTEtDYzcyUU55UlJ6MjEzMjI2M2JkR1g1dE5IVGhldWk5TVo2X2k3WVVoMFBOMW5pTUZQSG9xWnp5STkySmRoSUtSS1Z0T3ctTXVVY2JhSWNULVBaRkx6ZlhmcjdfUjIzTURrREpQelU2UVRJZHRfcUNQa3RDSE5MYlJtN2pqZDQ2c1AxMDFPRU5xalJ4SjBial9ORERlcnVUSEc4TmVFV3JjOVRranY3NmxuWEh2WWc?oc=5",
+   "publisher_url": null,
+   "publisher": "TradingView",
+   "published": "2026-11-10T17:39:36Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "anthropic",
+    "microsoft"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n6828f58c96e4e59d",
+   "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY29jNmZNZkNLNElZV21RQXVOY3VCWGwzOFljUXBNRkNieEVLUmFqSG1YazBuanR1dVd1U0drbV90U2xmWEJBcXdhOW14Wk43UWIxMTlTcHZHQUo3bkJUNjdfeWYwdUhGcVI4OFNBYnpnbk5CUGVmdXE2WW1iU2ZlYVBnTm9uNkxiOThacTJ1b2g1bUgyWVl5Z2RkR3dUY1M1c1pVdjRZWUduNUFtOW1LMmR4NzlSWG5CYUw5d05lN2xkVU9BQlJuNA?oc=5",
+   "publisher_url": null,
+   "publisher": "The Information",
+   "published": "2026-11-10T17:39:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
+   "entities": [
+    "alphabet",
+    "anthropic",
+    "microsoft"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n8a230168467d40e2",
+   "title": "Constellation CEO Sounds the Alarm: Data Center Demand Was a “Massive Overestimation.” Its Nuclear Contracts Run to the 2040s",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaFRGWjQ3QXlEX3lMeVNpYjVSUFowY1I2ek5GOVVELUJaRVFFMVNWc285WS1MenRLZ3l2U0tiWnRHaFNWZ3hiTzY1LU16dGU4dnEzQmhpZlpMOFRQV2FtSFFSeG5sZjdORnY3bkR4S1UyTnA4c1hGTmx1RWN6N2pqLTE4djZoOWE1aTRWZEg4ZXBVZ2hETm0wYkctclpwZV82OWJHMWpEc19fN3VpRUVUbEZmY2JmajdwQ092V3RKZ3EtSmJEYThMNG51WmdqSks4WGRsaE9HN1lON1AzR084aFdR?oc=5",
+   "publisher_url": null,
+   "publisher": "TIKR.com",
+   "published": "2026-11-10T17:35:14Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "na714027ef850bcda",
+   "title": "Anthropic deepens enterprise push ahead of expected IPO next week",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd29nMHctSzhrWi1VMUpQSjRRQjZYWmViQTR0MW1TMnNZb2RnbDJoeHl5VDVZNGFHNzVYVmxlV2ZqTGZOS2pxQ3BCMTdhNVNsT3BibmVNQTYycXdhNlczRnoyTjZmSHlnRE13VHZWbEd2Z3U0SnNVckFwcXo3NXVwZG5ZZFJnNE0tSk1zb1RDS3lEdjRSU08yeDI5WEIzRXZoa0xXODRzRzBWMmVaR0VhYVdUOFNNZERKc0Z5RXpvWURtdTA?oc=5",
    "publisher_url": null,
    "publisher": "Yahoo Finance",
-   "published": "2026-11-10T13:52:38Z",
+   "published": "2026-11-10T17:31:19Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "nc6a86183e787a5a8",
-   "title": "Nvidia’s CEO probe and Singapore ties: Will future chip orders suffer?",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbU1uVGtpZlVncUhDUkN4czhHWlFXZnF1NG5ZN0llZmhLbFNWdTV6OUFNODZQMGJPUWJESFhIM0dSMC1ydWpWR0RSZFZHWE1icGJKUGlFb1lnRGFmcjlCNlAtMmcwTlB4RkhDaGE1Z0hrOVo0bmZmVXNHWWZFSVZ0OTl2TWdxekRaYVM1S0hNcGF5c1dFalhZd1ZFQ0JRTWlnNXJN?oc=5",
+   "id": "nd271825d94b1fe88",
+   "title": "Amazon, Google set for big windfall from Anthropic IPO",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjFwZHRWdU1KX1lVQzlmS2tLcE1EemFWd2trLV9Td2NtemNvRGdjbHVEUjJySldqUjRqaEtpZGpfck9QWkpCcmhoby1ERHFwSk4ySkNMQ2pQbkZsbmJXUm5NOTM3Y09XZnl1cEMxcjhZVFpEYTZDX0ZHRHNhVXdkZFdIOExqa2tHZC1qM0xuazYzRENHZzNDYUo4aVBSck5IRHc?oc=5",
    "publisher_url": null,
-   "publisher": "The Straits Times",
-   "published": "2026-11-10T13:45:00Z",
+   "publisher": "Reuters",
+   "published": "2026-11-10T17:28:21Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "alphabet",
+    "amazon",
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n0769b547b04179c5",
+   "title": "Anthropic Generates $42 Million in Legal Fees for Record IPO",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSENrVXVYaUtSY0xfak1nNERFSUVZeEpyejdMbnFBV0Z0WUxibW9XRUF3X2tRb1gwTVJDeWNKUzRKdUxXRmRLbnc4cF9TQ3NXYW9vOF9xVXpNaW1sbzlwZF9xNnBqMXRQRDBvM0xNSHVWdGtRZEJxV3l0MkczWEpVak9jX2NtZ012REFrZkV6QjJMY0cteGR5TTZTWVIxVEdBdXRGZUtRMzlOZw?oc=5",
+   "publisher_url": null,
+   "publisher": "Bloomberg Law News",
+   "published": "2026-11-10T17:27:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n34073d60797d112a",
+   "title": "Anthropic Unveils Office Tools Ahead of IPO, Taking on Microsoft",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZlMwX3dzdHpVbEFBcTlGVWlibGtMcDBYOGJwbVJaaWs5X2xiVWM3ZUVDZHBoM1dyM0t1NjNYdVpzTHlYVHhKYTRHbXJTSmpRSFRLZ3FENE9kcXRFcHZVVTloYVJybUJaWWJ0a0ZGcVZpWXA1U2dZNmp1ZjRtbEJWSEtSc1RRbXdsSnh3bjV2WE90SHpBeGJkQ1hfUUtnZV9ldW14RUJoRVFMMFZmVGxBemNXSlM?oc=5",
+   "publisher_url": null,
+   "publisher": "Bloomberg.com",
+   "published": "2026-11-10T17:21:08Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "microsoft"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "ndfec4b7e84af0d77",
+   "title": "Nvidia’s Growing Influence in Memory Chip Business Raises Concerns for Korean Giants",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOVozeU5IWVhiME9WaTNreExoM2tfenBTQUw0T1dPdXlLdGhMYmFBZXd0VktaRmlKS04xNkViYWdtSFNsMWJhbzZIaF8zZHhPTFliRjNXc0FIa1hmbUs2YkZVU2tKQTVpS1l0UmhNdlBGc055MUJoUmk1TkNEQlRZWWhSanAxQQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Brand Icon Image",
+   "published": "2026-11-10T17:21:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:2d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n50f67ce92f5ab0e8",
+   "title": "Anthropic targets $1T to $1.3T valuation in amended S-1 IPO filing",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxZVdXYUpLVmRKN25jMVQxNFc3S0V6NU50Y2VmOHBmT0JfMF9WdXNxSzJBSTZWNlZQZnl5a09oLUJiNUlvWnNQZkdhQU1fV3R4cDA2VFpBbThNSEk?oc=5",
+   "publisher_url": null,
+   "publisher": "Fox Business",
+   "published": "2026-11-10T17:19:27Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n3a40719262ea57cf",
+   "title": "Anthropic IPO: The Best AI Model Does Not Make The Best AI Stock (ANT)",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVRiOTYxbHhhQ3V0SjFwa1UtV3JmRUNobFlmX2hGdmVfTWpoUmNRdWJ5TVo3Y0ZzRFdLekhQNzI1WS1FNjlBRXJnRDU1V25xRzBfN1F4Si16MXI1WjRBVV9MVF9hdmlHYU5nc3ZjUHltNWlKV01jOWNVaXgwSTE2OEpVclJ5YmdOUmFnYUpIMA?oc=5",
+   "publisher_url": null,
+   "publisher": "Seeking Alpha",
+   "published": "2026-11-10T17:17:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n7359d9f145dcba84",
+   "title": "DISNEY THEATRICAL GROUP ANNOUNCES 200 ELEMENTARY SCHOOLS SELECTED FOR 2026-27 DISNEY MUSICALS IN SCHOOLS: STAGE CONNECT PROGRAM",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSzRmWG9qUUgyT2FKcHRHMXBtc0hHVWFMck1UZWVpQXdYMGxfc3kzMUxoZTUzd3hocHNRUzhGN1FlMGJpQ0JaS3Z2LXA1YUlYQzh0UEtSR0FoOTZFYXNnc1VGclU2ZFZsNi1ZRGV0Wk5JSUZMSW5XdnZpdURRZ3hPckZPT3NBNmllbFRDdE5FWTNhOG0xVDhDN3lCMG1YS3VCaDRpNWk1dTlKQktQOHhqdF81Ui1PdzFnSzlfUkMtWFJ3bER5VmNObnppTWZzZWVtSVJpX0NETkV3a0xZLWxQR1JsUVBOemZ6TWNkMzg4SkxOaEIyd19hMGJJQnJTNjV1T2tETUVlY0ZFdDNjWUI0?oc=5",
+   "publisher_url": null,
+   "publisher": "PR Newswire",
+   "published": "2026-11-10T17:15:00Z",
+   "date": "2026-11-10",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
+   "entities": [
+    "disney"
+   ],
+   "fetched_at": "2026-11-10T20:26:54Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n576ee19afea32cc6",
+   "title": "Nvidia Stock (NVDA) Falls 7% as CEO Affair Scandal Fuels $400B Two-Day Selloff",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVRDZDMwSEVQY0J1Y3ctU3dUMnhsbnUySFdMTE96Z0w5eGpZNXlVWllXaDlfLUlGbFhxOWNEUUVBRUluM2tsSnFxamY5emhjWUFvV2t3dFI1TzZ2OHNicWpWM3BlbWdVdzFkSjdCbWMxa2JlQUpaTXprMWhLTGh5UFd4T0VFSVAwM1BjcVJLMV9EaFpFMGpxaFowWUR4OTRIY1haV0pTQQ?oc=5",
+   "publisher_url": null,
+   "publisher": "TipRanks",
+   "published": "2026-11-10T17:13:19Z",
    "date": "2026-11-10",
    "lang": "en-US",
    "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
    "entities": [
     "nvidia"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n66cf509e8323d7bf",
-   "title": "Claude on Anthropic IPO – ‘Pressure to Monetize Legal Vertical’",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGIxN3VMUVNIREVTTEFJLUxFX3g2ZEtlY3Y3ZWpCMnVzamtVQUJHTlV3M2g2dUVRM3BpMm4yVWllMnUxXzN0SDF0LXVFNWE4T2dQaDh4QmwtZllvNExGdTlMZ1hTVWZOSXF2U1dER002cEVfa29SZ3EzTF9zZjRSTGkta0E2TmYzN295N1FUeThLOThNSDktc2haWFBlLXhPLXQwckg3Yw?oc=5",
+   "id": "n0fee8fd489e320fa",
+   "title": "Anthropic Will Pay SpaceX “Over $3 Billion Per Month.” Cramer Says a Failed IPO Hits Nvidia Too",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVW8xdFFMWVJzcXBmQ2c3RUJabGxDdUZjVUFWa3B6eDFrU1ZJbU03aE9yRVgyV3YwQ0JHQnNTLXRBaWI4OU9lLXRpTU5XYndsOXJobDRyUjNtTFJBNFlmaUxBNUxjUkRzTEkwY0tuOG10U0ZuSlBLOFM4R1dGVmsxaXdQcmZfcmZ2djdlcUt6dGNYMUV1UUpjNEVhYWRuUEFPLUhaWmxRWkEyeXpVQU1UTGZNeHV4TjdjT1E?oc=5",
    "publisher_url": null,
-   "publisher": "Artificial Lawyer",
-   "published": "2026-11-10T13:44:24Z",
+   "publisher": "TIKR.com",
+   "published": "2026-11-10T17:03:45Z",
    "date": "2026-11-10",
    "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:2d",
    "entities": [
-    "anthropic"
+    "anthropic",
+    "nvidia",
+    "spacex"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n861627a9a2792a7b",
-   "title": "Anthropic seeks $1.3T valuation for blockbuster IPO",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQamE5el9ndUlZcThzT3NJUXl5cGVpR1pzR2pmUEVBeWs4ZHZtaGJTcXV5bmVwRmw0N3kwalZiZXRKSHVYS2IxR1FydjhQVDhwUEpIYjRFZ1ZrQzhfNVk5VFdITHN6bVZnOGlSOVJlMEd2clA4T0VfWTFvdzN4SDJ6bXZJMVBqYmRZYklEVU9uUHBaeEFVTkVLYm9B?oc=5",
+   "id": "na81333e2007e8a00",
+   "title": "Alice Huang reportedly instrumental in securing over $7.5 billion of Nvidia AI GPU imports during three-year relationship with Jensen Huang — helped move 240,000 banned chips into China, mostly H100 and H200",
+   "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPODVQMTRCLVJQcXJlS2RtYlg5UHY4NllheFpvbFdSZm1JRTNqX1VidG5VdEVfdlM5ZEhUQ3lBeEdpb0pIRHNBaXdpUHozTzZwb29MV19EaEtEc3lJSEViNG5JSzFLbVFmVXhMVU5RT2hJUEJ0MG1lU3ctZHk4bTNDVEl3TlUwcEo4akxweDRiZVBNS3RmeG9NWDUxLW9nOThScWIzSWRYUUE3YmNPc1RITXpVd2lQQW5tOWptOG1WMjA4N0JzcHV1WndtNHRTdU8ybFlrUnUzbUdWclpRcnlNQm84bW16TnBEUU11bFVOd1RtOVNRSkgweEw4c3duNDIzZWp3SkpNY1puZDdzbUstZy0zZE9EWXdwQm5jZjFPaUpYUXdnT1RQRExRWHlEb2JUbkZRdlQ1TnpYbmtSS1lyWURBV1pwWjF0Qk9JUjZQMmtNZUpyTEIxUFVkYnhnOXNfYkdsWS1YQ1ZzQWNKNlJxTW9R?oc=5",
    "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-10T13:42:28Z",
+   "publisher": "Tom's Hardware",
+   "published": "2026-11-10T16:50:02Z",
    "date": "2026-11-10",
    "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
    "entities": [
-    "anthropic"
+    "nvidia"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n1237e233c07abd08",
-   "title": "Anthropic IPO could raise nearly $100 billion in total as tech giants jump in to buy more",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnhxbUJGM2U4YlFwM3Z1MTFxc0tzUVQ4UmF5QnhRV3pYT2RHWUdaRDZuZEo2RVhJam0yWEowUTBTQkZVb0VndFJ5cEdpOXlLSlZLcWFIZEpuM0JwUWN5aXhCMC1la2F1WTNwSEs4Y0lvLWFEMTFYeFhUV3ltZDdrU1VqWlRPd0ZMNGtTcTJodFVOc2NvT210VnlkaUZYVWN1R1d1SElYZk92VFRWcWszY194U24?oc=5",
+   "id": "ned15c25d4b9fd09c",
+   "title": "Alibaba’s Chip Design Unit T-Head Files for Hong Kong Listing",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSVJfVTlWZThwV1pMWk9WZnRLcmxhRWtYNzd2cFFQWnVqU2dxd1JaRks0djEyS2p3TjFwUThUVUlNMWYxLU03ZU9fZHBva2tsZ0NScGdJZHdRNXBsaU5ndDRCNmluOEd1aW01M2I1NXpjV2hIaUJqYVhybnF6VnY4OGcwN1l4NlJ0VXNDZWJUWGFrOVJ1OXJtendTd0hMREVSSC1vMHNINlkxYmgtbE1KTERR?oc=5",
    "publisher_url": null,
-   "publisher": "The Business Journals",
-   "published": "2026-11-10T13:42:00Z",
+   "publisher": "Bloomberg.com",
+   "published": "2026-11-10T16:49:23Z",
    "date": "2026-11-10",
    "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "query": "(Alibaba OR Tencent OR ByteDance OR Baidu) (bond OR notes OR placement OR \"share sale\" OR loan) billion when:2d",
    "entities": [
-    "anthropic"
+    "alibaba"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   },
   {
-   "id": "n4bbcde7a1fb66fbd",
-   "title": "Anthropic sets IPO price range that values company at up to $1.4 trillion",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWlgwV1JNV1FmQjhQUzNYd2ltcENoemxXMmNRbTVCdG9nX2tzc2dKQmRuTWlzVElFMHFaWFVIYUJfRWlvYl82VVhabU9aLWpTLWh1WUg3ZjJNV1FWaWpYaDRQNkNFWm5mWWJIb0g2SG1oMXNQWWpnMUIwaGxwUzBUbVBoV0VMSzN6UDZyMGtvSW1NMFRfV2lLOXlzMG5CeXBvaEJoOC1QVWdvQWRGdk9IbTdudGJ3b003LUE?oc=5",
+   "id": "nd863a1e14b778c5a",
+   "title": "NVIDIA CEO Jensen Huang's Affair Linked to USD 7.5 Billion Chip Shipments",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb2hxTjBhcFlPVjBpVHctOHBoeVZKN2ttS0lMWnJOTnpUSThfRUpqNF9sdU5QTHhNVU5IX0x5VmV0eXFsd1QzTnl0VHFGN1BnWkNMX2N5eDE3VjZSR2xabkI1Ujk3S1F0UjdhbTBmU1hMUEFJZWM4NlB0cnRHOWRDMFJwU2c3cjZzVUtwbEhJOWRKd0RQdmE1bFh3OEpqd1lBWkhIaGZLWkctUTZTc2fSAbsBQVVfeXFMT0VZYWQ3VFNieWhVcTIyWXlUellaT0hfRkhweFV0UlB2Q2JaQl9OMHp6V1E5LWZmQXRyV25nTHRHMUxROVppY2tqdkxfaGZfV2p1VWh5aGV6T2U5blp6YTRmbW5QOVJkOGI0eUJoU2J0amI1a01BWDd0Z3FjUE1LQjB1dzhKeGEyTE9HVU1ObHFuaW5hR2ZDbF9TeWp5WGRsTENCWEFrT2JTZXRGMFM3OHdhWEJhWHo0UzFwUQ?oc=5",
    "publisher_url": null,
-   "publisher": "The Times of Israel",
-   "published": "2026-11-10T13:41:15Z",
+   "publisher": "Analytics Insight",
+   "published": "2026-11-10T16:45:00Z",
    "date": "2026-11-10",
    "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
    "entities": [
-    "anthropic"
+    "nvidia"
    ],
-   "fetched_at": "2026-11-10T15:12:18Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n0672cade8b31cf0d",
-   "title": "Anthropic Targeting to Raise Up to $64.40 Billion From IPO",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFR0dk5Gd1l0S0pJR1JXazhENnk1U21ldjFndDFVRnRfVnl6eTJnOU03RVBiYldFQUo5Wi1TUmJoUFd2M1NpUWVxNmc0TDRUckZ2cWRsTjZNRXBmbnNFck0xZVlRRDNseW1mS0lXX2ZyV2kxV1F1MGlCWWtpM3NJRWQwU1NHQmFFY2I3NmlfdVA0ODZQalV0dzhvLW1vQnkwQ1dLS2c4VHJXR3d5X2Jv?oc=5",
-   "publisher_url": null,
-   "publisher": "marketscreener.com",
-   "published": "2026-11-10T13:39:17Z",
-   "date": "2026-11-10",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-10T15:12:18Z",
+   "fetched_at": "2026-11-10T20:26:54Z",
    "matcher_version": "3.2"
   }
  ],
