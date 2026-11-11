@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T20:10:40Z",
+ "generated_at": "2026-11-11T22:48:52Z",
  "monitor": {
   "last_run": "2026-11-11T20:10:12Z",
   "sec_items": 228,
@@ -593,8 +593,8 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 6,
-     "investment": 3,
+     "order": 7,
+     "investment": 4,
      "debt": 0,
      "lease": 3,
      "vendor_financing": 0,
@@ -602,8 +602,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 23,
-    "degree_curated": 23,
+    "degree": 25,
+    "degree_curated": 25,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -616,7 +616,7 @@
     "binding_usd": 553760000000,
     "last_edge": "2026-10-30",
     "last_source": "2026-11-09",
-    "counterparties": 13,
+    "counterparties": 14,
     "inflow_total_usd": 458860000000,
     "outflow_total_usd": 94900000000,
     "top_counterparties": [
@@ -8378,6 +8378,70 @@
    }
   },
   {
+   "id": "qualcomm",
+   "name": "Qualcomm",
+   "name_zh": "高通",
+   "group": "chip",
+   "ticker": "QCOM",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 2,
+    "degree_curated": 2,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 0,
+    "last_edge": "2026-09-03",
+    "last_source": "2026-09-09",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
+   }
+  },
+  {
    "id": "related-digital",
    "name": "Related Digital",
    "name_zh": "Related Digital",
@@ -13053,6 +13117,84 @@
      "publisher": "Business Standard (Bloomberg)",
      "date": "2026-09-14",
      "title": "ICBC, HSBC among major lenders on ByteDance's $30 billion financing"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amazon-qualcomm-2026-09-ai-chips",
+   "kind": "order",
+   "subkind": "custom AI data-centre chip supply (multi-generation)",
+   "subkind_zh": "定制 AI 数据中心芯片供应（多代）",
+   "from": "amazon",
+   "to": "qualcomm",
+   "amount_usd": null,
+   "amount_text": "No committed total; purchases of Qualcomm server chips, technology, systems and manufacturing services can reach up to $60B over the warrant term to September 2036 (the level at which Amazon's warrant fully vests); initial purchase commitments not quantified",
+   "amount_text_zh": "无承诺总额；高通服务器芯片、技术、系统及制造服务的采购额在认股权证期限内（至 2036 年 9 月）最高可达 600 亿美元（即亚马逊认股权证全部归属的门槛）；初始采购承诺未量化",
+   "headline_usd": 60000000000,
+   "announced": "2026-09-03",
+   "term": "Through September 2036 (warrant term); first phase for inference",
+   "term_zh": "至 2036 年 9 月（认股权证期限）；第一阶段用于推理",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Amazon multi-generation AI chip deal with Qualcomm (up to $60B)",
+   "title_zh": "亚马逊与高通签署多代 AI 芯片协议（最高 600 亿美元）",
+   "summary_en": "Amazon agreed to buy customised Qualcomm silicon for AWS AI infrastructure, starting with inference chips and including optical links, under a multi-generation agreement; purchases can reach up to $60B through September 2036. Qualcomm gave Amazon a warrant that vests as the purchases are made (its own edge), so the $60B is a ceiling, not a commitment, and is not counted.",
+   "summary_zh": "亚马逊根据多代协议采购高通为 AWS AI 基础设施定制的芯片，首先是推理芯片，并包括光互连；至 2036 年 9 月采购额最高可达 600 亿美元。高通向亚马逊发行随采购归属的认股权证（另列为一条边），因此 600 亿美元是上限而非承诺，不计入总额。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm",
+     "publisher": "Qualcomm (SEC 8-K)",
+     "date": "2026-09-08",
+     "title": "Qualcomm Form 8-K: warrant issued to Amazon in connection with commercial arrangements with Amazon Data Services",
+     "type": "filing"
+    },
+    {
+     "url": "https://www.techtarget.com/it-infrastructure/news/366650224/Amazons-60B-Qualcomm-deal-expands-AI-inference-hardware",
+     "publisher": "TechTarget",
+     "date": "2026-09-09",
+     "title": "Amazon's $60B Qualcomm deal expands AI inference hardware",
+     "type": "news"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amazon-qualcomm-2026-09-warrant",
+   "kind": "investment",
+   "subkind": "purchase-vested warrant",
+   "subkind_zh": "随采购归属的认股权证",
+   "from": "amazon",
+   "to": "qualcomm",
+   "amount_usd": null,
+   "amount_text": "Warrant for up to 25 million Qualcomm shares at $161.26 (about $4B at the exercise price), vesting in tranches as Amazon's purchases grow; about 3.75 million shares vested at issuance on initial purchase commitments; expires September 2036",
+   "amount_text_zh": "可按每股 161.26 美元认购最多 2500 万股高通股票的认股权证（按行权价约 40 亿美元），随亚马逊采购额增加分批归属；发行时基于初始采购承诺归属约 375 万股；2036 年 9 月到期",
+   "announced": "2026-09-03",
+   "term": "Expires September 2036",
+   "term_zh": "2036 年 9 月到期",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Qualcomm warrant to Amazon tied to AI chip purchases",
+   "title_zh": "高通向亚马逊发行与 AI 芯片采购挂钩的认股权证",
+   "summary_en": "Qualcomm issued Amazon a warrant for up to 25 million shares at $161.26 that vests only as Amazon buys Qualcomm server chips, technology and manufacturing services, a circular deal tied to the up-to-$60B chip agreement (its own edge). About 3.75 million shares vested at signing.",
+   "summary_zh": "高通向亚马逊发行认股权证，可按每股 161.26 美元认购最多 2500 万股，仅随亚马逊采购高通服务器芯片、技术和制造服务而归属，是与最高 600 亿美元芯片协议（另列为一条边）挂钩的循环交易。签约时约 375 万股已归属。",
+   "distinct_from": [
+    "amazon-qualcomm-2026-09-ai-chips"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm",
+     "publisher": "Qualcomm (SEC 8-K)",
+     "date": "2026-09-08",
+     "title": "Qualcomm Form 8-K: warrant issued to Amazon in connection with commercial arrangements with Amazon Data Services",
+     "type": "filing"
+    },
+    {
+     "url": "https://aibusiness.com/data-centers/qualcomm-forges-ai-chip-deal-amazon",
+     "publisher": "AI Business",
+     "date": "2026-09-09",
+     "title": "Qualcomm Forges AI Chip Deal with Amazon",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -27516,22 +27658,22 @@
   }
  ],
  "stats": {
-  "entities": 141,
-  "edges": 419,
-  "curated_edges": 419,
+  "entities": 142,
+  "edges": 421,
+  "curated_edges": 421,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 112,
+    "count": 113,
     "usd": 1532189000000,
-    "undisclosed": 66,
+    "undisclosed": 67,
     "cancelled": 1,
     "superseded": 0
    },
    "investment": {
-    "count": 138,
+    "count": 139,
     "usd": 926383790000,
-    "undisclosed": 37,
+    "undisclosed": 38,
     "cancelled": 3,
     "superseded": 1
    },
@@ -27592,8 +27734,8 @@
   },
   "total_usd": 3986983861259,
   "contingent_usd": 183230000000,
-  "headline_usd": 1972860000000,
-  "broad_usd": 6143073861259,
+  "headline_usd": 2032860000000,
+  "broad_usd": 6203073861259,
   "by_status_usd": {
    "announced": 19200000000,
    "signed": 1945683571259,
@@ -29590,7 +29732,7 @@
    },
    {
     "month": "2026-09",
-    "count": 23,
+    "count": 25,
     "usd": 218809000000,
     "cumulative_usd": 3429695861259,
     "by_kind": {
