@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T20:46:45Z",
+ "generated_at": "2026-11-12T22:46:18Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-12, https://heyneww.github.io/GL-AI-live/",
@@ -339,9 +339,10 @@
    "from": "private-investors",
    "to": "openai",
    "amount_usd": 11000000000,
-   "amount_text": "~$11B first close at a $1.25T valuation (pre-money per The Information), per Bloomberg and The Information; the round may reach up to ~$20B in the coming weeks (the rest not counted until closed); investors not named",
-   "amount_text_zh": "据彭博和 The Information，首轮交割约 110 亿美元，估值 1.25 万亿美元（据 The Information 为投前估值）；本轮未来几周最多可能增至约 200 亿美元（其余部分完成前不计入）；投资者未披露",
+   "amount_text": "~$11B first close at a $1.25T valuation (pre-money per The Information), per Bloomberg and The Information; CNBC reported on 12 Nov that the raise reached $15B (single outlet, so the extra ~$4B is not counted yet); the round may reach up to ~$20B; investors not named",
+   "amount_text_zh": "据彭博和 The Information，首轮交割约 110 亿美元，估值 1.25 万亿美元（据 The Information 为投前估值）；CNBC 于 11 月 12 日报道融资额已达 150 亿美元（仅一家媒体报道，新增约 40 亿美元暂不计入）；本轮最多可能增至约 200 亿美元；投资者未披露",
    "announced": "2026-11-06",
+   "last_checked": "2026-11-12",
    "term": null,
    "status": "reported",
    "confidence": "reported",
@@ -3133,9 +3134,11 @@
    "subkind": "convertible senior notes",
    "from": "bond-investors",
    "to": "nebius",
-   "amount_usd": 5000000000,
-   "amount_text": "$5.0B: $3.0B 0.50% due 2030 + $2.0B 4.50% due 2034 (upsized from $4.5B; +$750M option)",
+   "amount_usd": 5750000000,
+   "amount_text": "$5.75B including the purchasers' $750M option, per Nebius's Q3 2026 shareholder letter (\"$5.75 billion of convertible notes in August\"); priced at $5.0B: $3.0B 0.50% due 2030 + $2.0B 4.50% due 2034 (upsized from $4.5B)",
+   "amount_text_zh": "据 Nebius 2026 年第三季度致股东信（“8 月发行 57.5 亿美元可转换票据”），含初始购买方 7.5 亿美元超额配售选择权共 57.5 亿美元；定价时为 50 亿美元：30 亿美元 0.50% 2030 年到期 + 20 亿美元 4.50% 2034 年到期（由 45 亿美元扩容）",
    "announced": "2026-08-19",
+   "last_checked": "2026-11-12",
    "term": "2030 and 2034",
    "status": "completed",
    "confidence": "confirmed",
@@ -3149,10 +3152,17 @@
      "publisher": "Nebius",
      "date": "2026-08-19",
      "title": "Nebius Group announces pricing of upsized private offering of $5.0 billion of convertible senior notes"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
+     "publisher": "Nebius (SEC 6-K, Q3 2026 shareholder letter)",
+     "date": "2026-11-12",
+     "title": "Nebius Q3 2026 letter to shareholders: $5.75 billion of convertible notes in August",
+     "type": "filing"
     }
    ],
    "origin": "curated",
-   "counted_usd": 5000000000,
+   "counted_usd": 5750000000,
    "contingent_usd": 0
   },
   {

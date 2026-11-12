@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T20:46:45Z",
+ "generated_at": "2026-11-12T22:46:18Z",
  "monitor": {
   "last_run": "2026-11-12T20:46:13Z",
   "sec_items": 232,
@@ -2268,7 +2268,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 616860500000,
+     "debt": 617610500000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2298,44 +2298,44 @@
      "announced": 0,
      "signed": 45050000000,
      "in_progress": 0,
-     "completed": 571810500000,
+     "completed": 572560500000,
      "reported": 0
     },
-    "confirmed_usd": 326102500000,
-    "binding_usd": 616860500000,
+    "confirmed_usd": 326852500000,
+    "binding_usd": 617610500000,
     "last_edge": "2026-11-04",
-    "last_source": "2026-11-06",
+    "last_source": "2026-11-12",
     "counterparties": 28,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 616860500000,
+    "outflow_total_usd": 617610500000,
     "top_counterparties": [
      {
       "id": "amazon",
       "usd": 113360000000,
-      "share": 0.1837692638773272
+      "share": 0.18354610227643475
      },
      {
       "id": "alphabet",
       "usd": 112330000000,
-      "share": 0.1820995184486606
+      "share": 0.1818783845158073
      },
      {
       "id": "meta",
       "usd": 80050000000,
-      "share": 0.12977002093666234
+      "share": 0.12961243372643438
      },
      {
       "id": "oracle",
       "usd": 53000000000,
-      "share": 0.08591893953333046
+      "share": 0.0858146032167523
      },
      {
       "id": "beignet-investor",
       "usd": 27300000000,
-      "share": 0.044256359419998524
+      "share": 0.04420261637391203
      }
     ],
-    "concentration_top3": 0.49563880326265014
+    "concentration_top3": 0.4950369205186764
    }
   },
   {
@@ -7228,7 +7228,7 @@
     "inflow_usd": {
      "order": 47400000000,
      "investment": 2000000000,
-     "debt": 15997500000,
+     "debt": 16747500000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -7266,44 +7266,44 @@
      "announced": 0,
      "signed": 33100000000,
      "in_progress": 20400000000,
-     "completed": 14497500000,
+     "completed": 15247500000,
      "reported": 0
     },
-    "confirmed_usd": 62997500000,
-    "binding_usd": 67997500000,
+    "confirmed_usd": 63747500000,
+    "binding_usd": 68747500000,
     "last_edge": "2026-10-22",
-    "last_source": "2026-10-22",
+    "last_source": "2026-11-12",
     "counterparties": 6,
-    "inflow_total_usd": 65397500000,
+    "inflow_total_usd": 66147500000,
     "outflow_total_usd": 2600000000,
     "top_counterparties": [
      {
       "id": "meta",
       "usd": 30000000000,
-      "share": 0.441192690907754
+      "share": 0.4363795047092622
      },
      {
       "id": "microsoft",
       "usd": 17400000000,
-      "share": 0.2558917607264973
+      "share": 0.25310011273137206
      },
      {
       "id": "bond-investors",
-      "usd": 12497500000,
-      "share": 0.18379352182065517
+      "usd": 13247500000,
+      "share": 0.192697916287865
      },
      {
       "id": "citigroup",
       "usd": 3500000000,
-      "share": 0.051472480605904626
+      "share": 0.050910942216080585
      },
      {
       "id": "bloom-energy",
       "usd": 2600000000,
-      "share": 0.03823669987867201
+      "share": 0.03781955707480272
      }
     ],
-    "concentration_top3": 0.8808779734549064
+    "concentration_top3": 0.8821775337284993
    }
   },
   {
@@ -10966,9 +10966,10 @@
    "from": "private-investors",
    "to": "openai",
    "amount_usd": 11000000000,
-   "amount_text": "~$11B first close at a $1.25T valuation (pre-money per The Information), per Bloomberg and The Information; the round may reach up to ~$20B in the coming weeks (the rest not counted until closed); investors not named",
-   "amount_text_zh": "据彭博和 The Information，首轮交割约 110 亿美元，估值 1.25 万亿美元（据 The Information 为投前估值）；本轮未来几周最多可能增至约 200 亿美元（其余部分完成前不计入）；投资者未披露",
+   "amount_text": "~$11B first close at a $1.25T valuation (pre-money per The Information), per Bloomberg and The Information; CNBC reported on 12 Nov that the raise reached $15B (single outlet, so the extra ~$4B is not counted yet); the round may reach up to ~$20B; investors not named",
+   "amount_text_zh": "据彭博和 The Information，首轮交割约 110 亿美元，估值 1.25 万亿美元（据 The Information 为投前估值）；CNBC 于 11 月 12 日报道融资额已达 150 亿美元（仅一家媒体报道，新增约 40 亿美元暂不计入）；本轮最多可能增至约 200 亿美元；投资者未披露",
    "announced": "2026-11-06",
+   "last_checked": "2026-11-12",
    "term": null,
    "status": "reported",
    "confidence": "reported",
@@ -13622,9 +13623,11 @@
    "subkind": "convertible senior notes",
    "from": "bond-investors",
    "to": "nebius",
-   "amount_usd": 5000000000,
-   "amount_text": "$5.0B: $3.0B 0.50% due 2030 + $2.0B 4.50% due 2034 (upsized from $4.5B; +$750M option)",
+   "amount_usd": 5750000000,
+   "amount_text": "$5.75B including the purchasers' $750M option, per Nebius's Q3 2026 shareholder letter (\"$5.75 billion of convertible notes in August\"); priced at $5.0B: $3.0B 0.50% due 2030 + $2.0B 4.50% due 2034 (upsized from $4.5B)",
+   "amount_text_zh": "据 Nebius 2026 年第三季度致股东信（“8 月发行 57.5 亿美元可转换票据”），含初始购买方 7.5 亿美元超额配售选择权共 57.5 亿美元；定价时为 50 亿美元：30 亿美元 0.50% 2030 年到期 + 20 亿美元 4.50% 2034 年到期（由 45 亿美元扩容）",
    "announced": "2026-08-19",
+   "last_checked": "2026-11-12",
    "term": "2030 and 2034",
    "status": "completed",
    "confidence": "confirmed",
@@ -13638,6 +13641,13 @@
      "publisher": "Nebius",
      "date": "2026-08-19",
      "title": "Nebius Group announces pricing of upsized private offering of $5.0 billion of convertible senior notes"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
+     "publisher": "Nebius (SEC 6-K, Q3 2026 shareholder letter)",
+     "date": "2026-11-12",
+     "title": "Nebius Q3 2026 letter to shareholders: $5.75 billion of convertible notes in August",
+     "type": "filing"
     }
    ],
    "origin": "curated"
@@ -27692,7 +27702,7 @@
    },
    "debt": {
     "count": 131,
-    "usd": 1149235071259,
+    "usd": 1149985071259,
     "undisclosed": 5,
     "cancelled": 0,
     "superseded": 4
@@ -27745,20 +27755,20 @@
     "usd": 0
    }
   },
-  "total_usd": 3986983861259,
+  "total_usd": 3987733861259,
   "contingent_usd": 183230000000,
   "headline_usd": 2032860000000,
-  "broad_usd": 6203073861259,
+  "broad_usd": 6203823861259,
   "by_status_usd": {
    "announced": 19200000000,
    "signed": 1945683571259,
    "in_progress": 541636000000,
-   "completed": 1378364290000,
+   "completed": 1379114290000,
    "reported": 102100000000
   },
-  "confirmed_usd": 2606866861259,
+  "confirmed_usd": 2607616861259,
   "reported_usd": 1380117000000,
-  "binding_usd": 3865683861259,
+  "binding_usd": 3866433861259,
   "announced_usd": 121300000000,
   "circular": [
    {
@@ -29732,12 +29742,12 @@
    {
     "month": "2026-08",
     "count": 21,
-    "usd": 166449000000,
-    "cumulative_usd": 3210886861259,
+    "usd": 167199000000,
+    "cumulative_usd": 3211636861259,
     "by_kind": {
      "order": 54600000000,
      "investment": 38100000000,
-     "debt": 59949000000,
+     "debt": 60699000000,
      "lease": 13800000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -29747,7 +29757,7 @@
     "month": "2026-09",
     "count": 25,
     "usd": 218809000000,
-    "cumulative_usd": 3429695861259,
+    "cumulative_usd": 3430445861259,
     "by_kind": {
      "order": 68300000000,
      "investment": 45709000000,
@@ -29761,7 +29771,7 @@
     "month": "2026-10",
     "count": 28,
     "usd": 468538000000,
-    "cumulative_usd": 3898233861259,
+    "cumulative_usd": 3898983861259,
     "by_kind": {
      "order": 4400000000,
      "investment": 59200000000,
@@ -29775,7 +29785,7 @@
     "month": "2026-11",
     "count": 15,
     "usd": 88750000000,
-    "cumulative_usd": 3986983861259,
+    "cumulative_usd": 3987733861259,
     "by_kind": {
      "order": 0,
      "investment": 47000000000,
