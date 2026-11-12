@@ -1,41 +1,41 @@
 {
- "generated_at": "2026-11-12T20:23:20Z",
+ "generated_at": "2026-11-12T20:46:45Z",
  "monitor": {
-  "last_run": "2026-11-12T20:22:47Z",
+  "last_run": "2026-11-12T20:46:13Z",
   "sec_items": 232,
-  "news_items": 3272,
+  "news_items": 3291,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-12T20:22:47Z",
+    "last_run": "2026-11-12T20:46:13Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
     "matched": 195,
-    "added": 5,
+    "added": 0,
     "total": 232,
     "fulltext_hits": 9,
     "fulltext_errors": [],
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-12T20:22:47Z",
+    "last_run": "2026-11-12T20:46:13Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 537,
-    "added": 205,
+    "items": 534,
+    "added": 19,
     "evicted": 0,
-    "unread": 272,
+    "unread": 291,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3272,
+    "total": 3291,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-12T20:22:47Z",
+    "last_run": "2026-11-12T20:46:13Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -25463,6 +25463,39 @@
  ],
  "news": [
   {
+   "id": "nb7f8e77b73263a9d",
+   "title": "SpaceX could announce $1.5 trillion Tesla merger in December: report",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSDM0VnJpVWNzY1NFa0p0WVdYSS1HSndYejZLamRmd1d0ZlQ0cmtWMkFQeDVuLUJGcVR3TU9sS1pkQjRHdlRVZWRQaTFEQW1aejhybmtlUlVIX3BLNklQWnBqM1FPdExTTWxtQmJXdlk1N09pRk1RMmdCalpJOFBvcHFCY0dwVEU?oc=5",
+   "publisher_url": null,
+   "publisher": "Electrek",
+   "published": "2026-11-12T20:39:00Z",
+   "date": "2026-11-12",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "spacex",
+    "tesla"
+   ],
+   "fetched_at": "2026-11-12T20:46:32Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "naccaca7ba6b30b19",
+   "title": "Nvidia Moves Beyond Chips To Finance The AI Industry",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQN21wdUhvVnFVeU9laVZpZVRHdnJTcFBBUGlhLTdHWU5ZZkozY3g2alVBbTR5MTdMUWdFRG9nVy1YNEVSZkxkNGRLanhzd3ducEk0alZib2pmYzBVd2lFOFFYUFlRMlZ1OFBqTlVNTzBnSVlnNF96VkZVWjVYb0ctSkE0Rk52ZGhqTk9zbVEteU5GR0VSMElNZEN0TXNkY0lCeUJ3eFRCc1B5cHFYUW5VOHUzZnNTanAxUkdSZFVCbkw4UHQySmo0d3ZDNnhzcDgtOVk4MUxFS00waU1TaUwwSXp2djU?oc=5",
+   "publisher_url": null,
+   "publisher": "Forbes Middle East",
+   "published": "2026-11-12T20:30:15Z",
+   "date": "2026-11-12",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-12T20:46:32Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n1ed8533ddbe427b2",
    "title": "Anthropic’s IPO Filing Named 7 Verticals; Claude Adds an 8th",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYVk4QVZaQUFHQm14a0JlVTVRMjZSN3h3Ri1ha3RrNGRxd1lET0JoMW9KQmhGRjdLdk9YY1hjZEdJN1JHaUx0Yzk1bktDbXlaa3o1a1BCeTZ2M1dpcHk0MUJOSE1nNFNpQmxDRkZmQWQtN3FYaWMyLUFpMGxCSk1GSEJiLXJ6Qmg0Y1lGVw?oc=5",
@@ -25476,6 +25509,22 @@
     "anthropic"
    ],
    "fetched_at": "2026-11-12T20:23:04Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "naf51b3d322c08656",
+   "title": "Anthropic set to skew U.S. pension exposure to AI post-IPO",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXJsdjgtdEVsLTk2V21kQUlDNGhVbFVJaV9iUWZOYUFRQl9nUklYWWJyd0xfejNmUmh3S1lzRExGMGt0Qzl5NXZOd0FJRzdxRWVvZko1U2tJVkIxLVZ6M0gwcHpPSnhxVTc2bGllNWE2M1FaQVN6TUFqMG8xMTFKTnlPQmlhZnZISk9rVmgtYjJoMlgtMDEyQnYzT0pIbHAzLTktN05R?oc=5",
+   "publisher_url": null,
+   "publisher": "Alternatives Watch",
+   "published": "2026-11-12T20:13:59Z",
+   "date": "2026-11-12",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-12T20:46:32Z",
    "matcher_version": "3.2"
   },
   {
@@ -25553,6 +25602,22 @@
    "query": "AI bond sale hyperscaler when:2d",
    "entities": [],
    "fetched_at": "2026-11-12T20:23:04Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n285dd159a7b2cf3a",
+   "title": "SpaceX Plans $74 Billion Investment to Build Data Centers in Texas and Arizona",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50Ym5PVmtVcmozcmwzTDBvSVZuSUVuanV6R3FNY0lrQm5GZ3pYZk1TQThWd2xERm9xUWs0NEdpTnpmSEFsOG9NT1hxdHVOb2xUSVNjeWhCckR3eGxoLTlSN2VyTV9EQXJ5VDJsM3Vxalp2NF9oTFE?oc=5",
+   "publisher_url": null,
+   "publisher": "The New York Times",
+   "published": "2026-11-12T19:29:19Z",
+   "date": "2026-11-12",
+   "lang": "en-US",
+   "query": "AI data center financing debt when:2d",
+   "entities": [
+    "spacex"
+   ],
+   "fetched_at": "2026-11-12T20:46:32Z",
    "matcher_version": "3.2"
   },
   {
@@ -25836,6 +25901,20 @@
     "cipher-mining"
    ],
    "fetched_at": "2026-11-12T20:23:04Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n32432ea700ac09b5",
+   "title": "Hyperscale Data Sells Remaining Bitcoin Reserve to Fund Michigan AI Buildout",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSHVpR09nai1fQjJvWXJIbGJ1Sjd3TXltc3BBdWlDYnAwWWU4a3NiNDNDRzZkdTlkT3ZmMGQ2SnRyMlV0d05yTWRUZDJXUTE2LVNrZGJWeFZsY1pHR25pZVJwQjRnSDAtSkdHc0N1aTVyUXZBV2hNSWw5TlJFWGVSMDFxUXlYVWxBLVdHN1JJZHY?oc=5",
+   "publisher_url": null,
+   "publisher": "newsbtc.com",
+   "published": "2026-11-12T18:00:00Z",
+   "date": "2026-11-12",
+   "lang": "en-US",
+   "query": "AI bond sale hyperscaler when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-12T20:46:32Z",
    "matcher_version": "3.2"
   },
   {
@@ -26337,88 +26416,6 @@
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [
     "anthropic"
-   ],
-   "fetched_at": "2026-11-12T20:23:04Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n99cc770ae5e8d372",
-   "title": "I waded through 443 pages to understand if I should buy Anthropic stock. Here’s what I found out",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ1NYSjQxdndLdWZzZGZ1UFlpQy1MWFI3SS1lVHJHTkhXbUdWM0ZDdFhuck5MU0RwX014dXNFc2xUZVBTMmoxTGNyY05aTXFSWVJhWlNuYjhIMExoc0s3TThvaFphQzJSaHBlVnUyMFdmNkZERW1UNmlRUkV5dmxHVk1vbnZwUQ?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance UK",
-   "published": "2026-11-12T16:31:25Z",
-   "date": "2026-11-12",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-12T20:23:04Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nf049fd875e8f7c0a",
-   "title": "BTCC Exchange Launches Anthropic Pre-IPO Trading Campaign with 0 Fees and an AI Tech Prize Pool",
-   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPSWw2UmlBbFVoVW1FUkhEUm05S1Q0VU90bFozWFZVekFmNXVZUVhSWWdwQ05Jd1RpUFltbkVfUVRrZ1dscFJNa21sSlhhSnM3bU80eE5ERE45LTBkeGVxT1ZIY2ZNcXN0SEZLUVdOaUtOd205LW9iNFJ4RDZDaFhPZUl2Vm94RFB0c3dDZF8xdDN3VXN2amlBb3JvR2dnRjBOc3gzNlR6cFhVdnZPd3RPcEpJeHN2WGtIOTlrVWRuNnAxTXkybEowQkEtbUFfVEt4VUZKbS1DaTVwNE1BUXlqRVp2Z1BOLWdHVzQweHlkcEVrTnNTRXdlS0dCNFRVVWQ4cHhIcnU3V0h3U01QSTlpSVdUZHF0VjFkYkFIYmJHVWg?oc=5",
-   "publisher_url": null,
-   "publisher": "The Daily Tribune News",
-   "published": "2026-11-12T16:31:00Z",
-   "date": "2026-11-12",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-12T20:23:04Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "na68cb919bf9e8c4e",
-   "title": "SpaceX-Tesla merger: 3 things to know about Musk's control and the deal's size",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9odWUxZmlWMzNMajBWYXZ6M3ZsWUVMMUM0dlh4WnVjN3ljZVhRM0laWm1vc2VPZ1g4N0xEOFhqbDVwQ00wdjBwSlVyV0dvTzdtdFktRndqMnBLUHVmcGNCdWY3N3Zlak9i?oc=5",
-   "publisher_url": null,
-   "publisher": "qz.com",
-   "published": "2026-11-12T16:26:58Z",
-   "date": "2026-11-12",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:2d",
-   "entities": [
-    "spacex",
-    "tesla"
-   ],
-   "fetched_at": "2026-11-12T20:23:04Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n9b7743941b590021",
-   "title": "DeepSeek Got Investment Tied to Megaspeed Case, Report Says",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSEt5cF9BeXdLSE5iM2NnZDFpVVp3SVdzczFLMXU1YmJ4Q3NMNnZjWUZETHpwWnRGYnBETEpxME91VFNMaHNLZXlJREpXSHluajdtRVBQUjlOZUtoYjdtbkRGam9pUTJ3RU1nVWF5ZllSdnV5X2Y5bEhvRXlfRTZqSXNPeFk0SXZ2dXBVNWJoNA?oc=5",
-   "publisher_url": null,
-   "publisher": "FourWeekMBA",
-   "published": "2026-11-12T16:20:37Z",
-   "date": "2026-11-12",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [
-    "deepseek"
-   ],
-   "fetched_at": "2026-11-12T20:23:04Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n0b957ed17fe52b9a",
-   "title": "Nvidia’s $10 Billion Anthropic IPO Pledge in Focus With CEO Exit",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMmswNUFEV3ZLRWJCVzZCQ244VzJlYVpUS3VTc29EVTNhckRQOUdTRWJaRHE0VkNDNkt1aGNoQ09STFhxUlV3YWxHNVJCWkhQRURFLW5FWkp6NjlYN1dWa0hnZ0hwZXZtOGJtUDZLMFdKWmhVMll1SnVTSjF0TF90a1h5S09QczhPV3lIX285ZUdHOXRYMnU5OHVrbjV2TS1pTVgxd0hZOUlwZ3JSclhDTzdUV28?oc=5",
-   "publisher_url": null,
-   "publisher": "Bloomberg.com",
-   "published": "2026-11-12T16:19:44Z",
-   "date": "2026-11-12",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic",
-    "nvidia"
    ],
    "fetched_at": "2026-11-12T20:23:04Z",
    "matcher_version": "3.2"
