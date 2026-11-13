@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T20:28:27Z",
+ "generated_at": "2026-11-13T22:45:42Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-13, https://heyneww.github.io/GL-AI-live/",
@@ -1671,7 +1671,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 132730000000,
+     "debt": 137180000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1687,58 +1687,58 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 7,
+     "debt": 10,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 7,
-    "degree_curated": 7,
+    "degree": 10,
+    "degree_curated": 10,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 132730000000,
+     "signed": 137180000000,
      "in_progress": 0,
      "completed": 0,
      "reported": 0
     },
-    "confirmed_usd": 93000000000,
-    "binding_usd": 132730000000,
+    "confirmed_usd": 97450000000,
+    "binding_usd": 137180000000,
     "last_edge": "2026-10-30",
     "last_source": "2026-11-12",
-    "counterparties": 7,
+    "counterparties": 8,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 132730000000,
+    "outflow_total_usd": 137180000000,
     "top_counterparties": [
      {
       "id": "amazon",
       "usd": 80000000000,
-      "share": 0.602727341219016
+      "share": 0.583175389998542
      },
      {
       "id": "softbank",
       "usd": 25000000000,
-      "share": 0.1883522941309425
+      "share": 0.1822423093745444
      },
      {
       "id": "bytedance",
       "usd": 10800000000,
-      "share": 0.08136819106456716
+      "share": 0.07872867764980318
      },
      {
       "id": "oracle",
       "usd": 10000000000,
-      "share": 0.075340917652377
+      "share": 0.07289692374981775
      },
      {
-      "id": "zankore",
-      "usd": 3100000000,
-      "share": 0.023355684472236873
+      "id": "nscale",
+      "usd": 4450000000,
+      "share": 0.0324391310686689
      }
     ],
-    "concentration_top3": 0.8724478264145257
+    "concentration_top3": 0.8441463770228896
    }
   },
   {
@@ -3912,7 +3912,7 @@
      "order": 1600000000,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 2540000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -3928,7 +3928,7 @@
      "order": 1,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -3942,28 +3942,33 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 1600000000,
+     "signed": 4140000000,
      "in_progress": 0,
      "completed": 0,
      "reported": 0
     },
-    "confirmed_usd": 1600000000,
-    "binding_usd": 1600000000,
+    "confirmed_usd": 4140000000,
+    "binding_usd": 4140000000,
     "last_edge": "2026-05-19",
-    "last_source": "2026-05-27",
-    "counterparties": 1,
-    "inflow_total_usd": 1600000000,
+    "last_source": "2026-11-12",
+    "counterparties": 2,
+    "inflow_total_usd": 4140000000,
     "outflow_total_usd": 0,
     "top_counterparties": [
      {
+      "id": "nscale",
+      "usd": 2540000000,
+      "share": 0.6135265700483091
+     },
+     {
       "id": "iren",
       "usd": 1600000000,
-      "share": 1.0
+      "share": 0.3864734299516908
      }
     ],
     "concentration_top3": 1.0
@@ -7480,7 +7485,7 @@
     "inflow_usd": {
      "order": 44600000000,
      "investment": 3000000000,
-     "debt": 2360000000,
+     "debt": 6810000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -7489,14 +7494,14 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 2540000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "inflow_count": {
      "order": 2,
      "investment": 2,
-     "debt": 1,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -7505,47 +7510,57 @@
      "order": 0,
      "investment": 1,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 6,
-    "degree_curated": 6,
+    "degree": 10,
+    "degree_curated": 10,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 45600000000,
+     "signed": 52590000000,
      "in_progress": 0,
      "completed": 4360000000,
      "reported": 0
     },
-    "confirmed_usd": 47960000000,
-    "binding_usd": 49960000000,
+    "confirmed_usd": 54950000000,
+    "binding_usd": 56950000000,
     "last_edge": "2026-09-01",
     "last_source": "2026-11-12",
-    "counterparties": 5,
-    "inflow_total_usd": 49960000000,
-    "outflow_total_usd": 0,
+    "counterparties": 7,
+    "inflow_total_usd": 54410000000,
+    "outflow_total_usd": 2540000000,
     "top_counterparties": [
      {
       "id": "anthropic",
       "usd": 44600000000,
-      "share": 0.8927141713370697
+      "share": 0.7831431079894644
+     },
+     {
+      "id": "bank-lenders",
+      "usd": 4450000000,
+      "share": 0.0781387181738367
      },
      {
       "id": "private-investors",
       "usd": 4360000000,
-      "share": 0.08726981585268215
+      "share": 0.076558384547849
+     },
+     {
+      "id": "dell",
+      "usd": 2540000000,
+      "share": 0.04460052677787533
      },
      {
       "id": "nvidia",
       "usd": 1000000000,
-      "share": 0.020016012810248198
+      "share": 0.01755926251097454
      }
     ],
-    "concentration_top3": 1.0
+    "concentration_top3": 0.9378402107111501
    }
   },
   {

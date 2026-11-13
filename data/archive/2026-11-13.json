@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T20:28:27Z",
+ "generated_at": "2026-11-13T22:45:42Z",
  "monitor": {
   "last_run": "2026-11-13T20:27:53Z",
   "sec_items": 238,
@@ -1712,7 +1712,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 132730000000,
+     "debt": 137180000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1728,58 +1728,58 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 7,
+     "debt": 10,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 7,
-    "degree_curated": 7,
+    "degree": 10,
+    "degree_curated": 10,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 132730000000,
+     "signed": 137180000000,
      "in_progress": 0,
      "completed": 0,
      "reported": 0
     },
-    "confirmed_usd": 93000000000,
-    "binding_usd": 132730000000,
+    "confirmed_usd": 97450000000,
+    "binding_usd": 137180000000,
     "last_edge": "2026-10-30",
     "last_source": "2026-11-12",
-    "counterparties": 7,
+    "counterparties": 8,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 132730000000,
+    "outflow_total_usd": 137180000000,
     "top_counterparties": [
      {
       "id": "amazon",
       "usd": 80000000000,
-      "share": 0.602727341219016
+      "share": 0.583175389998542
      },
      {
       "id": "softbank",
       "usd": 25000000000,
-      "share": 0.1883522941309425
+      "share": 0.1822423093745444
      },
      {
       "id": "bytedance",
       "usd": 10800000000,
-      "share": 0.08136819106456716
+      "share": 0.07872867764980318
      },
      {
       "id": "oracle",
       "usd": 10000000000,
-      "share": 0.075340917652377
+      "share": 0.07289692374981775
      },
      {
-      "id": "zankore",
-      "usd": 3100000000,
-      "share": 0.023355684472236873
+      "id": "nscale",
+      "usd": 4450000000,
+      "share": 0.0324391310686689
      }
     ],
-    "concentration_top3": 0.8724478264145257
+    "concentration_top3": 0.8441463770228896
    }
   },
   {
@@ -3953,7 +3953,7 @@
      "order": 1600000000,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 2540000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -3969,7 +3969,7 @@
      "order": 1,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -3983,28 +3983,33 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 1600000000,
+     "signed": 4140000000,
      "in_progress": 0,
      "completed": 0,
      "reported": 0
     },
-    "confirmed_usd": 1600000000,
-    "binding_usd": 1600000000,
+    "confirmed_usd": 4140000000,
+    "binding_usd": 4140000000,
     "last_edge": "2026-05-19",
-    "last_source": "2026-05-27",
-    "counterparties": 1,
-    "inflow_total_usd": 1600000000,
+    "last_source": "2026-11-12",
+    "counterparties": 2,
+    "inflow_total_usd": 4140000000,
     "outflow_total_usd": 0,
     "top_counterparties": [
      {
+      "id": "nscale",
+      "usd": 2540000000,
+      "share": 0.6135265700483091
+     },
+     {
       "id": "iren",
       "usd": 1600000000,
-      "share": 1.0
+      "share": 0.3864734299516908
      }
     ],
     "concentration_top3": 1.0
@@ -7521,7 +7526,7 @@
     "inflow_usd": {
      "order": 44600000000,
      "investment": 3000000000,
-     "debt": 2360000000,
+     "debt": 6810000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -7530,14 +7535,14 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 2540000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "inflow_count": {
      "order": 2,
      "investment": 2,
-     "debt": 1,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -7546,47 +7551,57 @@
      "order": 0,
      "investment": 1,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 6,
-    "degree_curated": 6,
+    "degree": 10,
+    "degree_curated": 10,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 45600000000,
+     "signed": 52590000000,
      "in_progress": 0,
      "completed": 4360000000,
      "reported": 0
     },
-    "confirmed_usd": 47960000000,
-    "binding_usd": 49960000000,
+    "confirmed_usd": 54950000000,
+    "binding_usd": 56950000000,
     "last_edge": "2026-09-01",
     "last_source": "2026-11-12",
-    "counterparties": 5,
-    "inflow_total_usd": 49960000000,
-    "outflow_total_usd": 0,
+    "counterparties": 7,
+    "inflow_total_usd": 54410000000,
+    "outflow_total_usd": 2540000000,
     "top_counterparties": [
      {
       "id": "anthropic",
       "usd": 44600000000,
-      "share": 0.8927141713370697
+      "share": 0.7831431079894644
+     },
+     {
+      "id": "bank-lenders",
+      "usd": 4450000000,
+      "share": 0.0781387181738367
      },
      {
       "id": "private-investors",
       "usd": 4360000000,
-      "share": 0.08726981585268215
+      "share": 0.076558384547849
+     },
+     {
+      "id": "dell",
+      "usd": 2540000000,
+      "share": 0.04460052677787533
      },
      {
       "id": "nvidia",
       "usd": 1000000000,
-      "share": 0.020016012810248198
+      "share": 0.01755926251097454
      }
     ],
-    "concentration_top3": 1.0
+    "concentration_top3": 0.9378402107111501
    }
   },
   {
@@ -14313,6 +14328,70 @@
    "origin": "curated"
   },
   {
+   "id": "bank-lenders-nscale-2026-08-north-carolina-gpu-facility",
+   "kind": "debt",
+   "subkind": "delayed-draw GPU loan facility (fixed and floating rate)",
+   "subkind_zh": "延迟提取 GPU 贷款（固定及浮动利率）",
+   "from": "bank-lenders",
+   "to": "nscale",
+   "amount_usd": 1200000000,
+   "amount_text": "$1.2B: $370.0M fixed-rate and $830.0M floating-rate delayed-draw loan commitments (the \"North Carolina GPU Facility\"), August 2026 (day not given), per Nscale's S-1/A; lenders not named",
+   "amount_text_zh": "据 Nscale 修订版 S-1，2026 年 8 月（具体日期未披露）签署 12 亿美元延迟提取贷款承诺（“North Carolina GPU 融资”）：固定利率 3.7 亿美元、浮动利率 8.3 亿美元；贷款方未披露",
+   "announced": "2026-08-01",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Nscale $1.2B North Carolina GPU facility",
+   "title_zh": "Nscale 12 亿美元 North Carolina GPU 贷款",
+   "summary_en": "In August 2026 Nscale signed a $1.2B delayed-draw GPU loan facility for its North Carolina deployment, split between fixed- and floating-rate commitments, according to its amended IPO filing; the lenders are not named.",
+   "summary_zh": "据 Nscale 修订版 IPO 文件，Nscale 于 2026 年 8 月为其北卡罗来纳部署签署 12 亿美元延迟提取 GPU 贷款，分为固定利率和浮动利率两部分；贷款方未披露。",
+   "distinct_from": [
+    "bank-lenders-nscale-2026-08-ward-county-gpu-facility"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+     "publisher": "Nscale (SEC S-1/A)",
+     "date": "2026-11-12",
+     "title": "Nscale plc Form S-1/A: North Carolina GPU Facility (August 2026, day not given)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bank-lenders-nscale-2026-08-ward-county-gpu-facility",
+   "kind": "debt",
+   "subkind": "delayed-draw GPU loan facility (fixed and floating rate)",
+   "subkind_zh": "延迟提取 GPU 贷款（固定及浮动利率）",
+   "from": "bank-lenders",
+   "to": "nscale",
+   "amount_usd": 1850000000,
+   "amount_text": "$1.85B: $630.0M fixed-rate and $1.22B floating-rate delayed-draw loan commitments (the \"Ward County GPU Facility\"), August 2026 (day not given), per Nscale's S-1/A; lenders not named",
+   "amount_text_zh": "据 Nscale 修订版 S-1，2026 年 8 月（具体日期未披露）签署 18.5 亿美元延迟提取贷款承诺（“Ward County GPU 融资”）：固定利率 6.3 亿美元、浮动利率 12.2 亿美元；贷款方未披露",
+   "announced": "2026-08-01",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Nscale $1.85B Ward County GPU facility",
+   "title_zh": "Nscale 18.5 亿美元 Ward County GPU 贷款",
+   "summary_en": "In August 2026 Nscale signed a $1.85B delayed-draw GPU loan facility for its Ward County, Texas site, split between fixed- and floating-rate commitments, according to its amended IPO filing; the lenders are not named.",
+   "summary_zh": "据 Nscale 修订版 IPO 文件，Nscale 于 2026 年 8 月为其得州 Ward County 站点签署 18.5 亿美元延迟提取 GPU 贷款，分为固定利率和浮动利率两部分；贷款方未披露。",
+   "distinct_from": [
+    "bank-lenders-nscale-2026-08-north-carolina-gpu-facility"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+     "publisher": "Nscale (SEC S-1/A)",
+     "date": "2026-11-12",
+     "title": "Nscale plc Form S-1/A: Ward County GPU Facility (August 2026, day not given)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "anthropic-nexus-data-centers-2026-07-hubbard-leases",
    "kind": "lease",
    "subkind": "AI data-centre leases (campus with on-site gas power)",
@@ -17744,6 +17823,35 @@
    "origin": "curated"
   },
   {
+   "id": "nscale-dell-2026-04-equipment-leases",
+   "kind": "lease",
+   "subkind": "equipment lease financing (Dell Financial Services framework)",
+   "subkind_zh": "设备租赁融资（戴尔金融服务框架协议）",
+   "from": "nscale",
+   "to": "dell",
+   "amount_usd": 2540000000,
+   "amount_text": "About $2.54B of initial-term rent as of 4 Sep 2026 under two Global Framework Agreements with Dell Financial Services as funder (April 2026, day not given), per Nscale's S-1/A",
+   "amount_text_zh": "据 Nscale 修订版 S-1，截至 2026 年 9 月 4 日，根据与作为出资方的戴尔金融服务签署的两份全球框架协议（2026 年 4 月，具体日期未披露），初始期限租金约 25.4 亿美元",
+   "announced": "2026-04-01",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Nscale leases computing equipment from Dell Financial Services (~$2.54B rent)",
+   "title_zh": "Nscale 向戴尔金融服务租赁计算设备（租金约 25.4 亿美元）",
+   "summary_en": "In April 2026 Nscale signed two Global Framework Agreements with Dell Financial Services, Dell's financing arm, which funds computing and data-centre equipment that Nscale leases; initial-term rent under them reached about $2.54B by 4 September 2026, according to Nscale's amended IPO filing.",
+   "summary_zh": "据 Nscale 修订版 IPO 文件，Nscale 于 2026 年 4 月与戴尔旗下融资部门戴尔金融服务签署两份全球框架协议，由其出资购置计算和数据中心设备并租给 Nscale；截至 2026 年 9 月 4 日，相关初始期限租金约 25.4 亿美元。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+     "publisher": "Nscale (SEC S-1/A)",
+     "date": "2026-11-12",
+     "title": "Nscale plc Form S-1/A: DFS Framework Agreements (April 2026, day not given)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "private-investors-openai-2026-03-round-extension",
    "kind": "investment",
    "subkind": "equity funding round (extension)",
@@ -19225,6 +19333,35 @@
      "publisher": "The Guardian via Yahoo",
      "date": "2026-02-02",
      "title": "Elon Musk merges SpaceX with xAI at $1.25tn valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bank-lenders-nscale-2026-02-gpu-financing-facility",
+   "kind": "debt",
+   "subkind": "senior secured delayed-draw term loan (GPU financing)",
+   "subkind_zh": "优先担保延迟提取定期贷款（GPU 融资）",
+   "from": "bank-lenders",
+   "to": "nscale",
+   "amount_usd": 1400000000,
+   "amount_text": "Aggregate commitments of about $1.4B under a senior secured delayed-draw term loan (the \"GPU Financing Facility\"), entered in February 2026 (day not given), per Nscale's S-1/A; lenders not named",
+   "amount_text_zh": "据 Nscale 修订版 S-1，2026 年 2 月（具体日期未披露）签署的优先担保延迟提取定期贷款（“GPU 融资安排”）承诺总额约 14 亿美元；贷款方未披露",
+   "announced": "2026-02-01",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Nscale $1.4B GPU financing facility",
+   "title_zh": "Nscale 14 亿美元 GPU 融资安排",
+   "summary_en": "Nscale entered into a senior secured delayed-draw term loan facility with about $1.4B of commitments in February 2026 to finance GPUs, according to its amended IPO filing; the filing does not name the lenders.",
+   "summary_zh": "据 Nscale 修订版 IPO 文件，Nscale 于 2026 年 2 月签署承诺额约 14 亿美元的优先担保延迟提取定期贷款，用于 GPU 融资；文件未披露贷款方。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+     "publisher": "Nscale (SEC S-1/A)",
+     "date": "2026-11-12",
+     "title": "Nscale plc Form S-1/A: GPU Financing Facility (February 2026, day not given)",
+     "type": "filing"
     }
    ],
    "origin": "curated"
@@ -25679,8 +25816,8 @@
  ],
  "stats": {
   "entities": 143,
-  "edges": 425,
-  "curated_edges": 425,
+  "edges": 429,
+  "curated_edges": 429,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -25698,15 +25835,15 @@
     "superseded": 1
    },
    "debt": {
-    "count": 133,
-    "usd": 1158867071259,
+    "count": 136,
+    "usd": 1163317071259,
     "undisclosed": 4,
     "cancelled": 0,
     "superseded": 4
    },
    "lease": {
-    "count": 28,
-    "usd": 337176000000,
+    "count": 29,
+    "usd": 339716000000,
     "undisclosed": 8,
     "cancelled": 0,
     "superseded": 0
@@ -25752,20 +25889,20 @@
     "usd": 0
    }
   },
-  "total_usd": 3997615861259,
+  "total_usd": 4004605861259,
   "contingent_usd": 183230000000,
   "headline_usd": 2031010000000,
-  "broad_usd": 6211855861259,
+  "broad_usd": 6218845861259,
   "by_status_usd": {
    "announced": 19200000000,
-   "signed": 1949683571259,
+   "signed": 1956673571259,
    "in_progress": 541636000000,
    "completed": 1384996290000,
    "reported": 102100000000
   },
-  "confirmed_usd": 2617498861259,
+  "confirmed_usd": 2624488861259,
   "reported_usd": 1380117000000,
-  "binding_usd": 3876315861259,
+  "binding_usd": 3883305861259,
   "announced_usd": 121300000000,
   "circular": [
    {
@@ -27654,13 +27791,13 @@
    },
    {
     "month": "2026-02",
-    "count": 19,
-    "usd": 308300000000,
-    "cumulative_usd": 1750915571259,
+    "count": 20,
+    "usd": 309700000000,
+    "cumulative_usd": 1752315571259,
     "by_kind": {
      "order": 101400000000,
      "investment": 138450000000,
-     "debt": 68450000000,
+     "debt": 69850000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -27670,7 +27807,7 @@
     "month": "2026-03",
     "count": 23,
     "usd": 254917500000,
-    "cumulative_usd": 2005833071259,
+    "cumulative_usd": 2007233071259,
     "by_kind": {
      "order": 70800000000,
      "investment": 20000000000,
@@ -27682,14 +27819,14 @@
    },
    {
     "month": "2026-04",
-    "count": 22,
-    "usd": 378640690000,
-    "cumulative_usd": 2384473761259,
+    "count": 23,
+    "usd": 381180690000,
+    "cumulative_usd": 2388413761259,
     "by_kind": {
      "order": 258300000000,
      "investment": 81740690000,
      "debt": 38600000000,
-     "lease": 0,
+     "lease": 2540000000,
      "vendor_financing": 0,
      "guarantee": 0
     }
@@ -27698,7 +27835,7 @@
     "month": "2026-05",
     "count": 24,
     "usd": 244650000000,
-    "cumulative_usd": 2629123761259,
+    "cumulative_usd": 2633063761259,
     "by_kind": {
      "order": 128100000000,
      "investment": 64850000000,
@@ -27712,7 +27849,7 @@
     "month": "2026-06",
     "count": 20,
     "usd": 283732000000,
-    "cumulative_usd": 2912855761259,
+    "cumulative_usd": 2916795761259,
     "by_kind": {
      "order": 20000000000,
      "investment": 136200000000,
@@ -27726,7 +27863,7 @@
     "month": "2026-07",
     "count": 28,
     "usd": 138104100000,
-    "cumulative_usd": 3050959861259,
+    "cumulative_usd": 3054899861259,
     "by_kind": {
      "order": 2500000000,
      "investment": 50397100000,
@@ -27738,13 +27875,13 @@
    },
    {
     "month": "2026-08",
-    "count": 21,
-    "usd": 167199000000,
-    "cumulative_usd": 3218158861259,
+    "count": 23,
+    "usd": 170249000000,
+    "cumulative_usd": 3225148861259,
     "by_kind": {
      "order": 54600000000,
      "investment": 38100000000,
-     "debt": 60699000000,
+     "debt": 63749000000,
      "lease": 13800000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -27754,7 +27891,7 @@
     "month": "2026-09",
     "count": 27,
     "usd": 222169000000,
-    "cumulative_usd": 3440327861259,
+    "cumulative_usd": 3447317861259,
     "by_kind": {
      "order": 68300000000,
      "investment": 46709000000,
@@ -27768,7 +27905,7 @@
     "month": "2026-10",
     "count": 28,
     "usd": 468538000000,
-    "cumulative_usd": 3908865861259,
+    "cumulative_usd": 3915855861259,
     "by_kind": {
      "order": 4400000000,
      "investment": 59200000000,
@@ -27782,7 +27919,7 @@
     "month": "2026-11",
     "count": 15,
     "usd": 88750000000,
-    "cumulative_usd": 3997615861259,
+    "cumulative_usd": 4004605861259,
     "by_kind": {
      "order": 0,
      "investment": 47000000000,
