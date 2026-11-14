@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T10:52:45Z",
+ "generated_at": "2026-11-14T14:48:32Z",
  "monitor": {
   "last_run": "2026-11-14T10:52:22Z",
   "sec_items": 240,
@@ -481,7 +481,7 @@
     "inflow_usd": {
      "order": 131300000000,
      "investment": 49950000000,
-     "debt": 112330000000,
+     "debt": 116130000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -497,7 +497,7 @@
     "inflow_count": {
      "order": 8,
      "investment": 2,
-     "debt": 8,
+     "debt": 9,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -512,51 +512,51 @@
     },
     "guaranteed_out_usd": 6230000000,
     "guaranteed_in_usd": 0,
-    "degree": 36,
-    "degree_curated": 36,
+    "degree": 37,
+    "degree_curated": 37,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 142300000000,
+     "signed": 146100000000,
      "in_progress": 40000000000,
      "completed": 170030000000,
      "reported": 0
     },
     "confirmed_usd": 275250000000,
-    "binding_usd": 352330000000,
-    "last_edge": "2026-11-10",
-    "last_source": "2026-11-10",
+    "binding_usd": 356130000000,
+    "last_edge": "2026-11-12",
+    "last_source": "2026-11-13",
     "counterparties": 20,
-    "inflow_total_usd": 293580000000,
+    "inflow_total_usd": 297380000000,
     "outflow_total_usd": 58750000000,
     "top_counterparties": [
      {
       "id": "anthropic",
       "usd": 174300000000,
-      "share": 0.49470666704509975
+      "share": 0.48942801785864715
      },
      {
       "id": "bond-investors",
-      "usd": 112330000000,
-      "share": 0.31882042403428607
+      "usd": 116130000000,
+      "share": 0.32608878780220707
      },
      {
       "id": "public-equity-investors",
       "usd": 39950000000,
-      "share": 0.11338801691595947
+      "share": 0.11217813719709095
      },
      {
       "id": "berkshire-hathaway",
       "usd": 10000000000,
-      "share": 0.028382482331904747
+      "share": 0.028079633841574705
      },
      {
       "id": "meta",
       "usd": 10000000000,
-      "share": 0.028382482331904747
+      "share": 0.028079633841574705
      }
     ],
-    "concentration_top3": 0.9269151079953453
+    "concentration_top3": 0.9276949428579452
    }
   },
   {
@@ -2332,7 +2332,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 621132500000,
+     "debt": 624932500000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2348,58 +2348,58 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 74,
+     "debt": 75,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 74,
-    "degree_curated": 74,
+    "degree": 75,
+    "degree_curated": 75,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 45050000000,
+     "signed": 48850000000,
      "in_progress": 0,
      "completed": 576082500000,
      "reported": 0
     },
     "confirmed_usd": 330374500000,
-    "binding_usd": 621132500000,
-    "last_edge": "2026-11-04",
-    "last_source": "2026-11-12",
+    "binding_usd": 624932500000,
+    "last_edge": "2026-11-12",
+    "last_source": "2026-11-13",
     "counterparties": 28,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 621132500000,
+    "outflow_total_usd": 624932500000,
     "top_counterparties": [
+     {
+      "id": "alphabet",
+      "usd": 116130000000,
+      "share": 0.1858280694314986
+     },
      {
       "id": "amazon",
       "usd": 113360000000,
-      "share": 0.18250534306287305
-     },
-     {
-      "id": "alphabet",
-      "usd": 112330000000,
-      "share": 0.18084708174181838
+      "share": 0.18139559072379818
      },
      {
       "id": "meta",
       "usd": 80050000000,
-      "share": 0.128877493932454
+      "share": 0.12809383413408648
      },
      {
       "id": "oracle",
       "usd": 53000000000,
-      "share": 0.08532800972417319
+      "share": 0.08480915938921403
      },
      {
       "id": "beignet-investor",
       "usd": 27300000000,
-      "share": 0.04395197482018732
+      "share": 0.04368471794953855
      }
     ],
-    "concentration_top3": 0.49222991873714544
+    "concentration_top3": 0.49531749428938326
    }
   },
   {
@@ -10731,6 +10731,58 @@
   }
  ],
  "edges": [
+  {
+   "id": "bond-investors-alphabet-2026-11-hkd-sgd-notes",
+   "kind": "debt",
+   "subkind": "senior notes (HKD and SGD)",
+   "subkind_zh": "优先票据（港元与新加坡元）",
+   "from": "bond-investors",
+   "to": "alphabet",
+   "amount_usd": 3800000000,
+   "amount_text": "≈ US$3.8B as reported: HK$16B (≈ US$2.0B) in 3 tranches (HK$7.5B 2-year at 4.35%, HK$7B 5-year at 4.70%, HK$1.5B 10-year at 5.20%) plus S$2.28B (≈ US$1.8B) in 4 tranches (S$370M 2-year at 2.50%, S$900M 5-year at 3.00%, S$330M 10-year at 3.40%, S$680M 30-year at 3.80%); reoffer yields; upsized from a US$3B target; orders above US$7B; settlement 19 Nov 2026",
+   "amount_text_zh": "按报道约 38 亿美元：160 亿港元（约 20 亿美元）共 3 档（75 亿港元 2 年期 4.35%、70 亿港元 5 年期 4.70%、15 亿港元 10 年期 5.20%），加 22.8 亿新加坡元（约 18 亿美元）共 4 档（3.7 亿新加坡元 2 年期 2.50%、9 亿新加坡元 5 年期 3.00%、3.3 亿新加坡元 10 年期 3.40%、6.8 亿新加坡元 30 年期 3.80%）；均为重新发售收益率；由 30 亿美元目标上调；认购超过 70 亿美元；2026 年 11 月 19 日交割",
+   "currency": "USD",
+   "amount_native": 3800000000,
+   "announced": "2026-11-12",
+   "term": "2 to 30 years",
+   "term_zh": "2 至 30 年",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Alphabet debut Hong Kong and Singapore dollar bonds (≈ US$3.8B)",
+   "title_zh": "Alphabet 首次发行港元及新加坡元债券（约 38 亿美元）",
+   "summary_en": "Alphabet priced its first Hong Kong dollar and Singapore dollar bonds on 12 November 2026, HK$16 billion and S$2.28 billion in seven tranches of 2 to 30 years, about US$3.8 billion in all, upsized from a US$3 billion target; HSBC and JPMorgan were joint global coordinators and settlement is due on 19 November. Proceeds are for general corporate purposes, which may include repaying debt.",
+   "summary_zh": "Alphabet 于 2026 年 11 月 12 日为其首批港元及新加坡元债券定价，共 160 亿港元和 22.8 亿新加坡元，分 7 档、期限 2 至 30 年，合计约 38 亿美元，由 30 亿美元目标上调；汇丰和摩根大通任联席全球协调人，定于 11 月 19 日交割。募集资金用于一般公司用途，可能包括偿还债务。",
+   "note_en": "No SEC prospectus had been filed when this was added; the dollar total is the conversion Reuters reported (HK$16B ≈ US$2B, S$2.28B ≈ US$1.8B).",
+   "note_zh": "收录时尚未向美国证交会提交发行说明书；美元合计为路透社报道的折算值（160 亿港元约合 20 亿美元，22.8 亿新加坡元约合 18 亿美元）。",
+   "sources": [
+    {
+     "url": "https://www.thestandard.com.hk/finance/article/348350/Alphabet-raises-US38-billion-in-first-Hong-Kong-Singapore-dollar-bonds",
+     "publisher": "The Standard (Reuters)",
+     "date": "2026-11-12",
+     "title": "Alphabet raises US$3.8 billion in first Hong Kong, Singapore dollar bonds",
+     "type": "news"
+    },
+    {
+     "url": "https://www.marketscreener.com/news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-ce785edbd081fe27",
+     "publisher": "MarketScreener (Reuters)",
+     "date": "2026-11-12",
+     "title": "Alphabet raises $3.8 billion in first Hong Kong, Singapore dollar bonds",
+     "type": "news"
+    },
+    {
+     "url": "https://fixedincomenews.com.au/alphabet-upsizes-debut-hong-kong-and-singapore-dollar-bonds-to-us3-8bn",
+     "publisher": "Fixed Income News Australia",
+     "date": "2026-11-13",
+     "title": "Alphabet Upsizes Debut Hong Kong and Singapore Dollar Bonds to US$3.8bn",
+     "type": "news"
+    }
+   ],
+   "distinct_from": [
+    "bond-investors-alphabet-2026-11-notes"
+   ],
+   "last_checked": "2026-11-14",
+   "origin": "curated"
+  },
   {
    "id": "alphabet-anthropic-2026-11-ipo-placement",
    "kind": "investment",
@@ -25816,8 +25868,8 @@
  ],
  "stats": {
   "entities": 143,
-  "edges": 429,
-  "curated_edges": 429,
+  "edges": 430,
+  "curated_edges": 430,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -25835,8 +25887,8 @@
     "superseded": 1
    },
    "debt": {
-    "count": 136,
-    "usd": 1163317071259,
+    "count": 137,
+    "usd": 1167117071259,
     "undisclosed": 4,
     "cancelled": 0,
     "superseded": 4
@@ -25889,20 +25941,20 @@
     "usd": 0
    }
   },
-  "total_usd": 4004605861259,
+  "total_usd": 4008405861259,
   "contingent_usd": 183230000000,
   "headline_usd": 2031010000000,
-  "broad_usd": 6218845861259,
+  "broad_usd": 6222645861259,
   "by_status_usd": {
    "announced": 19200000000,
-   "signed": 1956673571259,
+   "signed": 1960473571259,
    "in_progress": 541636000000,
    "completed": 1384996290000,
    "reported": 102100000000
   },
   "confirmed_usd": 2624488861259,
-  "reported_usd": 1380117000000,
-  "binding_usd": 3883305861259,
+  "reported_usd": 1383917000000,
+  "binding_usd": 3887105861259,
   "announced_usd": 121300000000,
   "circular": [
    {
@@ -27917,13 +27969,13 @@
    },
    {
     "month": "2026-11",
-    "count": 15,
-    "usd": 88750000000,
-    "cumulative_usd": 4004605861259,
+    "count": 16,
+    "usd": 92550000000,
+    "cumulative_usd": 4008405861259,
     "by_kind": {
      "order": 0,
      "investment": 47000000000,
-     "debt": 41750000000,
+     "debt": 45550000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -27934,7 +27986,7 @@
    "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
    "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
   },
-  "latest_announced": "2026-11-10",
+  "latest_announced": "2026-11-12",
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount that are not cancelled or superseded: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消、未被取代交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
