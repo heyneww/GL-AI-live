@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-11-15T07:48:54Z",
+ "generated_at": "2026-11-15T10:46:34Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-15, https://heyneww.github.io/GL-AI-live/",
  "stats": {
   "entities": 143,
-  "edges": 430,
-  "curated_edges": 430,
+  "edges": 432,
+  "curated_edges": 432,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 113,
+    "count": 114,
     "usd": 1532189000000,
-    "undisclosed": 67,
+    "undisclosed": 68,
     "cancelled": 1,
     "superseded": 0
    },
    "investment": {
-    "count": 141,
+    "count": 142,
     "usd": 927383790000,
-    "undisclosed": 39,
+    "undisclosed": 40,
     "cancelled": 3,
     "superseded": 1
    },
@@ -1359,6 +1359,74 @@
     "undisclosed_legs": 3
    },
    {
+    "id": "loop-amd-tsmc-openai",
+    "entities": [
+     "amd",
+     "tsmc",
+     "openai"
+    ],
+    "legs": [
+     {
+      "from": "amd",
+      "to": "tsmc",
+      "edge_ids": [
+       "amd-tsmc-2025-04-n2-arizona"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "tsmc",
+      "to": "openai",
+      "edge_ids": [
+       "tsmc-openai-2026-11-preferred-stock"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "openai",
+      "to": "amd",
+      "edge_ids": [
+       "openai-amd-2025-10-6gw",
+       "openai-amd-2025-10-warrant"
+      ],
+      "kinds": [
+       "order",
+       "investment"
+      ],
+      "usd": null,
+      "undisclosed": 2
+     }
+    ],
+    "edges": [
+     "amd-tsmc-2025-04-n2-arizona",
+     "tsmc-openai-2026-11-preferred-stock",
+     "openai-amd-2025-10-6gw",
+     "openai-amd-2025-10-warrant"
+    ],
+    "kinds": [
+     "order",
+     "investment",
+     "order",
+     "investment"
+    ],
+    "usd": [
+     null,
+     null,
+     null
+    ],
+    "min_usd": null,
+    "max_usd": null,
+    "undisclosed_legs": 3
+   },
+   {
     "id": "loop-nvidia-samsung",
     "entities": [
      "nvidia",
@@ -2106,7 +2174,7 @@
    },
    {
     "month": "2026-11",
-    "count": 16,
+    "count": 18,
     "usd": 92550000000,
     "cumulative_usd": 4008405861259,
     "by_kind": {

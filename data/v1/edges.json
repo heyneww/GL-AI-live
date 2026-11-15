@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T07:48:54Z",
+ "generated_at": "2026-11-15T10:46:34Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-15, https://heyneww.github.io/GL-AI-live/",
@@ -346,6 +346,40 @@
    "contingent_usd": 0
   },
   {
+   "id": "tsmc-openai-2026-11-preferred-stock",
+   "kind": "investment",
+   "subkind": "preferred stock purchase (board approval)",
+   "subkind_zh": "优先股认购（董事会批准）",
+   "from": "tsmc",
+   "to": "openai",
+   "amount_usd": null,
+   "amount_text": "not to exceed US$500M of OpenAI Group PBC preferred stock, per TSMC's board resolutions of 10 Nov 2026; a cap, not a purchase: the final amount, price and timing are not disclosed",
+   "amount_text_zh": "据台积电 2026 年 11 月 10 日董事会决议，认购 OpenAI Group PBC 优先股不超过 5 亿美元；此为上限而非已完成的认购，最终金额、价格和时间均未披露",
+   "announced": "2026-11-10",
+   "term": "not disclosed",
+   "term_zh": "未披露",
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "TSMC board approves up to $500M of OpenAI preferred stock",
+   "title_zh": "台积电董事会批准认购最多 5 亿美元 OpenAI 优先股",
+   "summary_en": "TSMC's board approved on 10 November 2026 an investment of no more than US$500 million to buy preferred stock of OpenAI Group PBC, alongside up to US$500 million of Anthropic shares at its IPO price. TSMC has not said when the purchase will be made, at what price, or whether it is part of OpenAI's current funding round, so the amount is not counted.",
+   "summary_zh": "台积电董事会于 2026 年 11 月 10 日批准以不超过 5 亿美元认购 OpenAI Group PBC 的优先股，同时批准按 IPO 价格认购不超过 5 亿美元的 Anthropic 股票。台积电未说明认购时间、价格，也未说明是否属于 OpenAI 本轮融资，因此金额不计入合计。",
+   "note_en": "The amount is null because the board set a ceiling, not a purchase; if the stock is bought within OpenAI's November round, that round's total already includes it.",
+   "note_zh": "董事会仅设定上限而非实际认购，故金额为空；若该认购属于 OpenAI 11 月的融资轮，其金额已包含在该轮合计中。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
+     "publisher": "TSMC (SEC 6-K)",
+     "date": "2026-11-10",
+     "title": "TSMC board resolutions: investment in OpenAI Group PBC not to exceed US$500 million to acquire preferred stock",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 0,
+   "contingent_usd": 0
+  },
+  {
    "id": "anthropic-onepwr-2026-11-gas-generators",
    "kind": "order",
    "subkind": "on-site gas generators for AI data centres (with installation)",
@@ -378,6 +412,52 @@
      "publisher": "Investing.com",
      "date": "2026-11-08",
      "title": "Anthropic reportedly strikes $3.4 billion deal for gas-fired power at data centres",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 0,
+   "contingent_usd": 0
+  },
+  {
+   "id": "alphabet-crusoe-2026-11-wyoming-site-purchase",
+   "kind": "order",
+   "subkind": "data-centre site purchase",
+   "subkind_zh": "数据中心场址收购",
+   "from": "alphabet",
+   "to": "crusoe",
+   "amount_usd": null,
+   "amount_text": "price undisclosed; the site was planned for 1.8 GW (expandable towards 10 GW); Google's separately announced ~$17B is its own planned investment in the campus, not the price paid",
+   "amount_text_zh": "价格未披露；该场址原计划容量 1.8 吉瓦（可扩展至 10 吉瓦）；谷歌另行宣布的约 170 亿美元为其自身对园区的计划投资，并非收购价",
+   "announced": "2026-11-06",
+   "term": "one-off site purchase; Google takes over development",
+   "term_zh": "一次性场址收购；由谷歌接手开发",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Google buys Crusoe's Wyoming AI data-centre site",
+   "title_zh": "谷歌收购 Crusoe 在怀俄明州的 AI 数据中心场址",
+   "summary_en": "Crusoe said on 6 November 2026 that Google has acquired its data-centre site in southeast Wyoming near Cheyenne, ending Crusoe's pre-development work (site selection, approvals and a hybrid power plan with Tallgrass Energy); the price was not disclosed. Google had announced the day before a $17 billion investment in its first Wyoming data centre in Laramie County, with a 702 MW fuel-cell plant contracted with AEP.",
+   "summary_zh": "Crusoe 于 2026 年 11 月 6 日表示，谷歌已收购其位于怀俄明州东南部夏延附近的数据中心场址，Crusoe 的前期开发工作（选址、政府审批及与 Tallgrass Energy 制定的混合供电方案）随之结束，价格未披露。谷歌前一天宣布在拉勒米县投资 170 亿美元建设其在怀俄明州的首个数据中心，并与 AEP 签约建设 702 兆瓦燃料电池电厂。",
+   "sources": [
+    {
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+     "publisher": "Crusoe",
+     "date": "2026-11-06",
+     "title": "Crusoe Announces Wyoming Data Center Campus Update",
+     "type": "official"
+    },
+    {
+     "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+     "publisher": "Google",
+     "date": "2026-11-05",
+     "title": "Investing in Wyoming's infrastructure, energy and workforce",
+     "type": "official"
+    },
+    {
+     "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+     "publisher": "TechCrunch",
+     "date": "2026-11-06",
+     "title": "Crusoe sells troubled Wyoming data center project to Google",
      "type": "news"
     }
    ],
