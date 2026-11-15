@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T19:21:26Z",
+ "generated_at": "2026-11-15T22:44:34Z",
  "monitor": {
   "last_run": "2026-11-15T19:21:03Z",
   "sec_items": 238,
@@ -503,8 +503,8 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 8,
-     "investment": 6,
+     "order": 9,
+     "investment": 7,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -512,8 +512,8 @@
     },
     "guaranteed_out_usd": 6230000000,
     "guaranteed_in_usd": 0,
-    "degree": 38,
-    "degree_curated": 38,
+    "degree": 40,
+    "degree_curated": 40,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -526,7 +526,7 @@
     "binding_usd": 356130000000,
     "last_edge": "2026-11-12",
     "last_source": "2026-11-13",
-    "counterparties": 21,
+    "counterparties": 22,
     "inflow_total_usd": 297380000000,
     "outflow_total_usd": 58750000000,
     "top_counterparties": [
@@ -6328,8 +6328,8 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
-     "investment": 0,
+     "order": 1,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -6345,8 +6345,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -6359,7 +6359,7 @@
     "binding_usd": 0,
     "last_edge": "2026-11-02",
     "last_source": "2026-11-02",
-    "counterparties": 1,
+    "counterparties": 2,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0,
     "top_counterparties": [],
@@ -13963,6 +13963,39 @@
    "origin": "curated"
   },
   {
+   "id": "alphabet-marvell-2026-08-warrant",
+   "kind": "investment",
+   "subkind": "purchase-vested warrant",
+   "subkind_zh": "随采购归属的认股权证",
+   "from": "alphabet",
+   "to": "marvell",
+   "amount_usd": null,
+   "amount_text": "Warrant for up to 58,970,907 Marvell shares at $206.58 (about $12.2B at the exercise price); 1,360,867 shares vest quarterly over the first year, the rest in 240 tranches, one per $500M of custom-product purchases; exercisable until 18 Aug 2033",
+   "amount_text_zh": "可按每股 206.58 美元认购最多 58,970,907 股迈威尔股票的认股权证（按行权价约 122 亿美元）；其中 1,360,867 股在首年按季度归属，其余分 240 档、每 5 亿美元定制产品采购归属一档；可行权至 2033 年 8 月 18 日",
+   "announced": "2026-08-18",
+   "term": "Exercisable until 18 August 2033",
+   "term_zh": "可行权至 2033 年 8 月 18 日",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Marvell warrant to Google tied to custom chip purchases",
+   "title_zh": "迈威尔向谷歌发行与定制芯片采购挂钩的认股权证",
+   "summary_en": "Marvell issued Google a warrant on 18 August 2026 for up to about 59.0 million shares at $206.58 that vests mainly as Google buys Marvell custom chips, a circular deal tied to the up-to-$120B custom silicon agreement (its own edge). No cash changes hands until exercise, so no amount is counted.",
+   "summary_zh": "迈威尔于 2026 年 8 月 18 日向谷歌发行认股权证，可按每股 206.58 美元认购最多约 5,900 万股，主要随谷歌采购迈威尔定制芯片而归属，是与最高 1,200 亿美元定制芯片协议（另列为一条边）挂钩的循环交易。行权前无现金往来，因此不计金额。",
+   "distinct_from": [
+    "alphabet-marvell-2026-07-custom-silicon"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
+     "publisher": "Marvell Technology (SEC 8-K)",
+     "date": "2026-08-19",
+     "title": "Marvell Technology Form 8-K: warrant issued to Google LLC (Items 1.01 and 3.02)",
+     "type": "filing"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "nvidia-sb-energy-2026-08-ohio-lease-guarantee",
    "kind": "guarantee",
    "subkind": "lease and power payment guarantee",
@@ -14592,6 +14625,44 @@
      "publisher": "Global Data Center Hub",
      "date": "2026-08-02",
      "title": "Morgan Stanley Leads $15 Billion Financing Talks for Anthropic's Texas Campus"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-marvell-2026-07-custom-silicon",
+   "kind": "order",
+   "subkind": "custom AI silicon development and supply (TPU ecosystem)",
+   "subkind_zh": "定制 AI 芯片开发与供应（TPU 生态）",
+   "from": "alphabet",
+   "to": "marvell",
+   "amount_usd": null,
+   "amount_text": "No committed total: purchases are discretionary; Google's warrant fully vests at $120B of custom-product purchases (240 tranches of $500M) from Marvell's fiscal Q3 2027 through fiscal 2033, so $120B is a ceiling, not a commitment",
+   "amount_text_zh": "无承诺总额：采购属酌情决定；谷歌的认股权证在迈威尔 2027 财年第三季度至 2033 财年期间定制产品采购额达到 1,200 亿美元（240 档、每档 5 亿美元）时全部归属，因此 1,200 亿美元是上限而非承诺",
+   "headline_usd": 120000000000,
+   "announced": "2026-07-29",
+   "term": "Purchases counted through Marvell's fiscal 2033",
+   "term_zh": "采购计至迈威尔 2033 财年",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Google custom AI chip agreement with Marvell (up to $120B)",
+   "title_zh": "谷歌与迈威尔签署定制 AI 芯片协议（最高 1,200 亿美元）",
+   "summary_en": "Google and Marvell signed a commercial agreement on 29 July 2026, disclosed in Marvell's 8-K of 19 August, for custom silicon that attaches to Google's TPU ecosystem: AI inference accelerators, storage, network and memory interface controllers and near-memory compute. Marvell gave Google a warrant that vests with each $500M of purchases (its own edge); the $120B at which it fully vests is a ceiling and is not counted.",
+   "summary_zh": "谷歌与迈威尔于 2026 年 7 月 29 日签署商业协议（迈威尔于 8 月 19 日以 8-K 披露），开发接入谷歌 TPU 生态的定制芯片，包括 AI 推理加速器、存储、网络和内存接口控制器以及近存计算。迈威尔向谷歌发行随每 5 亿美元采购归属的认股权证（另列为一条边）；全部归属对应的 1,200 亿美元为上限，不计入总额。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
+     "publisher": "Marvell Technology (SEC 8-K)",
+     "date": "2026-08-19",
+     "title": "Marvell Technology Form 8-K: commercial agreement with Google LLC for custom products and warrant",
+     "type": "filing"
+    },
+    {
+     "url": "https://futurumgroup.com/insights/marvell-attaches-across-googles-tpu-stack-with-a-warrant-vesting-toward-120b/",
+     "publisher": "Futurum Group",
+     "date": "2026-08-20",
+     "title": "Marvell Attaches Across Google's TPU Stack With a Warrant Vesting Toward $120B",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -25944,21 +26015,21 @@
  ],
  "stats": {
   "entities": 143,
-  "edges": 432,
-  "curated_edges": 432,
+  "edges": 434,
+  "curated_edges": 434,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 114,
+    "count": 115,
     "usd": 1532189000000,
-    "undisclosed": 68,
+    "undisclosed": 69,
     "cancelled": 1,
     "superseded": 0
    },
    "investment": {
-    "count": 142,
+    "count": 143,
     "usd": 927383790000,
-    "undisclosed": 40,
+    "undisclosed": 41,
     "cancelled": 3,
     "superseded": 1
    },
@@ -26019,8 +26090,8 @@
   },
   "total_usd": 4008405861259,
   "contingent_usd": 183230000000,
-  "headline_usd": 2031010000000,
-  "broad_usd": 6222645861259,
+  "headline_usd": 2151010000000,
+  "broad_usd": 6342645861259,
   "by_status_usd": {
    "announced": 19200000000,
    "signed": 1960473571259,
@@ -28057,7 +28128,7 @@
    },
    {
     "month": "2026-07",
-    "count": 28,
+    "count": 29,
     "usd": 138104100000,
     "cumulative_usd": 3054899861259,
     "by_kind": {
@@ -28071,7 +28142,7 @@
    },
    {
     "month": "2026-08",
-    "count": 23,
+    "count": 24,
     "usd": 170249000000,
     "cumulative_usd": 3225148861259,
     "by_kind": {
