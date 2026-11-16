@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "generated_at": "2026-11-16T10:44:58Z",
- "built_at": "2026-11-16T10:45:13Z",
+ "built_at": "2026-11-16T15:58:26Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
   "total_usd": 4008405861259,
@@ -464,12 +464,6 @@
   "stack-infrastructure": {
    "name": "STACK Infrastructure (Blue Owl)",
    "name_zh": "STACK Infrastructure（Blue Owl 旗下）",
-   "group": "datacenter",
-   "ticker": null
-  },
-  "stream-data-centers": {
-   "name": "Stream Data Centers",
-   "name_zh": "Stream 数据中心",
    "group": "datacenter",
    "ticker": null
   },
@@ -4305,35 +4299,6 @@
    ]
   },
   {
-   "id": "samsung-nvidia-2025-10-ai-megafactory",
-   "kind": "order",
-   "subkind": "GPU purchase (AI factory)",
-   "subkind_zh": null,
-   "from": "samsung",
-   "to": "nvidia",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Undisclosed; more than 50,000 Nvidia GPUs",
-   "announced": "2025-10-31",
-   "status": "in_progress",
-   "confidence": "confirmed",
-   "title_en": "Samsung builds an AI Megafactory on 50,000+ Nvidia GPUs",
-   "title_zh": "三星以 5 万余颗英伟达 GPU 打造 AI 超级工厂",
-   "summary_en": "Samsung said it will deploy more than 50,000 Nvidia GPUs and the Omniverse platform in an AI Megafactory that runs its chip, mobile and robotics manufacturing; the two also work together on HBM4.",
-   "summary_zh": "三星宣布将部署 5 万余颗英伟达 GPU 及 Omniverse 平台，建设覆盖其芯片、手机和机器人制造的 AI 超级工厂；双方还在 HBM4 方面合作。",
-   "source": {
-    "url": "https://news.samsung.com/global/samsung-teams-with-nvidia-to-lead-the-transformation-of-global-intelligent-manufacturing-through-new-ai-megafactory",
-    "publisher": "Samsung Newsroom",
-    "date": "2025-10-31"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "circular"
-   ]
-  },
-  {
    "id": "bond-investors-meta-2025-10-bonds",
    "kind": "debt",
    "subkind": "corporate bonds (investment grade)",
@@ -4389,6 +4354,7 @@
    "added": "2026-10-27",
    "tags": [
     "top",
+    "circular",
     "big"
    ]
   },
@@ -4507,35 +4473,6 @@
    "tags": [
     "top",
     "big"
-   ]
-  },
-  {
-   "id": "openai-samsung-2025-10-loi",
-   "kind": "order",
-   "subkind": "memory supply letter of intent",
-   "subkind_zh": null,
-   "from": "openai",
-   "to": "samsung",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Undisclosed; part of Stargate demand of up to 900,000 DRAM wafers/month",
-   "announced": "2025-10-01",
-   "status": "announced",
-   "confidence": "reported",
-   "title_en": "OpenAI memory-supply letter of intent with Samsung",
-   "title_zh": "OpenAI 与三星的存储芯片供应意向书",
-   "summary_en": "OpenAI signed a letter of intent in Seoul for Samsung to supply memory for Stargate, which OpenAI and its Korean partners said could need up to 900,000 DRAM wafers a month. No value was disclosed.",
-   "summary_zh": "OpenAI 在首尔与三星签署意向书，由三星为星际之门供应存储芯片；双方称星际之门需求可能高达每月 90 万片 DRAM 晶圆，金额未披露。",
-   "source": {
-    "url": "https://www.techcrunch.com/2025/10/01/openai-ropes-in-samsung-sk-hynix-to-source-memory-chips-for-stargate",
-    "publisher": "TechCrunch",
-    "date": "2025-10-01"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "circular"
    ]
   },
   {
@@ -4741,35 +4678,6 @@
    "added": "2026-10-27",
    "tags": [
     "big"
-   ]
-  },
-  {
-   "id": "apollo-stream-data-centers-2025-08-majority-stake",
-   "kind": "investment",
-   "subkind": "majority acquisition",
-   "subkind_zh": null,
-   "from": "apollo",
-   "to": "stream-data-centers",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Price undisclosed; plus new capital to the land fund to develop 650 MW in Chicago, Atlanta and Dallas",
-   "announced": "2025-08-06",
-   "status": "completed",
-   "confidence": "confirmed",
-   "title_en": "Apollo funds buy majority of Stream Data Centers",
-   "title_zh": "阿波罗基金收购 Stream 数据中心多数股权",
-   "summary_en": "Apollo-managed funds bought a majority stake in hyperscale developer Stream Data Centers from Stream Realty Partners; the deal closed on 3 November 2025, with a Principal-managed fund taking a minority interest and management keeping a minority stake. Terms were not disclosed.",
-   "summary_zh": "阿波罗管理的基金从 Stream Realty Partners 收购超大规模数据中心开发商 Stream 数据中心的多数股权，交易于 2025 年 11 月 3 日完成；信安（Principal）旗下基金取得少数股权，管理层保留少数股权。交易条款未披露。",
-   "source": {
-    "url": "https://www.apollo.com/insights-news/pressreleases/2025/11/apollo-funds-complete-acquisition-of-stream-data-centers-3179224",
-    "publisher": "Apollo",
-    "date": "2025-11-03"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "changed"
    ]
   },
   {
@@ -5148,6 +5056,7 @@
    },
    "added": "2026-10-27",
    "tags": [
+    "circular",
     "big"
    ]
   }
@@ -5374,18 +5283,6 @@
     "amount_usd": {
      "from": 114500000000,
      "to": 121300000000
-    }
-   }
-  },
-  {
-   "id": "apollo-stream-data-centers-2025-08-majority-stake",
-   "date": "2026-11-02",
-   "title_en": "Apollo funds buy majority of Stream Data Centers",
-   "title_zh": "阿波罗基金收购 Stream 数据中心多数股权",
-   "fields": {
-    "status": {
-     "from": "signed",
-     "to": "completed"
     }
    }
   }
@@ -6122,6 +6019,86 @@
  },
  "circular": [
   {
+   "id": "loop-nvidia-openai-oracle",
+   "entities": [
+    "nvidia",
+    "openai",
+    "oracle"
+   ],
+   "min_usd": 30000000000,
+   "max_usd": 300000000000,
+   "legs": [
+    {
+     "from": "nvidia",
+     "to": "openai",
+     "kinds": [
+      "investment"
+     ],
+     "usd": 30000000000,
+     "edge_ids": [
+      "nvidia-openai-2026-02-equity"
+     ]
+    },
+    {
+     "from": "openai",
+     "to": "oracle",
+     "kinds": [
+      "order"
+     ],
+     "usd": 300000000000,
+     "edge_ids": [
+      "openai-oracle-2025-09-cloud"
+     ]
+    },
+    {
+     "from": "oracle",
+     "to": "nvidia",
+     "kinds": [
+      "order",
+      "order"
+     ],
+     "usd": 40000000000,
+     "edge_ids": [
+      "oracle-nvidia-2026-10-vera-rubin-multi-gw",
+      "oracle-nvidia-2025-05-abilene"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "loop-microsoft-openai",
+   "entities": [
+    "microsoft",
+    "openai"
+   ],
+   "min_usd": 13000000000,
+   "max_usd": 250000000000,
+   "legs": [
+    {
+     "from": "microsoft",
+     "to": "openai",
+     "kinds": [
+      "investment"
+     ],
+     "usd": 13000000000,
+     "edge_ids": [
+      "microsoft-openai-equity"
+     ]
+    },
+    {
+     "from": "openai",
+     "to": "microsoft",
+     "kinds": [
+      "order"
+     ],
+     "usd": 250000000000,
+     "edge_ids": [
+      "openai-microsoft-2025-10-azure"
+     ]
+    }
+   ]
+  },
+  {
    "id": "loop-anthropic-broadcom-samsung",
    "entities": [
     "anthropic",
@@ -6169,6 +6146,78 @@
    ]
   },
   {
+   "id": "loop-anthropic-broadcom",
+   "entities": [
+    "anthropic",
+    "broadcom"
+   ],
+   "min_usd": 43000000000,
+   "max_usd": 161200000000,
+   "legs": [
+    {
+     "from": "anthropic",
+     "to": "broadcom",
+     "kinds": [
+      "lease",
+      "order"
+     ],
+     "usd": 161200000000,
+     "edge_ids": [
+      "anthropic-broadcom-2026-10-equipment-leases",
+      "anthropic-broadcom-2025-ironwood"
+     ]
+    },
+    {
+     "from": "broadcom",
+     "to": "anthropic",
+     "kinds": [
+      "investment",
+      "vendor_financing"
+     ],
+     "usd": 43000000000,
+     "edge_ids": [
+      "broadcom-anthropic-2026-11-ipo-placement",
+      "broadcom-anthropic-2026-03-convertible-note-facility"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "loop-amazon-openai",
+   "entities": [
+    "amazon",
+    "openai"
+   ],
+   "min_usd": 50000000000,
+   "max_usd": 138000000000,
+   "legs": [
+    {
+     "from": "amazon",
+     "to": "openai",
+     "kinds": [
+      "investment"
+     ],
+     "usd": 50000000000,
+     "edge_ids": [
+      "amazon-openai-2026-02-equity"
+     ]
+    },
+    {
+     "from": "openai",
+     "to": "amazon",
+     "kinds": [
+      "order",
+      "order"
+     ],
+     "usd": 138000000000,
+     "edge_ids": [
+      "openai-amazon-2026-02-aws-expansion",
+      "openai-amazon-2025-11-aws"
+     ]
+    }
+   ]
+  },
+  {
    "id": "loop-alphabet-anthropic",
    "entities": [
     "alphabet",
@@ -6205,41 +6254,6 @@
      "edge_ids": [
       "anthropic-alphabet-2026-04-tpu",
       "anthropic-alphabet-2025-10-tpu"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "loop-amazon-openai",
-   "entities": [
-    "amazon",
-    "openai"
-   ],
-   "min_usd": 50000000000,
-   "max_usd": 138000000000,
-   "legs": [
-    {
-     "from": "amazon",
-     "to": "openai",
-     "kinds": [
-      "investment"
-     ],
-     "usd": 50000000000,
-     "edge_ids": [
-      "amazon-openai-2026-02-equity"
-     ]
-    },
-    {
-     "from": "openai",
-     "to": "amazon",
-     "kinds": [
-      "order",
-      "order"
-     ],
-     "usd": 138000000000,
-     "edge_ids": [
-      "openai-amazon-2026-02-aws-expansion",
-      "openai-amazon-2025-11-aws"
      ]
     }
    ]
@@ -6294,43 +6308,6 @@
    ]
   },
   {
-   "id": "loop-anthropic-broadcom",
-   "entities": [
-    "anthropic",
-    "broadcom"
-   ],
-   "min_usd": 43000000000,
-   "max_usd": 161200000000,
-   "legs": [
-    {
-     "from": "anthropic",
-     "to": "broadcom",
-     "kinds": [
-      "lease",
-      "order"
-     ],
-     "usd": 161200000000,
-     "edge_ids": [
-      "anthropic-broadcom-2026-10-equipment-leases",
-      "anthropic-broadcom-2025-ironwood"
-     ]
-    },
-    {
-     "from": "broadcom",
-     "to": "anthropic",
-     "kinds": [
-      "investment",
-      "vendor_financing"
-     ],
-     "usd": 43000000000,
-     "edge_ids": [
-      "broadcom-anthropic-2026-11-ipo-placement",
-      "broadcom-anthropic-2026-03-convertible-note-facility"
-     ]
-    }
-   ]
-  },
-  {
    "id": "loop-amazon-anthropic",
    "entities": [
     "amazon",
@@ -6361,98 +6338,6 @@
      "usd": 110000000000,
      "edge_ids": [
       "anthropic-amazon-2026-04-aws"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "loop-nvidia-openai-oracle",
-   "entities": [
-    "nvidia",
-    "openai",
-    "oracle"
-   ],
-   "min_usd": 30000000000,
-   "max_usd": 300000000000,
-   "legs": [
-    {
-     "from": "nvidia",
-     "to": "openai",
-     "kinds": [
-      "investment"
-     ],
-     "usd": 30000000000,
-     "edge_ids": [
-      "nvidia-openai-2026-02-equity"
-     ]
-    },
-    {
-     "from": "openai",
-     "to": "oracle",
-     "kinds": [
-      "order"
-     ],
-     "usd": 300000000000,
-     "edge_ids": [
-      "openai-oracle-2025-09-cloud"
-     ]
-    },
-    {
-     "from": "oracle",
-     "to": "nvidia",
-     "kinds": [
-      "order",
-      "order"
-     ],
-     "usd": 40000000000,
-     "edge_ids": [
-      "oracle-nvidia-2026-10-vera-rubin-multi-gw",
-      "oracle-nvidia-2025-05-abilene"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "loop-nvidia-openai-samsung",
-   "entities": [
-    "nvidia",
-    "openai",
-    "samsung"
-   ],
-   "min_usd": 30000000000,
-   "max_usd": 30000000000,
-   "legs": [
-    {
-     "from": "nvidia",
-     "to": "openai",
-     "kinds": [
-      "investment"
-     ],
-     "usd": 30000000000,
-     "edge_ids": [
-      "nvidia-openai-2026-02-equity"
-     ]
-    },
-    {
-     "from": "openai",
-     "to": "samsung",
-     "kinds": [
-      "order"
-     ],
-     "usd": null,
-     "edge_ids": [
-      "openai-samsung-2025-10-loi"
-     ]
-    },
-    {
-     "from": "samsung",
-     "to": "nvidia",
-     "kinds": [
-      "order"
-     ],
-     "usd": null,
-     "edge_ids": [
-      "samsung-nvidia-2025-10-ai-megafactory"
      ]
     }
    ]

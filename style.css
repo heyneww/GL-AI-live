@@ -1002,6 +1002,7 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
 @media (max-width: 420px) {
   /* phones: tighter segmented buttons so Graph / Table and Top 20 / 50 / All share one row */
   .viz .seg__btn { padding-inline: 9px; }
+  .viz__bar > .seg[role="tablist"] .seg__btn { padding-inline: 5px; }
   .viz__bar > .seg[role="tablist"] { margin-right: 0; }
   #graph-scope, #table-sort-wrap { margin-left: 4px; }
   .tile--money .tile__note { white-space: normal; }
@@ -1105,6 +1106,9 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
 
 /* loops view */
 .loops, .changes { padding: 10px 14px 14px; max-height: clamp(480px, 72vh, 860px); overflow: auto; }
+/* the Dashboard tab: site/dashboard.js draws data/v1/dashboard.json inside (its own styles, scoped under .dash, in
+   dashboard.css); the panel scrolls like the Loops and Changes tabs */
+.dashv { padding: 10px 14px 14px; max-height: clamp(480px, 72vh, 860px); overflow: auto; background: var(--bg); }
 .loops__hint, .changes__hint { margin: 0 0 8px; font-size: 13.5px; color: var(--ink-2); max-width: 90ch; }
 .loops__list, .changes__list { list-style: none; margin: 0; padding: 0; }
 .loops__list li { border-top: 1px solid var(--line); }
@@ -1216,11 +1220,15 @@ button.chg__t:focus-visible { outline: 2px solid var(--focus); outline-offset: 2
   .filters__toggles { flex: 1 1 auto; }
   .filters__toggles .chips { margin-left: 0; padding-left: 0; mask-image: none; -webkit-mask-image: none; }
   .chip--toggle { font-size: 12.5px; padding: 4px 9px; }
-  /* four view tabs: the scope switch moves to its own row */
+  /* five view tabs: the scope switch moves to its own row; the tabs get the whole first row and, on the
+     narrowest phones, scroll sideways instead of widening the page */
   #graph-scope { grid-row: 2; grid-column: 1 / -1; justify-self: start; margin: 0 8px 6px; }
-  .viz:has(#table-view:not([hidden])) #viz-count, .viz:has(#loops-view:not([hidden])) #viz-count, .viz:has(#changes-view:not([hidden])) #viz-count { grid-row: 2; grid-column: 1; margin-top: 6px; }
+  .viz__bar > .seg[role="tablist"] { grid-column: 1 / -1; max-width: calc(100% - 16px); overflow-x: auto; scrollbar-width: none; }
+  .viz__bar > .seg[role="tablist"]::-webkit-scrollbar { display: none; }
+  .viz__bar > .seg[role="tablist"] .seg__btn { flex: none; white-space: nowrap; }
+  .viz:has(#table-view:not([hidden])) #viz-count, .viz:has(#loops-view:not([hidden])) #viz-count, .viz:has(#changes-view:not([hidden])) #viz-count, .viz:has(#dashboard-view:not([hidden])) #viz-count { grid-row: 2; grid-column: 1; margin-top: 6px; }
   #table-sort-wrap { grid-row: 2; }
-  .loops, .changes { grid-row: 3; grid-column: 1 / -1; border-top: 1px solid var(--line); max-height: none; padding: 8px 10px 12px; }
+  .loops, .changes, .dashv { grid-row: 3; grid-column: 1 / -1; border-top: 1px solid var(--line); max-height: none; padding: 8px 10px 12px; }
   .loop-row { grid-template-columns: 20px minmax(0, 1fr); }
   .loop-row__v { grid-column: 2; align-items: flex-start; text-align: left; }
   .loop-row__bar { width: 60%; }

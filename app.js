@@ -25,7 +25,14 @@
   var MIN_OPTIONS = [0, 1e9, 1e10, 5e10, 1e11];
   var PERIODS = [["all", "f_period_all"], ["365", "f_period_365"], ["90", "f_period_90"], ["2026", "f_period_2026"], ["2025", "f_period_2025"], ["custom", "f_period_custom"]];
   var SORTS = [["date", "sort_date", -1], ["amount", "sort_amount", -1], ["company", "sort_company", 1]];
-  var VIEWS = ["graph", "table", "loops", "changes"];
+  var VIEWS = ["graph", "table", "loops", "changes", "dashboard"];
+  /* ?view=table|loops|changes|dashboard opens that tab (a #n- / #e- selection still works next to it); the
+     Dashboard tab reads the live data/v1/dashboard.json, so a snapshot has no Dashboard tab */
+  var TABS = SNAPSHOT ? VIEWS.filter(function (v) { return v !== "dashboard"; }) : VIEWS;
+  var VIEW_PARAM = (function () {
+    var m = /[?&]view=([a-z]+)(?:&|$)/.exec(location.search);
+    return m && TABS.indexOf(m[1]) >= 0 ? m[1] : "graph";
+  })();
   var LS_LANG = "aod.lang";
   var LS_SEEN = "aod.seenEdges";
   var LS_TOTALS = "aod.totalsView";
@@ -342,7 +349,10 @@
     $("error-banner").hidden = true;
     $("graph-loading").hidden = true;
     if (!first && stamp === state.stamp && !sample) { state.raw = json; return; }
-    if (state.stamp && stamp !== state.stamp) state.changesStale = true;
+    if (state.stamp && stamp !== state.stamp) {
+      state.changesStale = true;
+      if (dash.state === "ok") { dash.state = "stale"; if (state.view === "dashboard") loadDash(); }
+    }
     state.stamp = stamp;
     state.raw = json;
 
@@ -841,9 +851,10 @@
     });
     $("tl-clear").addEventListener("click", function () { setPeriod("all"); renderAll(false, false, true); });
 
-    var tabs = VIEWS.map(function (v) { return $("tab-" + v); });
+    $("tab-dashboard").hidden = TABS.indexOf("dashboard") < 0;
+    var tabs = TABS.map(function (v) { return $("tab-" + v); });
     tabs.forEach(function (b, i) {
-      b.addEventListener("click", function () { setView(VIEWS[i]); });
+      b.addEventListener("click", function () { setView(TABS[i]); });
       b.addEventListener("keydown", function (ev) {
         var j = ev.key === "ArrowRight" ? (i + 1) % tabs.length : ev.key === "ArrowLeft" ? (i + tabs.length - 1) % tabs.length : -1;
         if (j < 0) return;
@@ -973,11 +984,13 @@
     applyStatic();
     buildFilterControls();
     renderAll(false, true);
+    if (dash.mounted) window.AODDash.setLang(l);
   }
 
-  function setView(v) {
-    if (VIEWS.indexOf(v) < 0) v = "graph";
+  function setView(v, init) {
+    if (TABS.indexOf(v) < 0) v = "graph";
     state.view = v;
+    if (!init) writeViewParam(v);
     VIEWS.forEach(function (name) {
       $("tab-" + name).setAttribute("aria-selected", String(v === name));
       $("tab-" + name).tabIndex = v === name ? 0 : -1;
@@ -991,16 +1004,51 @@
     if (v === "table") renderTable();
     if (v === "loops") renderLoops();
     if (v === "changes") renderChanges();
+    if (v === "dashboard") loadDash();
     renderEmpty();
     // phones and tablets: a company sheet left open from the graph would cover the table or the lists
     if (v !== "graph" && state.sel && window.matchMedia && window.matchMedia("(max-width: 1080px)").matches) select(null);
     renderVizCount();
   }
 
+  /* the open tab as ?view= in the address (graph, the default, as none), keeping ?snapshot= and the #selection */
+  function writeViewParam(v) {
+    var q = location.search.replace(/([?&])view=[^&]*(&|$)/, function (m, a, b) { return b ? a : ""; }).replace(/[?&]$/, "");
+    if (v !== "graph") q += (q ? "&" : "?") + "view=" + v;
+    try { history.replaceState(null, "", location.pathname + q + location.hash); } catch (e) { /* sandboxed */ }
+  }
+
+  /* ---------- dashboard tab ---------- */
+  /* site/dashboard.js draws data/v1/dashboard.json (built with graph.json at every publish by monitor/dashboard.py,
+     the same file dashboard.html reads), so the tab, the page and the API agree. The figures cover every deal: the
+     filters do not apply here. Fetched when the tab is first opened and again after the graph data changes. */
+  var dash = { mounted: false, state: "idle" };
+  function dashPaths() {
+    var p = (window.AODDash && window.AODDash.paths) || [];
+    return /\/site\/(index\.html)?$/.test(location.pathname) ? p.slice().reverse() : p.slice();
+  }
+  function loadDash(force) {
+    var D = window.AODDash;
+    if (!D || SNAPSHOT) return;
+    if (!dash.mounted) {
+      D.mount($("dashboard-view"), {
+        host: "map", lang: state.lang, reload: function () { loadDash(true); },
+        onDeal: function (id, kbd) { if (state.edgeById.has(id)) select({ type: "edge", id: id }, { kbd: kbd }); },
+        onCompany: function (id, kbd) { if (state.ents.has(id)) select({ type: "node", id: id }, { kbd: kbd }); },
+        onLoop: function (key, kbd) { if (loopByKey(key)) select({ type: "loop", id: key }, { kbd: kbd }); }
+      });
+      dash.mounted = true;
+    }
+    if (dash.state === "loading" || (dash.state === "ok" && !force)) return;
+    dash.state = "loading";
+    D.fetchData(dashPaths()).then(function (d) { dash.state = "ok"; D.setData(d); },
+      function () { dash.state = "failed"; D.setFailed(); });
+  }
+
   /* the table always lists every visible deal; the graph may show only the Top N */
   function renderVizCount() {
     var sc = G.scopeCount;
-    if (!state.raw) { $("viz-count").textContent = ""; return; }
+    if (!state.raw || state.view === "dashboard") { $("viz-count").textContent = ""; return; }
     $("viz-count").textContent = state.scope === "all" || state.view !== "graph" || !sc
       ? t("viz_all", { d: state.visible.length, c: state.visibleNodes.length })
       : t("viz_scope", { n: sc.n, total: state.visibleNodes.length, d: sc.d });
@@ -1153,12 +1201,13 @@
   var TILE_KINDS = ["order", "investment", "debt", "lease", "guarantee"];
   function renderSummary() {
     var broad = state.totalsView === "broad";
-    var sums = {}, nulls = {}, deals = {}, cancelled = {}, superseded = {}, total = 0, heads = 0, guar = 0;
+    var sums = {}, nulls = {}, deals = {}, cancelled = {}, superseded = {}, total = 0, heads = 0, guar = 0, vf = 0;
     TILE_KINDS.forEach(function (k) { sums[k] = 0; nulls[k] = 0; deals[k] = 0; cancelled[k] = 0; superseded[k] = 0; });
     state.visible.forEach(function (e) {
       total += countedAmount(e);
       heads += headlineAmount(e);
       guar += contingentAmount(e);
+      if (e.kind === "vendor_financing") vf += countedAmount(e);
       if (!(e.kind in sums)) return;
       deals[e.kind]++;
       if (e.status === "cancelled") cancelled[e.kind]++;
@@ -1181,6 +1230,8 @@
       if (nulls[k]) { fullParts.push(t("sum_undisclosed", { n: nulls[k] })); shortParts.push(t("sum_undisclosed_short", { n: nulls[k] })); }
       if (cancelled[k]) { fullParts.push(t("sum_cancelled", { n: cancelled[k] })); shortParts.push(t("sum_cancelled_short", { n: cancelled[k] })); }
       if (superseded[k]) { fullParts.push(t("sum_superseded", { n: superseded[k] })); shortParts.push(t("sum_superseded_short", { n: superseded[k] })); }
+      /* vendor financing has no tile of its own: the debt tile says how much of it the total holds */
+      if (k === "debt" && vf > 0) { fullParts.push(t("sum_vf", { v: usd(vf) })); shortParts.push(t("sum_vf_short", { v: usd(vf) })); }
       var sep = state.lang === "zh" ? "，" : " · ";
       full.textContent = fullParts.join(sep);
       short.textContent = shortParts.join(sep);
@@ -3070,7 +3121,7 @@
     applyStatic();
     wireControls();
     setupGraph();
-    setView("graph");
+    setView(VIEW_PARAM, true);
     load();
     if (!SNAPSHOT) setInterval(load, REFRESH_MS);
     window.AOD = { reload: load, state: state };

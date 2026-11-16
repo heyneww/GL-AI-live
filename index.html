@@ -23,6 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="dashboard.css">
 <link rel="alternate" type="application/atom+xml" title="AI Orders &amp; Debt Map: changes" href="data/feed.xml">
 </head>
 <body>
@@ -143,6 +144,7 @@
         <button type="button" role="tab" id="tab-table" class="seg__btn" aria-selected="false" aria-controls="table-view" data-i18n="view_table">Table</button>
         <button type="button" role="tab" id="tab-loops" class="seg__btn" aria-selected="false" aria-controls="loops-view"><span data-i18n="view_loops">Loops</span><span class="chip__n" id="loops-n"></span></button>
         <button type="button" role="tab" id="tab-changes" class="seg__btn" aria-selected="false" aria-controls="changes-view" data-i18n="view_changes">Changes</button>
+        <button type="button" role="tab" id="tab-dashboard" class="seg__btn" aria-selected="false" aria-controls="dashboard-view" data-i18n="view_dashboard">Dashboard</button>
       </div>
       <div class="seg seg--sm" id="graph-scope" role="group" data-i18n-aria="aria_scope" aria-label="Companies shown">
         <button type="button" class="seg__btn" data-scope="20" aria-pressed="false">Top 20</button>
@@ -191,6 +193,10 @@
       <ol class="changes__list" id="changes-list"></ol>
       <div class="empty" id="changes-empty" hidden></div>
     </div>
+
+    <!-- the important deals at a glance: site/dashboard.js draws data/v1/dashboard.json here (the same data and script
+         as dashboard.html); a click on a deal, a company or a loop opens the map's own panel -->
+    <div class="dashv" id="dashboard-view" role="tabpanel" aria-labelledby="tab-dashboard" hidden></div>
 
     <details class="legend" id="legend" open>
       <summary class="legend__sum" data-i18n="legend">Legend</summary>
@@ -242,6 +248,8 @@
   <p class="footer__links">
     <button type="button" class="linkbtn" id="about-open" data-i18n="about_link">About &amp; methodology</button>
     <span class="footer__sep" aria-hidden="true">·</span>
+    <a href="dashboard.html" data-i18n="dashboard_link">Dashboard</a>
+    <span class="footer__sep" aria-hidden="true">·</span>
     <a href="investors.html" data-i18n="investors_link">For investors</a>
     <span class="footer__sep" aria-hidden="true">·</span>
     <span class="footer__api"><span data-i18n="footer_api">Data &amp; API</span>:
@@ -290,6 +298,7 @@
 <script src="vendor/d3.v7.min.js"></script>
 <script src="vendor/d3-fallback.js"></script>
 <script src="i18n.js"></script>
+<script src="dashboard.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

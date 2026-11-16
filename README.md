@@ -20,10 +20,11 @@ the private repository's workflows (monitor, daily curation, approvals, manual p
 - **Excel / 表格:** `data/v1/deals.xlsx`: every deal in a bilingual workbook (summary, all deals, one sheet per
   type, companies), rebuilt at each publish. 全部交易的 Excel 数据表（摘要、全部交易、按类型分表、公司），每次发布时重建。
 - **Weekly summary / 每周摘要:** `weekly.html`: deals added and changed in the last 7 days, in both languages.
-- **Dashboard / 看板:** `dashboard.html`: the important items on one interactive page (totals, deals new to the
-  map, material changes, the largest deals and companies, debt, CDS, circular deals), rebuilt at each publish; its
-  data is `data/v1/dashboard.json`. 重点内容的单页交互看板（合计、新增交易、重要变化、最大交易与公司、债务、
-  信用违约互换、循环交易），每次发布时重建；数据见 `data/v1/dashboard.json`。
+- **Dashboard / 看板:** `dashboard.html`, and the **Dashboard** tab of the map: the important items in one view
+  (totals, deals new to the map, material changes, the largest deals and companies, debt, CDS, circular deals).
+  Both read `data/v1/dashboard.json`, rebuilt with the map at each publish, and follow the map without a reload.
+  重点内容的交互看板（合计、新增交易、重要变化、最大交易与公司、债务、信用违约互换、循环交易），既是单独页面
+  `dashboard.html`，也是关系图的“看板”标签页；两者都读取每次发布时与关系图一同重建的 `data/v1/dashboard.json`。
 - **A past day / 查看历史某日:** `https://heyneww.github.io/GL-AI-live/?snapshot=YYYY-MM-DD`
 - **Freshness / 时效:** the page re-reads `data/graph.json` every 5 minutes and shows **Live** while the graph is
   less than 8 hours old, **Stale** (数据较旧) after that. GitHub Pages' CDN caches `data/graph.json` for up to
