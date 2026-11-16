@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-16T07:12:58Z",
+ "generated_at": "2026-11-16T07:56:13Z",
  "monitor": {
-  "last_run": "2026-11-16T07:12:35Z",
+  "last_run": "2026-11-16T07:55:49Z",
   "sec_items": 238,
-  "news_items": 3228,
+  "news_items": 3251,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-11-16T07:12:35Z",
+    "last_run": "2026-11-16T07:55:49Z",
     "ok": true,
     "tickers": 32,
     "fetched": 32,
@@ -21,21 +21,21 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-11-16T07:12:35Z",
+    "last_run": "2026-11-16T07:55:49Z",
     "ok": true,
     "feeds": 23,
     "fetched": 23,
-    "items": 453,
-    "added": 154,
-    "evicted": 0,
-    "unread": 228,
+    "items": 459,
+    "added": 33,
+    "evicted": 10,
+    "unread": 251,
     "retagged": 0,
     "matcher_version": "3.2",
-    "total": 3228,
+    "total": 3251,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-11-16T07:12:35Z",
+    "last_run": "2026-11-16T07:55:49Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -26015,6 +26015,240 @@
  ],
  "news": [
   {
+   "id": "n104b293be60588d3",
+   "title": "Asian shares fall as Nvidia earnings, Anthropic IPO test tech rally",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZi1OeHJhRERuamtBRnBDRFUyd1dTeUcxME1OTk9fMnRySjlMM09SUjdsS1M3QjljNXA1RGZxWnVtZUU0cW5uNkg1cmVBTGh3emFBRlpaa0xVMkdEZFk1czltajRzMk5pazJsN0R6YzN3aGFUclJlNDVIaFhudVJWMEk1Q0RRU1lPMjZ1bzZxdHFJOFdVYWVrOGVvUlU4WnN1Y2VWTW5jU2tpSm950gGyAUFVX3lxTE1nbHRZOWFXZV9SSEV2TmdKVlFjTklURFZnaXBHY1FpMkFsN0ZTWTBjZTVNV0d1a1p5YUhuelAxS0VlSjB1LUQyVmRNMUI1VWVGb0ZqRjc3bi1DSlJtakE1UHhBWXVCcFN3dUYyRklQdzR0dDZHOHpYRVRsdkIzVVFycDM1RVFyWHIzYVpoNjhlMlFYXzUtRjhYVWtVNlc1WDZfSTN3cGEwdlcxQmNTS0xOZEE?oc=5",
+   "publisher_url": null,
+   "publisher": "Free Press Kashmir",
+   "published": "2026-11-16T07:52:30Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nc4c4d5b7eeb5160f",
+   "title": "GIP two-thirds of the way to $30bn AI fund target – exclusive",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2MxakdkaGVUVDk2d0NVNVNDeXpTczE2cldiOE5URzRad3ZBWW05VG9RRlhnMC1jaXhweGUtRS1OTEg0ZDU2NnIxMW1CRlhpbHJ3ZzR6am9jcm5ad01pTVFnOW5WS3pBaVZvNHJWMjNENzBTQVpfMVAzOXlMVGVIbGU2dlQ4U2FLN3ZLSENza25GdFREWWtaUjJTbmowTEk?oc=5",
+   "publisher_url": null,
+   "publisher": "Infrastructure Investor",
+   "published": "2026-11-16T07:45:39Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "AI data center financing debt when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nc44eca1dcfe37234",
+   "title": "This Japanese firm plans to build a lunar communication network",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQjJVZElkbENOaG56SUtiVm9JWDMtVTNPSk9FaTVpWmhjbFZKWHJHb2lKMGtoY3JJOG9uZDVtUHhEdzVqc1U4NTZhUVYzY0pOX0p1dGwtZW9jZDBrUE4xTEFZNmpnTlkwUFhpSkhZNC1BUTJGYk4yTWZ4Zkhod1M0THBjQWVSVkdPcmptMnBGMlljMjRmNkN5M1dKMkxtQWFUaWM4c3BjVERXejJEYmRJMjRmOFJrQzBOWElJazdZcw?oc=5",
+   "publisher_url": null,
+   "publisher": "NewsBytes",
+   "published": "2026-11-16T07:43:15Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "na10a5c8e7785c957",
+   "title": "Kevin O'Leary Says AI 'Sucked the Air' Out of Crypto's 'Hot' Trade — Binance Founder CZ Points to Anthrop",
+   "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNZW9FYXlINmRiMzRLRGtneEd1U05BclZhcGhCam14OVltb3A0VVZybnozTUQ5cFNYZ3N4OF9xcVFjckxuVlFNeHAtSDBWdFFPYWdBOWQxX3dUTWpDRE9VTnhTVGFoODBVblluY2hJX0NxUkhBaWVhZ2JxZEJ0cmlLMS1Pd05GMVYtZGVqbmprVTV5UVlSZV9MSDhjSFUyMjJFQThvS2N2blBoVUI2SGtLZ2ZOU2Q2LXpHNkpoNTBJbU54anVNY3RRM2xIMGswYUh0UENpQlZIUVFZYnF4SlVHVFhfSG5veXhnM3RsY0VwWDdfVzU5cGxZMURHS0l0SUVFWm1ValpMSlRnQXo5LTBGQ3Y5a2pydHZ6TDdPSlp4QTRJOTFDcUc0V19TWFh0a1RxaXRsQk1saWJkSnZnQmtiXzRUN21RVDlab1lwRnZPcV9XQQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Benzinga",
+   "published": "2026-11-16T07:39:10Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n97cc07f6addcd8ad",
+   "title": "\"Kospi Continues to Feel Jensen Huang Shock\"… Will Anthropic's IPO, with Subscription Volume 6 Times Larger, Be a Savior for Samsung and SK Hynix?",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wMTdXZHAtaW1Razh2NzJHMVdacWREaTdDcXN5Zml0Mi1UdXYyNU5SS1k3dm03S1lmUFFIOGN6SkxfTFBMS0dwTi10Tk4tTVFmbVFKNjJPdTJhczFnRFdfeWc4a014WVByVlpYUy130gFmQVVfeXFMT1pteXN0MUViYVVXdjNzQWR5QWhjQnA1cVhHT05Nazh6X1o5bUMzbmhrTlpJOFVySngtMDQwa0NmQWRVY0tyQ1ZENDdIbHRIU0VXRHo4YzFocDhLV00wYmhqbVVGLVFB?oc=5",
+   "publisher_url": null,
+   "publisher": "SBS 뉴스",
+   "published": "2026-11-16T07:35:32Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "samsung",
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "na41ea8125ca489ff",
+   "title": "Google’s New Gemini Costs Just “$0.82 a Task.” Anthropic’s Best Runs $4.64, Days Before Its IPO",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc0RXc2xKSW5jb28wN2poZzEyUTBvY2llNWJCdjgzYVZySUtBcWJzb3JDYUpreE01TDZLX1dVc29PRHh6RFYzdXgtOHY3b2JKUDRMQVdHMFVLM0tleUVuOVFYTDR1RG5rMHBWNHI0ZVlpWFAtcXVGbmRBVjVmNThvN2hvUE9BNDJrTzN4YU1KcUdYanNuczZhcDEzZ2F5MWZBcXdQLURTNmFLRHY5elZZcXlNNmw?oc=5",
+   "publisher_url": null,
+   "publisher": "TIKR.com",
+   "published": "2026-11-16T07:35:23Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "alphabet",
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n60a7cda00ddb4da6",
+   "title": "Jim Cramer: Anthropic’s “Next $100 Billion in Revenue” Might Be Cybersecurity. CrowdStrike Should Worry",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSUd4NDZicHJ1bFdhaUNKeXUtVXUxdXZ2TFREaDdaNFA3cnZQbzAwcG5IeEtVY21vamplS1BPOUQybFQwN2s1ZnFpX2xvQjBORHZOVk9RdEtJNENfV1E3d2p6OFpSNExRN1pxU0lyNGtmTXFlS3pPSFFfSkhQbEJ4ZHlrM1lkNmU0OEt3Q0hidS1xdGNDVDBlU3pmVjdORWlLRjhCYUt0MG5aTTZBcVdVdl95UDJNMnRfOUJSOG9zc2J2dw?oc=5",
+   "publisher_url": null,
+   "publisher": "TIKR.com",
+   "published": "2026-11-16T07:35:23Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n2648110cd983a806",
+   "title": "Weekly Setup | Can Anthropic's IPO Revive the AI Trade as Yields Rise?",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTEVhcUVNTTM5Y1l6TEd3RC1JdTRnQXFJQVNzUVZzMTBaSG1Rb2k3OHV0ZGMtbGs0eVpaMjB6ZGN3dTRjdkJ6THY3NHloWDNONmNYOWVvd1ZocTd2Q0J4VE1ET1hGdWFwc1A5dTQtZmJyZzF6NlFyWFJZMnFtQTcyYmJGQzhfSDVQazlXSU1sYkU1N2NaaUZHSDdGNG5CckRuUmVEX3NNU1Rsdw?oc=5",
+   "publisher_url": null,
+   "publisher": "Moomoo",
+   "published": "2026-11-16T07:32:05Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n838dcf9f08780799",
+   "title": "Toto Wolff says Kimi Antonelli must be rewarded as champion",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZndBN2pFbHJqVnhKT0Z4dUFDR3V3Q1Y2U3pQbUtZMTc0YmhsTVVnQVR0ZlBMZ0c4cGc5OWRGYVM2cHZtV2hxUUp2czFtRlVqVFRaUkk2N2N3VHU2TVd6eEtsMkNyRzU0Q1NzZGhDZ3o4Z0owbUU1ZmpodmcyRWxpOURFc1lZOUt4QWhHaUhVMzFubDEzcWoyWjkyNjhQWlVyZ2wtaTZ0ZG4?oc=5",
+   "publisher_url": null,
+   "publisher": "GPblog",
+   "published": "2026-11-16T07:32:04Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
+   "entities": [
+    "moonshot-ai"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "ncaee5996b0120d37",
+   "title": "Anthropic and OpenAI want your money — but what should you get in return?",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbm9ROGJoaEpnVTJlSU9yQlhkVk5pUFhVazl6S2RERmNxLWVqbXZCZzRNRGtSQi1YR29yaHJ2cEw3UlNqc0xOMV9QMXlHMDlWak9PdFJtNXlENjgxYTFjbVR5dzhPVzR6RWJOZ1lseDNkcDZtWFFoOS1kc2d6QzF2RFJ1RF9rdGlkeGxUT0lPWDFUemlSX0hjeFRfMWJYNGRsYzFLWGRyQQ?oc=5",
+   "publisher_url": null,
+   "publisher": "ABC News & Headlines – Australian Broadcasting Corporation",
+   "published": "2026-11-16T07:28:43Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "openai"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nf13c2d7b6ed4bfa9",
+   "title": "Plural: Wise and Skype Founders Raise €1 Billion Third Fund for Defense, Energy and A.I.",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91VWdpbkZMZzRFWHo2WDY1blB1d1Qzcy1GRkcwT2lJclRzQUJrd0syYXZJbGxMazZndXBxMWpzWDN4QzdRR3FHSndlZlZacXRQYmtQMk1NamdkQ0QwdzRDRDI1X25TOVNx?oc=5",
+   "publisher_url": null,
+   "publisher": "www.trendingtopics.eu",
+   "published": "2026-11-16T07:23:47Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nb54a44721f2036a2",
+   "title": "月之暗面据报接近完成架构重组，全力为赴港IPO铺路，募资规模或达50亿美元",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2FBeHF6NXJ2ajFtRm1fT2xEdW9SNDB5NDNBNXlsNnhFSVhVNjRkTVdnU2RjczdOdzB5Vk5PeG1VajNkSG9fdExnU1B1RnpwR1Bocm9QSVdxcTBIazNfVWkzMGJXdlNqM1BzdTlyVzhTaUcxeS0zbURrVVVONFJXVW8tb0VQNGUyaXhDTQ?oc=5",
+   "publisher_url": null,
+   "publisher": "Sohu",
+   "published": "2026-11-16T07:23:18Z",
+   "date": "2026-11-16",
+   "lang": "zh-CN",
+   "query": "(DeepSeek OR 深度求索 OR 月之暗面 OR Kimi OR 智谱 OR MiniMax OR 阶跃星辰) (融资 OR 上市 OR IPO) when:2d",
+   "entities": [
+    "moonshot-ai"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n7a514a83ee211c59",
+   "title": "RENOVA Executes ¥10.34 Billion Green Syndicated Loan",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU3c2N2F0NHR0eGRlZG16VVA2ZmNTODlGWk1YMVFaMXRfell6eWN0Rkh2djVlYXF4U2daZkZBMmJ1UGRjRFNsR3RSRXA4c051MktQOGUzNDJsaHk5U0xTZm9mMHh3Yi1JSkV1azBXNlNEQ285Qkc1N1pHZzFIZmQzV3psaXk1STl2ZElsOF9XSkoxQThyaU9BaEpzR19nYlNibFQ4SW13?oc=5",
+   "publisher_url": null,
+   "publisher": "TipRanks",
+   "published": "2026-11-16T07:17:07Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(Alibaba OR Tencent OR ByteDance OR Baidu) (bond OR notes OR placement OR \"share sale\" OR loan) billion when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "na2b966c27b0f0309",
+   "title": "Alibaba’s Giant Qwen4-Max Model Trails Claude, GPT and Moonshot AI",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95OVd6WVUyT1F6UE5MVVpGSTZNdWZSUlc0NTVZd3ZwYU1RUWUwTUJ6OGV0WjdsS0VEU0xONGtOZ1dqMGgzUnpudVBNblZVUTFKaFRHS0YtUWJoMHRtc1FjVjd2LU94R1Z1dlZv?oc=5",
+   "publisher_url": null,
+   "publisher": "www.trendingtopics.eu",
+   "published": "2026-11-16T07:15:47Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
+   "entities": [
+    "alibaba",
+    "moonshot-ai"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n071b602897725efd",
+   "title": "大佬又爆猛料。。",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE41SktNOVJLTGxQTGE4RnZuSDBMU0hzdTc3OWxQeUZxMV9mUWhOYkJ1REp1MEc1N1ptZEdjWUFBTngxYW5GMXM4U3ZyRk9sa2VSR1h5bFNlTkE3cmlPREdHZzdyZWJQVFhoQV9LTVh1OTNoZw?oc=5",
+   "publisher_url": null,
+   "publisher": "金融界",
+   "published": "2026-11-16T07:11:10Z",
+   "date": "2026-11-16",
+   "lang": "zh-CN",
+   "query": "(英伟达 OR 寒武纪 OR 昆仑芯 OR 华为 OR 中国移动) (订单 OR 采购 OR 合同 OR 算力) 亿 when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n52276fc7abee33e5",
    "title": "Nvidia Q3 Earnings Preview: AI Chip Deliveries and CEO Transition in Focus, Wall Street's Highest Target at $515",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVDhfcGxIZmczclcxN3JPa0RmWHdBN0xVWHE1SHhFVFliX05xTG9OZWJ6MkxOTGkxR29BNGM1di1EUGZvLXg1b0h4cFB2dE5UUFFVOGluVTFtUXk5UFc0ejdxWEFZLWRaQ3hCYlRtV2l3c1YtOGJibXd0WS0yeF9GR0JneU1QUXkzVk9VZFMxLVh6QUExM0R1ZlJxWloyRGFJUVVwUEFUM2w4QlhpWENhU0JqTThJd1lzeEUxdmdMcGZldw?oc=5",
@@ -26042,6 +26276,20 @@
    "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
    "entities": [],
    "fetched_at": "2026-11-16T07:12:48Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n51f5592e7cd8a5ae",
+   "title": "Tsmc to launch $500 million fund to back next-generation chip startups",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SUGIzZVU1dGtnU1FTc0JZTmQ1bWhxYzBhbnVUSjN3bGQ3eWViUDAwNEMtR3FVeG44M0JzOFNGM1ZiR3NZcDBMajVweHhkM0lRUGNZakR3YXc2U0VQR2UtZDdHQVN0YkJxZXJldEFZTlRVbUdlUnhhQnFB0gGOAUFVX3lxTE12TDR0WGZGN3dRSzBXa3lCN3R2Q0hKc1NtazdCV0hoVURTSnp3Z29jRjJLdEw5a3dRSUc4N0otZkpTQkFwRnZlVDYxZjlNLXVmLXF2VEV6TkxIZ1F6TXlsNnd6OUtlNEhCdFBWSHE4UURIaDZIOFZhbnZfX3hBOXFiTGJYbDRqOVFkbkRQb2c?oc=5",
+   "publisher_url": null,
+   "publisher": "Chosunbiz",
+   "published": "2026-11-16T07:08:00Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-16T07:56:01Z",
    "matcher_version": "3.2"
   },
   {
@@ -26140,6 +26388,22 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "nbb5f331f7c0b5ae5",
+   "title": "Danish pension funds circle Anthropic’s multibillion-dollar IPO",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhVF9nZUVkTGNMeFVLemRXT0dnSFpPWjZxYjd2SlVpWGxUT0hJYXFoUjdnT0xoYjRKYTJvWDROOHVuTWJfZkQxVFRfVkpneHNVUmdlajBIQUJPNXoyM2NLandvamk?oc=5",
+   "publisher_url": null,
+   "publisher": "AMWatch",
+   "published": "2026-11-16T07:00:00Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "n1d20ae20a2f26374",
    "title": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaGZvY0Exc3ZaVXhZQ0YwQkMwT0syemI0SHloSXQ5ZV8xT1hPNDd6ZU1rNDVwbW1KeWxvdzhPMUlSbU8tblVIOVJ0WlUyMFBDN0hVdm1wNUtNN1Rlamh4Z2xzNmpFZ1JIUzN3bzZJaUhRQV82amZ3R0VKcHdFelR6SkNmaGhmUC1wajFMV0p0clMyMVFEb0JhVmk4d1BySUpD?oc=5",
@@ -26151,6 +26415,23 @@
    "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
    "entities": [],
    "fetched_at": "2026-11-16T07:12:48Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "n6666b769f1ea12f1",
+   "title": "IXIC: Nasdaq Futures Turn Lower Before Nvidia Earnings, Anthropic IPO Test AI Demand",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNm92aDRTUEhFWFZlc01ONXo4V25ITzJTdTBhbWNqN21WRlFycW5PWDV5U2VZYmpGelQ0VTNONXM2bjEwSzBVeG51dWNaOHA3WXJiT1VxUTB5UV9mWUNDOWtLZnlsaExnTkFlVEJLTGlTQjA2N3V4enNkUlNwWUNYU3REYjRJYWU3dDFIbHAtYjcydExIZmVuMFhLaXdOdGlCMHktQm5nY2JsUmdsQktDN0VuQ2hXb29jZzB3U3M1QzZYdnBBVVc4SjVZbjFMSlFaQXJIVEprNnZIdEJQ?oc=5",
+   "publisher_url": null,
+   "publisher": "TradingView",
+   "published": "2026-11-16T06:59:00Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
    "matcher_version": "3.2"
   },
   {
@@ -26258,6 +26539,24 @@
    "matcher_version": "3.2"
   },
   {
+   "id": "n975a9e8ffb656441",
+   "title": "Nvidia’s All-Important Q3 Report, China Tech Results, Anthropic IPO And Microsoft Ignite To Keep Investors Hooked This Week",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU1J4UjZiRXd6RUJzYm1zRXRhSzFtR3BtMFYwUHZSM3NIMVVHdS1GbHNDS0NndHEwWFNmQzMxb015dzdmU3FuV0hHZEIxbXM3a29vWkRKZThNbVl6dVd2U0U1X0Nqa1NiQjFhWnFvQ3VLb0tNTUZmcmFuUDVSZ0kzYlQ5YXZTREVqUkJLTEU2NEhROEVOTDVYTWRpV3lxdw?oc=5",
+   "publisher_url": null,
+   "publisher": "Yahoo Finance",
+   "published": "2026-11-16T06:37:00Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [
+    "anthropic",
+    "microsoft",
+    "nvidia"
+   ],
+   "fetched_at": "2026-11-16T07:56:01Z",
+   "matcher_version": "3.2"
+  },
+  {
    "id": "nef7fc0808e2dfd85",
    "title": "Anthropic's IPO orders reach about seven times the shares on offer, Bloomberg reports",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcUlfRzNiNUtjNER5R0VXanBZY0VrWmp1OTVuOWZuc29jaUNPdE5pSGdQWEZ2RFBwVHJBOVRpdUgzUmdaSGsyLTgxV0MzX1dFVUhLN2lJcXkyQWZvRksxVWZIcjdabHF3MVBPT3RQM0s0ZzZTV1pveFFZUDNuV3hVT29Ia29iYS1ub3dJVnVNSE1YRXdydkF4Szg5LWl2NEY5aGlPTUxsYw?oc=5",
@@ -26320,6 +26619,20 @@
     "minimax"
    ],
    "fetched_at": "2026-11-16T07:12:48Z",
+   "matcher_version": "3.2"
+  },
+  {
+   "id": "nef63346baea2c974",
+   "title": "#anthropicipotestsinvestorappetiteforai Community Insights & Market Sentiment | Binance Square",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV05lOElKZHlZOXJWS2RTaGZCMy1YY3ZuVnotRnlGVl9vRnMwYm5oWUoxVi1fZXp2OGNuTXdDdldfbk9IR0FFWF8xT2JmX29lcWNud2oySklYaWFkb1BfeWh6VGdKZzV1NVhVSUtwSmoxN284OE5BNEs4eS1lb0xVRjNFMEw4MG8?oc=5",
+   "publisher_url": null,
+   "publisher": "Binance",
+   "published": "2026-11-16T06:31:15Z",
+   "date": "2026-11-16",
+   "lang": "en-US",
+   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
+   "entities": [],
+   "fetched_at": "2026-11-16T07:56:01Z",
    "matcher_version": "3.2"
   },
   {
@@ -26630,336 +26943,17 @@
    "matcher_version": "3.2"
   },
   {
-   "id": "n839eb751b32ae53a",
-   "title": "More Pain For NVDA? Top Supply Chain Analyst Says New OpenAI, Anthropic Chip Orders Boost Google’s TPU Outlook",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQMEhtaDVrSEpjbWMtd1ZEanZPOWhlTFdvTHlJM25YaldfaXAtUXRVWkVFWGpYNnREN2RSWWdGYy1oekxVdW9UQ2pQR1FNWmxIM2d6dGFqSmt6cUhSNmg4eTNFLS11VjVnYUhPdzZFN1M1QklrT2pSRUxQODk5T2JMSEVZUkY2VjBSY0phUFB5eFo0a05wYXpOSnlyMm9rNWZRVzZ4U0U2REdab2RmNU16d0taR3hzUXZHLVI3d2k2a2dwZEVLUzMxcVJjWEpUa21fNFpPWHFHLWtMQ2puUXVFMGpJOFl5bndwREZUZ1VFOENnTGtFTjdTZ3BmZ0FvQQ?oc=5",
+   "id": "n418b0f01cb6d519a",
+   "title": "超聚变向A股进发，河南算力独角兽走到台前",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwY29keHdRbjFiQjZhcFhWUDJDZTh1ZUpPNmduTWxqczVRZGhzOWwxMURiai1wckhoX1QwZHhJMnF2MVBXVmhKSHlqZjczRXJGYWJXSWtDWEFQOV8tMlAyQg?oc=5",
    "publisher_url": null,
-   "publisher": "TradingView",
-   "published": "2026-11-16T05:03:00Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
-   "entities": [
-    "alphabet",
-    "anthropic",
-    "openai"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nbab121e8afd0e643",
-   "title": "Biggest IPOs this year lose investors money as AI frenzy fades",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQckgwU2t6YXJ0aXBGWVp2TEFXUkhNOVpJWTgtX1Q0V0N3S1d2R0JYSnd1ZWMwcm4tSlNaaTRvN3BRaVpzOVhmY19iaEhPdEtEQ1FlTmY4bHBuclFjU1lRbTNnTXdYQ2Y3RFBEWTlOUm13MG9xTTloN3p3NFJubWR1QUlWWXA?oc=5",
-   "publisher_url": null,
-   "publisher": "Financial Times",
-   "published": "2026-11-16T05:00:11Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n0b6c7c1ac553bfec",
-   "title": "Will Anthropic's IPO lead to better AI regulation?",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTWhsTF9TYnpkVE5sbk11ZTZ6YXlVS3czeE1uUEZVdWw1NzE0ZmhBS0NHWDY0RGt2MmppRTA4dzdkNE5kN0RjczdOVkQyOXNhNHhEcHhtb2dDbFpUVERhVFJnZUVrbW5LR2pxcVZuTmxDLWhHelIxVThuVzVZbW02dTRDSDJSUTduYW9OSUJDYTBVY1pwSXRlTGl30gGfAUFVX3lxTE01MlZ0bnpwQkpOLVBYdkdHcVg2YnQ2YjE2dGRabXRBa3ZfSENiWDR1RHhsWUxEN0FOZHdIc3RHNWk2RDFnNXpaQ19RMW1VLTVHcV9POUlGY21nOXBLZ2Q5MjBROU5VV3ZjUkRMWk54LWJPUmFmNWFqQm9nRzZpM1gyRWRmZFVXUXQ4ZEJKcF9mT3BWWkhaako0YWM5bnZkVQ?oc=5",
-   "publisher_url": null,
-   "publisher": "The Korea Times",
-   "published": "2026-11-16T05:00:03Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n0fd8e03eb8b5c429",
-   "title": "Anthropic IPO: the age of miracles, priced at $78 a share",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX01aN0Vqc2Iwc1F5UlFFQTh6RkFXUS0wSjVkY1o3dmZyOG82MjhUZXJGa2RSMktDaGxUT0JiaTQtWUg3bUx3eXdzeTRZeFpjaXBIS1NiMmxRZVFMa0EzaUhiMkxhbG42bDBGMXl6VlJIZkpwUHpEODBrT1h3V3ZzSXQ4UmZIeW5oZ3FZUEV3?oc=5",
-   "publisher_url": null,
-   "publisher": "Asia Times",
-   "published": "2026-11-16T04:58:48Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "na3268bd2880eeb96",
-   "title": "Watch Anthropic IPO, Nvidia Fallout in Focus; World Leaders Gather in Asia",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX0pLWkFQUS1aWU9PNE9idXJzdThYRm9SVjZGOUpkcU1IZE42OTZpZllLM2taOGhRYTRSUEg0ZGEzb1QwbFhBQVoyNklvbk1XV0Yyek45REloWC1mWjBWOGJQQm9uS1ZfMy1hVUFQempXaEpERWh2YmJWajhsbS1MX2Zla29VcDg?oc=5",
-   "publisher_url": null,
-   "publisher": "Bloomberg.com",
-   "published": "2026-11-16T04:55:16Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic",
-    "nvidia"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n9a7938d1b2538f1f",
-   "title": "Anthropic’s record IPO faces some big questions",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU2xfam9wMUtMc0VmWG9GT0VGU2s0TnV5cllNaFM1X0VXaDFMVEttbUw5Umd5V2FNY3JpNElSbzRtbDNDZjVUUjMyOXVtUThETXI4OEY2bjAtVTVBWm9vTnl6N3o2OU02YngxU05XYTBuOWJ2cFU2QUlFTUxnWks4V0NWTkcxQW1SYnhuYg?oc=5",
-   "publisher_url": null,
-   "publisher": "IraqiNews",
-   "published": "2026-11-16T04:51:19Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n54e25e07ca7a1484",
-   "title": "Qwen4-Max vs Kimi K3.1 Pro vs DeepSeek V4.1 Flash: Which should you use?",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CM05GdnQ2VTQ4RFdnTEx5MnNEVTdxdUJGRnUzWlppc1dVU3NHLXBYVEQ1UzczWUN6UWEtVXZKMVAzUFBiRTR4RWFhOFYzcFRWMTYtRHQ2cEFILUxoeF82VkgtZV9jd1lTaTZ5YWV1azdrNG1VX2U3ZnFYUEY?oc=5",
-   "publisher_url": null,
-   "publisher": "Kingy AI",
-   "published": "2026-11-16T04:45:39Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [
-    "deepseek",
-    "moonshot-ai"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n1dc2d06233d7317d",
-   "title": "DigitalOcean Secures $725 Million in Equipment Financing Facility to Fund Capacity Expansion",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU0VGVW8yZVNPNE96UktTOTB6LVlfVXhOY2YySDZqNDdpV3c5X0U2dEJvdldZbElwUTZOWm4xRWs2YVpBZ3FZel9KZ3hiN2diVndTX1phZExETjNxV1Bqb0NsaUFfeXRIcVFpUGZIU2VqRFlwNk5WWlhzVEJjTjI2d1lQVGlBemlHNmdnT1RnSEpLZ0ZGU0wwU25MQUxTS1pGckRVbUJkbVJXZ2ZIcTVaWllCZ1VYUQ?oc=5",
-   "publisher_url": null,
-   "publisher": "The National Law Review",
-   "published": "2026-11-16T04:41:20Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(Crusoe OR Lambda OR Fluidstack OR Nscale OR Firmus OR Vantage OR Aligned) (raises OR closes OR secures) (loan OR financing OR funding OR notes) when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nde78f36715dd6aa2",
-   "title": "China’s ZAI, Minimax tumble as Nvidia row drives fears of more chip restrictions",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPME9JaFVXQ3lzamlZOXNqd0dHcTUxQmJ2RG1EYVppU3NhQUtUTy1YXzktMGJnUkNhVVZubTFhd1VPNnBYVnpwbXlPUEhFZlVrVi1NcmluaDFac3dyMTR0RE9ZSWo1UlBiNGdiY1R0T2txbl9iRGFLT2pZVVNPeDFCNnhKVXV5ZWxMZjJscFhMU0JBVGxwUDJIWjVqQm5CNFRBbWRJNWVUWmthZFpEVTBGY3ZlcmZWMGdVb3NLNlotMjlxMkRWZFZCc1hJbHpLdWE2?oc=5",
-   "publisher_url": null,
-   "publisher": "Investing.com",
-   "published": "2026-11-16T04:41:15Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [
-    "minimax",
-    "nvidia"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n50191d769ea3484a",
-   "title": "AI: Daily quotas come to DeepSeek, a visible sign of China’s AI chip crunch",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYnlXRkx0VVNFQk53RC01R0x3c05uVUs5NWFjUjlleGh4elpUREI0VjEwMzhaXy16eFpFTkVWeTRvUG5mOWV1QTZzZ3ZvRVQybUVxUFotV0J1ZUpHaXRtYVFNay1tZ0htT25qQVFnRC1uNWJNS1ZxYU96bVJFdFVSeHFYUXdEWFFucUdfRkpxRjlQQlNZWUJ2aG53bE5ybWJlblF6ak90VHdlOHM?oc=5",
-   "publisher_url": null,
-   "publisher": "investingLive",
-   "published": "2026-11-16T04:37:03Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [
-    "deepseek"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n070bce18ea436cb9",
-   "title": "在K3爆火之际，来聊聊Kimi的商业化前景",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RQWkzUmVjNUVLakFjLVM1RHpkLWR3N0gyV3FGN3JJaWI5aVh2Uy1LMUFIUWpmcXFGS3BLa1BxYktTQUNvb2tZazFLazRPUQ?oc=5",
-   "publisher_url": null,
-   "publisher": "36氪",
-   "published": "2026-11-16T04:35:56Z",
+   "publisher": "ThePaper.cn",
+   "published": "2026-11-16T05:05:00Z",
    "date": "2026-11-16",
    "lang": "zh-CN",
-   "query": "(DeepSeek OR 深度求索 OR 月之暗面 OR Kimi OR 智谱 OR MiniMax OR 阶跃星辰) (融资 OR 上市 OR IPO) when:2d",
-   "entities": [
-    "moonshot-ai"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n5bb31df65930dc24",
-   "title": "Taiwan's Xintec Wins TSMC CoWoS Back-End Outsourcing Deal, Bets NT$15 Billion Convertible Bond on 2029 Mass Production",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvb3BvYUYwUWZmNUU2NXE1SUs2N0swekJiYzA3RmNvUU9QcTNpaVQ4d09fSTBoQkd1aUt3VDF1QmpheHh3VlI1SVY3ZTJnOFJzaXRjQkFiS2Zzcjc0NnRPZGlYV0VpRkpKYjFnblI4bDl0VzJWM0E?oc=5",
-   "publisher_url": null,
-   "publisher": "BigGo Finance",
-   "published": "2026-11-16T04:35:00Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
-   "entities": [
-    "tsmc"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n22e8e4e28dbee2d6",
-   "title": "TSMC Credit Limits Shape Financing Plans for Three Chip Designers",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kZkdsSWVCYkFPVGtScnVHX2Q2cTE2SExPdnlmZTN6VV9nRGdleVN4Q0w5bnJQTkdrNUllUktXX0xXc2gxaTBpZGJydnhybFZDRFZJbGxzRlI?oc=5",
-   "publisher_url": null,
-   "publisher": "www.tokenpost.com",
-   "published": "2026-11-16T04:27:00Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
-   "entities": [
-    "tsmc"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n2a8afc691c5149ad",
-   "title": "Why AMD and Broadcom cannot match Nvidia's huge AI funding gap",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObVQzVkFyamwwMUlna0FJcHFQWjBzN0R1MmVZNlhodURXQ1hPTmVCVkVWbmFCdldCVW9mcTdaamhqcmRoalppVDFKWHN4bTNSMWhtcFo3RXNGSF9FcklMeTRNWjhKSkRQcFRVS2gxUjJqUGE1dVA4TnJ4aVJ4YVRiV185NV9iUmRURmxXeHY2Z1BlVUk4aE9WdHBSS3lJWko1OWpiVmd5TjFOdXFzQlBmZEhrTXMxOUNMREhaY2daYTJFRWs4MXY00gHMAUFVX3lxTE5YZTZYNU5kU3VZanhFTkYtUmtpX0ZPc1N6NExKRG4zbW02REVMTFA1TVNwYW81VE80SUUwWXZHWUJIYW5rYXFmSFU2dmlhNk1nTFBMclJpRWhVUElMVTQzZzNBVC1GQTh1a1dqY21CQ0JPQS1LdzNkR0xCV0gtVm9ZdEtPeWJBeU9tclktLTRJNlJ6eUU3XzNVUTBKYmhZSXgyc2s5cmYxSGFHRFZsQ0ZoNmRVYUt1NUh0N1pnMHFlZTlVNWxrT3l2VXJyNg?oc=5",
-   "publisher_url": null,
-   "publisher": "India Today",
-   "published": "2026-11-16T04:15:09Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:2d",
-   "entities": [
-    "amd",
-    "broadcom",
-    "nvidia"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n8e1720bc57fb3ff8",
-   "title": "Meta Platforms | Facebook, Instagram, WhatsApp, & AI",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBURjhqMVZMX0ZkV09OemJjOFFTV3d3NnMxcmgzTXdkbW1tbTByTUJUZzBncUlxbWhxSzhsOGZ3RmNNdTRxMnVZc0ZWWGtBbkdZakdKZ2UtejhER2s?oc=5",
-   "publisher_url": null,
-   "publisher": "Britannica",
-   "published": "2026-11-16T04:02:25Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(Microsoft OR Google OR Amazon OR Meta) AI infrastructure agreement billion when:2d",
-   "entities": [
-    "meta"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n51961d3b37196678",
-   "title": "AI Companies’ Computing Power Anxiety: Unprecedented Power Sector Competition Driving Aircraft Dismantling for Power Supply",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzeWVnc1hLYXhENHc1NDZVaFBQNFQzemV1WkY1Mi13ak5iWl94SWVtR0x5NnVUWGpxYTh0NEJLU2RneWZ0M0lLQ1ZOZ1VYTFNLVWRF?oc=5",
-   "publisher_url": null,
-   "publisher": "eu.36kr.com",
-   "published": "2026-11-16T04:01:29Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(Constellation OR Vistra OR Talen OR NextEra OR \"GE Vernova\" OR Oklo) power agreement data center (Microsoft OR Amazon OR Google OR Meta) when:2d",
+   "query": "(英伟达 OR 寒武纪 OR 昆仑芯 OR 华为 OR 中国移动) (订单 OR 采购 OR 合同 OR 算力) 亿 when:2d",
    "entities": [],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n9ffb1416c91c9cba",
-   "title": "China Reusable Rocket Startup Raises RMB 7B (~$970M)",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSVVRSW9PTXdLa0xJYWZ6ajhzNDhBcTdZV1BPc3FTRUdpdFdNZDJTdjd2YldmR1ZRUGl5c2lYNnoyNzVURVp1WXVlT3JEQnpqZ3FQb3FqWUM1LUNXM1U3TFhVQnNOM2p1Vm5CM1dZdk10RnlFWE1IeU1rV0ZfZTMwdHBLYzcxNV9IUndxUQ?oc=5",
-   "publisher_url": null,
-   "publisher": "shattered.io",
-   "published": "2026-11-16T04:01:10Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n98f9102edea9a058",
-   "title": "Anthropic IPO Risks $26B in Tech Amid AI Market Shifts",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPb0VaOVU1T1pQU2JkanJpWlZSMDM2NmJqckZ0SDJLSnN3Unc0cWNySXh0ZjJOY1hPa1lXb3U2bWpFcGZrRFlVdHVpRzcyb3ZIM3ZqbEd2WWM0Z1kyb0hsZUltMEI2bTJ6MzB3M0FTYnM2dkUtakc1bktDcDJubVZIRmdrYXYtUDBjSjJzX2p3MWdLZkFRRWVpb0xuN3R2YXhCSC05SDlmM1M5OW5tVWNxd2l4VUw0ZVBVM1VQZnFwclI0dFBncjI1b01fMXl3Wlg4YkYwQjJVYXlHd3dZREVzbGhzZHA?oc=5",
-   "publisher_url": null,
-   "publisher": "RS Web Solutions",
-   "published": "2026-11-16T04:00:00Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n32c60550c82d21f8",
-   "title": "Anthropic IPO Reportedly Oversubscribed 7 Times – But Will The AI Euphoria Survive The Stock Market Debut?",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckw3X3Rrb0lZaUgyX3ljNzhPQW1PdUFhR3k2c2txMjdGNHBzQ1JoTXk5NlZLU2xKWlNrU2U0SkZKZzJRNnFycWtjdnVmWmdwTW9adlBubnhvS3Y3VTFsSkY3bzFVRDd1eTZ2ME03RXZNTXRNcHFlbl9GaEFST2VXZ2xkcnkxSXhTUEo3dGZYQngySHpFWkREZ3NPclEwYl9IY1pGNlR4dDJGdw?oc=5",
-   "publisher_url": null,
-   "publisher": "Yahoo Finance",
-   "published": "2026-11-16T03:56:00Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(SpaceX OR xAI OR Anthropic OR OpenAI) (IPO OR S-1 OR prospectus OR \"purchase commitments\") when:2d",
-   "entities": [
-    "anthropic"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "n3570d94091f90e2d",
-   "title": "Uniting Ecosystems to Shape the Future of AI+: 3rd Anniversary DALA Awards Spotlights Data Literacy and Responsible Governance",
-   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNMXRsbTZIQ0doUm8zMEJrNnYxSEF1WUJTUEtEWEhiZk1kWGthcW11WDhoc3gtOTRQN3pfTExhY2lhZlRlUFcyNjRUM0xSMFhkeFpISmhScWE0MGFINU9zX0hPVFJGbm1iLUlSR2hKUlJJNkYwNFpKd1Y0LTc1ZFpDSkg5UE5IUVZRQTZMNV8xdDVsNjZXSUtyNFpUc19BMVF4WXVoNENwVElVSXozajRMamNZOVJwVU9heU1abUVDWTZ2dlNwMnduSnZjM2pfUlNOTjJiWHRhX3FPQjU3Y1VhVkdoSzlfemZkX3FWZXF6d3Z1T180S3M1OU9mRmgtM29WMGpCSzBQTmNGVWsyaWR0czdLYw?oc=5",
-   "publisher_url": null,
-   "publisher": "PR Newswire",
-   "published": "2026-11-16T03:53:24Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:2d",
-   "entities": [],
-   "fetched_at": "2026-11-16T07:12:48Z",
-   "matcher_version": "3.2"
-  },
-  {
-   "id": "nc8f2cf4dd473df26",
-   "title": "Alibaba unveils new flagship AI model in riposte to US rivals",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeEFzeFcxcjJ2ckh6OEs1aTVCWHRPT25NYkowaFBOR1FVMUYyN2VjNXRhcVJBeWZRSkkybV95T2NXSHNhVHotQVl4Nlg0Uzg4cnpqbk1rVWZydlo5ejZ4VHdMSTBLaGRyaElCTWUxdlFZZlVQdXdEdFJheWFHT0xhblhGZHltaXdZSVZ6ZExENDBlX0FOUF9ldVFsMFFIeE0?oc=5",
-   "publisher_url": null,
-   "publisher": "The Edge Singapore",
-   "published": "2026-11-16T03:41:16Z",
-   "date": "2026-11-16",
-   "lang": "en-US",
-   "query": "(DeepSeek OR Moonshot OR Kimi OR Zhipu OR MiniMax OR StepFun OR \"Z.ai\") (raises OR funding OR IPO OR listing) when:2d",
-   "entities": [
-    "alibaba"
-   ],
-   "fetched_at": "2026-11-16T07:12:48Z",
+   "fetched_at": "2026-11-16T07:56:01Z",
    "matcher_version": "3.2"
   }
  ],
