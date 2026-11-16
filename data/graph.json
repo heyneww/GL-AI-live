@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:49:28Z",
+ "generated_at": "2026-11-16T22:47:33Z",
  "monitor": {
   "last_run": "2026-11-16T19:48:36Z",
   "sec_items": 239,
@@ -596,14 +596,14 @@
      "order": 7,
      "investment": 4,
      "debt": 0,
-     "lease": 3,
+     "lease": 4,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 25,
-    "degree_curated": 25,
+    "degree": 26,
+    "degree_curated": 26,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -614,9 +614,9 @@
     },
     "confirmed_usd": 475860000000,
     "binding_usd": 553760000000,
-    "last_edge": "2026-10-30",
-    "last_source": "2026-11-09",
-    "counterparties": 14,
+    "last_edge": "2026-11-11",
+    "last_source": "2026-11-16",
+    "counterparties": 15,
     "inflow_total_usd": 458860000000,
     "outflow_total_usd": 94900000000,
     "top_counterparties": [
@@ -684,7 +684,7 @@
     },
     "outflow_count": {
      "order": 2,
-     "investment": 4,
+     "investment": 5,
      "debt": 0,
      "lease": 2,
      "vendor_financing": 0,
@@ -692,8 +692,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 16,
-    "degree_curated": 16,
+    "degree": 17,
+    "degree_curated": 17,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 1000000000,
@@ -705,8 +705,8 @@
     "confirmed_usd": 20786000000,
     "binding_usd": 20786000000,
     "last_edge": "2026-11-10",
-    "last_source": "2026-11-10",
-    "counterparties": 11,
+    "last_source": "2026-11-16",
+    "counterparties": 12,
     "inflow_total_usd": 9750000000,
     "outflow_total_usd": 12036000000,
     "top_counterparties": [
@@ -2096,7 +2096,7 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -2110,8 +2110,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 5,
-    "degree_curated": 5,
+    "degree": 6,
+    "degree_curated": 6,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -2122,9 +2122,9 @@
     },
     "confirmed_usd": 23700000000,
     "binding_usd": 38700000000,
-    "last_edge": "2026-10-26",
-    "last_source": "2026-10-26",
-    "counterparties": 5,
+    "last_edge": "2026-11-11",
+    "last_source": "2026-11-16",
+    "counterparties": 6,
     "inflow_total_usd": 0,
     "outflow_total_usd": 38700000000,
     "top_counterparties": [
@@ -7920,7 +7920,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 12,
+     "order": 13,
      "investment": 5,
      "debt": 1,
      "lease": 0,
@@ -7929,21 +7929,21 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 32,
-    "degree_curated": 32,
+    "degree": 33,
+    "degree_curated": 33,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 1000000000,
      "signed": 655004571259,
-     "in_progress": 110400000000,
-     "completed": 158600000000,
+     "in_progress": 80400000000,
+     "completed": 188600000000,
      "reported": 11000000000
     },
-    "confirmed_usd": 495904571259,
+    "confirmed_usd": 525904571259,
     "binding_usd": 924004571259,
-    "last_edge": "2026-11-10",
-    "last_source": "2026-11-10",
-    "counterparties": 20,
+    "last_edge": "2026-11-16",
+    "last_source": "2026-11-16",
+    "counterparties": 21,
     "inflow_total_usd": 197600000000,
     "outflow_total_usd": 738404571259,
     "top_counterparties": [
@@ -9162,11 +9162,11 @@
     "by_status_usd": {
      "announced": 0,
      "signed": 35000000000,
-     "in_progress": 30000000000,
-     "completed": 102200000000,
+     "in_progress": 0,
+     "completed": 132200000000,
      "reported": 0
     },
-    "confirmed_usd": 72500000000,
+    "confirmed_usd": 102500000000,
     "binding_usd": 167200000000,
     "last_edge": "2026-09-21",
     "last_source": "2026-10-01",
@@ -9699,6 +9699,70 @@
      }
     ],
     "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "tensorwave",
+   "name": "TensorWave",
+   "name_zh": "TensorWave（AMD GPU 云服务商）",
+   "group": "neocloud",
+   "ticker": null,
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 0,
+    "last_edge": "2026-11-16",
+    "last_source": "2026-11-16",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
    }
   },
   {
@@ -10520,6 +10584,70 @@
    }
   },
   {
+   "id": "world-labs",
+   "name": "World Labs",
+   "name_zh": "World Labs（李飞飞创立的 AI 实验室）",
+   "group": "model_lab",
+   "ticker": null,
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 0,
+    "last_edge": "2026-09-26",
+    "last_source": "2026-11-16",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
+   }
+  },
+  {
    "id": "xai",
    "name": "xAI (merged into SpaceX, Feb 2026)",
    "name_zh": "xAI（2026 年 2 月并入 SpaceX）",
@@ -10732,6 +10860,43 @@
  ],
  "edges": [
   {
+   "id": "openai-tensorwave-2026-11-amd-capacity",
+   "kind": "order",
+   "subkind": "dedicated AI compute capacity (AMD GPUs)",
+   "subkind_zh": "专用 AI 算力容量（AMD GPU）",
+   "from": "openai",
+   "to": "tensorwave",
+   "amount_usd": null,
+   "amount_text": "Value undisclosed; 457 MW of IT capacity on AMD Instinct MI455X GPUs (Helios racks) at several US sites, dedicated single-tenant, for six years",
+   "amount_text_zh": "金额未披露；在美国多个数据中心提供 457 兆瓦 IT 容量，采用 AMD Instinct MI455X GPU（Helios 机架），为单一租户专用，期限六年",
+   "announced": "2026-11-16",
+   "term": "Six years; capacity from H1 2027, fully deployed by early 2028",
+   "term_zh": "六年；2027 年上半年起陆续上线，2028 年初全部部署",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "OpenAI six-year AMD GPU capacity deal with TensorWave (457 MW)",
+   "title_zh": "OpenAI 与 TensorWave 签署六年 AMD GPU 算力协议（457 兆瓦）",
+   "summary_en": "TensorWave, an AMD-backed GPU cloud, agreed on 16 November 2026 to provide OpenAI with 457 MW of dedicated capacity on AMD Instinct MI455X GPUs for six years, coming online from the first half of 2027. It is the first neocloud named as a provider under the AMD–OpenAI partnership; the contract value was not disclosed.",
+   "summary_zh": "获 AMD 投资的 GPU 云服务商 TensorWave 于 2026 年 11 月 16 日同意在六年内为 OpenAI 提供 457 兆瓦基于 AMD Instinct MI455X GPU 的专用算力，自 2027 年上半年起陆续上线。这是首家被公开列为 AMD 与 OpenAI 合作项下供应方的新型云服务商；合同金额未披露。",
+   "sources": [
+    {
+     "url": "https://www.businesswire.com/news/home/20261116130015/en/",
+     "publisher": "TensorWave (Business Wire)",
+     "date": "2026-11-16",
+     "title": "TensorWave Announces Agreement with OpenAI to Deliver More Than 450MW of AMD Powered AI Infrastructure",
+     "type": "official"
+    },
+    {
+     "url": "https://www.reviewjournal.com/business/vegas-business/innovation/las-vegas-tech-company-strikes-major-deal-with-openai-3915172/",
+     "publisher": "Las Vegas Review-Journal",
+     "date": "2026-11-16",
+     "title": "TensorWave lands OpenAI deal to provide 457 megawatts of AI capacity",
+     "type": "news"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-alphabet-2026-11-hkd-sgd-notes",
    "kind": "debt",
    "subkind": "senior notes (HKD and SGD)",
@@ -10781,6 +10946,46 @@
     "bond-investors-alphabet-2026-11-notes"
    ],
    "last_checked": "2026-11-14",
+   "origin": "curated"
+  },
+  {
+   "id": "amazon-blackstone-2026-11-sale-leaseback",
+   "kind": "lease",
+   "subkind": "data-centre sale-leaseback (75.1% JV stake, triple-net leases)",
+   "subkind_zh": "数据中心售后回租（合资公司 75.1% 权益，三净租约）",
+   "from": "amazon",
+   "to": "blackstone",
+   "amount_usd": null,
+   "amount_text": "Portfolio gross value $5.0B at a 7.0% initial cap rate; BXDC contributes $1.9B of cash for 75.1% and the joint venture borrows ~$2.5B of non-recourse mortgage loans, AWS keeping 24.9% (~$0.6B) plus a cash distribution; rent not disclosed; 13 data centres, 647 MW",
+   "amount_text_zh": "资产组合总价值 50 亿美元，初始资本化率 7.0%；BXDC 出资 19 亿美元现金取得 75.1% 权益，合资公司另借入约 25 亿美元无追索权抵押贷款，AWS 保留 24.9%（约 6 亿美元）并获现金分配；租金未披露；13 座数据中心，647 兆瓦",
+   "headline_usd": 5000000000,
+   "announced": "2026-11-11",
+   "term": "Leases: 12 years weighted average initial term (32 years fully extended), 2.75% annual rent escalator; closing expected by 31 Dec 2026",
+   "term_zh": "租约加权平均初始期限 12 年（全部续期后 32 年），租金每年递增 2.75%；预计 2026 年 12 月 31 日前交割",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AWS sells 75.1% of 13 data centres to Blackstone's BXDC and leases them back ($5.0B portfolio)",
+   "title_zh": "AWS 将 13 座数据中心 75.1% 权益出售给黑石旗下 BXDC 并回租（资产组合 50 亿美元）",
+   "summary_en": "Blackstone Digital Infrastructure Trust (BXDC) agreed on 11 November 2026 to take 75.1% of two joint ventures that will own 13 new AWS data centres in northern Indiana and Mississippi (647 MW), valued at $5.0 billion; AWS leases all of them back on long-term triple-net leases, with Amazon.com guaranteeing its subsidiary's rent. The purchase is funded by $1.9 billion of BXDC cash and about $2.5 billion of non-recourse mortgage loans, and it frees capital for Amazon.",
+   "summary_zh": "黑石数字基础设施信托（BXDC）于 2026 年 11 月 11 日同意取得两家合资公司 75.1% 的权益，合资公司将持有 AWS 位于印第安纳州北部和密西西比州的 13 座新建数据中心（647 兆瓦），估值 50 亿美元；AWS 以长期三净租约回租全部设施，亚马逊为其子公司的租金提供担保。收购资金来自 BXDC 的 19 亿美元现金及约 25 亿美元无追索权抵押贷款，为亚马逊释放资本。",
+   "note_en": "The amount is null because the rent and the cash Amazon receives are not disclosed; the $5.0B is the portfolio's gross value, shown only in the broad view.",
+   "note_zh": "由于租金及亚马逊获得的现金未披露，金额为空；50 亿美元为资产组合总价值，仅在广义口径中显示。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2100161/000119312526461954/d115778d8k.htm",
+     "publisher": "Blackstone Digital Infrastructure Trust (SEC 8-K)",
+     "date": "2026-11-16",
+     "title": "BXDC Form 8-K: contribution agreement with affiliates of Amazon Data Services for a 75.1% interest in two data-centre joint ventures",
+     "type": "filing"
+    },
+    {
+     "url": "https://finance.yahoo.com/real-estate/articles/blackstone-data-center-reit-makes-145243410.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-11-16",
+     "title": "Blackstone's Data Center REIT Makes First Investment With $5B Deal With AWS",
+     "type": "news"
+    }
+   ],
    "origin": "curated"
   },
   {
@@ -12788,6 +12993,44 @@
      "publisher": "The Next Web",
      "date": "2026-09-29",
      "title": "Samsung and five affiliates put $1bn into KKR's AI infrastructure firm"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amd-world-labs-2026-09-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition (all-stock)",
+   "subkind_zh": "收购（全股票）",
+   "from": "amd",
+   "to": "world-labs",
+   "amount_usd": null,
+   "amount_text": "~$8.2B paid in AMD common stock (14,978,322 shares issued at closing on 13 Nov 2026); all-stock, so not counted",
+   "amount_text_zh": "约 82 亿美元，以 AMD 普通股支付（2026 年 11 月 13 日交割时发行 14,978,322 股）；全股票交易，不计入合计",
+   "headline_usd": 8200000000,
+   "announced": "2026-09-26",
+   "term": "Closed on 13 November 2026",
+   "term_zh": "2026 年 11 月 13 日完成交割",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "AMD acquires World Labs (~$8.2B in stock)",
+   "title_zh": "AMD 收购 World Labs（约 82 亿美元股票）",
+   "summary_en": "AMD agreed on 26 September 2026 to buy World Labs, the AI model lab co-founded by Fei-Fei Li, for about $8.2 billion paid in AMD shares, and closed the deal on 13 November 2026, issuing about 15.0 million shares. As an all-stock deal its value is shown only in the broad view.",
+   "summary_zh": "AMD 于 2026 年 9 月 26 日同意以约 82 亿美元的 AMD 股票收购由李飞飞联合创立的 AI 模型实验室 World Labs，并于 2026 年 11 月 13 日完成交割，发行约 1,500 万股。由于是全股票交易，其金额仅在广义口径中显示。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526462340/d105780d8ka.htm",
+     "publisher": "AMD (SEC 8-K/A)",
+     "date": "2026-11-16",
+     "title": "AMD Form 8-K/A: closing of the World Labs acquisition and shares issued",
+     "type": "filing"
+    },
+    {
+     "url": "https://www.financierworldwide.com/fw-news/2026/10/1/amd-to-acquire-world-labs-in-82bn-all-stock-deal",
+     "publisher": "Financier Worldwide",
+     "date": "2026-10-01",
+     "title": "AMD to acquire World Labs in $8.2bn all-stock deal",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -18999,6 +19242,7 @@
    "term": "Multi-year; possible direct TPU purchases from 2027",
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-16",
    "title_en": "Meta rents Google TPUs in multi-billion deal",
    "title_zh": "Meta 签署数十亿美元谷歌 TPU 租用协议",
    "summary_en": "The Information reported that Meta signed a multi-year, multi-billion-dollar deal to rent Google TPUs for training next-generation models; earlier reports said Meta could also buy TPUs for its own data centres from 2027.",
@@ -19057,6 +19301,7 @@
    "term": "8 years",
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-16",
    "title_en": "OpenAI expands AWS commitment by $100B (Trainium)",
    "title_zh": "OpenAI 追加 1000 亿美元 AWS 承诺（Trainium 芯片）",
    "summary_en": "Alongside Amazon's $50B investment, OpenAI added $100B to its AWS agreement over eight years and committed to about 2 GW of Amazon Trainium capacity; AWS became the exclusive third-party cloud distributor for OpenAI Frontier.",
@@ -19085,16 +19330,25 @@
    "from": "softbank",
    "to": "openai",
    "amount_usd": 30000000000,
-   "amount_text": "$30B, paid in instalments during 2026 (SoftBank's Sept 2026 bonds fund its next $10B payment); cumulative SoftBank investment ~$64.6B (~13%)",
+   "amount_text": "$30B, paid in three $10B tranches (1 Apr, 1 Jul and 1 Oct 2026, Japan time); the third was funded with SoftBank's foreign-currency senior notes; cumulative SoftBank investment ~$64.6B (~13%)",
    "announced": "2026-02-27",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "reported",
+   "term": "Three $10B tranches; the last paid on 1 Oct 2026",
+   "term_zh": "分三期各 100 亿美元支付；最后一期于 2026 年 10 月 1 日支付",
+   "status": "completed",
+   "confidence": "confirmed",
+   "last_checked": "2026-11-16",
    "title_en": "SoftBank invests a further $30B in OpenAI",
    "title_zh": "软银再向 OpenAI 投资 300 亿美元",
-   "summary_en": "SoftBank co-led OpenAI's $122B round with $30B, initially financed with bridge loans, lifting its cumulative investment to about $64.6B or roughly 13% of the company.",
-   "summary_zh": "软银以 300 亿美元联合领投 OpenAI 1220 亿美元融资，初期以过桥贷款筹资，累计投资增至约 646 亿美元，持股约 13%。",
+   "summary_en": "SoftBank co-led OpenAI's $122B round with $30B, financed first with bridge loans and for the last tranche with senior notes; SoftBank said on 1 October 2026 that the third and final $10B tranche was paid, completing the commitment and lifting its cumulative investment to about $64.6B or roughly 13% of the company.",
+   "summary_zh": "软银以 300 亿美元联合领投 OpenAI 1220 亿美元融资，前两期以过桥贷款筹资，最后一期以优先票据筹资；软银于 2026 年 10 月 1 日表示已支付第三期即最后一期 100 亿美元，承诺全部完成，累计投资增至约 646 亿美元，持股约 13%。",
    "sources": [
+    {
+     "url": "https://group.softbank/en/news/press/20261001",
+     "publisher": "SoftBank Group",
+     "date": "2026-10-01",
+     "title": "Execution of Follow-on Investment (Third Tranche) in OpenAI",
+     "type": "official"
+    },
     {
      "url": "https://finance.yahoo.com/news/openais-110-billion-funding-round-145925079.html",
      "publisher": "Reuters via Yahoo Finance",
@@ -19122,6 +19376,7 @@
    "term": "2026",
    "status": "in_progress",
    "confidence": "reported",
+   "last_checked": "2026-11-16",
    "title_en": "Apple to buy 100M+ chips from TSMC Arizona in 2026",
    "title_zh": "苹果 2026 年将从台积电亚利桑那厂采购逾 1 亿颗芯片",
    "summary_en": "Apple said it is on track to buy more than 100 million advanced chips from TSMC's Arizona fab in 2026, up from 2025, under its $600B US investment pledge; procurement chief David Tom said Apple is taking as much of the fab's output as it can.",
@@ -19155,6 +19410,7 @@
    "term": "Multi-year; first 1 GW from H2 2026",
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-16",
    "title_en": "Meta deal for up to 6 GW of AMD GPUs",
    "title_zh": "Meta 采购最多 6 吉瓦 AMD GPU",
    "summary_en": "AMD and Meta agreed to deploy up to 6 GW of custom MI450-based GPUs in Helios racks, starting with 1 GW in the second half of 2026. Terms were not disclosed; reports range from about $60B to over $100B.",
@@ -19187,6 +19443,7 @@
    "term": "Vests from first 1 GW to 6 GW",
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-16",
    "title_en": "AMD grants Meta warrant for up to 160M shares",
    "title_zh": "AMD 向 Meta 授予最多 1.6 亿股认股权证",
    "summary_en": "Mirroring its OpenAI deal, AMD issued Meta a performance warrant for up to 160 million shares that vests with GPU shipments from 1 GW to 6 GW and with AMD share-price targets reported to reach $600.",
@@ -19213,6 +19470,7 @@
    "term": "Multiyear, multigenerational",
    "status": "in_progress",
    "confidence": "confirmed",
+   "last_checked": "2026-11-16",
    "title_en": "Meta multiyear deal for millions of Nvidia GPUs",
    "title_zh": "Meta 与英伟达签署数百万颗 GPU 的多年期协议",
    "summary_en": "Meta agreed a multiyear partnership to deploy millions of Nvidia Blackwell and Rubin GPUs, the first large-scale Grace-only CPU deployment and Spectrum-X networking, on premises and via Nvidia cloud partners. Financial terms were not disclosed.",
@@ -19271,6 +19529,7 @@
    "term": "Opening 2027",
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-16",
    "title_en": "Mistral AI's $1.4B AI data centre in Sweden with EcoDataCenter",
    "title_zh": "Mistral AI 与 EcoDataCenter 在瑞典投资 14 亿美元建设 AI 数据中心",
    "summary_en": "Mistral AI and EcoDataCenter will invest about €1.2B in an AI data centre at EcoDataCenter's Borlänge site, which EcoDataCenter will design, build and run, designed for Nvidia Vera Rubin GPUs; opening is set for 2027.",
@@ -19340,6 +19599,7 @@
    "term": null,
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-16",
    "title_en": "Blackstone leads $10B debt facility for Australia's Firmus",
    "title_zh": "黑石牵头为澳大利亚 Firmus 提供 100 亿美元债务融资",
    "summary_en": "Blackstone funds led, with Coatue, a US$10B private debt facility for Nvidia-backed Firmus to fund the next stage of its Project Southgate AI factories.",
@@ -19550,6 +19810,7 @@
    "term": null,
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-16",
    "title_en": "Nscale $1.4B GPU financing facility",
    "title_zh": "Nscale 14 亿美元 GPU 融资安排",
    "summary_en": "Nscale entered into a senior secured delayed-draw term loan facility with about $1.4B of commitments in February 2026 to finance GPUs, according to its amended IPO filing; the filing does not name the lenders.",
@@ -19577,6 +19838,7 @@
    "term": null,
    "status": "in_progress",
    "confidence": "reported",
+   "last_checked": "2026-11-16",
    "title_en": "Micron supplies HBM4 for Nvidia's Vera Rubin",
    "title_zh": "美光为英伟达 Vera Rubin 供应 HBM4",
    "summary_en": "Micron began HBM4 shipments in February 2026 and announced high-volume production aimed at Nvidia's Vera Rubin platform; Jensen Huang said all three memory makers are qualified and producing.",
@@ -19651,6 +19913,7 @@
    "term": "2026 purchases",
    "status": "reported",
    "confidence": "reported",
+   "last_checked": "2026-11-16",
    "title_en": "Tencent buys Nvidia H200 chips after approvals",
    "title_zh": "腾讯获批后采购英伟达 H200",
    "summary_en": "Tencent was among the first Chinese firms Beijing reportedly allowed to buy Nvidia H200s in January 2026. By August 2026 it had reportedly taken delivery of about 10,000 units.",
@@ -28243,22 +28506,22 @@
   }
  ],
  "stats": {
-  "entities": 143,
-  "edges": 434,
-  "curated_edges": 434,
+  "entities": 145,
+  "edges": 437,
+  "curated_edges": 437,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 115,
+    "count": 116,
     "usd": 1532189000000,
-    "undisclosed": 69,
+    "undisclosed": 70,
     "cancelled": 1,
     "superseded": 0
    },
    "investment": {
-    "count": 143,
+    "count": 144,
     "usd": 927383790000,
-    "undisclosed": 41,
+    "undisclosed": 42,
     "cancelled": 3,
     "superseded": 1
    },
@@ -28270,9 +28533,9 @@
     "superseded": 4
    },
    "lease": {
-    "count": 29,
+    "count": 30,
     "usd": 339716000000,
-    "undisclosed": 8,
+    "undisclosed": 9,
     "cancelled": 0,
     "superseded": 0
    },
@@ -28319,17 +28582,17 @@
   },
   "total_usd": 4008405861259,
   "contingent_usd": 183230000000,
-  "headline_usd": 2151010000000,
-  "broad_usd": 6342645861259,
+  "headline_usd": 2164210000000,
+  "broad_usd": 6355845861259,
   "by_status_usd": {
    "announced": 19200000000,
    "signed": 1960473571259,
-   "in_progress": 541636000000,
-   "completed": 1384996290000,
+   "in_progress": 511636000000,
+   "completed": 1414996290000,
    "reported": 102100000000
   },
-  "confirmed_usd": 2624488861259,
-  "reported_usd": 1383917000000,
+  "confirmed_usd": 2654488861259,
+  "reported_usd": 1353917000000,
   "binding_usd": 3887105861259,
   "announced_usd": 121300000000,
   "circular": [
@@ -30385,7 +30648,7 @@
    },
    {
     "month": "2026-09",
-    "count": 27,
+    "count": 28,
     "usd": 222169000000,
     "cumulative_usd": 3447317861259,
     "by_kind": {
@@ -30413,7 +30676,7 @@
    },
    {
     "month": "2026-11",
-    "count": 18,
+    "count": 20,
     "usd": 92550000000,
     "cumulative_usd": 4008405861259,
     "by_kind": {
@@ -30430,7 +30693,7 @@
    "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
    "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
   },
-  "latest_announced": "2026-11-12",
+  "latest_announced": "2026-11-16",
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount that are not cancelled or superseded: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消、未被取代交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"

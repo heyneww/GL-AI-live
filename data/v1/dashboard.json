@@ -1,32 +1,32 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T19:49:28Z",
- "built_at": "2026-11-16T19:49:45Z",
+ "generated_at": "2026-11-16T22:47:33Z",
+ "built_at": "2026-11-16T22:47:59Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
   "total_usd": 4008405861259,
   "contingent_usd": 183230000000,
-  "headline_usd": 2151010000000,
-  "broad_usd": 6342645861259,
-  "confirmed_usd": 2624488861259,
-  "reported_usd": 1383917000000,
+  "headline_usd": 2164210000000,
+  "broad_usd": 6355845861259,
+  "confirmed_usd": 2654488861259,
+  "reported_usd": 1353917000000,
   "binding_usd": 3887105861259,
-  "deals": 434,
+  "deals": 437,
   "deals_with_amount": 300,
-  "companies": 143,
+  "companies": 145,
   "new_7d": {
-   "count": 10,
+   "count": 12,
    "usd": 29800000000
   },
   "new_30d": {
-   "count": 45,
+   "count": 47,
    "usd": 555880000000
   },
   "announced_30d": {
-   "count": 41,
+   "count": 43,
    "usd": 549330000000
   },
-  "latest_announced": "2026-11-12"
+  "latest_announced": "2026-11-16"
  },
  "entities": {
   "aip": {
@@ -3870,21 +3870,22 @@
    "counted_usd": 30000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "$30B, paid in instalments during 2026 (SoftBank's Sept 2026 bonds fund its next $10B payment); cumulative SoftBank investment ~$64.6B (~13%)",
+   "amount_text": "$30B, paid in three $10B tranches (1 Apr, 1 Jul and 1 Oct 2026, Japan time); the third was funded with SoftBank's foreign-currency senior notes; cumulative SoftBank investment ~$64.6B (~13%)",
    "announced": "2026-02-27",
-   "status": "in_progress",
-   "confidence": "reported",
+   "status": "completed",
+   "confidence": "confirmed",
    "title_en": "SoftBank invests a further $30B in OpenAI",
    "title_zh": "软银再向 OpenAI 投资 300 亿美元",
-   "summary_en": "SoftBank co-led OpenAI's $122B round with $30B, initially financed with bridge loans, lifting its cumulative investment to about $64.6B or roughly 13% of the company.",
-   "summary_zh": "软银以 300 亿美元联合领投 OpenAI 1220 亿美元融资，初期以过桥贷款筹资，累计投资增至约 646 亿美元，持股约 13%。",
+   "summary_en": "SoftBank co-led OpenAI's $122B round with $30B, financed first with bridge loans and for the last tranche with senior notes; SoftBank said on 1 October 2026 that the third and final $10B tranche was paid, completing the commitment and lifting its cumulative investment to about…",
+   "summary_zh": "软银以 300 亿美元联合领投 OpenAI 1220 亿美元融资，前两期以过桥贷款筹资，最后一期以优先票据筹资；软银于 2026 年 10 月 1 日表示已支付第三期即最后一期 100 亿美元，承诺全部完成，累计投资增至约 646 亿美元，持股约 13%。",
    "source": {
-    "url": "https://finance.yahoo.com/news/openais-110-billion-funding-round-145925079.html",
-    "publisher": "Reuters via Yahoo Finance",
-    "date": "2026-02-27"
+    "url": "https://group.softbank/en/news/press/20261001",
+    "publisher": "SoftBank Group",
+    "date": "2026-10-01"
    },
    "added": "2026-10-27",
    "tags": [
+    "changed",
     "big"
    ]
   },
@@ -5107,6 +5108,22 @@
  ],
  "changes": [
   {
+   "id": "softbank-openai-2026-02-equity",
+   "date": "2026-11-16",
+   "title_en": "SoftBank invests a further $30B in OpenAI",
+   "title_zh": "软银再向 OpenAI 投资 300 亿美元",
+   "fields": {
+    "confidence": {
+     "from": "reported",
+     "to": "confirmed"
+    },
+    "status": {
+     "from": "in_progress",
+     "to": "completed"
+    }
+   }
+  },
+  {
    "id": "bond-investors-coreweave-2026-06-notes",
    "date": "2026-11-13",
    "title_en": "CoreWeave $1.25B + €2B senior notes due 2032",
@@ -5290,15 +5307,15 @@
  "by_kind": [
   {
    "kind": "order",
-   "count": 115,
+   "count": 116,
    "usd": 1532189000000,
-   "undisclosed": 69
+   "undisclosed": 70
   },
   {
    "kind": "investment",
-   "count": 143,
+   "count": 144,
    "usd": 927383790000,
-   "undisclosed": 41
+   "undisclosed": 42
   },
   {
    "kind": "debt",
@@ -5308,9 +5325,9 @@
   },
   {
    "kind": "lease",
-   "count": 29,
+   "count": 30,
    "usd": 339716000000,
-   "undisclosed": 8
+   "undisclosed": 9
   },
   {
    "kind": "vendor_financing",
@@ -5334,17 +5351,17 @@
   {
    "status": "signed",
    "usd": 1960473571259,
-   "count": 154
+   "count": 156
   },
   {
    "status": "in_progress",
-   "usd": 541636000000,
-   "count": 63
+   "usd": 511636000000,
+   "count": 62
   },
   {
    "status": "completed",
-   "usd": 1384996290000,
-   "count": 165
+   "usd": 1414996290000,
+   "count": 167
   },
   {
    "status": "cancelled",
@@ -5633,7 +5650,7 @@
   },
   {
    "month": "2026-09",
-   "count": 27,
+   "count": 28,
    "usd": 222169000000,
    "by_kind": {
     "order": 68300000000,
@@ -5659,7 +5676,7 @@
   },
   {
    "month": "2026-11",
-   "count": 18,
+   "count": 20,
    "usd": 92550000000,
    "by_kind": {
     "order": 0,
@@ -5686,7 +5703,7 @@
    "out_usd": 738404571259,
    "in_usd": 197600000000,
    "borrowed_usd": 4000000000,
-   "deals": 32,
+   "deals": 33,
    "group": "model_lab",
    "cds": null
   },
@@ -5695,7 +5712,7 @@
    "out_usd": 94900000000,
    "in_usd": 458860000000,
    "borrowed_usd": 210860000000,
-   "deals": 25,
+   "deals": 26,
    "group": "hyperscaler",
    "cds": {
     "bp": 80,
