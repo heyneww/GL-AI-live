@@ -1,0 +1,2896 @@
+{
+ "version": 1,
+ "as_of": "2026-11-09",
+ "price_dates": [
+  "2026-11-06",
+  "2026-11-09"
+ ],
+ "revenue_to": "2026-10-04",
+ "source": "GL-ai-infra-prices: universe.csv, data/latest.csv (closes), data/fundamentals/quarterly.csv (SEC 10-Q / 10-K revenue and weighted diluted shares)",
+ "method": {
+  "market_value_usd": "latest close x the latest quarter's weighted diluted shares",
+  "ttm_revenue_usd": "sum of the last four quarterly revenues, only when they span 330 to 400 days",
+  "NDX-HIGH-EST": "Nasdaq-100 members with a market value, weighted by it (GOOG left out: GOOGL is all of Alphabet)",
+  "NDX-LOW-EST": "every Nasdaq-100 member equal; GOOG and GOOGL share one slot",
+  "AI-BASKET-EST": "AI study-list names with a market value, weighted by it"
+ },
+ "tickers": [
+  {
+   "ticker": "AAOI",
+   "name": {
+    "en": "Applied Optoelectronics",
+    "zh": "Applied Optoelectronics"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 747215000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 4576203500,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "AAPL",
+   "name": {
+    "en": "Apple",
+    "zh": "苹果"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "apple",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ABNB",
+   "name": {
+    "en": "Airbnb",
+    "zh": "Airbnb"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ADBE",
+   "name": {
+    "en": "Adobe",
+    "zh": "Adobe"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ADI",
+   "name": {
+    "en": "Analog Devices",
+    "zh": "Analog Devices"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ADP",
+   "name": {
+    "en": "Automatic Data Processing",
+    "zh": "Automatic Data Processing"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ADSK",
+   "name": {
+    "en": "Autodesk",
+    "zh": "Autodesk"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "AEP",
+   "name": {
+    "en": "American Electric Power (AEP)",
+    "zh": "美国电力公司（AEP）"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "aep",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ALAB",
+   "name": {
+    "en": "Astera Labs",
+    "zh": "Astera Labs"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ALNY",
+   "name": {
+    "en": "Alnylam Pharmaceuticals",
+    "zh": "Alnylam Pharmaceuticals"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "AMAT",
+   "name": {
+    "en": "Applied Materials",
+    "zh": "Applied Materials"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 30837000000,
+   "ttm_revenue_to": "2026-07-26",
+   "market_value_usd": 296440000000,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-07-26"
+  },
+  {
+   "ticker": "AMD",
+   "name": {
+    "en": "AMD",
+    "zh": "AMD（超威半导体）"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "amd",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 45436000000,
+   "ttm_revenue_to": "2026-09-26",
+   "market_value_usd": 844751380000,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-09-26"
+  },
+  {
+   "ticker": "AMGN",
+   "name": {
+    "en": "Amgen",
+    "zh": "Amgen"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "AMZN",
+   "name": {
+    "en": "Amazon / AWS",
+    "zh": "亚马逊（AWS）"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "amazon",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 797455000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 2917277970000,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "ANET",
+   "name": {
+    "en": "Arista Networks",
+    "zh": "Arista Networks"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 11890100000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 237962494000,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "APP",
+   "name": {
+    "en": "AppLovin",
+    "zh": "AppLovin"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ARM",
+   "name": {
+    "en": "Arm",
+    "zh": "Arm"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "arm",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ASML",
+   "name": {
+    "en": "ASML",
+    "zh": "阿斯麦（ASML）"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "asml",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "AVGO",
+   "name": {
+    "en": "Broadcom",
+    "zh": "博通"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "broadcom",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 89104000000,
+   "ttm_revenue_to": "2026-08-02",
+   "market_value_usd": 1561298760000,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-08-02"
+  },
+  {
+   "ticker": "AXON",
+   "name": {
+    "en": "Axon Enterprise",
+    "zh": "Axon Enterprise"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "BE",
+   "name": {
+    "en": "Bloom Energy",
+    "zh": "Bloom Energy"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "bloom-energy",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 3829939000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 62873151320,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "BIDU",
+   "name": {
+    "en": "Baidu",
+    "zh": "百度"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "baidu",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "BKNG",
+   "name": {
+    "en": "Booking Holdings",
+    "zh": "Booking Holdings"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "BKR",
+   "name": {
+    "en": "Baker Hughes",
+    "zh": "Baker Hughes"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "CBRS",
+   "name": {
+    "en": "Cerebras",
+    "zh": "Cerebras"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "cerebras",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": 13538810240,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-06-30"
+  },
+  {
+   "ticker": "CCEP",
+   "name": {
+    "en": "Coca-Cola Europacific Partners",
+    "zh": "Coca-Cola Europacific Partners"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "CDNS",
+   "name": {
+    "en": "Cadence Design Systems",
+    "zh": "Cadence Design Systems"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 6132096000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 88066937760,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "CEG",
+   "name": {
+    "en": "Constellation Energy",
+    "zh": "Constellation 能源"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "constellation-energy",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 31270000000,
+   "ttm_revenue_to": "2026-06-30",
+   "market_value_usd": 89982000000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-06-30"
+  },
+  {
+   "ticker": "CGNX",
+   "name": {
+    "en": "Cognex",
+    "zh": "Cognex"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 1125425000,
+   "ttm_revenue_to": "2026-10-04",
+   "market_value_usd": 8171670060,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-10-04"
+  },
+  {
+   "ticker": "CIEN",
+   "name": {
+    "en": "Ciena",
+    "zh": "Ciena"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 6020894000,
+   "ttm_revenue_to": "2026-08-01",
+   "market_value_usd": 35526908130,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-08-01"
+  },
+  {
+   "ticker": "CIFR",
+   "name": {
+    "en": "Cipher Mining",
+    "zh": "Cipher Mining"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "cipher-mining",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 146087000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 2877797374,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "CMCSA",
+   "name": {
+    "en": "Comcast",
+    "zh": "Comcast"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "COHR",
+   "name": {
+    "en": "Coherent",
+    "zh": "Coherent（光器件制造商）"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "coherent",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 7907127000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 38952633060,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "CORZ",
+   "name": {
+    "en": "Core Scientific",
+    "zh": "Core Scientific"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "core-scientific",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 592074000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 5515510560,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "COST",
+   "name": {
+    "en": "Costco",
+    "zh": "Costco"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "CPRT",
+   "name": {
+    "en": "Copart",
+    "zh": "Copart"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "CRDO",
+   "name": {
+    "en": "Credo Technology",
+    "zh": "Credo Technology"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 1591045000,
+   "ttm_revenue_to": "2026-08-01",
+   "market_value_usd": 23424492780,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-08-01"
+  },
+  {
+   "ticker": "CRWD",
+   "name": {
+    "en": "CrowdStrike",
+    "zh": "CrowdStrike"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "CRWV",
+   "name": {
+    "en": "CoreWeave",
+    "zh": "CoreWeave"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "coreweave",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 7590000000,
+   "ttm_revenue_to": "2026-06-30",
+   "market_value_usd": 25566400000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-06-30"
+  },
+  {
+   "ticker": "CSCO",
+   "name": {
+    "en": "Cisco Systems",
+    "zh": "Cisco Systems"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "CSX",
+   "name": {
+    "en": "CSX",
+    "zh": "CSX"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "CTAS",
+   "name": {
+    "en": "Cintas",
+    "zh": "Cintas"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "DASH",
+   "name": {
+    "en": "DoorDash",
+    "zh": "DoorDash"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "DDOG",
+   "name": {
+    "en": "Datadog",
+    "zh": "Datadog"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "DELL",
+   "name": {
+    "en": "Dell Technologies",
+    "zh": "戴尔科技"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "dell",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 151197000000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 214201560000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-07-31"
+  },
+  {
+   "ticker": "DXCM",
+   "name": {
+    "en": "DexCom",
+    "zh": "DexCom"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ENPH",
+   "name": {
+    "en": "Enphase Energy",
+    "zh": "Enphase Energy"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 1211404000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 3848411070,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "EOSE",
+   "name": {
+    "en": "Eos Energy Enterprises",
+    "zh": "Eos Energy Enterprises"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 266467000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 962688652,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "EQIX",
+   "name": {
+    "en": "Equinix",
+    "zh": "Equinix"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 10060000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 100538810670,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "EXC",
+   "name": {
+    "en": "Exelon",
+    "zh": "Exelon"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "FANG",
+   "name": {
+    "en": "Diamondback Energy",
+    "zh": "Diamondback Energy"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "FAST",
+   "name": {
+    "en": "Fastenal",
+    "zh": "Fastenal"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "FER",
+   "name": {
+    "en": "Ferrovial",
+    "zh": "Ferrovial"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "FLNC",
+   "name": {
+    "en": "Fluence Energy",
+    "zh": "Fluence Energy"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 2631864000,
+   "ttm_revenue_to": "2026-06-30",
+   "market_value_usd": 727940563,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-06-30"
+  },
+  {
+   "ticker": "FTNT",
+   "name": {
+    "en": "Fortinet",
+    "zh": "Fortinet"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "GEHC",
+   "name": {
+    "en": "GE HealthCare",
+    "zh": "GE HealthCare"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "GEV",
+   "name": {
+    "en": "GE Vernova",
+    "zh": "GE Vernova"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 44041000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 207461480000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "GILD",
+   "name": {
+    "en": "Gilead Sciences",
+    "zh": "Gilead Sciences"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "GLW",
+   "name": {
+    "en": "Corning",
+    "zh": "Corning"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 17719000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 92439230000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "GOOG",
+   "name": {
+    "en": "Alphabet / Google",
+    "zh": "谷歌（Alphabet）"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "alphabet",
+   "match": "share_class",
+   "fund_key": null,
+   "ttm_revenue_usd": 471097000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 3522159040000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "GOOGL",
+   "name": {
+    "en": "Alphabet / Google",
+    "zh": "谷歌（Alphabet）"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "alphabet",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 471097000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 3522159040000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "HON",
+   "name": {
+    "en": "Honeywell",
+    "zh": "Honeywell"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "HONA",
+   "name": {
+    "en": "Honeywell Aerospace Inc. Common Stock",
+    "zh": "Honeywell Aerospace Inc. Common Stock"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "HPE",
+   "name": {
+    "en": "Hewlett Packard Enterprise",
+    "zh": "Hewlett Packard Enterprise"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 41871000000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 64871730000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-07-31"
+  },
+  {
+   "ticker": "IDXX",
+   "name": {
+    "en": "IDEXX Laboratories",
+    "zh": "IDEXX Laboratories"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "INTC",
+   "name": {
+    "en": "Intel",
+    "zh": "英特尔"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "intel",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 59892000000,
+   "ttm_revenue_to": "2026-09-26",
+   "market_value_usd": 298677960000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-26"
+  },
+  {
+   "ticker": "INTU",
+   "name": {
+    "en": "Intuit",
+    "zh": "Intuit"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "IREN",
+   "name": {
+    "en": "IREN",
+    "zh": "IREN"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "iren",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 695007000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 8624791787,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "ISRG",
+   "name": {
+    "en": "Intuitive Surgical",
+    "zh": "Intuitive Surgical"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "KDP",
+   "name": {
+    "en": "Keurig Dr Pepper",
+    "zh": "Keurig Dr Pepper"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "KLAC",
+   "name": {
+    "en": "KLA",
+    "zh": "KLA"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 14505795000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 181569253360,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "LIN",
+   "name": {
+    "en": "Linde",
+    "zh": "Linde"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "LITE",
+   "name": {
+    "en": "Lumentum",
+    "zh": "Lumentum（光器件制造商）"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "lumentum",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 3742800000,
+   "ttm_revenue_to": "2026-09-26",
+   "market_value_usd": 54774603000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-26"
+  },
+  {
+   "ticker": "LRCX",
+   "name": {
+    "en": "Lam Research",
+    "zh": "Lam Research"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 26127935000,
+   "ttm_revenue_to": "2026-09-27",
+   "market_value_usd": 251706137920,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-27"
+  },
+  {
+   "ticker": "MAR",
+   "name": {
+    "en": "Marriott International",
+    "zh": "Marriott International"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "MCHP",
+   "name": {
+    "en": "Microchip Technology",
+    "zh": "Microchip Technology"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "MDLZ",
+   "name": {
+    "en": "Mondelez International",
+    "zh": "Mondelez International"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "MELI",
+   "name": {
+    "en": "MercadoLibre",
+    "zh": "MercadoLibre"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "META",
+   "name": {
+    "en": "Meta",
+    "zh": "Meta"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "meta",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 241607000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 1569915950000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "MNST",
+   "name": {
+    "en": "Monster Beverage",
+    "zh": "Monster Beverage"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "MPWR",
+   "name": {
+    "en": "Monolithic Power Systems",
+    "zh": "Monolithic Power Systems"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "MRNA",
+   "name": {
+    "en": "Moderna",
+    "zh": "Moderna"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "MRVL",
+   "name": {
+    "en": "Marvell Technology",
+    "zh": "迈威尔科技（Marvell）"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "marvell",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 9450300000,
+   "ttm_revenue_to": "2026-08-01",
+   "market_value_usd": 130073440000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-08-01"
+  },
+  {
+   "ticker": "MSFT",
+   "name": {
+    "en": "Microsoft",
+    "zh": "微软"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "microsoft",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 346445000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 3950922060000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "MSTR",
+   "name": {
+    "en": "Strategy (MicroStrategy)",
+    "zh": "Strategy (MicroStrategy)"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "MU",
+   "name": {
+    "en": "Micron",
+    "zh": "美光"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "micron",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 133188000000,
+   "ttm_revenue_to": "2026-09-03",
+   "market_value_usd": 788761065519,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-03"
+  },
+  {
+   "ticker": "NBIS",
+   "name": {
+    "en": "Nebius",
+    "zh": "Nebius"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "nebius",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "NFLX",
+   "name": {
+    "en": "Netflix",
+    "zh": "Netflix"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "NVDA",
+   "name": {
+    "en": "NVIDIA",
+    "zh": "英伟达"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "nvidia",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 302969000000,
+   "ttm_revenue_to": "2026-07-26",
+   "market_value_usd": 4532552400000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-07-26"
+  },
+  {
+   "ticker": "NXPI",
+   "name": {
+    "en": "NXP Semiconductors",
+    "zh": "NXP Semiconductors"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ODFL",
+   "name": {
+    "en": "Old Dominion Freight Line",
+    "zh": "Old Dominion Freight Line"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "OKLO",
+   "name": {
+    "en": "Oklo",
+    "zh": "Oklo（核能公司）"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "oklo",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": 4441548604,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "ORCL",
+   "name": {
+    "en": "Oracle",
+    "zh": "甲骨文"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "oracle",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 71776000000,
+   "ttm_revenue_to": "2026-08-31",
+   "market_value_usd": 348300000000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-08-31"
+  },
+  {
+   "ticker": "ORLY",
+   "name": {
+    "en": "O'Reilly Automotive",
+    "zh": "O'Reilly Automotive"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "PANW",
+   "name": {
+    "en": "Palo Alto Networks",
+    "zh": "Palo Alto Networks"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "PAYX",
+   "name": {
+    "en": "Paychex",
+    "zh": "Paychex"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "PCAR",
+   "name": {
+    "en": "PACCAR",
+    "zh": "PACCAR"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "PDD",
+   "name": {
+    "en": "PDD Holdings",
+    "zh": "PDD Holdings"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "PEP",
+   "name": {
+    "en": "PepsiCo",
+    "zh": "PepsiCo"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "PLTR",
+   "name": {
+    "en": "Palantir Technologies",
+    "zh": "Palantir Technologies"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "PYPL",
+   "name": {
+    "en": "PayPal",
+    "zh": "PayPal"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "QCOM",
+   "name": {
+    "en": "Qualcomm",
+    "zh": "高通"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "qualcomm",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 43120000000,
+   "ttm_revenue_to": "2026-09-27",
+   "market_value_usd": 177496651969,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-27"
+  },
+  {
+   "ticker": "QQQ",
+   "name": {
+    "en": "Invesco QQQ Trust (Nasdaq-100 ETF)",
+    "zh": "Invesco QQQ Trust (Nasdaq-100 ETF)"
+   },
+   "groups": [
+    "benchmark"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": "NDX-HIGH-EST",
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "REGN",
+   "name": {
+    "en": "Regeneron Pharmaceuticals",
+    "zh": "Regeneron Pharmaceuticals"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "RKLB",
+   "name": {
+    "en": "Rocket Lab",
+    "zh": "Rocket Lab"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ROP",
+   "name": {
+    "en": "Roper Technologies",
+    "zh": "Roper Technologies"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "ROST",
+   "name": {
+    "en": "Ross Stores",
+    "zh": "Ross Stores"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "SBUX",
+   "name": {
+    "en": "Starbucks",
+    "zh": "Starbucks"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "SHOP",
+   "name": {
+    "en": "Shopify",
+    "zh": "Shopify"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "SKHY",
+   "name": {
+    "en": "SK hynix",
+    "zh": "SK 海力士"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "sk-hynix",
+   "match": "inferred",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "SMCI",
+   "name": {
+    "en": "Super Micro Computer",
+    "zh": "Super Micro Computer"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 53991114000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 21551334760,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "SMR",
+   "name": {
+    "en": "NuScale Power",
+    "zh": "NuScale Power"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": 2085128555,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "SNDK",
+   "name": {
+    "en": "Sandisk",
+    "zh": "Sandisk"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 28971000000,
+   "ttm_revenue_to": "2026-10-02",
+   "market_value_usd": 128599240000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-10-02"
+  },
+  {
+   "ticker": "SNPS",
+   "name": {
+    "en": "Synopsys",
+    "zh": "Synopsys"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 9416465000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 86632016740,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-07-31"
+  },
+  {
+   "ticker": "SOXX",
+   "name": {
+    "en": "iShares Semiconductor ETF",
+    "zh": "iShares Semiconductor ETF"
+   },
+   "groups": [
+    "benchmark"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "SPCX",
+   "name": {
+    "en": "SpaceX (incl. xAI)",
+    "zh": "SpaceX（含 xAI）"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "spacex",
+   "match": "name",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "SPY",
+   "name": {
+    "en": "SPDR S&P 500 ETF Trust",
+    "zh": "SPDR S&P 500 ETF Trust"
+   },
+   "groups": [
+    "benchmark"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "STX",
+   "name": {
+    "en": "Seagate Technology",
+    "zh": "Seagate Technology"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 13799000000,
+   "ttm_revenue_to": "2026-10-02",
+   "market_value_usd": 106949680000,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-10-02"
+  },
+  {
+   "ticker": "TER",
+   "name": {
+    "en": "Teradyne",
+    "zh": "Teradyne"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "TLN",
+   "name": {
+    "en": "Talen Energy",
+    "zh": "Talen Energy"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 3952000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 16245576720,
+   "mv_date": "2026-11-06",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "TMUS",
+   "name": {
+    "en": "T-Mobile US",
+    "zh": "T-Mobile US"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "TRI",
+   "name": {
+    "en": "Thomson Reuters",
+    "zh": "Thomson Reuters"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "TSLA",
+   "name": {
+    "en": "Tesla",
+    "zh": "特斯拉"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": "tesla",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "TSM",
+   "name": {
+    "en": "TSMC",
+    "zh": "台积电"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "tsmc",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "TTWO",
+   "name": {
+    "en": "Take-Two Interactive",
+    "zh": "Take-Two Interactive"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "TXN",
+   "name": {
+    "en": "Texas Instruments",
+    "zh": "Texas Instruments"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "VRT",
+   "name": {
+    "en": "Vertiv",
+    "zh": "Vertiv"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 13116600000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 78720973370,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "VRTX",
+   "name": {
+    "en": "Vertex Pharmaceuticals",
+    "zh": "Vertex Pharmaceuticals"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "VST",
+   "name": {
+    "en": "Vistra",
+    "zh": "Vistra 能源"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "vistra",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 20588000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 45245227825,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "WDAY",
+   "name": {
+    "en": "Workday",
+    "zh": "Workday"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "WDC",
+   "name": {
+    "en": "Western Digital",
+    "zh": "Western Digital"
+   },
+   "groups": [
+    "ai",
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": 14482000000,
+   "ttm_revenue_to": "2026-10-02",
+   "market_value_usd": 111275520000,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-10-02"
+  },
+  {
+   "ticker": "WMT",
+   "name": {
+    "en": "Walmart",
+    "zh": "Walmart"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  },
+  {
+   "ticker": "WULF",
+   "name": {
+    "en": "TeraWulf",
+    "zh": "TeraWulf"
+   },
+   "groups": [
+    "ai"
+   ],
+   "type": "company",
+   "entity": "terawulf",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": 190845000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 7101251478,
+   "mv_date": "2026-11-09",
+   "shares_as_of": "2026-09-30"
+  },
+  {
+   "ticker": "XEL",
+   "name": {
+    "en": "Xcel Energy",
+    "zh": "Xcel Energy"
+   },
+   "groups": [
+    "qqq"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null
+  }
+ ],
+ "funds": [
+  {
+   "key": "NDX-HIGH-EST",
+   "aliases": [
+    "NDX-22-EST"
+   ],
+   "alt": "NDX-LOW-EST",
+   "method": "market_value",
+   "name": {
+    "en": "Nasdaq-100 high estimate (only the 22 members we could value)",
+    "zh": "纳斯达克 100 高位估算（只含我们能估值的 22 家成分公司）"
+   },
+   "members": 22,
+   "left_out": [
+    "AAPL",
+    "ABNB",
+    "ADBE",
+    "ADI",
+    "ADP",
+    "ADSK",
+    "AEP",
+    "ALAB",
+    "ALNY",
+    "AMGN",
+    "APP",
+    "ARM",
+    "ASML",
+    "AXON",
+    "BKNG",
+    "BKR",
+    "CCEP",
+    "CMCSA",
+    "COST",
+    "CPRT",
+    "CRWD",
+    "CSCO",
+    "CSX",
+    "CTAS",
+    "DASH",
+    "DDOG",
+    "DXCM",
+    "EXC",
+    "FANG",
+    "FAST",
+    "FER",
+    "FTNT",
+    "GEHC",
+    "GILD",
+    "HON",
+    "HONA",
+    "IDXX",
+    "INTU",
+    "ISRG",
+    "KDP",
+    "LIN",
+    "MAR",
+    "MCHP",
+    "MDLZ",
+    "MELI",
+    "MNST",
+    "MPWR",
+    "MRNA",
+    "MSTR",
+    "NBIS",
+    "NFLX",
+    "NXPI",
+    "ODFL",
+    "ORLY",
+    "PANW",
+    "PAYX",
+    "PCAR",
+    "PDD",
+    "PEP",
+    "PLTR",
+    "PYPL",
+    "REGN",
+    "RKLB",
+    "ROP",
+    "ROST",
+    "SBUX",
+    "SHOP",
+    "SPCX",
+    "TER",
+    "TMUS",
+    "TRI",
+    "TSLA",
+    "TTWO",
+    "TXN",
+    "VRTX",
+    "WDAY",
+    "WMT",
+    "XEL"
+   ],
+   "weights": {
+    "NVDA": 0.20872479,
+    "MSFT": 0.18194062,
+    "GOOGL": 0.16219601,
+    "AMZN": 0.13434113,
+    "META": 0.07229489,
+    "AVGO": 0.07189807,
+    "AMD": 0.03890094,
+    "MU": 0.03632258,
+    "INTC": 0.01375417,
+    "AMAT": 0.01365111,
+    "LRCX": 0.01159111,
+    "KLAC": 0.00836129,
+    "QCOM": 0.00817375,
+    "MRVL": 0.0059899,
+    "SNDK": 0.00592202,
+    "WDC": 0.00512426,
+    "STX": 0.00492505,
+    "CEG": 0.00414369,
+    "CDNS": 0.0040555,
+    "SNPS": 0.00398942,
+    "LITE": 0.00252238,
+    "CRWV": 0.00117734
+   }
+  },
+  {
+   "key": "NDX-LOW-EST",
+   "aliases": [
+    "NDX-EQUAL-EST"
+   ],
+   "alt": null,
+   "method": "equal",
+   "name": {
+    "en": "Nasdaq-100 low estimate (all 100 members, equal weight)",
+    "zh": "纳斯达克 100 低位估算（全部 100 家成分公司，等权）"
+   },
+   "members": 100,
+   "left_out": [],
+   "weights": {
+    "AAPL": 0.01,
+    "ABNB": 0.01,
+    "ADBE": 0.01,
+    "ADI": 0.01,
+    "ADP": 0.01,
+    "ADSK": 0.01,
+    "AEP": 0.01,
+    "ALAB": 0.01,
+    "ALNY": 0.01,
+    "AMAT": 0.01,
+    "AMD": 0.01,
+    "AMGN": 0.01,
+    "AMZN": 0.01,
+    "APP": 0.01,
+    "ARM": 0.01,
+    "ASML": 0.01,
+    "AVGO": 0.01,
+    "AXON": 0.01,
+    "BKNG": 0.01,
+    "BKR": 0.01,
+    "CCEP": 0.01,
+    "CDNS": 0.01,
+    "CEG": 0.01,
+    "CMCSA": 0.01,
+    "COST": 0.01,
+    "CPRT": 0.01,
+    "CRWD": 0.01,
+    "CRWV": 0.01,
+    "CSCO": 0.01,
+    "CSX": 0.01,
+    "CTAS": 0.01,
+    "DASH": 0.01,
+    "DDOG": 0.01,
+    "DXCM": 0.01,
+    "EXC": 0.01,
+    "FANG": 0.01,
+    "FAST": 0.01,
+    "FER": 0.01,
+    "FTNT": 0.01,
+    "GEHC": 0.01,
+    "GILD": 0.01,
+    "HON": 0.01,
+    "HONA": 0.01,
+    "IDXX": 0.01,
+    "INTC": 0.01,
+    "INTU": 0.01,
+    "ISRG": 0.01,
+    "KDP": 0.01,
+    "KLAC": 0.01,
+    "LIN": 0.01,
+    "LITE": 0.01,
+    "LRCX": 0.01,
+    "MAR": 0.01,
+    "MCHP": 0.01,
+    "MDLZ": 0.01,
+    "MELI": 0.01,
+    "META": 0.01,
+    "MNST": 0.01,
+    "MPWR": 0.01,
+    "MRNA": 0.01,
+    "MRVL": 0.01,
+    "MSFT": 0.01,
+    "MSTR": 0.01,
+    "MU": 0.01,
+    "NBIS": 0.01,
+    "NFLX": 0.01,
+    "NVDA": 0.01,
+    "NXPI": 0.01,
+    "ODFL": 0.01,
+    "ORLY": 0.01,
+    "PANW": 0.01,
+    "PAYX": 0.01,
+    "PCAR": 0.01,
+    "PDD": 0.01,
+    "PEP": 0.01,
+    "PLTR": 0.01,
+    "PYPL": 0.01,
+    "QCOM": 0.01,
+    "REGN": 0.01,
+    "RKLB": 0.01,
+    "ROP": 0.01,
+    "ROST": 0.01,
+    "SBUX": 0.01,
+    "SHOP": 0.01,
+    "SNDK": 0.01,
+    "SNPS": 0.01,
+    "SPCX": 0.01,
+    "STX": 0.01,
+    "TER": 0.01,
+    "TMUS": 0.01,
+    "TRI": 0.01,
+    "TSLA": 0.01,
+    "TTWO": 0.01,
+    "TXN": 0.01,
+    "VRTX": 0.01,
+    "WDAY": 0.01,
+    "WDC": 0.01,
+    "WMT": 0.01,
+    "XEL": 0.01,
+    "GOOGL": 0.005,
+    "GOOG": 0.005
+   }
+  },
+  {
+   "key": "AI-BASKET-EST",
+   "aliases": [],
+   "alt": null,
+   "method": "market_value",
+   "name": {
+    "en": "AI-infrastructure study list, 49 stocks (estimate, not a fund you can buy)",
+    "zh": "AI 基础设施研究名单，49 只股票（估算，并非可购买的基金）"
+   },
+   "members": 49,
+   "left_out": [
+    "ARM",
+    "ASML",
+    "BIDU",
+    "NBIS",
+    "SKHY",
+    "TSM"
+   ],
+   "weights": {
+    "NVDA": 0.19397872,
+    "MSFT": 0.1690868,
+    "GOOGL": 0.15073712,
+    "AMZN": 0.12485015,
+    "META": 0.06718737,
+    "AVGO": 0.06681858,
+    "AMD": 0.03615265,
+    "MU": 0.03375645,
+    "ORCL": 0.01490612,
+    "INTC": 0.01278246,
+    "AMAT": 0.01268668,
+    "LRCX": 0.01077222,
+    "ANET": 0.01018403,
+    "DELL": 0.00916714,
+    "GEV": 0.00887869,
+    "KLAC": 0.00777058,
+    "QCOM": 0.00759629,
+    "MRVL": 0.00556673,
+    "SNDK": 0.00550364,
+    "WDC": 0.00476224,
+    "STX": 0.0045771,
+    "EQIX": 0.00430274,
+    "GLW": 0.0039561,
+    "CEG": 0.00385094,
+    "CDNS": 0.00376898,
+    "SNPS": 0.00370757,
+    "VRT": 0.00336901,
+    "HPE": 0.0027763,
+    "BE": 0.00269077,
+    "LITE": 0.00234418,
+    "VST": 0.00193635,
+    "COHR": 0.00166705,
+    "CIEN": 0.00152044,
+    "CRWV": 0.00109416,
+    "CRDO": 0.00100249,
+    "SMCI": 0.00092233,
+    "TLN": 0.00069526,
+    "CBRS": 0.00057942,
+    "IREN": 0.00036911,
+    "CGNX": 0.00034972,
+    "WULF": 0.00030391,
+    "CORZ": 0.00023605,
+    "AAOI": 0.00019585,
+    "OKLO": 0.00019008,
+    "ENPH": 0.0001647,
+    "CIFR": 0.00012316,
+    "SMR": 8.924e-05,
+    "EOSE": 4.12e-05,
+    "FLNC": 3.115e-05
+   }
+  }
+ ]
+}

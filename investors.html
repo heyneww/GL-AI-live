@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Everything the page runs is served next to it: investors.js reads data/graph.json, investors-content.json and
+     investors-reference.json from this site and nothing else. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<title>AI Deal Map for Investors · AI 交易关系图投资者指南</title>
+<meta name="description" content="A plain-language guide to what the live AI orders and debt map means for an ordinary investor, with a portfolio self-check computed from the live map. English / 中文. Not investment advice. 通俗投资者指南，含基于实时关系图的组合自查工具，不构成投资建议。">
+<link rel="canonical" href="https://heyneww.github.io/GL-AI-live/investors.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Orders &amp; Debt Map">
+<meta property="og:title" content="AI Deal Maps for Investors · AI 交易关系图投资者指南">
+<meta property="og:description" content="What the live AI deal map means for an ordinary investor, with a portfolio self-check. Not investment advice. 不构成投资建议。">
+<meta property="og:url" content="https://heyneww.github.io/GL-AI-live/investors.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="investors.css">
+</head>
+<body class="inv">
+<a class="skip" href="#main" data-t="skip">Skip to content · 跳到正文</a>
+
+<header class="masthead inv-bar">
+  <div class="masthead__inner">
+    <div class="brand">
+      <p class="brand__kicker" data-t="eyebrow"></p>
+      <p class="inv-brand" data-t="brand">AI Deal Map for Investors</p>
+    </div>
+    <div class="masthead__right">
+      <div class="lang" role="group" aria-label="Language / 语言">
+        <button type="button" id="lang-en" class="lang__btn" lang="en" aria-pressed="true">English</button>
+        <button type="button" id="lang-zh" class="lang__btn" lang="zh-CN" aria-pressed="false">中文</button>
+      </div>
+      <a class="inv-back" href="./" data-t="nav_map">← Back to the map · 返回关系图</a>
+    </div>
+  </div>
+  <nav class="inv-nav" id="nav" aria-label="Sections / 章节">
+    <a class="chip" href="#big-picture" data-t="nav_big"></a>
+    <a class="chip" href="#do" data-t="nav_do"></a>
+    <a class="chip" href="#check" data-t="nav_check"></a>
+    <a class="chip" href="#faq" data-t="nav_faq"></a>
+  </nav>
+</header>
+
+<p class="banner" id="loading-banner" role="status"><span data-t="loading">Loading… · 加载中…</span></p>
+<div class="banner banner--error" id="error-banner" role="alert" hidden>
+  <span id="error-text"><span lang="en">Some of this page's data could not be loaded, so parts of it are empty. Check your connection and try again.</span>
+    <span lang="zh-CN">本页部分数据未能加载，部分内容为空。请检查网络后重试。</span></span>
+  <button type="button" class="btn btn--sm" id="retry" data-t="retry">Retry · 重试</button>
+</div>
+
+<main id="main" tabindex="-1">
+  <header class="inv-wrap inv-hdr">
+    <h1 class="brand__title" data-k="headline"></h1>
+    <p class="inv-lede" data-k="intro"></p>
+    <p class="inv-asof"><span id="asof-deals"></span><span id="asof-ref"></span></p>
+    <p class="inv-asof inv-asof--note" data-t="asofNote"></p>
+    <div class="inv-warn" id="warn"><b data-t="warnH"></b> <span data-t="warnP"></span></div>
+  </header>
+
+  <section class="inv-wrap inv-block" id="big-picture" aria-labelledby="h-big">
+    <h2 id="h-big" data-t="bigH"></h2>
+    <div class="inv-takeaways" id="takeaways"></div>
+    <div class="inv-box" id="not-box"><h3 data-t="notH"></h3><ul id="not-list"></ul></div>
+  </section>
+
+  <section class="inv-wrap inv-block" id="do" aria-labelledby="h-do">
+    <h2 id="h-do" data-t="doH"></h2>
+    <p class="inv-note" data-t="doP"></p>
+    <ol class="inv-steps" id="do-steps"></ol>
+    <div class="inv-twocol">
+      <div><h3 data-t="watchH"></h3><div class="inv-minis" id="watch-list"></div></div>
+      <div><h3 data-t="avoidH"></h3><div class="inv-minis inv-minis--avoid" id="avoid-list"></div></div>
+    </div>
+    <div class="inv-box" id="q-box"><h3 data-t="qH"></h3><ul id="q-list"></ul></div>
+  </section>
+
+  <section class="inv-wrap inv-block" id="check" aria-labelledby="h-check">
+    <h2 id="h-check" data-t="checkH"></h2>
+    <p class="inv-note" data-k="tool.intro"></p>
+    <p class="banner banner--error" id="ref-error" role="alert" hidden data-t="refError"></p>
+    <div class="inv-tool inv-panel" id="tool">
+      <div class="inv-tool__head" id="presets-row">
+        <span class="inv-tool__l" data-t="presetL"></span>
+        <div class="chips" id="presets"></div>
+      </div>
+      <div class="inv-tool__head" id="funds-row">
+        <span class="inv-tool__l" data-t="fundsL"></span>
+        <div class="chips" id="fund-chips"></div>
+      </div>
+      <div class="inv-rows" id="rows"></div>
+      <datalist id="ticker-list"></datalist>
+      <div class="inv-tool__actions">
+        <button type="button" class="btn" id="add-row" data-t="addRow"></button>
+        <button type="button" class="btn btn--ghost" id="clear-rows" data-t="clearRows"></button>
+        <span class="inv-note" id="weight-note"></span>
+      </div>
+      <div class="inv-results" id="results" aria-live="polite"></div>
+    </div>
+    <h3 class="inv-sub" data-t="exH"></h3>
+    <p class="inv-note" data-t="exP"></p>
+    <div class="inv-examples" id="examples"></div>
+    <details class="inv-box inv-method" id="method-box">
+      <summary data-t="methodH"></summary>
+      <p data-k="tool.method"></p>
+      <h4 data-t="limitsH"></h4>
+      <ul id="limits-list"></ul>
+      <h4 data-t="bandsH"></h4>
+      <dl class="inv-bands" id="bands-list"></dl>
+    </details>
+    <h3 class="inv-sub" data-t="handH"></h3>
+    <ol class="inv-steps inv-steps--small" id="hand-steps"></ol>
+  </section>
+
+  <section class="inv-wrap inv-block" id="map-howto" aria-labelledby="h-map">
+    <h2 id="h-map" data-t="mapH"></h2>
+    <ol class="inv-steps inv-steps--small" id="map-steps"></ol>
+  </section>
+
+  <section class="inv-wrap inv-block" id="faq" aria-labelledby="h-faq">
+    <h2 id="h-faq" data-t="faqH"></h2>
+    <div class="inv-faq" id="faq-list"></div>
+  </section>
+
+  <section class="inv-wrap inv-block" id="glossary" aria-labelledby="h-gloss">
+    <h2 id="h-gloss" data-t="glossH"></h2>
+    <dl class="inv-gloss" id="gloss-list"></dl>
+  </section>
+</main>
+
+<footer class="footer inv-wrap">
+  <p data-k="footer"></p>
+  <p data-t="foot_sources"></p>
+  <p class="footer__links">
+    <a href="./" data-t="foot_map">Open the live map · 打开实时关系图</a>
+    <span class="footer__sep" aria-hidden="true">·</span>
+    <a href="data/v1/README.md" data-t="foot_api"></a>
+    <span class="footer__sep" aria-hidden="true">·</span>
+    <span data-t="foot_licence"></span>
+  </p>
+  <p class="footer__meta" data-t="foot_cite"></p>
+  <p class="footer__disc" lang="en">For information only, not investment advice.</p>
+  <p class="footer__disc" lang="zh-CN">本页内容仅供参考，不构成任何投资建议。</p>
+</footer>
+
+<script src="investors.js"></script>
+</body>
+</html>
