@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T22:52:36Z",
- "built_at": "2026-11-16T22:52:52Z",
+ "generated_at": "2026-11-17T04:09:34Z",
+ "built_at": "2026-11-17T04:09:47Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
   "total_usd": 4008405861259,
@@ -382,6 +382,12 @@
    "name_zh": "英伟达",
    "group": "chip",
    "ticker": "NVDA"
+  },
+  "onepwr": {
+   "name": "OnePWR Solutions",
+   "name_zh": "OnePWR Solutions（发电设备供应商）",
+   "group": "energy",
+   "ticker": null
   },
   "openai": {
    "name": "OpenAI",
@@ -779,6 +785,64 @@
    ]
   },
   {
+   "id": "tsmc-openai-2026-11-preferred-stock",
+   "kind": "investment",
+   "subkind": "preferred stock purchase (board approval)",
+   "subkind_zh": "优先股认购（董事会批准）",
+   "from": "tsmc",
+   "to": "openai",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "not to exceed US$500M of OpenAI Group PBC preferred stock, per TSMC's board resolutions of 10 Nov 2026; a cap, not a purchase: the final amount, price and timing are not disclosed",
+   "announced": "2026-11-10",
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "TSMC board approves up to $500M of OpenAI preferred stock",
+   "title_zh": "台积电董事会批准认购最多 5 亿美元 OpenAI 优先股",
+   "summary_en": "TSMC's board approved on 10 November 2026 an investment of no more than US$500 million to buy preferred stock of OpenAI Group PBC, alongside up to US$500 million of Anthropic shares at its IPO price. TSMC has not said when the purchase will be made, at what price, or whether it…",
+   "summary_zh": "台积电董事会于 2026 年 11 月 10 日批准以不超过 5 亿美元认购 OpenAI Group PBC 的优先股，同时批准按 IPO 价格认购不超过 5 亿美元的 Anthropic 股票。台积电未说明认购时间、价格，也未说明是否属于 OpenAI 本轮融资，因此金额不…",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
+    "publisher": "TSMC (SEC 6-K)",
+    "date": "2026-11-10"
+   },
+   "added": "2026-11-15",
+   "tags": [
+    "new"
+   ]
+  },
+  {
+   "id": "anthropic-onepwr-2026-11-gas-generators",
+   "kind": "order",
+   "subkind": "on-site gas generators for AI data centres (with installation)",
+   "subkind_zh": "AI 数据中心现场燃气发电机组（含安装）",
+   "from": "anthropic",
+   "to": "onepwr",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": 3400000000,
+   "amount_text": "Undisclosed by the parties; the Financial Times reported about $3.4B for commitments on 1.7 GW of heavy-duty gas generators (Caterpillar units OnePWR had on order), including engineering and construction to install them; Reuters relayed the report but could not verify it, so the figure is not counted",
+   "announced": "2026-11-08",
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "Anthropic buys ~1.7 GW of gas generators from OnePWR (~$3.4B, FT)",
+   "title_zh": "Anthropic 向 OnePWR 采购约 1.7 吉瓦燃气发电机组（据英国《金融时报》约 34 亿美元）",
+   "summary_en": "The Financial Times reported on 8 November 2026 that Anthropic committed in late September to about $3.4B of heavy-duty gas-fired generators, 1.7 GW in all, from OnePWR Solutions of San Antonio, Texas, including the engineering and construction to install them; OnePWR had…",
+   "summary_zh": "据英国《金融时报》2026 年 11 月 8 日报道，Anthropic 于 9 月下旬承诺向得州圣安东尼奥的 OnePWR Solutions 采购约 34 亿美元的重型燃气发电机组，共 1.7 吉瓦，并包括安装所需的工程和施工；OnePWR 约两年前向卡特彼勒订购了这批机组…",
+   "source": {
+    "url": "https://www.streetinsider.com/Reuters/Anthropic+secures+$3.4+billion+generator+deal+for+AI+data+centers,+FT+reports/27309458.html",
+    "publisher": "StreetInsider (Reuters, citing the Financial Times)",
+    "date": "2026-11-08"
+   },
+   "added": "2026-11-08",
+   "tags": [
+    "new"
+   ]
+  },
+  {
    "id": "private-investors-openai-2026-11-round",
    "kind": "investment",
    "subkind": "equity funding round (first close)",
@@ -807,6 +871,35 @@
     "new",
     "big",
     "recent"
+   ]
+  },
+  {
+   "id": "alphabet-crusoe-2026-11-wyoming-site-purchase",
+   "kind": "order",
+   "subkind": "data-centre site purchase",
+   "subkind_zh": "数据中心场址收购",
+   "from": "alphabet",
+   "to": "crusoe",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "price undisclosed; the site was planned for 1.8 GW (expandable towards 10 GW); Google's separately announced ~$17B is its own planned investment in the campus, not the price paid",
+   "announced": "2026-11-06",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Google buys Crusoe's Wyoming AI data-centre site",
+   "title_zh": "谷歌收购 Crusoe 在怀俄明州的 AI 数据中心场址",
+   "summary_en": "Crusoe said on 6 November 2026 that Google has acquired its data-centre site in southeast Wyoming near Cheyenne, ending Crusoe's pre-development work (site selection, approvals and a hybrid power plan with Tallgrass Energy); the price was not disclosed. Google had announced the…",
+   "summary_zh": "Crusoe 于 2026 年 11 月 6 日表示，谷歌已收购其位于怀俄明州东南部夏延附近的数据中心场址，Crusoe 的前期开发工作（选址、政府审批及与 Tallgrass Energy 制定的混合供电方案）随之结束，价格未披露。谷歌前一天宣布在拉勒米县投资 170 亿美元…",
+   "source": {
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+    "publisher": "Crusoe",
+    "date": "2026-11-06"
+   },
+   "added": "2026-11-15",
+   "tags": [
+    "new"
    ]
   },
   {
@@ -870,6 +963,35 @@
     "new",
     "changed",
     "recent"
+   ]
+  },
+  {
+   "id": "alphabet-terawulf-2026-11-hawesville-lease-backstop",
+   "kind": "guarantee",
+   "subkind": "lease payment backstop (credit support)",
+   "subkind_zh": "租金兜底（信用支持）",
+   "from": "alphabet",
+   "to": "terawulf",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "Not disclosed; backstops Anthropic's obligations under the three Hawesville leases (~401 MW, ~$19B of contracted rent over 20 years); on default Google may pay the rent and take over the lease, or pay an amortizing termination fee for an equity interest in the lessor",
+   "announced": "2026-11-04",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Google backstops Anthropic's Hawesville leases with TeraWulf",
+   "title_zh": "谷歌为 Anthropic 在 TeraWulf Hawesville 园区的租约提供兜底",
+   "summary_en": "Google signed three credit support agreements with TeraWulf's Hawesville, Kentucky subsidiaries and Anthropic, backstopping Anthropic's rent under its 20-year, ~401 MW leases there (Anthropic is the obligor). If Anthropic defaults, Google can pay the rent and take over the…",
+   "summary_zh": "谷歌与 TeraWulf 在肯塔基州 Hawesville 的子公司及 Anthropic 签署三份信用支持协议，为 Anthropic 在当地 20 年期、约 401 兆瓦租约下的租金提供兜底（付款义务人为 Anthropic）。若 Anthropic 违约，谷歌可代付租金并…",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulf-20261104.htm",
+    "publisher": "TeraWulf (SEC 8-K)",
+    "date": "2026-11-04"
+   },
+   "added": "2026-11-04",
+   "tags": [
+    "new"
    ]
   },
   {
@@ -992,7 +1114,6 @@
    },
    "added": "2026-11-02",
    "tags": [
-    "new",
     "top",
     "big",
     "recent"
@@ -1024,7 +1145,6 @@
    },
    "added": "2026-11-02",
    "tags": [
-    "new",
     "big",
     "recent"
    ]
@@ -1175,35 +1295,6 @@
    "added": "2026-10-28",
    "tags": [
     "circular"
-   ]
-  },
-  {
-   "id": "oracle-alphabet-2026-10-tpu-oci",
-   "kind": "order",
-   "subkind": "TPU supply for cloud deployment (OCI)",
-   "subkind_zh": "TPU 供应（部署于甲骨文云）",
-   "from": "oracle",
-   "to": "alphabet",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Not disclosed; described by Oracle as a \"multi-year, multi-gigawatt partnership\"; chip count and financial terms not given",
-   "announced": "2026-10-27",
-   "status": "announced",
-   "confidence": "confirmed",
-   "title_en": "Oracle to deploy Google TPUs in its cloud in multi-gigawatt partnership",
-   "title_zh": "甲骨文将在其云中部署谷歌 TPU，双方达成数吉瓦级合作",
-   "summary_en": "At Oracle AI World, Oracle and Google said Google's eighth-generation TPUs (TPU 8t and 8i) will be offered on Oracle Cloud Infrastructure from 2027, making OCI the first hyperscale cloud outside Google to offer them; Oracle runs the data centres, power and cooling and Google…",
-   "summary_zh": "在甲骨文 AI World 大会上，甲骨文与谷歌宣布，谷歌第八代 TPU（TPU 8t 和 8i）将自 2027 年起在甲骨文云基础设施上提供，甲骨文云由此成为谷歌之外首家提供 TPU 的超大规模云厂商；甲骨文负责数据中心、电力和冷却，谷歌提供芯片和软件。甲骨文称这是多年期、数…",
-   "source": {
-    "url": "https://oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/",
-    "publisher": "Oracle",
-    "date": "2026-10-27"
-   },
-   "added": "2026-11-02",
-   "tags": [
-    "new"
    ]
   },
   {
@@ -1442,7 +1533,6 @@
    },
    "added": "2026-11-02",
    "tags": [
-    "new",
     "changed",
     "recent"
    ]
@@ -5062,9 +5152,7 @@
   }
  ],
  "new_ids": [
-  "bank-lenders-amazon-2026-10-secured-loan-facility",
   "anthropic-riot-platforms-2026-10-corsicana-lease",
-  "bond-investors-microsoft-2026-10-notes",
   "bond-investors-meta-2026-11-notes",
   "private-investors-openai-2026-11-round",
   "bond-investors-meta-2026-11-notes-2",
@@ -5076,12 +5164,14 @@
   "us-government-constellation-energy-2026-10-nuclear-uprate-loan",
   "bond-investors-alphabet-2026-11-hkd-sgd-notes",
   "amd-anthropic-2026-11-ipo-placement",
-  "intel-classiq-2026-10-acquisition",
   "broadcom-anthropic-2026-11-ipo-placement",
   "micron-anthropic-2026-11-ipo-placement",
   "microsoft-anthropic-2026-11-ipo-placement",
   "tsmc-anthropic-2026-11-ipo-placement",
-  "oracle-alphabet-2026-10-tpu-oci"
+  "alphabet-terawulf-2026-11-hawesville-lease-backstop",
+  "alphabet-crusoe-2026-11-wyoming-site-purchase",
+  "anthropic-onepwr-2026-11-gas-generators",
+  "tsmc-openai-2026-11-preferred-stock"
  ],
  "top_ids": [
   "openai-oracle-2025-09-cloud",
