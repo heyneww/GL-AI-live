@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T09:10:02Z",
+ "generated_at": "2026-11-17T10:45:15Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-17, https://heyneww.github.io/GL-AI-live/",
@@ -1997,6 +1997,45 @@
    "amount_native": 5700000000,
    "origin": "curated",
    "counted_usd": 5700000000,
+   "contingent_usd": 0
+  },
+  {
+   "id": "tsmc-globalfoundries-2026-10-cowos-interposers",
+   "kind": "order",
+   "subkind": "silicon interposer supply for CoWoS packaging",
+   "subkind_zh": "CoWoS 封装用硅中介层供应",
+   "from": "tsmc",
+   "to": "globalfoundries",
+   "amount_usd": 2000000000,
+   "amount_text": "$2B multi-year manufacturing agreement (five-year initial term as reported); volumes and pricing not disclosed",
+   "amount_text_zh": "20 亿美元多年期制造协议（据报道首期为五年）；数量和价格未披露",
+   "announced": "2026-10-08",
+   "term": "Multi-year; volume production ramping at Malta, New York from H1 2028",
+   "term_zh": "多年期；纽约州马耳他工厂预计 2028 年上半年开始量产",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "TSMC $2B silicon interposer deal with GlobalFoundries for US CoWoS supply",
+   "title_zh": "台积电与格芯签署 20 亿美元硅中介层协议，建立美国 CoWoS 供应",
+   "summary_en": "GlobalFoundries agreed in October 2026 to supply silicon interposers for TSMC's CoWoS advanced packaging under a multi-year, $2 billion manufacturing agreement, adding capacity at its Malta, New York fab with volume production from the first half of 2028. It creates the first US-based source of the interposers that sit under AI accelerators such as Nvidia's GPUs.",
+   "summary_zh": "格芯于 2026 年 10 月同意根据一项为期多年、金额 20 亿美元的制造协议，为台积电的 CoWoS 先进封装供应硅中介层，并在纽约州马耳他工厂扩充产能，预计 2028 年上半年开始量产。这将成为英伟达 GPU 等 AI 加速器所用中介层的首个美国本土来源。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000259/globalfoundries3q2026earni.htm",
+     "publisher": "GlobalFoundries (SEC 6-K)",
+     "date": "2026-11-04",
+     "title": "GlobalFoundries third-quarter 2026 results: $2 billion manufacturing agreement with TSMC for silicon interposers",
+     "type": "filing"
+    },
+    {
+     "url": "https://www.manufacturingdive.com/news/globalfoundries-tsmc-silicon-interposes-semiconductors/832537",
+     "publisher": "Manufacturing Dive",
+     "date": "2026-10-09",
+     "title": "GlobalFoundries and TSMC reach $2B deal for US-based silicon interposers",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 2000000000,
    "contingent_usd": 0
   },
   {

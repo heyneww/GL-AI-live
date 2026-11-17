@@ -1,19 +1,19 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T09:10:02Z",
- "built_at": "2026-11-17T09:10:18Z",
+ "generated_at": "2026-11-17T10:45:15Z",
+ "built_at": "2026-11-17T10:45:28Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
-  "total_usd": 4008405861259,
+  "total_usd": 4010405861259,
   "contingent_usd": 183230000000,
   "headline_usd": 2164210000000,
-  "broad_usd": 6355845861259,
-  "confirmed_usd": 2654488861259,
+  "broad_usd": 6357845861259,
+  "confirmed_usd": 2656488861259,
   "reported_usd": 1353917000000,
-  "binding_usd": 3887105861259,
-  "deals": 437,
-  "deals_with_amount": 300,
-  "companies": 145,
+  "binding_usd": 3889105861259,
+  "deals": 438,
+  "deals_with_amount": 301,
+  "companies": 146,
   "new_7d": {
    "count": 12,
    "usd": 29800000000
@@ -262,6 +262,12 @@
    "name_zh": "Generac（发电机制造商）",
    "group": "other",
    "ticker": "GNRC"
+  },
+  "globalfoundries": {
+   "name": "GlobalFoundries",
+   "name_zh": "格芯（GlobalFoundries）",
+   "group": "chip",
+   "ticker": "GFS"
   },
   "goldman-sachs": {
    "name": "Goldman Sachs",
@@ -1679,6 +1685,35 @@
     "date": "2026-10-12"
    },
    "added": "2026-10-27",
+   "tags": [
+    "recent"
+   ]
+  },
+  {
+   "id": "tsmc-globalfoundries-2026-10-cowos-interposers",
+   "kind": "order",
+   "subkind": "silicon interposer supply for CoWoS packaging",
+   "subkind_zh": "CoWoS 封装用硅中介层供应",
+   "from": "tsmc",
+   "to": "globalfoundries",
+   "amount_usd": 2000000000,
+   "counted_usd": 2000000000,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "$2B multi-year manufacturing agreement (five-year initial term as reported); volumes and pricing not disclosed",
+   "announced": "2026-10-08",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "TSMC $2B silicon interposer deal with GlobalFoundries for US CoWoS supply",
+   "title_zh": "台积电与格芯签署 20 亿美元硅中介层协议，建立美国 CoWoS 供应",
+   "summary_en": "GlobalFoundries agreed in October 2026 to supply silicon interposers for TSMC's CoWoS advanced packaging under a multi-year, $2 billion manufacturing agreement, adding capacity at its Malta, New York fab with volume production from the first half of 2028. It creates the first…",
+   "summary_zh": "格芯于 2026 年 10 月同意根据一项为期多年、金额 20 亿美元的制造协议，为台积电的 CoWoS 先进封装供应硅中介层，并在纽约州马耳他工厂扩充产能，预计 2028 年上半年开始量产。这将成为英伟达 GPU 等 AI 加速器所用中介层的首个美国本土来源。",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000259/globalfoundries3q2026earni.htm",
+    "publisher": "GlobalFoundries (SEC 6-K)",
+    "date": "2026-11-04"
+   },
+   "added": "2026-11-17",
    "tags": [
     "recent"
    ]
@@ -5384,8 +5419,8 @@
  "by_kind": [
   {
    "kind": "order",
-   "count": 116,
-   "usd": 1532189000000,
+   "count": 117,
+   "usd": 1534189000000,
    "undisclosed": 70
   },
   {
@@ -5427,8 +5462,8 @@
   },
   {
    "status": "signed",
-   "usd": 1960473571259,
-   "count": 156
+   "usd": 1962473571259,
+   "count": 157
   },
   {
    "status": "in_progress",
@@ -5740,10 +5775,10 @@
   },
   {
    "month": "2026-10",
-   "count": 28,
-   "usd": 468538000000,
+   "count": 29,
+   "usd": 470538000000,
    "by_kind": {
-    "order": 4400000000,
+    "order": 6400000000,
     "investment": 59200000000,
     "debt": 175738000000,
     "lease": 229200000000,
@@ -5980,21 +6015,21 @@
    "cds": null
   },
   {
+   "id": "tsmc",
+   "out_usd": 2500000000,
+   "in_usd": 48800000000,
+   "borrowed_usd": 5000000000,
+   "deals": 8,
+   "group": "chip",
+   "cds": null
+  },
+  {
    "id": "citigroup",
    "out_usd": 50600000000,
    "in_usd": 0,
    "borrowed_usd": 0,
    "deals": 3,
    "group": "financier",
-   "cds": null
-  },
-  {
-   "id": "tsmc",
-   "out_usd": 500000000,
-   "in_usd": 48800000000,
-   "borrowed_usd": 5000000000,
-   "deals": 7,
-   "group": "chip",
    "cds": null
   },
   {

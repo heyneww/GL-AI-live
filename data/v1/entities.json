@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T09:10:02Z",
+ "generated_at": "2026-11-17T10:45:15Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-17, https://heyneww.github.io/GL-AI-live/",
@@ -4697,6 +4697,76 @@
      {
       "id": "amazon",
       "usd": 2400000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "globalfoundries",
+   "name": "GlobalFoundries",
+   "name_zh": "格芯（GlobalFoundries）",
+   "group": "chip",
+   "ticker": "GFS",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 2000000000,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 2000000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 2000000000,
+    "binding_usd": 2000000000,
+    "last_edge": "2026-10-08",
+    "last_source": "2026-11-04",
+    "counterparties": 1,
+    "inflow_total_usd": 2000000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "tsmc",
+      "usd": 2000000000,
       "share": 1.0
      }
     ],
@@ -10030,7 +10100,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 2000000000,
      "investment": 500000000,
      "debt": 0,
      "lease": 0,
@@ -10046,7 +10116,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 2,
      "debt": 0,
      "lease": 0,
@@ -10055,46 +10125,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 7,
-    "degree_curated": 7,
+    "degree": 8,
+    "degree_curated": 8,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 5500000000,
+     "signed": 7500000000,
      "in_progress": 0,
      "completed": 43800000000,
      "reported": 0
     },
-    "confirmed_usd": 500000000,
-    "binding_usd": 49300000000,
+    "confirmed_usd": 2500000000,
+    "binding_usd": 51300000000,
     "last_edge": "2026-11-10",
     "last_source": "2026-11-10",
-    "counterparties": 6,
+    "counterparties": 7,
     "inflow_total_usd": 48800000000,
-    "outflow_total_usd": 500000000,
+    "outflow_total_usd": 2500000000,
     "top_counterparties": [
      {
       "id": "nvidia",
       "usd": 23200000000,
-      "share": 0.47058823529411764
+      "share": 0.4522417153996101
      },
      {
       "id": "apple",
       "usd": 20600000000,
-      "share": 0.4178498985801217
+      "share": 0.4015594541910331
      },
      {
       "id": "us-government",
       "usd": 5000000000,
-      "share": 0.10141987829614604
+      "share": 0.09746588693957114
+     },
+     {
+      "id": "globalfoundries",
+      "usd": 2000000000,
+      "share": 0.03898635477582846
      },
      {
       "id": "anthropic",
       "usd": 500000000,
-      "share": 0.010141987829614604
+      "share": 0.009746588693957114
      }
     ],
-    "concentration_top3": 0.9898580121703854
+    "concentration_top3": 0.9512670565302144
    }
   },
   {
