@@ -30,9 +30,10 @@
   --k-debt: #e0602a;
   --k-other: #7d8794;
   --cds: #6250d6;
-  --f-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", sans-serif;
-  --f-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
-  --fs-xs: 11.5px; --fs-sm: 12.5px; --fs-base: 14.5px; --fs-md: 16px; --fs-lg: 19px;
+  /* the map's typefaces (site/style.css), so the three pages read as one product */
+  --f-body: "Archivo", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --fs-xs: 11.5px; --fs-sm: 12.5px; --fs-base: 15px; --fs-md: 16px; --fs-lg: 19px;
   --fs-hero: clamp(38px, 5vw, 56px); --fs-kpi: clamp(24px, 2.4vw, 30px);
   --r: 8px; --r-sm: 4px;
 }
@@ -63,7 +64,7 @@
 .dash--page {
   margin: 0; background: var(--bg); color: var(--ink);
   font: 400 var(--fs-base)/1.5 var(--f-body);
-  border-top: 4px solid var(--ink);
+  border-top: 3px solid var(--ink);
 }
 .dash [hidden] { display: none !important; }
 .dash a { color: var(--accent); text-underline-offset: 2px; }
@@ -79,7 +80,8 @@
 .dash .eyebrow { margin: 0; font-size: var(--fs-xs); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .dash:lang(zh) .eyebrow { letter-spacing: .02em; }
 /* masthead */
-.dash .mast { padding-block: 20px 16px; border-bottom: 1px solid var(--line); background: var(--surface); }
+.dash .mast { padding-block: 6px 16px; border-bottom: 1px solid var(--line); background: var(--surface); }
+.dash .mast .sitenav { margin-bottom: 14px; }
 .dash .mast__in { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: flex-end; justify-content: space-between; }
 .dash .mast__id { min-width: 0; flex: 1 1 420px; }
 .dash .mast h1 { margin: 4px 0 2px; font-size: clamp(24px, 3vw, 32px); line-height: 1.15; letter-spacing: -.01em; font-weight: 750; text-wrap: balance; }
@@ -89,14 +91,14 @@
 .dash .asof { font-size: var(--fs-sm); color: var(--ink-2); display: flex; align-items: center; gap: 6px; }
 .dash .asof .adot { width: 8px; height: 8px; border-radius: 50%; background: var(--good); flex: none; }
 .dash .asof .adot.stale { background: var(--new); }
-.dash .dseg { display: inline-flex; border: 1px solid var(--control-border); border-radius: 999px; padding: 2px; }
-.dash .dseg button { border: 0; background: transparent; padding: 3px 11px; border-radius: 999px; cursor: pointer; font-size: var(--fs-sm); font-weight: 600; color: var(--ink-2); }
+.dash .dseg { display: inline-flex; border: 1px solid var(--control-border); border-radius: var(--r-sm); padding: 2px; }
+.dash .dseg button { border: 0; background: transparent; padding: 3px 11px; border-radius: 3px; cursor: pointer; font-size: var(--fs-sm); font-weight: 600; color: var(--ink-2); }
 .dash .dseg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
-.dash .btn-link { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); text-decoration: none; font-size: var(--fs-sm); font-weight: 600; }
+.dash .btn-link { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: var(--r-sm); background: var(--accent); color: var(--accent-ink); text-decoration: none; font-size: var(--fs-sm); font-weight: 600; }
 .dash .btn-link:hover { filter: brightness(1.08); }
 .dash .dash__main { padding-block: 20px 8px; display: grid; gap: 20px; }
 /* KPI row */
-.dash .kpis { display: grid; gap: 1px; grid-template-columns: 2fr repeat(4, 1fr); background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.dash .kpis { display: grid; gap: 1px; grid-template-columns: 2fr repeat(4, 1fr); background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; box-shadow: 0 1px 2px rgba(15, 20, 27, .05); }
 .dash .kpi { background: var(--surface); padding: 14px 16px; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
 .dash .kpi__label { font-size: var(--fs-sm); color: var(--ink-2); font-weight: 600; }
 .dash .kpi__value { font-size: var(--fs-kpi); font-weight: 750; line-height: 1.1; letter-spacing: -.01em; }
@@ -115,7 +117,7 @@
 /* cards */
 .dash .grid2 { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 .dash .grid75 { display: grid; gap: 20px; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); align-items: start; }
-.dash .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; min-width: 0; }
+.dash .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; min-width: 0; box-shadow: 0 1px 2px rgba(15, 20, 27, .05); }
 .dash .card__head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 10px; }
 .dash .card h2 { margin: 0; font-size: var(--fs-lg); line-height: 1.25; font-weight: 700; text-wrap: balance; }
 .dash .card h3 { margin: 18px 0 8px; font-size: var(--fs-md); font-weight: 700; }
@@ -332,3 +334,7 @@
   .dash .kpis--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dash .kpis--3 .kpi:last-child { grid-column: 1 / -1; }
 }
+
+/* headings and figures in the map's condensed display cut (Latin only: CJK glyphs have no width axis) */
+.dash .mast h1, .dash .card h2, .dash .kpi__value { font-stretch: 85%; }
+.dash:lang(zh) .mast h1, .dash:lang(zh) .card h2, .dash:lang(zh) .kpi__value { font-stretch: 100%; }

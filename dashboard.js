@@ -30,10 +30,10 @@
 
   var STR = {
     en: {
-      eyebrow: "Live data · AI capital flows", title: "AI Orders & Debt Dashboard", alt: "AI 巨头订单与债务",
+      eyebrow: "Live data · AI capital flows", title: "Key AI Deals at a Glance", alt: "AI 重点交易",
       sub: "The deals that matter among the AI giants: compute orders, investments and debt, from the curated map. Money flows from → to.",
       asof: "Data as of {t}", ago_min: "{n} min ago", ago_h: "{n} h ago", ago_d: "{n} days ago", ago_now: "just now",
-      live: "Open the map →", lang: "Language",
+      live: "Open the map →", lang: "Language", nav: "Pages", nav_map: "Deal Map", nav_dash: "Key Deals", nav_inv: "Investor Guide",
       intro: "The important deals at a glance, chosen from every deal on the map: the filters above do not apply here. Data as of {t}.",
       open_page: "Open as a full page ↗",
       loading: "Loading the dashboard…",
@@ -83,10 +83,10 @@
       mon: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     },
     zh: {
-      eyebrow: "实时数据 · AI 资金流向", title: "AI 巨头订单与债务看板", alt: "AI Orders & Debt",
+      eyebrow: "实时数据 · AI 资金流向", title: "AI 重点交易速览", alt: "Key AI Deals",
       sub: "AI 巨头之间的重要交易：算力订单、投资与债务，取自人工核实的关系图。资金由“支付方”流向“收款方”。",
       asof: "数据截至 {t}", ago_min: "{n} 分钟前", ago_h: "{n} 小时前", ago_d: "{n} 天前", ago_now: "刚刚",
-      live: "打开关系图 →", lang: "语言",
+      live: "打开关系图 →", lang: "语言", nav: "页面", nav_map: "关系图", nav_dash: "重点交易", nav_inv: "投资者指南",
       intro: "重点交易一览，从关系图的全部交易中选出：上方的筛选条件不适用于此页。数据截至 {t}。",
       open_page: "在单独页面打开 ↗",
       loading: "正在加载看板…",
@@ -305,9 +305,15 @@
       b.addEventListener("click", function () { setLangFromPage(l[0]); });
       add(g, b);
     });
-    var live = el("a", "btn-link"); live.id = "dash-live-link"; live.href = MAP_URL;
-    add(tools, asof, g, live);
-    add(head, add(inner, id, tools));
+    /* the site's three pages as tabs (nav.css), the same row as on the map and the investor guide */
+    var nav = el("nav", "sitenav"); nav.id = "dash-nav";
+    [["map", MAP_URL], ["dash", PAGE_URL], ["inv", "investors.html"]].forEach(function (p) {
+      var a = el("a", "sitenav__tab"); a.id = "dash-nav-" + p[0]; a.href = p[1];
+      if (p[0] === "dash") a.setAttribute("aria-current", "page");
+      add(nav, a);
+    });
+    add(tools, asof, g);
+    add(head, add(el("div", "wrap"), nav), add(inner, id, tools));
     var main = el("main", "wrap dash__main"); main.id = "dash-main";
     var foot = el("footer", "wrap foot"); foot.id = "dash-foot";
     var scrim = el("div", "scrim"); scrim.id = "dash-scrim"; scrim.hidden = true;
@@ -346,7 +352,8 @@
     $("lang-group").setAttribute("aria-label", T("lang"));
     $("lang-en").setAttribute("aria-pressed", state.lang === "en" ? "true" : "false");
     $("lang-zh").setAttribute("aria-pressed", state.lang === "zh" ? "true" : "false");
-    $("live-link").textContent = T("live");
+    $("nav").setAttribute("aria-label", T("nav"));
+    ["map", "dash", "inv"].forEach(function (k) { $("nav-" + k).textContent = T("nav_" + k); });
   }
 
   /* ---------------------------------------------------------------- header (map tab) */

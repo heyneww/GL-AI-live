@@ -1,0 +1,26 @@
+/* The site's top tabs, shared by the three pages: Deal Map (index.html), Key Deals (dashboard.html) and
+   Investor Guide (investors.html). Colours come from the tokens each page already defines (--ink, --ink-2,
+   --accent, --line, --focus), so the tabs follow the page's light / dark theme. The current page's link
+   carries aria-current="page". */
+.sitenav { display: flex; align-items: stretch; gap: 4px; margin: 0 0 10px; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.sitenav::-webkit-scrollbar { display: none; }
+.sitenav__tab {
+  position: relative; display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px;
+  font-size: 15px; font-weight: 600; line-height: 1.2; letter-spacing: .01em; white-space: nowrap;
+  color: var(--ink-2); text-decoration: none; border-radius: 6px 6px 0 0;
+  transition: color .12s ease, background-color .12s ease;
+}
+.sitenav a.sitenav__tab { color: var(--ink-2); }
+.sitenav__tab:first-child { margin-left: -14px; }
+.sitenav__tab::after { content: ""; position: absolute; left: 14px; right: 14px; bottom: -1px; height: 3px; border-radius: 3px 3px 0 0; background: transparent; }
+.sitenav a.sitenav__tab:hover { color: var(--ink); background: var(--surface-2); }
+.sitenav a.sitenav__tab[aria-current="page"] { color: var(--ink); font-weight: 700; }
+.sitenav__tab[aria-current="page"]::after { background: var(--accent); }
+.sitenav__tab:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+@media (max-width: 760px) {
+  .sitenav { margin-bottom: 6px; }
+  .sitenav__tab { min-height: 44px; padding: 0 11px; font-size: 14.5px; }
+  .sitenav__tab:first-child { margin-left: -11px; }
+  .sitenav__tab::after { left: 11px; right: 11px; }
+}
+@media (prefers-reduced-motion: reduce) { .sitenav__tab { transition: none; } }

@@ -18,12 +18,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="investors.css">
 </head>
 <body class="inv">
 <a class="skip" href="#main" data-t="skip">Skip to content · 跳到正文</a>
 
 <header class="masthead inv-bar">
+  <nav class="sitenav" aria-label="Pages · 页面">
+    <a class="sitenav__tab" href="./" data-t="nav_map">Deal Map · 关系图</a>
+    <a class="sitenav__tab" href="dashboard.html" data-t="nav_dash">Key Deals · 重点交易</a>
+    <a class="sitenav__tab" href="investors.html" aria-current="page" data-t="nav_inv">Investor Guide · 投资者指南</a>
+  </nav>
   <div class="masthead__inner">
     <div class="brand">
       <p class="brand__kicker" data-t="eyebrow"></p>
@@ -34,7 +40,6 @@
         <button type="button" id="lang-en" class="lang__btn" lang="en" aria-pressed="true">English</button>
         <button type="button" id="lang-zh" class="lang__btn" lang="zh-CN" aria-pressed="false">中文</button>
       </div>
-      <a class="inv-back" href="./" data-t="nav_map">← Back to the map · 返回关系图</a>
     </div>
   </div>
 </header>

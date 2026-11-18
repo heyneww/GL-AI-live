@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<!-- Everything the page runs is served next to it: dashboard.js reads data/v1/dashboard.json from this site (rebuilt
+<!-- Everything the page runs is served next to it (the typefaces alone come from Google Fonts, as on the map): dashboard.js reads data/v1/dashboard.json from this site (rebuilt
      with the map at every publish, monitor/dashboard.py) and nothing else. The map's Dashboard tab draws the same
      data with the same script. -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
 <title>AI Orders &amp; Debt Dashboard · AI 巨头订单与债务看板</title>
 <meta name="description" content="The important AI deals in one page: orders, investments and debt among the AI giants, refreshed with the live map. AI 巨头订单、投资与债务一览，与实时关系图同步更新。">
 <link rel="canonical" href="https://heyneww.github.io/GL-AI-live/dashboard.html">
@@ -15,6 +15,10 @@
 <meta property="og:title" content="AI Orders &amp; Debt Dashboard · AI 巨头订单与债务看板">
 <meta property="og:description" content="The deals that matter among the AI giants, what is new and what changed. 重点交易、本周新增与重要变动。">
 <meta property="og:url" content="https://heyneww.github.io/GL-AI-live/dashboard.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="dashboard.css">
 </head>
 <body class="dash dash--page">

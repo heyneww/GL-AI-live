@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "generated_at": "2026-11-18T12:11:26Z",
- "built_at": "2026-11-18T12:11:40Z",
+ "built_at": "2026-11-18T16:01:36Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
   "total_usd": 4010743361259,
@@ -208,12 +208,6 @@
    "name_zh": "Constellation 能源",
    "group": "energy",
    "ticker": "CEG"
-  },
-  "core-scientific": {
-   "name": "Core Scientific",
-   "name_zh": "Core Scientific",
-   "group": "datacenter",
-   "ticker": "CORZ"
   },
   "coreweave": {
    "name": "CoreWeave",
@@ -993,7 +987,6 @@
    "added": "2026-11-06",
    "tags": [
     "new",
-    "changed",
     "big",
     "recent"
    ]
@@ -1084,7 +1077,6 @@
    "added": "2026-11-04",
    "tags": [
     "new",
-    "changed",
     "big",
     "recent"
    ]
@@ -1594,7 +1586,6 @@
    },
    "added": "2026-11-02",
    "tags": [
-    "changed",
     "recent"
    ]
   },
@@ -1803,35 +1794,6 @@
    ]
   },
   {
-   "id": "alphabet-constellation-energy-2026-10-nuclear-ppa",
-   "kind": "order",
-   "subkind": "power purchase agreements (nuclear)",
-   "subkind_zh": null,
-   "from": "alphabet",
-   "to": "constellation-energy",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Not disclosed; 3,590 MW in total: 20-year PPA for 890 MW of new uprate capacity (Constellation investing >$4.3B) plus a 15-year deal for 2,700 MW of existing PJM output",
-   "announced": "2026-10-06",
-   "status": "signed",
-   "confidence": "confirmed",
-   "title_en": "Google nuclear power agreements with Constellation (3.6 GW)",
-   "title_zh": "谷歌与 Constellation 的核电购电协议（3.6 吉瓦）",
-   "summary_en": "Google signed a 20-year power purchase agreement for 890 MW of new output from uprates at 11 Constellation reactors in Illinois, Pennsylvania and New Jersey, which Constellation says means more than $4.3B of investment, plus a separate 15-year agreement for 2,700 MW of existing…",
-   "summary_zh": "谷歌与 Constellation 签署 20 年购电协议，购买其在伊利诺伊、宾夕法尼亚和新泽西 11 台反应堆增容改造带来的 890 兆瓦新增电力（Constellation 称将为此投资逾 43 亿美元），另签 15 年协议购买其在 PJM 电网的 2,700 兆瓦现有电力…",
-   "source": {
-    "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
-    "publisher": "POWER Magazine",
-    "date": "2026-10-07"
-   },
-   "added": "2026-10-29",
-   "tags": [
-    "changed"
-   ]
-  },
-  {
    "id": "jpmorgan-lambda-2026-10-fixed-rate-gpu-loan",
    "kind": "debt",
    "subkind": "senior secured fixed-rate delayed-draw GPU loan",
@@ -1858,35 +1820,6 @@
    "added": "2026-10-29",
    "tags": [
     "recent"
-   ]
-  },
-  {
-   "id": "amazon-constellation-energy-2026-09-calvert-cliffs-ppa",
-   "kind": "order",
-   "subkind": "power purchase agreements (nuclear)",
-   "subkind_zh": "购电协议（核电）",
-   "from": "amazon",
-   "to": "constellation-energy",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Not disclosed; 690 MW of the Calvert Cliffs plant's output for 20 years, including ~190 MW of new uprate capacity (Constellation investing ~$3B), plus a related retail supply agreement for Amazon's PJM operations",
-   "announced": "2026-09-30",
-   "status": "signed",
-   "confidence": "confirmed",
-   "title_en": "Amazon 20-year nuclear power agreement with Constellation (Calvert Cliffs, 690 MW)",
-   "title_zh": "亚马逊与 Constellation 的 20 年核电购电协议（Calvert Cliffs，690 兆瓦）",
-   "summary_en": "Amazon agreed to buy 690 MW from Constellation's Calvert Cliffs nuclear plant in Maryland for 20 years, including about 190 MW of new output from a roughly $3B uprate due between 2030 and 2032; the commitment supports relicensing the plant for another 20 years. A related retail…",
-   "summary_zh": "亚马逊同意在 20 年内购买 Constellation 马里兰州 Calvert Cliffs 核电站的 690 兆瓦电力，其中约 190 兆瓦来自约 30 亿美元的增容改造，预计 2030 至 2032 年间投运；这一承诺支持该电站再续期 20 年运行许可。配套零售协议覆盖…",
-   "source": {
-    "url": "https://thedailyrecord.com/2026/10/01/constellation-plans-upgrade-maryland-calvert-cliffs-amazon/",
-    "publisher": "The Daily Record",
-    "date": "2026-10-01"
-   },
-   "added": "2026-11-02",
-   "tags": [
-    "changed"
    ]
   },
   {
@@ -2179,6 +2112,7 @@
    },
    "added": "2026-10-27",
    "tags": [
+    "changed",
     "big",
     "recent"
    ]
@@ -2716,35 +2650,6 @@
    ]
   },
   {
-   "id": "anthropic-riot-platforms-2026-08-rockdale-lease",
-   "kind": "lease",
-   "subkind": "data-centre lease",
-   "subkind_zh": null,
-   "from": "anthropic",
-   "to": "riot-platforms",
-   "amount_usd": 9100000000,
-   "counted_usd": 9100000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "~$9.1B expected contract revenue over 20 years to June 2048 (~$16.1B if both five-year extensions are exercised); Riot's Q3 2026 10-Q names the tenant as Anthropic PBC",
-   "announced": "2026-08-10",
-   "status": "signed",
-   "confidence": "confirmed",
-   "title_en": "Riot leases 191 MW at Rockdale to Anthropic (~$9.1B)",
-   "title_zh": "Riot 将 Rockdale 191 兆瓦租给 Anthropic（约 91 亿美元）",
-   "summary_en": "Riot Platforms signed a 20-year lease of 191 MW of critical IT capacity at its Rockdale, Texas site with what it first called a leading frontier AI lab, worth about $9.1 billion; Bloomberg reported the tenant was Anthropic and Riot's Q3 2026 10-Q confirms it. A $573 million…",
-   "summary_zh": "Riot Platforms 与一家起初称为“领先的前沿 AI 实验室”的租户签订得州 Rockdale 园区 191 兆瓦关键 IT 容量、为期 20 年的租约，价值约 91 亿美元；彭博社报道租户为 Anthropic，Riot 2026 年第三季度 10-Q 予以确认。一…",
-   "source": {
-    "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926122417/riot-20260930x10q.htm",
-    "publisher": "Riot Platforms (SEC 10-Q)",
-    "date": "2026-11-04"
-   },
-   "added": "2026-10-28",
-   "tags": [
-    "changed"
-   ]
-  },
-  {
    "id": "bond-investors-alphabet-2026-08-bonds",
    "kind": "debt",
    "subkind": "corporate bonds (investment grade)",
@@ -2861,35 +2766,6 @@
    ]
   },
   {
-   "id": "amd-core-scientific-2026-07-leases",
-   "kind": "lease",
-   "subkind": "AI data-centre leases (triple net) with lease credit support",
-   "subkind_zh": "AI 数据中心租约（三重净租赁）及租约信用支持",
-   "from": "amd",
-   "to": "core-scientific",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": 14000000000,
-   "amount_text": "Core Scientific cites more than $14B of base contracted revenue over 15 years (2.5% annual escalators) for ~530 MW at five campuses: ~380 MW leased to AMD directly and ~150 MW leased to an unnamed neocloud with AMD's full credit support; the split is not disclosed, so no amount is counted on this edge. AMD received warrants for up to 30M Core Scientific shares at $23.47 and, per Core Scientific's Q3 2026 10-Q, a right to reserve another 1,925 MW through 28 Dec 2028",
-   "announced": "2026-07-28",
-   "status": "signed",
-   "confidence": "confirmed",
-   "title_en": "AMD leases ~530 MW from Core Scientific (>$14B, with warrants)",
-   "title_zh": "AMD 向 Core Scientific 租用约 530 兆瓦（逾 140 亿美元，附认股权证）",
-   "summary_en": "Core Scientific signed 15-year agreements with AMD for about 530 MW at five campuses, which it says carry more than $14B of base contracted revenue: roughly 380 MW leased to AMD and about 150 MW to an unnamed neocloud whose rent AMD fully backs. AMD also got warrants for up to…",
-   "summary_zh": "Core Scientific 与 AMD 签署 15 年协议，涉及五个园区约 530 兆瓦，公司称基础合同收入逾 140 亿美元：约 380 兆瓦租给 AMD，约 150 兆瓦租给一家未具名新兴算力云公司，其租金由 AMD 全额担保。AMD 还获得认购最多 3000 万股 C…",
-   "source": {
-    "url": "https://lasvegassun.com/news/2026/jul/28/core-scientific-announces-second-quarter-2026-resu/",
-    "publisher": "Core Scientific (press release via Las Vegas Sun)",
-    "date": "2026-07-28"
-   },
-   "added": "2026-11-04",
-   "tags": [
-    "changed"
-   ]
-  },
-  {
    "id": "broadcom-samsung-2026-07-memory-foundry-mou",
    "kind": "order",
    "subkind": "memory, foundry and packaging MOU",
@@ -2945,6 +2821,35 @@
    "added": "2026-10-27",
    "tags": [
     "big"
+   ]
+  },
+  {
+   "id": "amd-anthropic-2026-07-equity",
+   "kind": "investment",
+   "subkind": "equity investment (milestone-based)",
+   "subkind_zh": null,
+   "from": "amd",
+   "to": "anthropic",
+   "amount_usd": 5000000000,
+   "counted_usd": 5000000000,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "Up to $5.0B of Anthropic Class N common stock, which Anthropic can draw in increments as AMD GPU delivery and deployment milestones are met (first milestone expected in 2027); after the IPO priced at the 30-day average share price (Anthropic S-1)",
+   "announced": "2026-07-22",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AMD to invest up to $5B in Anthropic",
+   "title_zh": "AMD 向 Anthropic 投资最多 50 亿美元",
+   "summary_en": "Under the July 2026 hardware supply agreement, AMD committed to buy up to $5B of Anthropic's Class N common stock, available to Anthropic in steps as AMD GPU capacity is delivered and deployed, the first expected in 2027 (Anthropic S-1). A circular structure: the chip supplier…",
+   "summary_zh": "根据 2026 年 7 月的硬件供应协议，AMD 承诺购买最多 50 亿美元的 Anthropic N 类普通股，Anthropic 可随 AMD GPU 交付和部署里程碑分步提取，首个里程碑预计在 2027 年达成（Anthropic S-1）。这是芯片供应商出资支持客户的循…",
+   "source": {
+    "url": "https://news.bgov.com/artificial-intelligence/amd-to-invest-up-to-5-billion-in-anthropic-deploy-chips",
+    "publisher": "Bloomberg",
+    "date": "2026-07-22"
+   },
+   "added": "2026-10-27",
+   "tags": [
+    "changed"
    ]
   },
   {
@@ -3411,6 +3316,7 @@
    "added": "2026-10-27",
    "tags": [
     "top",
+    "changed",
     "big"
    ]
   },
@@ -3498,6 +3404,7 @@
    },
    "added": "2026-10-27",
    "tags": [
+    "changed",
     "circular",
     "big"
    ]
@@ -3559,6 +3466,7 @@
    },
    "added": "2026-10-27",
    "tags": [
+    "changed",
     "circular",
     "big"
    ]
@@ -3737,6 +3645,7 @@
    "added": "2026-10-27",
    "tags": [
     "top",
+    "changed",
     "big"
    ]
   },
@@ -3913,6 +3822,7 @@
    "added": "2026-10-29",
    "tags": [
     "top",
+    "changed",
     "circular",
     "big"
    ]
@@ -5285,6 +5195,90 @@
  ],
  "changes": [
   {
+   "id": "alphabet-anthropic-2026-04-equity",
+   "date": "2026-11-19",
+   "title_en": "Google to invest up to $40B in Anthropic",
+   "title_zh": "谷歌向 Anthropic 投资最多 400 亿美元",
+   "fields": {
+    "amount_usd": {
+     "from": 40000000000,
+     "to": 20000000000
+    }
+   }
+  },
+  {
+   "id": "amazon-anthropic-2026-04-equity",
+   "date": "2026-11-19",
+   "title_en": "Amazon to invest up to $25B more in Anthropic",
+   "title_zh": "亚马逊再向 Anthropic 投资最多 250 亿美元",
+   "fields": {
+    "amount_usd": {
+     "from": 25000000000,
+     "to": 10000000000
+    }
+   }
+  },
+  {
+   "id": "amd-anthropic-2026-07-equity",
+   "date": "2026-11-19",
+   "title_en": "AMD to invest up to $5B in Anthropic",
+   "title_zh": "AMD 向 Anthropic 投资最多 50 亿美元",
+   "fields": {
+    "amount_usd": {
+     "from": 5000000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "anthropic-spacex-2026-05-colossus",
+   "date": "2026-11-19",
+   "title_en": "Anthropic rents SpaceX/xAI compute (up to $120.5B)",
+   "title_zh": "Anthropic 租用 SpaceX/xAI 算力（最高 1205 亿美元）",
+   "fields": {
+    "amount_usd": {
+     "from": 120500000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "bank-lenders-crux-ai-2026-09-tpu-loan",
+   "date": "2026-11-19",
+   "title_en": "Goldman-led banks line up $22B chip loan for Blackstone-Google Crux AI",
+   "title_zh": "高盛牵头的银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款",
+   "fields": {
+    "amount_usd": {
+     "from": 22000000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "broadcom-anthropic-2026-03-convertible-note-facility",
+   "date": "2026-11-19",
+   "title_en": "Broadcom $42B convertible note facility for Anthropic's rack rent",
+   "title_zh": "博通为 Anthropic 机架租金提供 420 亿美元可转债融资额度",
+   "fields": {
+    "amount_usd": {
+     "from": 42000000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "jpmorgan-softbank-2026-03-bridge-loan",
+   "date": "2026-11-19",
+   "title_en": "SoftBank $40B bridge loan for its $30B OpenAI follow-on",
+   "title_zh": "软银 400 亿美元过桥贷款用于追加投资 OpenAI 300 亿美元",
+   "fields": {
+    "amount_usd": {
+     "from": 40000000000,
+     "to": 30000000000
+    }
+   }
+  },
+  {
    "id": "amd-meta-2026-10-equity-investment",
    "date": "2026-11-18",
    "title_en": "AMD invests $1B in Meta's share offering",
@@ -5385,102 +5379,6 @@
     "amount_usd": {
      "from": 44900000000,
      "to": 47200000000
-    }
-   }
-  },
-  {
-   "id": "alphabet-constellation-energy-2026-10-nuclear-ppa",
-   "date": "2026-11-09",
-   "title_en": "Google nuclear power agreements with Constellation (3.6 GW)",
-   "title_zh": "谷歌与 Constellation 的核电购电协议（3.6 吉瓦）",
-   "fields": {
-    "confidence": {
-     "from": "reported",
-     "to": "confirmed"
-    }
-   }
-  },
-  {
-   "id": "amazon-constellation-energy-2026-09-calvert-cliffs-ppa",
-   "date": "2026-11-09",
-   "title_en": "Amazon 20-year nuclear power agreement with Constellation (Calvert Cliffs, 690 MW)",
-   "title_zh": "亚马逊与 Constellation 的 20 年核电购电协议（Calvert Cliffs，690 兆瓦）",
-   "fields": {
-    "confidence": {
-     "from": "reported",
-     "to": "confirmed"
-    }
-   }
-  },
-  {
-   "id": "intel-classiq-2026-10-acquisition",
-   "date": "2026-11-07",
-   "title_en": "Intel to acquire quantum software firm Classiq (~$1.9B)",
-   "title_zh": "英特尔收购量子软件公司 Classiq（约 19 亿美元）",
-   "fields": {
-    "amount_usd": {
-     "from": 2300000000,
-     "to": 1900000000
-    },
-    "confidence": {
-     "from": "reported",
-     "to": "confirmed"
-    }
-   }
-  },
-  {
-   "id": "bond-investors-meta-2026-11-notes-2",
-   "date": "2026-11-06",
-   "title_en": "Meta €9B debut euro bond sale",
-   "title_zh": "Meta 首次发行欧元债券，规模 90 亿欧元",
-   "fields": {
-    "amount_usd": {
-     "from": null,
-     "to": 10050000000
-    },
-    "status": {
-     "from": "completed",
-     "to": "signed"
-    }
-   }
-  },
-  {
-   "id": "amd-core-scientific-2026-07-leases",
-   "date": "2026-11-05",
-   "title_en": "AMD leases ~530 MW from Core Scientific (>$14B, with warrants)",
-   "title_zh": "AMD 向 Core Scientific 租用约 530 兆瓦（逾 140 亿美元，附认股权证）",
-   "fields": {
-    "confidence": {
-     "from": "reported",
-     "to": "confirmed"
-    }
-   }
-  },
-  {
-   "id": "bond-investors-meta-2026-11-notes",
-   "date": "2026-11-05",
-   "title_en": "Meta $15B bond sale, then a debut euro offering",
-   "title_zh": "Meta 发行 150 亿美元债券，随后首次发行欧元债券",
-   "fields": {
-    "confidence": {
-     "from": "reported",
-     "to": "confirmed"
-    },
-    "status": {
-     "from": "signed",
-     "to": "completed"
-    }
-   }
-  },
-  {
-   "id": "anthropic-riot-platforms-2026-08-rockdale-lease",
-   "date": "2026-11-04",
-   "title_en": "Riot leases 191 MW at Rockdale to Anthropic (~$9.1B)",
-   "title_zh": "Riot 将 Rockdale 191 兆瓦租给 Anthropic（约 91 亿美元）",
-   "fields": {
-    "confidence": {
-     "from": "reported",
-     "to": "confirmed"
     }
    }
   }

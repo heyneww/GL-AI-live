@@ -54,7 +54,7 @@
   /* graph */
   --node-fill: color-mix(in srgb, var(--ink) 6%, var(--surface));
   --node-stroke: var(--ink-2);
-  --edge-op: .5;
+  --edge-op: .34;
   --edge-dim: .07;
   --seg-on: var(--surface);
 
@@ -119,7 +119,7 @@
     --g-other: #8a94a1;
     --node-fill: color-mix(in srgb, var(--ink) 11%, var(--surface));
     --node-stroke: #9aa5b2;
-    --edge-op: .45;
+    --edge-op: .34;
     --edge-dim: .06;
     --seg-on: #2a3340;
   }
@@ -164,7 +164,7 @@
   --g-other: #8a94a1;
   --node-fill: color-mix(in srgb, var(--ink) 11%, var(--surface));
   --node-stroke: #9aa5b2;
-  --edge-op: .45;
+  --edge-op: .34;
   --edge-dim: .06;
   --seg-on: #2a3340;
 }
@@ -248,7 +248,7 @@ button, input, select { font: inherit; color: inherit; }
 }
 
 /* =================================================================== masthead */
-.masthead { border-top: 3px solid var(--ink); padding-block: 12px 10px; border-bottom: 1px solid var(--line); }
+.masthead { border-top: 3px solid var(--ink); padding-block: 4px 10px; border-bottom: 1px solid var(--line); }
 .masthead__inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px 24px; align-items: start; }
 .brand { min-width: 0; }
 .brand__kicker {
@@ -349,7 +349,7 @@ button, input, select { font: inherit; color: inherit; }
 /* the headline total in the mix tile: the same rule as stats.total_usd in graph.json */
 .tile__total { display: flex; align-items: baseline; gap: 6px; font-family: var(--f-body); font-size: 12px; color: var(--ink-2); min-width: 0; }
 .tile__total b {
-  font-family: var(--f-display); font-stretch: 85%; font-weight: 700; font-size: 20px; line-height: 1.1; color: var(--ink);
+  font-family: var(--f-display); font-stretch: 85%; font-weight: 700; font-size: clamp(22px, 2vw, 28px); line-height: 1.1; color: var(--ink);
   font-variant-numeric: tabular-nums lining-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 :lang(zh) .tile__total b { font-stretch: 100%; }
@@ -420,7 +420,7 @@ button, input, select { font: inherit; color: inherit; }
   border: 1px solid var(--control-border); background: var(--surface); color: var(--ink);
   min-width: 0; max-width: 100%;
 }
-.field--search { flex: 0 1 410px; min-width: 200px; }
+.field--search { flex: 0 1 280px; min-width: 200px; }
 .field--search input {
   width: 100%; height: 34px; padding-left: 30px;
   background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none' stroke='%23858e9b' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='7' cy='7' r='4.6'/%3E%3Cpath d='M10.5 10.5 14 14'/%3E%3C/svg%3E") no-repeat 9px center / 15px 15px;
@@ -461,7 +461,11 @@ button, input, select { font: inherit; color: inherit; }
 .table-sort { display: none; }
 
 /* ================================================================= graph area */
-.graph { position: relative; height: clamp(480px, 72vh, 860px); overflow: hidden; touch-action: none; }
+.graph {
+  position: relative; height: clamp(480px, 72vh, 860px); overflow: hidden; touch-action: none;
+  /* a quiet dot grid, so the canvas reads as a canvas */
+  background: radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--line) 70%, transparent) 1px, transparent 0) 0 0 / 24px 24px, var(--surface);
+}
 @media (pointer: coarse) { .graph { touch-action: pan-y pinch-zoom; } }
 .graph svg { display: block; width: 100%; height: 100%; cursor: grab; user-select: none; -webkit-user-select: none; }
 .graph svg:active { cursor: grabbing; }
@@ -526,9 +530,9 @@ button, input, select { font: inherit; color: inherit; }
 
 /* sector cluster labels on the canvas */
 .sector-label {
-  font-family: var(--f-body); font-size: calc(11px * var(--ls, 1)); font-weight: 600; letter-spacing: .12em;
-  text-transform: uppercase; fill: var(--muted); opacity: .7;
-  paint-order: stroke; stroke: var(--halo); stroke-width: 4px; pointer-events: none;
+  font-family: var(--f-body); font-size: calc(12px * var(--ls, 1)); font-weight: 600; letter-spacing: .12em;
+  text-transform: uppercase; fill: var(--ink-2);
+  paint-order: stroke; stroke: var(--halo); stroke-width: 5px; pointer-events: none;
 }
 :lang(zh) .sector-label { letter-spacing: 0; text-transform: none; font-size: calc(12px * var(--ls, 1)); }
 .sector-label.is-hidden { display: none; }
@@ -888,7 +892,7 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
   }
   .lang__btn { padding: 4px 10px; font-size: 13px; }
   .live__pop { left: 0; right: auto; }
-  .masthead { padding-block: 8px 8px; }
+  .masthead { padding-block: 0 8px; }
   .filters { margin-top: 10px; gap: 6px; }
   .workspace { margin-top: 10px; }
   .brand__sub { line-height: 1.4; }
@@ -916,6 +920,7 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
   .tile--mix .tview { grid-column: 1 / -1; grid-row: 3; }
   .tile--mix .tile__total { grid-column: 1 / -1; grid-row: 4; }
   .tile--mix .tile__broad { grid-column: 1 / -1; grid-row: 5; }
+  .tile--mix .tile__split, .tile--mix .tile__note { grid-column: 1 / -1; }
   .tile--mix .tile__total b { font-size: 17px; }
   .tile--mix #sum-scope { display: none; }
   .summary__foot { display: none; }
@@ -924,7 +929,7 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
   .field--search { flex: 1 1 100%; min-width: 0; }
   /* the chip row shares its line with the "Filters" button, which stays pinned at the right */
   .filters__main { flex-wrap: wrap; column-gap: 8px; }
-  .filters__kinds { min-width: 0; flex: 1 1 0; }
+  .filters__kinds { min-width: 0; flex: 1 1 100%; }
   .chips {
     flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
     margin-left: calc(-1 * var(--gutter)); padding-left: var(--gutter); padding-right: 8px; scroll-snap-type: x proximity;
@@ -1105,10 +1110,11 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
 .timeline .tooltip { z-index: 5; }
 
 /* loops view */
-.loops, .changes { padding: 10px 14px 14px; max-height: clamp(480px, 72vh, 860px); overflow: auto; }
+/* no height cap (the lists flow with the page); a row too wide for a narrow screen scrolls inside its box */
+.loops, .changes { padding: 10px 14px 14px; overflow-x: auto; }
 /* the Dashboard tab: site/dashboard.js draws data/v1/dashboard.json inside (its own styles, scoped under .dash, in
    dashboard.css); the panel scrolls like the Loops and Changes tabs */
-.dashv { padding: 10px 14px 14px; max-height: clamp(480px, 72vh, 860px); overflow: auto; background: var(--bg); }
+.dashv { padding: 10px 14px 14px; overflow-x: auto; background: var(--bg); }
 .loops__hint, .changes__hint { margin: 0 0 8px; font-size: 13.5px; color: var(--ink-2); max-width: 90ch; }
 .loops__list, .changes__list { list-style: none; margin: 0; padding: 0; }
 .loops__list li { border-top: 1px solid var(--line); }
@@ -1228,6 +1234,9 @@ button.chg__t:focus-visible { outline: 2px solid var(--focus); outline-offset: 2
   .viz__bar > .seg[role="tablist"] .seg__btn { flex: none; white-space: nowrap; }
   .viz:has(#table-view:not([hidden])) #viz-count, .viz:has(#loops-view:not([hidden])) #viz-count, .viz:has(#changes-view:not([hidden])) #viz-count, .viz:has(#dashboard-view:not([hidden])) #viz-count { grid-row: 2; grid-column: 1; margin-top: 6px; }
   #table-sort-wrap { grid-row: 2; }
+  /* the CSV button shared that cell and covered the sort control */
+  .viz:has(#table-view:not([hidden])) #csv { grid-row: 3; grid-column: 1 / -1; justify-self: start; margin: 0 8px 8px; }
+  .viz:has(#table-view:not([hidden])) #table-view { grid-row: 4; }
   .loops, .changes, .dashv { grid-row: 3; grid-column: 1 / -1; border-top: 1px solid var(--line); max-height: none; padding: 8px 10px 12px; }
   .loop-row { grid-template-columns: 20px minmax(0, 1fr); }
   .loop-row__v { grid-column: 2; align-items: flex-start; text-align: left; }

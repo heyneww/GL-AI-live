@@ -1,8 +1,234 @@
 {
- "generated_at": "2026-11-18T12:11:25Z",
+ "generated_at": "2026-11-18T16:01:35Z",
  "history_complete": true,
- "last_commit": "f5fe44ad65e4a78fe2ff3ac10c81b9995b6e07ba",
+ "last_commit": "05217eca9018d71127f705e54afdae64fbfd245a",
  "changes": [
+  {
+   "date": "2026-11-19T00:01:23+08:00",
+   "commit": "05217eca9018d71127f705e54afdae64fbfd245a",
+   "edge": "alphabet-anthropic-2026-04-equity",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "Up to $40B: $10B of Series G-2 preferred at $259.14 a share (~$350B valuation) + up to $30B of convertible notes or non-voting stock under the March 2026 note purchase agreement through 2030, tied to compute-agreement conditions and revenue targets; $10B of that went into the May 2026 Series H, leaving $20B available at 30 June 2026 (Anthropic S-1)",
+     "to": "$20B paid of up to $40B: $10B of Series G-2 preferred at $259.14 a share (~$350B valuation) + $10B in the May 2026 Series H, drawn from the up-to-$30B convertible note / non-voting stock facility under the March 2026 note purchase agreement (through 2030); the $20B still available at 30 June 2026 depends on compute-agreement conditions and revenue targets and is not counted (Anthropic S-1)"
+    },
+    "amount_usd": {
+     "from": 40000000000,
+     "to": 20000000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Counted at the $20B Google has paid, not the 'up to $40B' announced, since 18 Nov 2026: the remaining $20B depends on conditions and would shrink by any stock Google buys alongside the IPO."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起按谷歌已支付的 200 亿美元计入，而非公布的“最多 400 亿美元”：其余 200 亿美元取决于条件能否达成，且会因谷歌在 IPO 时同步认购的股票而相应减少。"
+    }
+   },
+   "title_en": "Google to invest up to $40B in Anthropic",
+   "title_zh": "谷歌向 Anthropic 投资最多 400 亿美元"
+  },
+  {
+   "date": "2026-11-19T00:01:23+08:00",
+   "commit": "05217eca9018d71127f705e54afdae64fbfd245a",
+   "edge": "amazon-anthropic-2026-04-equity",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "Up to $25B: $5B of Series G-2 preferred (Q2 2026) + up to $20B under the 2026 note purchase agreement (non-voting stock or convertible notes), released in $5B tranches tied to compute-capacity milestones; $5B of it went into the May 2026 Series H, leaving $15B available at 30 June 2026 (Anthropic S-1). Separate from ~$6.2B of older Amazon rollover notes",
+     "to": "$10B paid of up to $25B: $5B of Series G-2 preferred (Q2 2026) + $5B in the May 2026 Series H, drawn from the up-to-$20B 2026 note purchase agreement (non-voting stock or convertible notes, released in $5B tranches tied to compute-capacity milestones); the $15B still available at 30 June 2026 depends on those milestones and is not counted (Anthropic S-1). Separate from ~$6.2B of older Amazon rollover notes"
+    },
+    "amount_usd": {
+     "from": 25000000000,
+     "to": 10000000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Counted at the $10B Amazon has paid, not the 'up to $25B' announced, since 18 Nov 2026: the remaining $15B is released only as compute-capacity milestones are met."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起按亚马逊已支付的 100 亿美元计入，而非公布的“最多 250 亿美元”：其余 150 亿美元须在算力容量里程碑达成后才分批提供。"
+    }
+   },
+   "title_en": "Amazon to invest up to $25B more in Anthropic",
+   "title_zh": "亚马逊再向 Anthropic 投资最多 250 亿美元"
+  },
+  {
+   "date": "2026-11-19T00:01:23+08:00",
+   "commit": "05217eca9018d71127f705e54afdae64fbfd245a",
+   "edge": "amd-anthropic-2026-07-equity",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "Up to $5.0B of Anthropic Class N common stock, which Anthropic can draw in increments as AMD GPU delivery and deployment milestones are met (first milestone expected in 2027); after the IPO priced at the 30-day average share price (Anthropic S-1)",
+     "to": "Up to $5.0B of Anthropic Class N common stock, which Anthropic can draw in increments as AMD GPU delivery and deployment milestones are met (first milestone expected in 2027); after the IPO priced at the 30-day average share price (Anthropic S-1). Nothing drawn yet, so no committed amount is counted"
+    },
+    "amount_usd": {
+     "from": 5000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 5000000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: each purchase depends on a delivery milestone and none has been reached. The broad view includes the $5B."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：每次认购都取决于交付里程碑，目前尚无里程碑达成。宽口径仍包含这 50 亿美元。"
+    }
+   },
+   "title_en": "AMD to invest up to $5B in Anthropic",
+   "title_zh": "AMD 向 Anthropic 投资最多 50 亿美元"
+  },
+  {
+   "date": "2026-11-19T00:01:23+08:00",
+   "commit": "05217eca9018d71127f705e54afdae64fbfd245a",
+   "edge": "anthropic-spacex-2026-05-colossus",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "Up to $120.5B through 2029 under the SpaceXAI arrangements per Anthropic's S-1, ~$3.1B a month once all capacity is delivered (expected Dec 2026); first disclosed at ~$1.25B a month in SpaceX's May S-1. Maximum contract value (as for Google's SpaceX deal): initial non-cancelable periods end Jan and Mar 2027, then either side can exit on 90 days' notice",
+     "to": "Up to $120.5B through 2029 under the SpaceXAI arrangements per Anthropic's S-1 (a maximum, not a commitment), ~$3.1B a month once all capacity is delivered (expected Dec 2026); first disclosed at ~$1.25B a month in SpaceX's May S-1. Initial non-cancelable periods end Jan and Mar 2027, then either side can exit on 90 days' notice; no source states the non-cancelable total, so no committed amount is counted (same rule as Google's SpaceX rental)"
+    },
+    "amount_usd": {
+     "from": 120500000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 120500000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: the $120.5B is a ceiling that either side can end on 90 days' notice after early 2027, and the filing gives no figure for the non-cancelable months. The broad view includes it."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：1205 亿美元是上限，2027 年初之后任一方可提前 90 天通知退出，而文件未给出不可撤销期内的金额。宽口径仍包含该数字。"
+    }
+   },
+   "title_en": "Anthropic rents SpaceX/xAI compute (up to $120.5B)",
+   "title_zh": "Anthropic 租用 SpaceX/xAI 算力（最高 1205 亿美元）"
+  },
+  {
+   "date": "2026-11-19T00:01:23+08:00",
+   "commit": "05217eca9018d71127f705e54afdae64fbfd245a",
+   "edge": "bank-lenders-crux-ai-2026-09-tpu-loan",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "~$22B being lined up by 10 banks, Goldman Sachs lead (with SMBC, Barclays, BNP Paribas, Bank of Nova Scotia; Bloomberg); separate $1B revolver not counted; not confirmed closed",
+     "to": "~$22B being lined up by 10 banks, Goldman Sachs lead (with SMBC, Barclays, BNP Paribas, Bank of Nova Scotia; Bloomberg); separate $1B revolver; not confirmed closed as of 18 Nov 2026, so no committed amount is counted"
+    },
+    "amount_usd": {
+     "from": 22000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 22000000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: reports describe the loan as being arranged and syndicated, and no party has confirmed that it closed. The broad view includes the $22B."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：报道称该贷款仍在安排和银团分销中，尚无任何一方确认已完成。宽口径仍包含这 220 亿美元。"
+    }
+   },
+   "title_en": "Goldman-led banks line up $22B chip loan for Blackstone-Google Crux AI",
+   "title_zh": "高盛牵头的银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款"
+  },
+  {
+   "date": "2026-11-19T00:01:23+08:00",
+   "commit": "05217eca9018d71127f705e54afdae64fbfd245a",
+   "edge": "broadcom-anthropic-2026-03-convertible-note-facility",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "Up to $42.0B of 9% PIK convertible notes (13% and a deeper conversion discount if revenue conditions are missed), drawable for five years once the leased equipment is ready for service, solely to pay quarterly rent under the 2026 Broadcom equipment lease; undrawn at 30 June 2026 (Anthropic S-1). The rent itself is counted on anthropic-broadcom-2026-10-equipment-leases",
+     "to": "Up to $42.0B of 9% PIK convertible notes (13% and a deeper conversion discount if revenue conditions are missed), drawable for five years once the leased equipment is ready for service, solely to pay quarterly rent under the 2026 Broadcom equipment lease; draws depend on revenue-growth and liquidity conditions and none had been made at 30 June 2026 (Anthropic S-1), so no committed amount is counted. The rent itself is counted on anthropic-broadcom-2026-10-equipment-leases"
+    },
+    "amount_usd": {
+     "from": 42000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 42000000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: the facility is undrawn and each draw depends on conditions Anthropic must meet. The broad view includes the $42B."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：该额度尚未提取，每次提取都取决于 Anthropic 须满足的条件。宽口径仍包含这 420 亿美元。"
+    }
+   },
+   "title_en": "Broadcom $42B convertible note facility for Anthropic's rack rent",
+   "title_zh": "博通为 Anthropic 机架租金提供 420 亿美元可转债融资额度"
+  },
+  {
+   "date": "2026-11-19T00:01:23+08:00",
+   "commit": "05217eca9018d71127f705e54afdae64fbfd245a",
+   "edge": "jpmorgan-softbank-2026-03-bridge-loan",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "$40B unsecured bridge; lenders JPMorgan, Goldman Sachs, Mizuho, SMBC, MUFG; due 2027-03-25 but retired early in September 2026 ($30B drawn)",
+     "to": "$30B drawn under a $40B unsecured bridge facility; lenders JPMorgan, Goldman Sachs, Mizuho, SMBC, MUFG; due 2027-03-25 but retired early: the outstanding $25.9B was prepaid on 2026-09-15 and the undrawn $10B cancelled on 2026-09-30, so the $30B drawn is counted"
+    },
+    "amount_usd": {
+     "from": 40000000000,
+     "to": 30000000000
+    },
+    "last_checked": {
+     "from": "2026-11-10",
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Counted at the $30B SoftBank drew, not the $40B facility size, since 18 Nov 2026: the undrawn $10B was cancelled on 30 September 2026."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起按软银实际提取的 300 亿美元计入，而非 400 亿美元的额度：未提取的 100 亿美元已于 2026 年 9 月 30 日取消。"
+    }
+   },
+   "title_en": "SoftBank $40B bridge loan for its $30B OpenAI follow-on",
+   "title_zh": "软银 400 亿美元过桥贷款用于追加投资 OpenAI 300 亿美元"
+  },
   {
    "date": "2026-11-18T10:47:40Z",
    "commit": "f5fe44ad65e4a78fe2ff3ac10c81b9995b6e07ba",

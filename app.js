@@ -141,7 +141,7 @@
     lastNewCount: 0,
     filters: defaultFilters(),
     view: "graph",
-    scope: "all",
+    scope: 50,            /* the 50 largest companies first (20 on phones); "All" is one click away */
     rankBy: "total",
     sel: null,
     hover: null,
@@ -412,10 +412,17 @@
       readHash();
       var gw = $("graph-view").clientWidth;
       if (gw && gw < 600) state.scope = 20;
+      /* a link to one company or deal may point outside the top 50: show everything, so it is on the map */
+      else if (state.sel) state.scope = "all";
       renderScopeButtons();
     }
     buildFilterControls();
     renderAll(first);
+    /* a link to a company or deal (#n-openai, the dashboard's "see it on the map") opens on the map and its
+       panel, not on the totals above them */
+    if (first && state.sel && $("workspace").getBoundingClientRect().top > window.innerHeight * 0.4) {
+      try { $("workspace").scrollIntoView({ block: "start" }); } catch (e) { /* older browsers */ }
+    }
   }
 
   /* ---------- filtering ---------- */
@@ -435,7 +442,10 @@
     if (f.q) {
       var hay = [e.title_en, e.title_zh, e.subkind, e.subkind_zh, e.id, a.name, a.name_zh, a.ticker, a.id, b.name, b.name_zh, b.ticker, b.id]
         .join(" ").toLowerCase();
-      if (hay.indexOf(f.q) < 0) return false;
+      /* every word must appear ("coreweave bond"); a name typed with a space ("open ai") also matches */
+      var squashed = hay.replace(/\s+/g, "");
+      if (hay.indexOf(f.q) < 0 && squashed.indexOf(f.q.replace(/\s+/g, "")) < 0 &&
+          !f.q.split(/\s+/).every(function (w) { return !w || hay.indexOf(w) >= 0; })) return false;
     }
     return true;
   }
@@ -975,6 +985,17 @@
     ["pointerdown", "wheel"].forEach(function (type) {
       gv.addEventListener(type, function () { state.lastInteract = Date.now(); }, { passive: true });
     });
+    /* a plain wheel over the graph scrolls the page: say once per pause how to zoom instead */
+    var wShown = 0;
+    gv.addEventListener("wheel", function (ev) {
+      if (ev.ctrlKey || ev.metaKey || Date.now() - wShown < 6000) return;
+      wShown = Date.now();
+      var g = $("graph-gesture");
+      g.textContent = t("graph_wheel_zoom");
+      g.hidden = false;
+      clearTimeout(gTimer);
+      gTimer = setTimeout(function () { g.hidden = true; g.textContent = t("graph_two_finger"); }, 1800);
+    }, { passive: true });
   }
 
   function setLang(l) {
@@ -1071,6 +1092,8 @@
       if (!(inPanel && state.opener && state.opener.isConnected)) state.opener = ae;
     }
     state.sel = sel;
+    /* a new selection starts at the top of its panel (the phone sheet kept the last panel's scroll position) */
+    if (sel && !(prev && prev.type === sel.type && prev.id === sel.id)) $("panel").scrollTop = 0;
     var hash = sel ? ({ node: "n-", edge: "e-", bundle: "b-", loop: "l-" }[sel.type]) + sel.id : "";
     try {
       history.replaceState(null, "", hash ? "#" + hash : location.pathname + location.search);
@@ -1401,7 +1424,10 @@
       /* one finger scrolls the page; two fingers move and zoom the map */
       .filter(function (ev) {
         if (ev.type === "touchstart") return ev.touches.length > 1;
-        return (!ev.ctrlKey || ev.type === "wheel") && !ev.button;
+        /* a plain wheel scrolls the page (it used to zoom the map and trap the scroll); Ctrl / ⌘ + wheel and a
+           trackpad pinch (which browsers report as Ctrl + wheel) zoom */
+        if (ev.type === "wheel") return ev.ctrlKey || ev.metaKey;
+        return !ev.ctrlKey && !ev.button;
       })
       .on("zoom", function (ev) {
         G.layer.attr("transform", ev.transform);
@@ -2379,7 +2405,9 @@
 
   function renderNodePanel(p, id) {
     var ent = state.ents.get(id);
-    var x = state.exposure.get(id) || { inflow: 0, outflow: 0, deals: 0, inDeals: 0, outDeals: 0, cancelled: 0, guarIn: 0, guarOut: 0, nGuarIn: 0, nGuarOut: 0 };
+    var x = state.exposure.get(id) || { inflow: 0, outflow: 0, deals: 0, inDeals: 0, outDeals: 0, cancelled: 0, guarIn: 0, guarOut: 0, nGuarIn: 0, nGuarOut: 0,
+      /* a company the current filters leave no deals for: the panel still opens, with empty sections */
+      total: 0, cp: new Map(), confirmed: 0, reported: 0, binding: 0, nonBinding: 0, undisclosed: 0, lastEdge: "", lastSource: "" };
     var meta = [ent.ticker, I.region(state.lang, ent.country)].filter(Boolean).join(" · ");
     p.appendChild(h("div", { class: "panel__head" }, [
       h("div", { class: "panel__head-main" }, [
@@ -2926,7 +2954,8 @@
     sec.hidden = false;
     var svg = d3.select("#tl-svg");
     var W = sec.clientWidth || 800, narrow = W < 600;
-    var M = { l: 4, r: narrow ? 52 : 64, t: 6, b: 18 }, H1 = narrow ? 54 : 64, H2 = narrow ? 30 : 36, gap = 8;
+    var zh = state.lang === "zh";   /* 中文 axis labels ("4000亿美元", "2023年1月") are wider */
+    var M = { l: zh ? 24 : 4, r: zh ? (narrow ? 84 : 92) : (narrow ? 52 : 64), t: 6, b: 18 }, H1 = narrow ? 54 : 64, H2 = narrow ? 30 : 36, gap = 8;
     var H = M.t + H1 + gap + H2 + M.b;
     svg.attr("viewBox", "0 0 " + W + " " + H).attr("width", W).attr("height", H);
     var changed = full || TL.w !== W || TL.n !== rows.length;

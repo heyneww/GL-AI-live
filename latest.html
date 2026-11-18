@@ -23,6 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="dashboard.css">
 <link rel="alternate" type="application/atom+xml" title="AI Orders &amp; Debt Map: changes" href="data/feed.xml">
 </head>
@@ -30,6 +31,12 @@
 <a class="skip" href="#workspace" data-i18n="skip_graph">Skip to graph</a>
 
 <header class="masthead">
+  <!-- the site's three pages as tabs (nav.css): the same row is on investors.html and, drawn by dashboard.js, on dashboard.html -->
+  <nav class="sitenav" data-i18n-aria="aria_sitenav" aria-label="Pages">
+    <a class="sitenav__tab" href="./" aria-current="page" data-i18n="nav_map">Deal Map</a>
+    <a class="sitenav__tab" href="dashboard.html" data-i18n="dashboard_link">Key Deals</a>
+    <a class="sitenav__tab" href="investors.html" data-i18n="investors_link">Investor Guide</a>
+  </nav>
   <div class="masthead__inner">
     <div class="brand">
       <p class="brand__kicker" data-i18n="kicker">Live data · AI capital flows</p>
@@ -148,8 +155,8 @@
       </div>
       <div class="seg seg--sm" id="graph-scope" role="group" data-i18n-aria="aria_scope" aria-label="Companies shown">
         <button type="button" class="seg__btn" data-scope="20" aria-pressed="false">Top 20</button>
-        <button type="button" class="seg__btn" data-scope="50" aria-pressed="false">Top 50</button>
-        <button type="button" class="seg__btn" data-scope="all" aria-pressed="true">All</button>
+        <button type="button" class="seg__btn" data-scope="50" aria-pressed="true">Top 50</button>
+        <button type="button" class="seg__btn" data-scope="all" aria-pressed="false">All</button>
       </div>
       <span class="viz__count" id="viz-count"></span>
       <div class="viz__tools" id="graph-tools">
@@ -247,10 +254,6 @@
   <p class="footer__disc" id="disc-zh" lang="zh-CN">本站内容仅供参考，只作描述、不作评价，不构成任何投资建议。金额为公司公告或具名媒体披露的名义美元金额，每笔交易均附来源链接。</p>
   <p class="footer__links">
     <button type="button" class="linkbtn" id="about-open" data-i18n="about_link">About &amp; methodology</button>
-    <span class="footer__sep" aria-hidden="true">·</span>
-    <a href="dashboard.html" data-i18n="dashboard_link">Dashboard</a>
-    <span class="footer__sep" aria-hidden="true">·</span>
-    <a href="investors.html" data-i18n="investors_link">For investors</a>
     <span class="footer__sep" aria-hidden="true">·</span>
     <span class="footer__api"><span data-i18n="footer_api">Data &amp; API</span>:
       <a href="data/graph.json" data-i18n="api_graph">graph.json</a>,
