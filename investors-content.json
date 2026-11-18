@@ -2,28 +2,12 @@
   "version": 1,
   "notes": {
     "about": "All reader-facing text of site/investors.html. Every text value is {en, zh}. Text may contain placeholders {name}; investors.js fills them from the live graph (see placeholders) and formats numbers per language ($ / 亿美元 / 万亿美元, %). Figures that are not placeholders are labelled with their date in the sentence (10 Nov 2026 analysis) and do not update.",
-    "placeholders": {
-      "asof": "deal data date: graph generated_at, formatted per language (also used in the footer citation)",
-      "total_usd": "counted total of curated edges",
-      "guarantees_usd": "face amount of live guarantees (stats.contingent_usd)",
-      "labs_orders_share": "OpenAI + Anthropic share of counted orders + leases (by from), as a percent",
-      "labs_orders_usd": "OpenAI + Anthropic counted orders + leases, USD",
-      "n_big": "companies (pooled ids excluded) with >= $5B counted inflow, integer",
-      "n_big_one_source": "of n_big, how many get > 50% of counted inflow from one named, non-pooled source, integer",
-      "cloud_invest_in_labs_usd": "counted investments from microsoft/amazon/alphabet into openai/anthropic",
-      "labs_orders_to_clouds_usd": "counted orders + leases from openai/anthropic to microsoft/amazon/alphabet",
-      "oracle_openai_orders_usd": "Oracle's counted orders from OpenAI",
-      "oracle_openai_years": "oracle_openai_orders_usd / Oracle TTM revenue (reference), one decimal, number only"
-    },
+    "placeholders": {"asof": "deal data date: graph generated_at, formatted per language (also used in the footer citation)", "total_usd": "counted total of curated edges", "guarantees_usd": "face amount of live guarantees (stats.contingent_usd)", "labs_orders_share": "OpenAI + Anthropic share of counted orders + leases (by from), as a percent", "labs_orders_usd": "OpenAI + Anthropic counted orders + leases, USD", "n_big": "companies (pooled ids excluded) with >= $5B counted inflow, integer", "n_big_one_source": "of n_big, how many get > 50% of counted inflow from one named, non-pooled source, integer", "cloud_invest_in_labs_usd": "counted investments from microsoft/amazon/alphabet into openai/anthropic", "labs_orders_to_clouds_usd": "counted orders + leases from openai/anthropic to microsoft/amazon/alphabet", "oracle_openai_orders_usd": "Oracle's counted orders from OpenAI", "oracle_openai_years": "oracle_openai_orders_usd / Oracle TTM revenue (reference), one decimal, number only"},
     "not_used": "guar_labs_share is not used: the obligor of a guarantee is only named in the summary text (to = the protected lender or lessor), so it cannot be derived robustly from fields. The 10 Nov 2026 figure (96.6%) is quoted with its date instead.",
-    "example_placeholders": {
-      "ex_labs50": "for that example: share of the example's money in companies that pass the labs_majority test (OpenAI + Anthropic > 50% of counted inflow), as a percent; used by examples without a Nasdaq-100 holding",
-      "ex_labs50_lo": "same, with every Nasdaq-100 holding of the example set to NDX-LOW-EST (the low estimate)",
-      "ex_labs50_hi": "same, with every Nasdaq-100 holding of the example set to NDX-HIGH-EST (the high estimate)"
-    },
-    "ui_params": "Some ui strings take parameters filled by the page, not by the live metrics: {date} (reference data date, formatted per language), {n}, {lo}, {hi}, {pct}, {label}, {oa}, {an}, {name}, {amount}, {years}.",
+    "example_placeholders": {"ex_label": "the example's overall exposure word (Limited / Notable / Concentrated), in the page language", "ex_high": "share of the example's money in High-exposure companies", "ex_elev": "share in Elevated-exposure companies", "ex_off": "share not on the map (off the map, not in our data, funds we cannot look through)", "ex_nodata": "share in companies on the map without sales or market value", "ex_names": "names of the High-exposure companies the example holds, largest first (max 4), or 'none'"},
     "example_weights": "examples[].holdings[].weight is a percent of the portfolio (adds up to 100). Fund ids are those of investors-reference.json: NDX-HIGH-EST, NDX-LOW-EST, AI-BASKET-EST (its aliases NDX-22-EST and NDX-EQUAL-EST also resolve); anything else is a ticker.",
-    "tool_funds": "tool.funds gives the display name and note of each fund estimate, keyed by fund id; QQQ is the Nasdaq-100 range (low = NDX-LOW-EST, high = NDX-HIGH-EST); SPY and SOXX are funds we cannot look through (band fund_not_covered)."
+    "tool_funds": "tool.funds gives the display name and note of each fund id; name_one / note_one are used when the Nasdaq-100 estimate covers every member (no low / high range). tool.dims gives each exposure measure's name, what it measures, its reference line (anchor) and source links; the numbers come from InvestorsExposure.THRESHOLDS. A fund estimate with method top_holdings shows ui.fundTop ({n} holdings, {date}, {pct} of the fund covered) and a link to its source_url; its unlisted rest (ticker <FUND>:REST) counts as other.",
+    "placeholders_page": "ui strings take page parameters filled by investors.js: {date}, {n}, {pct}, {lo}, {hi}, {label}, {name}, {names}, {high}, {elev}, {both}. Example texts take ex_label, ex_high, ex_elev, ex_off, ex_nodata, ex_names, each also with _lo / _hi (low / high Nasdaq-100 estimate; equal to the plain value when there is no range)."
   },
   "ui": {
     "title": {"en": "AI Deal Map for Investors", "zh": "AI 交易关系图 · 投资者指南"},
@@ -31,311 +15,285 @@
     "eyebrow": {"en": "Plain-language guide · figures from the live map", "zh": "通俗指南 · 数字来自实时关系图"},
     "asofDeals": {"en": "Deal data as of {asof}", "zh": "交易数据截至 {asof}"},
     "asofRef": {"en": "Company sizes and sales as of {date}", "zh": "公司规模与营收数据截至 {date}"},
-    "asofNote": {"en": "Figures on this page are worked out from the live map each time you open it. A few figures from our analysis of 10 Nov 2026 are marked with that date and do not update.",
-                 "zh": "本页的数字在每次打开时根据实时关系图计算。少数来自 2026 年 11 月 10 日分析的数字会标明日期，不会自动更新。"},
+    "asofNote": {"en": "Figures on this page are worked out from the live map each time you open it. A few figures from our analysis of 10 Nov 2026 are marked with that date and do not update.", "zh": "本页的数字在每次打开时根据实时关系图计算。少数来自 2026 年 11 月 10 日分析的数字会标明日期，不会自动更新。"},
     "loading": {"en": "Loading the deal data…", "zh": "正在加载交易数据…"},
     "loadError": {"en": "Could not load the deal data. Check your connection and reload the page in a minute.", "zh": "无法加载交易数据。请检查网络连接，稍后刷新页面。"},
     "refError": {"en": "Could not load the company reference data, so the portfolio check is not available right now. The rest of the guide still works.", "zh": "无法加载公司参考数据，组合检查暂时无法使用；指南的其他部分仍可阅读。"},
     "retry": {"en": "Try again", "zh": "重试"},
-    "warnH": {"en": "General information, not investment advice.", "zh": "仅为一般信息，不构成投资建议。"},
-    "warnP": {"en": "Nothing here tells you to buy, sell or hold anything. It explains what public deal data shows and how you could check your own holdings against it. Your situation is your own: if you are unsure, talk to a licensed financial adviser.",
-              "zh": "本页不建议你买入、卖出或持有任何东西，只说明公开交易数据显示了什么，以及你可以如何用它对照自己的持仓。每个人的情况不同；如有疑问，请咨询持牌理财顾问。"},
     "nav_map": {"en": "← Back to the map", "zh": "← 返回关系图"},
-    "nav_big": {"en": "The big picture", "zh": "整体情况"},
-    "nav_do": {"en": "What you could do", "zh": "你可以做什么"},
-    "nav_check": {"en": "Check your portfolio", "zh": "检查你的组合"},
-    "nav_faq": {"en": "Questions", "zh": "常见问题"},
     "bigH": {"en": "The big picture in two minutes", "zh": "两分钟看懂整体情况"},
     "notH": {"en": "What this is not", "zh": "这份指南不是什么"},
     "doH": {"en": "What you could do after reading", "zh": "读完之后你可以做什么"},
-    "doP": {"en": "This part answers a simple question: what could an ordinary investor do next? The steps below are general education, not advice about your own money. They help you understand what you own, check it against the map and ask better questions. None of them says to buy, sell or keep any stock or fund, and nothing here predicts prices.",
-            "zh": "读完关系图，接下来普通投资者可以做些什么？本部分给出一般性的学习步骤，而不是针对你个人资金的建议。这些步骤帮助你弄清自己持有什么、对照关系图核实，并提出更好的问题。它们都不建议买入、卖出或继续持有任何股票或基金，也不预测股价。"},
+    "doP": {"en": "This part answers a simple question: what could an ordinary investor do next? The steps below are general education, not advice about your own money. They help you understand what you own, check it against the map and ask better questions. None of them says to buy, sell or keep any stock or fund, and nothing here predicts prices.", "zh": "读完关系图，接下来普通投资者可以做些什么？本部分给出一般性的学习步骤，而不是针对你个人资金的建议。这些步骤帮助你弄清自己持有什么、对照关系图核实，并提出更好的问题。它们都不建议买入、卖出或继续持有任何股票或基金，也不预测股价。"},
     "watchH": {"en": "Signs worth watching over time", "zh": "值得长期留意的信号"},
     "avoidH": {"en": "Common misreadings", "zh": "常见误读"},
     "qH": {"en": "Questions to ask yourself, your fund provider or an adviser", "zh": "可以问自己、基金公司或顾问的问题"},
-    "checkH": {"en": "Check your own portfolio", "zh": "检查你自己的组合"},
-    "checkP": {"en": "Type in what you hold and roughly what share of your money each one is. Enter single stocks by ticker (for example NVDA, ORCL). For a Nasdaq-100 fund, type QQQ (or pick NDX-HIGH-EST or NDX-LOW-EST): the check then shows a range between our low and high estimates, because a real fund probably sits in between. For any other fund, enter its largest holdings yourself, plus one line called 'Other' for the rest, which the check counts as not on the map. Everything stays in your browser; nothing is sent anywhere. The result shows how much of your money sits in companies whose mapped deal money comes mostly from a few AI buyers. It describes; it does not judge. Use it to find questions to ask.",
-               "zh": "输入你持有的股票或基金，以及大约各占你资金的比例。单只股票输入代码（如 NVDA、ORCL）。如果是纳斯达克 100 基金，输入 QQQ（或选择 NDX-HIGH-EST、NDX-LOW-EST）即可：检查结果会显示我们低位与高位估算之间的区间，因为真实基金很可能介于两者之间。其他基金可以自己输入它最大的几项持仓，再加一行“Other（其他）”填上剩下的比例，工具会把这一行按“不在图上”处理。所有内容只保存在你的浏览器里，不会发送到任何地方。结果显示你的资金中有多少落在“图上交易资金主要来自少数几家 AI 买家”的公司。它只描述，不评判，用来帮你找出值得问的问题。"},
-    "presetL": {"en": "Start from an example:", "zh": "从示例开始："},
-    "fundsL": {"en": "Fund estimates you can enter:", "zh": "可以输入的基金估算："},
-    "addRow": {"en": "Add a holding", "zh": "添加一项持仓"},
-    "clearRows": {"en": "Start again", "zh": "重新开始"},
-    "tickerPh": {"en": "Ticker or fund, e.g. NVDA", "zh": "代码或基金，如 NVDA"},
-    "weightPh": {"en": "Share of your portfolio, %", "zh": "占组合比例（%）"},
+    "checkH": {"en": "Check your portfolio", "zh": "检查你的组合"},
+    "addRow": {"en": "+ Add holding", "zh": "+ 添加持仓"},
+    "clearRows": {"en": "Clear all", "zh": "全部清空"},
+    "tickerPh": {"en": "e.g. NVDA, Oracle, QQQ", "zh": "如 NVDA、甲骨文、QQQ"},
     "remove": {"en": "Remove this holding", "zh": "删除此项"},
-    "unknown": {"en": "Not in our data: counted as 'not on the map'", "zh": "不在我们的数据中，按“不在图上”处理"},
-    "fundRange": {"en": "Nasdaq-100 fund: shown as a range between our low and high estimates", "zh": "纳斯达克 100 基金：按我们低位与高位估算之间的区间显示"},
-    "fundNotCovered": {"en": "Fund we cannot look through: counted as 'not on the map'. Enter its largest holdings instead.", "zh": "无法穿透的基金，按“不在图上”处理；可改为输入它最大的几项持仓。"},
-    "weightSum": {"en": "Your entries add up to {n}. Results are shown as a share of what you entered.", "zh": "你输入的比例合计为 {n}，结果按你输入的总额计算占比。"},
-    "emptyTool": {"en": "Add at least one holding with a percentage to see the result.", "zh": "请至少添加一项持仓并填写比例，即可看到结果。"},
-    "k_labs50": {"en": "of your money is in companies that get more than half of their mapped deal money from OpenAI and Anthropic together",
-                 "zh": "的资金落在“图上交易资金一半以上合计来自 OpenAI 和 Anthropic”的公司"},
-    "k_one50": {"en": "is in companies where a single company (a buyer, investor or lender) provides more than half of their mapped deal money",
-                "zh": "落在“单独一家公司（买家、投资方或贷款方）提供其图上交易资金一半以上”的公司"},
-    "k_on": {"en": "is in companies that appear on the map with deal money coming in", "zh": "落在图上有资金流入的公司"},
-    "k_wlabs": {"en": "on average (weighted by your amounts), the share of mapped deal money that comes from OpenAI and Anthropic",
-                "zh": "按你的持仓比例加权平均，图上交易资金来自 OpenAI 和 Anthropic 的比例"},
-    "k_big": {"en": "is in companies whose mapped orders and leases add up to at least a year of their sales",
-              "zh": "落在“图上订单和租约合计至少相当于一年营收”的公司"},
-    "rangeH": {"en": "A range, because fund contents are estimated.", "zh": "这是一个区间，因为基金成分是估算的。"},
-    "rangeP": {"en": "With the low fund estimate (every Nasdaq-100 member counted equally) the first figure is {lo}; with the high estimate (only the AI-related members we can value, weighted by size) it is {hi}. A real Nasdaq-100 fund probably sits somewhere in between. The figures describe announced deals, not whether this is good or bad for you.",
-               "zh": "按低位估算（纳斯达克 100 每家成分公司权重相同），第一个数字是 {lo}；按高位估算（只计我们能估值的 AI 相关成分公司，按规模加权），是 {hi}。实际的纳斯达克 100 基金大概介于两者之间。这些数字描述的是已公布的交易，不代表这对你是好是坏。"},
-    "bandSentence": {"en": "In plain words: {pct} is {label} of the money you entered.", "zh": "简单地说：{pct} 是你所输入资金中的{label}。"},
-    "k_split": {"en": "On their own: {oa} of your money is in companies that get more than half from OpenAI alone, {an} from Anthropic alone.",
-                "zh": "分开看：{oa} 的资金落在一半以上单独来自 OpenAI 的公司，{an} 落在一半以上单独来自 Anthropic 的公司。"},
-    "k_unknown": {"en": "{n} of what you entered is not in our data and is treated as not on the map.", "zh": "你输入的内容中有 {n} 不在我们的数据中，按不在图上处理。"},
-    "c_holding": {"en": "Company", "zh": "公司"},
-    "c_weight": {"en": "Your share", "zh": "占比"},
-    "c_inflow": {"en": "Mapped money coming in", "zh": "图上资金流入"},
-    "c_openai": {"en": "From OpenAI", "zh": "来自 OpenAI"},
-    "c_anthropic": {"en": "From Anthropic", "zh": "来自 Anthropic"},
-    "c_labs": {"en": "From OpenAI + Anthropic", "zh": "来自 OpenAI + Anthropic"},
-    "c_top": {"en": "Largest single source", "zh": "最大单一来源"},
-    "c_top_named": {"en": "Largest single company", "zh": "最大的单一公司"},
-    "c_sales": {"en": "Mapped orders and leases ÷ yearly sales", "zh": "图上订单和租约 ÷ 年营收"},
-    "c_guar": {"en": "Guarantees given", "zh": "提供的担保"},
-    "c_note": {"en": "Plain note", "zh": "说明"},
-    "noDeals": {"en": "no mapped deal money coming in", "zh": "图上无资金流入"},
-    "noSales": {"en": "no sales figure", "zh": "无营收数据"},
+    "unknown": {"en": "Not in our data: counted as not on the map.", "zh": "不在我们的数据中，按“不在图上”处理。"},
+    "fundRange": {"en": "estimated range", "zh": "按估算区间显示"},
+    "fundNotCovered": {"en": "Fund we cannot look through: counted as not on the map. Enter its largest holdings instead.", "zh": "无法穿透的基金，按“不在图上”处理；可改为输入它最大的几项持仓。"},
+    "weightSum": {"en": "Total entered: {n}. Each line shows its share of the total.", "zh": "输入合计：{n}。每行显示它占合计的比例。"},
+    "emptyTool": {"en": "Add at least one holding with an amount to see the result.", "zh": "请至少添加一项持仓并填写金额，即可看到结果。"},
     "moreRows": {"en": "{n} smaller holdings not shown.", "zh": "另有 {n} 项较小持仓未显示。"},
-    "yearsOfSales": {"en": "about {years} years of sales", "zh": "约 {years} 年营收"},
-    "salesUnderTenth": {"en": "less than a tenth of a year of sales", "zh": "不到一年营收的十分之一"},
-    "tableHigh": {"en": "The table lists the holdings as the high estimate counts them (only the AI-related members we can value, weighted by size). The low estimate spreads the fund over every member, so each weight would be smaller.", "zh": "表格按高位估算列出持仓（只计我们能估值的 AI 相关成分公司，按规模加权）。低位估算把基金平均分给每家成分公司，因此每项权重会更小。"},
-    "note_labs": {"en": "More than half of its mapped money comes from OpenAI and Anthropic together.", "zh": "它在图上的资金一半以上合计来自 OpenAI 和 Anthropic。"},
-    "note_one": {"en": "{name} provides more than half of its mapped money.", "zh": "{name} 提供了它在图上资金的一半以上。"},
-    "note_pooled": {"en": "Its largest source is a group of many lenders or investors ({name}), not one company.", "zh": "它最大的来源是由许多出资方组成的群体（{name}），而不是一家公司。"},
-    "note_big": {"en": "Its mapped orders and leases equal about {years} years of its sales; contracts usually run for several years.", "zh": "它在图上的订单和租约约相当于 {years} 年营收；合同通常分多年履行。"},
-    "note_guar": {"en": "It has also guaranteed {amount} of other companies' payments, which the totals leave out.", "zh": "它还为其他公司的付款提供了 {amount} 的担保，这部分不计入总额。"},
-    "note_noinflow": {"en": "No counted money comes in to it on the map. That does not mean it has no link to AI spending.", "zh": "图上没有计入金额的资金流入它，但这不代表它与 AI 投资无关。"},
-    "note_notmap": {"en": "Not on the map: it may be outside the map's scope.", "zh": "不在图上：它可能不在关系图的收录范围内。"},
-    "note_nosales": {"en": "Our reference data has no yearly sales figure for it.", "zh": "我们的参考数据中没有它的年营收。"},
-    "toolDisclaimer": {"en": "These figures describe announced deals on the map, not a company's whole business, and not whether a share is a good or bad investment. Fund contents are our estimates, not the funds' real holdings. The Nasdaq-100 high estimate holds only the AI-related members we can value and reads much higher than a real Nasdaq-100 fund would; the low estimate (equal weight) reads lower. QQQ is shown as that range. Other fund tickers such as SPY or SOXX cannot be looked through, so they count as not on the map; enter their largest holdings instead.",
-                       "zh": "这些数字描述的是图上已公布的交易，不是公司的全部业务，也不代表某只股票是好是坏的投资。基金成分是我们的估算，并非基金的实际持仓。纳斯达克 100 高位估算只含我们能估值的 AI 相关成分公司，结果会明显高于真实的纳斯达克 100 基金；低位估算（等权）则偏低。输入 QQQ 会按上述区间显示。SPY、SOXX 等其他基金无法穿透，按“不在图上”处理；可改为输入它们最大的几项持仓。"},
+    "tableHigh": {"en": "The holdings below are listed as the high Nasdaq-100 estimate counts them; the low estimate spreads the fund over every member, so each weight would be smaller.", "zh": "下面的持仓按纳斯达克 100 高位估算列出；低位估算把基金分给每家成分公司，因此每项权重会更小。"},
+    "toolDisclaimer": {"en": "These figures describe announced deals on the map, measured against each company's own sales or market value; they do not cover a company's whole business or say whether a share is a good or bad investment. Fund contents are our estimates, not the funds' real holdings.", "zh": "这些数字描述的是图上已公布的交易，并与各公司自身的营收或市值比较；它们不涵盖公司的全部业务，也不说明某只股票是好是坏的投资。基金成分是我们的估算，并非基金的实际持仓。"},
     "exH": {"en": "Worked examples (hypothetical portfolios)", "zh": "示例（假设的投资组合）"},
-    "exP": {"en": "The results below are worked out from today's map, so they can differ from one visit to the next.", "zh": "下面的结果根据当天的关系图计算，每次打开时可能不同。"},
     "exNext": {"en": "What to check next:", "zh": "接下来可以查看："},
-    "tryEx": {"en": "Load this into the check", "zh": "载入到检查工具"},
-    "methodH": {"en": "How the check works and its limits", "zh": "检查方法与局限"},
+    "tryEx": {"en": "Load this example", "zh": "载入这个示例"},
+    "methodH": {"en": "How the exposure check works", "zh": "暴露检查的方法"},
     "limitsH": {"en": "Limits to keep in mind", "zh": "需要记住的局限"},
-    "bandsH": {"en": "The tests and the words we use", "zh": "检验项目与用词"},
-    "handH": {"en": "Prefer to do it by hand on the live map?", "zh": "想直接在线上关系图上手动检查？"},
+    "handH": {"en": "Check by hand on the live map", "zh": "在线上关系图上手动检查"},
     "mapH": {"en": "How to use the live map", "zh": "怎样使用线上关系图"},
     "faqH": {"en": "Common questions", "zh": "常见问题"},
     "glossH": {"en": "Words explained", "zh": "术语解释"},
-    "foot_sources": {"en": "Deal data: the AI Orders & Debt Map (this site), rebuilt about every 3 hours from SEC filings and news. Company sizes and sales: closing prices and SEC quarterly figures, dated above. A few figures come from our analysis of 10 Nov 2026 and are marked with that date.",
-                     "zh": "交易数据：AI 巨头订单与债务关系图（本站），根据 SEC 文件和新闻约每 3 小时重建一次。公司规模与营收：收盘价和 SEC 季度数据，日期见上方。少数数字来自 2026 年 11 月 10 日的分析，并已标明日期。"},
+    "foot_sources": {"en": "Deal data: the AI Orders & Debt Map (this site), rebuilt about every 3 hours from SEC filings and news. Company sizes and sales: closing prices and SEC quarterly figures, dated above. A few figures come from our analysis of 10 Nov 2026 and are marked with that date.", "zh": "交易数据：AI 巨头订单与债务关系图（本站），根据 SEC 文件和新闻约每 3 小时重建一次。公司规模与营收：收盘价和 SEC 季度数据，日期见上方。少数数字来自 2026 年 11 月 10 日的分析，并已标明日期。"},
     "foot_cite": {"en": "Cite as: AI Orders & Debt Map, heyneww, {asof}, https://heyneww.github.io/GL-AI-live/", "zh": "引用方式：AI Orders & Debt Map, heyneww, {asof}, https://heyneww.github.io/GL-AI-live/"},
     "foot_licence": {"en": "Data CC BY 4.0 · code MIT", "zh": "数据 CC BY 4.0 · 代码 MIT"},
     "foot_api": {"en": "Download the data: data/v1 (JSON, CSV, Excel, schema)", "zh": "下载数据：data/v1（JSON、CSV、Excel、schema）"},
-    "foot_map": {"en": "Open the live map", "zh": "打开实时关系图"}
+    "foot_map": {"en": "Open the live map", "zh": "打开实时关系图"},
+    "heroNote": {"en": "General information, not investment advice: the check describes what the map shows about the companies you hold. It does not judge them or tell you to buy, sell or hold anything.", "zh": "仅为一般信息，不构成投资建议：本检查只描述关系图对你所持公司显示了什么，不评判这些公司，也不建议你买入、卖出或持有任何东西。"},
+    "holdH": {"en": "Your holdings", "zh": "你的持仓"},
+    "modeL": {"en": "Enter as", "zh": "输入方式"},
+    "modeAmt": {"en": "Amount", "zh": "金额"},
+    "modePct": {"en": "% of total", "zh": "占比 %"},
+    "modeNoteAmt": {"en": "Any currency: only the proportions count. Nothing you type leaves your browser.", "zh": "任何币种都可以，只看比例。你输入的内容不会离开你的浏览器。"},
+    "modeNotePct": {"en": "Percentages of your whole portfolio. Nothing you type leaves your browser.", "zh": "按占整个组合的百分比填写。你输入的内容不会离开你的浏览器。"},
+    "tickerL": {"en": "Holding: ticker, company or fund", "zh": "持仓：代码、公司或基金"},
+    "amountPh": {"en": "Amount", "zh": "金额"},
+    "pctPh": {"en": "%", "zh": "%"},
+    "amountL": {"en": "Amount held", "zh": "持有金额"},
+    "pctL": {"en": "Share of your portfolio, %", "zh": "占组合比例（%）"},
+    "quickL": {"en": "Quick start (hypothetical):", "zh": "快速试用（假设组合）："},
+    "pasteBtn": {"en": "Paste a list", "zh": "粘贴清单"},
+    "pasteL": {"en": "One holding per line or separated by commas, for example NVDA 10000, QQQ 5000 or NVDA 40%. A broker's CSV export with a Symbol and a Value column works too. It is read in your browser only.", "zh": "每行一项或用逗号分隔，例如 NVDA 10000, QQQ 5000 或 NVDA 40%。券商导出的 CSV（含代码列和市值列）也可以。只在你的浏览器里读取。"},
+    "pasteApply": {"en": "Use this list", "zh": "使用这份清单"},
+    "pasteCancel": {"en": "Cancel", "zh": "取消"},
+    "pasteCount": {"en": "{n} lines read: ✓ found, ≈ fund (estimated), ? not in our data.", "zh": "已读取 {n} 行：✓ 已找到，≈ 基金（估算），? 不在我们的数据中。"},
+    "pasteNone": {"en": "Nothing read yet: type a ticker and an amount on each line.", "zh": "还没有读到内容：每行请输入代码和金额。"},
+    "shareBtn": {"en": "Copy link", "zh": "复制链接"},
+    "shareNote": {"en": "The link holds your holdings as rounded percentages only, never amounts. The part after # is never sent to any server.", "zh": "链接只包含四舍五入后的持仓百分比，不含金额；# 之后的部分不会发送到任何服务器。"},
+    "shareDone": {"en": "Link copied.", "zh": "链接已复制。"},
+    "shareCopy": {"en": "Copy this link:", "zh": "请复制此链接："},
+    "unknownHint": {"en": "If it is a fund, you can enter its largest holdings instead.", "zh": "如果是基金，可以改为输入它最大的几项持仓。"},
+    "didYouMean": {"en": "Did you mean {name}?", "zh": "你是不是要找 {name}？"},
+    "countOther": {"en": "Keep as other", "zh": "保留为“其他”"},
+    "fundEst": {"en": "fund, looked through (estimate)", "zh": "基金，已穿透（估算）"},
+    "tagOnMap": {"en": "on the map · {n} deals", "zh": "在图上 · {n} 笔交易"},
+    "tagOnMapNone": {"en": "on the map", "zh": "在图上"},
+    "tagNotMap": {"en": "not on the map", "zh": "不在图上"},
+    "tagFundEst": {"en": "fund · looked through (estimate)", "zh": "基金 · 已穿透（估算）"},
+    "tagFundNo": {"en": "fund · not looked through", "zh": "基金 · 无法穿透"},
+    "listboxL": {"en": "Matching tickers and companies", "zh": "匹配的代码和公司"},
+    "otherRow": {"en": "Other / cash, not on the map", "zh": "其他 / 现金，不在图上"},
+    "otherNote": {"en": "Your percentages add up to {pct}; the remaining {n} is counted as other, not on the map.", "zh": "你填写的比例合计为 {pct}，剩下的 {n} 按“其他、不在图上”计算。"},
+    "otherOff": {"en": "Scale up instead", "zh": "改为按比例放大"},
+    "otherOn": {"en": "Count the rest as other", "zh": "把剩余部分算作“其他”"},
+    "scaledUp": {"en": "Your percentages add up to {pct} and are scaled up to 100%.", "zh": "你填写的比例合计为 {pct}，已按比例放大到 100%。"},
+    "scaledDown": {"en": "Your percentages add up to {pct} and are scaled down to 100%.", "zh": "你填写的比例合计为 {pct}，已按比例缩小到 100%。"},
+    "engineError": {"en": "The exposure check could not load. Reload the page in a minute; until then only the share of your money on the map is shown.", "zh": "暴露检查未能加载。请稍后刷新页面；在此之前只显示你的资金中有多少在图上。"},
+    "onMapLine": {"en": "{pct} of your money is in companies with money coming in on the map.", "zh": "你的资金中有 {pct} 落在图上有资金流入的公司。"},
+    "resultH": {"en": "Result", "zh": "结果"},
+    "badgeKicker": {"en": "AI-deal exposure", "zh": "AI 交易暴露"},
+    "badge": {"en": "{label} exposure", "zh": "暴露程度：{label}"},
+    "badgeRange": {"en": "{lo} to {hi} exposure", "zh": "暴露程度：{lo} 至 {hi}"},
+    "lab_limited": {"en": "Limited", "zh": "有限"},
+    "lab_notable": {"en": "Notable", "zh": "值得关注"},
+    "lab_concentrated": {"en": "Concentrated", "zh": "集中"},
+    "sentConc": {"en": "{high} of your money is in companies with High exposure: two or more High flags, or a High credit-market quote. Concentrated starts at 25%.", "zh": "你的资金中有 {high} 落在高暴露公司（有两项或以上为“高”，或信用市场一项为“高”）。“集中”从 25% 起。"},
+    "sentNotableHigh": {"en": "{high} of your money is in companies with High exposure: two or more High flags, or a High credit-market quote. Notable starts at 10%.", "zh": "你的资金中有 {high} 落在高暴露公司（有两项或以上为“高”，或信用市场一项为“高”）。“值得关注”从 10% 起。"},
+    "sentNotableBoth": {"en": "{both} of your money is in companies with High or Elevated exposure ({high} High). Notable starts at 40% in the two together.", "zh": "你的资金中有 {both} 落在高或较高暴露的公司（其中高暴露 {high}）。两者合计达到 40% 即为“值得关注”。"},
+    "sentLimited": {"en": "{high} of your money is in companies with High exposure and {elev} in companies with Elevated exposure: below the lines for Notable (10% High, or 40% the two together).", "zh": "你的资金中有 {high} 落在高暴露公司，{elev} 落在较高暴露公司，低于“值得关注”的分界线（高暴露 10%，或两者合计 40%）。"},
+    "rangeLine": {"en": "A Nasdaq-100 fund is shown with our low and high estimates, so the result is a range: {lo} with the low estimate, {hi} with the high one. A real fund probably sits in between. The figures below use the high estimate.", "zh": "纳斯达克 100 基金按我们的低位和高位估算显示，所以结果是一个区间：低位估算为“{lo}”，高位估算为“{hi}”。真实基金很可能介于两者之间。下面的数字按高位估算。"},
+    "howLink": {"en": "How the exposure check works", "zh": "暴露检查的方法"},
+    "resultNote": {"en": "Describes what the map shows; does not judge. Not investment advice.", "zh": "只描述关系图显示的内容，不作评判，不构成投资建议。"},
+    "sharesL": {"en": "Where your money sits", "zh": "你的资金分布"},
+    "sh_high": {"en": "High exposure", "zh": "高暴露"},
+    "sh_elevated": {"en": "Elevated exposure", "zh": "较高暴露"},
+    "sh_low": {"en": "Low exposure", "zh": "低暴露"},
+    "sh_no_data": {"en": "No data (no sales or market value)", "zh": "无数据（缺营收和市值）"},
+    "sh_lender": {"en": "Lenders (not rated)", "zh": "放贷方（不评级）"},
+    "sh_off_map": {"en": "Not on the map", "zh": "不在图上"},
+    "sh_unknown": {"en": "Other: not looked through or not in our data", "zh": "其他：未穿透或不在我们的数据中"},
+    "b_low": {"en": "Low", "zh": "低"},
+    "b_elevated": {"en": "Elevated", "zh": "较高"},
+    "b_high": {"en": "High", "zh": "高"},
+    "b_no_data": {"en": "No data", "zh": "无数据"},
+    "b_lender": {"en": "Lender", "zh": "放贷方"},
+    "b_off_map": {"en": "Not on the map", "zh": "不在图上"},
+    "b_unknown": {"en": "Not in our data", "zh": "不在数据中"},
+    "bandWord": {"en": "{label} exposure", "zh": "{label} 暴露"},
+    "dimsH": {"en": "Where the exposure comes from", "zh": "暴露来自哪里"},
+    "dimsP": {"en": "For each measure: the share of your money in companies that are High or Elevated on it.", "zh": "每一项：你的资金中落在该项为“高”或“较高”的公司的比例。"},
+    "dimVal": {"en": "{high} High · {elev} Elevated", "zh": "高 {high} · 较高 {elev}"},
+    "dimWhy": {"en": "What is measured", "zh": "衡量什么"},
+    "refLine": {"en": "Elevated from {lo}, High from {hi}", "zh": "{lo} 起为较高，{hi} 起为高"},
+    "refSource": {"en": "Reference line:", "zh": "参考线："},
+    "treeH": {"en": "Your holdings by exposure", "zh": "按暴露程度看你的持仓"},
+    "treeP": {"en": "Area = share of your money, after looking through funds. Select a tile for the details.", "zh": "面积 = 占你资金的比例（基金已穿透）。点击方块查看详情。"},
+    "smaller": {"en": "{n} smaller", "zh": "另 {n} 项较小"},
+    "depH": {"en": "Who your portfolio depends on", "zh": "你的组合依赖谁"},
+    "depP": {"en": "The buyers, investors and lenders behind the money flowing in to your holdings, as a share of your money (bond investors and bank groups are left out).", "zh": "你所持公司的资金流入背后的买方、投资方和放贷方，按占你资金的比例显示（债券投资者和银行贷款团不计）。"},
+    "depSentence": {"en": "Through your holdings, about {pct} of your money rests on {name} as a buyer, investor or lender.", "zh": "通过你的持仓，你的资金中约有 {pct} 依赖 {name} 作为买方、投资方或放贷方。"},
+    "depVia": {"en": "via {names}", "zh": "经由 {names}"},
+    "depNone": {"en": "None of your holdings has named sources of money on the map.", "zh": "你的持仓在图上都没有具名的资金来源。"},
+    "listH": {"en": "Holding by holding", "zh": "逐项持仓"},
+    "colHolding": {"en": "Holding", "zh": "持仓"},
+    "colShare": {"en": "Your share", "zh": "占比"},
+    "colExposure": {"en": "Exposure", "zh": "暴露程度"},
+    "colSource": {"en": "Largest source of mapped money", "zh": "图上资金最大来源"},
+    "st_no_data": {"en": "No sales or market value in our reference data, so the size-based measures cannot be worked out.", "zh": "我们的参考数据中没有它的营收或市值，因此无法计算与规模相关的各项。"},
+    "st_lender": {"en": "A lender or investor: the map records the money it lends or invests, not what it depends on, so it is not rated.", "zh": "这是放贷方或投资方：关系图记录的是它借出或投出的钱，而不是它依赖谁，所以不评级。"},
+    "st_off_map": {"en": "No counted money flows in to it on the map, so there is nothing to measure.", "zh": "图上没有计入金额的资金流入它，因此无从衡量。"},
+    "st_unknown": {"en": "Not in our data, or a fund we cannot look through: counted as not on the map.", "zh": "不在我们的数据中，或是无法穿透的基金，按“不在图上”处理。"},
+    "dimNoData": {"en": "no data", "zh": "无数据"},
+    "topCustomer": {"en": "largest customer: {name}", "zh": "最大客户：{name}"},
+    "dealsH": {"en": "Deals behind the High flags", "zh": "“高”背后的交易"},
+    "openMap": {"en": "Open {name} on the map", "zh": "在关系图上打开 {name}"},
+    "openDeal": {"en": "Open this deal on the map", "zh": "在关系图上打开这笔交易"},
+    "evidenceL": {"en": "Evidence:", "zh": "依据："},
+    "ev_confirmed": {"en": "mostly confirmed by company filings or releases", "zh": "大部分有公司文件或公告确认"},
+    "ev_mixed": {"en": "partly confirmed, partly reported in the news", "zh": "部分有确认，部分仅有媒体报道"},
+    "ev_reported": {"en": "mostly reported in the news, not confirmed by the companies", "zh": "大部分仅有媒体报道，未经公司确认"},
+    "nHigh": {"en": "{n} of 6 measures High", "zh": "6 项中有 {n} 项为高"},
+    "learnH": {"en": "Understand the result", "zh": "读懂结果"},
+    "thH": {"en": "The six measures and their reference lines", "zh": "六项衡量及其参考线"},
+    "th_dim": {"en": "Measure", "zh": "衡量项"},
+    "th_what": {"en": "What it compares", "zh": "比较什么"},
+    "th_elev": {"en": "Elevated from", "zh": "较高起点"},
+    "th_high": {"en": "High from", "zh": "高起点"},
+    "th_src": {"en": "Where the line comes from", "zh": "参考线来源"},
+    "rulesH": {"en": "From measures to a company, from companies to your portfolio", "zh": "从各项到公司，从公司到组合"},
+    "exIntro": {"en": "Results are worked out from today's map when you open the page, so they can differ from one visit to the next.", "zh": "结果在你打开页面时根据当天的关系图计算，每次可能不同。"},
+    "exResult": {"en": "Today's result:", "zh": "今天的结果："},
+    "none": {"en": "none", "zh": "无"},
+    "colValue": {"en": "Value", "zh": "数值"},
+    "colRef": {"en": "Reference line", "zh": "参考线"},
+    "fundTop": {"en": "top {n} holdings as of {date}, covering {pct} of the fund (estimate)", "zh": "截至 {date} 的前 {n} 大持仓，占基金的 {pct}（估算）"},
+    "fundSource": {"en": "source", "zh": "来源"},
+    "shareShort": {"en": "Share", "zh": "占比"},
+    "legendP": {"en": "Each company you hold is placed in one band, from what the live map records against its own sales and market value:", "zh": "你持有的每家公司会根据实时关系图上的记录、对照它自身的营收和市值，归入以下一档："}
   },
-  "headline": {
-    "en": "Follow the money in the AI deal boom back to who is due to pay it, and see what that can mean for the shares and funds you own",
-    "zh": "顺着 AI 交易热潮中的资金，看清最终由谁付款，以及这对你持有的股票和基金可能意味着什么"
-  },
-  "intro": {
-    "en": "The AI Orders & Debt Map records the big deals between AI companies: who buys computing power from whom, who invests in whom, who lends money and who promises to pay if someone else cannot. As of {asof} it counts about {total_usd} of announced deals with a disclosed amount, among AI labs, cloud companies, chip makers, data-centre owners and their lenders. Several of the largest companies in popular index funds, such as NVIDIA, Microsoft, Amazon, Alphabet and Meta, are on the map, often as each other's customers, investors and lenders. Knowing who depends on whom can help you understand what you already own and which questions to ask; it does not tell you what to buy or sell.",
-    "zh": "AI 巨头订单与债务关系图记录了 AI 公司之间的大额交易：谁向谁采购算力、谁投资了谁、谁借钱给谁，以及谁承诺在别人付不起时代为付款。截至 {asof}，图上共计入约 {total_usd} 已公布且披露金额的交易，涉及 AI 实验室、云计算公司、芯片厂商、数据中心业主及其放贷方。英伟达、微软、亚马逊、谷歌、Meta 等常见指数基金里的大公司都在图上，而且彼此之间往往既是客户，又是投资者和贷款方。弄清谁依赖谁，可以帮你看懂自己已经持有的东西、知道该问哪些问题；但它不会告诉你该买什么或卖什么。"
-  },
+  "headline": {"en": "How exposed is your portfolio to the AI deal boom?", "zh": "你的投资组合在 AI 交易热潮中的暴露有多大？"},
+  "intro": {"en": "The live map tracks {total_usd} of AI deals as of {asof}: who buys computing power from whom, who invests and who lends. Enter what you hold to see how much of your money sits in companies whose mapped deals are large next to their own size.", "zh": "截至 {asof}，实时关系图追踪了约 {total_usd} 的 AI 交易：谁向谁采购算力、谁投资、谁放贷。输入你的持仓，看看你的资金中有多少落在“图上交易相对自身规模很大”的公司。"},
   "takeaways": [
     {
       "title": {"en": "Two private companies sit at the paying end", "zh": "两家未上市公司处在付款的一端"},
-      "text": {
-        "en": "Two model labs (companies that build AI models), OpenAI and Anthropic, are due to pay {labs_orders_share} of the order and lease money on the map: about {labs_orders_usd}. Both are still private, so ordinary investors can see far less about them than about the listed companies that rely on their payments.",
-        "zh": "图上的采购和租赁资金中，有 {labs_orders_share}（约 {labs_orders_usd}）要由两家模型实验室（开发 AI 模型的公司）支付：OpenAI 和 Anthropic。两家都还没有上市，普通投资者能看到的关于它们的信息，远少于依赖它们付款的上市公司。"
-      }
+      "text": {"en": "Two model labs (companies that build AI models), OpenAI and Anthropic, are due to pay {labs_orders_share} of the order and lease money on the map: about {labs_orders_usd}. Both are still private, so ordinary investors can see far less about them than about the listed companies that rely on their payments.", "zh": "图上的采购和租赁资金中，有 {labs_orders_share}（约 {labs_orders_usd}）要由两家模型实验室（开发 AI 模型的公司）支付：OpenAI 和 Anthropic。两家都还没有上市，普通投资者能看到的关于它们的信息，远少于依赖它们付款的上市公司。"}
     },
     {
       "title": {"en": "How many companies lean on one main source of money", "zh": "有多少公司依赖一个主要资金来源"},
-      "text": {
-        "en": "Of the {n_big} companies that receive $5B or more on the map, {n_big_one_source} get more than half of it from one single company: a customer, a lender or an investor. Groups of many investors, such as bond investors, are not counted as one company. Oracle's counted orders from OpenAI, {oracle_openai_orders_usd}, equal about {oracle_openai_years} years of Oracle's yearly sales. They include a $300B cloud contract that, as of 10 Nov 2026, came from a press report neither company had confirmed.",
-        "zh": "图上收款 50 亿美元以上的 {n_big} 家公司中，有 {n_big_one_source} 家一半以上的资金来自同一家公司：客户、贷款方或投资者。债券投资者这类由许多出资方组成的群体，不算作一家公司。甲骨文在图上计入的来自 OpenAI 的订单为 {oracle_openai_orders_usd}，约相当于甲骨文 {oracle_openai_years} 年的营收。其中包括一份 3000 亿美元的云合同；截至 2026 年 11 月 10 日，这一数字只来自媒体报道，两家公司都没有确认。"
-      }
+      "text": {"en": "Of the {n_big} companies that receive $5B or more on the map, {n_big_one_source} get more than half of it from one single company: a customer, a lender or an investor. Groups of many investors, such as bond investors, are not counted as one company. Oracle's counted orders from OpenAI, {oracle_openai_orders_usd}, equal about {oracle_openai_years} years of Oracle's yearly sales. They include a $300B cloud contract that, as of 10 Nov 2026, came from a press report neither company had confirmed.", "zh": "图上收款 50 亿美元以上的 {n_big} 家公司中，有 {n_big_one_source} 家一半以上的资金来自同一家公司：客户、贷款方或投资者。债券投资者这类由许多出资方组成的群体，不算作一家公司。甲骨文在图上计入的来自 OpenAI 的订单为 {oracle_openai_orders_usd}，约相当于甲骨文 {oracle_openai_years} 年的营收。其中包括一份 3000 亿美元的云合同；截至 2026 年 11 月 10 日，这一数字只来自媒体报道，两家公司都没有确认。"}
     },
     {
       "title": {"en": "Some money goes round in circles", "zh": "部分资金在圈子里循环"},
-      "text": {
-        "en": "Microsoft, Amazon and Alphabet have invested {cloud_invest_in_labs_usd} in OpenAI and Anthropic, and the same two labs have ordered or leased {labs_orders_to_clouds_usd} of computing capacity from them. So part of these cloud companies' sales comes from customers they helped to fund.",
-        "zh": "微软、亚马逊和谷歌向 OpenAI 和 Anthropic 投资了 {cloud_invest_in_labs_usd}，而这两家实验室又向它们订购或租用了 {labs_orders_to_clouds_usd} 的算力。也就是说，这几家云公司的一部分销售额，来自它们自己出钱扶持的客户。"
-      }
+      "text": {"en": "Microsoft, Amazon and Alphabet have invested {cloud_invest_in_labs_usd} in OpenAI and Anthropic, and the same two labs have ordered or leased {labs_orders_to_clouds_usd} of computing capacity from them. So part of these cloud companies' sales comes from customers they helped to fund.", "zh": "微软、亚马逊和谷歌向 OpenAI 和 Anthropic 投资了 {cloud_invest_in_labs_usd}，而这两家实验室又向它们订购或租用了 {labs_orders_to_clouds_usd} 的算力。也就是说，这几家云公司的一部分销售额，来自它们自己出钱扶持的客户。"}
     },
     {
       "title": {"en": "Promises to pay stand behind the contracts", "zh": "合同背后还有代为付款的承诺"},
-      "text": {
-        "en": "Companies have promised to pay {guarantees_usd} of other firms' bills if those firms cannot (guarantees). These promises are kept out of the map's main total, so they are easy to miss. On 10 Nov 2026, 96.6% of them backed payments by OpenAI or Anthropic, mainly from NVIDIA (up to $105B) and Broadcom ($72B).",
-        "zh": "一些公司承诺，在别的公司付不起时代为支付共 {guarantees_usd} 的款项（担保）。这些承诺不计入关系图的主要总额，所以很容易被忽略。截至 2026 年 11 月 10 日，其中 96.6% 是为 OpenAI 或 Anthropic 的付款提供的，主要来自英伟达（最多 1050 亿美元）和博通（720 亿美元）。"
-      }
+      "text": {"en": "Companies have promised to pay {guarantees_usd} of other firms' bills if those firms cannot (guarantees). These promises are kept out of the map's main total, so they are easy to miss. On 10 Nov 2026, 96.6% of them backed payments by OpenAI or Anthropic, mainly from NVIDIA (up to $105B) and Broadcom ($72B).", "zh": "一些公司承诺，在别的公司付不起时代为支付共 {guarantees_usd} 的款项（担保）。这些承诺不计入关系图的主要总额，所以很容易被忽略。截至 2026 年 11 月 10 日，其中 96.6% 是为 OpenAI 或 Anthropic 的付款提供的，主要来自英伟达（最多 1050 亿美元）和博通（720 亿美元）。"}
     },
     {
       "title": {"en": "How tied a basket looks depends on how you count", "zh": "一篮子股票看起来有多依赖，取决于怎么算"},
-      "text": {
-        "en": "The same holdings can look heavily tied to OpenAI or barely tied. In our analysis of 10 Nov 2026, for an example basket of AI-infrastructure stocks weighted by company size (an illustration, not a real fund), the share tied mainly to OpenAI was 30.9% counting direct deals, 50.4% adding indirect links, and 1.6% if the deals had to equal at least a year of the company's sales. For a Nasdaq-100 fund, our two rough estimates give a wide range, and a real fund probably sits in between; Example A below works it out from today's map. So ask of any 'exposure' number: counted how, and over which companies?",
-        "zh": "同样的持仓，看起来可以很依赖 OpenAI，也可以几乎不依赖。在我们 2026 年 11 月 10 日的分析中，按公司规模加权的 AI 基础设施股票示例组合（只是示例，不是真实基金）里，主要依赖 OpenAI 的比重：只算直接交易是 30.9%，加上间接关系是 50.4%，如果要求交易至少相当于公司一年的营收才算，则是 1.6%。对纳斯达克 100 基金，我们的两个粗略估算给出的区间很宽，真实基金很可能介于两者之间；下面的示例 A 会按当天的关系图算出这个区间。所以看到任何“敞口”数字，都可以问：是怎么算的？算的是哪些公司？"
-      }
+      "text": {"en": "The same holdings can look heavily tied to OpenAI or barely tied. In our analysis of 10 Nov 2026, for an example basket of AI-infrastructure stocks weighted by company size (an illustration, not a real fund), the share tied mainly to OpenAI was 30.9% counting direct deals, 50.4% adding indirect links, and 1.6% if the deals had to equal at least a year of the company's sales. For a Nasdaq-100 fund, our two rough estimates give a wide range, and a real fund probably sits in between; Example A below works it out from today's map. So ask of any 'exposure' number: counted how, and over which companies?", "zh": "同样的持仓，看起来可以很依赖 OpenAI，也可以几乎不依赖。在我们 2026 年 11 月 10 日的分析中，按公司规模加权的 AI 基础设施股票示例组合（只是示例，不是真实基金）里，主要依赖 OpenAI 的比重：只算直接交易是 30.9%，加上间接关系是 50.4%，如果要求交易至少相当于公司一年的营收才算，则是 1.6%。对纳斯达克 100 基金，我们的两个粗略估算给出的区间很宽，真实基金很可能介于两者之间；下面的示例 A 会按当天的关系图算出这个区间。所以看到任何“敞口”数字，都可以问：是怎么算的？算的是哪些公司？"}
     }
   ],
   "what_it_is_not": [
-    {
-      "en": "Not a stock tip. The map describes deals; it does not say whether any share or fund is cheap, expensive, safe or risky, and it is not personal advice. For decisions about your own money, consider talking to a licensed financial adviser.",
-      "zh": "这不是荐股。关系图只描述交易，不判断任何股票或基金是便宜还是贵、安全还是有风险，也不是针对个人的建议。涉及你自己的资金决定，可以考虑咨询持牌的理财顾问。"
-    },
-    {
-      "en": "Big numbers are spread over many years. As recorded on 10 Nov 2026, for example, Oracle's $300B contract with OpenAI runs about five years from 2027, and TeraWulf's $19B lease with Anthropic runs about 20 years, roughly $0.95B a year. A contract total is not one year's sales, and some figures are ceilings ('up to') or press reports.",
-      "zh": "大数字往往分摊在很多年里。例如，按 2026 年 11 月 10 日的记录，甲骨文与 OpenAI 的 3000 亿美元合同从 2027 年起约执行五年；TeraWulf 与 Anthropic 的 190 亿美元租约约 20 年，每年约 9.5 亿美元。合同总额不等于一年的销售额，有些数字只是上限（“最多”）或媒体报道。"
-    },
-    {
-      "en": "It can be late or incomplete. In our check of 10 Nov 2026, half of recent deals reached the map within 2 days, but 133 older deals were only added later: half of them more than 174 days after they were announced. Some loans still count at full size even though only part was used or some was paid back. And 38 of the 55 AI-infrastructure stocks we checked had no customer deal with an amount on the map; 25 of them were not on the map at all.",
-      "zh": "它可能滞后，也可能不完整。在我们 2026 年 11 月 10 日的核对中，近期的交易有一半在 2 天内上图；但有 133 笔较早的交易是后来才补录的，其中一半是在公布 174 天以后。有些贷款即使只用了一部分或已经还了一部分，仍按全额计入。我们核对的 55 只 AI 基础设施股票中，有 38 只在图上没有带金额的客户交易，其中 25 只根本不在图上。"
-    },
-    {
-      "en": "Share prices did not react in a reliable way. In our analysis of 10 Nov 2026 we looked at 60 share-price moves after deals of $10B or more. Over three days, after allowing for the market as a whole, the average move was about zero (+0.04%). Months with more deals were not months when chip stocks did better. And companies linked by a deal did not move together more than similar companies without one.",
-      "zh": "股价并没有稳定的反应。在我们 2026 年 11 月 10 日的分析中，我们观察了 100 亿美元以上交易之后的 60 次股价变动：扣除大盘整体涨跌后，三天平均变动约为零（+0.04%）。交易多的月份，并不是芯片股表现更好的月份。有交易往来的公司，股价也没有比类似但没有往来的公司更同步。"
-    }
+    {"en": "Not a stock tip. The map describes deals; it does not say whether any share or fund is cheap, expensive, safe or risky, and it is not personal advice. For decisions about your own money, consider talking to a licensed financial adviser.", "zh": "这不是荐股。关系图只描述交易，不判断任何股票或基金是便宜还是贵、安全还是有风险，也不是针对个人的建议。涉及你自己的资金决定，可以考虑咨询持牌的理财顾问。"},
+    {"en": "Big numbers are spread over many years. As recorded on 10 Nov 2026, for example, Oracle's $300B contract with OpenAI runs about five years from 2027, and TeraWulf's $19B lease with Anthropic runs about 20 years, roughly $0.95B a year. A contract total is not one year's sales, and some figures are ceilings ('up to') or press reports.", "zh": "大数字往往分摊在很多年里。例如，按 2026 年 11 月 10 日的记录，甲骨文与 OpenAI 的 3000 亿美元合同从 2027 年起约执行五年；TeraWulf 与 Anthropic 的 190 亿美元租约约 20 年，每年约 9.5 亿美元。合同总额不等于一年的销售额，有些数字只是上限（“最多”）或媒体报道。"},
+    {"en": "It can be late or incomplete. In our check of 10 Nov 2026, half of recent deals reached the map within 2 days, but 133 older deals were only added later: half of them more than 174 days after they were announced. Some loans still count at full size even though only part was used or some was paid back. And 38 of the 55 AI-infrastructure stocks we checked had no customer deal with an amount on the map; 25 of them were not on the map at all.", "zh": "它可能滞后，也可能不完整。在我们 2026 年 11 月 10 日的核对中，近期的交易有一半在 2 天内上图；但有 133 笔较早的交易是后来才补录的，其中一半是在公布 174 天以后。有些贷款即使只用了一部分或已经还了一部分，仍按全额计入。我们核对的 55 只 AI 基础设施股票中，有 38 只在图上没有带金额的客户交易，其中 25 只根本不在图上。"},
+    {"en": "Share prices did not react in a reliable way. In our analysis of 10 Nov 2026 we looked at 60 share-price moves after deals of $10B or more. Over three days, after allowing for the market as a whole, the average move was about zero (+0.04%). Months with more deals were not months when chip stocks did better. And companies linked by a deal did not move together more than similar companies without one.", "zh": "股价并没有稳定的反应。在我们 2026 年 11 月 10 日的分析中，我们观察了 100 亿美元以上交易之后的 60 次股价变动：扣除大盘整体涨跌后，三天平均变动约为零（+0.04%）。交易多的月份，并不是芯片股表现更好的月份。有交易往来的公司，股价也没有比类似但没有往来的公司更同步。"}
   ],
   "steps": [
     {
       "title": {"en": "List what you own, including what is inside your funds", "zh": "列出你持有的全部资产，包括基金里的持仓"},
-      "text": {
-        "en": "Write down each stock and fund in your accounts and roughly how much of your total each one is. For each fund, open the fund provider's website or fact sheet and copy its top 10 holdings. Many people find they own the same companies several times: once directly and again through an index fund and a tech fund. For example, NVIDIA, Microsoft, Alphabet, Amazon, Meta and Broadcom are among the largest Nasdaq-100 members, and all of them are on the map.",
-        "zh": "写下账户里的每只股票和基金，以及每项大约占你总资产的多少。对每只基金，打开基金公司的网站或产品资料，抄下前十大持仓。很多人会发现自己多次持有同一家公司：自己直接买了一次，指数基金和科技基金里又各有一份。例如，英伟达、微软、谷歌、亚马逊、Meta 和博通都是纳斯达克 100 指数中规模最大的成分股之一，也都出现在关系图上。"
-      },
+      "text": {"en": "Write down each stock and fund in your accounts and roughly how much of your total each one is. For each fund, open the fund provider's website or fact sheet and copy its top 10 holdings. Many people find they own the same companies several times: once directly and again through an index fund and a tech fund. For example, NVIDIA, Microsoft, Alphabet, Amazon, Meta and Broadcom are among the largest Nasdaq-100 members, and all of them are on the map.", "zh": "写下账户里的每只股票和基金，以及每项大约占你总资产的多少。对每只基金，打开基金公司的网站或产品资料，抄下前十大持仓。很多人会发现自己多次持有同一家公司：自己直接买了一次，指数基金和科技基金里又各有一份。例如，英伟达、微软、谷歌、亚马逊、Meta 和博通都是纳斯达克 100 指数中规模最大的成分股之一，也都出现在关系图上。"},
       "time": {"en": "About 15 minutes", "zh": "约 15 分钟"}
     },
     {
       "title": {"en": "Look up your biggest holdings on the map", "zh": "在关系图上查一查你最大的几项持仓"},
-      "text": {
-        "en": "Open the live map, type a ticker or name into the search box (for example ORCL or 甲骨文) and click the company. Its panel shows money in, money out, the companies it deals with most (the panel calls them counterparties) and each deal with its sources. For each holding, write down three things: its biggest customer; what share of its mapped deals its top three counterparties make up; and whether it also lends, invests or gives guarantees. If a company is not on the map, note that too: it may simply be outside the map's scope (for example makers of chip equipment, optical parts and storage).",
-        "zh": "打开实时关系图，在搜索框输入股票代码或名称（例如 ORCL 或 甲骨文），点击这家公司。它的面板会显示资金流入、资金流出、与它往来最多的公司（面板上叫“对手方”），以及每笔交易和来源。为每项持仓记下三件事：最大的客户是谁；前三大对手方占它已披露交易的比例；它是否还对外放款、投资或提供担保。如果某家公司不在图上，也记下来：它可能只是不在关系图的收录范围内（例如芯片设备、光通信和存储厂商）。"
-      },
+      "text": {"en": "Open the live map, type a ticker or name into the search box (for example ORCL or 甲骨文) and click the company. Its panel shows money in, money out, the companies it deals with most (the panel calls them counterparties) and each deal with its sources. For each holding, write down three things: its biggest customer; what share of its mapped deals its top three counterparties make up; and whether it also lends, invests or gives guarantees. If a company is not on the map, note that too: it may simply be outside the map's scope (for example makers of chip equipment, optical parts and storage).", "zh": "打开实时关系图，在搜索框输入股票代码或名称（例如 ORCL 或 甲骨文），点击这家公司。它的面板会显示资金流入、资金流出、与它往来最多的公司（面板上叫“对手方”），以及每笔交易和来源。为每项持仓记下三件事：最大的客户是谁；前三大对手方占它已披露交易的比例；它是否还对外放款、投资或提供担保。如果某家公司不在图上，也记下来：它可能只是不在关系图的收录范围内（例如芯片设备、光通信和存储厂商）。"},
       "time": {"en": "About 5 minutes per company", "zh": "每家公司约 5 分钟"}
     },
     {
       "title": {"en": "Notice whether many of them depend on the same few payers", "zh": "留意它们是否依赖同几家付款方"},
-      "text": {
-        "en": "On the map, {n_big_one_source} of the {n_big} companies with at least $5B of mapped money coming in get more than half of it from one single company (a customer, a lender or an investor). Two private companies, OpenAI and Anthropic, are due to pay {labs_orders_share} of all the order and lease money on the map (about {labs_orders_usd}), and their full accounts are not public. The check further down shows, for each company you enter, how much of its mapped money comes from OpenAI and Anthropic and which company is its largest source. Look at your notes from step 2: if several of your holdings share the same top customer, that is worth understanding. It is not a verdict on any company, only a fact about where their mapped money comes from.",
-        "zh": "在关系图上，流入至少 50 亿美元的 {n_big} 家公司中，有 {n_big_one_source} 家一半以上的流入来自同一家公司（客户、贷款方或投资者）。OpenAI 和 Anthropic 这两家未上市公司，要支付图上 {labs_orders_share} 的订单和租赁资金（约 {labs_orders_usd}），而它们的完整财务数据并不公开。下面的检查工具会显示你输入的每家公司在图上的资金有多少来自 OpenAI 和 Anthropic，以及最大的来源是哪家公司。回看第 2 步的记录：如果你的几项持仓最大的客户是同一家，这一点值得弄清楚。这不是对任何公司的评判，只是说明它们在图上的资金从哪里来。"
-      },
+      "text": {"en": "On the map, {n_big_one_source} of the {n_big} companies with at least $5B of mapped money coming in get more than half of it from one single company (a customer, a lender or an investor). Two private companies, OpenAI and Anthropic, are due to pay {labs_orders_share} of all the order and lease money on the map (about {labs_orders_usd}), and their full accounts are not public. The check further down shows, for each company you enter, how much of its mapped money comes from OpenAI and Anthropic and which company is its largest source. Look at your notes from step 2: if several of your holdings share the same top customer, that is worth understanding. It is not a verdict on any company, only a fact about where their mapped money comes from.", "zh": "在关系图上，流入至少 50 亿美元的 {n_big} 家公司中，有 {n_big_one_source} 家一半以上的流入来自同一家公司（客户、贷款方或投资者）。OpenAI 和 Anthropic 这两家未上市公司，要支付图上 {labs_orders_share} 的订单和租赁资金（约 {labs_orders_usd}），而它们的完整财务数据并不公开。下面的检查工具会显示你输入的每家公司在图上的资金有多少来自 OpenAI 和 Anthropic，以及最大的来源是哪家公司。回看第 2 步的记录：如果你的几项持仓最大的客户是同一家，这一点值得弄清楚。这不是对任何公司的评判，只是说明它们在图上的资金从哪里来。"},
       "time": {"en": "About 10 minutes", "zh": "约 10 分钟"}
     },
     {
       "title": {"en": "Read the big numbers carefully", "zh": "仔细读懂那些很大的数字"},
-      "text": {
-        "en": "Ask three things of any large figure. First, over how many years is it paid? Oracle's counted orders from OpenAI ({oracle_openai_orders_usd}) equal about {oracle_openai_years} years of Oracle's yearly sales, but they are paid over several years: the $300B contract runs about five years from 2027 (as recorded on 10 Nov 2026). Second, is it committed money or a headline? The map counts {total_usd} of committed deals; its broad view shows a larger figure, because it also adds guarantees and 'up to' or announced figures. Third, is it confirmed or only reported? Confirmed means a company filing or official release backs it. As of 10 Nov 2026, Oracle's $300B figure came from a press report (WSJ) that neither company had confirmed.",
-        "zh": "遇到任何大数字，先问三个问题。第一，分几年支付？甲骨文在图上计入的来自 OpenAI 的订单（{oracle_openai_orders_usd}）约相当于甲骨文 {oracle_openai_years} 年的营收，但要分多年支付：按 2026 年 11 月 10 日的记录，其中 3000 亿美元的合同从 2027 年起约执行五年。第二，是承诺金额还是公布数字？关系图计入的承诺交易为 {total_usd}；宽口径另外加上担保和“最高可达”或公布的数字，所以显示的数字更大。第三，是已确认还是仅有报道？已确认表示有公司申报文件或官方公告支持；截至 2026 年 11 月 10 日，甲骨文这 3000 亿美元只来自媒体报道（《华尔街日报》），两家公司都没有确认。"
-      },
+      "text": {"en": "Ask three things of any large figure. First, over how many years is it paid? Oracle's counted orders from OpenAI ({oracle_openai_orders_usd}) equal about {oracle_openai_years} years of Oracle's yearly sales, but they are paid over several years: the $300B contract runs about five years from 2027 (as recorded on 10 Nov 2026). Second, is it committed money or a headline? The map counts {total_usd} of committed deals; its broad view shows a larger figure, because it also adds guarantees and 'up to' or announced figures. Third, is it confirmed or only reported? Confirmed means a company filing or official release backs it. As of 10 Nov 2026, Oracle's $300B figure came from a press report (WSJ) that neither company had confirmed.", "zh": "遇到任何大数字，先问三个问题。第一，分几年支付？甲骨文在图上计入的来自 OpenAI 的订单（{oracle_openai_orders_usd}）约相当于甲骨文 {oracle_openai_years} 年的营收，但要分多年支付：按 2026 年 11 月 10 日的记录，其中 3000 亿美元的合同从 2027 年起约执行五年。第二，是承诺金额还是公布数字？关系图计入的承诺交易为 {total_usd}；宽口径另外加上担保和“最高可达”或公布的数字，所以显示的数字更大。第三，是已确认还是仅有报道？已确认表示有公司申报文件或官方公告支持；截至 2026 年 11 月 10 日，甲骨文这 3000 亿美元只来自媒体报道（《华尔街日报》），两家公司都没有确认。"},
       "time": {"en": "About 10 minutes", "zh": "约 10 分钟"}
     },
     {
       "title": {"en": "Decide what you want to keep an eye on", "zh": "想清楚你要持续关注什么"},
-      "text": {
-        "en": "Pick the two or three companies that matter most in your list and the one or two facts you want to follow, such as a top customer's share or new borrowing. Note today's figures and the date, so you can compare later. Once a week, a quick look at the map's weekly summary or its Changes tab is enough to see what moved. In the week to 8 Nov 2026, for example, it showed 14 new deals worth $197.65B and one cancellation (Tencent's reported $7B GPU rental from Oracle).",
-        "zh": "从清单里挑出对你最重要的两三家公司，以及你想跟踪的一两个事实，例如最大客户的占比或新增借款。记下今天的数字和日期，方便以后对比。每周看一眼关系图的“每周摘要”或“变更”标签页，就足以了解有什么变化。例如在截至 2026 年 11 月 8 日的一周，它显示新增 14 笔交易、合计 1976.5 亿美元，以及一笔取消（媒体报道的腾讯向甲骨文租用 GPU、金额 70 亿美元的交易）。"
-      },
+      "text": {"en": "Pick the two or three companies that matter most in your list and the one or two facts you want to follow, such as a top customer's share or new borrowing. Note today's figures and the date, so you can compare later. Once a week, a quick look at the map's weekly summary or its Changes tab is enough to see what moved. In the week to 8 Nov 2026, for example, it showed 14 new deals worth $197.65B and one cancellation (Tencent's reported $7B GPU rental from Oracle).", "zh": "从清单里挑出对你最重要的两三家公司，以及你想跟踪的一两个事实，例如最大客户的占比或新增借款。记下今天的数字和日期，方便以后对比。每周看一眼关系图的“每周摘要”或“变更”标签页，就足以了解有什么变化。例如在截至 2026 年 11 月 8 日的一周，它显示新增 14 笔交易、合计 1976.5 亿美元，以及一笔取消（媒体报道的腾讯向甲骨文租用 GPU、金额 70 亿美元的交易）。"},
       "time": {"en": "About 5 minutes, then a few minutes a week", "zh": "约 5 分钟，之后每周几分钟"}
     },
     {
       "title": {"en": "Write down your questions", "zh": "把你的问题写下来"},
-      "text": {
-        "en": "Turn what you found into questions rather than conclusions, for example: 'How much of my total savings is in companies whose biggest customer is the same lab?' or 'Does my fund publish its full holdings?' The question list further down is a starting point. A company's own annual report often says how much of its sales comes from its largest customers, which helps check the map's picture.",
-        "zh": "把发现变成问题，而不是结论，例如：“我的全部积蓄里，有多少放在最大客户是同一家实验室的公司上？”或者“我的基金是否公布全部持仓？”下面的问题清单可以作为起点。公司自己的年报通常会说明最大客户占营收的比例，可以用来核对关系图呈现的情况。"
-      },
+      "text": {"en": "Turn what you found into questions rather than conclusions, for example: 'How much of my total savings is in companies whose biggest customer is the same lab?' or 'Does my fund publish its full holdings?' The question list further down is a starting point. A company's own annual report often says how much of its sales comes from its largest customers, which helps check the map's picture.", "zh": "把发现变成问题，而不是结论，例如：“我的全部积蓄里，有多少放在最大客户是同一家实验室的公司上？”或者“我的基金是否公布全部持仓？”下面的问题清单可以作为起点。公司自己的年报通常会说明最大客户占营收的比例，可以用来核对关系图呈现的情况。"},
       "time": {"en": "About 10 minutes", "zh": "约 10 分钟"}
     },
     {
       "title": {"en": "Talk to a licensed adviser if you are unsure", "zh": "如有疑问，请咨询持牌理财顾问"},
-      "text": {
-        "en": "What concentration means for you depends on your goals, how long you invest, your other savings and how much of a fall you could live with. A common general principle is that money spread across different kinds of investments and many companies depends less on any single customer or sector. Whether and how that applies to you is a question for a licensed financial adviser who knows your whole situation. Bring your list and your questions.",
-        "zh": "集中度对你意味着什么，取决于你的目标、投资期限、其他储蓄，以及你能承受多大的下跌。一个常见的一般原则是：分散在不同类别资产和众多公司上的资金，对任何单一客户或行业的依赖会更小。这是否适用于你、如何适用，应当请教了解你整体情况的持牌理财顾问。带上你的清单和问题去谈。"
-      },
+      "text": {"en": "What concentration means for you depends on your goals, how long you invest, your other savings and how much of a fall you could live with. A common general principle is that money spread across different kinds of investments and many companies depends less on any single customer or sector. Whether and how that applies to you is a question for a licensed financial adviser who knows your whole situation. Bring your list and your questions.", "zh": "集中度对你意味着什么，取决于你的目标、投资期限、其他储蓄，以及你能承受多大的下跌。一个常见的一般原则是：分散在不同类别资产和众多公司上的资金，对任何单一客户或行业的依赖会更小。这是否适用于你、如何适用，应当请教了解你整体情况的持牌理财顾问。带上你的清单和问题去谈。"},
       "time": {"en": "One conversation", "zh": "一次谈话"}
     }
   ],
   "watch": [
     {
       "title": {"en": "One buyer's share keeps growing", "zh": "某一个买家的占比越来越大"},
-      "text": {
-        "en": "In the company panel, the line 'Top 3 counterparties = …%' and the list of top counterparties show how concentrated a company's mapped deals are. These shares can change quickly. In our analysis of 10 Nov 2026, of the orders and leases going to the 55 AI-infrastructure stocks we studied, OpenAI paid 72.9% and Anthropic 4.5% counting deals announced by 31 March 2026; counting all deals to that date, OpenAI paid 49.8% and Anthropic 31.1%.",
-        "zh": "公司面板里“前三大对手方占该公司已披露交易的 …%”这一行和主要对手方列表，能看出它在图上的交易有多集中。这些占比可能变化很快。在我们 2026 年 11 月 10 日的分析中，流向我们研究的 55 只 AI 基础设施股票的订单和租约里，只算 2026 年 3 月 31 日前公布的交易，OpenAI 占 72.9%，Anthropic 占 4.5%；算上截至当日的所有交易，OpenAI 占 49.8%，Anthropic 占 31.1%。"
-      }
+      "text": {"en": "In the company panel, the line 'Top 3 counterparties = …%' and the list of top counterparties show how concentrated a company's mapped deals are. These shares can change quickly. In our analysis of 10 Nov 2026, of the orders and leases going to the 55 AI-infrastructure stocks we studied, OpenAI paid 72.9% and Anthropic 4.5% counting deals announced by 31 March 2026; counting all deals to that date, OpenAI paid 49.8% and Anthropic 31.1%.", "zh": "公司面板里“前三大对手方占该公司已披露交易的 …%”这一行和主要对手方列表，能看出它在图上的交易有多集中。这些占比可能变化很快。在我们 2026 年 11 月 10 日的分析中，流向我们研究的 55 只 AI 基础设施股票的订单和租约里，只算 2026 年 3 月 31 日前公布的交易，OpenAI 占 72.9%，Anthropic 占 4.5%；算上截至当日的所有交易，OpenAI 占 49.8%，Anthropic 占 31.1%。"}
     },
     {
       "title": {"en": "Large new debt raised against one customer's contract", "zh": "依靠单一客户合同新借的大额债务"},
-      "text": {
-        "en": "Data centres are often built with loans that are paid back from one tenant's rent. In our analysis of 10 Nov 2026 we searched the deal descriptions: about $211B (19%) of the $1,089.2B of mapped debt not marked as repaid was borrowed for computing capacity that names OpenAI or Anthropic as the user. Some of it sits in separate project companies, outside the main company's own accounts: for example, Meta's rent stood behind $39.6B of such debt. Check whether the companies you follow take on new loans or bonds of this kind.",
-        "zh": "数据中心常用贷款建设，再用某一家租户的租金来偿还。在我们 2026 年 11 月 10 日的分析中，我们检索了交易说明：图上未标记为已偿还的 10892 亿美元债务中，约 2110 亿美元（19%）是为写明由 OpenAI 或 Anthropic 使用的算力而借的。其中一部分放在单独的项目公司里，不在主公司自己的账上：例如 Meta 支付的租金支撑着这类公司 396 亿美元的债务。可以查一查你关注的公司是否新增了这类贷款或债券。"
-      }
+      "text": {"en": "Data centres are often built with loans that are paid back from one tenant's rent. In our analysis of 10 Nov 2026 we searched the deal descriptions: about $211B (19%) of the $1,089.2B of mapped debt not marked as repaid was borrowed for computing capacity that names OpenAI or Anthropic as the user. Some of it sits in separate project companies, outside the main company's own accounts: for example, Meta's rent stood behind $39.6B of such debt. Check whether the companies you follow take on new loans or bonds of this kind.", "zh": "数据中心常用贷款建设，再用某一家租户的租金来偿还。在我们 2026 年 11 月 10 日的分析中，我们检索了交易说明：图上未标记为已偿还的 10892 亿美元债务中，约 2110 亿美元（19%）是为写明由 OpenAI 或 Anthropic 使用的算力而借的。其中一部分放在单独的项目公司里，不在主公司自己的账上：例如 Meta 支付的租金支撑着这类公司 396 亿美元的债务。可以查一查你关注的公司是否新增了这类贷款或债券。"}
     },
     {
       "title": {"en": "Guarantees: promises to pay if someone else does not", "zh": "担保：别人不付款时由它来付的承诺"},
-      "text": {
-        "en": "A guarantee costs nothing until the other party fails to pay, so the map keeps guarantees ({guarantees_usd} as of {asof}) out of the committed total. Some are large next to the guarantor's own size. On 10 Nov 2026, Broadcom had guaranteed $72B of payments for AI racks leased to Anthropic, against its own yearly sales of $89.1B, and NVIDIA had guaranteed up to $105B for a lease used by OpenAI, against its yearly sales of $303.0B. Look for 'Guarantees given' in the company panel, or in the check's table below.",
-        "zh": "担保在对方违约之前不需要付钱，所以关系图把担保（截至 {asof} 为 {guarantees_usd}）排除在承诺总额之外。有些担保相对担保方自身的规模很大：截至 2026 年 11 月 10 日，博通为租给 Anthropic 的 AI 机架的付款提供了 720 亿美元担保，而博通自己一年的营收是 891 亿美元；英伟达为 OpenAI 使用的一项租约提供最高 1050 亿美元担保，而英伟达一年的营收是 3030 亿美元。可在公司面板或下面检查工具的表格中查看“提供的担保”。"
-      }
+      "text": {"en": "A guarantee costs nothing until the other party fails to pay, so the map keeps guarantees ({guarantees_usd} as of {asof}) out of the committed total. Some are large next to the guarantor's own size. On 10 Nov 2026, Broadcom had guaranteed $72B of payments for AI racks leased to Anthropic, against its own yearly sales of $89.1B, and NVIDIA had guaranteed up to $105B for a lease used by OpenAI, against its yearly sales of $303.0B. Look for 'Guarantees given' in the company panel, or in the check's table below.", "zh": "担保在对方违约之前不需要付钱，所以关系图把担保（截至 {asof} 为 {guarantees_usd}）排除在承诺总额之外。有些担保相对担保方自身的规模很大：截至 2026 年 11 月 10 日，博通为租给 Anthropic 的 AI 机架的付款提供了 720 亿美元担保，而博通自己一年的营收是 891 亿美元；英伟达为 OpenAI 使用的一项租约提供最高 1050 亿美元担保，而英伟达一年的营收是 3030 亿美元。可在公司面板或下面检查工具的表格中查看“提供的担保”。"}
     },
     {
       "title": {"en": "Cancelled, delayed or shrinking deals", "zh": "取消、推迟或缩水的交易"},
-      "text": {
-        "en": "Deals do change. Cancelled deals stay on the map, struck through and not counted, such as Tencent's reported $7B GPU rental from Oracle, cancelled in November 2026. The weekly summary also lists amount revisions and status changes (9 revisions and 6 status changes in the week to 8 Nov 2026). A run of such changes around one company is worth reading closely.",
-        "zh": "交易会变化。已取消的交易仍留在图上，划线显示且不计入合计，例如媒体报道的腾讯向甲骨文租用 GPU 的 70 亿美元交易，已于 2026 年 11 月取消。每周摘要也会列出金额修订和状态变化（截至 2026 年 11 月 8 日的一周有 9 次修订、6 次状态变化）。如果某家公司接连出现这类变化，值得仔细阅读。"
-      }
+      "text": {"en": "Deals do change. Cancelled deals stay on the map, struck through and not counted, such as Tencent's reported $7B GPU rental from Oracle, cancelled in November 2026. The weekly summary also lists amount revisions and status changes (9 revisions and 6 status changes in the week to 8 Nov 2026). A run of such changes around one company is worth reading closely.", "zh": "交易会变化。已取消的交易仍留在图上，划线显示且不计入合计，例如媒体报道的腾讯向甲骨文租用 GPU 的 70 亿美元交易，已于 2026 年 11 月取消。每周摘要也会列出金额修订和状态变化（截至 2026 年 11 月 8 日的一周有 9 次修订、6 次状态变化）。如果某家公司接连出现这类变化，值得仔细阅读。"}
     },
     {
       "title": {"en": "The cost of insuring a company's debt rising", "zh": "为公司债务投保的成本上升"},
-      "text": {
-        "en": "A credit default swap (CDS) is insurance against a company not repaying its debt; its price is quoted in basis points a year (100 bp = 1%). The company panel charts the levels quoted in the news. Oracle's 5-year CDS was quoted at 111 bp on 19 Nov 2025 and 305 bp on 5 Nov 2026; CoreWeave's at 1,082 bp on 19 Oct 2026 and 1,278 bp on 5 Nov 2026. A rising level means lenders see more risk. These are occasional news quotes, not a full price history.",
-        "zh": "信用违约互换（CDS）相当于为“公司不还债”买的保险，价格按每年多少基点报价（100 个基点 = 1%）。公司面板会画出媒体报道过的水平。甲骨文的 5 年期 CDS 在 2025 年 11 月 19 日报 111 个基点，2026 年 11 月 5 日报 305 个基点；CoreWeave 在 2026 年 10 月 19 日报 1082 个基点，2026 年 11 月 5 日报 1278 个基点。数值上升说明放贷方认为风险更大。这些只是零星的媒体报价，不是完整的价格走势。"
-      }
+      "text": {"en": "A credit default swap (CDS) is insurance against a company not repaying its debt; its price is quoted in basis points a year (100 bp = 1%). The company panel charts the levels quoted in the news. Oracle's 5-year CDS was quoted at 111 bp on 19 Nov 2025 and 305 bp on 5 Nov 2026; CoreWeave's at 1,082 bp on 19 Oct 2026 and 1,278 bp on 5 Nov 2026. A rising level means lenders see more risk. These are occasional news quotes, not a full price history.", "zh": "信用违约互换（CDS）相当于为“公司不还债”买的保险，价格按每年多少基点报价（100 个基点 = 1%）。公司面板会画出媒体报道过的水平。甲骨文的 5 年期 CDS 在 2025 年 11 月 19 日报 111 个基点，2026 年 11 月 5 日报 305 个基点；CoreWeave 在 2026 年 10 月 19 日报 1082 个基点，2026 年 11 月 5 日报 1278 个基点。数值上升说明放贷方认为风险更大。这些只是零星的媒体报价，不是完整的价格走势。"}
     },
     {
       "title": {"en": "A company's map data going stale", "zh": "某家公司在图上的数据变旧"},
-      "text": {
-        "en": "Check the date of a company's latest deal and latest source in its panel. On 10 Nov 2026, the newest source of 48.2% of the counted deals was more than 180 days old, and only 18.8% recorded when their status was last checked. The map also shows 'Stale' instead of 'Live' when it has not refreshed for over 8 hours. Old data is not wrong, but it may miss what has changed since.",
-        "zh": "在公司面板查看它的“最新交易”和“最新来源”日期。截至 2026 年 11 月 10 日，计入的交易中有 48.2% 的最新来源已超过 180 天，只有 18.8% 记录了最近一次核实状态的时间。如果整张图超过 8 小时没有更新，页面会显示“数据较旧”而不是“实时”。旧数据不一定错，但可能漏掉此后发生的变化。"
-      }
+      "text": {"en": "Check the date of a company's latest deal and latest source in its panel. On 10 Nov 2026, the newest source of 48.2% of the counted deals was more than 180 days old, and only 18.8% recorded when their status was last checked. The map also shows 'Stale' instead of 'Live' when it has not refreshed for over 8 hours. Old data is not wrong, but it may miss what has changed since.", "zh": "在公司面板查看它的“最新交易”和“最新来源”日期。截至 2026 年 11 月 10 日，计入的交易中有 48.2% 的最新来源已超过 180 天，只有 18.8% 记录了最近一次核实状态的时间。如果整张图超过 8 小时没有更新，页面会显示“数据较旧”而不是“实时”。旧数据不一定错，但可能漏掉此后发生的变化。"}
     }
   ],
   "avoid": [
     {
       "title": {"en": "Expecting deal headlines to point to price moves", "zh": "以为交易新闻能预示股价走向"},
-      "text": {
-        "en": "In our analysis of 10 Nov 2026 we studied 60 share-price reactions to deals of $10B or more. Deal days were big-move days (about 4.7% on average, up or down, against 2.7% on ordinary days), but the ups and downs cancelled out: after allowing for the market, the average three-day move was +0.04%. None of the deals was on the map before the price had already moved. Our tests found no pattern in deal news that reliably pointed to rises or falls.",
-        "zh": "在我们 2026 年 11 月 10 日的分析中，我们研究了 100 亿美元及以上交易引起的 60 次股价反应。交易公布日往往是大波动日（平均涨跌幅约 4.7%，普通日子约 2.7%），但涨和跌互相抵消：扣除大盘影响后，三天平均变动为 +0.04%。没有一笔交易是在股价已经反应之前就出现在图上的。我们的检验没有发现交易新闻中有能可靠预示涨跌的规律。"
-      }
+      "text": {"en": "In our analysis of 10 Nov 2026 we studied 60 share-price reactions to deals of $10B or more. Deal days were big-move days (about 4.7% on average, up or down, against 2.7% on ordinary days), but the ups and downs cancelled out: after allowing for the market, the average three-day move was +0.04%. None of the deals was on the map before the price had already moved. Our tests found no pattern in deal news that reliably pointed to rises or falls.", "zh": "在我们 2026 年 11 月 10 日的分析中，我们研究了 100 亿美元及以上交易引起的 60 次股价反应。交易公布日往往是大波动日（平均涨跌幅约 4.7%，普通日子约 2.7%），但涨和跌互相抵消：扣除大盘影响后，三天平均变动为 +0.04%。没有一笔交易是在股价已经反应之前就出现在图上的。我们的检验没有发现交易新闻中有能可靠预示涨跌的规律。"}
     },
     {
       "title": {"en": "Reading 'up to' figures as money paid", "zh": "把“最高可达”的数字当成已付的钱"},
-      "text": {
-        "en": "Headline figures, such as SK hynix's $500B or AMD's $80B as announced (on the map on 10 Nov 2026), are ambitions or ceilings, not committed amounts, so the map shows them only in the broad view. Even committed contracts are paid over years, and guarantees are paid only if someone else defaults.",
-        "zh": "公布数字，例如 SK 海力士的 5000 亿美元、AMD 的 800 亿美元（2026 年 11 月 10 日图上的公布数字），是目标或上限，并非承诺金额，所以关系图只在宽口径中显示。即使是承诺的合同也要分多年支付，而担保只有在别人违约时才需要支付。"
-      }
+      "text": {"en": "Headline figures, such as SK hynix's $500B or AMD's $80B as announced (on the map on 10 Nov 2026), are ambitions or ceilings, not committed amounts, so the map shows them only in the broad view. Even committed contracts are paid over years, and guarantees are paid only if someone else defaults.", "zh": "公布数字，例如 SK 海力士的 5000 亿美元、AMD 的 800 亿美元（2026 年 11 月 10 日图上的公布数字），是目标或上限，并非承诺金额，所以关系图只在宽口径中显示。即使是承诺的合同也要分多年支付，而担保只有在别人违约时才需要支付。"}
     },
     {
       "title": {"en": "Assuming an index fund keeps you away from AI", "zh": "以为买了指数基金就和 AI 无关"},
-      "text": {
-        "en": "An S&P 500 or Nasdaq-100 fund holds many companies, but it weights each by its size, and some of the largest companies today are on this map. In our price data on 10 Nov 2026, 25 of the 55 AI-infrastructure stocks were Nasdaq-100 members. For a Nasdaq-100 fund, our two rough estimates give a range for the money in companies paid mostly by OpenAI and Anthropic; Example A below works it out from today's map. A broad fund spreads your money across many firms; it does not remove a theme that its biggest holdings share. Your fund's holdings list shows how much is in these names.",
-        "zh": "标普 500 或纳斯达克 100 基金虽然持有很多家公司，但按公司规模分配权重，而如今一些最大的公司就在这张图上。在我们 2026 年 11 月 10 日的价格数据中，55 只 AI 基础设施股票里有 25 只是纳斯达克 100 成分股。对纳斯达克 100 基金，我们的两个粗略估算会给出一个区间，表示落在主要由 OpenAI 和 Anthropic 付款的公司的资金比例；下面的示例 A 会按当天的关系图算出来。宽基基金会把你的钱分散到许多公司，但不会消除它最大几项持仓共有的主题。基金的持仓清单会显示这些公司占了多少。"
-      }
+      "text": {"en": "An S&P 500 or Nasdaq-100 fund holds many companies, but it weights each by its size, and some of the largest companies today are on this map. In our price data on 10 Nov 2026, 25 of the 55 AI-infrastructure stocks were Nasdaq-100 members. Example A below looks through a Nasdaq-100 fund with today's map and shows how much of it sits in companies with High or Elevated exposure. A broad fund spreads your money across many firms; it does not remove a theme that its biggest holdings share. Your fund's holdings list shows how much is in these names.", "zh": "标普 500 或纳斯达克 100 基金虽然持有很多家公司，但按公司规模分配权重，而如今一些最大的公司就在这张图上。在我们 2026 年 11 月 10 日的价格数据中，55 只 AI 基础设施股票里有 25 只是纳斯达克 100 成分股。下面的示例 A 用当天的关系图穿透纳斯达克 100 基金，显示其中有多少落在高或较高暴露的公司。宽基基金会把你的钱分散到许多公司，但不会消除它最大几项持仓共有的主题。基金的持仓清单会显示这些公司占了多少。"}
     },
     {
       "title": {"en": "Treating the map as complete", "zh": "把关系图当成完整的记录"},
-      "text": {
-        "en": "The map shows announced and filed deals only, and it can be late. It sees a small part of some companies' business: on 10 Nov 2026, NVIDIA's counted incoming orders ($40.0B) were about 13% of its yearly revenue, and the map traced 48% of Oracle's $664B of contracted future revenue. On that date, 25 of the 55 AI-infrastructure stocks we checked were not on it at all.",
-        "zh": "关系图只显示已公布和已申报的交易，而且可能滞后。对有些公司，它只看到一小部分业务：截至 2026 年 11 月 10 日，英伟达计入的订单（400 亿美元）约为其一年营收的 13%；甲骨文已签约的未来收入（剩余履约义务）为 6640 亿美元，图上只追踪到其中 48%。当时我们核对的 55 只 AI 基础设施股票中，有 25 只根本不在图上。"
-      }
+      "text": {"en": "The map shows announced and filed deals only, and it can be late. It sees a small part of some companies' business: on 10 Nov 2026, NVIDIA's counted incoming orders ($40.0B) were about 13% of its yearly revenue, and the map traced 48% of Oracle's $664B of contracted future revenue. On that date, 25 of the 55 AI-infrastructure stocks we checked were not on it at all.", "zh": "关系图只显示已公布和已申报的交易，而且可能滞后。对有些公司，它只看到一小部分业务：截至 2026 年 11 月 10 日，英伟达计入的订单（400 亿美元）约为其一年营收的 13%；甲骨文已签约的未来收入（剩余履约义务）为 6640 亿美元，图上只追踪到其中 48%。当时我们核对的 55 只 AI 基础设施股票中，有 25 只根本不在图上。"}
     },
     {
       "title": {"en": "Expecting linked companies' shares to move together", "zh": "以为有交易往来的公司股价会同涨同跌"},
-      "text": {
-        "en": "A line between two companies shows a deal, not a price link. In our analysis of 10 Nov 2026, across 465 pairs of listed companies over two years, pairs joined by a mapped deal moved together no more than pairs without one.",
-        "zh": "两家公司之间的连线代表一笔交易，而不是股价联动。在我们 2026 年 11 月 10 日的分析中，对两年间 465 对上市公司的检验显示，有交易连线的公司，股价同步程度并不比没有连线的公司更高。"
-      }
+      "text": {"en": "A line between two companies shows a deal, not a price link. In our analysis of 10 Nov 2026, across 465 pairs of listed companies over two years, pairs joined by a mapped deal moved together no more than pairs without one.", "zh": "两家公司之间的连线代表一笔交易，而不是股价联动。在我们 2026 年 11 月 10 日的分析中，对两年间 465 对上市公司的检验显示，有交易连线的公司，股价同步程度并不比没有连线的公司更高。"}
     },
     {
       "title": {"en": "Reaching a verdict from one number", "zh": "只凭一个数字下结论"},
-      "text": {
-        "en": "A ratio like 'contracts equal several years of sales' is a starting point for questions, not a judgement about a company. Check the source, the dates and the company's own reports before drawing any conclusion.",
-        "zh": "“合同相当于好几年营收”这样的比例，是提出问题的起点，而不是对一家公司的评判。下结论之前，先核对来源、日期和公司自己的报告。"
-      }
+      "text": {"en": "A ratio like 'contracts equal several years of sales' is a starting point for questions, not a judgement about a company. Check the source, the dates and the company's own reports before drawing any conclusion.", "zh": "“合同相当于好几年营收”这样的比例，是提出问题的起点，而不是对一家公司的评判。下结论之前，先核对来源、日期和公司自己的报告。"}
     }
   ],
   "questions": [
@@ -349,121 +307,171 @@
     {"en": "When was the newest source on this company's deals published, and has anything changed since?", "zh": "这家公司交易的最新来源是什么时候发布的？此后有没有变化？"}
   ],
   "how_to_use_map": [
-    {"en": "Open the map (the link at the top of this page, or https://heyneww.github.io/GL-AI-live/). Use the English / 中文 button at the top right to switch language; the page remembers your choice. Next to it, 'Live' means the data is fresh and 'Stale' means it has not refreshed for over 8 hours.",
-     "zh": "打开关系图（本页顶部的链接，或 https://heyneww.github.io/GL-AI-live/）。点右上角的 English / 中文 按钮切换语言，页面会记住你的选择。旁边显示“实时”表示数据是新的，显示“数据较旧”表示已超过 8 小时没有更新。"},
-    {"en": "Type a ticker or name into the search box ('Find a company or deal', e.g. NVDA or 英伟达), pick it from the list, then click the company's circle on the graph.",
-     "zh": "在搜索框（“查找公司或交易”）输入股票代码或名称，例如 NVDA 或 英伟达，从列表中选中，再点击关系图上这家公司的圆圈。"},
-    {"en": "Read the company panel on the right: Money in and Money out, Top counterparties and the top-3 share, Orders received, Owes (borrowed from), Guarantees given, the CDS chart if there is one, and the latest deal and source dates. Each deal shows a 'Filing / official' or 'Press report' badge and links to its sources.",
-     "zh": "阅读右侧的公司面板：资金流入和资金流出、主要对手方和前三大占比、收到的订单、借款（欠谁）、提供的担保，有 CDS 图时也看一下，以及最新交易和最新来源的日期。每笔交易都标有“公告确认”或“媒体报道”，并附来源链接。"},
-    {"en": "Click the Table tab to see every deal as a list. Sort by Largest or Newest, turn on 'Confirmed only' or 'Binding only' to narrow it, and use Download CSV to keep a copy (the footer also has an Excel workbook).",
-     "zh": "点击“表格”标签页，以列表形式查看所有交易。可按“金额最大”或“最新”排序，打开“仅已确认”或“仅有约束力”缩小范围，并用“下载 CSV”保存一份（页脚还有 Excel 数据表）。"},
-    {"en": "Use the Committed / Broad view switch above the total. Committed ({total_usd} as of {asof}) is money the parties have agreed; Broad view adds guarantees and announced 'up to' figures, which are ambitions and contingencies, not money committed.",
-     "zh": "使用合计上方的“承诺金额 / 宽口径”切换。承诺金额（截至 {asof} 为 {total_usd}）是各方已约定的资金；宽口径另外加上担保和公布的“最高可达”数字，代表目标和或有责任，而不是已承诺的资金。"},
-    {"en": "To follow changes, open the Changes tab (newest first), watch for the 'new deals since your last visit' bar, or use the weekly summary and changes feed links in the footer. The Loops tab lists circular deals, where money flows both ways.",
-     "zh": "要跟踪变化，可打开“变更”标签页（最新在前），留意“自上次访问以来新增 … 笔交易”的提示条，或使用页脚的“每周摘要”和“变更订阅”链接。“循环交易”标签页列出资金双向流动的循环交易。"},
-    {"en": "Everything on the map can be downloaded for your own checks: the site's data/v1 folder (https://heyneww.github.io/GL-AI-live/data/v1/) has the companies and deals as JSON and CSV, an Excel workbook and a schema, free to reuse under CC BY 4.0.",
-     "zh": "图上的所有数据都可以下载，方便你自己核对：网站的 data/v1 目录（https://heyneww.github.io/GL-AI-live/data/v1/）提供 JSON 和 CSV 格式的公司与交易数据、Excel 数据表和数据结构说明，可按 CC BY 4.0 协议自由使用。"}
+    {"en": "Open the map (the link at the top of this page, or https://heyneww.github.io/GL-AI-live/). Use the English / 中文 button at the top right to switch language; the page remembers your choice. Next to it, 'Live' means the data is fresh and 'Stale' means it has not refreshed for over 8 hours.", "zh": "打开关系图（本页顶部的链接，或 https://heyneww.github.io/GL-AI-live/）。点右上角的 English / 中文 按钮切换语言，页面会记住你的选择。旁边显示“实时”表示数据是新的，显示“数据较旧”表示已超过 8 小时没有更新。"},
+    {"en": "Type a ticker or name into the search box ('Find a company or deal', e.g. NVDA or 英伟达), pick it from the list, then click the company's circle on the graph.", "zh": "在搜索框（“查找公司或交易”）输入股票代码或名称，例如 NVDA 或 英伟达，从列表中选中，再点击关系图上这家公司的圆圈。"},
+    {"en": "Read the company panel on the right: Money in and Money out, Top counterparties and the top-3 share, Orders received, Owes (borrowed from), Guarantees given, the CDS chart if there is one, and the latest deal and source dates. Each deal shows a 'Filing / official' or 'Press report' badge and links to its sources.", "zh": "阅读右侧的公司面板：资金流入和资金流出、主要对手方和前三大占比、收到的订单、借款（欠谁）、提供的担保，有 CDS 图时也看一下，以及最新交易和最新来源的日期。每笔交易都标有“公告确认”或“媒体报道”，并附来源链接。"},
+    {"en": "Click the Table tab to see every deal as a list. Sort by Largest or Newest, turn on 'Confirmed only' or 'Binding only' to narrow it, and use Download CSV to keep a copy (the footer also has an Excel workbook).", "zh": "点击“表格”标签页，以列表形式查看所有交易。可按“金额最大”或“最新”排序，打开“仅已确认”或“仅有约束力”缩小范围，并用“下载 CSV”保存一份（页脚还有 Excel 数据表）。"},
+    {"en": "Use the Committed / Broad view switch above the total. Committed ({total_usd} as of {asof}) is money the parties have agreed; Broad view adds guarantees and announced 'up to' figures, which are ambitions and contingencies, not money committed.", "zh": "使用合计上方的“承诺金额 / 宽口径”切换。承诺金额（截至 {asof} 为 {total_usd}）是各方已约定的资金；宽口径另外加上担保和公布的“最高可达”数字，代表目标和或有责任，而不是已承诺的资金。"},
+    {"en": "To follow changes, open the Changes tab (newest first), watch for the 'new deals since your last visit' bar, or use the weekly summary and changes feed links in the footer. The Loops tab lists circular deals, where money flows both ways.", "zh": "要跟踪变化，可打开“变更”标签页（最新在前），留意“自上次访问以来新增 … 笔交易”的提示条，或使用页脚的“每周摘要”和“变更订阅”链接。“循环交易”标签页列出资金双向流动的循环交易。"},
+    {"en": "Everything on the map can be downloaded for your own checks: the site's data/v1 folder (https://heyneww.github.io/GL-AI-live/data/v1/) has the companies and deals as JSON and CSV, an Excel workbook and a schema, free to reuse under CC BY 4.0.", "zh": "图上的所有数据都可以下载，方便你自己核对：网站的 data/v1 目录（https://heyneww.github.io/GL-AI-live/data/v1/）提供 JSON 和 CSV 格式的公司与交易数据、Excel 数据表和数据结构说明，可按 CC BY 4.0 协议自由使用。"}
   ],
   "faq": [
     {
       "q": {"en": "Does this mean AI stocks will fall?", "zh": "这是否意味着 AI 股票会下跌？"},
-      "a": {"en": "No. The map describes deals; it does not forecast prices. Concentration and borrowing tell you where the money comes from, not what a share price will do. In our analysis of 10 Nov 2026, deal news and mapped links did not reliably predict price moves.",
-            "zh": "不是。关系图描述的是交易，不预测股价。集中度和借款情况告诉你资金从哪里来，而不是股价会怎样。在我们 2026 年 11 月 10 日的分析中，交易新闻和图上的连线都不能可靠地预示股价变动。"}
+      "a": {"en": "No. The map describes deals; it does not forecast prices. Concentration and borrowing tell you where the money comes from, not what a share price will do. In our analysis of 10 Nov 2026, deal news and mapped links did not reliably predict price moves.", "zh": "不是。关系图描述的是交易，不预测股价。集中度和借款情况告诉你资金从哪里来，而不是股价会怎样。在我们 2026 年 11 月 10 日的分析中，交易新闻和图上的连线都不能可靠地预示股价变动。"}
     },
     {
       "q": {"en": "Why do the numbers on this page change?", "zh": "为什么本页的数字会变？"},
-      "a": {"en": "Most figures here are worked out from the live map each time you open the page, so they move as deals are added, changed or cancelled. The deal data date is shown at the top. A few figures from our analysis of 10 Nov 2026 carry that date in the sentence and do not update. Company sizes and yearly sales come from separate reference data with its own date.",
-            "zh": "本页的大部分数字在每次打开时根据实时关系图计算，所以会随着交易的新增、变更或取消而变化。交易数据的日期显示在页面顶部。少数来自 2026 年 11 月 10 日分析的数字，会在句中标明日期，不会更新。公司规模和年营收来自单独的参考数据，有各自的日期。"}
+      "a": {"en": "Most figures here are worked out from the live map each time you open the page, so they move as deals are added, changed or cancelled. The deal data date is shown at the top. A few figures from our analysis of 10 Nov 2026 carry that date in the sentence and do not update. Company sizes and yearly sales come from separate reference data with its own date.", "zh": "本页的大部分数字在每次打开时根据实时关系图计算，所以会随着交易的新增、变更或取消而变化。交易数据的日期显示在页面顶部。少数来自 2026 年 11 月 10 日分析的数字，会在句中标明日期，不会更新。公司规模和年营收来自单独的参考数据，有各自的日期。"}
     },
     {
       "q": {"en": "I only own an S&P 500 fund. Does this affect me?", "zh": "我只买了标普 500 基金，这和我有关吗？"},
-      "a": {"en": "Partly. Large index funds weight companies by size, and several of the largest US companies, such as NVIDIA, Microsoft, Alphabet, Amazon, Meta and Broadcom, are on the map. Our data does not include S&P 500 holdings, so the check cannot look through this fund for you. Your fund's holdings list shows how much is in these names; you can enter its largest holdings in the check yourself, with one more line called 'Other' for the rest. A broad fund still spreads your money across many companies and sectors.",
-            "zh": "有一部分关系。大型指数基金按公司规模分配权重，而英伟达、微软、谷歌、亚马逊、Meta、博通等几家美国最大的公司都在图上。我们的数据不含标普 500 的持仓，所以检查工具无法替你穿透这只基金。基金的持仓清单会写明这些公司占多少；你可以把它最大的几项持仓自己输入检查工具，再加一行“Other（其他）”填上剩下的比例。宽基基金仍然会把你的钱分散到许多公司和行业。"}
+      "a": {"en": "Partly. Large index funds weight companies by size, and several of the largest US companies, such as NVIDIA, Microsoft, Alphabet, Amazon, Meta and Broadcom, are on the map. When the check has the fund's published largest holdings, it says so under the fund (how many, as of which date, how much of the fund they cover) and looks through them; the rest of the fund counts as not on the map. Otherwise enter the fund's largest holdings yourself from its holdings list. A broad fund still spreads your money across many companies and sectors.", "zh": "有一部分关系。大型指数基金按公司规模分配权重，而英伟达、微软、谷歌、亚马逊、Meta、博通等几家美国最大的公司都在图上。如果检查工具有这只基金公布的最大几项持仓，会在基金下方注明（多少项、截至哪天、占基金多少）并据此穿透；基金其余部分按“不在图上”处理。否则，可以按基金的持仓清单自己输入它最大的几项持仓。宽基基金仍然会把你的钱分散到许多公司和行业。"}
     },
     {
       "q": {"en": "Why are the numbers so big?", "zh": "为什么这些数字这么大？"},
-      "a": {"en": "Most are contract totals spread over many years. As recorded on 10 Nov 2026, TeraWulf's $19.0B Anthropic lease runs 20 years from the second half of 2027, about $0.95B a year. Some money also goes around in circles: Microsoft invested $13.0B in OpenAI, which had $250.0B of mapped orders with Microsoft on that date.",
-            "zh": "大多是分多年支付的合同总额。按 2026 年 11 月 10 日的记录，TeraWulf 与 Anthropic 的 190 亿美元租约从 2027 年下半年起执行 20 年，约每年 9.5 亿美元。还有一些资金在兜圈子：微软向 OpenAI 投资了 130 亿美元，而当时 OpenAI 在图上向微软下了 2500 亿美元的订单。"}
+      "a": {"en": "Most are contract totals spread over many years. As recorded on 10 Nov 2026, TeraWulf's $19.0B Anthropic lease runs 20 years from the second half of 2027, about $0.95B a year. Some money also goes around in circles: Microsoft invested $13.0B in OpenAI, which had $250.0B of mapped orders with Microsoft on that date.", "zh": "大多是分多年支付的合同总额。按 2026 年 11 月 10 日的记录，TeraWulf 与 Anthropic 的 190 亿美元租约从 2027 年下半年起执行 20 年，约每年 9.5 亿美元。还有一些资金在兜圈子：微软向 OpenAI 投资了 130 亿美元，而当时 OpenAI 在图上向微软下了 2500 亿美元的订单。"}
     },
     {
       "q": {"en": "Does 'confirmed' mean the money will be paid?", "zh": "“已确认”就代表钱一定会付吗？"},
-      "a": {"en": "Confirmed means a company filing or official release backs the deal, so it exists. It does not mean every dollar will be paid: deals can be cut, delayed, refinanced or cancelled. On the map, the 'Confirmed only' filter in the Table tab shows which deals are confirmed and which are reported by named outlets only.",
-            "zh": "“已确认”表示有公司申报文件或官方公告支持，说明交易确实存在，但不代表每一分钱都会付到：交易可能缩减、推迟、再融资或取消。在关系图“表格”标签页中打开“仅已确认”，就能看出哪些交易已确认、哪些仅有具名媒体报道。"}
+      "a": {"en": "Confirmed means a company filing or official release backs the deal, so it exists. It does not mean every dollar will be paid: deals can be cut, delayed, refinanced or cancelled. On the map, the 'Confirmed only' filter in the Table tab shows which deals are confirmed and which are reported by named outlets only.", "zh": "“已确认”表示有公司申报文件或官方公告支持，说明交易确实存在，但不代表每一分钱都会付到：交易可能缩减、推迟、再融资或取消。在关系图“表格”标签页中打开“仅已确认”，就能看出哪些交易已确认、哪些仅有具名媒体报道。"}
     },
     {
       "q": {"en": "How often is the map updated?", "zh": "关系图多久更新一次？"},
-      "a": {"en": "A monitor collects SEC filings and news about every 3 hours, deals are checked and added twice a day, the weekly summary page shows the last seven days of changes, and a weekly report goes out each Monday. In its first two weeks of live operation (to 10 Nov 2026), new deals reached the map in a median of 2 days; some older deals were only added months after they were announced.",
-            "zh": "监控程序大约每 3 小时收集一次 SEC 文件和新闻，每天两次核实并添加交易；每周摘要页面显示最近七天的变化，每周一还会发出一份周报。上线运行的头两周里（截至 2026 年 11 月 10 日），新交易进入关系图的时间中位数为 2 天；也有一些较早的交易在公布几个月后才补录。"}
+      "a": {"en": "A monitor collects SEC filings and news about every 3 hours, deals are checked and added twice a day, the weekly summary page shows the last seven days of changes, and a weekly report goes out each Monday. In its first two weeks of live operation (to 10 Nov 2026), new deals reached the map in a median of 2 days; some older deals were only added months after they were announced.", "zh": "监控程序大约每 3 小时收集一次 SEC 文件和新闻，每天两次核实并添加交易；每周摘要页面显示最近七天的变化，每周一还会发出一份周报。上线运行的头两周里（截至 2026 年 11 月 10 日），新交易进入关系图的时间中位数为 2 天；也有一些较早的交易在公布几个月后才补录。"}
     },
     {
       "q": {"en": "One of my stocks depends heavily on one customer. What should I do?", "zh": "我的一只股票很依赖一个客户，我该怎么办？"},
-      "a": {"en": "This guide cannot tell you what to do with a particular stock. Depending on one source is common on this map: {n_big_one_source} of the {n_big} companies that receive $5B or more get over half of it from one single company. You might check the company's annual report for what it says about its largest customers, look at how much of your total savings the stock is, and discuss it with a licensed adviser.",
-            "zh": "本指南不能告诉你该如何处理某只具体股票。在这张图上，依赖单一来源的情况并不少见：收款 50 亿美元以上的 {n_big} 家公司中，有 {n_big_one_source} 家一半以上的资金来自同一家公司。你可以查看公司年报中关于最大客户的说明，算一算这只股票占你全部积蓄的多少，并与持牌顾问讨论。"}
+      "a": {"en": "This guide cannot tell you what to do with a particular stock. Depending on one source is common on this map: {n_big_one_source} of the {n_big} companies that receive $5B or more get over half of it from one single company. You might check the company's annual report for what it says about its largest customers, look at how much of your total savings the stock is, and discuss it with a licensed adviser.", "zh": "本指南不能告诉你该如何处理某只具体股票。在这张图上，依赖单一来源的情况并不少见：收款 50 亿美元以上的 {n_big} 家公司中，有 {n_big_one_source} 家一半以上的资金来自同一家公司。你可以查看公司年报中关于最大客户的说明，算一算这只股票占你全部积蓄的多少，并与持牌顾问讨论。"}
     },
     {
       "q": {"en": "Why is my company missing, or why are its numbers small?", "zh": "为什么我关注的公司不在图上，或者数字很小？"},
-      "a": {"en": "The map covers deals between AI labs, cloud giants, chip makers, data-centre operators and their lenders, of a minimum size. Chip-equipment, optical, storage and most power companies are outside its core scope, and many chip sales are never disclosed with an amount.",
-            "zh": "关系图收录 AI 实验室、云计算巨头、芯片厂商、数据中心运营商及其放贷方之间达到一定规模的交易。芯片设备、光通信、存储和大多数电力公司不在核心范围内，而且很多芯片销售从未披露金额。"}
+      "a": {"en": "The map covers deals between AI labs, cloud giants, chip makers, data-centre operators and their lenders, of a minimum size. Chip-equipment, optical, storage and most power companies are outside its core scope, and many chip sales are never disclosed with an amount.", "zh": "关系图收录 AI 实验室、云计算巨头、芯片厂商、数据中心运营商及其放贷方之间达到一定规模的交易。芯片设备、光通信、存储和大多数电力公司不在核心范围内，而且很多芯片销售从未披露金额。"}
     },
     {
       "q": {"en": "Is this financial advice?", "zh": "这是投资建议吗？"},
-      "a": {"en": "No. This is general education about what public deal data shows. It does not recommend buying, selling or holding anything and makes no forecasts. For decisions about your own money, talk to a licensed financial adviser.",
-            "zh": "不是。这是关于公开交易数据的一般性知识介绍，不建议买入、卖出或持有任何资产，也不做任何预测。涉及你自己资金的决定，请咨询持牌理财顾问。"}
+      "a": {"en": "No. This is general education about what public deal data shows. It does not recommend buying, selling or holding anything and makes no forecasts. For decisions about your own money, talk to a licensed financial adviser.", "zh": "不是。这是关于公开交易数据的一般性知识介绍，不建议买入、卖出或持有任何资产，也不做任何预测。涉及你自己资金的决定，请咨询持牌理财顾问。"}
     }
   ],
   "terms": [
-    {"term": {"en": "Bond", "zh": "债券"}, "def": {"en": "A loan that investors make to a company by buying a piece of its debt; the company pays interest and repays the money on a set date.", "zh": "投资者买下公司的一部分债务，相当于借钱给公司；公司付利息，并在约定日期还本。"}},
-    {"term": {"en": "Loan", "zh": "贷款"}, "def": {"en": "Money a bank or fund lends to a company, to be repaid with interest.", "zh": "银行或基金借给公司的钱，需要连本带息归还。"}},
-    {"term": {"en": "Bridge loan", "zh": "过桥贷款"}, "def": {"en": "A short-term loan meant to be replaced soon by longer-term borrowing, such as a bond.", "zh": "短期贷款，打算不久后用债券等长期借款来替换。"}},
-    {"term": {"en": "Lease", "zh": "租赁"}, "def": {"en": "Renting something, such as a data centre or servers, for a fixed period; on the map the money flows from the renter to the owner.", "zh": "在一段固定时间里租用数据中心或服务器等设施；在图上，钱从租户流向业主。"}},
-    {"term": {"en": "Order (compute contract)", "zh": "订单（算力合同）"}, "def": {"en": "An agreement to buy computing power, chips or cloud services, often paid over several years.", "zh": "购买算力、芯片或云服务的协议，付款往往分好几年。"}},
-    {"term": {"en": "Guarantee / backstop", "zh": "担保 / 兜底担保"}, "def": {"en": "A promise by one company to pay someone else's bills if they cannot. It costs nothing unless the other company fails to pay, so it is kept out of the map's totals.", "zh": "一家公司承诺在别人付不起时代为付款。只有对方违约时才需要真正掏钱，所以不计入关系图的总额。"}},
-    {"term": {"en": "Contract backlog (RPO)", "zh": "积压订单（剩余履约义务，RPO）"}, "def": {"en": "Money a company has been promised under signed contracts but has not yet earned. It is the company's own total, not a deal between companies, so the map does not draw it; on 10 Nov 2026 Oracle's latest report gave $664B.", "zh": "公司依据已签合同将会收到、但尚未确认为收入的钱。这是公司自己的合计数，不是公司之间的交易，所以关系图不把它画成连线；截至 2026 年 11 月 10 日，甲骨文最新报告的数字是 6640 亿美元。"}},
-    {"term": {"en": "Yearly sales (trailing 12-month revenue)", "zh": "年销售额（过去 12 个月收入）"}, "def": {"en": "What a company sold in its last four reported quarters; we use it to judge how big a contract is for that company.", "zh": "公司最近四个已公布季度的销售总额；我们用它来衡量一份合同对这家公司有多大。"}},
-    {"term": {"en": "Customer concentration", "zh": "客户集中度"}, "def": {"en": "How much of a company's business comes from one or a few customers. High concentration means losing one customer would matter a lot.", "zh": "公司的业务有多少来自一个或少数几个客户。集中度高，意味着失去一个客户影响会很大。"}},
-    {"term": {"en": "Circular deal", "zh": "循环交易"}, "def": {"en": "A deal where money goes round: a company invests in a customer, and the customer then buys from it.", "zh": "资金兜圈子的交易：一家公司投资某个客户，这个客户再向它采购。"}},
-    {"term": {"en": "Model lab", "zh": "模型实验室"}, "def": {"en": "A company that builds AI models, such as OpenAI (ChatGPT) and Anthropic (Claude). Both are private.", "zh": "开发 AI 模型的公司，例如 OpenAI（ChatGPT）和 Anthropic（Claude），两家都未上市。"}},
-    {"term": {"en": "Cloud giant (hyperscaler)", "zh": "云计算巨头"}, "def": {"en": "A very large cloud company that rents out computing power, such as Microsoft, Amazon and Alphabet (Google).", "zh": "出租算力的超大型云服务公司，例如微软、亚马逊和谷歌。"}},
-    {"term": {"en": "Neocloud", "zh": "新兴云服务商"}, "def": {"en": "A newer company that rents out AI computing power, often to only a few big customers, such as CoreWeave or Nebius.", "zh": "较新的 AI 算力出租公司，客户往往只有少数几家大公司，例如 CoreWeave 和 Nebius。"}},
-    {"term": {"en": "Special purpose vehicle (SPV)", "zh": "特殊目的实体（SPV）"}, "def": {"en": "A separate company set up for one project, such as a data centre, so its debt sits outside the sponsor's own accounts.", "zh": "为单个项目（例如一座数据中心）专门设立的公司，因此它的债务不在发起公司自己的账上。"}},
-    {"term": {"en": "Credit default swap (CDS) and basis point", "zh": "信用违约互换（CDS）与基点"}, "def": {"en": "A CDS is like insurance against a company not repaying its debt; its price is quoted in basis points, where 100 basis points means 1% a year. A higher price means lenders see more chance of trouble.", "zh": "CDS 类似于为公司债务违约投保；价格以基点报价，100 个基点即每年 1%。价格越高，说明放贷方认为出问题的可能越大。"}},
-    {"term": {"en": "Market value", "zh": "市值"}, "def": {"en": "What the stock market says a company is worth: the share price times the number of shares. Our figures are approximate.", "zh": "股市给一家公司的估值：股价乘以股份数量。我们给出的是近似值。"}},
-    {"term": {"en": "Index fund", "zh": "指数基金"}, "def": {"en": "A fund that holds the companies in an index, such as the S&P 500 or Nasdaq-100, usually weighted by company size, so the biggest companies make up the biggest share.", "zh": "持有某个指数（例如标普 500 或纳斯达克 100）成分股的基金，通常按公司规模加权，所以最大的公司占比最高。"}},
-    {"term": {"en": "ETF (exchange-traded fund)", "zh": "交易所交易基金（ETF）"}, "def": {"en": "A fund that trades on the stock exchange like a share; many index funds, such as QQQ, are ETFs.", "zh": "像股票一样在交易所买卖的基金；许多指数基金（例如 QQQ）都是 ETF。"}},
-    {"term": {"en": "Diversification", "zh": "分散投资"}, "def": {"en": "Spreading money over different investments so that one problem does not hit everything at once. Owning many companies that share one big customer is less spread out than it looks.", "zh": "把钱分散到不同投资上，以免一个问题同时冲击全部持仓。持有很多家共用同一个大客户的公司，实际分散程度没有看上去那么高。"}},
-    {"term": {"en": "Look-through", "zh": "穿透"}, "def": {"en": "Looking past the stocks you hold to the customers and lenders they depend on.", "zh": "越过你持有的股票，看清它们所依赖的客户和贷款方。"}},
-    {"term": {"en": "Confirmed vs reported", "zh": "已确认与仅有报道"}, "def": {"en": "Confirmed means a company filing or official statement gives the deal; reported means only news outlets do.", "zh": "已确认指公司申报文件或官方声明披露了这笔交易；仅有报道指只有新闻媒体报道。"}},
-    {"term": {"en": "Headline figure ('up to')", "zh": "公布数字（“最多”）"}, "def": {"en": "A large figure announced for a plan or a ceiling that is not a firm commitment; the map does not count it in its main total.", "zh": "为某个计划或上限公布的大数字，并非确定承诺；关系图不把它计入主要总额。"}},
-    {"term": {"en": "Warrant", "zh": "认股权证"}, "def": {"en": "A right to buy a company's shares at a set price later. On the map, AMD gave warrants to OpenAI and Meta that are tied to their chip orders.", "zh": "日后以约定价格购买公司股票的权利。在关系图上，AMD 向 OpenAI 和 Meta 授予了与芯片订单挂钩的认股权证。"}},
-    {"term": {"en": "Pooled group (bond investors, bank lenders)", "zh": "群体出资方（债券投资者、银团贷款银行）"}, "def": {"en": "Many lenders or investors shown on the map as one circle, such as the buyers of a bond. The check does not count such a group as one single source.", "zh": "在图上合成一个圆圈显示的许多放贷方或投资者，例如一只债券的买家。检查工具不把这样的群体算作单一来源。"}}
+    {
+      "term": {"en": "Bond", "zh": "债券"},
+      "def": {"en": "A loan that investors make to a company by buying a piece of its debt; the company pays interest and repays the money on a set date.", "zh": "投资者买下公司的一部分债务，相当于借钱给公司；公司付利息，并在约定日期还本。"}
+    },
+    {
+      "term": {"en": "Loan", "zh": "贷款"},
+      "def": {"en": "Money a bank or fund lends to a company, to be repaid with interest.", "zh": "银行或基金借给公司的钱，需要连本带息归还。"}
+    },
+    {
+      "term": {"en": "Bridge loan", "zh": "过桥贷款"},
+      "def": {"en": "A short-term loan meant to be replaced soon by longer-term borrowing, such as a bond.", "zh": "短期贷款，打算不久后用债券等长期借款来替换。"}
+    },
+    {
+      "term": {"en": "Lease", "zh": "租赁"},
+      "def": {"en": "Renting something, such as a data centre or servers, for a fixed period; on the map the money flows from the renter to the owner.", "zh": "在一段固定时间里租用数据中心或服务器等设施；在图上，钱从租户流向业主。"}
+    },
+    {
+      "term": {"en": "Order (compute contract)", "zh": "订单（算力合同）"},
+      "def": {"en": "An agreement to buy computing power, chips or cloud services, often paid over several years.", "zh": "购买算力、芯片或云服务的协议，付款往往分好几年。"}
+    },
+    {
+      "term": {"en": "Guarantee / backstop", "zh": "担保 / 兜底担保"},
+      "def": {"en": "A promise by one company to pay someone else's bills if they cannot. It costs nothing unless the other company fails to pay, so it is kept out of the map's totals.", "zh": "一家公司承诺在别人付不起时代为付款。只有对方违约时才需要真正掏钱，所以不计入关系图的总额。"}
+    },
+    {
+      "term": {"en": "Contract backlog (RPO)", "zh": "积压订单（剩余履约义务，RPO）"},
+      "def": {"en": "Money a company has been promised under signed contracts but has not yet earned. It is the company's own total, not a deal between companies, so the map does not draw it; on 10 Nov 2026 Oracle's latest report gave $664B.", "zh": "公司依据已签合同将会收到、但尚未确认为收入的钱。这是公司自己的合计数，不是公司之间的交易，所以关系图不把它画成连线；截至 2026 年 11 月 10 日，甲骨文最新报告的数字是 6640 亿美元。"}
+    },
+    {
+      "term": {"en": "Yearly sales (trailing 12-month revenue)", "zh": "年销售额（过去 12 个月收入）"},
+      "def": {"en": "What a company sold in its last four reported quarters; we use it to judge how big a contract is for that company.", "zh": "公司最近四个已公布季度的销售总额；我们用它来衡量一份合同对这家公司有多大。"}
+    },
+    {
+      "term": {"en": "Customer concentration", "zh": "客户集中度"},
+      "def": {"en": "How much of a company's business comes from one or a few customers. High concentration means losing one customer would matter a lot.", "zh": "公司的业务有多少来自一个或少数几个客户。集中度高，意味着失去一个客户影响会很大。"}
+    },
+    {
+      "term": {"en": "Circular deal", "zh": "循环交易"},
+      "def": {"en": "A deal where money goes round: a company invests in a customer, and the customer then buys from it.", "zh": "资金兜圈子的交易：一家公司投资某个客户，这个客户再向它采购。"}
+    },
+    {
+      "term": {"en": "Model lab", "zh": "模型实验室"},
+      "def": {"en": "A company that builds AI models, such as OpenAI (ChatGPT) and Anthropic (Claude). Both are private.", "zh": "开发 AI 模型的公司，例如 OpenAI（ChatGPT）和 Anthropic（Claude），两家都未上市。"}
+    },
+    {
+      "term": {"en": "Cloud giant (hyperscaler)", "zh": "云计算巨头"},
+      "def": {"en": "A very large cloud company that rents out computing power, such as Microsoft, Amazon and Alphabet (Google).", "zh": "出租算力的超大型云服务公司，例如微软、亚马逊和谷歌。"}
+    },
+    {
+      "term": {"en": "Neocloud", "zh": "新兴云服务商"},
+      "def": {"en": "A newer company that rents out AI computing power, often to only a few big customers, such as CoreWeave or Nebius.", "zh": "较新的 AI 算力出租公司，客户往往只有少数几家大公司，例如 CoreWeave 和 Nebius。"}
+    },
+    {
+      "term": {"en": "Special purpose vehicle (SPV)", "zh": "特殊目的实体（SPV）"},
+      "def": {"en": "A separate company set up for one project, such as a data centre, so its debt sits outside the sponsor's own accounts.", "zh": "为单个项目（例如一座数据中心）专门设立的公司，因此它的债务不在发起公司自己的账上。"}
+    },
+    {
+      "term": {"en": "Credit default swap (CDS) and basis point", "zh": "信用违约互换（CDS）与基点"},
+      "def": {"en": "A CDS is like insurance against a company not repaying its debt; its price is quoted in basis points, where 100 basis points means 1% a year. A higher price means lenders see more chance of trouble.", "zh": "CDS 类似于为公司债务违约投保；价格以基点报价，100 个基点即每年 1%。价格越高，说明放贷方认为出问题的可能越大。"}
+    },
+    {
+      "term": {"en": "Market value", "zh": "市值"},
+      "def": {"en": "What the stock market says a company is worth: the share price times the number of shares. Our figures are approximate.", "zh": "股市给一家公司的估值：股价乘以股份数量。我们给出的是近似值。"}
+    },
+    {
+      "term": {"en": "Index fund", "zh": "指数基金"},
+      "def": {"en": "A fund that holds the companies in an index, such as the S&P 500 or Nasdaq-100, usually weighted by company size, so the biggest companies make up the biggest share.", "zh": "持有某个指数（例如标普 500 或纳斯达克 100）成分股的基金，通常按公司规模加权，所以最大的公司占比最高。"}
+    },
+    {
+      "term": {"en": "ETF (exchange-traded fund)", "zh": "交易所交易基金（ETF）"},
+      "def": {"en": "A fund that trades on the stock exchange like a share; many index funds, such as QQQ, are ETFs.", "zh": "像股票一样在交易所买卖的基金；许多指数基金（例如 QQQ）都是 ETF。"}
+    },
+    {
+      "term": {"en": "Diversification", "zh": "分散投资"},
+      "def": {"en": "Spreading money over different investments so that one problem does not hit everything at once. Owning many companies that share one big customer is less spread out than it looks.", "zh": "把钱分散到不同投资上，以免一个问题同时冲击全部持仓。持有很多家共用同一个大客户的公司，实际分散程度没有看上去那么高。"}
+    },
+    {
+      "term": {"en": "Look-through", "zh": "穿透"},
+      "def": {"en": "Looking past the stocks you hold to the customers and lenders they depend on.", "zh": "越过你持有的股票，看清它们所依赖的客户和贷款方。"}
+    },
+    {
+      "term": {"en": "Confirmed vs reported", "zh": "已确认与仅有报道"},
+      "def": {"en": "Confirmed means a company filing or official statement gives the deal; reported means only news outlets do.", "zh": "已确认指公司申报文件或官方声明披露了这笔交易；仅有报道指只有新闻媒体报道。"}
+    },
+    {
+      "term": {"en": "Headline figure ('up to')", "zh": "公布数字（“最多”）"},
+      "def": {"en": "A large figure announced for a plan or a ceiling that is not a firm commitment; the map does not count it in its main total.", "zh": "为某个计划或上限公布的大数字，并非确定承诺；关系图不把它计入主要总额。"}
+    },
+    {
+      "term": {"en": "Warrant", "zh": "认股权证"},
+      "def": {"en": "A right to buy a company's shares at a set price later. On the map, AMD gave warrants to OpenAI and Meta that are tied to their chip orders.", "zh": "日后以约定价格购买公司股票的权利。在关系图上，AMD 向 OpenAI 和 Meta 授予了与芯片订单挂钩的认股权证。"}
+    },
+    {
+      "term": {"en": "Pooled group (bond investors, bank lenders)", "zh": "群体出资方（债券投资者、银团贷款银行）"},
+      "def": {"en": "Many lenders or investors shown on the map as one circle, such as the buyers of a bond. The check does not count such a group as one single source.", "zh": "在图上合成一个圆圈显示的许多放贷方或投资者，例如一只债券的买家。检查工具不把这样的群体算作单一来源。"}
+    }
   ],
   "tool": {
-    "intro": {
-      "en": "Type in what you hold and roughly what share of your money each one is. Enter single stocks by ticker (for example NVDA, ORCL). For a Nasdaq-100 fund, type QQQ (or pick NDX-HIGH-EST or NDX-LOW-EST): the check then shows a range between our low and high estimates, because a real fund probably sits in between. For any other fund, enter its largest holdings yourself, plus one line called 'Other' for the rest, which the check counts as not on the map. Everything stays in your browser; nothing is sent anywhere. The result shows how much of your money sits in companies whose mapped deal money comes mostly from a few AI buyers. It describes; it does not judge. Use it to find questions to ask.",
-      "zh": "输入你持有的股票或基金，以及大约各占你资金的比例。单只股票输入代码（如 NVDA、ORCL）。如果是纳斯达克 100 基金，输入 QQQ（或选择 NDX-HIGH-EST、NDX-LOW-EST）即可：检查结果会显示我们低位与高位估算之间的区间，因为真实基金很可能介于两者之间。其他基金可以自己输入它最大的几项持仓，再加一行“Other（其他）”填上剩下的比例，工具会把这一行按“不在图上”处理。所有内容只保存在你的浏览器里，不会发送到任何地方。结果显示你的资金中有多少落在“图上交易资金主要来自少数几家 AI 买家”的公司。它只描述，不评判，用来帮你找出值得问的问题。"
-    },
-    "method": {
-      "en": "For each company we add up the money the live map shows flowing in to it: orders it sells, rent it receives, and investment and loans it gets. We leave out cancelled deals, deals replaced by a newer one, and guarantees (promises to pay only if someone else does not); guarantees are shown separately. Then we work out what share of that money comes from OpenAI, from Anthropic and from the largest single source. Groups of many lenders or investors, such as bond investors, are shown but not counted as one single source. For your portfolio, the tool marks each company that passes a test (for example, more than half from OpenAI and Anthropic) and adds up your money in the marked companies. For a fund, it first spreads your money over the fund's companies using our estimated baskets. Yearly sales are the last four reported quarters. Market value is our estimate: the latest closing price times the number of shares in the latest quarterly report. The deal data and the reference data each show their date at the top of the page.",
-      "zh": "对每家公司，我们把实时关系图上流入它的资金加总：它卖出的订单、收到的租金，以及获得的投资和贷款。已取消的交易、被新交易取代的交易不算；担保（只有在别人不付款时才需要付的承诺）也不算，而是单独列出。然后算出这些资金中来自 OpenAI、来自 Anthropic 以及来自最大单一来源的比例。债券投资者这类由许多放贷方或投资者组成的群体会显示出来，但不算作单一来源。对你的组合，工具会标出通过某项检验的公司（例如一半以上来自 OpenAI 和 Anthropic），再把你在这些公司上的资金加总。如果是基金，先用我们估算的篮子把资金分摊到基金里的各家公司。年营收是最近四个已公布季度的合计。市值是我们的估算：最新收盘价乘以最近季度报告中的股数。交易数据和参考数据的日期都显示在页面顶部。"
-    },
+    "method": {"en": "For each company on the map we add up the counted deals (cancelled deals, deals replaced by a newer one and guarantees are left out of the totals) and compare them with the company's own size: a year of its sales (the last four reported quarters) or its market value (latest close times shares outstanding). Each of six measures gets a band: Low, Elevated or High exposure, at fixed reference lines that come from published rules where one exists. Contract values are spread over their term to compare them with a year of sales (five years when the term is not stated). A measure with no sales or market value to compare against shows 'no data', never Low. For your portfolio, funds are first looked through with our estimated baskets; then the check adds up your money by the band of each company.", "zh": "对图上的每家公司，我们把已计入的交易加总（已取消的交易、被新交易取代的交易和担保不计入总额），再与公司自身规模比较：一年营收（最近四个已公布季度）或市值（最新收盘价乘以流通股数）。六项衡量各自分为低、较高或高暴露，分界线是固定的参考线，有公开规则时取自公开规则。与一年营收比较时，合同金额按合同期限摊开（未写明期限时按五年）。没有营收或市值可比的项目显示“无数据”，绝不算作“低”。对你的组合，先用我们估算的篮子穿透基金，再按每家公司所在的档位把你的资金加总。"},
     "limits": [
       {"en": "The map only shows deals that were announced or filed. It can be late or incomplete, and many deals have no published amount, so they count as zero.", "zh": "关系图只显示已公布或已申报的交易。它可能滞后或不完整，很多交易没有公布金额，因此按零计算。"},
-      {"en": "Big contract numbers are usually spread over many years. They are not one year's sales.", "zh": "大额合同通常分很多年履行，不等于一年的营收。"},
+      {"en": "One very large deal can move a company, and with it your portfolio, across a band. Open the deal behind each High flag and check whether it is confirmed and how many years it runs.", "zh": "一笔特别大的交易就可能让一家公司、进而让你的组合跨过一个档位。请打开每个“高”背后的交易，看看它是否已确认、要履行多少年。"},
       {"en": "Mapped money is only part of a company's business. A company that is not on the map can still depend on AI spending (for example chip-equipment makers such as Applied Materials, Lam Research and KLA).", "zh": "已上图的资金只是公司业务的一部分。不在图上的公司也可能依赖 AI 投资（例如应用材料、泛林、科磊等芯片设备公司）。"},
-      {"en": "The fund baskets are our estimates, not real holdings. For the Nasdaq-100 we give two. The high estimate uses only the AI-related members we can value, weighted by size, so it reads high. The low estimate gives every member the same weight, so it reads low. A real fund weights all its companies by size, so it probably sits in between; QQQ is shown as that range. Our data does not include S&P 500 (SPY) or chip-fund (SOXX) holdings, so the tool cannot look through those funds.", "zh": "基金篮子是我们的估算，不是真实持仓。纳斯达克 100 我们给出两个估算：高位估算只用我们能估值的 AI 相关成分公司，按规模加权，所以结果偏高；低位估算让每家成分公司权重相同，所以结果偏低。真实基金按规模给全部成分公司加权，很可能介于两者之间；输入 QQQ 会按这个区间显示。我们的数据不含标普 500（SPY）或芯片基金（SOXX）的持仓，本工具无法穿透这些基金。"},
-      {"en": "The answer depends on what you count. Counting all money coming in (loans and investment too) can give a very different share from counting only orders and leases. On 10 Nov 2026, for example, OpenAI supplied about 72% of Oracle's mapped money in the first count and about 94% in the second. The tool shows both.", "zh": "答案取决于算什么。算全部流入资金（包括贷款和投资）与只算订单和租约，得出的比例可能差别很大。例如截至 2026 年 11 月 10 日，按前一种算法 OpenAI 约占甲骨文已上图资金的 72%，按后一种约为 94%。本工具两种都显示。"},
-      {"en": "Only direct deals count; indirect links are left out. For example, a company's biggest mapped source can itself depend on OpenAI. Our analysis of 10 Nov 2026 estimated that if OpenAI stopped paying, NVIDIA could lose 44.2% of its mapped money through such knock-on effects, equal to only 9.5% of NVIDIA's yearly sales.", "zh": "只计算直接交易，间接关系不算。例如，一家公司在图上最大的资金来源，本身可能又依赖 OpenAI。我们 2026 年 11 月 10 日的分析估算，如果 OpenAI 停止付款，经过这种连锁影响，英伟达可能损失其已上图资金的 44.2%，但这只相当于它一年营收的 9.5%。"},
-      {"en": "Market value and yearly sales are approximate and come from reference data with its own date. Some companies, often those listed outside the US, have no share count or sales figure in that data; they are left out of the fund baskets or shown without a sales comparison.", "zh": "市值和年营收是近似值，来自有单独日期的参考数据。有些公司（多为在美国以外上市的公司）在这些数据中没有股数或营收，因此没有计入基金篮子，或者显示时不做营收比较。"},
-      {"en": "Deal news did not reliably move share prices in our analysis of 10 Nov 2026. This check describes where mapped money comes from; it does not predict prices and is not investment advice.", "zh": "在我们 2026 年 11 月 10 日的分析中，交易新闻并没有稳定地带动股价。这项检查只描述已上图资金来自哪里，不预测股价，也不构成投资建议。"}
+      {"en": "The fund baskets are our estimates, not the funds' real holdings. The Nasdaq-100 basket weights every member by its approximate market value on the reference date. For other funds, such as S&P 500, chip and technology funds, the check uses the largest holdings the fund provider publishes, with their date and source, and counts the rest of the fund as not looked through. A fund we have no table for counts as not on the map: enter its largest holdings yourself.", "zh": "基金篮子是我们的估算，不是基金的真实持仓。纳斯达克 100 篮子按参考日期的近似市值给每家成分公司加权。对其他基金（如标普 500、芯片和科技基金），检查使用基金公司公布的最大几项持仓（附日期和来源），基金其余部分按“未穿透”处理。没有持仓表的基金按“不在图上”处理：可以自己输入它最大的几项持仓。"},
+      {"en": "Sales and market value are approximate and come from reference data with its own date. Some companies, often those listed outside the US or not yet listed, have no figures there: they show 'no data', which is not the same as Low.", "zh": "营收和市值是近似值，来自有单独日期的参考数据。有些公司（多为在美国以外上市或尚未上市的公司）在其中没有数据，显示为“无数据”，这不等于“低”。"},
+      {"en": "Only direct deals count; knock-on effects are left out. A company's biggest customer can itself depend on OpenAI, and that second step is not in the measures.", "zh": "只计算直接交易，不计连锁影响。一家公司最大的客户本身可能又依赖 OpenAI，这第二步不在各项衡量之内。"},
+      {"en": "Deal news did not reliably move share prices in our analysis of 10 Nov 2026. This check describes exposure on the map; it does not predict prices and is not investment advice.", "zh": "在我们 2026 年 11 月 10 日的分析中，交易新闻并没有稳定地带动股价。这项检查只描述图上的暴露，不预测股价，也不构成投资建议。"}
     ],
     "funds": {
       "QQQ": {
-        "name": {"en": "Nasdaq-100 fund (QQQ): shown as a range", "zh": "纳斯达克 100 基金（QQQ）：按区间显示"},
-        "note": {"en": "QQQ is not looked through directly. The check runs it twice, with the low and the high Nasdaq-100 estimate, and shows the range; a real fund probably sits in between.", "zh": "QQQ 不直接穿透。检查工具分别用纳斯达克 100 的低位和高位估算各算一次，显示两者之间的区间；真实基金很可能介于两者之间。"}
+        "name": {"en": "Nasdaq-100 fund (QQQ)", "zh": "纳斯达克 100 基金（QQQ）"},
+        "note": {"en": "QQQ is looked through with our Nasdaq-100 estimate: every member weighted by its approximate market value. It is our estimate, not the fund's real holdings.", "zh": "QQQ 用我们的纳斯达克 100 估算穿透：每家成分公司按近似市值加权。这是我们的估算，不是基金的真实持仓。"}
       },
       "NDX-HIGH-EST": {
         "name": {"en": "Nasdaq-100 high estimate (only the AI-related members we can value)", "zh": "纳斯达克 100 高位估算（只含我们能估值的 AI 相关成分公司）"},
-        "note": {"en": "Our estimate, not the real fund. Our reference data has share counts for only some Nasdaq-100 companies, mostly AI-related ones such as NVIDIA, Microsoft, Alphabet, Amazon, Meta and Broadcom. We weight those by approximate market value and leave the other members, such as Apple, Tesla, Costco and Netflix, out. So this basket gives the AI-related names far more weight than a real fund does: treat it as the high end. The low estimate (equal weight) is the other end; a real fund probably sits in between.", "zh": "这是我们的估算，不是真实基金。我们的参考数据只有部分纳斯达克 100 成分公司的股数，且多为 AI 相关公司，如英伟达、微软、谷歌、亚马逊、Meta、博通。我们按近似市值给这些公司加权，其余成分公司（如苹果、特斯拉、Costco、Netflix）没有计入。所以这个篮子给 AI 相关公司的权重远高于真实基金，应把它看作上限。低位估算（等权）是另一端；真实基金很可能介于两者之间。"}
+        "note": {"en": "Our estimate, not the real fund. Our reference data has share counts for only some Nasdaq-100 companies, mostly AI-related ones such as NVIDIA, Microsoft, Alphabet, Amazon, Meta and Broadcom. We weight those by approximate market value and leave the other members, such as Apple, Tesla, Costco and Netflix, out. So this basket gives the AI-related names far more weight than a real fund does: treat it as the high end. The low estimate (equal weight) is the other end; a real fund probably sits in between.", "zh": "这是我们的估算，不是真实基金。我们的参考数据只有部分纳斯达克 100 成分公司的股数，且多为 AI 相关公司，如英伟达、微软、谷歌、亚马逊、Meta、博通。我们按近似市值给这些公司加权，其余成分公司（如苹果、特斯拉、Costco、Netflix）没有计入。所以这个篮子给 AI 相关公司的权重远高于真实基金，应把它看作上限。低位估算（等权）是另一端；真实基金很可能介于两者之间。"},
+        "name_one": {"en": "Nasdaq-100 estimate (every member we can value, by market value)", "zh": "纳斯达克 100 估算（全部可估值成分公司，按市值加权）"},
+        "note_one": {"en": "Our estimate, not the real fund: each Nasdaq-100 member weighted by its approximate market value (latest close times shares outstanding).", "zh": "这是我们的估算，不是真实基金：每家纳斯达克 100 成分公司按近似市值（最新收盘价乘以流通股数）加权。"}
       },
       "NDX-LOW-EST": {
         "name": {"en": "Nasdaq-100 low estimate (every member, equal weight)", "zh": "纳斯达克 100 低位估算（全部成分公司，等权）"},
@@ -474,148 +482,104 @@
         "note": {"en": "Our estimate: the names in the project's AI-infrastructure study list (chips, cloud, data centres, power, networking) that we can value, weighted by approximate market value. It is a study list, not a fund you can buy; real AI or chip funds hold different companies in different amounts.", "zh": "这是我们的估算：项目 AI 基础设施研究名单中我们能估值的公司（芯片、云、数据中心、电力、网络），按近似市值加权。它是研究名单，不是可以买到的基金；真实的 AI 或芯片基金持有的公司和比例都不同。"}
       },
       "SPY": {
-        "name": {"en": "S&P 500 fund (SPY): cannot be looked through", "zh": "标普 500 基金（SPY）：无法穿透"},
-        "note": {"en": "Our data does not include S&P 500 holdings, so it counts as not on the map. Enter the fund's largest holdings instead, plus an 'Other' line.", "zh": "我们的数据不含标普 500 的持仓，因此按“不在图上”处理。可改为输入基金最大的几项持仓，再加一行“Other（其他）”。"}
+        "name": {"en": "S&P 500 fund (SPY)", "zh": "标普 500 基金（SPY）"},
+        "note": {"en": "Looked through with the fund provider's published largest holdings when we have them, with their date; the rest of the fund counts as not on the map.", "zh": "如有基金公司公布的最大几项持仓（附日期），就用它们穿透；基金其余部分按“不在图上”处理。"}
       },
       "SOXX": {
-        "name": {"en": "Chip fund (SOXX): cannot be looked through", "zh": "芯片基金（SOXX）：无法穿透"},
-        "note": {"en": "Our data does not include this fund's holdings, so it counts as not on the map. Enter the fund's largest holdings instead, plus an 'Other' line.", "zh": "我们的数据不含这只基金的持仓，因此按“不在图上”处理。可改为输入基金最大的几项持仓，再加一行“Other（其他）”。"}
+        "name": {"en": "Chip fund (SOXX)", "zh": "芯片基金（SOXX）"},
+        "note": {"en": "Looked through with the fund provider's published largest holdings when we have them, with their date; the rest of the fund counts as not on the map.", "zh": "如有基金公司公布的最大几项持仓（附日期），就用它们穿透；基金其余部分按“不在图上”处理。"}
       }
     },
-    "bands": [
-      {
-        "key": "labs_majority", "level": "company",
-        "rule": {"en": "OpenAI and Anthropic together supply more than 50% of the counted money the map shows coming in to the company (orders, rent, investment and loans).", "zh": "在关系图显示流入该公司的已计入资金（订单、租金、投资和贷款）中，OpenAI 和 Anthropic 合计占一半以上。"},
-        "label": {"en": "Mostly OpenAI / Anthropic money", "zh": "主要来自 OpenAI / Anthropic"},
-        "reason": {"en": "More than half means most of the mapped money comes from these two buyers. Half is a simple, common line for 'depends mainly on'.", "zh": "超过一半意味着已上图的资金大部分来自这两家买方。“一半”是衡量“主要依赖”的一条简单、常用的线。"}
-      },
-      {
-        "key": "labs_majority_customers", "level": "company",
-        "rule": {"en": "Same test, counting only orders and leases (what customers buy or rent), not investment or loans.", "zh": "同样的检验，但只算订单和租约（客户购买或租用的部分），不算投资和贷款。"},
-        "label": {"en": "Mostly OpenAI / Anthropic customers", "zh": "客户主要是 OpenAI / Anthropic"},
-        "reason": {"en": "Loans and share sales are not sales to customers. Leaving them out shows how much of the mapped business comes from the two labs, and the share is often higher.", "zh": "贷款和发行股票不是对客户的销售。把它们去掉，可以看出已上图的业务有多少来自这两家实验室，比例往往更高。"}
-      },
-      {
-        "key": "labs_majority_and_large", "level": "company",
-        "rule": {"en": "In the first group, and its incoming orders and leases are also worth at least one year of its sales.", "zh": "属于第一组，并且流入的订单和租约至少相当于它一年的营收。"},
-        "label": {"en": "Mostly OpenAI / Anthropic, and big next to sales", "zh": "主要来自 OpenAI / Anthropic，且相对营收很大"},
-        "reason": {"en": "A company can get most of its mapped money from one buyer while that money is small next to its whole business. Adding the sales test keeps only the cases where the mapped deals are large for the company.", "zh": "一家公司的已上图资金可能大部分来自某个买方，但这笔钱相对它的全部业务很小。加上营收检验，只留下已上图交易对公司来说很大的情况。"}
-      },
-      {
-        "key": "one_source_majority", "level": "company",
-        "rule": {"en": "One single company or government supplies more than 50% of the counted money coming in. Groups of many lenders, such as bond investors or a bank group, do not count as one source.", "zh": "某一家公司或政府提供了流入资金的一半以上。由许多出资方组成的群体（例如债券投资者或银行贷款团）不算作单一来源。"},
-        "label": {"en": "One source is more than half", "zh": "单一来源超过一半"},
-        "reason": {"en": "This catches dependence on any single buyer or funder, not only the two AI labs: a company's largest source can be another chip maker or cloud company.", "zh": "这一项捕捉对任何单一买方或出资方的依赖，而不只是两家 AI 实验室：一家公司最大的来源也可能是另一家芯片厂商或云计算公司。"}
-      },
-      {
-        "key": "contracts_over_year_sales", "level": "company",
-        "rule": {"en": "Incoming orders and leases on the map add up to at least one year of the company's sales (last 12 months).", "zh": "关系图上流入的订单和租约合计至少相当于公司一年的营收（过去 12 个月）。"},
-        "label": {"en": "Mapped orders bigger than a year of sales", "zh": "已上图订单超过一年营收"},
-        "reason": {"en": "One year of sales is an easy yardstick for 'big for this company'. Contracts usually run for several years, so this is not the same as next year's sales.", "zh": "“一年营收”是衡量“对这家公司来说很大”的简单尺子。合同通常分多年履行，所以这不等于明年的营收。"}
-      },
-      {
-        "key": "no_inflow", "level": "company",
-        "rule": {"en": "No counted money comes in to the company on the map, or the company is not on the map at all.", "zh": "关系图上没有计入金额的资金流入该公司，或者该公司根本不在图上。"},
-        "label": {"en": "No mapped money coming in", "zh": "没有已上图的资金流入"},
-        "reason": {"en": "Shows how much of your money the map says nothing about. It does not mean those companies have no link to AI spending.", "zh": "显示你的资金中有多少是关系图无法说明的。这并不代表这些公司与 AI 投资无关。"}
-      },
-      {
-        "key": "not_on_map", "level": "company",
-        "rule": {"en": "The company has no record on the map.", "zh": "该公司在关系图上没有记录。"},
-        "label": {"en": "Not on the map", "zh": "不在图上"},
-        "reason": {"en": "Part of the group above, shown on its own so you can see coverage.", "zh": "属于上一组的一部分，单独列出，方便看清覆盖范围。"}
-      },
-      {
-        "key": "fund_not_covered", "level": "company",
-        "rule": {"en": "A fund whose holdings are not in our data (S&P 500 / SPY, chip fund SOXX).", "zh": "持仓不在我们数据中的基金（标普 500 / SPY、芯片基金 SOXX）。"},
-        "label": {"en": "Fund we cannot look through", "zh": "无法穿透的基金"},
-        "reason": {"en": "We do not invent holdings. Look up the fund's holdings on its provider's website and enter the largest ones yourself.", "zh": "我们不编造持仓。请到基金公司网站查它的持仓，自己输入其中最大的几只。"}
-      },
-      {
-        "key": "size_small", "level": "portfolio", "min": 0.0, "max": 0.1,
-        "rule": {"en": "Under 10% of the portfolio.", "zh": "不到组合的 10%。"},
-        "label": {"en": "a small part", "zh": "一小部分"},
-        "reason": {"en": "These words only describe how big a part of your money it is. The cut-offs are round numbers chosen to be easy to read; they do not say whether that is good or bad for you, or whether you should change anything.", "zh": "这些说法只描述这部分资金有多大。分界线取整数只是为了好读，并不表示这对你是好是坏，也不表示你需要做任何调整。"}
-      },
-      {
-        "key": "size_noticeable", "level": "portfolio", "min": 0.1, "max": 0.25,
-        "rule": {"en": "10% to under 25% of the portfolio.", "zh": "占组合的 10% 至 25%（不含 25%）。"},
-        "label": {"en": "a noticeable part", "zh": "不小的一部分"},
-        "reason": {"en": "These words only describe how big a part of your money it is. The cut-offs are round numbers chosen to be easy to read; they do not say whether that is good or bad for you, or whether you should change anything.", "zh": "这些说法只描述这部分资金有多大。分界线取整数只是为了好读，并不表示这对你是好是坏，也不表示你需要做任何调整。"}
-      },
-      {
-        "key": "size_large", "level": "portfolio", "min": 0.25, "max": 0.5,
-        "rule": {"en": "25% to under 50% of the portfolio.", "zh": "占组合的 25% 至 50%（不含 50%）。"},
-        "label": {"en": "a large part", "zh": "很大一部分"},
-        "reason": {"en": "These words only describe how big a part of your money it is. The cut-offs are round numbers chosen to be easy to read; they do not say whether that is good or bad for you, or whether you should change anything.", "zh": "这些说法只描述这部分资金有多大。分界线取整数只是为了好读，并不表示这对你是好是坏，也不表示你需要做任何调整。"}
-      },
-      {
-        "key": "size_most", "level": "portfolio", "min": 0.5, "max": 1.0000001,
-        "rule": {"en": "50% of the portfolio or more.", "zh": "占组合的 50% 或以上。"},
-        "label": {"en": "half or more", "zh": "一半或以上"},
-        "reason": {"en": "These words only describe how big a part of your money it is. The cut-offs are round numbers chosen to be easy to read; they do not say whether that is good or bad for you, or whether you should change anything.", "zh": "这些说法只描述这部分资金有多大。分界线取整数只是为了好读，并不表示这对你是好是坏，也不表示你需要做任何调整。"}
-      }
-    ],
     "hand_steps": [
       {"en": "Write down what you hold and what percent of your total each one is. For a fund, look up its 10 largest holdings on the fund provider's website.", "zh": "写下你持有的每一项，以及它占你总资金的百分比。如果是基金，到基金公司网站查它的前 10 大持仓。"},
-      {"en": "Open the live map (https://heyneww.github.io/GL-AI-live/), search for each company and open its panel. Note the money coming in and who it comes from. Cancelled and replaced deals are already left out of the totals.", "zh": "打开实时关系图（https://heyneww.github.io/GL-AI-live/），逐一搜索每家公司并打开它的面板，记下流入的资金以及来自谁。已取消和被取代的交易已经不计入总额。"},
-      {"en": "For each company, work out what share of the money coming in is from OpenAI and Anthropic, and what share is from its largest single source. Leave guarantees aside.", "zh": "对每家公司，算出流入资金中来自 OpenAI 和 Anthropic 的比例，以及来自最大单一来源的比例。担保先放在一边。"},
-      {"en": "Mark the companies where that share is more than 50%, then add up their percent of your portfolio. For a fund, multiply your fund amount by the company's weight in the fund.", "zh": "标出比例超过 50% 的公司，再把它们占你组合的百分比加起来。如果是基金，用你在这只基金上的金额乘以该公司在基金中的权重。"},
-      {"en": "Compare each marked company's incoming orders with its yearly sales (from its annual report), and remember that contracts run for several years.", "zh": "把每家被标出公司的流入订单和它的年营收（见年报）比较，并记住合同要分多年履行。"},
+      {"en": "Open the live map (https://heyneww.github.io/GL-AI-live/), search for each company and open its panel. Note the orders and leases coming in, who they come from and how many years they run, the debt it has taken and the guarantees it has given. Cancelled and replaced deals are already left out of the totals.", "zh": "打开实时关系图（https://heyneww.github.io/GL-AI-live/），逐一搜索每家公司并打开它的面板，记下流入的订单和租约、来自谁、要履行多少年，以及它借入的债务和提供的担保。已取消和被取代的交易已经不计入总额。"},
+      {"en": "Look up the company's sales for the last four quarters and its market value. Divide the largest customer's orders per year by a year of sales, and all customer orders by the market value.", "zh": "查出公司最近四个季度的营收和市值。用最大客户每年的订单金额除以一年营收，再用全部客户订单除以市值。"},
+      {"en": "Compare each figure with the reference lines in 'How the exposure check works' above, and count how many are High.", "zh": "把每个数字与上面“暴露检查的方法”中的参考线比较，数一数有几项为“高”。"},
+      {"en": "Add up the percent of your portfolio in companies with two or more High figures. For a fund, multiply your fund amount by the company's weight in the fund.", "zh": "把你的组合中落在两项或以上为“高”的公司的百分比加起来。如果是基金，用你在这只基金上的金额乘以该公司在基金中的权重。"},
       {"en": "Open the sources behind the biggest deals: is each one in a company filing or only in the news, and how old is it? Write down your questions; if you want help applying this to your own situation, consider a licensed financial adviser.", "zh": "打开最大几笔交易背后的来源：它们出自公司文件还是只是新闻报道？是多久以前的？把你的问题记下来；如果想把这些应用到自己的情况，可以考虑咨询持牌理财顾问。"}
-    ]
+    ],
+    "company_rule": {"en": "A company has High exposure when two or more measures are High, or when the credit-market measure alone is High; Elevated when one measure is High or two are Elevated; Low otherwise. Rating on the single worst measure was tested and rejected: it marked most big technology companies on one moderate figure. Lenders such as banks and asset managers are not rated: the map records the money they lend, not what they depend on.", "zh": "一家公司在两项或以上为“高”，或仅信用市场一项为“高”时，为高暴露；一项为“高”或两项为“较高”时，为较高暴露；其余为低暴露。我们也测试过按最差一项评定，但这样大多数大型科技公司会因一个中等数字被标出，所以没有采用。银行、资产管理公司等放贷方不评级：关系图记录的是它们借出的钱，而不是它们依赖谁。"},
+    "portfolio_rule": {"en": "Your portfolio's exposure is Concentrated when 25% or more of your money is in High-exposure companies; Notable when 10% or more is in High, or 40% or more is in High and Elevated together; Limited otherwise. The 25% line follows the US fund diversification test (no more than 25% in one issuer) and the Basel large-exposure limit; 10% and 40% follow the EU fund rule (UCITS 5/10/40). Money in companies that are not on the map, or have no data, is shown separately and never counted as Low.", "zh": "当你的资金有 25% 或以上落在高暴露公司时，组合暴露为“集中”；高暴露达 10% 或以上，或高与较高合计达 40% 或以上时，为“值得关注”；其余为“有限”。25% 这条线参照美国基金分散投资检验（单一发行人不超过 25%）和巴塞尔大额风险暴露限额；10% 和 40% 参照欧盟基金规则（UCITS 5/10/40）。不在图上或无数据的公司中的资金单独列出，绝不算作“低”。"},
+    "evidence": {"en": "Next to each company the check also shows how much of its mapped money is only reported in the news rather than confirmed by a company filing or release. This is a note on the evidence, not a measure of exposure.", "zh": "检查还会在每家公司旁边显示：它的已上图资金中有多少只有媒体报道、没有公司文件或公告确认。这是对依据的说明，不是暴露衡量。"},
+    "not_advice": {"en": "The check describes; it does not judge. 'High exposure' means a deal figure is large next to a reference line, not that a company is risky, cheap or expensive, and not that you should buy, sell or hold anything. It is general information, not personal investment advice. If you are unsure what suits you, consider talking to a licensed financial adviser.", "zh": "本检查只描述，不评判。“高暴露”是指某个交易数字相对参考线很大，并不表示公司有风险、便宜或昂贵，也不表示你应该买入、卖出或持有任何东西。它是一般信息，不是针对个人的投资建议。如果不确定什么适合自己，可以考虑咨询持牌理财顾问。"},
+    "dims": {
+      "who_pays": {
+        "name": {"en": "Who pays", "zh": "谁在付款"},
+        "measure": {"en": "The largest named customer's orders and leases per year, or all model labs, neoclouds and AI special purpose vehicles (SPVs) together if that is more, against a year of the company's sales.", "zh": "最大具名客户每年的订单和租约金额（若所有模型实验室、新型云服务商和 AI 特殊目的实体（SPV）合计更大，则取合计），与公司一年营收相比。"},
+        "anchor": {"en": "10%: US accounting rule (ASC 280) that a company must disclose any customer worth 10% or more of its sales. 25%: the Basel large-exposure limit for banks and loan covenants that cap any one customer at 25%.", "zh": "10%：美国会计准则 ASC 280 要求公司披露占营收 10% 及以上的客户。25%：巴塞尔银行大额风险暴露限额，以及把单一客户上限定为 25% 的贷款条款。"},
+        "links": [
+          {"label": "Deloitte DART, ASC 280 major customers", "url": "https://dart.deloitte.com/USDART/home/codification/presentation/asc280-10/roadmap-segment-reporting/chapter-5-entity-wide-disclosures/5-7-information-about-major-customers"},
+          {"label": "BCBS 283, large exposures", "url": "https://www.bis.org/publ/bcbs283.htm"}
+        ]
+      },
+      "size": {
+        "name": {"en": "Size against the company", "zh": "相对公司规模"},
+        "measure": {"en": "All counted customer orders and leases (full contract value) against the company's market value.", "zh": "全部已计入的客户订单和租约（合同全额），与公司市值相比。"},
+        "anchor": {"en": "No external standard. 1× means the contracts on the map are worth more than the whole company; 0.25× is a quarter of it.", "zh": "没有外部标准。1 倍表示图上的合同比整家公司还值钱；0.25 倍是它的四分之一。"},
+        "links": []
+      },
+      "borrowed": {
+        "name": {"en": "Borrowed money", "zh": "借入资金"},
+        "measure": {"en": "Debt, vendor financing and leases the company has taken on the map, against that amount plus its market value (debt to capital).", "zh": "公司在图上借入的债务、供应商融资和租赁，与这笔金额加上市值之和相比（债务资本比）。"},
+        "anchor": {"en": "S&P Global Ratings' debt-to-capital bands: 35% is the top of 'modest', 50% the start of 'aggressive'.", "zh": "标普全球评级的债务资本比区间：35% 是“适度”的上限，50% 是“激进”的起点。"},
+        "links": [
+          {"label": "S&P, Business Risk / Financial Risk Matrix Expanded (2009), Table 2", "url": "https://www.efis.psc.mo.gov/Document/Display/44676"}
+        ]
+      },
+      "circular": {
+        "name": {"en": "Circular money", "zh": "循环资金"},
+        "measure": {"en": "Customer orders and leases that are one leg of a circular loop on the map (money that goes round between the same companies), against a year of sales.", "zh": "属于图上循环链条一环的客户订单和租约（在同几家公司之间转圈的资金），与一年营收相比。"},
+        "anchor": {"en": "No external standard. 100% means a year of sales or more comes back through the company's own investments or financing.", "zh": "没有外部标准。100% 表示一年或以上的营收经由公司自己的投资或融资又流了回来。"},
+        "links": []
+      },
+      "guarantees": {
+        "name": {"en": "Guarantees given", "zh": "提供的担保"},
+        "measure": {"en": "Live guarantees the company has given (promises to pay if someone else does not), against its market value.", "zh": "公司提供且仍有效的担保（别人不付款时由它代付的承诺），与公司市值相比。"},
+        "anchor": {"en": "Basel large-exposure rules: an exposure of 10% of capital is 'large'; 25% is the limit.", "zh": "巴塞尔大额风险暴露规则：达到资本 10% 即为“大额”；25% 为上限。"},
+        "links": [{"label": "BCBS 283, large exposures", "url": "https://www.bis.org/publ/bcbs283.htm"}]
+      },
+      "cds": {
+        "name": {"en": "Credit market", "zh": "信用市场"},
+        "measure": {"en": "The latest 5-year credit default swap (CDS) price quoted in the news, if it is no more than 90 days old: what lenders charge to insure the company's debt.", "zh": "新闻中报道的最新 5 年期信用违约互换（CDS）价格（不超过 90 天）：放贷方为公司债务投保要付的价格。"},
+        "anchor": {"en": "Moody's median 5-year CDS by rating: about 55 bp for Baa, 160 bp for Ba and 260 bp for B. 100 bp sits between the lowest investment grade and Ba; 250 bp is typical of a B rating.", "zh": "穆迪按评级统计的 5 年期 CDS 中位数：Baa 约 55 个基点，Ba 约 160 个基点，B 约 260 个基点。100 个基点介于最低投资级和 Ba 之间；250 个基点是 B 级的典型水平。"},
+        "links": [
+          {"label": "Moody's, Cross-Sector: Market Data Highlights (Feb 2021)", "url": "https://finance.yahoo.com/news/cross-sector-market-data-highlights-170407829.html"}
+        ]
+      }
+    }
   },
   "examples": [
     {
       "title": {"en": "Example A (hypothetical): all in a Nasdaq-100 fund", "zh": "示例 A（假设）：全部买纳斯达克 100 基金"},
-      "holdings": [{"id": "NDX-HIGH-EST", "weight": 100}],
-      "text": {
-        "en": "Our two estimates for a Nasdaq-100 fund give different answers, and a real fund probably sits somewhere in between. With the high estimate (only the AI-related members we can value, weighted by size), {ex_labs50_hi} of the money sits in companies that get more than half of their mapped deal money from OpenAI and Anthropic together. With the low estimate (every member weighted equally), it is {ex_labs50_lo}: many members, such as Costco and Netflix, have no mapped AI deals, but this estimate also gives Microsoft no more weight than a small company. A real fund weights companies by size, so its figure probably lies between {ex_labs50_lo} and {ex_labs50_hi}.",
-        "zh": "我们对纳斯达克 100 基金做了两个估算，结果不同，真实基金很可能介于两者之间。按高位估算（只含我们能估值的 AI 相关成分公司，按规模加权），有 {ex_labs50_hi} 的资金落在“已上图资金一半以上合计来自 OpenAI 和 Anthropic”的公司。按低位估算（每家成分公司权重相同），则是 {ex_labs50_lo}：Costco、Netflix 等许多成分公司在图上没有 AI 交易，但这个估算也让微软的权重和一家小公司一样。真实基金按公司规模加权，所以它的数字很可能在 {ex_labs50_lo} 和 {ex_labs50_hi} 之间。"
-      },
-      "next": {
-        "en": "Load this example into the check: it runs both estimates and shows the range, with the table for the high one. To get closer to your real fund, look up its largest holdings and their weights on the provider's website, enter them in the check, and add one line called 'Other' with the rest, which the check counts as not on the map. Then open Microsoft, Amazon and Broadcom on the live map: which deals make up the OpenAI and Anthropic share, and is each one confirmed by a company filing or only reported in the news?",
-        "zh": "把这个示例载入检查工具：它会用两个估算各算一次并显示区间，表格按高位估算列出。想更接近你手里的真实基金，可以到基金公司网站查它最大的几项持仓及权重，输入检查工具，再加一行“Other（其他）”填上剩下的比例，工具会把它按“不在图上”处理。然后在实时关系图上打开微软、亚马逊和博通：OpenAI 和 Anthropic 的份额由哪些交易构成？每笔交易是有公司公告或文件确认，还是只是媒体报道？"
-      }
+      "short": {"en": "Nasdaq-100 fund", "zh": "纳斯达克 100 基金"},
+      "holdings": [{"id": "QQQ", "weight": 100}],
+      "text": {"en": "Today the check labels this example {ex_label}: {ex_high} of the money is in companies with High exposure ({ex_names}) and {ex_elev} in Elevated ones. Most of an index fund is in companies the map says little about: {ex_off} is not on the map and {ex_nodata} has no data.", "zh": "今天检查把这个示例标为“{ex_label}”：有 {ex_high} 的资金落在高暴露公司（{ex_names}），{ex_elev} 落在较高暴露公司。指数基金的大部分资金落在关系图很少涉及的公司：{ex_off} 不在图上，{ex_nodata} 无数据。"},
+      "next": {"en": "Look at which members carry the High flags and open them on the map: which deals are behind the flags, and are they confirmed by a filing or only reported? To get closer to your real fund, enter its largest holdings and their weights from the provider's website instead.", "zh": "看看是哪些成分公司带有“高”，并在关系图上打开它们：这些“高”背后是哪些交易？它们有公司文件确认，还是只有媒体报道？想更接近你手里的真实基金，可以改为输入基金公司网站上列出的最大几项持仓及其权重。"}
     },
     {
       "title": {"en": "Example B (hypothetical): 60% Nasdaq-100 fund + 40% in five AI stocks", "zh": "示例 B（假设）：60% 纳斯达克 100 基金 + 40% 五只 AI 股票"},
+      "short": {"en": "60/40 index + AI stocks", "zh": "60/40 指数 + AI 股票"},
       "holdings": [
-        {"id": "NDX-HIGH-EST", "weight": 60},
+        {"id": "QQQ", "weight": 60},
         {"id": "NVDA", "weight": 8},
         {"id": "MSFT", "weight": 8},
         {"id": "ORCL", "weight": 8},
         {"id": "AVGO", "weight": 8},
         {"id": "AMD", "weight": 8}
       ],
-      "text": {
-        "en": "With the high Nasdaq-100 estimate, {ex_labs50_hi} of this example portfolio sits in companies that get more than half of their mapped deal money from OpenAI and Anthropic together; with the low estimate, {ex_labs50_lo}. The five stocks held directly count the same in both estimates; only the fund part changes. So the real figure probably lies between {ex_labs50_lo} and {ex_labs50_hi}. The Nasdaq-100 also holds four of the five stocks (NVIDIA, Microsoft, Broadcom and AMD), so this portfolio owns them twice: once through the fund and once directly. The table in the check shows which companies pass each test today.",
-        "zh": "按纳斯达克 100 高位估算，这个示例组合有 {ex_labs50_hi} 落在“已上图资金一半以上合计来自 OpenAI 和 Anthropic”的公司；按低位估算则是 {ex_labs50_lo}。直接持有的五只股票在两种估算中算法相同，变化的只是基金部分。所以真实数字很可能在 {ex_labs50_lo} 和 {ex_labs50_hi} 之间。纳斯达克 100 本身也持有五只股票中的 4 只（英伟达、微软、博通、AMD），所以这个组合通过基金和直接持有，把这些公司持有了两次。检查工具的表格会显示当天哪些公司通过了各项检验。"
-      },
-      "next": {
-        "en": "Ask yourself whether you knew your fund already holds most of these stocks. Compare Oracle's and Broadcom's incoming orders with their yearly sales and read how many years those contracts run. Look at the 'Guarantees given' column for Broadcom and NVIDIA: these promises are left out of the totals.",
-        "zh": "问问自己：你是否知道基金里已经持有这些股票中的大部分？把甲骨文和博通流入的订单与它们的年营收比较，并看看这些合同要履行多少年。也看看表格中博通和英伟达的“提供的担保”一栏：这些承诺没有计入总额。"
-      }
+      "text": {"en": "Today the check labels this example {ex_label}: {ex_high} of the money is in High-exposure companies ({ex_names}) and {ex_elev} in Elevated ones. The Nasdaq-100 also holds four of the five stocks, so this portfolio owns them twice: once through the fund and once directly. A single large contract can move one of these companies across a band, and the portfolio with it.", "zh": "今天检查把这个示例标为“{ex_label}”：有 {ex_high} 的资金落在高暴露公司（{ex_names}），{ex_elev} 落在较高暴露公司。纳斯达克 100 本身也持有五只股票中的 4 只，所以这个组合通过基金和直接持有，把它们持有了两次。一份大合同就可能让其中某家公司跨过一个档位，组合也随之变化。"},
+      "next": {"en": "Open each High-exposure company in the holdings list: which measures are High, and which deal is behind each? Compare how many years those contracts run, and look at the guarantees the chip makers have given.", "zh": "在逐项持仓中展开每家高暴露公司：哪几项为“高”？各自背后是哪笔交易？比较这些合同要履行多少年，也看看芯片公司提供了哪些担保。"}
     },
     {
       "title": {"en": "Example C (hypothetical): four AI-infrastructure stocks, equal amounts", "zh": "示例 C（假设）：四只 AI 基础设施股票，等额持有"},
-      "holdings": [
-        {"id": "CRWV", "weight": 25},
-        {"id": "ORCL", "weight": 25},
-        {"id": "NBIS", "weight": 25},
-        {"id": "IREN", "weight": 25}
-      ],
-      "text": {
-        "en": "{ex_labs50} of this example portfolio sits in companies that get more than half of their mapped deal money from OpenAI and Anthropic together. The 50% line is only one view: the same few payers can show up again and again across the four companies without any one of them passing it. In our analysis of 10 Nov 2026, Meta supplied about 30% of CoreWeave's mapped money and 46% of Nebius's, and Microsoft about 37% of IREN's and 27% of Nebius's. The table in the check shows today's largest source for each of the four.",
-        "zh": "这个示例组合有 {ex_labs50} 落在“已上图资金一半以上合计来自 OpenAI 和 Anthropic”的公司。50% 这条线只是一个角度：同样几家付款方可能在这四家公司中反复出现，却没有一家超过这条线。在我们 2026 年 11 月 10 日的分析中，Meta 约占 CoreWeave 已上图资金的 30%、Nebius 的 46%；微软约占 IREN 的 37%、Nebius 的 27%。检查工具的表格会显示这四家公司当天各自最大的来源。"
-      },
-      "next": {
-        "en": "Open each company on the live map and list its buyers. Ask yourself how much of these four holdings would be affected if one buyer, such as Meta, Microsoft or OpenAI, changed its plans. Check how many years the contracts run, and where the check shows no sales figure, look it up in the company's own reports. If you are unsure what level of concentration suits you, consider talking to a licensed financial adviser.",
-        "zh": "在实时关系图上逐一打开这几家公司，列出它们的买方。问问自己：如果 Meta、微软或 OpenAI 中的某一家改变计划，这四只持仓中会有多少受影响？查一查合同要履行多少年；如果检查工具显示没有营收数据，可以到公司自己的报告里查。如果不确定多大程度的集中适合自己，可以考虑咨询持牌理财顾问。"
-      }
+      "short": {"en": "AI infrastructure", "zh": "AI 基础设施"},
+      "holdings": [{"id": "CRWV", "weight": 25}, {"id": "ORCL", "weight": 25}, {"id": "NBIS", "weight": 25}, {"id": "IREN", "weight": 25}],
+      "text": {"en": "Today the check labels this example {ex_label}: {ex_high} of the money is in High-exposure companies ({ex_names}). These companies have signed contracts that are large next to their own sales and market value, and several have borrowed heavily to build data centres. Where a company shows 'no data', the check cannot measure it at all ({ex_nodata} of this example): that is not the same as Low.", "zh": "今天检查把这个示例标为“{ex_label}”：有 {ex_high} 的资金落在高暴露公司（{ex_names}）。这些公司签下的合同相对自身营收和市值都很大，其中几家还为建数据中心大量借款。显示“无数据”的公司根本无法衡量（本示例中占 {ex_nodata}），这不等于“低”。"},
+      "next": {"en": "Look at 'Who your portfolio depends on': the same few buyers can show up behind all four companies. Ask how much of these holdings would be affected if one of them changed its plans, and check how many years the contracts run. If you are unsure what level of concentration suits you, consider talking to a licensed financial adviser.", "zh": "看看“你的组合依赖谁”：同样几家买方可能同时出现在这四家公司背后。问问自己：如果其中一家改变计划，这些持仓会有多少受影响？查一查合同要履行多少年。如果不确定多大程度的集中适合自己，可以考虑咨询持牌理财顾问。"}
     },
     {
       "title": {"en": "Example D (hypothetical): five big tech names, equal amounts", "zh": "示例 D（假设）：五家科技巨头，等额持有"},
+      "short": {"en": "Big tech five", "zh": "五大科技股"},
       "holdings": [
         {"id": "AAPL", "weight": 20},
         {"id": "MSFT", "weight": 20},
@@ -623,18 +587,9 @@
         {"id": "GOOGL", "weight": 20},
         {"id": "META", "weight": 20}
       ],
-      "text": {
-        "en": "{ex_labs50} of this example portfolio sits in companies that get more than half of their mapped deal money from OpenAI and Anthropic together. Many people see these as everyday big-tech names, yet the map shows how much of their mapped deal money comes from the two AI labs, and the check's table compares their mapped orders with a year of their sales. On 10 Nov 2026, Apple's only mapped money coming in was from bond investors.",
-        "zh": "这个示例组合有 {ex_labs50} 落在“已上图资金一半以上合计来自 OpenAI 和 Anthropic”的公司。很多人把这几家看作普通的科技巨头，但关系图能显示它们在图上的交易资金有多少来自这两家 AI 实验室，检查工具的表格也会把它们的已上图订单与一年营收作比较。截至 2026 年 11 月 10 日，苹果唯一的已上图资金流入来自债券投资者。"
-      },
-      "next": {
-        "en": "Check which deals put Microsoft, Amazon and Alphabet in these groups and how big they are next to each company's yearly sales. Remember that these companies also sell many things the map does not show, such as software, online shopping, phones and advertising.",
-        "zh": "看看是哪些交易让微软、亚马逊和谷歌进入这些组，以及这些交易相对各公司年营收有多大。也要记住，这些公司还卖很多关系图没有显示的东西，比如软件、网购、手机和广告。"
-      }
+      "text": {"en": "Today the check labels this example {ex_label}: {ex_high} of the money is in High-exposure companies and {ex_elev} in Elevated ones. These companies are on the map as buyers, sellers and investors, but their mapped deals are mostly small next to their very large sales and market values, which is why most of them show Low exposure even when much of their mapped money comes from the AI labs.", "zh": "今天检查把这个示例标为“{ex_label}”：有 {ex_high} 的资金落在高暴露公司，{ex_elev} 落在较高暴露公司。这些公司在图上既是买方、卖方，也是投资方，但它们的已上图交易相对其巨大的营收和市值大多很小，所以即使它们的已上图资金很多来自 AI 实验室，多数仍显示为低暴露。"},
+      "next": {"en": "Expand Microsoft in the holdings list and see which measure is not Low and which deals are behind it. Remember that these companies also sell many things the map does not show, such as software, online shopping, phones and advertising.", "zh": "在逐项持仓中展开微软，看看哪一项不是“低”，背后是哪些交易。也要记住，这些公司还卖很多关系图没有显示的东西，比如软件、网购、手机和广告。"}
     }
   ],
-  "footer": {
-    "en": "General information, not investment advice: this guide describes public deal data and does not tell anyone to buy, sell or hold any security or fund, and it makes no price forecasts. Fund contents are our estimates.",
-    "zh": "仅为一般信息，不构成投资建议：本指南描述公开交易数据，不建议任何人买入、卖出或持有任何证券或基金，也不做任何价格预测。基金成分是我们的估算。"
-  }
+  "footer": {"en": "General information, not investment advice: this guide describes public deal data and does not tell anyone to buy, sell or hold any security or fund, and it makes no price forecasts. Fund contents are our estimates.", "zh": "仅为一般信息，不构成投资建议：本指南描述公开交易数据，不建议任何人买入、卖出或持有任何证券或基金，也不做任何价格预测。基金成分是我们的估算。"}
 }

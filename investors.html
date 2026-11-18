@@ -7,12 +7,12 @@
      investors-reference.json from this site and nothing else. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
 <title>AI Deal Map for Investors · AI 交易关系图投资者指南</title>
-<meta name="description" content="A plain-language guide to what the live AI orders and debt map means for an ordinary investor, with a portfolio self-check computed from the live map. English / 中文. Not investment advice. 通俗投资者指南，含基于实时关系图的组合自查工具，不构成投资建议。">
+<meta name="description" content="Check how exposed your portfolio is to the AI deal boom, with an exposure scorecard computed from the live AI orders and debt map. English / 中文. Not investment advice. 用实时关系图检查你的组合在 AI 交易热潮中的暴露程度，不构成投资建议。">
 <link rel="canonical" href="https://heyneww.github.io/GL-AI-live/investors.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AI Orders &amp; Debt Map">
-<meta property="og:title" content="AI Deal Maps for Investors · AI 交易关系图投资者指南">
-<meta property="og:description" content="What the live AI deal map means for an ordinary investor, with a portfolio self-check. Not investment advice. 不构成投资建议。">
+<meta property="og:title" content="AI Deal Map for Investors · AI 交易关系图投资者指南">
+<meta property="og:description" content="How exposed is your portfolio to the AI deal boom? An exposure scorecard from the live map. Not investment advice. 不构成投资建议。">
 <meta property="og:url" content="https://heyneww.github.io/GL-AI-live/investors.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,12 +37,6 @@
       <a class="inv-back" href="./" data-t="nav_map">← Back to the map · 返回关系图</a>
     </div>
   </div>
-  <nav class="inv-nav" id="nav" aria-label="Sections / 章节">
-    <a class="chip" href="#big-picture" data-t="nav_big"></a>
-    <a class="chip" href="#do" data-t="nav_do"></a>
-    <a class="chip" href="#check" data-t="nav_check"></a>
-    <a class="chip" href="#faq" data-t="nav_faq"></a>
-  </nav>
 </header>
 
 <p class="banner" id="loading-banner" role="status"><span data-t="loading">Loading… · 加载中…</span></p>
@@ -53,81 +47,132 @@
 </div>
 
 <main id="main" tabindex="-1">
-  <header class="inv-wrap inv-hdr">
-    <h1 class="brand__title" data-k="headline"></h1>
+  <header class="inv-wrap inv-hero">
+    <h1 class="inv-h1" data-k="headline">AI Deal Map for Investors · AI 交易关系图投资者指南</h1>
     <p class="inv-lede" data-k="intro"></p>
     <p class="inv-asof"><span id="asof-deals"></span><span id="asof-ref"></span></p>
-    <p class="inv-asof inv-asof--note" data-t="asofNote"></p>
-    <div class="inv-warn" id="warn"><b data-t="warnH"></b> <span data-t="warnP"></span></div>
+    <p class="inv-notadv" data-t="heroNote"></p>
   </header>
 
-  <section class="inv-wrap inv-block" id="big-picture" aria-labelledby="h-big">
-    <h2 id="h-big" data-t="bigH"></h2>
-    <div class="inv-takeaways" id="takeaways"></div>
-    <div class="inv-box" id="not-box"><h3 data-t="notH"></h3><ul id="not-list"></ul></div>
-  </section>
-
-  <section class="inv-wrap inv-block" id="do" aria-labelledby="h-do">
-    <h2 id="h-do" data-t="doH"></h2>
-    <p class="inv-note" data-t="doP"></p>
-    <ol class="inv-steps" id="do-steps"></ol>
-    <div class="inv-twocol">
-      <div><h3 data-t="watchH"></h3><div class="inv-minis" id="watch-list"></div></div>
-      <div><h3 data-t="avoidH"></h3><div class="inv-minis inv-minis--avoid" id="avoid-list"></div></div>
-    </div>
-    <div class="inv-box" id="q-box"><h3 data-t="qH"></h3><ul id="q-list"></ul></div>
-  </section>
-
-  <section class="inv-wrap inv-block" id="check" aria-labelledby="h-check">
-    <h2 id="h-check" data-t="checkH"></h2>
-    <p class="inv-note" data-k="tool.intro"></p>
+  <section class="inv-wrap" id="check" aria-labelledby="h-check">
     <p class="banner banner--error" id="ref-error" role="alert" hidden data-t="refError"></p>
-    <div class="inv-tool inv-panel" id="tool">
-      <div class="inv-tool__head" id="presets-row">
-        <span class="inv-tool__l" data-t="presetL"></span>
-        <div class="chips" id="presets"></div>
+    <div class="inv-tool" id="tool">
+      <div class="inv-in inv-panel" id="input">
+        <div class="inv-in__head">
+          <h2 id="h-check" data-t="checkH"></h2>
+          <div class="inv-mode" role="group" aria-labelledby="mode-l">
+            <span class="inv-mode__l" id="mode-l" data-t="modeL"></span>
+            <span class="seg seg--sm">
+              <button type="button" class="seg__btn" id="mode-amt" aria-pressed="true" data-t="modeAmt"></button>
+              <button type="button" class="seg__btn" id="mode-pct" aria-pressed="false" data-t="modePct"></button>
+            </span>
+          </div>
+        </div>
+        <p class="inv-hint" id="mode-note"></p>
+        <div class="inv-rows" id="rows"></div>
+        <ul class="inv-cb" id="cb-list" role="listbox" hidden></ul>
+        <div class="inv-other" id="other-line" hidden></div>
+        <p class="inv-hint" id="weight-note"></p>
+        <div class="inv-tool__actions">
+          <button type="button" class="btn" id="add-row" data-t="addRow"></button>
+          <button type="button" class="btn btn--ghost" id="paste-btn" aria-expanded="false" aria-controls="paste-box" data-t="pasteBtn"></button>
+          <button type="button" class="btn btn--ghost" id="share-btn" data-t="shareBtn"></button>
+          <button type="button" class="btn btn--ghost" id="clear-rows" data-t="clearRows"></button>
+        </div>
+        <div class="inv-share" id="share-box" hidden>
+          <p class="inv-hint" id="share-status" role="status"></p>
+          <input type="text" id="share-url" readonly aria-labelledby="share-status">
+        </div>
+        <p class="inv-hint" data-t="shareNote"></p>
+        <div class="inv-paste" id="paste-box" hidden>
+          <label for="paste-text" class="inv-hint" data-t="pasteL"></label>
+          <textarea id="paste-text" rows="5" spellcheck="false" autocapitalize="characters"></textarea>
+          <p class="inv-hint" id="paste-sum"></p>
+          <ul class="inv-paste__list" id="paste-preview"></ul>
+          <div class="inv-tool__actions">
+            <button type="button" class="btn" id="paste-apply" data-t="pasteApply"></button>
+            <button type="button" class="btn btn--ghost" id="paste-cancel" data-t="pasteCancel"></button>
+          </div>
+        </div>
+        <div class="inv-quick" id="presets-row">
+          <span class="inv-quick__l" data-t="quickL"></span>
+          <div class="chips" id="presets"></div>
+        </div>
       </div>
-      <div class="inv-tool__head" id="funds-row">
-        <span class="inv-tool__l" data-t="fundsL"></span>
-        <div class="chips" id="fund-chips"></div>
-      </div>
-      <div class="inv-rows" id="rows"></div>
-      <datalist id="ticker-list"></datalist>
-      <div class="inv-tool__actions">
-        <button type="button" class="btn" id="add-row" data-t="addRow"></button>
-        <button type="button" class="btn btn--ghost" id="clear-rows" data-t="clearRows"></button>
-        <span class="inv-note" id="weight-note"></span>
-      </div>
-      <div class="inv-results" id="results" aria-live="polite"></div>
+      <div class="inv-res inv-panel" id="results"></div>
+      <div class="inv-detail" id="detail"></div>
     </div>
-    <h3 class="inv-sub" data-t="exH"></h3>
-    <p class="inv-note" data-t="exP"></p>
-    <div class="inv-examples" id="examples"></div>
-    <details class="inv-box inv-method" id="method-box">
-      <summary data-t="methodH"></summary>
-      <p data-k="tool.method"></p>
-      <h4 data-t="limitsH"></h4>
-      <ul id="limits-list"></ul>
-      <h4 data-t="bandsH"></h4>
-      <dl class="inv-bands" id="bands-list"></dl>
+    <p class="sr-only" id="live" aria-live="polite" aria-atomic="true"></p>
+  </section>
+
+  <section class="inv-wrap inv-learn" id="learn" aria-labelledby="h-learn">
+    <h2 id="h-learn" data-t="learnH"></h2>
+
+    <details class="inv-sec" id="method">
+      <summary><h3 data-t="methodH"></h3></summary>
+      <div class="inv-sec__body">
+        <p data-k="tool.method"></p>
+        <h4 data-t="thH"></h4>
+        <div class="inv-th" id="th-table"></div>
+        <h4 data-t="rulesH"></h4>
+        <p data-k="tool.company_rule"></p>
+        <p data-k="tool.portfolio_rule"></p>
+        <p data-k="tool.evidence"></p>
+        <h4 data-t="limitsH"></h4>
+        <ul id="limits-list"></ul>
+        <p class="inv-notadv" data-k="tool.not_advice"></p>
+      </div>
     </details>
-    <h3 class="inv-sub" data-t="handH"></h3>
-    <ol class="inv-steps inv-steps--small" id="hand-steps"></ol>
-  </section>
 
-  <section class="inv-wrap inv-block" id="map-howto" aria-labelledby="h-map">
-    <h2 id="h-map" data-t="mapH"></h2>
-    <ol class="inv-steps inv-steps--small" id="map-steps"></ol>
-  </section>
+    <details class="inv-sec" id="big-picture">
+      <summary><h3 data-t="bigH"></h3></summary>
+      <div class="inv-sec__body">
+        <p class="inv-asof inv-asof--note" data-t="asofNote"></p>
+        <div class="inv-takeaways" id="takeaways"></div>
+        <div class="inv-box" id="not-box"><h4 data-t="notH"></h4><ul id="not-list"></ul></div>
+      </div>
+    </details>
 
-  <section class="inv-wrap inv-block" id="faq" aria-labelledby="h-faq">
-    <h2 id="h-faq" data-t="faqH"></h2>
-    <div class="inv-faq" id="faq-list"></div>
-  </section>
+    <details class="inv-sec" id="examples-sec">
+      <summary><h3 data-t="exH"></h3></summary>
+      <div class="inv-sec__body">
+        <p class="inv-note" data-t="exIntro"></p>
+        <div class="inv-examples" id="examples"></div>
+      </div>
+    </details>
 
-  <section class="inv-wrap inv-block" id="glossary" aria-labelledby="h-gloss">
-    <h2 id="h-gloss" data-t="glossH"></h2>
-    <dl class="inv-gloss" id="gloss-list"></dl>
+    <details class="inv-sec" id="do">
+      <summary><h3 data-t="doH"></h3></summary>
+      <div class="inv-sec__body">
+        <p class="inv-note" data-t="doP"></p>
+        <ol class="inv-steps" id="do-steps"></ol>
+        <div class="inv-twocol">
+          <div><h4 data-t="watchH"></h4><div class="inv-minis" id="watch-list"></div></div>
+          <div><h4 data-t="avoidH"></h4><div class="inv-minis inv-minis--avoid" id="avoid-list"></div></div>
+        </div>
+        <div class="inv-box" id="q-box"><h4 data-t="qH"></h4><ul id="q-list"></ul></div>
+      </div>
+    </details>
+
+    <details class="inv-sec" id="hand">
+      <summary><h3 data-t="handH"></h3></summary>
+      <div class="inv-sec__body"><ol class="inv-steps inv-steps--small" id="hand-steps"></ol></div>
+    </details>
+
+    <details class="inv-sec" id="map-howto">
+      <summary><h3 data-t="mapH"></h3></summary>
+      <div class="inv-sec__body"><ol class="inv-steps inv-steps--small" id="map-steps"></ol></div>
+    </details>
+
+    <details class="inv-sec" id="faq">
+      <summary><h3 data-t="faqH"></h3></summary>
+      <div class="inv-sec__body"><div class="inv-faq" id="faq-list"></div></div>
+    </details>
+
+    <details class="inv-sec" id="glossary">
+      <summary><h3 data-t="glossH"></h3></summary>
+      <div class="inv-sec__body"><dl class="inv-gloss" id="gloss-list"></dl></div>
+    </details>
   </section>
 </main>
 
@@ -146,6 +191,7 @@
   <p class="footer__disc" lang="zh-CN">本页内容仅供参考，不构成任何投资建议。</p>
 </footer>
 
+<script src="investors-exposure.js"></script>
 <script src="investors.js"></script>
 </body>
 </html>

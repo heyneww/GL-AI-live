@@ -1,16 +1,15 @@
 {
- "version": 1,
- "as_of": "2026-11-09",
+ "version": 2,
+ "as_of": "2026-11-16",
  "price_dates": [
-  "2026-11-06",
-  "2026-11-09"
+  "2026-11-16"
  ],
- "revenue_to": "2026-10-04",
+ "revenue_to": "2026-10-24",
  "source": "GL-ai-infra-prices: universe.csv, data/latest.csv (closes), data/fundamentals/quarterly.csv (SEC 10-Q / 10-K revenue and weighted diluted shares)",
  "method": {
-  "market_value_usd": "latest close x the latest quarter's weighted diluted shares",
+  "market_value_usd": "latest close x the latest quarter's weighted diluted shares; a foreign filer: latest close x the ADR-equivalent shares of data/reference/company_figures.json",
   "ttm_revenue_usd": "sum of the last four quarterly revenues, only when they span 330 to 400 days",
-  "NDX-HIGH-EST": "Nasdaq-100 members with a market value, weighted by it (GOOG left out: GOOGL is all of Alphabet)",
+  "NDX-HIGH-EST": "Nasdaq-100 members with a market value, weighted by it (GOOG left out: GOOGL is all of Alphabet); when every member has one, it is the estimate and has no low alternative",
   "NDX-LOW-EST": "every Nasdaq-100 member equal; GOOG and GOOGL share one slot",
   "AI-BASKET-EST": "AI study-list names with a market value, weighted by it"
  },
@@ -30,9 +29,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 747215000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 4576203500,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 3966628600,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "AAPL",
@@ -47,11 +49,14 @@
    "entity": "apple",
    "match": "ticker",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 478834000000,
+   "ttm_revenue_to": "2026-09-26",
+   "market_value_usd": 5192505178174,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-26",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ABNB",
@@ -66,11 +71,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 13933000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 111155430000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ADBE",
@@ -85,11 +93,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 25970000000,
+   "ttm_revenue_to": "2026-08-28",
+   "market_value_usd": 97293000000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-28",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ADI",
@@ -104,11 +115,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 13881744000,
+   "ttm_revenue_to": "2026-08-01",
+   "market_value_usd": 187307673290,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-01",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ADP",
@@ -123,11 +137,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 22262900000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 124619768000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ADSK",
@@ -142,11 +159,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 7790000000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 56026830000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "AEP",
@@ -161,11 +181,14 @@
    "entity": "aep",
    "match": "ticker",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 22433000000,
+   "ttm_revenue_to": "2026-03-31",
+   "market_value_usd": 70755977811,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-03-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ALAB",
@@ -180,11 +203,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 1556243000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 37246140180,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ALNY",
@@ -201,9 +227,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 22049129200,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "AMAT",
@@ -221,9 +250,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 30837000000,
    "ttm_revenue_to": "2026-07-26",
-   "market_value_usd": 296440000000,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-07-26"
+   "market_value_usd": 280200000000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-26",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "AMD",
@@ -241,9 +273,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 45436000000,
    "ttm_revenue_to": "2026-09-26",
-   "market_value_usd": 844751380000,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-09-26"
+   "market_value_usd": 837609080000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-26",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "AMGN",
@@ -258,11 +293,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 38903000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 252426720000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "AMZN",
@@ -280,9 +318,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 797455000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 2917277970000,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 2816949750000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ANET",
@@ -299,9 +340,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 11890100000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 237962494000,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 239048964000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "APP",
@@ -316,11 +360,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 7608894000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 139002784180,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ARM",
@@ -336,11 +383,14 @@
    "entity": "arm",
    "match": "ticker",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 5464000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 187303500000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000142/arm-20260930.htm"
   },
   {
    "ticker": "ASML",
@@ -358,9 +408,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 538939333500,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/financial_statementsxusx.htm"
   },
   {
    "ticker": "AVGO",
@@ -378,9 +431,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 89104000000,
    "ttm_revenue_to": "2026-08-02",
-   "market_value_usd": 1561298760000,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-08-02"
+   "market_value_usd": 1629325800000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-02",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "AXON",
@@ -395,11 +451,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 3417012000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 25640754120,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "BE",
@@ -416,9 +475,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 3829939000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 62873151320,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 57489953920,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "BIDU",
@@ -433,11 +495,14 @@
    "entity": "baidu",
    "match": "ticker",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 18544000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 25176570000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526462286/d767848dex991.htm"
   },
   {
    "ticker": "BKNG",
@@ -452,11 +517,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 28126000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 118620090000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "BKR",
@@ -471,11 +539,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 28740000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 47923912752,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2024-12-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CBRS",
@@ -492,9 +563,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": 13538810240,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-06-30"
+   "market_value_usd": 24124996150,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CCEP",
@@ -511,9 +585,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 52313075508,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-10-31",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/1650107/000165010726000135/a20261102ccepform6-kmonthl.htm"
   },
   {
    "ticker": "CDNS",
@@ -531,9 +608,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 6132096000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 88066937760,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 85179271540,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CEG",
@@ -551,9 +631,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 31270000000,
    "ttm_revenue_to": "2026-06-30",
-   "market_value_usd": 89982000000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-06-30"
+   "market_value_usd": 100015200000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-06-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CGNX",
@@ -570,9 +653,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 1125425000,
    "ttm_revenue_to": "2026-10-04",
-   "market_value_usd": 8171670060,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-10-04"
+   "market_value_usd": 8243501400,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-10-04",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CIEN",
@@ -589,9 +675,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 6020894000,
    "ttm_revenue_to": "2026-08-01",
-   "market_value_usd": 35526908130,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-08-01"
+   "market_value_usd": 37595260520,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-01",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CIFR",
@@ -608,9 +697,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 146087000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 2877797374,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 2875598904,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CMCSA",
@@ -625,11 +717,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 123004000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 91187200000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "COHR",
@@ -646,9 +741,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 7907127000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 38952633060,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 41098149180,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CORZ",
@@ -665,9 +763,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 592074000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 5515510560,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 6369101480,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "COST",
@@ -684,9 +785,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 494979468200,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-05-10",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CPRT",
@@ -701,11 +805,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 4666209000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 30719601032,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CRDO",
@@ -722,9 +829,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 1591045000,
    "ttm_revenue_to": "2026-08-01",
-   "market_value_usd": 23424492780,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-08-01"
+   "market_value_usd": 23463368380,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-01",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CRWD",
@@ -739,11 +849,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 5396145000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 233135925490,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CRWV",
@@ -759,11 +872,14 @@
    "entity": "coreweave",
    "match": "ticker",
    "fund_key": null,
-   "ttm_revenue_usd": 7590000000,
-   "ttm_revenue_to": "2026-06-30",
-   "market_value_usd": 25566400000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-06-30"
+   "ttm_revenue_usd": 9886000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 27882920000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CSCO",
@@ -778,11 +894,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 66959000000,
+   "ttm_revenue_to": "2026-10-24",
+   "market_value_usd": 376000560000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-10-24",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CSX",
@@ -797,11 +916,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 14942000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 96411590000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "CTAS",
@@ -816,11 +938,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 11560620000,
+   "ttm_revenue_to": "2026-08-31",
+   "market_value_usd": 90625646400,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "DASH",
@@ -835,11 +960,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 17061000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 74756510920,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "DDOG",
@@ -854,11 +982,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 4278164000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 64824920040,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "DELL",
@@ -875,9 +1006,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 151197000000,
    "ttm_revenue_to": "2026-07-31",
-   "market_value_usd": 214201560000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-07-31"
+   "market_value_usd": 208998600000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "DXCM",
@@ -892,11 +1026,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 5104400000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 31297435000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ENPH",
@@ -913,9 +1050,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 1211404000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 3848411070,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 3373190100,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "EOSE",
@@ -932,9 +1072,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 266467000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 962688652,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 946090571,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "EQIX",
@@ -951,9 +1094,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 10060000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 100538810670,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 103551867620,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "EXC",
@@ -968,11 +1114,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 24786000000,
+   "ttm_revenue_to": "2026-03-31",
+   "market_value_usd": 47667960000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-03-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "FANG",
@@ -987,11 +1136,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 18609000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 49667526190,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "FAST",
@@ -1006,11 +1158,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 9079400000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 63382140784,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "FER",
@@ -1027,9 +1182,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 44505872939,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2025-12-31",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/1468522/000162828026011789/fer-20251231.htm"
   },
   {
    "ticker": "FLNC",
@@ -1046,9 +1204,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 2631864000,
    "ttm_revenue_to": "2026-06-30",
-   "market_value_usd": 727940563,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-06-30"
+   "market_value_usd": 592574006,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-06-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "FTNT",
@@ -1063,11 +1224,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 7880900000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 91540302000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "GEHC",
@@ -1082,11 +1246,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 21637000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 37580880000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "GEV",
@@ -1103,9 +1270,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 44041000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 207461480000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 204636760000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "GILD",
@@ -1120,11 +1290,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 30988000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 209642580000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "GLW",
@@ -1141,9 +1314,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 17719000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 92439230000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 92474070000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "GOOG",
@@ -1160,9 +1336,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 471097000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 3522159040000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 3509048960000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "GOOGL",
@@ -1180,9 +1359,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 471097000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 3522159040000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 3509048960000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "HON",
@@ -1197,11 +1379,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 33614000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 69569640000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "HONA",
@@ -1218,9 +1403,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 51899472000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-26",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "HPE",
@@ -1237,9 +1425,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 41871000000,
    "ttm_revenue_to": "2026-07-31",
-   "market_value_usd": 64871730000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-07-31"
+   "market_value_usd": 67479930000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "IDXX",
@@ -1254,11 +1445,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 4662221000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 55385681850,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "INTC",
@@ -1276,9 +1470,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 59892000000,
    "ttm_revenue_to": "2026-09-26",
-   "market_value_usd": 298677960000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-26"
+   "market_value_usd": 294379290000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-26",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "INTU",
@@ -1293,11 +1490,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 21448000000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 95858260024,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "IREN",
@@ -1314,9 +1514,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 695007000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 8624791787,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 6532363096,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ISRG",
@@ -1331,11 +1534,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 11578000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 153912900000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "KDP",
@@ -1350,11 +1556,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 23128000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 48605838000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "KLAC",
@@ -1372,9 +1581,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 14505795000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 181569253360,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 188740773440,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "LIN",
@@ -1389,11 +1601,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 36238000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 242106531520,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "LITE",
@@ -1411,9 +1626,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 3742800000,
    "ttm_revenue_to": "2026-09-26",
-   "market_value_usd": 54774603000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-26"
+   "market_value_usd": 55528200000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-26",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "LRCX",
@@ -1431,9 +1649,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 26127935000,
    "ttm_revenue_to": "2026-09-27",
-   "market_value_usd": 251706137920,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-27"
+   "market_value_usd": 264753567440,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-27",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MAR",
@@ -1448,11 +1669,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 27420000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 111192840000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MCHP",
@@ -1467,11 +1691,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 5603400000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 32287184000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MDLZ",
@@ -1486,11 +1713,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 39898000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 86451200000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MELI",
@@ -1505,11 +1735,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 38523000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 74125252625,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "META",
@@ -1527,9 +1760,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 241607000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 1569915950000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 1611752930000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MNST",
@@ -1544,11 +1780,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 9584870000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 90689175400,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MPWR",
@@ -1563,11 +1802,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 3738391000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 64627776000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MRNA",
@@ -1582,11 +1824,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 2525000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 92566100000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MRVL",
@@ -1604,9 +1849,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 9450300000,
    "ttm_revenue_to": "2026-08-01",
-   "market_value_usd": 130073440000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-08-01"
+   "market_value_usd": 133905632000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-01",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MSFT",
@@ -1624,9 +1872,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 346445000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 3950922060000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 3856953540000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MSTR",
@@ -1641,11 +1892,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 495083000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 44101888470,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "MU",
@@ -1663,9 +1917,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 133188000000,
    "ttm_revenue_to": "2026-09-03",
-   "market_value_usd": 788761065519,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-03"
+   "market_value_usd": 821934755550,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-03",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "NBIS",
@@ -1681,11 +1938,14 @@
    "entity": "nebius",
    "match": "ticker",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 2189800000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 31378634648,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm"
   },
   {
    "ticker": "NFLX",
@@ -1700,11 +1960,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 49734633000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 254853965250,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "NVDA",
@@ -1722,9 +1985,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 302969000000,
    "ttm_revenue_to": "2026-07-26",
-   "market_value_usd": 4532552400000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-07-26"
+   "market_value_usd": 3791859900000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-26",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "NXPI",
@@ -1739,11 +2005,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 13798000000,
+   "ttm_revenue_to": "2026-09-27",
+   "market_value_usd": 64521301890,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-27",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ODFL",
@@ -1758,11 +2027,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 5786722000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 36273583380,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "OKLO",
@@ -1779,9 +2051,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": 4441548604,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 4343476194,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ORCL",
@@ -1798,9 +2073,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 71776000000,
    "ttm_revenue_to": "2026-08-31",
-   "market_value_usd": 348300000000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-08-31"
+   "market_value_usd": 357270000000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ORLY",
@@ -1815,11 +2093,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 18988156000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 75291032700,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "PANW",
@@ -1834,11 +2115,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 11480000000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 242599075000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "PAYX",
@@ -1853,11 +2137,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 6602500000,
+   "ttm_revenue_to": "2026-08-31",
+   "market_value_usd": 41996782000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "PCAR",
@@ -1872,11 +2159,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 29080500000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 55688181000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "PDD",
@@ -1893,9 +2183,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 109881242500,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-06-30",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/1737806/000110465926100534/tm2623874d1_ex99-1.htm"
   },
   {
    "ticker": "PEP",
@@ -1912,9 +2205,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 200169810000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-05",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "PLTR",
@@ -1929,11 +2225,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 7288260000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 412831991140,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "PYPL",
@@ -1948,11 +2247,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 34295000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 50476140000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "QCOM",
@@ -1970,9 +2272,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 43120000000,
    "ttm_revenue_to": "2026-09-27",
-   "market_value_usd": 177496651969,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-27"
+   "market_value_usd": 180833902362,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-27",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "QQQ",
@@ -1991,7 +2296,10 @@
    "ttm_revenue_to": null,
    "market_value_usd": null,
    "mv_date": null,
-   "shares_as_of": null
+   "shares_as_of": null,
+   "priced": true,
+   "figures_source": null,
+   "figures_url": null
   },
   {
    "ticker": "REGN",
@@ -2006,11 +2314,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 16896200000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 100573440000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "RKLB",
@@ -2025,11 +2336,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 881900000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 37420367551,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ROP",
@@ -2044,11 +2358,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 8434600000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 48081768000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "ROST",
@@ -2063,11 +2380,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 24511798000,
+   "ttm_revenue_to": "2026-08-01",
+   "market_value_usd": 71234155500,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-08-01",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "SBUX",
@@ -2082,11 +2402,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 37910600000,
+   "ttm_revenue_to": "2026-09-27",
+   "market_value_usd": 124299920362,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-27",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "SHOP",
@@ -2101,11 +2424,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 14167000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 190782319735,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "SKHY",
@@ -2120,11 +2446,14 @@
    "entity": "sk-hynix",
    "match": "inferred",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 185211396198,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 868842256993,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526434994/d162547d6k.htm"
   },
   {
    "ticker": "SMCI",
@@ -2141,9 +2470,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 53991114000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 21551334760,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 18752508775,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "SMR",
@@ -2160,9 +2492,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": 2085128555,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 1752657270,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "SNDK",
@@ -2180,9 +2515,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 28971000000,
    "ttm_revenue_to": "2026-10-02",
-   "market_value_usd": 128599240000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-10-02"
+   "market_value_usd": 124602940000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-10-02",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "SNPS",
@@ -2200,9 +2538,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 9416465000,
    "ttm_revenue_to": "2026-07-31",
-   "market_value_usd": 86632016740,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-07-31"
+   "market_value_usd": 84876144270,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "SOXX",
@@ -2216,12 +2557,15 @@
    "type": "fund",
    "entity": null,
    "match": "none",
-   "fund_key": null,
+   "fund_key": "SOXX-EST",
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
    "market_value_usd": null,
    "mv_date": null,
-   "shares_as_of": null
+   "shares_as_of": null,
+   "priced": true,
+   "figures_source": null,
+   "figures_url": null
   },
   {
    "ticker": "SPCX",
@@ -2238,9 +2582,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 1713566000000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "SPY",
@@ -2254,12 +2601,15 @@
    "type": "fund",
    "entity": null,
    "match": "none",
-   "fund_key": null,
+   "fund_key": "SPY-EST",
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
    "market_value_usd": null,
    "mv_date": null,
-   "shares_as_of": null
+   "shares_as_of": null,
+   "priced": true,
+   "figures_source": null,
+   "figures_url": null
   },
   {
    "ticker": "STX",
@@ -2277,9 +2627,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 13799000000,
    "ttm_revenue_to": "2026-10-02",
-   "market_value_usd": 106949680000,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-10-02"
+   "market_value_usd": 115768000000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-10-02",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "TER",
@@ -2294,11 +2647,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 5000771000,
+   "ttm_revenue_to": "2026-09-27",
+   "market_value_usd": 36524713800,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-27",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "TLN",
@@ -2315,9 +2671,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 3952000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 16245576720,
-   "mv_date": "2026-11-06",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 17257807020,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "TMUS",
@@ -2332,11 +2691,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 93816000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 182187890084,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "TRI",
@@ -2353,9 +2715,12 @@
    "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "market_value_usd": 46939260491,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-11-02",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/1075124/000119312526447349/tri-ex99_1.htm"
   },
   {
    "ticker": "TSLA",
@@ -2370,11 +2735,14 @@
    "entity": "tesla",
    "match": "ticker",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 103570000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 1344659340000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "TSM",
@@ -2389,11 +2757,14 @@
    "entity": "tsmc",
    "match": "ticker",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 156550000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 1936861080000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "hand",
+   "figures_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
   },
   {
    "ticker": "TTWO",
@@ -2408,11 +2779,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 6409700000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 39294292593,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-03-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "TXN",
@@ -2427,11 +2801,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 20766000000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 270967410000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "VRT",
@@ -2448,9 +2825,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 13116600000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 78720973370,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 74087325015,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "VRTX",
@@ -2465,11 +2845,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 12951600000,
+   "ttm_revenue_to": "2026-09-30",
+   "market_value_usd": 137244008000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "VST",
@@ -2486,9 +2869,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 20588000000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 45245227825,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 43974901835,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "WDAY",
@@ -2503,11 +2889,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 10155000000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 47798336420,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "WDC",
@@ -2525,9 +2914,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 14482000000,
    "ttm_revenue_to": "2026-10-02",
-   "market_value_usd": 111275520000,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-10-02"
+   "market_value_usd": 107877120000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-10-02",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "WMT",
@@ -2542,11 +2934,14 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
-   "ttm_revenue_usd": null,
-   "ttm_revenue_to": null,
-   "market_value_usd": null,
-   "mv_date": null,
-   "shares_as_of": null
+   "ttm_revenue_usd": 735840000000,
+   "ttm_revenue_to": "2026-07-31",
+   "market_value_usd": 1024454980000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-07-31",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "WULF",
@@ -2563,9 +2958,12 @@
    "fund_key": null,
    "ttm_revenue_usd": 190845000,
    "ttm_revenue_to": "2026-09-30",
-   "market_value_usd": 7101251478,
-   "mv_date": "2026-11-09",
-   "shares_as_of": "2026-09-30"
+   "market_value_usd": 6814448107,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
   },
   {
    "ticker": "XEL",
@@ -2580,129 +2978,1639 @@
    "entity": null,
    "match": "none",
    "fund_key": null,
+   "ttm_revenue_usd": 11611000000,
+   "ttm_revenue_to": "2019-09-30",
+   "market_value_usd": 51324720000,
+   "mv_date": "2026-11-16",
+   "shares_as_of": "2026-09-30",
+   "priced": true,
+   "figures_source": "sec",
+   "figures_url": null
+  },
+  {
+   "ticker": "005930.KS",
+   "name": {
+    "en": "Samsung Electronics",
+    "zh": "三星电子"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "samsung",
+   "match": "ticker",
+   "fund_key": null,
    "ttm_revenue_usd": null,
    "ttm_revenue_to": null,
    "market_value_usd": null,
    "mv_date": null,
-   "shares_as_of": null
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "035420.KS",
+   "name": {
+    "en": "NAVER",
+    "zh": "NAVER（韩国互联网公司）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "naver",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "0700.HK",
+   "name": {
+    "en": "Tencent",
+    "zh": "腾讯"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "tencent",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "0941.HK",
+   "name": {
+    "en": "China Mobile",
+    "zh": "中国移动"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "china-mobile",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "2222.SR",
+   "name": {
+    "en": "Saudi Aramco",
+    "zh": "沙特阿美"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "aramco",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "2449.TW",
+   "name": {
+    "en": "King Yuan Electronics (KYEC)",
+    "zh": "京元电子"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "kyec",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "2454.TW",
+   "name": {
+    "en": "MediaTek",
+    "zh": "联发科"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "mediatek",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "2513.HK",
+   "name": {
+    "en": "Zhipu AI (Z.ai)",
+    "zh": "智谱 AI（Z.ai）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "zhipu",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "300750.SZ",
+   "name": {
+    "en": "CATL",
+    "zh": "宁德时代"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "catl",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "6770.TW",
+   "name": {
+    "en": "Powerchip Semiconductor Manufacturing Corp. (PSMC)",
+    "zh": "力积电（PSMC）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "psmc",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "688256.SS",
+   "name": {
+    "en": "Cambricon Technologies",
+    "zh": "寒武纪"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "cambricon",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "8306.T",
+   "name": {
+    "en": "MUFG",
+    "zh": "三菱日联金融集团"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "mufg",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "8316.T",
+   "name": {
+    "en": "Sumitomo Mitsui Banking Corp. (SMBC)",
+    "zh": "三井住友银行"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "smbc",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "8411.T",
+   "name": {
+    "en": "Mizuho Financial Group",
+    "zh": "瑞穗金融集团"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "mizuho",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "9984.T",
+   "name": {
+    "en": "SoftBank Group",
+    "zh": "软银集团"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "softbank",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "AKAM",
+   "name": {
+    "en": "Akamai",
+    "zh": "阿卡迈（Akamai）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "akamai",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "AMKR",
+   "name": {
+    "en": "Amkor Technology",
+    "zh": "安靠（Amkor）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "amkor",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "APLD",
+   "name": {
+    "en": "Applied Digital",
+    "zh": "Applied Digital"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "applied-digital",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "APO",
+   "name": {
+    "en": "Apollo Global",
+    "zh": "阿波罗全球管理（Apollo）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "apollo",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "BABA",
+   "name": {
+    "en": "Alibaba",
+    "zh": "阿里巴巴"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "alibaba",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "BAC",
+   "name": {
+    "en": "Bank of America",
+    "zh": "美国银行"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "bank-of-america",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "BAM",
+   "name": {
+    "en": "Brookfield Asset Management",
+    "zh": "布鲁克菲尔德资产管理"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "brookfield",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "BRK.B",
+   "name": {
+    "en": "Berkshire Hathaway",
+    "zh": "伯克希尔·哈撒韦"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "berkshire-hathaway",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "BTDR",
+   "name": {
+    "en": "Bitdeer",
+    "zh": "比特小鹿（Bitdeer）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "bitdeer",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "BX",
+   "name": {
+    "en": "Blackstone",
+    "zh": "黑石"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "blackstone",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "C",
+   "name": {
+    "en": "Citigroup (Citi)",
+    "zh": "花旗集团"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "citigroup",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "CVX",
+   "name": {
+    "en": "Chevron",
+    "zh": "雪佛龙"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "chevron",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "DB",
+   "name": {
+    "en": "Deutsche Bank",
+    "zh": "德意志银行"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "deutsche-bank",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "DIS",
+   "name": {
+    "en": "The Walt Disney Company",
+    "zh": "华特迪士尼公司"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "disney",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "FRVO",
+   "name": {
+    "en": "Fervo Energy",
+    "zh": "Fervo Energy（地热发电公司）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "fervo",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "GFS",
+   "name": {
+    "en": "GlobalFoundries",
+    "zh": "格芯（GlobalFoundries）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "globalfoundries",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "GLXY",
+   "name": {
+    "en": "Galaxy Digital",
+    "zh": "Galaxy Digital"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "galaxy-digital",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "GNRC",
+   "name": {
+    "en": "Generac",
+    "zh": "Generac（发电机制造商）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "generac",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "GS",
+   "name": {
+    "en": "Goldman Sachs",
+    "zh": "高盛"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "goldman-sachs",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "HUT",
+   "name": {
+    "en": "Hut 8",
+    "zh": "Hut 8"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "hut-8",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "JPM",
+   "name": {
+    "en": "JPMorgan Chase",
+    "zh": "摩根大通"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "jpmorgan",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "KKR",
+   "name": {
+    "en": "KKR",
+    "zh": "KKR 集团"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "kkr",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "MS",
+   "name": {
+    "en": "Morgan Stanley",
+    "zh": "摩根士丹利"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "morgan-stanley",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "NI",
+   "name": {
+    "en": "NiSource",
+    "zh": "NiSource（印第安纳州公用事业公司）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "nisource",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "ORDS.QA",
+   "name": {
+    "en": "Ooredoo",
+    "zh": "Ooredoo（卡塔尔电信）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "ooredoo",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "OWL",
+   "name": {
+    "en": "Blue Owl Capital",
+    "zh": "Blue Owl 资本"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "blue-owl",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "RIOT",
+   "name": {
+    "en": "Riot Platforms",
+    "zh": "Riot Platforms"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "riot-platforms",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "VZ",
+   "name": {
+    "en": "Verizon",
+    "zh": "威瑞森（Verizon）"
+   },
+   "groups": [
+    "map"
+   ],
+   "type": "company",
+   "entity": "verizon",
+   "match": "ticker",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "LLY",
+   "name": {
+    "en": "ELI LILLY + CO",
+    "zh": "ELI LILLY + CO"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "V",
+   "name": {
+    "en": "VISA INC CLASS A SHARES",
+    "zh": "VISA INC CLASS A SHARES"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "XOM",
+   "name": {
+    "en": "EXXONMOBIL HOLDINGS CORP",
+    "zh": "EXXONMOBIL HOLDINGS CORP"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "JNJ",
+   "name": {
+    "en": "JOHNSON + JOHNSON",
+    "zh": "JOHNSON + JOHNSON"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "MA",
+   "name": {
+    "en": "MASTERCARD INC A",
+    "zh": "MASTERCARD INC A"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "ABBV",
+   "name": {
+    "en": "ABBVIE INC",
+    "zh": "ABBVIE INC"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "PG",
+   "name": {
+    "en": "PROCTER + GAMBLE CO/THE",
+    "zh": "PROCTER + GAMBLE CO/THE"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "KO",
+   "name": {
+    "en": "COCA COLA CO/THE",
+    "zh": "COCA COLA CO/THE"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "SPY:REST",
+   "name": {
+    "en": "Rest of SPY (not looked through)",
+    "zh": "SPY 其余持仓（未穿透）"
+   },
+   "groups": [
+    "fund-rest"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "IBM",
+   "name": {
+    "en": "INTL BUSINESS MACHINES CORP",
+    "zh": "INTL BUSINESS MACHINES CORP"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "APH",
+   "name": {
+    "en": "AMPHENOL CORP CL A",
+    "zh": "AMPHENOL CORP CL A"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "CRM",
+   "name": {
+    "en": "SALESFORCE INC",
+    "zh": "SALESFORCE INC"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "ACN",
+   "name": {
+    "en": "ACCENTURE PLC CL A",
+    "zh": "ACCENTURE PLC CL A"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "XLK:REST",
+   "name": {
+    "en": "Rest of XLK (not looked through)",
+    "zh": "XLK 其余持仓（未穿透）"
+   },
+   "groups": [
+    "fund-rest"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "XLK",
+   "name": {
+    "en": "Technology Select Sector SPDR Fund",
+    "zh": "Technology Select Sector SPDR Fund"
+   },
+   "groups": [
+    "fund"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": "XLK-EST",
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "STM",
+   "name": {
+    "en": "Stmicroelectronics Nv",
+    "zh": "Stmicroelectronics Nv"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "ON",
+   "name": {
+    "en": "On Semiconductor Corp",
+    "zh": "On Semiconductor Corp"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "SMH",
+   "name": {
+    "en": "VanEck Semiconductor ETF",
+    "zh": "VanEck Semiconductor ETF"
+   },
+   "groups": [
+    "fund"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": "SMH-EST",
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "ENTG",
+   "name": {
+    "en": "ENTEGRIS INC",
+    "zh": "ENTEGRIS INC"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "MTSI",
+   "name": {
+    "en": "MACOM TECHNOLOGY SOLUTIONS",
+    "zh": "MACOM TECHNOLOGY SOLUTIONS"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "TSEM",
+   "name": {
+    "en": "TOWER SEMICONDUCTOR",
+    "zh": "TOWER SEMICONDUCTOR"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "ASX",
+   "name": {
+    "en": "ASE TECHNOLOGY HOLDING ADR REPRESE",
+    "zh": "ASE TECHNOLOGY HOLDING ADR REPRESE"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "UMC",
+   "name": {
+    "en": "UNITED MICRO ELECTRONICS ADR REP",
+    "zh": "UNITED MICRO ELECTRONICS ADR REP"
+   },
+   "groups": [
+    "fund-holding"
+   ],
+   "type": "company",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "VGT:REST",
+   "name": {
+    "en": "Rest of VGT (not looked through)",
+    "zh": "VGT 其余持仓（未穿透）"
+   },
+   "groups": [
+    "fund-rest"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": null,
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
+  },
+  {
+   "ticker": "VGT",
+   "name": {
+    "en": "Vanguard Information Technology ETF",
+    "zh": "Vanguard Information Technology ETF"
+   },
+   "groups": [
+    "fund"
+   ],
+   "type": "fund",
+   "entity": null,
+   "match": "none",
+   "fund_key": "VGT-EST",
+   "ttm_revenue_usd": null,
+   "ttm_revenue_to": null,
+   "market_value_usd": null,
+   "mv_date": null,
+   "shares_as_of": null,
+   "priced": false,
+   "figures_source": null,
+   "figures_url": null
   }
  ],
+ "lookup": {
+  "000660": "SKHY",
+  "000660.KS": "SKHY",
+  "2330": "TSM",
+  "2330.TW": "TSM",
+  "9888.HK": "BIDU",
+  "ASML.AS": "ASML",
+  "FER.MC": "FER",
+  "TRI.TO": "TRI"
+ },
  "funds": [
   {
    "key": "NDX-HIGH-EST",
    "aliases": [
-    "NDX-22-EST"
+    "NDX-22-EST",
+    "NDX-EST",
+    "QQQM"
    ],
-   "alt": "NDX-LOW-EST",
+   "alt": null,
    "method": "market_value",
    "name": {
-    "en": "Nasdaq-100 high estimate (only the 22 members we could value)",
-    "zh": "纳斯达克 100 高位估算（只含我们能估值的 22 家成分公司）"
+    "en": "Nasdaq-100 estimate (all 100 members, weighted by market value)",
+    "zh": "纳斯达克 100 估算（全部 100 家成分公司，按市值加权）"
    },
-   "members": 22,
-   "left_out": [
-    "AAPL",
-    "ABNB",
-    "ADBE",
-    "ADI",
-    "ADP",
-    "ADSK",
-    "AEP",
-    "ALAB",
-    "ALNY",
-    "AMGN",
-    "APP",
-    "ARM",
-    "ASML",
-    "AXON",
-    "BKNG",
-    "BKR",
-    "CCEP",
-    "CMCSA",
-    "COST",
-    "CPRT",
-    "CRWD",
-    "CSCO",
-    "CSX",
-    "CTAS",
-    "DASH",
-    "DDOG",
-    "DXCM",
-    "EXC",
-    "FANG",
-    "FAST",
-    "FER",
-    "FTNT",
-    "GEHC",
-    "GILD",
-    "HON",
-    "HONA",
-    "IDXX",
-    "INTU",
-    "ISRG",
-    "KDP",
-    "LIN",
-    "MAR",
-    "MCHP",
-    "MDLZ",
-    "MELI",
-    "MNST",
-    "MPWR",
-    "MRNA",
-    "MSTR",
-    "NBIS",
-    "NFLX",
-    "NXPI",
-    "ODFL",
-    "ORLY",
-    "PANW",
-    "PAYX",
-    "PCAR",
-    "PDD",
-    "PEP",
-    "PLTR",
-    "PYPL",
-    "REGN",
-    "RKLB",
-    "ROP",
-    "ROST",
-    "SBUX",
-    "SHOP",
-    "SPCX",
-    "TER",
-    "TMUS",
-    "TRI",
-    "TSLA",
-    "TTWO",
-    "TXN",
-    "VRTX",
-    "WDAY",
-    "WMT",
-    "XEL"
-   ],
+   "members": 100,
+   "left_out": [],
    "weights": {
-    "NVDA": 0.20872479,
-    "MSFT": 0.18194062,
-    "GOOGL": 0.16219601,
-    "AMZN": 0.13434113,
-    "META": 0.07229489,
-    "AVGO": 0.07189807,
-    "AMD": 0.03890094,
-    "MU": 0.03632258,
-    "INTC": 0.01375417,
-    "AMAT": 0.01365111,
-    "LRCX": 0.01159111,
-    "KLAC": 0.00836129,
-    "QCOM": 0.00817375,
-    "MRVL": 0.0059899,
-    "SNDK": 0.00592202,
-    "WDC": 0.00512426,
-    "STX": 0.00492505,
-    "CEG": 0.00414369,
-    "CDNS": 0.0040555,
-    "SNPS": 0.00398942,
-    "LITE": 0.00252238,
-    "CRWV": 0.00117734
+    "AAPL": 0.13429219,
+    "MSFT": 0.09975122,
+    "NVDA": 0.09806772,
+    "GOOGL": 0.09075347,
+    "AMZN": 0.07285392,
+    "SPCX": 0.04431744,
+    "AVGO": 0.04213876,
+    "META": 0.04168428,
+    "TSLA": 0.03477652,
+    "WMT": 0.02649517,
+    "AMD": 0.02166283,
+    "MU": 0.02125745,
+    "ASML": 0.01393842,
+    "COST": 0.0128015,
+    "PLTR": 0.01067695,
+    "CSCO": 0.00972439,
+    "INTC": 0.00761344,
+    "AMAT": 0.00724673,
+    "TXN": 0.00700795,
+    "LRCX": 0.00684724,
+    "NFLX": 0.00659121,
+    "AMGN": 0.00652844,
+    "PANW": 0.00627427,
+    "LIN": 0.00626153,
+    "CRWD": 0.00602952,
+    "GILD": 0.00542192,
+    "PEP": 0.00517693,
+    "SHOP": 0.00493415,
+    "KLAC": 0.00488135,
+    "ADI": 0.00484428,
+    "ARM": 0.00484417,
+    "TMUS": 0.00471187,
+    "QCOM": 0.00467685,
+    "ISRG": 0.0039806,
+    "APP": 0.00359499,
+    "VRTX": 0.0035495,
+    "MRVL": 0.00346316,
+    "ADP": 0.003223,
+    "SNDK": 0.00322257,
+    "SBUX": 0.00321473,
+    "BKNG": 0.00306784,
+    "STX": 0.00299407,
+    "MAR": 0.00287575,
+    "ABNB": 0.00287478,
+    "PDD": 0.00284183,
+    "WDC": 0.00278999,
+    "REGN": 0.0026011,
+    "CEG": 0.00258666,
+    "ADBE": 0.00251626,
+    "CSX": 0.00249346,
+    "INTU": 0.00247915,
+    "MRNA": 0.00239401,
+    "FTNT": 0.00236748,
+    "CMCSA": 0.00235835,
+    "MNST": 0.00234547,
+    "CTAS": 0.00234382,
+    "MDLZ": 0.00223586,
+    "CDNS": 0.00220297,
+    "SNPS": 0.00219513,
+    "ORLY": 0.00194723,
+    "DASH": 0.00193341,
+    "MELI": 0.00191708,
+    "ROST": 0.00184231,
+    "AEP": 0.00182994,
+    "HON": 0.00179926,
+    "DDOG": 0.00167655,
+    "MPWR": 0.00167145,
+    "NXPI": 0.00166869,
+    "FAST": 0.00163923,
+    "ADSK": 0.001449,
+    "PCAR": 0.00144025,
+    "LITE": 0.00143611,
+    "IDXX": 0.00143242,
+    "CCEP": 0.00135296,
+    "HONA": 0.00134226,
+    "XEL": 0.0013274,
+    "PYPL": 0.00130545,
+    "FANG": 0.00128454,
+    "KDP": 0.00125708,
+    "ROP": 0.00124352,
+    "BKR": 0.00123944,
+    "WDAY": 0.00123619,
+    "EXC": 0.00123282,
+    "TRI": 0.00121398,
+    "FER": 0.00115104,
+    "MSTR": 0.00114059,
+    "PAYX": 0.00108615,
+    "TTWO": 0.00101626,
+    "GEHC": 0.00097194,
+    "RKLB": 0.00096779,
+    "ALAB": 0.00096329,
+    "TER": 0.00094463,
+    "ODFL": 0.00093813,
+    "MCHP": 0.00083503,
+    "NBIS": 0.00081154,
+    "DXCM": 0.00080944,
+    "CPRT": 0.00079449,
+    "CRWV": 0.00072113,
+    "AXON": 0.00066314,
+    "ALNY": 0.00057025
    }
   },
   {
@@ -2828,69 +4736,290 @@
    "alt": null,
    "method": "market_value",
    "name": {
-    "en": "AI-infrastructure study list, 49 stocks (estimate, not a fund you can buy)",
-    "zh": "AI 基础设施研究名单，49 只股票（估算，并非可购买的基金）"
+    "en": "AI-infrastructure study list, 55 stocks (estimate, not a fund you can buy)",
+    "zh": "AI 基础设施研究名单，55 只股票（估算，并非可购买的基金）"
    },
-   "members": 49,
-   "left_out": [
-    "ARM",
-    "ASML",
-    "BIDU",
-    "NBIS",
-    "SKHY",
-    "TSM"
-   ],
+   "members": 55,
+   "left_out": [],
    "weights": {
-    "NVDA": 0.19397872,
-    "MSFT": 0.1690868,
-    "GOOGL": 0.15073712,
-    "AMZN": 0.12485015,
-    "META": 0.06718737,
-    "AVGO": 0.06681858,
-    "AMD": 0.03615265,
-    "MU": 0.03375645,
-    "ORCL": 0.01490612,
-    "INTC": 0.01278246,
-    "AMAT": 0.01268668,
-    "LRCX": 0.01077222,
-    "ANET": 0.01018403,
-    "DELL": 0.00916714,
-    "GEV": 0.00887869,
-    "KLAC": 0.00777058,
-    "QCOM": 0.00759629,
-    "MRVL": 0.00556673,
-    "SNDK": 0.00550364,
-    "WDC": 0.00476224,
-    "STX": 0.0045771,
-    "EQIX": 0.00430274,
-    "GLW": 0.0039561,
-    "CEG": 0.00385094,
-    "CDNS": 0.00376898,
-    "SNPS": 0.00370757,
-    "VRT": 0.00336901,
-    "HPE": 0.0027763,
-    "BE": 0.00269077,
-    "LITE": 0.00234418,
-    "VST": 0.00193635,
-    "COHR": 0.00166705,
-    "CIEN": 0.00152044,
-    "CRWV": 0.00109416,
-    "CRDO": 0.00100249,
-    "SMCI": 0.00092233,
-    "TLN": 0.00069526,
-    "CBRS": 0.00057942,
-    "IREN": 0.00036911,
-    "CGNX": 0.00034972,
-    "WULF": 0.00030391,
-    "CORZ": 0.00023605,
-    "AAOI": 0.00019585,
-    "OKLO": 0.00019008,
-    "ENPH": 0.0001647,
-    "CIFR": 0.00012316,
-    "SMR": 8.924e-05,
-    "EOSE": 4.12e-05,
-    "FLNC": 3.115e-05
+    "MSFT": 0.14740555,
+    "NVDA": 0.14491779,
+    "GOOGL": 0.13410928,
+    "AMZN": 0.10765855,
+    "TSM": 0.07402321,
+    "AVGO": 0.06226978,
+    "META": 0.06159818,
+    "SKHY": 0.03320552,
+    "AMD": 0.03201185,
+    "MU": 0.03141281,
+    "ASML": 0.02059725,
+    "ORCL": 0.01365419,
+    "INTC": 0.01125063,
+    "AMAT": 0.01070872,
+    "LRCX": 0.01011839,
+    "ANET": 0.009136,
+    "DELL": 0.00798754,
+    "GEV": 0.00782083,
+    "KLAC": 0.00721332,
+    "ARM": 0.00715839,
+    "QCOM": 0.00691113,
+    "MRVL": 0.00511762,
+    "SNDK": 0.00476209,
+    "STX": 0.00442444,
+    "WDC": 0.00412286,
+    "EQIX": 0.00395756,
+    "CEG": 0.00382239,
+    "GLW": 0.00353419,
+    "CDNS": 0.00325539,
+    "SNPS": 0.00324381,
+    "VRT": 0.00283148,
+    "HPE": 0.00257896,
+    "BE": 0.00219716,
+    "LITE": 0.00212218,
+    "VST": 0.00168064,
+    "COHR": 0.00157069,
+    "CIEN": 0.00143682,
+    "NBIS": 0.00119923,
+    "CRWV": 0.00106563,
+    "BIDU": 0.0009622,
+    "CBRS": 0.00092201,
+    "CRDO": 0.00089673,
+    "SMCI": 0.00071669,
+    "TLN": 0.00065956,
+    "CGNX": 0.00031505,
+    "WULF": 0.00026044,
+    "IREN": 0.00024965,
+    "CORZ": 0.00024342,
+    "OKLO": 0.000166,
+    "AAOI": 0.0001516,
+    "ENPH": 0.00012892,
+    "CIFR": 0.0001099,
+    "SMR": 6.698e-05,
+    "EOSE": 3.616e-05,
+    "FLNC": 2.265e-05
    }
+  },
+  {
+   "key": "SPY-EST",
+   "aliases": [
+    "VOO",
+    "IVV",
+    "SPLG"
+   ],
+   "alt": null,
+   "method": "top_holdings",
+   "name": {
+    "en": "SPDR S&P 500 ETF Trust: its 25 largest holdings (51% of the fund), 2026-11-16",
+    "zh": "SPDR S&P 500 ETF Trust：前 25 大持仓（占基金 51%），2026-11-16"
+   },
+   "members": 26,
+   "left_out": [],
+   "weights": {
+    "AAPL": 0.080415,
+    "MSFT": 0.060076,
+    "NVDA": 0.059017,
+    "AMZN": 0.039514,
+    "GOOGL": 0.026006,
+    "AVGO": 0.024776,
+    "META": 0.021576,
+    "GOOG": 0.020882,
+    "LLY": 0.017893,
+    "BRK.B": 0.017246,
+    "TSLA": 0.016716,
+    "JPM": 0.014042,
+    "AMD": 0.012858,
+    "MU": 0.012684,
+    "V": 0.011351,
+    "XOM": 0.010717,
+    "JNJ": 0.010633,
+    "WMT": 0.008936,
+    "MA": 0.008355,
+    "ABBV": 0.008128,
+    "COST": 0.007717,
+    "CVX": 0.006703,
+    "PG": 0.006283,
+    "KO": 0.006018,
+    "CSCO": 0.00582,
+    "SPY:REST": 0.485638
+   },
+   "as_of": "2026-11-16",
+   "source_url": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx",
+   "listed_share": 0.514362
+  },
+  {
+   "key": "XLK-EST",
+   "aliases": [],
+   "alt": null,
+   "method": "top_holdings",
+   "name": {
+    "en": "Technology Select Sector SPDR Fund: its 25 largest holdings (85% of the fund), 2026-11-16",
+    "zh": "Technology Select Sector SPDR Fund：前 25 大持仓（占基金 85%），2026-11-16"
+   },
+   "members": 26,
+   "left_out": [],
+   "weights": {
+    "AAPL": 0.170439,
+    "MSFT": 0.127331,
+    "NVDA": 0.125088,
+    "AVGO": 0.052509,
+    "AMD": 0.049333,
+    "MU": 0.035664,
+    "CSCO": 0.024971,
+    "PLTR": 0.024734,
+    "AMAT": 0.01864,
+    "INTC": 0.018475,
+    "TXN": 0.01801,
+    "LRCX": 0.017683,
+    "PANW": 0.017267,
+    "ORCL": 0.015679,
+    "IBM": 0.015314,
+    "CRWD": 0.015236,
+    "ANET": 0.013123,
+    "KLAC": 0.012607,
+    "ADI": 0.01251,
+    "APH": 0.012468,
+    "QCOM": 0.012064,
+    "CRM": 0.011793,
+    "ACN": 0.01016,
+    "MRVL": 0.008533,
+    "SNDK": 0.007918,
+    "XLK:REST": 0.152451
+   },
+   "as_of": "2026-11-16",
+   "source_url": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlk.xlsx",
+   "listed_share": 0.847549
+  },
+  {
+   "key": "SMH-EST",
+   "aliases": [],
+   "alt": null,
+   "method": "top_holdings",
+   "name": {
+    "en": "VanEck Semiconductor ETF: all 25 holdings, 2026-11-16",
+    "zh": "VanEck Semiconductor ETF：全部 25 项持仓，2026-11-16"
+   },
+   "members": 25,
+   "left_out": [],
+   "weights": {
+    "NVDA": 0.1745047,
+    "TSM": 0.09975986,
+    "AVGO": 0.06503902,
+    "TXN": 0.06313788,
+    "AMD": 0.06053632,
+    "ADI": 0.05153092,
+    "ASML": 0.04572744,
+    "QCOM": 0.04492696,
+    "KLAC": 0.04422654,
+    "MU": 0.04372624,
+    "AMAT": 0.04192516,
+    "SKHY": 0.03842305,
+    "LRCX": 0.03742245,
+    "MRVL": 0.03241945,
+    "INTC": 0.02931759,
+    "SNPS": 0.02381429,
+    "CDNS": 0.02371423,
+    "MPWR": 0.01530919,
+    "NXPI": 0.01430859,
+    "STM": 0.010006,
+    "TER": 0.00960576,
+    "ARM": 0.0090054,
+    "ALAB": 0.00840504,
+    "MCHP": 0.00770462,
+    "ON": 0.0055033
+   },
+   "as_of": "2026-11-16",
+   "source_url": "https://www.vaneck.com/us/en/etf/equity/smh/holdings/download/xlsx/",
+   "listed_share": 0.9994
+  },
+  {
+   "key": "SOXX-EST",
+   "aliases": [],
+   "alt": null,
+   "method": "top_holdings",
+   "name": {
+    "en": "iShares Semiconductor ETF: all 30 holdings, 2026-11-16",
+    "zh": "iShares Semiconductor ETF：全部 30 项持仓，2026-11-16"
+   },
+   "members": 30,
+   "left_out": [],
+   "weights": {
+    "AMD": 0.1027,
+    "AVGO": 0.0863,
+    "MU": 0.0719,
+    "NVDA": 0.0678,
+    "INTC": 0.0594,
+    "TXN": 0.0541,
+    "ADI": 0.0507,
+    "QCOM": 0.0474,
+    "NXPI": 0.0431,
+    "MPWR": 0.0413,
+    "KLAC": 0.0393,
+    "AMAT": 0.0366,
+    "LRCX": 0.0335,
+    "TSM": 0.033,
+    "MRVL": 0.0329,
+    "SKHY": 0.0272,
+    "TER": 0.0238,
+    "MCHP": 0.0207,
+    "ALAB": 0.0191,
+    "ON": 0.0174,
+    "ASML": 0.0152,
+    "ENTG": 0.0141,
+    "CRDO": 0.0135,
+    "MTSI": 0.0104,
+    "TSEM": 0.0093,
+    "ASX": 0.0088,
+    "CBRS": 0.0065,
+    "UMC": 0.0053,
+    "STM": 0.0047,
+    "ARM": 0.004
+   },
+   "as_of": "2026-11-16",
+   "source_url": "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv",
+   "listed_share": 1.0
+  },
+  {
+   "key": "VGT-EST",
+   "aliases": [],
+   "alt": null,
+   "method": "top_holdings",
+   "name": {
+    "en": "Vanguard Information Technology ETF: its 25 largest holdings (77% of the fund), 2026-10-31",
+    "zh": "Vanguard Information Technology ETF：前 25 大持仓（占基金 77%），2026-10-31"
+   },
+   "members": 26,
+   "left_out": [],
+   "weights": {
+    "AAPL": 0.1769,
+    "NVDA": 0.1693,
+    "MSFT": 0.122,
+    "AVGO": 0.041,
+    "MU": 0.0397,
+    "AMD": 0.0326,
+    "CSCO": 0.0167,
+    "PLTR": 0.0164,
+    "AMAT": 0.0126,
+    "LRCX": 0.0122,
+    "PANW": 0.0122,
+    "INTC": 0.0117,
+    "TXN": 0.0113,
+    "CRWD": 0.0104,
+    "IBM": 0.0097,
+    "ORCL": 0.0087,
+    "ADI": 0.0085,
+    "KLAC": 0.0085,
+    "APH": 0.0081,
+    "CRM": 0.0077,
+    "ANET": 0.0076,
+    "QCOM": 0.0073,
+    "MRVL": 0.007,
+    "SNDK": 0.0069,
+    "ACN": 0.0068,
+    "VGT:REST": 0.2282
+   },
+   "as_of": "2026-10-31",
+   "source_url": "https://investor.vanguard.com/vmf/api/VGT/portfolio-holding/stock",
+   "listed_share": 0.7718
   }
  ]
 }
