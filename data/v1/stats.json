@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T21:23:19Z",
+ "generated_at": "2026-11-18T22:46:59Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-18, https://heyneww.github.io/GL-AI-live/",
@@ -11,22 +11,22 @@
   "by_kind": {
    "order": {
     "count": 117,
-    "usd": 1413689000000,
-    "undisclosed": 71,
+    "usd": 1274189000000,
+    "undisclosed": 75,
     "cancelled": 1,
     "superseded": 0
    },
    "investment": {
     "count": 144,
-    "usd": 887383790000,
-    "undisclosed": 43,
+    "usd": 870883790000,
+    "undisclosed": 46,
     "cancelled": 3,
     "superseded": 1
    },
    "debt": {
     "count": 137,
-    "usd": 1135454571259,
-    "undisclosed": 5,
+    "usd": 1126254571259,
+    "undisclosed": 7,
     "cancelled": 0,
     "superseded": 4
    },
@@ -78,21 +78,21 @@
     "usd": 0
    }
   },
-  "total_usd": 3776243361259,
+  "total_usd": 3611043361259,
   "contingent_usd": 211321000000,
-  "headline_usd": 2353710000000,
-  "broad_usd": 6341274361259,
+  "headline_usd": 2466510000000,
+  "broad_usd": 6288874361259,
   "by_status_usd": {
-   "announced": 18200000000,
-   "signed": 1915473571259,
-   "in_progress": 356136000000,
+   "announced": 9000000000,
+   "signed": 1795973571259,
+   "in_progress": 341136000000,
    "completed": 1406333790000,
-   "reported": 80100000000
+   "reported": 58600000000
   },
-  "confirmed_usd": 2445326361259,
-  "reported_usd": 1330917000000,
-  "binding_usd": 3677943361259,
-  "announced_usd": 98300000000,
+  "confirmed_usd": 2310826361259,
+  "reported_usd": 1300217000000,
+  "binding_usd": 3543443361259,
+  "announced_usd": 67600000000,
   "circular": [
    {
     "id": "loop-nvidia-openai-oracle",
@@ -604,8 +604,8 @@
        "investment",
        "investment"
       ],
-      "usd": 6000000000,
-      "undisclosed": 0
+      "usd": 1000000000,
+      "undisclosed": 1
      }
     ],
     "edges": [
@@ -620,9 +620,9 @@
     ],
     "usd": [
      47200000000,
-     6000000000
+     1000000000
     ],
-    "min_usd": 6000000000,
+    "min_usd": 1000000000,
     "max_usd": 47200000000,
     "undisclosed_legs": 0
    },
@@ -643,8 +643,8 @@
       "kinds": [
        "order"
       ],
-      "usd": 20000000000,
-      "undisclosed": 0
+      "usd": null,
+      "undisclosed": 1
      },
      {
       "from": "oracle",
@@ -686,13 +686,13 @@
      "investment"
     ],
     "usd": [
-     20000000000,
+     null,
      40000000000,
      3000000000
     ],
     "min_usd": 3000000000,
     "max_usd": 40000000000,
-    "undisclosed_legs": 0
+    "undisclosed_legs": 1
    },
    {
     "id": "loop-coreweave-nvidia-meta",
@@ -933,8 +933,8 @@
        "investment",
        "investment"
       ],
-      "usd": 20000000000,
-      "undisclosed": 0
+      "usd": 10000000000,
+      "undisclosed": 1
      }
     ],
     "edges": [
@@ -952,75 +952,11 @@
     "usd": [
      null,
      null,
-     20000000000
+     10000000000
     ],
-    "min_usd": 20000000000,
-    "max_usd": 20000000000,
+    "min_usd": 10000000000,
+    "max_usd": 10000000000,
     "undisclosed_legs": 2
-   },
-   {
-    "id": "loop-amd-meta-oracle",
-    "entities": [
-     "amd",
-     "meta",
-     "oracle"
-    ],
-    "legs": [
-     {
-      "from": "amd",
-      "to": "meta",
-      "edge_ids": [
-       "amd-meta-2026-10-equity-investment"
-      ],
-      "kinds": [
-       "investment"
-      ],
-      "usd": 1000000000,
-      "undisclosed": 0
-     },
-     {
-      "from": "meta",
-      "to": "oracle",
-      "edge_ids": [
-       "meta-oracle-2025-cloud"
-      ],
-      "kinds": [
-       "order"
-      ],
-      "usd": 20000000000,
-      "undisclosed": 0
-     },
-     {
-      "from": "oracle",
-      "to": "amd",
-      "edge_ids": [
-       "oracle-amd-2025-10-mi450"
-      ],
-      "kinds": [
-       "order"
-      ],
-      "usd": null,
-      "undisclosed": 1
-     }
-    ],
-    "edges": [
-     "amd-meta-2026-10-equity-investment",
-     "meta-oracle-2025-cloud",
-     "oracle-amd-2025-10-mi450"
-    ],
-    "kinds": [
-     "investment",
-     "order",
-     "order"
-    ],
-    "usd": [
-     1000000000,
-     20000000000,
-     null
-    ],
-    "min_usd": 1000000000,
-    "max_usd": 20000000000,
-    "undisclosed_legs": 1
    },
    {
     "id": "loop-coreweave-nvidia",
@@ -1229,6 +1165,70 @@
     "min_usd": 1000000000,
     "max_usd": 1000000000,
     "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-amd-meta-oracle",
+    "entities": [
+     "amd",
+     "meta",
+     "oracle"
+    ],
+    "legs": [
+     {
+      "from": "amd",
+      "to": "meta",
+      "edge_ids": [
+       "amd-meta-2026-10-equity-investment"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 1000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "meta",
+      "to": "oracle",
+      "edge_ids": [
+       "meta-oracle-2025-cloud"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "oracle",
+      "to": "amd",
+      "edge_ids": [
+       "oracle-amd-2025-10-mi450"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "amd-meta-2026-10-equity-investment",
+     "meta-oracle-2025-cloud",
+     "oracle-amd-2025-10-mi450"
+    ],
+    "kinds": [
+     "investment",
+     "order",
+     "order"
+    ],
+    "usd": [
+     1000000000,
+     null,
+     null
+    ],
+    "min_usd": 1000000000,
+    "max_usd": 1000000000,
+    "undisclosed_legs": 2
    },
    {
     "id": "loop-amd-tsmc-anthropic",
@@ -1979,10 +1979,10 @@
    {
     "month": "2025-09",
     "count": 21,
-    "usd": 415281000000,
-    "cumulative_usd": 763745000000,
+    "usd": 395281000000,
+    "cumulative_usd": 743745000000,
     "by_kind": {
-     "order": 357900000000,
+     "order": 337900000000,
      "investment": 20830000000,
      "debt": 31251000000,
      "lease": 5300000000,
@@ -1993,10 +1993,10 @@
    {
     "month": "2025-10",
     "count": 24,
-    "usd": 418625000000,
-    "cumulative_usd": 1182370000000,
+    "usd": 413625000000,
+    "cumulative_usd": 1157370000000,
     "by_kind": {
-     "order": 255000000000,
+     "order": 250000000000,
      "investment": 49600000000,
      "debt": 99525000000,
      "lease": 14500000000,
@@ -2007,11 +2007,11 @@
    {
     "month": "2025-11",
     "count": 19,
-    "usd": 185528000000,
-    "cumulative_usd": 1367898000000,
+    "usd": 170528000000,
+    "cumulative_usd": 1327898000000,
     "by_kind": {
      "order": 97900000000,
-     "investment": 17565000000,
+     "investment": 2565000000,
      "debt": 64563000000,
      "lease": 5500000000,
      "vendor_financing": 0,
@@ -2022,7 +2022,7 @@
     "month": "2025-12",
     "count": 9,
     "usd": 19437500000,
-    "cumulative_usd": 1387335500000,
+    "cumulative_usd": 1347335500000,
     "by_kind": {
      "order": 0,
      "investment": 6250000000,
@@ -2036,7 +2036,7 @@
     "month": "2026-01",
     "count": 26,
     "usd": 55617571259,
-    "cumulative_usd": 1442953071259,
+    "cumulative_usd": 1402953071259,
     "by_kind": {
      "order": 21800000000,
      "investment": 24177000000,
@@ -2050,7 +2050,7 @@
     "month": "2026-02",
     "count": 20,
     "usd": 309700000000,
-    "cumulative_usd": 1752653071259,
+    "cumulative_usd": 1712653071259,
     "by_kind": {
      "order": 101400000000,
      "investment": 138450000000,
@@ -2063,10 +2063,10 @@
    {
     "month": "2026-03",
     "count": 23,
-    "usd": 202917500000,
-    "cumulative_usd": 1955570571259,
+    "usd": 187917500000,
+    "cumulative_usd": 1900570571259,
     "by_kind": {
-     "order": 70800000000,
+     "order": 55800000000,
      "investment": 20000000000,
      "debt": 110117500000,
      "lease": 2000000000,
@@ -2078,7 +2078,7 @@
     "month": "2026-04",
     "count": 23,
     "usd": 346180690000,
-    "cumulative_usd": 2301751261259,
+    "cumulative_usd": 2246751261259,
     "by_kind": {
      "order": 258300000000,
      "investment": 46740690000,
@@ -2092,7 +2092,7 @@
     "month": "2026-05",
     "count": 24,
     "usd": 124150000000,
-    "cumulative_usd": 2425901261259,
+    "cumulative_usd": 2370901261259,
     "by_kind": {
      "order": 7600000000,
      "investment": 64850000000,
@@ -2105,10 +2105,10 @@
    {
     "month": "2026-06",
     "count": 20,
-    "usd": 283732000000,
-    "cumulative_usd": 2709633261259,
+    "usd": 263732000000,
+    "cumulative_usd": 2634633261259,
     "by_kind": {
-     "order": 20000000000,
+     "order": 0,
      "investment": 136200000000,
      "debt": 127532000000,
      "lease": 0,
@@ -2120,7 +2120,7 @@
     "month": "2026-07",
     "count": 29,
     "usd": 133104100000,
-    "cumulative_usd": 2842737361259,
+    "cumulative_usd": 2767737361259,
     "by_kind": {
      "order": 2500000000,
      "investment": 45397100000,
@@ -2133,10 +2133,10 @@
    {
     "month": "2026-08",
     "count": 24,
-    "usd": 170249000000,
-    "cumulative_usd": 3012986361259,
+    "usd": 125649000000,
+    "cumulative_usd": 2893386361259,
     "by_kind": {
-     "order": 54600000000,
+     "order": 10000000000,
      "investment": 38100000000,
      "debt": 63749000000,
      "lease": 13800000000,
@@ -2147,11 +2147,11 @@
    {
     "month": "2026-09",
     "count": 28,
-    "usd": 200169000000,
-    "cumulative_usd": 3213155361259,
+    "usd": 163769000000,
+    "cumulative_usd": 3057155361259,
     "by_kind": {
-     "order": 68300000000,
-     "investment": 46709000000,
+     "order": 33400000000,
+     "investment": 45209000000,
      "debt": 82220000000,
      "lease": 2940000000,
      "vendor_financing": 0,
@@ -2161,12 +2161,12 @@
    {
     "month": "2026-10",
     "count": 29,
-    "usd": 470538000000,
-    "cumulative_usd": 3683693361259,
+    "usd": 461338000000,
+    "cumulative_usd": 3518493361259,
     "by_kind": {
      "order": 6400000000,
      "investment": 59200000000,
-     "debt": 175738000000,
+     "debt": 166538000000,
      "lease": 229200000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2176,7 +2176,7 @@
     "month": "2026-11",
     "count": 20,
     "usd": 92550000000,
-    "cumulative_usd": 3776243361259,
+    "cumulative_usd": 3611043361259,
     "by_kind": {
      "order": 0,
      "investment": 47000000000,

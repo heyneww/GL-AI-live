@@ -1,8 +1,382 @@
 {
- "generated_at": "2026-11-18T16:09:54Z",
+ "generated_at": "2026-11-18T22:47:11Z",
  "history_complete": true,
- "last_commit": "05217eca9018d71127f705e54afdae64fbfd245a",
+ "last_commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
  "changes": [
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "amd-anthropic-2026-07-equity",
+   "kind": "changed",
+   "fields": {
+    "headline_usd": {
+     "from": 5000000000,
+     "to": 2500000000
+    },
+    "note_en": {
+     "from": "Not counted in the committed total since 18 Nov 2026: each purchase depends on a delivery milestone and none has been reached. The broad view includes the $5B.",
+     "to": "Not counted in the committed total since 18 Nov 2026: each purchase depends on a delivery milestone. AMD's $2.5B purchase in the private placement alongside the IPO (its own edge, counted) satisfies $2.5B of this commitment, so only the remaining $2.5B is shown in the broad view."
+    },
+    "note_zh": {
+     "from": "自 2026 年 11 月 18 日起不计入承诺总额：每次认购都取决于交付里程碑，目前尚无里程碑达成。宽口径仍包含这 50 亿美元。",
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：每次认购都取决于交付里程碑。AMD 在 IPO 同时进行的私募配售中认购的 25 亿美元（另列为一条边并计入）抵减该承诺的 25 亿美元，因此宽口径只显示剩余的 25 亿美元。"
+    }
+   },
+   "title_en": "AMD to invest up to $5B in Anthropic",
+   "title_zh": "AMD 向 Anthropic 投资最多 50 亿美元"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "anthropic-lambda-2026-09-cloud",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "~$41.3B across three agreements (May, June and August 2026) per Anthropic's S-1/A; the August agreement (~$34.9B, the ~350 MW Hut 8 Texas site first reported by the WSJ/Reuters) is currently terminable by either party because Lambda did not secure the facility lease by the agreed date; neither side had given notice as of 10 Nov 2026",
+     "to": "~$6.4B counted: the May and June 2026 agreements, which are non-cancelable except for Lambda's uncured breach. The August agreement (~$34.9B of the ~$41.3B total, the ~350 MW Hut 8 Texas site first reported by the WSJ/Reuters) is currently terminable by either party because Lambda did not secure the facility lease by the agreed date, so it is not counted; neither side had given notice as of the S-1/A (Nov 2026)"
+    },
+    "amount_text_zh": {
+     "from": "据 Anthropic 修订版 S-1，三份协议（2026 年 5 月、6 月和 8 月）合计约 413 亿美元；其中 8 月协议（约 349 亿美元，即《华尔街日报》和路透社最早报道的 Hut 8 得州约 350 兆瓦站点）因 Lambda 未能在约定日期前取得设施租约，目前任一方均可终止；截至 2026 年 11 月 10 日双方均未发出终止通知",
+     "to": "计入约 64 亿美元：即 2026 年 5 月和 6 月的两份协议，除 Lambda 未补救的重大违约外不可取消。8 月协议（约 413 亿美元总额中的约 349 亿美元，即《华尔街日报》和路透社最早报道的 Hut 8 得州约 350 兆瓦站点）因 Lambda 未能在约定日期前取得设施租约，目前任何一方均可终止，故不计入；截至修订版 S-1（2026 年 11 月）双方均未发出终止通知"
+    },
+    "amount_usd": {
+     "from": 41300000000,
+     "to": 6400000000
+    },
+    "last_checked": {
+     "from": "2026-11-10",
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Committed-amount rule (18 Nov 2026): only the non-cancelable part is counted; the terminable August agreement (~$34.9B) is described in the amount text."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "承诺金额规则（2026 年 11 月 18 日）：只计入不可取消部分；可终止的 8 月协议（约 349 亿美元）见金额说明。"
+    }
+   },
+   "title_en": "Anthropic commits ~$41.3B to Lambda cloud compute",
+   "title_zh": "Anthropic 向 Lambda 承诺约 413 亿美元云算力"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "anthropic-nscale-2026-08-cloud",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 44600000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 44600000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: Anthropic agreed to spend up to ~$44.6B, paying only as capacity is delivered and accepted, and its S-1 gives no firm minimum; the figure is shown in the broad view."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：Anthropic 同意最多支出约 446 亿美元，仅在算力交付并验收后付费，其 S-1 未给出确定的最低金额；该数字在宽口径中显示。"
+    }
+   },
+   "title_en": "Anthropic $45B compute rental from Nscale",
+   "title_zh": "Anthropic 向 Nscale 租用 450 亿美元算力"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "brookfield-bloom-energy-2025-10-fuel-cells",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 5000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 5000000000
+    },
+    "last_checked": {
+     "from": "2026-11-02",
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: an 'up to $5B' framework for future fuel-cell deployments with no firm purchase amount disclosed; shown in the broad view (the June 2026 expansion to $25B is a separate edge carrying the further $20B)."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：属“最多 50 亿美元”的未来燃料电池部署框架，未披露确定的采购金额；在宽口径中显示（2026 年 6 月扩大至 250 亿美元另列为一条边，承载其余 200 亿美元）。"
+    }
+   },
+   "title_en": "Brookfield's $5B Bloom Energy fuel-cell deal for AI data centres",
+   "title_zh": "布鲁克菲尔德与 Bloom Energy 签订 50 亿美元 AI 数据中心燃料电池协议"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "brookfield-bloom-energy-2026-06-expansion",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 20000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 20000000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: the framework increase from $5B to $25B sets no firm purchase amount; the $20B increment is shown in the broad view."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：框架由 50 亿美元扩大至 250 亿美元，但未设定确定的采购金额；新增的 200 亿美元在宽口径中显示。"
+    }
+   },
+   "title_en": "Brookfield expands Bloom Energy partnership to $25B",
+   "title_zh": "布鲁克菲尔德将与 Bloom Energy 的合作扩大至 250 亿美元"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "meta-nebius-2026-03-cloud",
+   "kind": "changed",
+   "fields": {
+    "amount_text": {
+     "from": "Up to ~$27B: $12B dedicated capacity + up to $15B purchase commitment",
+     "to": "$12B counted: dedicated Vera Rubin capacity over five years from early 2027. Meta also committed to buy up to $15B of further capacity in upcoming Nebius clusters that Nebius does not sell to other customers (not counted); contract value up to ~$27B"
+    },
+    "amount_text_zh": {
+     "from": null,
+     "to": "计入 120 亿美元：自 2027 年初起五年的 Vera Rubin 专用容量。Meta 另承诺购买 Nebius 未来集群中未售予其他客户的额外容量，最多 150 亿美元（不计入）；合同价值最高约 270 亿美元"
+    },
+    "amount_usd": {
+     "from": 27000000000,
+     "to": 12000000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Committed-amount rule (18 Nov 2026): the $15B purchase commitment depends on how much capacity Nebius sells to third parties, so only the $12B of dedicated capacity is counted."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "承诺金额规则（2026 年 11 月 18 日）：150 亿美元的采购承诺取决于 Nebius 向第三方出售的容量，因此只计入 120 亿美元的专用容量。"
+    }
+   },
+   "title_en": "Meta up to $27B AI infrastructure deal with Nebius",
+   "title_zh": "Meta 与 Nebius 最高 270 亿美元的 AI 基础设施协议"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "meta-oracle-2025-cloud",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 20000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 20000000000
+    },
+    "last_checked": {
+     "from": "2026-11-02",
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: the ~$20B comes from September 2025 reports of talks, and neither company has confirmed a signed contract or its amount; shown in the broad view."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：约 200 亿美元来自 2025 年 9 月关于谈判的报道，双方均未确认已签署的合同或金额；在宽口径中显示。"
+    }
+   },
+   "title_en": "Meta ~$20B cloud contract with Oracle",
+   "title_zh": "Meta 与甲骨文约 200 亿美元的云合同"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "microsoft-anthropic-2025-11-equity",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 5000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 5000000000
+    },
+    "last_checked": {
+     "from": "2026-11-09",
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: Anthropic's S-1 does not say how much of Microsoft's up-to-$5B has been paid (part went into the non-voting Series G-2 shares, whose buyers are not named) or whether the rest is still available; the figure is shown in the broad view. Microsoft's $1B purchase alongside the IPO is a separate edge."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：Anthropic 的 S-1 未说明微软最多 50 亿美元的投资已支付多少（部分进入未列明买方的无投票权 G-2 系列股份），也未说明余额是否仍可动用；该数字在宽口径中显示。微软在 IPO 同时认购的 10 亿美元另列为一条边。"
+    }
+   },
+   "title_en": "Microsoft to invest up to $5B in Anthropic",
+   "title_zh": "微软向 Anthropic 投资最多 50 亿美元"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "mizuho-softbank-2025-05-bridge-loan",
+   "kind": "changed",
+   "fields": {
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    }
+   },
+   "title_en": "SoftBank $15B bridge loan for OpenAI and Ampere",
+   "title_zh": "软银 150 亿美元过桥贷款用于 OpenAI 与 Ampere 投资"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "nvidia-anthropic-2025-11-equity",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 10000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 10000000000
+    },
+    "last_checked": {
+     "from": "2026-11-09",
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: Anthropic's S-1 does not say how much of NVIDIA's up-to-$10B has been paid (part went into the non-voting Series G-2 shares, whose buyers are not named) or whether the rest is still available; the figure is shown in the broad view. NVIDIA's $10B purchase alongside the IPO is a separate edge."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：Anthropic 的 S-1 未说明英伟达最多 100 亿美元的投资已支付多少（部分进入未列明买方的无投票权 G-2 系列股份），也未说明余额是否仍可动用；该数字在宽口径中显示。英伟达在 IPO 同时认购的 100 亿美元另列为一条边。"
+    }
+   },
+   "title_en": "Nvidia to invest up to $10B in Anthropic",
+   "title_zh": "英伟达向 Anthropic 投资最多 100 亿美元"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "private-investors-fluidstack-2026-09-series-c",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 1500000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 1500000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: the $1.5B rests on one major outlet (Forbes, citing sources); the company has not announced it and other reports repeat Forbes. Shown in the broad view."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：15 亿美元仅出自一家主要媒体（《福布斯》援引消息人士），公司未宣布，其他报道均转述《福布斯》。在宽口径中显示。"
+    }
+   },
+   "title_en": "Fluidstack raises $1.5B led by Jane Street at $18B+",
+   "title_zh": "Fluidstack 获 Jane Street 领投 15 亿美元融资，估值逾 180 亿美元"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "us-government-constellation-energy-2026-10-nuclear-uprate-loan",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 5000000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 5000000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: a conditional commitment with definitive loan documents not yet signed; shown in the broad view until it closes."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：属有条件承诺，最终贷款文件尚未签署；在交割前于宽口径中显示。"
+    }
+   },
+   "title_en": "US Energy Department to lend Constellation up to $5B for nuclear uprates sold to Google and Amazon",
+   "title_zh": "美国能源部拟向 Constellation 提供最多 50 亿美元贷款，用于已售予谷歌和亚马逊的核电增容"
+  },
+  {
+   "date": "2026-11-18T22:46:59Z",
+   "commit": "1726e27d4374bd36ea372908dcb7956af266fe8e",
+   "edge": "us-government-vistra-2026-10-nuclear-uprate-loan",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 4200000000,
+     "to": null
+    },
+    "headline_usd": {
+     "from": null,
+     "to": 4200000000
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-18"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Not counted in the committed total since 18 Nov 2026: a conditional commitment with definitive loan documents not yet signed; shown in the broad view until it closes."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 18 日起不计入承诺总额：属有条件承诺，最终贷款文件尚未签署；在交割前于宽口径中显示。"
+    }
+   },
+   "title_en": "US Energy Department to lend Vistra ~$4.2B for nuclear uprates sold to Meta",
+   "title_zh": "美国能源部拟向 Vistra 提供约 42 亿美元贷款，用于已售予 Meta 的核电增容"
+  },
   {
    "date": "2026-11-19T00:01:23+08:00",
    "commit": "05217eca9018d71127f705e54afdae64fbfd245a",

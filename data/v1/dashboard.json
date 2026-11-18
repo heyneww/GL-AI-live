@@ -1,18 +1,18 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T21:23:19Z",
- "built_at": "2026-11-18T21:23:34Z",
+ "generated_at": "2026-11-18T22:46:59Z",
+ "built_at": "2026-11-18T22:47:11Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
-  "total_usd": 3776243361259,
+  "total_usd": 3611043361259,
   "contingent_usd": 211321000000,
-  "headline_usd": 2353710000000,
-  "broad_usd": 6341274361259,
-  "confirmed_usd": 2445326361259,
-  "reported_usd": 1330917000000,
-  "binding_usd": 3677943361259,
+  "headline_usd": 2466510000000,
+  "broad_usd": 6288874361259,
+  "confirmed_usd": 2310826361259,
+  "reported_usd": 1300217000000,
+  "binding_usd": 3543443361259,
   "deals": 440,
-  "deals_with_amount": 298,
+  "deals_with_amount": 289,
   "companies": 146,
   "new_7d": {
    "count": 5,
@@ -20,11 +20,11 @@
   },
   "new_30d": {
    "count": 47,
-   "usd": 555880000000
+   "usd": 550880000000
   },
   "announced_30d": {
    "count": 43,
-   "usd": 549330000000
+   "usd": 544330000000
   },
   "latest_announced": "2026-11-16"
  },
@@ -203,12 +203,6 @@
    "group": "other",
    "ticker": null
   },
-  "constellation-energy": {
-   "name": "Constellation Energy",
-   "name_zh": "Constellation 能源",
-   "group": "energy",
-   "ticker": "CEG"
-  },
   "coreweave": {
    "name": "CoreWeave",
    "name_zh": "CoreWeave",
@@ -236,12 +230,6 @@
   "firmus": {
    "name": "Firmus",
    "name_zh": "Firmus（澳大利亚 AI 基础设施公司）",
-   "group": "neocloud",
-   "ticker": null
-  },
-  "fluidstack": {
-   "name": "Fluidstack",
-   "name_zh": "Fluidstack",
    "group": "neocloud",
    "ticker": null
   },
@@ -497,12 +485,6 @@
    "group": "chip",
    "ticker": "TSM"
   },
-  "us-government": {
-   "name": "US government (Commerce Dept. / CHIPS Program)",
-   "name_zh": "美国政府（商务部 / 芯片法案项目办公室）",
-   "group": "other",
-   "ticker": null
-  },
   "vantage-data-centers": {
    "name": "Vantage Data Centers",
    "name_zh": "Vantage 数据中心",
@@ -514,12 +496,6 @@
    "name_zh": "威瑞森（Verizon）",
    "group": "other",
    "ticker": "VZ"
-  },
-  "vistra": {
-   "name": "Vistra",
-   "name_zh": "Vistra 能源",
-   "group": "energy",
-   "ticker": "VST"
   },
   "volta": {
    "name": "Volta",
@@ -1234,35 +1210,6 @@
    ]
   },
   {
-   "id": "us-government-constellation-energy-2026-10-nuclear-uprate-loan",
-   "kind": "debt",
-   "subkind": "federal loan (conditional commitment, DOE Office of Energy Dominance Financing)",
-   "subkind_zh": "联邦贷款（有条件承诺，美国能源部能源主导融资办公室）",
-   "from": "us-government",
-   "to": "constellation-energy",
-   "amount_usd": 5000000000,
-   "counted_usd": 5000000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Up to $5B conditional loan commitment for about 1.1 GW of uprates at eight nuclear plants in Illinois, Maryland and Pennsylvania; definitive financing documents not yet signed and not every uprate has a final investment decision",
-   "announced": "2026-10-27",
-   "status": "announced",
-   "confidence": "reported",
-   "title_en": "US Energy Department to lend Constellation up to $5B for nuclear uprates sold to Google and Amazon",
-   "title_zh": "美国能源部拟向 Constellation 提供最多 50 亿美元贷款，用于已售予谷歌和亚马逊的核电增容",
-   "summary_en": "The US Department of Energy made a conditional commitment to lend Constellation up to $5B for about 1.1 GW of uprates at eight nuclear plants. Five of the plants are in Google's 20-year power deal of October 2026 and Calvert Cliffs is the focus of Amazon's (both their own…",
-   "summary_zh": "美国能源部有条件承诺向 Constellation 提供最多 50 亿美元贷款，用于八座核电站约 1.1 吉瓦的增容。其中五座电站属于谷歌 2026 年 10 月签署的 20 年购电协议，Calvert Cliffs 则是亚马逊购电协议的核心（均另列为边），因此该贷款资助的容量…",
-   "source": {
-    "url": "https://www.ans.org/news/2026-10-28/article-8523/constellation-to-get-up-to-5b-doe-loan-for-planned-uprates/",
-    "publisher": "American Nuclear Society (Nuclear Newswire)",
-    "date": "2026-10-28"
-   },
-   "added": "2026-11-11",
-   "tags": [
-    "recent"
-   ]
-  },
-  {
    "id": "nvidia-meta-2026-10-equity-investment",
    "kind": "investment",
    "subkind": "equity stake (share offering)",
@@ -1317,7 +1264,6 @@
    },
    "added": "2026-10-28",
    "tags": [
-    "changed",
     "recent"
    ]
   },
@@ -1470,6 +1416,7 @@
    },
    "added": "2026-10-28",
    "tags": [
+    "top",
     "big",
     "recent"
    ]
@@ -1761,35 +1708,6 @@
     "date": "2026-11-04"
    },
    "added": "2026-11-17",
-   "tags": [
-    "recent"
-   ]
-  },
-  {
-   "id": "us-government-vistra-2026-10-nuclear-uprate-loan",
-   "kind": "debt",
-   "subkind": "federal loan (conditional commitment, DOE Office of Energy Dominance Financing)",
-   "subkind_zh": "联邦贷款（有条件承诺，美国能源部能源主导融资办公室）",
-   "from": "us-government",
-   "to": "vistra",
-   "amount_usd": 4200000000,
-   "counted_usd": 4200000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "~$4.2B conditional loan commitment for uprates and modernisation at Beaver Valley, Davis-Besse and Perry; definitive financing documents not yet signed (DOE conditions still to be met)",
-   "announced": "2026-10-06",
-   "status": "announced",
-   "confidence": "reported",
-   "title_en": "US Energy Department to lend Vistra ~$4.2B for nuclear uprates sold to Meta",
-   "title_zh": "美国能源部拟向 Vistra 提供约 42 亿美元贷款，用于已售予 Meta 的核电增容",
-   "summary_en": "The US Department of Energy made a conditional commitment to lend Vistra about $4.2B to uprate and modernise its Beaver Valley, Davis-Besse and Perry nuclear plants, adding 433 MW. Those uprates are part of the 20-year power purchase agreements Vistra signed with Meta in…",
-   "summary_zh": "美国能源部有条件承诺向 Vistra 提供约 42 亿美元贷款，用于其 Beaver Valley、Davis-Besse 和 Perry 核电站的增容和现代化改造，新增 433 兆瓦容量。这些增容属于 Vistra 于 2026 年 1 月与 Meta 签署的 20 年购电协…",
-   "source": {
-    "url": "https://www.ans.org/news/2026-10-06/article-8464/",
-    "publisher": "American Nuclear Society (Nuclear Newswire)",
-    "date": "2026-10-06"
-   },
-   "added": "2026-11-08",
    "tags": [
     "recent"
    ]
@@ -2353,46 +2271,17 @@
    ]
   },
   {
-   "id": "private-investors-fluidstack-2026-09-series-c",
-   "kind": "investment",
-   "subkind": "venture round",
-   "subkind_zh": null,
-   "from": "private-investors",
-   "to": "fluidstack",
-   "amount_usd": 1500000000,
-   "counted_usd": 1500000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "$1.5B led by Jane Street at a valuation above $18B (Forbes, citing sources; not announced by the company)",
-   "announced": "2026-09-03",
-   "status": "reported",
-   "confidence": "reported",
-   "title_en": "Fluidstack raises $1.5B led by Jane Street at $18B+",
-   "title_zh": "Fluidstack 获 Jane Street 领投 15 亿美元融资，估值逾 180 亿美元",
-   "summary_en": "Forbes reported that Fluidstack closed a $1.5B round led by quant firm Jane Street at a valuation above $18B, more than double its $7.5B mark earlier in 2026; Bloomberg had reported talks in April.",
-   "summary_zh": "据《福布斯》报道，Fluidstack 完成由量化机构 Jane Street 领投的 15 亿美元融资，估值逾 180 亿美元，较 2026 年早些时候的 75 亿美元翻倍有余；彭博社曾于 4 月报道相关谈判。",
-   "source": {
-    "url": "https://www.forbes.com/sites/iainmartin/2026/09/03/a-tiny-startup-helping-google-take-on-nvidia-is-now-worth-18-billion/",
-    "publisher": "Forbes",
-    "date": "2026-09-03"
-   },
-   "added": "2026-10-28",
-   "tags": [
-    "recent"
-   ]
-  },
-  {
    "id": "anthropic-lambda-2026-09-cloud",
    "kind": "order",
    "subkind": "cloud compute rental",
    "subkind_zh": null,
    "from": "anthropic",
    "to": "lambda",
-   "amount_usd": 41300000000,
-   "counted_usd": 41300000000,
+   "amount_usd": 6400000000,
+   "counted_usd": 6400000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "~$41.3B across three agreements (May, June and August 2026) per Anthropic's S-1/A; the August agreement (~$34.9B, the ~350 MW Hut 8 Texas site first reported by the WSJ/Reuters) is currently terminable by either party because Lambda did not secure the facility lease by the agreed date; neither side had given notice as of 10 Nov 2026",
+   "amount_text": "~$6.4B counted: the May and June 2026 agreements, which are non-cancelable except for Lambda's uncured breach. The August agreement (~$34.9B of the ~$41.3B total, the ~350 MW Hut 8 Texas site first reported by the WSJ/Reuters) is currently terminable by either party because Lambda did not secure the facility lease by the agreed date, so it is not counted; neither side had given notice as of the S-1/A (Nov 2026)",
    "announced": "2026-09-01",
    "status": "signed",
    "confidence": "confirmed",
@@ -2407,9 +2296,7 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "top",
     "changed",
-    "big",
     "recent"
    ]
   },
@@ -2536,10 +2423,10 @@
    "subkind_zh": null,
    "from": "anthropic",
    "to": "nscale",
-   "amount_usd": 44600000000,
-   "counted_usd": 44600000000,
+   "amount_usd": null,
+   "counted_usd": 0,
    "contingent_usd": 0,
-   "headline_usd": null,
+   "headline_usd": 44600000000,
    "amount_text": "Up to ~$44.6B over terms into 2033 under the August 2026 Nscale Services Agreements, fees accruing only as capacity is delivered and accepted (Anthropic S-1); reported as $45B over 6 years for ~460 MW at the Monarch campus, West Virginia. A second ~$45B deal was reported in talks (Oct 2026)",
    "announced": "2026-08-26",
    "status": "signed",
@@ -2555,9 +2442,7 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "top",
-    "big",
-    "recent"
+    "changed"
    ]
   },
   {
@@ -2588,35 +2473,6 @@
    "tags": [
     "big",
     "recent"
-   ]
-  },
-  {
-   "id": "bond-investors-nebius-2026-08-convertible",
-   "kind": "debt",
-   "subkind": "convertible senior notes",
-   "subkind_zh": null,
-   "from": "bond-investors",
-   "to": "nebius",
-   "amount_usd": 5750000000,
-   "counted_usd": 5750000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "$5.75B including the purchasers' $750M option, per Nebius's Q3 2026 shareholder letter (\"$5.75 billion of convertible notes in August\"); priced at $5.0B: $3.0B 0.50% due 2030 + $2.0B 4.50% due 2034 (upsized from $4.5B)",
-   "announced": "2026-08-19",
-   "status": "completed",
-   "confidence": "confirmed",
-   "title_en": "Nebius $5B convertible notes",
-   "title_zh": "Nebius 发行 50 亿美元可转债",
-   "summary_en": "Nebius priced an upsized $5.0B two-part convertible offering, its third in a year, taking its convertible issuance since Sept 2025 to $11.75B.",
-   "summary_zh": "Nebius 定价扩容后的 50 亿美元两档可转换票据，为一年内第三次，使其自 2025 年 9 月以来可转债发行总额达 117.5 亿美元。",
-   "source": {
-    "url": "https://nebius.com/newsroom/nebius-group-announces-pricing-of-upsized-private-offering-of-5-0-billion-of-convertible-senior-notes",
-    "publisher": "Nebius",
-    "date": "2026-08-19"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "changed"
    ]
   },
   {
@@ -2832,7 +2688,7 @@
    "amount_usd": null,
    "counted_usd": 0,
    "contingent_usd": 0,
-   "headline_usd": 5000000000,
+   "headline_usd": 2500000000,
    "amount_text": "Up to $5.0B of Anthropic Class N common stock, which Anthropic can draw in increments as AMD GPU delivery and deployment milestones are met (first milestone expected in 2027); after the IPO priced at the 30-day average share price (Anthropic S-1). Nothing drawn yet, so no committed amount is counted",
    "announced": "2026-07-22",
    "status": "signed",
@@ -2945,10 +2801,10 @@
    "subkind_zh": null,
    "from": "brookfield",
    "to": "bloom-energy",
-   "amount_usd": 20000000000,
-   "counted_usd": 20000000000,
+   "amount_usd": null,
+   "counted_usd": 0,
    "contingent_usd": 0,
-   "headline_usd": null,
+   "headline_usd": 20000000000,
    "amount_text": "Framework raised from $5B to $25B; $20B increment counted here (the original $5B is a separate edge)",
    "announced": "2026-06-30",
    "status": "signed",
@@ -2964,7 +2820,7 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "big"
+    "changed"
    ]
   },
   {
@@ -3053,35 +2909,6 @@
    "tags": [
     "top",
     "big"
-   ]
-  },
-  {
-   "id": "bond-investors-coreweave-2026-06-notes",
-   "kind": "debt",
-   "subkind": "high-yield senior notes",
-   "subkind_zh": null,
-   "from": "bond-investors",
-   "to": "coreweave",
-   "amount_usd": 3522000000,
-   "counted_usd": 3522000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "~$3.52B: $1.25B 9.625% senior notes due 2032 + €2B 8.500% senior notes due 2032, the euro notes carried at $2,272M in CoreWeave's Q3 2026 10-Q (30 Sep 2026, ~1.136 USD per EUR); launched as a ~$3.5B offering",
-   "announced": "2026-06-11",
-   "status": "completed",
-   "confidence": "confirmed",
-   "title_en": "CoreWeave $1.25B + €2B senior notes due 2032",
-   "title_zh": "CoreWeave 发行 12.5 亿美元及 20 亿欧元 2032 年到期优先票据",
-   "summary_en": "CoreWeave priced $1.25B of 9.625% and €2B of 8.500% senior unsecured notes due 2032, closed on 18 June 2026, for general corporate purposes including repaying debt.",
-   "summary_zh": "CoreWeave 定价 12.5 亿美元、票息 9.625% 及 20 亿欧元、票息 8.500%、2032 年到期的无担保优先票据，于 2026 年 6 月 18 日完成，用于一般企业用途（包括偿还债务）。",
-   "source": {
-    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
-    "publisher": "SEC EDGAR (CoreWeave, Inc. 8-K)",
-    "date": "2026-06-18"
-   },
-   "added": "2026-10-28",
-   "tags": [
-    "changed"
    ]
   },
   {
@@ -3653,11 +3480,11 @@
    "subkind_zh": null,
    "from": "meta",
    "to": "nebius",
-   "amount_usd": 27000000000,
-   "counted_usd": 27000000000,
+   "amount_usd": 12000000000,
+   "counted_usd": 12000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "Up to ~$27B: $12B dedicated capacity + up to $15B purchase commitment",
+   "amount_text": "$12B counted: dedicated Vera Rubin capacity over five years from early 2027. Meta also committed to buy up to $15B of further capacity in upcoming Nebius clusters that Nebius does not sell to other customers (not counted); contract value up to ~$27B",
    "announced": "2026-03-16",
    "status": "signed",
    "confidence": "confirmed",
@@ -3672,6 +3499,7 @@
    },
    "added": "2026-10-27",
    "tags": [
+    "changed",
     "big"
    ]
   },
@@ -3910,7 +3738,6 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "changed",
     "big"
    ]
   },
@@ -4148,35 +3975,6 @@
    ]
   },
   {
-   "id": "bond-investors-coreweave-2025-12-convertible",
-   "kind": "debt",
-   "subkind": "convertible senior notes",
-   "subkind_zh": null,
-   "from": "bond-investors",
-   "to": "coreweave",
-   "amount_usd": 2587500000,
-   "counted_usd": 2587500000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "$2.5875B 1.75% convertible senior notes due 2031: $2.25B priced (upsized from $2B) plus the $337.5M initial purchasers' option, exercised in full (CoreWeave Q3 2026 10-Q debt table: $2,588M principal)",
-   "announced": "2025-12-09",
-   "status": "completed",
-   "confidence": "confirmed",
-   "title_en": "CoreWeave $2.59B convertible notes",
-   "title_zh": "CoreWeave 发行 25.9 亿美元可转换票据",
-   "summary_en": "CoreWeave priced an upsized $2.25B of 1.75% convertible senior notes due 2031 for general corporate purposes and capped calls; with the initial purchasers' $337.5M option exercised in full, $2.5875B is outstanding, per its Q3 2026 10-Q.",
-   "summary_zh": "CoreWeave 定价扩容后的 22.5 亿美元、票息 1.75%、2031 年到期可转换优先票据，用于一般企业用途及上限看涨期权交易；初始购买方全额行使 3.375 亿美元超额配售选择权后，据其 2026 年第三季度 10-Q，未偿本金为 25.875 亿美元。",
-   "source": {
-    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/R16.htm",
-    "publisher": "CoreWeave (SEC 10-Q)",
-    "date": "2026-11-12"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "changed"
-   ]
-  },
-  {
    "id": "anthropic-microsoft-2025-11-azure",
    "kind": "order",
    "subkind": "cloud compute commitment",
@@ -4203,7 +4001,6 @@
    "added": "2026-10-27",
    "tags": [
     "top",
-    "changed",
     "big"
    ]
   },
@@ -4214,10 +4011,10 @@
    "subkind_zh": null,
    "from": "nvidia",
    "to": "anthropic",
-   "amount_usd": 10000000000,
-   "counted_usd": 10000000000,
+   "amount_usd": null,
+   "counted_usd": 0,
    "contingent_usd": 0,
-   "headline_usd": null,
+   "headline_usd": 10000000000,
    "amount_text": "Up to $10B",
    "announced": "2025-11-18",
    "status": "in_progress",
@@ -4233,7 +4030,36 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "big"
+    "changed"
+   ]
+  },
+  {
+   "id": "microsoft-anthropic-2025-11-equity",
+   "kind": "investment",
+   "subkind": "equity investment",
+   "subkind_zh": null,
+   "from": "microsoft",
+   "to": "anthropic",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": 5000000000,
+   "amount_text": "Up to $5B",
+   "announced": "2025-11-18",
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "Microsoft to invest up to $5B in Anthropic",
+   "title_zh": "微软向 Anthropic 投资最多 50 亿美元",
+   "summary_en": "Microsoft committed up to $5B to Anthropic as part of the Azure deal; Anthropic said its February 2026 Series G included a portion of this previously announced investment.",
+   "summary_zh": "微软在 Azure 合作中承诺向 Anthropic 投资最多 50 亿美元；Anthropic 表示其 2026 年 2 月 G 轮融资包含了该笔已宣布投资的一部分。",
+   "source": {
+    "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+    "publisher": "Anthropic",
+    "date": "2025-11-18"
+   },
+   "added": "2026-10-27",
+   "tags": [
+    "changed"
    ]
   },
   {
@@ -4320,6 +4146,7 @@
    },
    "added": "2026-10-27",
    "tags": [
+    "top",
     "circular",
     "big"
    ]
@@ -4473,35 +4300,6 @@
    ]
   },
   {
-   "id": "meta-beignet-2025-10-residual-value-guarantee",
-   "kind": "guarantee",
-   "subkind": "residual value guarantee",
-   "subkind_zh": null,
-   "from": "meta",
-   "to": "beignet-investor",
-   "amount_usd": 28091000000,
-   "counted_usd": 0,
-   "contingent_usd": 28091000000,
-   "headline_usd": null,
-   "amount_text": "Maximum residual value guarantee $28.091B at 31 Dec 2025, when the Louisiana (Hyperion) venture was Meta's only data-centre venture (Meta Q3 2026 10-Q, Note 5); covers the first 16 years of operations; contingent, not counted in totals",
-   "announced": "2025-10-21",
-   "status": "signed",
-   "confidence": "confirmed",
-   "title_en": "Meta residual value guarantee to Hyperion JV",
-   "title_zh": "Meta 向 Hyperion 合资公司提供余值担保",
-   "summary_en": "Meta gave the Hyperion joint venture a residual value guarantee: if Meta stops leasing and the campus is worth less than what bondholders and Blue Owl are owed, Meta pays the difference. Meta's 10-Q puts the maximum at $28.09B at the end of 2025 and says payments are not…",
-   "summary_zh": "Meta 向 Hyperion 合资公司提供余值担保：若 Meta 不再续租且园区价值低于欠债券持有人和 Blue Owl 的金额，由 Meta 补足差额。Meta 的 10-Q 显示，截至 2025 年底最高担保额为 280.9 亿美元，并称付款的可能性不大，因此未确认负债…",
-   "source": {
-    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
-    "publisher": "Meta (SEC 10-Q)",
-    "date": "2026-10-22"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "changed"
-   ]
-  },
-  {
    "id": "bond-investors-beignet-2025-10-hyperion-notes",
    "kind": "debt",
    "subkind": "private-credit SPV bonds (senior secured)",
@@ -4558,6 +4356,35 @@
    "tags": [
     "top",
     "big"
+   ]
+  },
+  {
+   "id": "brookfield-bloom-energy-2025-10-fuel-cells",
+   "kind": "order",
+   "subkind": "on-site fuel-cell power framework",
+   "subkind_zh": null,
+   "from": "brookfield",
+   "to": "bloom-energy",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": 5000000000,
+   "amount_text": "Up to $5B to deploy Bloom fuel cells at Brookfield AI factories (first phase); first deal of Brookfield's AI Infrastructure strategy",
+   "announced": "2025-10-13",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Brookfield's $5B Bloom Energy fuel-cell deal for AI data centres",
+   "title_zh": "布鲁克菲尔德与 Bloom Energy 签订 50 亿美元 AI 数据中心燃料电池协议",
+   "summary_en": "Brookfield agreed to invest up to $5B deploying Bloom Energy's fuel cells as behind-the-meter power for its AI data centres, making Bloom its preferred on-site power supplier.",
+   "summary_zh": "布鲁克菲尔德同意投资最高 50 亿美元，在其 AI 数据中心部署 Bloom Energy 燃料电池作为表后电源，Bloom 成为其首选现场电力供应商。",
+   "source": {
+    "url": "https://www.businesswire.com/news/home/20251013114760/en/Brookfield-and-Bloom-Energy-Announce-%245-Billion-Strategic-AI-Infrastructure-Partnership",
+    "publisher": "Business Wire",
+    "date": "2025-10-13"
+   },
+   "added": "2026-10-27",
+   "tags": [
+    "changed"
    ]
   },
   {
@@ -4625,10 +4452,10 @@
    "subkind_zh": null,
    "from": "meta",
    "to": "oracle",
-   "amount_usd": 20000000000,
-   "counted_usd": 20000000000,
+   "amount_usd": null,
+   "counted_usd": 0,
    "contingent_usd": 0,
-   "headline_usd": null,
+   "headline_usd": 20000000000,
    "amount_text": "~$20B reported (Bloomberg/Reuters, Sep 2025 talks); neither company has confirmed a contract or amount. Oracle cited new Meta commitments in Dec 2025 RPO without figures",
    "announced": "2025-09-19",
    "status": "reported",
@@ -4644,7 +4471,7 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "big"
+    "changed"
    ]
   },
   {
@@ -5180,14 +5007,14 @@
   "private-investors-anthropic-2026-05-series-h",
   "amazon-openai-2026-02-equity",
   "anthropic-microsoft-2025-11-azure",
-  "anthropic-nscale-2026-08-cloud",
   "bank-of-america-broadcom-anthropic-rack-spv-2026-10-first-lien",
-  "anthropic-lambda-2026-09-cloud",
   "oracle-nvidia-2025-05-abilene",
   "aip-aligned-2025-10-acquisition",
   "spacex-apollo-2026-10-gpu-finance-lease",
   "public-equity-investors-alphabet-2026-06-equity-offering",
-  "jpmorgan-vantage-2025-10-oracle-loans"
+  "jpmorgan-vantage-2025-10-oracle-loans",
+  "openai-amazon-2025-11-aws",
+  "public-equity-investors-meta-2026-10-equity-offerings"
  ],
  "changes": [
   {
@@ -5275,106 +5102,98 @@
    }
   },
   {
-   "id": "amd-meta-2026-10-equity-investment",
-   "date": "2026-11-18",
-   "title_en": "AMD invests $1B in Meta's share offering",
-   "title_zh": "AMD 向 Meta 股票发行投资 10 亿美元",
-   "fields": {
-    "confidence": {
-     "from": "reported",
-     "to": "confirmed"
-    },
-    "status": {
-     "from": "announced",
-     "to": "completed"
-    }
-   }
-  },
-  {
-   "id": "bond-investors-coreweave-2025-12-convertible",
-   "date": "2026-11-18",
-   "title_en": "CoreWeave $2.59B convertible notes",
-   "title_zh": "CoreWeave 发行 25.9 亿美元可转换票据",
-   "fields": {
-    "amount_usd": {
-     "from": 2250000000,
-     "to": 2587500000
-    }
-   }
-  },
-  {
-   "id": "meta-beignet-2025-10-residual-value-guarantee",
-   "date": "2026-11-18",
-   "title_en": "Meta residual value guarantee to Hyperion JV",
-   "title_zh": "Meta 向 Hyperion 合资公司提供余值担保",
-   "fields": {
-    "amount_usd": {
-     "from": null,
-     "to": 28091000000
-    }
-   }
-  },
-  {
-   "id": "softbank-openai-2026-02-equity",
-   "date": "2026-11-16",
-   "title_en": "SoftBank invests a further $30B in OpenAI",
-   "title_zh": "软银再向 OpenAI 投资 300 亿美元",
-   "fields": {
-    "confidence": {
-     "from": "reported",
-     "to": "confirmed"
-    },
-    "status": {
-     "from": "in_progress",
-     "to": "completed"
-    }
-   }
-  },
-  {
-   "id": "bond-investors-coreweave-2026-06-notes",
-   "date": "2026-11-13",
-   "title_en": "CoreWeave $1.25B + €2B senior notes due 2032",
-   "title_zh": "CoreWeave 发行 12.5 亿美元及 20 亿欧元 2032 年到期优先票据",
-   "fields": {
-    "amount_usd": {
-     "from": null,
-     "to": 3522000000
-    }
-   }
-  },
-  {
-   "id": "bond-investors-nebius-2026-08-convertible",
-   "date": "2026-11-12",
-   "title_en": "Nebius $5B convertible notes",
-   "title_zh": "Nebius 发行 50 亿美元可转债",
-   "fields": {
-    "amount_usd": {
-     "from": 5000000000,
-     "to": 5750000000
-    }
-   }
-  },
-  {
    "id": "anthropic-lambda-2026-09-cloud",
-   "date": "2026-11-10",
+   "date": "2026-11-18",
    "title_en": "Anthropic commits ~$41.3B to Lambda cloud compute",
    "title_zh": "Anthropic 向 Lambda 承诺约 413 亿美元云算力",
    "fields": {
-    "status": {
-     "from": "reported",
-     "to": "signed"
+    "amount_usd": {
+     "from": 41300000000,
+     "to": 6400000000
     }
    }
   },
   {
-   "id": "anthropic-microsoft-2025-11-azure",
-   "date": "2026-11-10",
-   "title_en": "Anthropic commits $47.2B to Microsoft Azure ($30B announced)",
-   "title_zh": "Anthropic 承诺采购 472 亿美元微软 Azure 算力（公告时为 300 亿美元）",
+   "id": "anthropic-nscale-2026-08-cloud",
+   "date": "2026-11-18",
+   "title_en": "Anthropic $45B compute rental from Nscale",
+   "title_zh": "Anthropic 向 Nscale 租用 450 亿美元算力",
    "fields": {
     "amount_usd": {
-     "from": 44900000000,
-     "to": 47200000000
+     "from": 44600000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "brookfield-bloom-energy-2025-10-fuel-cells",
+   "date": "2026-11-18",
+   "title_en": "Brookfield's $5B Bloom Energy fuel-cell deal for AI data centres",
+   "title_zh": "布鲁克菲尔德与 Bloom Energy 签订 50 亿美元 AI 数据中心燃料电池协议",
+   "fields": {
+    "amount_usd": {
+     "from": 5000000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "brookfield-bloom-energy-2026-06-expansion",
+   "date": "2026-11-18",
+   "title_en": "Brookfield expands Bloom Energy partnership to $25B",
+   "title_zh": "布鲁克菲尔德将与 Bloom Energy 的合作扩大至 250 亿美元",
+   "fields": {
+    "amount_usd": {
+     "from": 20000000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "meta-nebius-2026-03-cloud",
+   "date": "2026-11-18",
+   "title_en": "Meta up to $27B AI infrastructure deal with Nebius",
+   "title_zh": "Meta 与 Nebius 最高 270 亿美元的 AI 基础设施协议",
+   "fields": {
+    "amount_usd": {
+     "from": 27000000000,
+     "to": 12000000000
+    }
+   }
+  },
+  {
+   "id": "meta-oracle-2025-cloud",
+   "date": "2026-11-18",
+   "title_en": "Meta ~$20B cloud contract with Oracle",
+   "title_zh": "Meta 与甲骨文约 200 亿美元的云合同",
+   "fields": {
+    "amount_usd": {
+     "from": 20000000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "microsoft-anthropic-2025-11-equity",
+   "date": "2026-11-18",
+   "title_en": "Microsoft to invest up to $5B in Anthropic",
+   "title_zh": "微软向 Anthropic 投资最多 50 亿美元",
+   "fields": {
+    "amount_usd": {
+     "from": 5000000000,
+     "to": null
+    }
+   }
+  },
+  {
+   "id": "nvidia-anthropic-2025-11-equity",
+   "date": "2026-11-18",
+   "title_en": "Nvidia to invest up to $10B in Anthropic",
+   "title_zh": "英伟达向 Anthropic 投资最多 100 亿美元",
+   "fields": {
+    "amount_usd": {
+     "from": 10000000000,
+     "to": null
     }
    }
   }
@@ -5383,20 +5202,20 @@
   {
    "kind": "order",
    "count": 117,
-   "usd": 1413689000000,
-   "undisclosed": 71
+   "usd": 1274189000000,
+   "undisclosed": 75
   },
   {
    "kind": "investment",
    "count": 144,
-   "usd": 887383790000,
-   "undisclosed": 43
+   "usd": 870883790000,
+   "undisclosed": 46
   },
   {
    "kind": "debt",
    "count": 137,
-   "usd": 1135454571259,
-   "undisclosed": 5
+   "usd": 1126254571259,
+   "undisclosed": 7
   },
   {
    "kind": "lease",
@@ -5420,17 +5239,17 @@
  "by_status": [
   {
    "status": "announced",
-   "usd": 18200000000,
+   "usd": 9000000000,
    "count": 16
   },
   {
    "status": "signed",
-   "usd": 1915473571259,
+   "usd": 1795973571259,
    "count": 157
   },
   {
    "status": "in_progress",
-   "usd": 356136000000,
+   "usd": 341136000000,
    "count": 62
   },
   {
@@ -5445,7 +5264,7 @@
   },
   {
    "status": "reported",
-   "usd": 80100000000,
+   "usd": 58600000000,
    "count": 17
   }
  ],
@@ -5570,9 +5389,9 @@
   {
    "month": "2025-09",
    "count": 21,
-   "usd": 415281000000,
+   "usd": 395281000000,
    "by_kind": {
-    "order": 357900000000,
+    "order": 337900000000,
     "investment": 20830000000,
     "debt": 31251000000,
     "lease": 5300000000,
@@ -5583,9 +5402,9 @@
   {
    "month": "2025-10",
    "count": 24,
-   "usd": 418625000000,
+   "usd": 413625000000,
    "by_kind": {
-    "order": 255000000000,
+    "order": 250000000000,
     "investment": 49600000000,
     "debt": 99525000000,
     "lease": 14500000000,
@@ -5596,10 +5415,10 @@
   {
    "month": "2025-11",
    "count": 19,
-   "usd": 185528000000,
+   "usd": 170528000000,
    "by_kind": {
     "order": 97900000000,
-    "investment": 17565000000,
+    "investment": 2565000000,
     "debt": 64563000000,
     "lease": 5500000000,
     "vendor_financing": 0,
@@ -5648,9 +5467,9 @@
   {
    "month": "2026-03",
    "count": 23,
-   "usd": 202917500000,
+   "usd": 187917500000,
    "by_kind": {
-    "order": 70800000000,
+    "order": 55800000000,
     "investment": 20000000000,
     "debt": 110117500000,
     "lease": 2000000000,
@@ -5687,9 +5506,9 @@
   {
    "month": "2026-06",
    "count": 20,
-   "usd": 283732000000,
+   "usd": 263732000000,
    "by_kind": {
-    "order": 20000000000,
+    "order": 0,
     "investment": 136200000000,
     "debt": 127532000000,
     "lease": 0,
@@ -5713,9 +5532,9 @@
   {
    "month": "2026-08",
    "count": 24,
-   "usd": 170249000000,
+   "usd": 125649000000,
    "by_kind": {
-    "order": 54600000000,
+    "order": 10000000000,
     "investment": 38100000000,
     "debt": 63749000000,
     "lease": 13800000000,
@@ -5726,10 +5545,10 @@
   {
    "month": "2026-09",
    "count": 28,
-   "usd": 200169000000,
+   "usd": 163769000000,
    "by_kind": {
-    "order": 68300000000,
-    "investment": 46709000000,
+    "order": 33400000000,
+    "investment": 45209000000,
     "debt": 82220000000,
     "lease": 2940000000,
     "vendor_financing": 0,
@@ -5739,11 +5558,11 @@
   {
    "month": "2026-10",
    "count": 29,
-   "usd": 470538000000,
+   "usd": 461338000000,
    "by_kind": {
     "order": 6400000000,
     "investment": 59200000000,
-    "debt": 175738000000,
+    "debt": 166538000000,
     "lease": 229200000000,
     "vendor_financing": 0,
     "guarantee": 0
@@ -5775,8 +5594,8 @@
   },
   {
    "id": "anthropic",
-   "out_usd": 603300000000,
-   "in_usd": 187220000000,
+   "out_usd": 523800000000,
+   "in_usd": 172220000000,
    "borrowed_usd": 15000000000,
    "deals": 44,
    "group": "model_lab",
@@ -5800,7 +5619,7 @@
   {
    "id": "oracle",
    "out_usd": 45000000000,
-   "in_usd": 417909000000,
+   "in_usd": 397909000000,
    "borrowed_usd": 63000000000,
    "deals": 18,
    "group": "hyperscaler",
@@ -5814,7 +5633,7 @@
   },
   {
    "id": "microsoft",
-   "out_usd": 46100000000,
+   "out_usd": 41100000000,
    "in_usd": 322200000000,
    "borrowed_usd": 25000000000,
    "deals": 16,
@@ -5837,23 +5656,8 @@
    }
   },
   {
-   "id": "meta",
-   "out_usd": 95200000000,
-   "in_usd": 121550000000,
-   "borrowed_usd": 80050000000,
-   "deals": 30,
-   "group": "hyperscaler",
-   "cds": {
-    "bp": 114.79,
-    "as_of": "2026-10-22",
-    "tenor": "5y",
-    "first_bp": 68,
-    "first_as_of": "2026-03-27"
-   }
-  },
-  {
    "id": "nvidia",
-   "out_usd": 149400000000,
+   "out_usd": 139400000000,
    "in_usd": 65000000000,
    "borrowed_usd": 25000000000,
    "deals": 43,
@@ -5864,6 +5668,21 @@
     "tenor": "5y",
     "first_bp": 68,
     "first_as_of": "2026-07-24"
+   }
+  },
+  {
+   "id": "meta",
+   "out_usd": 60200000000,
+   "in_usd": 121550000000,
+   "borrowed_usd": 80050000000,
+   "deals": 30,
+   "group": "hyperscaler",
+   "cds": {
+    "bp": 114.79,
+    "as_of": "2026-10-22",
+    "tenor": "5y",
+    "first_bp": 68,
+    "first_as_of": "2026-03-27"
    }
   },
   {
@@ -5936,24 +5755,6 @@
    "cds": null
   },
   {
-   "id": "nebius",
-   "out_usd": 2600000000,
-   "in_usd": 66147500000,
-   "borrowed_usd": 16747500000,
-   "deals": 9,
-   "group": "neocloud",
-   "cds": null
-  },
-  {
-   "id": "nscale",
-   "out_usd": 2540000000,
-   "in_usd": 54410000000,
-   "borrowed_usd": 6810000000,
-   "deals": 10,
-   "group": "neocloud",
-   "cds": null
-  },
-  {
    "id": "intel",
    "out_usd": 16100000000,
    "in_usd": 40800000000,
@@ -5967,6 +5768,15 @@
     "first_bp": 73,
     "first_as_of": "2025-01-31"
    }
+  },
+  {
+   "id": "nebius",
+   "out_usd": 2600000000,
+   "in_usd": 51147500000,
+   "borrowed_usd": 16747500000,
+   "deals": 9,
+   "group": "neocloud",
+   "cds": null
   },
   {
    "id": "apollo",
@@ -5993,15 +5803,6 @@
    "borrowed_usd": 0,
    "deals": 3,
    "group": "financier",
-   "cds": null
-  },
-  {
-   "id": "lambda",
-   "out_usd": 0,
-   "in_usd": 44734000000,
-   "borrowed_usd": 1934000000,
-   "deals": 6,
-   "group": "neocloud",
    "cds": null
   },
   {
@@ -6048,12 +5849,30 @@
    "deals": 4,
    "group": "hyperscaler",
    "cds": null
+  },
+  {
+   "id": "aip",
+   "out_usd": 40000000000,
+   "in_usd": 0,
+   "borrowed_usd": 0,
+   "deals": 2,
+   "group": "financier",
+   "cds": null
+  },
+  {
+   "id": "aligned-data-centers",
+   "out_usd": 0,
+   "in_usd": 40000000000,
+   "borrowed_usd": 0,
+   "deals": 1,
+   "group": "datacenter",
+   "cds": null
   }
  ],
  "debt": {
   "recent_90d": {
    "count": 30,
-   "usd": 349408000000
+   "usd": 340208000000
   },
   "top_borrowers": [
    {
