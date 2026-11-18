@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T08:30:05Z",
+ "generated_at": "2026-11-18T10:47:40Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-18, https://heyneww.github.io/GL-AI-live/",
@@ -1041,16 +1041,24 @@
    "from": "amd",
    "to": "meta",
    "amount_usd": 1000000000,
-   "amount_text": "$1B in Meta's equity offering (with NVIDIA's $3B, $4B combined)",
+   "amount_text": "$1B in Meta's equity offering (with NVIDIA's $3B, $4B combined); AMD's Q3 2026 10-Q says it invested $1.0B in an equity offering of a public company in October 2026",
    "announced": "2026-10-27",
    "term": null,
-   "status": "announced",
-   "confidence": "reported",
+   "status": "completed",
+   "confidence": "confirmed",
+   "last_checked": "2026-11-18",
    "title_en": "AMD invests $1B in Meta's share offering",
    "title_zh": "AMD 向 Meta 股票发行投资 10 亿美元",
-   "summary_en": "AMD said it will invest $1B in Meta's equity offering on the same day as NVIDIA's $3B, as part of Meta's ~$95B AI financing plan.",
-   "summary_zh": "AMD 宣布将在 Meta 的股票发行中投资 10 亿美元，与英伟达的 30 亿美元同日公布，属于 Meta 约 950 亿美元 AI 融资计划的一部分。",
+   "summary_en": "AMD said it would invest $1B in Meta's equity offering on the same day as NVIDIA's $3B, as part of Meta's ~$95B AI financing plan; its Q3 2026 10-Q confirms the $1.0B was invested in October 2026.",
+   "summary_zh": "AMD 宣布将在 Meta 的股票发行中投资 10 亿美元，与英伟达的 30 亿美元同日公布，属于 Meta 约 950 亿美元 AI 融资计划的一部分；其 2026 年第三季度 10-Q 证实该 10 亿美元已于 2026 年 10 月投入。",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+     "publisher": "AMD (SEC 10-Q)",
+     "date": "2026-11-04",
+     "title": "AMD Q3 2026 10-Q, Note 11: $1.0 billion invested in an equity offering of a public company in October 2026",
+     "type": "filing"
+    },
     {
      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
      "publisher": "CNBC",
@@ -4358,6 +4366,7 @@
    "term_zh": "15 年，另有三次各五年的续租选择权；约一半容量 2027 年交付，其余 2028 年交付（截至 2026 年 9 月 30 日均未起租）",
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-18",
    "title_en": "AMD leases ~530 MW from Core Scientific (>$14B, with warrants)",
    "title_zh": "AMD 向 Core Scientific 租用约 530 兆瓦（逾 140 亿美元，附认股权证）",
    "summary_en": "Core Scientific signed 15-year agreements with AMD for about 530 MW at five campuses, which it says carry more than $14B of base contracted revenue: roughly 380 MW leased to AMD and about 150 MW to an unnamed neocloud whose rent AMD fully backs. AMD also got warrants for up to 30 million Core Scientific shares and a right to reserve another 1,925 MW through 2028 (Core Scientific's Q3 10-Q confirms the leases, the warrant and the reservation right), a rare case of a chipmaker leasing data-centre space itself.",
@@ -4385,6 +4394,51 @@
      "type": "filing"
     }
    ],
+   "origin": "curated",
+   "counted_usd": 0,
+   "contingent_usd": 0
+  },
+  {
+   "id": "amd-core-scientific-2026-07-neocloud-lease-guarantee",
+   "kind": "guarantee",
+   "subkind": "lease payment guarantee (credit support for a partner's lease)",
+   "subkind_zh": "租金付款担保（为合作方租约提供信用支持）",
+   "from": "amd",
+   "to": "core-scientific",
+   "amount_usd": null,
+   "amount_text": "Not disclosed per lease: ~150 MW of the ~530 MW Core Scientific programme is leased to an unnamed neocloud with AMD's full credit support; AMD's Q3 2026 10-Q puts its guarantees of commercial partners' data-centre leases at a maximum gross exposure of $7.7B (terms up to 15 years) across all partners, none named; contingent, not counted in totals",
+   "amount_text_zh": "未按租约披露：Core Scientific 约 530 兆瓦项目中约 150 兆瓦租给一家未具名的新型云服务商，由 AMD 提供全额信用支持；据 AMD 2026 年第三季度 10-Q，其为商业合作方数据中心租约提供的担保最高总敞口为 77 亿美元（期限最长 15 年），涵盖所有合作方且均未具名；属或有负债，不计入合计",
+   "announced": "2026-07-28",
+   "term": "Lease term of 15 years",
+   "term_zh": "租期 15 年",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AMD backs a neocloud's Core Scientific data-centre leases (~150 MW)",
+   "title_zh": "AMD 为一家新型云服务商在 Core Scientific 的数据中心租约提供担保（约 150 兆瓦）",
+   "summary_en": "As part of its July 2026 programme with Core Scientific, AMD gives full credit support to the leases of about 150 MW taken by an unnamed neocloud, so Core Scientific as landlord is protected if that tenant (the obligor) defaults. AMD's 10-Q shows $7.7B of such partner lease guarantees in total, which also cover partners elsewhere.",
+   "summary_zh": "作为 2026 年 7 月与 Core Scientific 合作项目的一部分，AMD 为一家未具名新型云服务商租用的约 150 兆瓦提供全额信用支持；若该租户（付款义务人）违约，作为房东的 Core Scientific 将受到保护。AMD 的 10-Q 显示此类合作方租约担保合计 77 亿美元，亦涵盖其他地点的合作方。",
+   "note_en": "The amount is null because neither company gives the value of this guarantee; AMD's $7.7B is a total for all partners, and AMD also guarantees $750M of partners' borrowings for data-centre infrastructure.",
+   "note_zh": "由于双方均未披露该担保金额，金额为空；AMD 的 77 亿美元为所有合作方的合计，此外 AMD 还为合作方的数据中心基础设施借款提供 7.5 亿美元担保。",
+   "distinct_from": [
+    "amd-core-scientific-2026-07-leases"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+     "publisher": "AMD (SEC 10-Q)",
+     "date": "2026-11-04",
+     "title": "AMD Q3 2026 10-Q, Note 8: data center lease guarantees for commercial partners, maximum gross exposure $7.7 billion",
+     "type": "filing"
+    },
+    {
+     "url": "https://lasvegassun.com/news/2026/jul/28/core-scientific-announces-second-quarter-2026-resu/",
+     "publisher": "Core Scientific (press release via Las Vegas Sun)",
+     "date": "2026-07-28",
+     "title": "Core Scientific Announces Second Quarter 2026 Results",
+     "type": "news"
+    }
+   ],
+   "last_checked": "2026-11-18",
    "origin": "curated",
    "counted_usd": 0,
    "contingent_usd": 0
@@ -4761,6 +4815,43 @@
      "publisher": "Global Data Center Hub",
      "date": "2026-07-01",
      "title": "BlackRock Launches $12.3 Billion Bond For Meta's El Paso Campus (day not given)"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 0,
+   "contingent_usd": 0
+  },
+  {
+   "id": "meta-sopaipilla-investor-2026-07-residual-value-guarantee",
+   "kind": "guarantee",
+   "subkind": "residual value guarantee",
+   "subkind_zh": "余值担保",
+   "from": "meta",
+   "to": "sopaipilla-investor",
+   "amount_usd": null,
+   "amount_text": "Not disclosed separately: Meta's maximum residual value guarantees to its two data-centre ventures were $41.493B at 30 Sep 2026, up from $28.091B at 31 Dec 2025 when the Louisiana (Hyperion) venture was the only one (Meta Q3 2026 10-Q, Note 5); contingent, not counted in totals",
+   "amount_text_zh": "未单独披露：据 Meta 2026 年第三季度 10-Q（附注 5），截至 2026 年 9 月 30 日，Meta 对两家数据中心合资公司的最高余值担保为 414.93 亿美元，高于 2025 年 12 月 31 日（当时仅有路易斯安那州 Hyperion 合资公司）的 280.91 亿美元；属或有负债，不计入合计",
+   "announced": "2026-07-23",
+   "term": "Lease term of the El Paso campus",
+   "term_zh": "埃尔帕索园区租期",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Meta residual value guarantee to the El Paso (Texas) data-centre venture",
+   "title_zh": "Meta 向埃尔帕索（得州）数据中心合资公司提供余值担保",
+   "summary_en": "Meta's 10-Q says it provided residual value guarantees to each of its data-centre ventures, including the Texas venture formed in July 2026 in which it holds 20% and which owns the El Paso campus Meta leases. The obligor is Meta itself as tenant: if it stops leasing and the campus is worth less than the venture owes, Meta pays the difference. Only the combined maximum for both ventures is disclosed.",
+   "summary_zh": "Meta 的 10-Q 显示，其向旗下每家数据中心合资公司均提供了余值担保，包括 2026 年 7 月成立、Meta 持股 20% 并持有 Meta 所租埃尔帕索园区的得州合资公司。付款义务人为作为租户的 Meta 本身：若 Meta 不再续租且园区价值低于合资公司所欠金额，由 Meta 补足差额。仅披露两家合资公司合计的最高担保额。",
+   "note_en": "The amount is null because the 10-Q gives only the combined maximum for both ventures; the increase of about $13.4B since the end of 2025 is mostly this venture's guarantee, but it is not stated separately.",
+   "note_zh": "由于 10-Q 只披露两家合资公司合计的最高担保额，金额为空；自 2025 年底以来增加的约 134 亿美元大部分应属于该合资公司，但未单独列明。",
+   "distinct_from": [
+    "meta-sopaipilla-2026-07-el-paso-lease"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+     "publisher": "Meta (SEC 10-Q)",
+     "date": "2026-10-22",
+     "title": "Meta Q3 2026 10-Q, Note 5: residual value guarantees to each of the data center ventures (Louisiana and Texas)",
+     "type": "filing"
     }
    ],
    "origin": "curated",
@@ -5946,10 +6037,13 @@
    "term": "Oct 2026 to Jun 2029",
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-18",
    "title_en": "Google rents SpaceX/xAI compute ($920M a month)",
    "title_zh": "谷歌租用 SpaceX/xAI 算力（每月 9.2 亿美元）",
    "summary_en": "A SpaceX SEC filing, as reported by DatacenterDynamics, shows Google will pay $920M a month for about 110,000 Nvidia GPUs and related hardware from October 2026 to June 2029, roughly $30B; either side can exit on 90 days' notice from 2027. Google called it bridge capacity for Gemini Enterprise.",
    "summary_zh": "据 DatacenterDynamics 报道，SpaceX 向美国证交会提交的文件显示，谷歌将在 2026 年 10 月至 2029 年 6 月每月支付 9.2 亿美元，租用约 11 万颗英伟达 GPU 及相关硬件，合计约 300 亿美元；自 2027 年起任一方可提前 90 天退出。谷歌称这是为 Gemini Enterprise 提供的过渡算力。",
+   "note_en": "Alphabet's Q3 2026 10-Q lists a short-term lease entered into in June 2026 and amended in September 2026 with a remaining non-cancelable commitment of about $6.0B at 30 Sep 2026; the counterparty is not named, so the figure is not tied to this deal and nothing is counted.",
+   "note_zh": "Alphabet 2026 年第三季度 10-Q 列示一项于 2026 年 6 月签订、9 月修订的短期租约，截至 2026 年 9 月 30 日剩余不可撤销承诺约 60 亿美元；由于未列明交易对手，该数字未与本交易对应，不计入合计。",
    "sources": [
     {
      "url": "https://www.datacenterdynamics.com/en/news/google-to-pay-920-million-to-spacex-monthly-for-ai-capacity/",
@@ -6347,12 +6441,14 @@
    "announced": "2026-05-18",
    "term": "capacity from 2027",
    "status": "in_progress",
-   "last_checked": "2026-11-02",
+   "last_checked": "2026-11-18",
    "confidence": "confirmed",
    "title_en": "Crux AI purchase of Google TPUs",
    "title_zh": "Crux AI 采购谷歌 TPU",
    "summary_en": "Crux AI, the TPU cloud venture of Blackstone and Google, buys Google's TPUs to rent them out as compute, aiming for 500 MW of capacity in 2027; the chips are financed by Blackstone's initial $5B of equity and a roughly $22B loan from ten banks. Alphabet's third-quarter 10-Q confirms a multi-year commercial agreement with Crux AI that accounted for $16.8B of its backlog at 30 September 2026; the purchase value itself was not disclosed.",
    "summary_zh": "黑石与谷歌合资的 TPU 云公司 Crux AI 向谷歌采购 TPU 芯片并对外出租算力，目标是 2027 年达到 500 兆瓦容量；采购资金来自黑石首期 50 亿美元股权和十家银行约 220 亿美元贷款。Alphabet 第三季度 10-Q 确认与 Crux AI 签有多年期商业协议，截至 2026 年 9 月 30 日占其收入积压 168 亿美元；采购金额本身未披露。",
+   "note_en": "Alphabet's Q3 2026 10-Q also says Alphabet committed to provide future data-centre and energy infrastructure backstops of up to $10.0B in support of agreements Crux AI may enter into, subject to conditions (Blackstone committed up to $5.0B of capital); no protected party or agreement is named yet, so no guarantee is drawn.",
+   "note_zh": "Alphabet 2026 年第三季度 10-Q 还显示，Alphabet 承诺为 Crux AI 未来可能签订的协议提供最多 100 亿美元的数据中心和能源基础设施担保支持，须满足一定条件（黑石承诺最多 50 亿美元出资）；由于尚未列明受保护方或具体协议，未绘制担保关系。",
    "sources": [
     {
      "url": "https://www.datacenterknowledge.com/infrastructure/blackstone-google-launch-5b-tpu-infrastructure-venture",
@@ -10807,17 +10903,25 @@
    "subkind": "convertible senior notes",
    "from": "bond-investors",
    "to": "coreweave",
-   "amount_usd": 2250000000,
-   "amount_text": "$2.25B 1.75% convertible senior notes due 2031 (upsized from $2B; +$337.5M option)",
+   "amount_usd": 2587500000,
+   "amount_text": "$2.5875B 1.75% convertible senior notes due 2031: $2.25B priced (upsized from $2B) plus the $337.5M initial purchasers' option, exercised in full (CoreWeave Q3 2026 10-Q debt table: $2,588M principal)",
    "announced": "2025-12-09",
    "term": "due 2031-12-01",
    "status": "completed",
    "confidence": "confirmed",
-   "title_en": "CoreWeave $2.25B convertible notes",
-   "title_zh": "CoreWeave 发行 22.5 亿美元可转换票据",
-   "summary_en": "CoreWeave priced an upsized $2.25B of 1.75% convertible senior notes due 2031 for general corporate purposes and capped calls.",
-   "summary_zh": "CoreWeave 定价扩容后的 22.5 亿美元、票息 1.75%、2031 年到期可转换优先票据，用于一般企业用途及上限看涨期权交易。",
+   "last_checked": "2026-11-18",
+   "title_en": "CoreWeave $2.59B convertible notes",
+   "title_zh": "CoreWeave 发行 25.9 亿美元可转换票据",
+   "summary_en": "CoreWeave priced an upsized $2.25B of 1.75% convertible senior notes due 2031 for general corporate purposes and capped calls; with the initial purchasers' $337.5M option exercised in full, $2.5875B is outstanding, per its Q3 2026 10-Q.",
+   "summary_zh": "CoreWeave 定价扩容后的 22.5 亿美元、票息 1.75%、2031 年到期可转换优先票据，用于一般企业用途及上限看涨期权交易；初始购买方全额行使 3.375 亿美元超额配售选择权后，据其 2026 年第三季度 10-Q，未偿本金为 25.875 亿美元。",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/R16.htm",
+     "publisher": "CoreWeave (SEC 10-Q)",
+     "date": "2026-11-12",
+     "title": "CoreWeave Q3 2026 10-Q, debt note: 2031 Convertible Senior Notes $2,588M principal",
+     "type": "filing"
+    },
     {
      "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Prices-Upsized-2-25-Billion-Convertible-Senior-Notes-Offering/default.aspx",
      "publisher": "CoreWeave",
@@ -10826,7 +10930,7 @@
     }
    ],
    "origin": "curated",
-   "counted_usd": 2250000000,
+   "counted_usd": 2587500000,
    "contingent_usd": 0
   },
   {
@@ -12019,22 +12123,30 @@
   },
   {
    "id": "meta-beignet-2025-10-residual-value-guarantee",
-   "last_checked": "2026-11-02",
+   "last_checked": "2026-11-18",
    "kind": "guarantee",
    "subkind": "residual value guarantee",
    "from": "meta",
    "to": "beignet-investor",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; covers the first 16 years of operations",
+   "amount_usd": 28091000000,
+   "amount_text": "Maximum residual value guarantee $28.091B at 31 Dec 2025, when the Louisiana (Hyperion) venture was Meta's only data-centre venture (Meta Q3 2026 10-Q, Note 5); covers the first 16 years of operations; contingent, not counted in totals",
+   "amount_text_zh": "据 Meta 2026 年第三季度 10-Q（附注 5），截至 2025 年 12 月 31 日（当时路易斯安那州 Hyperion 合资公司是 Meta 唯一的数据中心合资公司）最高余值担保为 280.91 亿美元；覆盖运营的前 16 年；属或有负债，不计入合计",
    "announced": "2025-10-21",
    "term": "first 16 years of operations",
    "status": "signed",
    "confidence": "confirmed",
    "title_en": "Meta residual value guarantee to Hyperion JV",
    "title_zh": "Meta 向 Hyperion 合资公司提供余值担保",
-   "summary_en": "Meta gave the Hyperion joint venture a residual value guarantee: if Meta stops leasing and the campus is worth less than what bondholders and Blue Owl are owed, Meta pays the difference. S&P warned that substantial credit risk could pass back to Meta.",
-   "summary_zh": "Meta 向 Hyperion 合资公司提供余值担保：若 Meta 不再续租且园区价值低于欠债券持有人和 Blue Owl 的金额，由 Meta 补足差额。标普警告称，大量信用风险可能回流至 Meta。",
+   "summary_en": "Meta gave the Hyperion joint venture a residual value guarantee: if Meta stops leasing and the campus is worth less than what bondholders and Blue Owl are owed, Meta pays the difference. Meta's 10-Q puts the maximum at $28.09B at the end of 2025 and says payments are not probable, so no liability is recorded; S&P warned that substantial credit risk could pass back to Meta.",
+   "summary_zh": "Meta 向 Hyperion 合资公司提供余值担保：若 Meta 不再续租且园区价值低于欠债券持有人和 Blue Owl 的金额，由 Meta 补足差额。Meta 的 10-Q 显示，截至 2025 年底最高担保额为 280.9 亿美元，并称付款的可能性不大，因此未确认负债；标普警告称，大量信用风险可能回流至 Meta。",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+     "publisher": "Meta (SEC 10-Q)",
+     "date": "2026-10-22",
+     "title": "Meta Q3 2026 10-Q, Note 5: maximum residual value guarantees to the data center ventures",
+     "type": "filing"
+    },
     {
      "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Announces-Joint-Venture-with-Funds-Managed-by-Blue-Owl-Capital-to-Develop-Hyperion-Data-Center/default.aspx",
      "publisher": "Meta",
@@ -12050,7 +12162,7 @@
    ],
    "origin": "curated",
    "counted_usd": 0,
-   "contingent_usd": 0
+   "contingent_usd": 28091000000
   },
   {
    "id": "bond-investors-beignet-2025-10-hyperion-notes",

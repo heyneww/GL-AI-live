@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T08:30:05Z",
+ "generated_at": "2026-11-18T10:47:40Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-18, https://heyneww.github.io/GL-AI-live/",
@@ -647,22 +647,22 @@
      "debt": 0,
      "lease": 2,
      "vendor_financing": 0,
-     "guarantee": 0
+     "guarantee": 1
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 17,
-    "degree_curated": 17,
+    "degree": 18,
+    "degree_curated": 18,
     "candidate_edges": 0,
     "by_status_usd": {
-     "announced": 1000000000,
+     "announced": 0,
      "signed": 15400000000,
      "in_progress": 636000000,
-     "completed": 4750000000,
+     "completed": 5750000000,
      "reported": 0
     },
-    "confirmed_usd": 20786000000,
-    "binding_usd": 20786000000,
+    "confirmed_usd": 21786000000,
+    "binding_usd": 21786000000,
     "last_edge": "2026-11-10",
     "last_source": "2026-11-16",
     "counterparties": 12,
@@ -1853,7 +1853,7 @@
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
-    "guaranteed_in_usd": 0,
+    "guaranteed_in_usd": 28091000000,
     "degree": 5,
     "degree_curated": 5,
     "candidate_edges": 0,
@@ -1867,7 +1867,7 @@
     "confirmed_usd": 0,
     "binding_usd": 34300000000,
     "last_edge": "2025-10-21",
-    "last_source": "2026-10-08",
+    "last_source": "2026-10-22",
     "counterparties": 4,
     "inflow_total_usd": 34300000000,
     "outflow_total_usd": 0,
@@ -2291,7 +2291,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 624932500000,
+     "debt": 625270000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2321,44 +2321,44 @@
      "announced": 0,
      "signed": 48850000000,
      "in_progress": 0,
-     "completed": 576082500000,
+     "completed": 576420000000,
      "reported": 0
     },
-    "confirmed_usd": 330374500000,
-    "binding_usd": 624932500000,
+    "confirmed_usd": 330712000000,
+    "binding_usd": 625270000000,
     "last_edge": "2026-11-12",
     "last_source": "2026-11-13",
     "counterparties": 28,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 624932500000,
+    "outflow_total_usd": 625270000000,
     "top_counterparties": [
      {
       "id": "alphabet",
       "usd": 116130000000,
-      "share": 0.1858280694314986
+      "share": 0.18572776560525853
      },
      {
       "id": "amazon",
       "usd": 113360000000,
-      "share": 0.18139559072379818
+      "share": 0.1812976794024981
      },
      {
       "id": "meta",
       "usd": 80050000000,
-      "share": 0.12809383413408648
+      "share": 0.12802469333248037
      },
      {
       "id": "oracle",
       "usd": 53000000000,
-      "share": 0.08480915938921403
+      "share": 0.08476338221888144
      },
      {
       "id": "beignet-investor",
       "usd": 27300000000,
-      "share": 0.04368471794953855
+      "share": 0.04366113838821629
      }
     ],
-    "concentration_top3": 0.49531749428938326
+    "concentration_top3": 0.49505013834023703
    }
   },
   {
@@ -3540,7 +3540,7 @@
      "debt": 3,
      "lease": 1,
      "vendor_financing": 0,
-     "guarantee": 0
+     "guarantee": 1
     },
     "outflow_count": {
      "order": 0,
@@ -3552,8 +3552,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 5,
-    "degree_curated": 5,
+    "degree": 6,
+    "degree_curated": 6,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -3591,7 +3591,7 @@
     "inflow_usd": {
      "order": 69900000000,
      "investment": 3000000000,
-     "debt": 52672000000,
+     "debt": 53009500000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3629,44 +3629,44 @@
      "announced": 0,
      "signed": 68440000000,
      "in_progress": 47600000000,
-     "completed": 23472000000,
+     "completed": 23809500000,
      "reported": 0
     },
-    "confirmed_usd": 112372000000,
-    "binding_usd": 139512000000,
+    "confirmed_usd": 112709500000,
+    "binding_usd": 139849500000,
     "last_edge": "2026-09-21",
     "last_source": "2026-11-12",
     "counterparties": 17,
-    "inflow_total_usd": 125572000000,
+    "inflow_total_usd": 125909500000,
     "outflow_total_usd": 13940000000,
     "top_counterparties": [
      {
       "id": "meta",
       "usd": 35200000000,
-      "share": 0.2523080451860772
+      "share": 0.25169914801268506
      },
      {
       "id": "openai",
       "usd": 22400000000,
-      "share": 0.16055966511841274
+      "share": 0.1601721850989814
      },
      {
       "id": "bond-investors",
-      "usd": 20472000000,
-      "share": 0.1467400653707208
+      "usd": 20809500000,
+      "share": 0.14879924490255597
      },
      {
       "id": "applied-digital",
       "usd": 11000000000,
-      "share": 0.07884626412064911
+      "share": 0.07865598375396408
      },
      {
       "id": "mufg",
       "usd": 8500000000,
-      "share": 0.06092665863868341
+      "share": 0.060779623809881334
      }
     ],
-    "concentration_top3": 0.5596077756752107
+    "concentration_top3": 0.5606705780142225
    }
   },
   {
@@ -6504,22 +6504,22 @@
      "debt": 0,
      "lease": 2,
      "vendor_financing": 0,
-     "guarantee": 1
+     "guarantee": 2
     },
-    "guaranteed_out_usd": 0,
+    "guaranteed_out_usd": 28091000000,
     "guaranteed_in_usd": 0,
-    "degree": 29,
-    "degree_curated": 29,
+    "degree": 30,
+    "degree_curated": 30,
     "candidate_edges": 0,
     "by_status_usd": {
-     "announced": 4000000000,
+     "announced": 3000000000,
      "signed": 105550000000,
      "in_progress": 17200000000,
-     "completed": 70000000000,
+     "completed": 71000000000,
      "reported": 20000000000
     },
-    "confirmed_usd": 135550000000,
-    "binding_usd": 192750000000,
+    "confirmed_usd": 136550000000,
+    "binding_usd": 193750000000,
     "last_edge": "2026-11-04",
     "last_source": "2026-11-06",
     "counterparties": 19,
@@ -9263,7 +9263,7 @@
      "debt": 1,
      "lease": 1,
      "vendor_financing": 0,
-     "guarantee": 0
+     "guarantee": 1
     },
     "outflow_count": {
      "order": 0,
@@ -9275,8 +9275,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -9288,7 +9288,7 @@
     "confirmed_usd": 0,
     "binding_usd": 12300000000,
     "last_edge": "2026-07-23",
-    "last_source": "2026-07-24",
+    "last_source": "2026-10-22",
     "counterparties": 2,
     "inflow_total_usd": 12300000000,
     "outflow_total_usd": 0,

@@ -1,18 +1,18 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T08:30:05Z",
- "built_at": "2026-11-18T08:30:19Z",
+ "generated_at": "2026-11-18T10:47:40Z",
+ "built_at": "2026-11-18T10:47:55Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
-  "total_usd": 4010405861259,
-  "contingent_usd": 183230000000,
+  "total_usd": 4010743361259,
+  "contingent_usd": 211321000000,
   "headline_usd": 2164210000000,
-  "broad_usd": 6357845861259,
-  "confirmed_usd": 2656488861259,
-  "reported_usd": 1353917000000,
-  "binding_usd": 3889105861259,
-  "deals": 438,
-  "deals_with_amount": 301,
+  "broad_usd": 6386274361259,
+  "confirmed_usd": 2657826361259,
+  "reported_usd": 1352917000000,
+  "binding_usd": 3890443361259,
+  "deals": 440,
+  "deals_with_amount": 302,
   "companies": 146,
   "new_7d": {
    "count": 5,
@@ -1025,7 +1025,6 @@
    "added": "2026-11-04",
    "tags": [
     "new",
-    "changed",
     "recent"
    ]
   },
@@ -1311,21 +1310,22 @@
    "counted_usd": 1000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "$1B in Meta's equity offering (with NVIDIA's $3B, $4B combined)",
+   "amount_text": "$1B in Meta's equity offering (with NVIDIA's $3B, $4B combined); AMD's Q3 2026 10-Q says it invested $1.0B in an equity offering of a public company in October 2026",
    "announced": "2026-10-27",
-   "status": "announced",
-   "confidence": "reported",
+   "status": "completed",
+   "confidence": "confirmed",
    "title_en": "AMD invests $1B in Meta's share offering",
    "title_zh": "AMD 向 Meta 股票发行投资 10 亿美元",
-   "summary_en": "AMD said it will invest $1B in Meta's equity offering on the same day as NVIDIA's $3B, as part of Meta's ~$95B AI financing plan.",
-   "summary_zh": "AMD 宣布将在 Meta 的股票发行中投资 10 亿美元，与英伟达的 30 亿美元同日公布，属于 Meta 约 950 亿美元 AI 融资计划的一部分。",
+   "summary_en": "AMD said it would invest $1B in Meta's equity offering on the same day as NVIDIA's $3B, as part of Meta's ~$95B AI financing plan; its Q3 2026 10-Q confirms the $1.0B was invested in October 2026.",
+   "summary_zh": "AMD 宣布将在 Meta 的股票发行中投资 10 亿美元，与英伟达的 30 亿美元同日公布，属于 Meta 约 950 亿美元 AI 融资计划的一部分；其 2026 年第三季度 10-Q 证实该 10 亿美元已于 2026 年 10 月投入。",
    "source": {
-    "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
-    "publisher": "CNBC",
-    "date": "2026-10-27"
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+    "publisher": "AMD (SEC 10-Q)",
+    "date": "2026-11-04"
    },
    "added": "2026-10-28",
    "tags": [
+    "changed",
     "recent"
    ]
   },
@@ -4243,6 +4243,35 @@
    ]
   },
   {
+   "id": "bond-investors-coreweave-2025-12-convertible",
+   "kind": "debt",
+   "subkind": "convertible senior notes",
+   "subkind_zh": null,
+   "from": "bond-investors",
+   "to": "coreweave",
+   "amount_usd": 2587500000,
+   "counted_usd": 2587500000,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "$2.5875B 1.75% convertible senior notes due 2031: $2.25B priced (upsized from $2B) plus the $337.5M initial purchasers' option, exercised in full (CoreWeave Q3 2026 10-Q debt table: $2,588M principal)",
+   "announced": "2025-12-09",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "CoreWeave $2.59B convertible notes",
+   "title_zh": "CoreWeave 发行 25.9 亿美元可转换票据",
+   "summary_en": "CoreWeave priced an upsized $2.25B of 1.75% convertible senior notes due 2031 for general corporate purposes and capped calls; with the initial purchasers' $337.5M option exercised in full, $2.5875B is outstanding, per its Q3 2026 10-Q.",
+   "summary_zh": "CoreWeave 定价扩容后的 22.5 亿美元、票息 1.75%、2031 年到期可转换优先票据，用于一般企业用途及上限看涨期权交易；初始购买方全额行使 3.375 亿美元超额配售选择权后，据其 2026 年第三季度 10-Q，未偿本金为 25.875 亿美元。",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/R16.htm",
+    "publisher": "CoreWeave (SEC 10-Q)",
+    "date": "2026-11-12"
+   },
+   "added": "2026-10-27",
+   "tags": [
+    "changed"
+   ]
+  },
+  {
    "id": "anthropic-microsoft-2025-11-azure",
    "kind": "order",
    "subkind": "cloud compute commitment",
@@ -4535,6 +4564,35 @@
    "added": "2026-10-27",
    "tags": [
     "circular"
+   ]
+  },
+  {
+   "id": "meta-beignet-2025-10-residual-value-guarantee",
+   "kind": "guarantee",
+   "subkind": "residual value guarantee",
+   "subkind_zh": null,
+   "from": "meta",
+   "to": "beignet-investor",
+   "amount_usd": 28091000000,
+   "counted_usd": 0,
+   "contingent_usd": 28091000000,
+   "headline_usd": null,
+   "amount_text": "Maximum residual value guarantee $28.091B at 31 Dec 2025, when the Louisiana (Hyperion) venture was Meta's only data-centre venture (Meta Q3 2026 10-Q, Note 5); covers the first 16 years of operations; contingent, not counted in totals",
+   "announced": "2025-10-21",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Meta residual value guarantee to Hyperion JV",
+   "title_zh": "Meta 向 Hyperion 合资公司提供余值担保",
+   "summary_en": "Meta gave the Hyperion joint venture a residual value guarantee: if Meta stops leasing and the campus is worth less than what bondholders and Blue Owl are owed, Meta pays the difference. Meta's 10-Q puts the maximum at $28.09B at the end of 2025 and says payments are not…",
+   "summary_zh": "Meta 向 Hyperion 合资公司提供余值担保：若 Meta 不再续租且园区价值低于欠债券持有人和 Blue Owl 的金额，由 Meta 补足差额。Meta 的 10-Q 显示，截至 2025 年底最高担保额为 280.9 亿美元，并称付款的可能性不大，因此未确认负债…",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "publisher": "Meta (SEC 10-Q)",
+    "date": "2026-10-22"
+   },
+   "added": "2026-10-27",
+   "tags": [
+    "changed"
    ]
   },
   {
@@ -5227,6 +5285,46 @@
  ],
  "changes": [
   {
+   "id": "amd-meta-2026-10-equity-investment",
+   "date": "2026-11-18",
+   "title_en": "AMD invests $1B in Meta's share offering",
+   "title_zh": "AMD 向 Meta 股票发行投资 10 亿美元",
+   "fields": {
+    "confidence": {
+     "from": "reported",
+     "to": "confirmed"
+    },
+    "status": {
+     "from": "announced",
+     "to": "completed"
+    }
+   }
+  },
+  {
+   "id": "bond-investors-coreweave-2025-12-convertible",
+   "date": "2026-11-18",
+   "title_en": "CoreWeave $2.59B convertible notes",
+   "title_zh": "CoreWeave 发行 25.9 亿美元可转换票据",
+   "fields": {
+    "amount_usd": {
+     "from": 2250000000,
+     "to": 2587500000
+    }
+   }
+  },
+  {
+   "id": "meta-beignet-2025-10-residual-value-guarantee",
+   "date": "2026-11-18",
+   "title_en": "Meta residual value guarantee to Hyperion JV",
+   "title_zh": "Meta 向 Hyperion 合资公司提供余值担保",
+   "fields": {
+    "amount_usd": {
+     "from": null,
+     "to": 28091000000
+    }
+   }
+  },
+  {
    "id": "softbank-openai-2026-02-equity",
    "date": "2026-11-16",
    "title_en": "SoftBank invests a further $30B in OpenAI",
@@ -5385,30 +5483,6 @@
      "to": "confirmed"
     }
    }
-  },
-  {
-   "id": "bond-investors-alphabet-2026-11-notes",
-   "date": "2026-11-04",
-   "title_en": "Alphabet €6B notes offering",
-   "title_zh": "Alphabet发行 60 亿欧元票据",
-   "fields": {
-    "amount_usd": {
-     "from": null,
-     "to": 6700000000
-    }
-   }
-  },
-  {
-   "id": "tencent-oracle-2026-10-gpu-rental",
-   "date": "2026-11-04",
-   "title_en": "Tencent's ~$7B lease of 100,000 AI chips from Oracle (cancelled)",
-   "title_zh": "腾讯以约 70 亿美元向甲骨文租用 10 万颗 AI 芯片（已取消）",
-   "fields": {
-    "status": {
-     "from": "reported",
-     "to": "cancelled"
-    }
-   }
   }
  ],
  "by_kind": [
@@ -5427,7 +5501,7 @@
   {
    "kind": "debt",
    "count": 137,
-   "usd": 1167117071259,
+   "usd": 1167454571259,
    "undisclosed": 4
   },
   {
@@ -5444,16 +5518,16 @@
   },
   {
    "kind": "guarantee",
-   "count": 9,
-   "usd": 183230000000,
-   "undisclosed": 3
+   "count": 11,
+   "usd": 211321000000,
+   "undisclosed": 4
   }
  ],
  "by_status": [
   {
    "status": "announced",
-   "usd": 19200000000,
-   "count": 17
+   "usd": 18200000000,
+   "count": 16
   },
   {
    "status": "signed",
@@ -5467,8 +5541,8 @@
   },
   {
    "status": "completed",
-   "usd": 1414996290000,
-   "count": 167
+   "usd": 1416333790000,
+   "count": 168
   },
   {
    "status": "cancelled",
@@ -5641,11 +5715,11 @@
   {
    "month": "2025-12",
    "count": 9,
-   "usd": 19100000000,
+   "usd": 19437500000,
    "by_kind": {
     "order": 0,
     "investment": 6250000000,
-    "debt": 5850000000,
+    "debt": 6187500000,
     "lease": 7000000000,
     "vendor_financing": 0,
     "guarantee": 0
@@ -5903,7 +5977,7 @@
    "out_usd": 95200000000,
    "in_usd": 121550000000,
    "borrowed_usd": 80050000000,
-   "deals": 29,
+   "deals": 30,
    "group": "hyperscaler",
    "cds": {
     "bp": 114.79,
@@ -5946,8 +6020,8 @@
   {
    "id": "coreweave",
    "out_usd": 13940000000,
-   "in_usd": 125572000000,
-   "borrowed_usd": 52672000000,
+   "in_usd": 125909500000,
+   "borrowed_usd": 53009500000,
    "deals": 31,
    "group": "neocloud",
    "cds": {
@@ -6120,7 +6194,7 @@
    },
    {
     "id": "coreweave",
-    "usd": 52672000000,
+    "usd": 53009500000,
     "count": 15
    },
    {
