@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T22:44:45Z",
- "built_at": "2026-11-17T22:44:59Z",
+ "generated_at": "2026-11-18T01:16:23Z",
+ "built_at": "2026-11-18T01:16:38Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
   "total_usd": 4010405861259,
@@ -15,8 +15,8 @@
   "deals_with_amount": 301,
   "companies": 146,
   "new_7d": {
-   "count": 12,
-   "usd": 29800000000
+   "count": 5,
+   "usd": 3800000000
   },
   "new_30d": {
    "count": 47,
@@ -237,12 +237,6 @@
    "name": "DeepSeek",
    "name_zh": "深度求索（DeepSeek）",
    "group": "model_lab",
-   "ticker": null
-  },
-  "eagle-point": {
-   "name": "Eagle Point Credit",
-   "name_zh": "Eagle Point Credit（鹰点信贷）",
-   "group": "financier",
    "ticker": null
   },
   "firmus": {
@@ -485,6 +479,12 @@
    "group": "hyperscaler",
    "ticker": "0700.HK"
   },
+  "tensorwave": {
+   "name": "TensorWave",
+   "name_zh": "TensorWave（AMD GPU 云服务商）",
+   "group": "neocloud",
+   "ticker": null
+  },
   "terawulf": {
    "name": "TeraWulf",
    "name_zh": "TeraWulf",
@@ -548,6 +548,35 @@
  },
  "deals": [
   {
+   "id": "openai-tensorwave-2026-11-amd-capacity",
+   "kind": "order",
+   "subkind": "dedicated AI compute capacity (AMD GPUs)",
+   "subkind_zh": "专用 AI 算力容量（AMD GPU）",
+   "from": "openai",
+   "to": "tensorwave",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "Value undisclosed; 457 MW of IT capacity on AMD Instinct MI455X GPUs (Helios racks) at several US sites, dedicated single-tenant, for six years",
+   "announced": "2026-11-16",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "OpenAI six-year AMD GPU capacity deal with TensorWave (457 MW)",
+   "title_zh": "OpenAI 与 TensorWave 签署六年 AMD GPU 算力协议（457 兆瓦）",
+   "summary_en": "TensorWave, an AMD-backed GPU cloud, agreed on 16 November 2026 to provide OpenAI with 457 MW of dedicated capacity on AMD Instinct MI455X GPUs for six years, coming online from the first half of 2027. It is the first neocloud named as a provider under the AMD–OpenAI…",
+   "summary_zh": "获 AMD 投资的 GPU 云服务商 TensorWave 于 2026 年 11 月 16 日同意在六年内为 OpenAI 提供 457 兆瓦基于 AMD Instinct MI455X GPU 的专用算力，自 2027 年上半年起陆续上线。这是首家被公开列为 AMD 与 O…",
+   "source": {
+    "url": "https://www.businesswire.com/news/home/20261116130015/en/",
+    "publisher": "TensorWave (Business Wire)",
+    "date": "2026-11-16"
+   },
+   "added": "2026-11-16",
+   "tags": [
+    "new"
+   ]
+  },
+  {
    "id": "bond-investors-alphabet-2026-11-hkd-sgd-notes",
    "kind": "debt",
    "subkind": "senior notes (HKD and SGD)",
@@ -575,6 +604,35 @@
    "tags": [
     "new",
     "recent"
+   ]
+  },
+  {
+   "id": "amazon-blackstone-2026-11-sale-leaseback",
+   "kind": "lease",
+   "subkind": "data-centre sale-leaseback (75.1% JV stake, triple-net leases)",
+   "subkind_zh": "数据中心售后回租（合资公司 75.1% 权益，三净租约）",
+   "from": "amazon",
+   "to": "blackstone",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": 5000000000,
+   "amount_text": "Portfolio gross value $5.0B at a 7.0% initial cap rate; BXDC contributes $1.9B of cash for 75.1% and the joint venture borrows ~$2.5B of non-recourse mortgage loans, AWS keeping 24.9% (~$0.6B) plus a cash distribution; rent not disclosed; 13 data centres, 647 MW",
+   "announced": "2026-11-11",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AWS sells 75.1% of 13 data centres to Blackstone's BXDC and leases them back ($5.0B portfolio)",
+   "title_zh": "AWS 将 13 座数据中心 75.1% 权益出售给黑石旗下 BXDC 并回租（资产组合 50 亿美元）",
+   "summary_en": "Blackstone Digital Infrastructure Trust (BXDC) agreed on 11 November 2026 to take 75.1% of two joint ventures that will own 13 new AWS data centres in northern Indiana and Mississippi (647 MW), valued at $5.0 billion; AWS leases all of them back on long-term triple-net leases…",
+   "summary_zh": "黑石数字基础设施信托（BXDC）于 2026 年 11 月 11 日同意取得两家合资公司 75.1% 的权益，合资公司将持有 AWS 位于印第安纳州北部和密西西比州的 13 座新建数据中心（647 兆瓦），估值 50 亿美元；AWS 以长期三净租约回租全部设施，亚马逊为其子公司…",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2100161/000119312526461954/d115778d8k.htm",
+    "publisher": "Blackstone Digital Infrastructure Trust (SEC 8-K)",
+    "date": "2026-11-16"
+   },
+   "added": "2026-11-16",
+   "tags": [
+    "new"
    ]
   },
   {
@@ -1058,7 +1116,6 @@
    },
    "added": "2026-11-03",
    "tags": [
-    "new",
     "big",
     "recent"
    ]
@@ -1089,7 +1146,6 @@
    },
    "added": "2026-11-03",
    "tags": [
-    "new",
     "big",
     "recent"
    ]
@@ -1212,7 +1268,6 @@
    },
    "added": "2026-11-11",
    "tags": [
-    "new",
     "recent"
    ]
   },
@@ -2628,66 +2683,7 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "changed",
-    "recent"
-   ]
-  },
-  {
-   "id": "bond-investors-alphabet-2026-08-kangaroo-notes",
-   "kind": "debt",
-   "subkind": "senior notes (AUD, kangaroo bond)",
-   "subkind_zh": null,
-   "from": "bond-investors",
-   "to": "alphabet",
-   "amount_usd": 3900000000,
-   "counted_usd": 3900000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "A$5.5B in 4 tranches (3, 5, 10 and 20 years; 3-year priced +65bp, 20-year 6.9% coupon); ≈ US$3.9B at an approximate 0.71 USD/AUD rate; >A$18B of orders; priced 2026-08-19",
-   "announced": "2026-08-19",
-   "status": "completed",
-   "confidence": "reported",
-   "title_en": "Alphabet A$5.5B debut kangaroo bond (≈ US$3.9B), largest Australian corporate bond",
-   "title_zh": "Alphabet 首次发行 55 亿澳元袋鼠债券（约 39 亿美元），澳大利亚最大公司债",
-   "summary_en": "Alphabet raised A$5.5 billion in its first Australian-dollar bond on 19 August 2026, the largest corporate bond in the Australian market, in four tranches of 3 to 20 years with ANZ, Deutsche Bank, RBC and TD as joint lead managers; orders exceeded A$18 billion and the deal…",
-   "summary_zh": "Alphabet 于 2026 年 8 月 19 日首次发行澳元债券，募集 55 亿澳元，为澳大利亚市场最大的公司债，共 4 档、期限 3 至 20 年，由澳新银行、德意志银行、加拿大皇家银行和道明证券联合牵头；认购超过 180 亿澳元，资金用于 AI 基础设施建设。",
-   "source": {
-    "url": "https://wtvbam.com/2026/08/19/alphabet-raises-3-9-billion-in-inaugural-australian-dollar-bond/",
-    "publisher": "Reuters (via WTVB)",
-    "date": "2026-08-19"
-   },
-   "added": "2026-10-29",
-   "tags": [
-    "recent"
-   ]
-  },
-  {
-   "id": "eagle-point-nexus-data-centers-2026-08-mezzanine-loan",
-   "kind": "debt",
-   "subkind": "private credit mezzanine loan (project finance)",
-   "subkind_zh": null,
-   "from": "eagle-point",
-   "to": "nexus-data-centers",
-   "amount_usd": 1300000000,
-   "counted_usd": 1300000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "~$1.3B mezzanine loan led by Eagle Point Credit Management, part of a ~$16B project-finance package (≈$15B senior debt led by Morgan Stanley, reported to be guaranteed by Google); pricing undisclosed",
-   "announced": "2026-08-19",
-   "status": "reported",
-   "confidence": "reported",
-   "title_en": "Eagle Point $1.3B private-credit loan for Nexus Data Centers' Anthropic-anchored Texas campus",
-   "title_zh": "Eagle Point 向 Nexus Data Centers 提供 13 亿美元私募信贷，用于以 Anthropic 为主租户的得州园区",
-   "summary_en": "Eagle Point Credit Management led a roughly $1.3 billion mezzanine loan to Nexus Data Centers for its campus in Hubbard, Texas, where Anthropic is to be the primary tenant; the loan sits below about $15 billion of bank senior debt in a ~$16 billion project financing, according…",
-   "summary_zh": "据彭博报道，Eagle Point Credit Management 牵头向 Nexus Data Centers 提供约 13 亿美元夹层贷款，用于其位于得州 Hubbard、以 Anthropic 为主租户的园区；该贷款在约 160 亿美元项目融资中位列约 150 亿美元…",
-   "source": {
-    "url": "https://www.bloomberg.com/news/articles/2026-08-19/anthropic-tied-data-center-inks-1-3-billion-private-credit-loan",
-    "publisher": "Bloomberg",
-    "date": "2026-08-19"
-   },
-   "added": "2026-10-29",
-   "tags": [
-    "recent"
+    "changed"
    ]
   },
   {
@@ -5191,12 +5187,9 @@
   "bond-investors-meta-2026-11-notes",
   "private-investors-openai-2026-11-round",
   "bond-investors-meta-2026-11-notes-2",
-  "bond-investors-oracle-2026-11-notes",
-  "public-equity-investors-oracle-2026-11-common-stock",
   "alphabet-anthropic-2026-11-ipo-placement",
   "nvidia-anthropic-2026-11-ipo-placement",
   "bond-investors-alphabet-2026-11-notes",
-  "us-government-constellation-energy-2026-10-nuclear-uprate-loan",
   "bond-investors-alphabet-2026-11-hkd-sgd-notes",
   "amd-anthropic-2026-11-ipo-placement",
   "broadcom-anthropic-2026-11-ipo-placement",
@@ -5206,7 +5199,9 @@
   "alphabet-terawulf-2026-11-hawesville-lease-backstop",
   "alphabet-crusoe-2026-11-wyoming-site-purchase",
   "anthropic-onepwr-2026-11-gas-generators",
-  "tsmc-openai-2026-11-preferred-stock"
+  "tsmc-openai-2026-11-preferred-stock",
+  "amazon-blackstone-2026-11-sale-leaseback",
+  "openai-tensorwave-2026-11-amd-capacity"
  ],
  "top_ids": [
   "openai-oracle-2025-09-cloud",
@@ -6089,8 +6084,8 @@
  ],
  "debt": {
   "recent_90d": {
-   "count": 33,
-   "usd": 382358000000
+   "count": 30,
+   "usd": 371408000000
   },
   "top_borrowers": [
    {
