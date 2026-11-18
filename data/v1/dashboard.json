@@ -1,18 +1,18 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T12:11:26Z",
- "built_at": "2026-11-18T16:01:36Z",
+ "generated_at": "2026-11-18T16:09:55Z",
+ "built_at": "2026-11-18T16:10:07Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
-  "total_usd": 4010743361259,
+  "total_usd": 3776243361259,
   "contingent_usd": 211321000000,
-  "headline_usd": 2164210000000,
-  "broad_usd": 6386274361259,
-  "confirmed_usd": 2657826361259,
-  "reported_usd": 1352917000000,
-  "binding_usd": 3890443361259,
+  "headline_usd": 2353710000000,
+  "broad_usd": 6341274361259,
+  "confirmed_usd": 2445326361259,
+  "reported_usd": 1330917000000,
+  "binding_usd": 3677943361259,
   "deals": 440,
-  "deals_with_amount": 302,
+  "deals_with_amount": 298,
   "companies": 146,
   "new_7d": {
    "count": 5,
@@ -1439,6 +1439,7 @@
    },
    "added": "2026-10-27",
    "tags": [
+    "top",
     "big",
     "recent"
    ]
@@ -2087,37 +2088,6 @@
    ]
   },
   {
-   "id": "bank-lenders-crux-ai-2026-09-tpu-loan",
-   "kind": "debt",
-   "subkind": "chip-backed bank loan",
-   "subkind_zh": null,
-   "from": "goldman-sachs",
-   "to": "crux-ai",
-   "amount_usd": 22000000000,
-   "counted_usd": 22000000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "~$22B being lined up by 10 banks, Goldman Sachs lead (with SMBC, Barclays, BNP Paribas, Bank of Nova Scotia; Bloomberg); separate $1B revolver not counted; not confirmed closed",
-   "announced": "2026-09-16",
-   "status": "reported",
-   "confidence": "reported",
-   "title_en": "Goldman-led banks line up $22B chip loan for Blackstone-Google Crux AI",
-   "title_zh": "高盛牵头的银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款",
-   "summary_en": "A group of 10 banks led by Goldman Sachs is lining up about $22B of debt for Crux AI to buy Google TPUs, secured on the chips and customer contracts, Bloomberg reported; the banks are working to syndicate it and closing was not confirmed.",
-   "summary_zh": "据彭博报道，高盛牵头的 10 家银行正为 Crux AI 安排约 220 亿美元债务用于购买谷歌 TPU，以芯片和客户合同作抵押，并寻求银团分销；该融资是否已完成尚未得到确认。",
-   "source": {
-    "url": "https://pulse2.com/crux-ai-lines-up-22-billion-chip-loan-from-10-banks-to-buy-google-tpus/",
-    "publisher": "Pulse 2.0 (Bloomberg)",
-    "date": "2026-09-16"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "changed",
-    "big",
-    "recent"
-   ]
-  },
-  {
    "id": "amazon-generac-2026-09-backup-generators",
    "kind": "order",
    "subkind": "backup generator supply agreement with warrant",
@@ -2144,6 +2114,35 @@
    "added": "2026-10-29",
    "tags": [
     "recent"
+   ]
+  },
+  {
+   "id": "bank-lenders-crux-ai-2026-09-tpu-loan",
+   "kind": "debt",
+   "subkind": "chip-backed bank loan",
+   "subkind_zh": null,
+   "from": "goldman-sachs",
+   "to": "crux-ai",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": 22000000000,
+   "amount_text": "~$22B being lined up by 10 banks, Goldman Sachs lead (with SMBC, Barclays, BNP Paribas, Bank of Nova Scotia; Bloomberg); separate $1B revolver; not confirmed closed as of 18 Nov 2026, so no committed amount is counted",
+   "announced": "2026-09-16",
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "Goldman-led banks line up $22B chip loan for Blackstone-Google Crux AI",
+   "title_zh": "高盛牵头的银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款",
+   "summary_en": "A group of 10 banks led by Goldman Sachs is lining up about $22B of debt for Crux AI to buy Google TPUs, secured on the chips and customer contracts, Bloomberg reported; the banks are working to syndicate it and closing was not confirmed.",
+   "summary_zh": "据彭博报道，高盛牵头的 10 家银行正为 Crux AI 安排约 220 亿美元债务用于购买谷歌 TPU，以芯片和客户合同作抵押，并寻求银团分销；该融资是否已完成尚未得到确认。",
+   "source": {
+    "url": "https://pulse2.com/crux-ai-lines-up-22-billion-chip-loan-from-10-banks-to-buy-google-tpus/",
+    "publisher": "Pulse 2.0 (Bloomberg)",
+    "date": "2026-09-16"
+   },
+   "added": "2026-10-27",
+   "tags": [
+    "changed"
    ]
   },
   {
@@ -2830,11 +2829,11 @@
    "subkind_zh": null,
    "from": "amd",
    "to": "anthropic",
-   "amount_usd": 5000000000,
-   "counted_usd": 5000000000,
+   "amount_usd": null,
+   "counted_usd": 0,
    "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Up to $5.0B of Anthropic Class N common stock, which Anthropic can draw in increments as AMD GPU delivery and deployment milestones are met (first milestone expected in 2027); after the IPO priced at the 30-day average share price (Anthropic S-1)",
+   "headline_usd": 5000000000,
+   "amount_text": "Up to $5.0B of Anthropic Class N common stock, which Anthropic can draw in increments as AMD GPU delivery and deployment milestones are met (first milestone expected in 2027); after the IPO priced at the 30-day average share price (Anthropic S-1). Nothing drawn yet, so no committed amount is counted",
    "announced": "2026-07-22",
    "status": "signed",
    "confidence": "confirmed",
@@ -3198,6 +3197,7 @@
    },
    "added": "2026-10-28",
    "tags": [
+    "top",
     "big"
    ]
   },
@@ -3296,11 +3296,11 @@
    "subkind_zh": null,
    "from": "anthropic",
    "to": "spacex",
-   "amount_usd": 120500000000,
-   "counted_usd": 120500000000,
+   "amount_usd": null,
+   "counted_usd": 0,
    "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Up to $120.5B through 2029 under the SpaceXAI arrangements per Anthropic's S-1, ~$3.1B a month once all capacity is delivered (expected Dec 2026); first disclosed at ~$1.25B a month in SpaceX's May S-1. Maximum contract value (as for Google's SpaceX deal): initial non-cancelable periods end Jan and Mar 2027, then either side can exit on 90 days' notice",
+   "headline_usd": 120500000000,
+   "amount_text": "Up to $120.5B through 2029 under the SpaceXAI arrangements per Anthropic's S-1 (a maximum, not a commitment), ~$3.1B a month once all capacity is delivered (expected Dec 2026); first disclosed at ~$1.25B a month in SpaceX's May S-1. Initial non-cancelable periods end Jan and Mar 2027, then either side can exit on 90 days' notice; no source states the non-cancelable total, so no committed amount is counted (same rule as Google's SpaceX rental)",
    "announced": "2026-05-06",
    "status": "in_progress",
    "confidence": "confirmed",
@@ -3315,9 +3315,7 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "top",
-    "changed",
-    "big"
+    "changed"
    ]
   },
   {
@@ -3385,11 +3383,11 @@
    "subkind_zh": null,
    "from": "alphabet",
    "to": "anthropic",
-   "amount_usd": 40000000000,
-   "counted_usd": 40000000000,
+   "amount_usd": 20000000000,
+   "counted_usd": 20000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "Up to $40B: $10B of Series G-2 preferred at $259.14 a share (~$350B valuation) + up to $30B of convertible notes or non-voting stock under the March 2026 note purchase agreement through 2030, tied to compute-agreement conditions and revenue targets; $10B of that went into the May 2026 Series H, leaving $20B available at 30 June 2026 (Anthropic S-1)",
+   "amount_text": "$20B paid of up to $40B: $10B of Series G-2 preferred at $259.14 a share (~$350B valuation) + $10B in the May 2026 Series H, drawn from the up-to-$30B convertible note / non-voting stock facility under the March 2026 note purchase agreement (through 2030); the $20B still available at 30 June 2026 depends on compute-agreement conditions and revenue targets and is not counted (Anthropic S-1)",
    "announced": "2026-04-24",
    "status": "in_progress",
    "confidence": "confirmed",
@@ -3447,11 +3445,11 @@
    "subkind_zh": null,
    "from": "amazon",
    "to": "anthropic",
-   "amount_usd": 25000000000,
-   "counted_usd": 25000000000,
+   "amount_usd": 10000000000,
+   "counted_usd": 10000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "Up to $25B: $5B of Series G-2 preferred (Q2 2026) + up to $20B under the 2026 note purchase agreement (non-voting stock or convertible notes), released in $5B tranches tied to compute-capacity milestones; $5B of it went into the May 2026 Series H, leaving $15B available at 30 June 2026 (Anthropic S-1). Separate from ~$6.2B of older Amazon rollover notes",
+   "amount_text": "$10B paid of up to $25B: $5B of Series G-2 preferred (Q2 2026) + $5B in the May 2026 Series H, drawn from the up-to-$20B 2026 note purchase agreement (non-voting stock or convertible notes, released in $5B tranches tied to compute-capacity milestones); the $15B still available at 30 June 2026 depends on those milestones and is not counted (Anthropic S-1). Separate from ~$6.2B of older Amazon rollover notes",
    "announced": "2026-04-20",
    "status": "in_progress",
    "confidence": "confirmed",
@@ -3625,11 +3623,11 @@
    "subkind_zh": null,
    "from": "jpmorgan",
    "to": "softbank",
-   "amount_usd": 40000000000,
-   "counted_usd": 40000000000,
+   "amount_usd": 30000000000,
+   "counted_usd": 30000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "$40B unsecured bridge; lenders JPMorgan, Goldman Sachs, Mizuho, SMBC, MUFG; due 2027-03-25 but retired early in September 2026 ($30B drawn)",
+   "amount_text": "$30B drawn under a $40B unsecured bridge facility; lenders JPMorgan, Goldman Sachs, Mizuho, SMBC, MUFG; due 2027-03-25 but retired early: the outstanding $25.9B was prepaid on 2026-09-15 and the undrawn $10B cancelled on 2026-09-30, so the $30B drawn is counted",
    "announced": "2026-03-27",
    "status": "completed",
    "confidence": "confirmed",
@@ -3644,7 +3642,6 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "top",
     "changed",
     "big"
    ]
@@ -3802,11 +3799,11 @@
    "subkind_zh": null,
    "from": "broadcom",
    "to": "anthropic",
-   "amount_usd": 42000000000,
-   "counted_usd": 42000000000,
+   "amount_usd": null,
+   "counted_usd": 0,
    "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "Up to $42.0B of 9% PIK convertible notes (13% and a deeper conversion discount if revenue conditions are missed), drawable for five years once the leased equipment is ready for service, solely to pay quarterly rent under the 2026 Broadcom equipment lease; undrawn at 30 June 2026 (Anthropic S-1). The rent itself is counted on anthropic-broadcom-2026-10-equipment-leases",
+   "headline_usd": 42000000000,
+   "amount_text": "Up to $42.0B of 9% PIK convertible notes (13% and a deeper conversion discount if revenue conditions are missed), drawable for five years once the leased equipment is ready for service, solely to pay quarterly rent under the 2026 Broadcom equipment lease; draws depend on revenue-growth and liquidity conditions and none had been made at 30 June 2026 (Anthropic S-1), so no committed amount is counted. The rent itself is counted on anthropic-broadcom-2026-10-equipment-leases",
    "announced": "2026-03-01",
    "status": "signed",
    "confidence": "confirmed",
@@ -3821,10 +3818,8 @@
    },
    "added": "2026-10-29",
    "tags": [
-    "top",
     "changed",
-    "circular",
-    "big"
+    "circular"
    ]
   },
   {
@@ -4444,6 +4439,7 @@
    },
    "added": "2026-10-27",
    "tags": [
+    "top",
     "big"
    ]
   },
@@ -5176,7 +5172,6 @@
   "openai-microsoft-2025-10-azure",
   "anthropic-broadcom-2026-10-equipment-leases",
   "anthropic-alphabet-2026-04-tpu",
-  "anthropic-spacex-2026-05-colossus",
   "anthropic-amazon-2026-04-aws",
   "openai-amazon-2026-02-aws-expansion",
   "public-equity-investors-spacex-2026-06-ipo",
@@ -5187,11 +5182,12 @@
   "anthropic-microsoft-2025-11-azure",
   "anthropic-nscale-2026-08-cloud",
   "bank-of-america-broadcom-anthropic-rack-spv-2026-10-first-lien",
-  "broadcom-anthropic-2026-03-convertible-note-facility",
   "anthropic-lambda-2026-09-cloud",
   "oracle-nvidia-2025-05-abilene",
   "aip-aligned-2025-10-acquisition",
-  "jpmorgan-softbank-2026-03-bridge-loan"
+  "spacex-apollo-2026-10-gpu-finance-lease",
+  "public-equity-investors-alphabet-2026-06-equity-offering",
+  "jpmorgan-vantage-2025-10-oracle-loans"
  ],
  "changes": [
   {
@@ -5387,20 +5383,20 @@
   {
    "kind": "order",
    "count": 117,
-   "usd": 1534189000000,
-   "undisclosed": 70
+   "usd": 1413689000000,
+   "undisclosed": 71
   },
   {
    "kind": "investment",
    "count": 144,
-   "usd": 927383790000,
-   "undisclosed": 42
+   "usd": 887383790000,
+   "undisclosed": 43
   },
   {
    "kind": "debt",
    "count": 137,
-   "usd": 1167454571259,
-   "undisclosed": 4
+   "usd": 1135454571259,
+   "undisclosed": 5
   },
   {
    "kind": "lease",
@@ -5411,8 +5407,8 @@
   {
    "kind": "vendor_financing",
    "count": 1,
-   "usd": 42000000000,
-   "undisclosed": 0
+   "usd": 0,
+   "undisclosed": 1
   },
   {
    "kind": "guarantee",
@@ -5429,17 +5425,17 @@
   },
   {
    "status": "signed",
-   "usd": 1962473571259,
+   "usd": 1915473571259,
    "count": 157
   },
   {
    "status": "in_progress",
-   "usd": 511636000000,
+   "usd": 356136000000,
    "count": 62
   },
   {
    "status": "completed",
-   "usd": 1416333790000,
+   "usd": 1406333790000,
    "count": 168
   },
   {
@@ -5449,7 +5445,7 @@
   },
   {
    "status": "reported",
-   "usd": 102100000000,
+   "usd": 80100000000,
    "count": 17
   }
  ],
@@ -5652,23 +5648,23 @@
   {
    "month": "2026-03",
    "count": 23,
-   "usd": 254917500000,
+   "usd": 202917500000,
    "by_kind": {
     "order": 70800000000,
     "investment": 20000000000,
-    "debt": 120117500000,
+    "debt": 110117500000,
     "lease": 2000000000,
-    "vendor_financing": 42000000000,
+    "vendor_financing": 0,
     "guarantee": 0
    }
   },
   {
    "month": "2026-04",
    "count": 23,
-   "usd": 381180690000,
+   "usd": 346180690000,
    "by_kind": {
     "order": 258300000000,
-    "investment": 81740690000,
+    "investment": 46740690000,
     "debt": 38600000000,
     "lease": 2540000000,
     "vendor_financing": 0,
@@ -5678,9 +5674,9 @@
   {
    "month": "2026-05",
    "count": 24,
-   "usd": 244650000000,
+   "usd": 124150000000,
    "by_kind": {
-    "order": 128100000000,
+    "order": 7600000000,
     "investment": 64850000000,
     "debt": 41900000000,
     "lease": 9800000000,
@@ -5704,10 +5700,10 @@
   {
    "month": "2026-07",
    "count": 29,
-   "usd": 138104100000,
+   "usd": 133104100000,
    "by_kind": {
     "order": 2500000000,
-    "investment": 50397100000,
+    "investment": 45397100000,
     "debt": 56407000000,
     "lease": 28800000000,
     "vendor_financing": 0,
@@ -5730,11 +5726,11 @@
   {
    "month": "2026-09",
    "count": 28,
-   "usd": 222169000000,
+   "usd": 200169000000,
    "by_kind": {
     "order": 68300000000,
     "investment": 46709000000,
-    "debt": 104220000000,
+    "debt": 82220000000,
     "lease": 2940000000,
     "vendor_financing": 0,
     "guarantee": 0
@@ -5769,15 +5765,6 @@
  ],
  "companies": [
   {
-   "id": "anthropic",
-   "out_usd": 723800000000,
-   "in_usd": 269220000000,
-   "borrowed_usd": 57000000000,
-   "deals": 44,
-   "group": "model_lab",
-   "cds": null
-  },
-  {
    "id": "openai",
    "out_usd": 738404571259,
    "in_usd": 197600000000,
@@ -5787,8 +5774,17 @@
    "cds": null
   },
   {
+   "id": "anthropic",
+   "out_usd": 603300000000,
+   "in_usd": 187220000000,
+   "borrowed_usd": 15000000000,
+   "deals": 44,
+   "group": "model_lab",
+   "cds": null
+  },
+  {
    "id": "amazon",
-   "out_usd": 94900000000,
+   "out_usd": 79900000000,
    "in_usd": 458860000000,
    "borrowed_usd": 210860000000,
    "deals": 26,
@@ -5827,7 +5823,7 @@
   },
   {
    "id": "alphabet",
-   "out_usd": 58750000000,
+   "out_usd": 38750000000,
    "in_usd": 297380000000,
    "borrowed_usd": 116130000000,
    "deals": 40,
@@ -5838,36 +5834,6 @@
     "tenor": "5y",
     "first_bp": 67,
     "first_as_of": "2026-07-27"
-   }
-  },
-  {
-   "id": "spacex",
-   "out_usd": 40000000000,
-   "in_usd": 231750000000,
-   "borrowed_usd": 25000000000,
-   "deals": 8,
-   "group": "other",
-   "cds": {
-    "bp": 284.3,
-    "as_of": "2026-11-05",
-    "tenor": "5y",
-    "first_bp": 284.3,
-    "first_as_of": "2026-11-05"
-   }
-  },
-  {
-   "id": "broadcom",
-   "out_usd": 43000000000,
-   "in_usd": 178700000000,
-   "borrowed_usd": 17500000000,
-   "deals": 15,
-   "group": "chip",
-   "cds": {
-    "bp": 136,
-    "as_of": "2026-10-08",
-    "tenor": "5y",
-    "first_bp": 136,
-    "first_as_of": "2026-10-08"
    }
   },
   {
@@ -5901,10 +5867,25 @@
    }
   },
   {
+   "id": "broadcom",
+   "out_usd": 1000000000,
+   "in_usd": 178700000000,
+   "borrowed_usd": 17500000000,
+   "deals": 15,
+   "group": "chip",
+   "cds": {
+    "bp": 136,
+    "as_of": "2026-10-08",
+    "tenor": "5y",
+    "first_bp": 136,
+    "first_as_of": "2026-10-08"
+   }
+  },
+  {
    "id": "softbank",
    "out_usd": 62500000000,
-   "in_usd": 104700000000,
-   "borrowed_usd": 104700000000,
+   "in_usd": 94700000000,
+   "borrowed_usd": 94700000000,
    "deals": 12,
    "group": "financier",
    "cds": {
@@ -5913,6 +5894,21 @@
     "tenor": "5y",
     "first_bp": 210,
     "first_as_of": "2025-02-17"
+   }
+  },
+  {
+   "id": "spacex",
+   "out_usd": 40000000000,
+   "in_usd": 111250000000,
+   "borrowed_usd": 25000000000,
+   "deals": 8,
+   "group": "other",
+   "cds": {
+    "bp": 284.3,
+    "as_of": "2026-11-05",
+    "tenor": "5y",
+    "first_bp": 284.3,
+    "first_as_of": "2026-11-05"
    }
   },
   {
@@ -5932,7 +5928,7 @@
   },
   {
    "id": "jpmorgan",
-   "out_usd": 102508000000,
+   "out_usd": 92508000000,
    "in_usd": 0,
    "borrowed_usd": 0,
    "deals": 11,
@@ -6057,7 +6053,7 @@
  "debt": {
   "recent_90d": {
    "count": 30,
-   "usd": 371408000000
+   "usd": 349408000000
   },
   "top_borrowers": [
    {
@@ -6072,7 +6068,7 @@
    },
    {
     "id": "softbank",
-    "usd": 104700000000,
+    "usd": 94700000000,
     "count": 6
    },
    {
@@ -6084,11 +6080,6 @@
     "id": "oracle",
     "usd": 63000000000,
     "count": 4
-   },
-   {
-    "id": "anthropic",
-    "usd": 57000000000,
-    "count": 2
    },
    {
     "id": "coreweave",
@@ -6108,6 +6099,11 @@
    {
     "id": "vantage-data-centers",
     "usd": 38000000000,
+    "count": 1
+   },
+   {
+    "id": "broadcom-ai-xpv",
+    "usd": 35000000000,
     "count": 1
    }
   ],
@@ -6247,7 +6243,7 @@
     "anthropic",
     "broadcom"
    ],
-   "min_usd": 43000000000,
+   "min_usd": 1000000000,
    "max_usd": 161200000000,
    "legs": [
     {
@@ -6270,7 +6266,7 @@
       "investment",
       "vendor_financing"
      ],
-     "usd": 43000000000,
+     "usd": 1000000000,
      "edge_ids": [
       "broadcom-anthropic-2026-11-ipo-placement",
       "broadcom-anthropic-2026-03-convertible-note-facility"
@@ -6319,7 +6315,7 @@
     "alphabet",
     "anthropic"
    ],
-   "min_usd": 53000000000,
+   "min_usd": 33000000000,
    "max_usd": 121300000000,
    "legs": [
     {
@@ -6331,7 +6327,7 @@
       "investment",
       "investment"
      ],
-     "usd": 53000000000,
+     "usd": 33000000000,
      "edge_ids": [
       "alphabet-anthropic-2026-11-ipo-placement",
       "alphabet-anthropic-2026-04-equity",
@@ -6361,7 +6357,7 @@
     "broadcom",
     "anthropic"
    ],
-   "min_usd": 43000000000,
+   "min_usd": 1000000000,
    "max_usd": 121300000000,
    "legs": [
     {
@@ -6382,7 +6378,7 @@
       "investment",
       "vendor_financing"
      ],
-     "usd": 43000000000,
+     "usd": 1000000000,
      "edge_ids": [
       "broadcom-anthropic-2026-11-ipo-placement",
       "broadcom-anthropic-2026-03-convertible-note-facility"
@@ -6409,7 +6405,7 @@
     "amazon",
     "anthropic"
    ],
-   "min_usd": 33000000000,
+   "min_usd": 18000000000,
    "max_usd": 110000000000,
    "legs": [
     {
@@ -6419,7 +6415,7 @@
       "investment",
       "investment"
      ],
-     "usd": 33000000000,
+     "usd": 18000000000,
      "edge_ids": [
       "amazon-anthropic-2026-04-equity",
       "amazon-anthropic-2023-equity"
