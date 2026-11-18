@@ -1191,6 +1191,17 @@
             e && isAmount(e.amount_usd) ? " · " + usdShort(e.amount_usd) : ""]);
         })));
       }
+      var pl = c.placed || {};
+      if (pl.usd > 0 || pl.n_undisclosed > 0) {   // the other side: what it has promised to pay
+        box.push(el("p", null, [el("b", { text: t("placedH") })]));
+        box.push(el("p", { text: (pl.usd > 0 ? t("placedSum", { usd: usdShort(pl.usd), year: usdShort(pl.per_year) }) : t("placedSumNone"))
+          + (pl.n_undisclosed > 0 ? (zh() ? "" : " ") + t("placedUnd", { n: String(pl.n_undisclosed) }) : "") }));
+        if ((pl.edges || []).length) box.push(el("ul", { class: "inv-deals" }, pl.edges.map(function (id) {
+          var e = state.edges[id];
+          return el("li", null, [el("a", { href: "./#e-" + encodeURIComponent(id), title: t("openDeal") || null, text: edgeTitle(id) }),
+            e && isAmount(e.amount_usd) ? " · " + usdShort(e.amount_usd) : ""]);
+        })));
+      }
       if (c.evidence && hasT("ev_" + c.evidence)) box.push(el("p", null, [el("b", { text: t("evidenceL") + " " }), t("ev_" + c.evidence)]));
     }
     if (h.entity && state.ents[h.entity]) {
@@ -1209,13 +1220,18 @@
     hs.slice(0, MAX_LINES).forEach(function (h, i) {
       var c = h.entity && state.comps ? state.comps[h.entity] : null;
       var cls = h.status === "rated" ? h.band || "low" : BANDS.indexOf(h.status) >= 0 ? h.status : "unknown";
-      var src = c && c.sources && c.sources[0] ? entName(c.sources[0].id) + " " + pct(c.sources[0].share) : "–";
+      var role = c && c.status === "rated" && c.band === "low" && c.mainly_pays ? c.pays_as : null;   // Low because it mostly pays others
+      var buyer = role === "buyer";
+      var ctop = c && c.dims && c.dims.commitments ? c.dims.commitments.top : null;
+      var src = buyer && ctop ? t("buysFrom", { name: entName(ctop) })
+        : c && c.sources && c.sources[0] ? entName(c.sources[0].id) + " " + pct(c.sources[0].share) : "–";
       var nm = has(TK, h.ticker) ? tickerName(TK[h.ticker]) : "";
       var open = !!state.open[h.ticker];
       var btn = el("button", { type: "button", class: "inv-h__btn", "aria-expanded": String(open), "aria-controls": "hm-" + i, "data-tk": h.ticker }, [
         swatch(cls), el("span", { class: "nm" }, [el("b", { class: "tk", text: h.ticker }), nm && nm !== h.ticker ? " " + nm : ""]),
         el("span", { class: "num", text: pct(h.w) }),
-        el("span", { class: "bwc" }, [el("span", { class: "bw " + inkClass(cls) }, [bandLabel(cls)])]),
+        el("span", { class: "bwc" }, [el("span", { class: "bw " + inkClass(cls) }, [bandLabel(cls)]),
+          role && hasT("roleNote_" + role) ? el("span", { class: "inv-h__note", text: t("roleNote_" + role) }) : null]),
         el("span", { class: "src", text: src }), el("span", { class: "chev", "aria-hidden": "true", text: "›" })]);
       var more = el("div", { class: "inv-h__more", id: "hm-" + i }, holdingMore(h, c, cls));
       more.hidden = !open;

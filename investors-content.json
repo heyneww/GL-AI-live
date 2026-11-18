@@ -158,9 +158,17 @@
     "ev_confirmed": {"en": "mostly confirmed by company filings or releases", "zh": "大部分有公司文件或公告确认"},
     "ev_mixed": {"en": "partly confirmed, partly reported in the news", "zh": "部分有确认，部分仅有媒体报道"},
     "ev_reported": {"en": "mostly reported in the news, not confirmed by the companies", "zh": "大部分仅有媒体报道，未经公司确认"},
-    "nHigh": {"en": "{n} of 6 measures High", "zh": "6 项中有 {n} 项为高"},
+    "nHigh": {"en": "{n} of 7 measures High", "zh": "7 项中有 {n} 项为高"},
+    "roleNote_buyer": {"en": "on the map mainly as a buyer", "zh": "在图上主要是买方"},
+    "roleNote_investor": {"en": "on the map mainly as an investor", "zh": "在图上主要是投资方"},
+    "roleNote_lender": {"en": "on the map mainly as a lender", "zh": "在图上主要是出借方"},
+    "buysFrom": {"en": "buys from {name}", "zh": "向{name}采购"},
+    "placedH": {"en": "What it has committed to pay", "zh": "它承诺支付的款项"},
+    "placedSum": {"en": "Orders and leases it has placed on the map: {usd} in all, about {year} a year over their terms.", "zh": "它在图上下达的订单和租约：合计 {usd}，按合同期限摊开约每年 {year}。"},
+    "placedSumNone": {"en": "Orders and leases it has placed on the map have no disclosed amounts.", "zh": "它在图上下达的订单和租约均未披露金额。"},
+    "placedUnd": {"en": "Plus {n} with no disclosed amount.", "zh": "另有 {n} 笔未披露金额。"},
     "learnH": {"en": "Understand the result", "zh": "读懂结果"},
-    "thH": {"en": "The six measures and their reference lines", "zh": "六项衡量及其参考线"},
+    "thH": {"en": "The seven measures and their reference lines", "zh": "七项衡量及其参考线"},
     "th_dim": {"en": "Measure", "zh": "衡量项"},
     "th_what": {"en": "What it compares", "zh": "比较什么"},
     "th_elev": {"en": "Elevated from", "zh": "较高起点"},
@@ -452,7 +460,7 @@
     }
   ],
   "tool": {
-    "method": {"en": "For each company on the map we add up the counted deals (cancelled deals, deals replaced by a newer one and guarantees are left out of the totals) and compare them with the company's own size: a year of its sales (the last four reported quarters) or its market value (latest close times shares outstanding). Each of six measures gets a band: Low, Elevated or High exposure, at fixed reference lines that come from published rules where one exists. Contract values are spread over their term to compare them with a year of sales (five years when the term is not stated). A measure with no sales or market value to compare against shows 'no data', never Low. For your portfolio, funds are first looked through with our estimated baskets; then the check adds up your money by the band of each company.", "zh": "对图上的每家公司，我们把已计入的交易加总（已取消的交易、被新交易取代的交易和担保不计入总额），再与公司自身规模比较：一年营收（最近四个已公布季度）或市值（最新收盘价乘以流通股数）。六项衡量各自分为低、较高或高暴露，分界线是固定的参考线，有公开规则时取自公开规则。与一年营收比较时，合同金额按合同期限摊开（未写明期限时按五年）。没有营收或市值可比的项目显示“无数据”，绝不算作“低”。对你的组合，先用我们估算的篮子穿透基金，再按每家公司所在的档位把你的资金加总。"},
+    "method": {"en": "For each company on the map we add up the counted deals (cancelled deals, deals replaced by a newer one and guarantees are left out of the totals) and compare them with the company's own size: a year of its sales (the last four reported quarters) or its market value (latest close times shares outstanding). Each of seven measures gets a band: Low, Elevated or High exposure, at fixed reference lines that come from published rules where one exists. Contract values are spread over their term to compare them with a year of sales (five years when the term is not stated). A measure with no sales or market value to compare against shows 'no data', never Low. For your portfolio, funds are first looked through with our estimated baskets; then the check adds up your money by the band of each company.", "zh": "对图上的每家公司，我们把已计入的交易加总（已取消的交易、被新交易取代的交易和担保不计入总额），再与公司自身规模比较：一年营收（最近四个已公布季度）或市值（最新收盘价乘以流通股数）。七项衡量各自分为低、较高或高暴露，分界线是固定的参考线，有公开规则时取自公开规则。与一年营收比较时，合同金额按合同期限摊开（未写明期限时按五年）。没有营收或市值可比的项目显示“无数据”，绝不算作“低”。对你的组合，先用我们估算的篮子穿透基金，再按每家公司所在的档位把你的资金加总。"},
     "limits": [
       {"en": "The map only shows deals that were announced or filed. It can be late or incomplete, and many deals have no published amount, so they count as zero.", "zh": "关系图只显示已公布或已申报的交易。它可能滞后或不完整，很多交易没有公布金额，因此按零计算。"},
       {"en": "One very large deal can move a company, and with it your portfolio, across a band. Open the deal behind each High flag and check whether it is confirmed and how many years it runs.", "zh": "一笔特别大的交易就可能让一家公司、进而让你的组合跨过一个档位。请打开每个“高”背后的交易，看看它是否已确认、要履行多少年。"},
@@ -526,6 +534,7 @@
           {"label": "S&P, Business Risk / Financial Risk Matrix Expanded (2009), Table 2", "url": "https://www.efis.psc.mo.gov/Document/Display/44676"}
         ]
       },
+      "commitments": {"name": {"en": "Commitments it has made", "zh": "已作出的付款承诺"}, "measure": {"en": "Orders and leases the company has placed with others on the map (what it has promised to pay), spread over their terms, against a year of its sales. Its leases also count in Borrowed money, against its market value.", "zh": "公司在图上向他人下达的订单和租约（它承诺支付的款项），按合同期限摊开，与其一年营收相比。其租约同时计入“借入资金”，与市值相比。"}, "anchor": {"en": "No published standard. A quarter of a year's sales starts Elevated; a whole year's sales every year starts High, the same lines as Circular money.", "zh": "没有公开标准。达到一年营收的四分之一起为较高；每年达到一整年营收起为高，与“循环资金”采用相同的线。"}, "links": []},
       "circular": {
         "name": {"en": "Circular money", "zh": "循环资金"},
         "measure": {"en": "Customer orders and leases that are one leg of a circular loop on the map (money that goes round between the same companies), against a year of sales.", "zh": "属于图上循环链条一环的客户订单和租约（在同几家公司之间转圈的资金），与一年营收相比。"},

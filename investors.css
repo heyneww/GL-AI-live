@@ -341,3 +341,6 @@ body.inv .footer { margin-top: 32px; }
 html[lang^="zh"] body.inv .footer__disc[lang="zh-CN"] { order: 1; }
 html[lang^="zh"] body.inv .footer__disc[lang="en"] { order: 2; }
 html[lang^="zh"] body.inv .footer__disc[lang="en"], html[lang="en"] body.inv .footer__disc[lang="zh-CN"] { font-size: 12px; color: var(--muted); }
+
+/* "on the map mainly as a buyer": under a Low band word */
+.inv-h__note { display: block; font-size: .8em; color: var(--ink-2); font-weight: 400; }

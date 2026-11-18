@@ -6,11 +6,12 @@
 (function () {
   "use strict";
 
-  var DIMENSIONS = ["who_pays", "size", "borrowed", "circular", "guarantees", "cds"];
+  var DIMENSIONS = ["who_pays", "size", "borrowed", "commitments", "circular", "guarantees", "cds"];
   var THRESHOLDS = {
     who_pays: { elevated: 0.10, high: 0.25 },
     size: { elevated: 0.25, high: 1.0 },
     borrowed: { elevated: 0.35, high: 0.50 },
+    commitments: { elevated: 0.25, high: 1.0 },
     circular: { elevated: 0.25, high: 1.0 },
     guarantees: { elevated: 0.10, high: 0.25 },
     cds: { elevated: 100.0, high: 250.0 }
@@ -24,6 +25,8 @@
   var CUSTOMER_KINDS = ["order", "lease"];
   var BORROW_KINDS = ["debt", "vendor_financing"];
   var BURNERS = ["model_lab", "neocloud", "spv"];
+  var ROLES = ["buyer", "investor", "lender"];
+  var ROLE_OF = { order: "buyer", lease: "buyer", investment: "investor", debt: "lender", vendor_financing: "lender" };
   var MATCH_RANK = { ticker: 0, share_class: 1, name: 2, inferred: 3 };
   var MAX_EDGES = 3, MAX_SOURCES = 5, MAX_DEPENDS = 8;
   var BY_DIM_STATUSES = ["rated", "no_data"];
@@ -157,13 +160,18 @@
     var rev = byEntity(ref, "ttm_revenue_usd"), mv = byEntity(ref, "market_value_usd");
     var inflow = {}, reported = {}, cust = {}, custEdges = {}, ann = {}, annEdges = {};
     var borrow = {}, borrowEdges = {}, guar = {}, guarEdges = {}, byid = {};
+    var placed = {}, placedEdges = {}, placedNominal = {}, placedUsd = {}, undisclosed = {}, outflow = {};
 
     edges.forEach(function (e) {
       if (typeof e.id === "string") byid[e.id] = e;
       var f = e.from, t = e.to, k = e.kind, a = e.amount_usd, eid = e.id === undefined ? null : e.id;
       if (C.liveGuarantee(e)) { addTo(guar, f, t, a); push(guarEdges, f, [eid, a]); return; }
-      if (!C.counted(e)) return;
+      if (!C.counted(e)) {
+        if (C.isLive(e) && inList(CUSTOMER_KINDS, k) && !num(a) && typeof f === "string") undisclosed[f] = (has(undisclosed, f) ? undisclosed[f] : 0) + 1;
+        return;
+      }
       addTo(inflow, t, f, a);
+      addTo(outflow, f, has(ROLE_OF, k) ? ROLE_OF[k] : "buyer", a);
       if (e.confidence === "reported") reported[t] = (has(reported, t) ? reported[t] : 0) + a;
       if (inList(CUSTOMER_KINDS, k)) {
         addTo(cust, t, f, a);
@@ -172,6 +180,10 @@
         addTo(ann, t, f, a / y);
         if (!has(annEdges, t)) annEdges[t] = {};
         push(annEdges[t], f, [eid, a / y]);
+        addTo(placed, f, t, a / y);
+        push(placedEdges, f, [eid, a / y]);
+        push(placedNominal, f, [eid, a]);
+        addTo(placedUsd, f, t, a);
       }
       if (inList(BORROW_KINDS, k)) { addTo(borrow, t, f, a); push(borrowEdges, t, [eid, a]); }
       if (k === "lease") { addTo(borrow, f, t, a); push(borrowEdges, f, [eid, a]); }   // the lessee takes it on
@@ -225,6 +237,9 @@
       dims.borrowed = { value: M ? obl / (obl + M) : null, top: largest(bw),
                         edges: topEdges(has(borrowEdges, i) ? borrowEdges[i] : []) };
 
+      var pc = has(placed, i) ? placed[i] : {};
+      dims.commitments = { value: ratio(sum(pc), R), top: largest(pc), edges: topEdges(has(placedEdges, i) ? placedEdges[i] : []) };
+
       var lp = has(loopIds, i) ? sortedKeys(loopIds[i]) : [];
       var loopSrc = {}, loopAmt = 0;
       lp.forEach(function (eid) {
@@ -250,7 +265,7 @@
 
       var status;
       if (group[i] === "financier" && dims.cds.band !== "high") status = "lender";   // rated when the credit market flags it
-      else if (tin <= 0 && sum(g) <= 0) status = "off_map";
+      else if (tin <= 0 && sum(g) <= 0 && sum(has(placedUsd, i) ? placedUsd[i] : {}) <= 0) status = "off_map";
       else if (R === null && M === null && dims.cds.band !== "high") status = "no_data";
       else status = "rated";
       var overall = null;
@@ -267,8 +282,17 @@
         .sort(function (x, y) { return src[y] - src[x] || cmp(x, y); });
       var sources = tin ? named.slice(0, MAX_SOURCES).map(function (k) { return { id: k, share: src[k] / tin }; }) : [];
 
+      var pu = has(placedUsd, i) ? placedUsd[i] : {};
+      var ow = has(outflow, i) ? outflow[i] : {}, role = null;
+      ROLES.forEach(function (r) {   // the largest part of what flows out; ties go to the first in ROLES
+        var v = has(ow, r) ? ow[r] : 0;
+        if (v > 0 && (role === null || v > ow[role])) role = r;
+      });
       out[i] = { id: i, group: group[i], status: status, band: overall, n_high: nHigh, n_elevated: nElev,
-                 dims: dims, evidence: evidence, sources: sources };
+                 dims: dims, evidence: evidence, sources: sources,
+                 placed: { usd: sum(pu), per_year: sum(pc), n_undisclosed: has(undisclosed, i) ? undisclosed[i] : 0,
+                           edges: topEdges(has(placedNominal, i) ? placedNominal[i] : []) },
+                 mainly_pays: sum(ow) > tin, pays_as: role };
     });
     return out;
   }
