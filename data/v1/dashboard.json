@@ -1,32 +1,32 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-19T08:42:52Z",
- "built_at": "2026-11-19T08:43:03Z",
+ "generated_at": "2026-11-19T10:46:23Z",
+ "built_at": "2026-11-19T10:46:38Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
-  "total_usd": 3611043361259,
+  "total_usd": 3690420523641,
   "contingent_usd": 211321000000,
   "headline_usd": 2466510000000,
-  "broad_usd": 6288874361259,
-  "confirmed_usd": 2310826361259,
+  "broad_usd": 6368251523641,
+  "confirmed_usd": 2390203523641,
   "reported_usd": 1300217000000,
-  "binding_usd": 3543443361259,
-  "deals": 440,
-  "deals_with_amount": 289,
+  "binding_usd": 3622820523641,
+  "deals": 441,
+  "deals_with_amount": 290,
   "companies": 146,
   "new_7d": {
-   "count": 5,
-   "usd": 3800000000
+   "count": 6,
+   "usd": 83177162382
   },
   "new_30d": {
-   "count": 46,
-   "usd": 545180000000
+   "count": 47,
+   "usd": 624557162382
   },
   "announced_30d": {
-   "count": 43,
-   "usd": 544330000000
+   "count": 44,
+   "usd": 623707162382
   },
-  "latest_announced": "2026-11-16"
+  "latest_announced": "2026-11-18"
  },
  "entities": {
   "aip": {
@@ -518,6 +518,38 @@
  },
  "deals": [
   {
+   "id": "public-equity-investors-anthropic-2026-11-ipo",
+   "kind": "investment",
+   "subkind": "initial public offering",
+   "subkind_zh": "首次公开发行",
+   "from": "public-equity-investors",
+   "to": "anthropic",
+   "amount_usd": 79377162382,
+   "counted_usd": 79377162382,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "~$79.4B to Anthropic: 956,351,354 Class A shares at $83 (priced 18 Nov 2026, above the $70–78 range; upsized from 801,351,354); selling stockholders sold a further 23,648,646 shares (~$2.0B, not counted, no proceeds to Anthropic); underwriters' 30-day option on up to 147,000,000 more shares (~$12.2B, not counted unless exercised)",
+   "announced": "2026-11-18",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Anthropic raises ~$79.4B in its Nasdaq IPO (ANT), the largest on record",
+   "title_zh": "Anthropic 纳斯达克 IPO 募资约 794 亿美元（代码 ANT），创历史纪录",
+   "summary_en": "Anthropic priced its IPO at $83 a share on 18 November 2026, above its $70–78 range, selling 956.4 million new Class A shares (about $79.4 billion) in an upsized 980-million-share offering that also included shares from selling stockholders; with them the deal raised about…",
+   "summary_zh": "Anthropic 于 2026 年 11 月 18 日将 IPO 定价为每股 83 美元，高于 70 至 78 美元区间，在扩大至 9.8 亿股的发行中出售 9.564 亿股新 A 类股（约 794 亿美元），其余为出售股东的股份；合计募资约 813 亿美元，为有史以来最大规…",
+   "source": {
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "publisher": "Anthropic",
+    "date": "2026-11-18"
+   },
+   "added": "2026-11-19",
+   "tags": [
+    "new",
+    "top",
+    "big",
+    "recent"
+   ]
+  },
+  {
    "id": "openai-tensorwave-2026-11-amd-capacity",
    "kind": "order",
    "subkind": "dedicated AI compute capacity (AMD GPUs)",
@@ -616,7 +648,7 @@
    "counted_usd": 10000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "~$10.0B of Class N common stock at the IPO price (135,135,135 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text": "~$10.0B of Class N common stock at the IPO price (about 120,481,927 shares at the $83 IPO price set on 18 Nov 2026), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
    "announced": "2026-11-10",
    "status": "signed",
    "confidence": "confirmed",
@@ -647,7 +679,7 @@
    "counted_usd": 10000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "~$10.0B of Class N common stock at the IPO price (135,135,135 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text": "~$10.0B of Class N common stock at the IPO price (about 120,481,927 shares at the $83 IPO price set on 18 Nov 2026), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
    "announced": "2026-11-10",
    "status": "signed",
    "confidence": "confirmed",
@@ -679,7 +711,7 @@
    "counted_usd": 2500000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "~$2.5B of Class N common stock at the IPO price (33,783,783 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text": "~$2.5B of Class N common stock at the IPO price (about 30,120,481 shares at the $83 IPO price set on 18 Nov 2026), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
    "announced": "2026-11-10",
    "status": "signed",
    "confidence": "confirmed",
@@ -709,7 +741,7 @@
    "counted_usd": 1000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "~$1.0B of Class N common stock at the IPO price (13,513,513 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text": "~$1.0B of Class N common stock at the IPO price (about 12,048,192 shares at the $83 IPO price set on 18 Nov 2026), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
    "announced": "2026-11-10",
    "status": "signed",
    "confidence": "confirmed",
@@ -739,7 +771,7 @@
    "counted_usd": 1000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "~$1.0B of Class N common stock at the IPO price (13,513,513 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text": "~$1.0B of Class N common stock at the IPO price (about 12,048,192 shares at the $83 IPO price set on 18 Nov 2026), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
    "announced": "2026-11-10",
    "status": "signed",
    "confidence": "confirmed",
@@ -769,7 +801,7 @@
    "counted_usd": 1000000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "~$1.0B of Class N common stock at the IPO price (13,513,513 shares at the $74 midpoint of the $70–78 range), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
+   "amount_text": "~$1.0B of Class N common stock at the IPO price (about 12,048,192 shares at the $83 IPO price set on 18 Nov 2026), part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A",
    "announced": "2026-11-10",
    "status": "signed",
    "confidence": "confirmed",
@@ -800,7 +832,7 @@
    "counted_usd": 500000000,
    "contingent_usd": 0,
    "headline_usd": null,
-   "amount_text": "~$0.5B of Class N common stock at the IPO price (6,756,756 shares at the $74 midpoint of the $70–78 range) through TSMC Partners, part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A; TSMC's board approved up to $500M on 10 Nov 2026",
+   "amount_text": "~$0.5B of Class N common stock at the IPO price (about 6,024,096 shares at the $83 IPO price set on 18 Nov 2026) through TSMC Partners, part of a $26.0B private placement by seven suppliers that closes immediately after the IPO and is contingent on its completion, per Anthropic's S-1/A; TSMC's board approved up to $500M on 10 Nov 2026",
    "announced": "2026-11-10",
    "status": "signed",
    "confidence": "confirmed",
@@ -1384,7 +1416,6 @@
    },
    "added": "2026-10-28",
    "tags": [
-    "top",
     "big",
     "recent"
    ]
@@ -4942,6 +4973,7 @@
   }
  ],
  "new_ids": [
+  "public-equity-investors-anthropic-2026-11-ipo",
   "private-investors-openai-2026-11-round",
   "bond-investors-meta-2026-11-notes-2",
   "alphabet-anthropic-2026-11-ipo-placement",
@@ -4967,6 +4999,7 @@
   "openai-amazon-2026-02-aws-expansion",
   "public-equity-investors-spacex-2026-06-ipo",
   "bank-lenders-amazon-2026-10-secured-loan-facility",
+  "public-equity-investors-anthropic-2026-11-ipo",
   "bond-investors-amazon-2026-03-bonds",
   "private-investors-anthropic-2026-05-series-h",
   "amazon-openai-2026-02-equity",
@@ -4977,8 +5010,7 @@
   "spacex-apollo-2026-10-gpu-finance-lease",
   "public-equity-investors-alphabet-2026-06-equity-offering",
   "jpmorgan-vantage-2025-10-oracle-loans",
-  "openai-amazon-2025-11-aws",
-  "public-equity-investors-meta-2026-10-equity-offerings"
+  "openai-amazon-2025-11-aws"
  ],
  "changes": [
   {
@@ -5171,8 +5203,8 @@
   },
   {
    "kind": "investment",
-   "count": 144,
-   "usd": 870883790000,
+   "count": 145,
+   "usd": 950260952382,
    "undisclosed": 46
   },
   {
@@ -5208,8 +5240,8 @@
   },
   {
    "status": "signed",
-   "usd": 1795973571259,
-   "count": 157
+   "usd": 1875350733641,
+   "count": 158
   },
   {
    "status": "in_progress",
@@ -5534,11 +5566,11 @@
   },
   {
    "month": "2026-11",
-   "count": 20,
-   "usd": 92550000000,
+   "count": 21,
+   "usd": 171927162382,
    "by_kind": {
     "order": 0,
-    "investment": 47000000000,
+    "investment": 126377162382,
     "debt": 45550000000,
     "lease": 0,
     "vendor_financing": 0,
@@ -5559,9 +5591,9 @@
   {
    "id": "anthropic",
    "out_usd": 523800000000,
-   "in_usd": 172220000000,
+   "in_usd": 251597162382,
    "borrowed_usd": 15000000000,
-   "deals": 44,
+   "deals": 45,
    "group": "model_lab",
    "cds": null
   },
