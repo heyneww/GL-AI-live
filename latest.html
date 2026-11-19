@@ -23,6 +23,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0f141b">
+<meta name="apple-mobile-web-app-title" content="AI Deal Map">
 <link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="dashboard.css">
 <link rel="alternate" type="application/atom+xml" title="AI Orders &amp; Debt Map: changes" href="data/feed.xml">
@@ -86,16 +91,6 @@
   <div class="tile tile--mix"><span class="tile__label" data-i18n="sum_mix">Mix by deal type</span><div class="seg seg--xs tview" role="group" data-i18n-aria="tv_label" aria-label="Totals"><button type="button" class="seg__btn" id="tv-committed" aria-pressed="true" data-i18n="tv_committed">Committed</button><button type="button" class="seg__btn" id="tv-broad" aria-pressed="false" data-i18n="tv_broad">Broad view</button></div><span class="tile__total" id="sum-total"></span><span class="tile__broad" id="sum-broad" hidden></span><div class="mix" id="sum-mix"></div><span class="tile__split" id="sum-split"></span><span class="tile__note" id="sum-scope"></span></div>
 </section>
 <p class="summary__foot" data-i18n="sum_foot"></p>
-
-<section class="timeline" id="timeline" data-i18n-aria="aria_timeline" aria-label="Timeline" hidden>
-  <div class="timeline__head">
-    <span class="timeline__h" data-i18n="tl_title">Deals by month</span>
-    <span class="timeline__range" id="tl-range"></span>
-    <button type="button" class="linkbtn linkbtn--muted timeline__clear" id="tl-clear" hidden data-i18n="tl_clear">Clear range</button>
-  </div>
-  <svg id="tl-svg" role="img"></svg>
-  <p class="timeline__note" id="tl-note"></p>
-</section>
 
 <section class="filters" id="filters" data-i18n-aria="aria_filters" aria-label="Filters">
   <div class="filters__main">
@@ -234,6 +229,17 @@
     <aside class="panel" id="panel" tabindex="-1" aria-labelledby="panel-title"></aside>
   </div>
 </main>
+
+<!-- deals by month: below the map, so the graph starts higher on the page; its brush still sets the period filter -->
+<section class="timeline" id="timeline" data-i18n-aria="aria_timeline" aria-label="Timeline" hidden>
+  <div class="timeline__head">
+    <span class="timeline__h" data-i18n="tl_title">Deals by month</span>
+    <span class="timeline__range" id="tl-range"></span>
+    <button type="button" class="linkbtn linkbtn--muted timeline__clear" id="tl-clear" hidden data-i18n="tl_clear">Clear range</button>
+  </div>
+  <svg id="tl-svg" role="img"></svg>
+  <p class="timeline__note" id="tl-note"></p>
+</section>
 
 <section class="latest" aria-labelledby="latest-h">
   <h2 class="section-h" id="latest-h" data-i18n="latest">Latest from the monitor</h2>

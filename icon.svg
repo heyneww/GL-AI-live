@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- AI Orders & Debt Map: three companies and the money between them (order blue, investment green, debt orange).
+       Full-bleed square with the drawing inside the central 80%, so it also works as a maskable icon. -->
+  <rect width="512" height="512" fill="#0f141b"/>
+  <g fill="none" stroke-width="26" stroke-linecap="round">
+    <path d="M256 150 L146 348" stroke="#3987e5"/>
+    <path d="M256 150 L366 348" stroke="#19a070"/>
+    <path d="M146 348 L366 348" stroke="#e2672f"/>
+  </g>
+  <g fill="#fdfdfe" stroke="#0f141b" stroke-width="12">
+    <circle cx="256" cy="150" r="52"/>
+    <circle cx="146" cy="348" r="40"/>
+    <circle cx="366" cy="348" r="40"/>
+  </g>
+</svg>
