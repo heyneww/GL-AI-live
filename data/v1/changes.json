@@ -1,8 +1,46 @@
 {
- "generated_at": "2026-11-20T02:34:07Z",
+ "generated_at": "2026-11-20T22:45:43Z",
  "history_complete": true,
- "last_commit": "292343a6ba54794395ecb0dd453ba025a8adfad7",
+ "last_commit": "ba537f088d983bf3f2fb0baa9fd9a82c15d29346",
  "changes": [
+  {
+   "date": "2026-11-20T22:45:30Z",
+   "commit": "ba537f088d983bf3f2fb0baa9fd9a82c15d29346",
+   "edge": "pimco-apollo-spacex-gpu-lessor-2026-10-a2-notes",
+   "kind": "changed",
+   "fields": {
+    "amount_usd": {
+     "from": 4000000000,
+     "to": null
+    },
+    "last_checked": {
+     "from": null,
+     "to": "2026-11-20"
+    },
+    "note_en": {
+     "from": null,
+     "to": "Since 20 Nov 2026 the A2 notes are counted inside the ~$44B note sale (bond-investors-apollo-spacex-gpu-lessor-2026-11-notes), so PIMCO's $4B is no longer counted on this edge."
+    },
+    "note_zh": {
+     "from": null,
+     "to": "自 2026 年 11 月 20 日起，A2 票据计入约 440 亿美元的票据发行（bond-investors-apollo-spacex-gpu-lessor-2026-11-notes），因此 PIMCO 的 40 亿美元不再在本条边计入。"
+    },
+    "part_of": {
+     "from": null,
+     "to": "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes"
+    }
+   },
+   "title_en": "PIMCO buys $4B of notes funding SpaceX's Apollo GPU lessor",
+   "title_zh": "PIMCO 认购 40 亿美元票据，为 SpaceX 的阿波罗 GPU 出租实体融资"
+  },
+  {
+   "date": "2026-11-20T22:45:30Z",
+   "commit": "ba537f088d983bf3f2fb0baa9fd9a82c15d29346",
+   "edge": "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
+   "kind": "added",
+   "title_en": "~$44B of notes priced to fund the Apollo-managed lessor of SpaceX's Nvidia GPUs",
+   "title_zh": "约 440 亿美元票据定价，为阿波罗管理的 SpaceX 英伟达 GPU 出租实体融资"
+  },
   {
    "date": "2026-11-19T22:44:41Z",
    "commit": "292343a6ba54794395ecb0dd453ba025a8adfad7",

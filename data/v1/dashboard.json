@@ -1,32 +1,32 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-20T21:02:34Z",
- "built_at": "2026-11-20T21:02:48Z",
+ "generated_at": "2026-11-20T22:45:29Z",
+ "built_at": "2026-11-20T22:45:44Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
-  "total_usd": 3690420523641,
+  "total_usd": 3730420523641,
   "contingent_usd": 211321000000,
   "headline_usd": 2466510000000,
-  "broad_usd": 6368251523641,
-  "confirmed_usd": 2390203523641,
-  "reported_usd": 1300217000000,
-  "binding_usd": 3622820523641,
-  "deals": 441,
+  "broad_usd": 6408251523641,
+  "confirmed_usd": 2434203523641,
+  "reported_usd": 1296217000000,
+  "binding_usd": 3666820523641,
+  "deals": 442,
   "deals_with_amount": 290,
   "companies": 146,
   "new_7d": {
-   "count": 6,
-   "usd": 83177162382
+   "count": 7,
+   "usd": 127177162382
   },
   "new_30d": {
-   "count": 47,
-   "usd": 624557162382
+   "count": 48,
+   "usd": 664557162382
   },
   "announced_30d": {
-   "count": 44,
-   "usd": 623707162382
+   "count": 45,
+   "usd": 663707162382
   },
-  "latest_announced": "2026-11-18"
+  "latest_announced": "2026-11-20"
  },
  "entities": {
   "aip": {
@@ -517,6 +517,38 @@
   }
  },
  "deals": [
+  {
+   "id": "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
+   "kind": "debt",
+   "subkind": "senior and subordinated asset-backed notes (GPU lease financing)",
+   "subkind_zh": "优先及次级资产支持票据（GPU 租赁融资）",
+   "from": "bond-investors",
+   "to": "apollo-spacex-gpu-lessor",
+   "amount_usd": 44000000000,
+   "counted_usd": 44000000000,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "~$44B of senior and subordinated notes priced 20 Nov 2026 (oversubscribed and upsized), per Apollo; reported pricing: the largest slice, ~$25.2B of senior secured A3 notes due April 2033, at an 8.259% yield (Bloomberg, via Seeking Alpha); proceeds buy Nvidia Vera Rubin GPUs and equipment leased to SpaceX",
+   "announced": "2026-11-20",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "~$44B of notes priced to fund the Apollo-managed lessor of SpaceX's Nvidia GPUs",
+   "title_zh": "约 440 亿美元票据定价，为阿波罗管理的 SpaceX 英伟达 GPU 出租实体融资",
+   "summary_en": "Apollo and Goldman Sachs priced about $44 billion of senior and subordinated notes on 20 November 2026 to buy Nvidia Vera Rubin GPUs and related equipment that the Apollo-managed vehicle leases to SpaceX, the largest GPU financing to date; BlackRock, Goldman Sachs Asset…",
+   "summary_zh": "阿波罗和高盛于 2026 年 11 月 20 日为约 440 亿美元的优先及次级票据定价，用于购买由阿波罗管理的实体租给 SpaceX 的英伟达 Vera Rubin GPU 及相关设备，为迄今最大规模的 GPU 融资；贝莱德、高盛资产管理及 KKR 顾问账户担任基石投资者。该…",
+   "source": {
+    "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+    "publisher": "Apollo",
+    "date": "2026-11-20"
+   },
+   "added": "2026-11-20",
+   "tags": [
+    "new",
+    "top",
+    "big",
+    "recent"
+   ]
+  },
   {
    "id": "public-equity-investors-anthropic-2026-11-ipo",
    "kind": "investment",
@@ -1421,35 +1453,6 @@
    ]
   },
   {
-   "id": "pimco-apollo-spacex-gpu-lessor-2026-10-a2-notes",
-   "kind": "debt",
-   "subkind": "144A notes funding a GPU lessor (A2 mezzanine tranche)",
-   "subkind_zh": "为 GPU 出租实体融资的 144A 票据（A2 夹层档）",
-   "from": "pimco",
-   "to": "apollo-spacex-gpu-lessor",
-   "amount_usd": 4000000000,
-   "counted_usd": 4000000000,
-   "contingent_usd": 0,
-   "headline_usd": null,
-   "amount_text": "$4B of the A2 (mezzanine) tranche of the 144A notes that fund the Apollo-managed lessor behind the ~$40B SpaceX GPU lease (Bloomberg); size of the whole note programme not stated",
-   "announced": "2026-10-26",
-   "status": "reported",
-   "confidence": "reported",
-   "title_en": "PIMCO buys $4B of notes funding SpaceX's Apollo GPU lessor",
-   "title_zh": "PIMCO 认购 40 亿美元票据，为 SpaceX 的阿波罗 GPU 出租实体融资",
-   "summary_en": "Bloomberg reported that PIMCO bought $4B of the A2 (mezzanine) tranche of the 144A notes issued by the Apollo-managed entity that buys Nvidia chips and servers and leases them to SpaceX (xAI) under the ~$40B GPU financing disclosed on 26 October 2026. The lease itself is…",
-   "summary_zh": "据彭博报道，PIMCO（品浩）认购了 40 亿美元的 A2（夹层）档 144A 票据，发行方是阿波罗管理的实体，该实体购买英伟达芯片和服务器并租给 SpaceX（xAI），对应 2026 年 10 月 26 日披露的约 400 亿美元 GPU 融资。租约本身另列为一条租赁边。",
-   "source": {
-    "url": "https://www.investing.com/news/stock-market-news/pimco-buys-4-billion-of-spacex-ai-debt-package-led-by-apollo--bloomberg-93CH-4973850",
-    "publisher": "Investing.com (Bloomberg)",
-    "date": "2026-10-26"
-   },
-   "added": "2026-10-29",
-   "tags": [
-    "recent"
-   ]
-  },
-  {
    "id": "bank-lenders-airtrunk-2026-10-syd3-green-loan",
    "kind": "debt",
    "subkind": "green project loan",
@@ -1534,6 +1537,35 @@
    "added": "2026-11-02",
    "tags": [
     "recent"
+   ]
+  },
+  {
+   "id": "pimco-apollo-spacex-gpu-lessor-2026-10-a2-notes",
+   "kind": "debt",
+   "subkind": "144A notes funding a GPU lessor (A2 mezzanine tranche)",
+   "subkind_zh": "为 GPU 出租实体融资的 144A 票据（A2 夹层档）",
+   "from": "pimco",
+   "to": "apollo-spacex-gpu-lessor",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "$4B of the A2 (mezzanine) tranche of the 144A notes that fund the Apollo-managed lessor behind the ~$40B SpaceX GPU lease (Bloomberg); size of the whole note programme not stated",
+   "announced": "2026-10-26",
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "PIMCO buys $4B of notes funding SpaceX's Apollo GPU lessor",
+   "title_zh": "PIMCO 认购 40 亿美元票据，为 SpaceX 的阿波罗 GPU 出租实体融资",
+   "summary_en": "Bloomberg reported that PIMCO bought $4B of the A2 (mezzanine) tranche of the 144A notes issued by the Apollo-managed entity that buys Nvidia chips and servers and leases them to SpaceX (xAI) under the ~$40B GPU financing disclosed on 26 October 2026. The lease itself is…",
+   "summary_zh": "据彭博报道，PIMCO（品浩）认购了 40 亿美元的 A2（夹层）档 144A 票据，发行方是阿波罗管理的实体，该实体购买英伟达芯片和服务器并租给 SpaceX（xAI），对应 2026 年 10 月 26 日披露的约 400 亿美元 GPU 融资。租约本身另列为一条租赁边。",
+   "source": {
+    "url": "https://www.investing.com/news/stock-market-news/pimco-buys-4-billion-of-spacex-ai-debt-package-led-by-apollo--bloomberg-93CH-4973850",
+    "publisher": "Investing.com (Bloomberg)",
+    "date": "2026-10-26"
+   },
+   "added": "2026-10-29",
+   "tags": [
+    "changed"
    ]
   },
   {
@@ -4004,35 +4036,6 @@
    ]
   },
   {
-   "id": "nvidia-anthropic-2025-11-equity",
-   "kind": "investment",
-   "subkind": "equity investment",
-   "subkind_zh": null,
-   "from": "nvidia",
-   "to": "anthropic",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": 10000000000,
-   "amount_text": "Up to $10B",
-   "announced": "2025-11-18",
-   "status": "in_progress",
-   "confidence": "confirmed",
-   "title_en": "Nvidia to invest up to $10B in Anthropic",
-   "title_zh": "英伟达向 Anthropic 投资最多 100 亿美元",
-   "summary_en": "Nvidia committed up to $10B to Anthropic alongside a new engineering partnership, while Anthropic committed to compute on Nvidia systems. Anthropic said part of it was included in its February 2026 Series G.",
-   "summary_zh": "英伟达承诺向 Anthropic 投资最多 100 亿美元并建立工程合作，Anthropic 则承诺使用英伟达系统算力。Anthropic 表示其中部分资金已计入 2026 年 2 月 G 轮融资。",
-   "source": {
-    "url": "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership",
-    "publisher": "Nvidia",
-    "date": "2025-11-18"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "changed"
-   ]
-  },
-  {
    "id": "microsoft-anthropic-2025-11-equity",
    "kind": "investment",
    "subkind": "equity investment",
@@ -4145,7 +4148,6 @@
    },
    "added": "2026-10-27",
    "tags": [
-    "top",
     "circular",
     "big"
    ]
@@ -4974,6 +4976,7 @@
  ],
  "new_ids": [
   "public-equity-investors-anthropic-2026-11-ipo",
+  "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
   "private-investors-openai-2026-11-round",
   "bond-investors-meta-2026-11-notes-2",
   "alphabet-anthropic-2026-11-ipo-placement",
@@ -5004,15 +5007,27 @@
   "private-investors-anthropic-2026-05-series-h",
   "amazon-openai-2026-02-equity",
   "anthropic-microsoft-2025-11-azure",
+  "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
   "bank-of-america-broadcom-anthropic-rack-spv-2026-10-first-lien",
   "oracle-nvidia-2025-05-abilene",
   "aip-aligned-2025-10-acquisition",
   "spacex-apollo-2026-10-gpu-finance-lease",
   "public-equity-investors-alphabet-2026-06-equity-offering",
-  "jpmorgan-vantage-2025-10-oracle-loans",
-  "openai-amazon-2025-11-aws"
+  "jpmorgan-vantage-2025-10-oracle-loans"
  ],
  "changes": [
+  {
+   "id": "pimco-apollo-spacex-gpu-lessor-2026-10-a2-notes",
+   "date": "2026-11-20",
+   "title_en": "PIMCO buys $4B of notes funding SpaceX's Apollo GPU lessor",
+   "title_zh": "PIMCO 认购 40 亿美元票据，为 SpaceX 的阿波罗 GPU 出租实体融资",
+   "fields": {
+    "amount_usd": {
+     "from": 4000000000,
+     "to": null
+    }
+   }
+  },
   {
    "id": "alphabet-anthropic-2026-04-equity",
    "date": "2026-11-19",
@@ -5180,18 +5195,6 @@
      "to": null
     }
    }
-  },
-  {
-   "id": "nvidia-anthropic-2025-11-equity",
-   "date": "2026-11-18",
-   "title_en": "Nvidia to invest up to $10B in Anthropic",
-   "title_zh": "英伟达向 Anthropic 投资最多 100 亿美元",
-   "fields": {
-    "amount_usd": {
-     "from": 10000000000,
-     "to": null
-    }
-   }
   }
  ],
  "by_kind": [
@@ -5209,9 +5212,9 @@
   },
   {
    "kind": "debt",
-   "count": 137,
-   "usd": 1126254571259,
-   "undisclosed": 7
+   "count": 138,
+   "usd": 1166254571259,
+   "undisclosed": 8
   },
   {
    "kind": "lease",
@@ -5240,8 +5243,8 @@
   },
   {
    "status": "signed",
-   "usd": 1875350733641,
-   "count": 158
+   "usd": 1919350733641,
+   "count": 159
   },
   {
    "status": "in_progress",
@@ -5260,7 +5263,7 @@
   },
   {
    "status": "reported",
-   "usd": 58600000000,
+   "usd": 54600000000,
    "count": 17
   }
  ],
@@ -5554,11 +5557,11 @@
   {
    "month": "2026-10",
    "count": 29,
-   "usd": 461338000000,
+   "usd": 457338000000,
    "by_kind": {
     "order": 6400000000,
     "investment": 59200000000,
-    "debt": 166538000000,
+    "debt": 162538000000,
     "lease": 229200000000,
     "vendor_financing": 0,
     "guarantee": 0
@@ -5566,12 +5569,12 @@
   },
   {
    "month": "2026-11",
-   "count": 21,
-   "usd": 171927162382,
+   "count": 22,
+   "usd": 215927162382,
    "by_kind": {
     "order": 0,
     "investment": 126377162382,
-    "debt": 45550000000,
+    "debt": 89550000000,
     "lease": 0,
     "vendor_financing": 0,
     "guarantee": 0
@@ -5751,6 +5754,15 @@
    "cds": null
   },
   {
+   "id": "apollo-spacex-gpu-lessor",
+   "out_usd": 0,
+   "in_usd": 84000000000,
+   "borrowed_usd": 44000000000,
+   "deals": 3,
+   "group": "spv",
+   "cds": null
+  },
+  {
    "id": "intel",
    "out_usd": 16100000000,
    "in_usd": 40800000000,
@@ -5799,15 +5811,6 @@
    "borrowed_usd": 0,
    "deals": 3,
    "group": "financier",
-   "cds": null
-  },
-  {
-   "id": "apollo-spacex-gpu-lessor",
-   "out_usd": 0,
-   "in_usd": 44000000000,
-   "borrowed_usd": 4000000000,
-   "deals": 2,
-   "group": "spv",
    "cds": null
   },
   {
@@ -5867,8 +5870,8 @@
  ],
  "debt": {
   "recent_90d": {
-   "count": 30,
-   "usd": 340208000000
+   "count": 31,
+   "usd": 380208000000
   },
   "top_borrowers": [
    {
@@ -5902,6 +5905,11 @@
     "count": 15
    },
    {
+    "id": "apollo-spacex-gpu-lessor",
+    "usd": 44000000000,
+    "count": 2
+   },
+   {
     "id": "broadcom-anthropic-rack-spv",
     "usd": 43500000000,
     "count": 2
@@ -5915,14 +5923,9 @@
     "id": "vantage-data-centers",
     "usd": 38000000000,
     "count": 1
-   },
-   {
-    "id": "broadcom-ai-xpv",
-    "usd": 35000000000,
-    "count": 1
    }
   ],
-  "spv_usd": 125600000000
+  "spv_usd": 165600000000
  },
  "circular": [
   {

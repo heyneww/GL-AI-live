@@ -1,9 +1,58 @@
 {
- "generated_at": "2026-11-20T21:02:34Z",
+ "generated_at": "2026-11-20T22:45:29Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-20, https://heyneww.github.io/GL-AI-live/",
  "edges": [
+  {
+   "id": "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
+   "kind": "debt",
+   "subkind": "senior and subordinated asset-backed notes (GPU lease financing)",
+   "subkind_zh": "优先及次级资产支持票据（GPU 租赁融资）",
+   "from": "bond-investors",
+   "to": "apollo-spacex-gpu-lessor",
+   "amount_usd": 44000000000,
+   "amount_text": "~$44B of senior and subordinated notes priced 20 Nov 2026 (oversubscribed and upsized), per Apollo; reported pricing: the largest slice, ~$25.2B of senior secured A3 notes due April 2033, at an 8.259% yield (Bloomberg, via Seeking Alpha); proceeds buy Nvidia Vera Rubin GPUs and equipment leased to SpaceX",
+   "amount_text_zh": "据阿波罗，约 440 亿美元优先及次级票据于 2026 年 11 月 20 日定价（超额认购并上调规模）；据报道最大一档约 252 亿美元、2033 年 4 月到期的 A3 优先担保票据收益率为 8.259%（彭博，经 Seeking Alpha）；所得资金用于购买租给 SpaceX 的英伟达 Vera Rubin GPU 及设备",
+   "announced": "2026-11-20",
+   "term": "Leases to SpaceX start on GPU delivery in H1 2027; A3 notes due April 2033",
+   "term_zh": "租约于 2027 年上半年 GPU 交付时开始；A3 票据 2033 年 4 月到期",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "~$44B of notes priced to fund the Apollo-managed lessor of SpaceX's Nvidia GPUs",
+   "title_zh": "约 440 亿美元票据定价，为阿波罗管理的 SpaceX 英伟达 GPU 出租实体融资",
+   "summary_en": "Apollo and Goldman Sachs priced about $44 billion of senior and subordinated notes on 20 November 2026 to buy Nvidia Vera Rubin GPUs and related equipment that the Apollo-managed vehicle leases to SpaceX, the largest GPU financing to date; BlackRock, Goldman Sachs Asset Management and KKR-advised accounts anchored it. The debt sits off SpaceX's balance sheet; SpaceX's lease payments (its own edge) service it.",
+   "summary_zh": "阿波罗和高盛于 2026 年 11 月 20 日为约 440 亿美元的优先及次级票据定价，用于购买由阿波罗管理的实体租给 SpaceX 的英伟达 Vera Rubin GPU 及相关设备，为迄今最大规模的 GPU 融资；贝莱德、高盛资产管理及 KKR 顾问账户担任基石投资者。该债务不计入 SpaceX 资产负债表，由 SpaceX 的租金（另列为一条边）偿付。",
+   "distinct_from": [
+    "spacex-apollo-2026-10-gpu-finance-lease"
+   ],
+   "sources": [
+    {
+     "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+     "publisher": "Apollo",
+     "date": "2026-11-20",
+     "title": "Apollo and Goldman Sachs Announce Pricing of $44 Billion SpaceX GPU Financing",
+     "type": "official"
+    },
+    {
+     "url": "https://www.investing.com/news/stock-market-news/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-5042346",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-11-20",
+     "title": "Apollo, Goldman lead $44 billion SpaceX GPU debt financing",
+     "type": "news"
+    },
+    {
+     "url": "https://seekingalpha.com/news/4675034-spacex-sells-32b-in-ai-chip-debt-above-8-yield-report",
+     "publisher": "Seeking Alpha",
+     "date": "2026-11-20",
+     "title": "SpaceX sells $32B in AI chip debt above 8% yield: report",
+     "type": "news"
+    }
+   ],
+   "origin": "curated",
+   "counted_usd": 44000000000,
+   "contingent_usd": 0
+  },
   {
    "id": "public-equity-investors-anthropic-2026-11-ipo",
    "kind": "investment",
@@ -1590,16 +1639,20 @@
    "subkind": "144A notes funding a GPU lessor (A2 mezzanine tranche)",
    "from": "pimco",
    "to": "apollo-spacex-gpu-lessor",
-   "amount_usd": 4000000000,
+   "amount_usd": null,
    "amount_text": "$4B of the A2 (mezzanine) tranche of the 144A notes that fund the Apollo-managed lessor behind the ~$40B SpaceX GPU lease (Bloomberg); size of the whole note programme not stated",
    "announced": "2026-10-26",
    "term": "Notes fund ~5-5.25-year GPU leases starting H1 2027",
    "status": "reported",
    "confidence": "reported",
+   "last_checked": "2026-11-20",
+   "part_of": "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
    "title_en": "PIMCO buys $4B of notes funding SpaceX's Apollo GPU lessor",
    "title_zh": "PIMCO 认购 40 亿美元票据，为 SpaceX 的阿波罗 GPU 出租实体融资",
    "summary_en": "Bloomberg reported that PIMCO bought $4B of the A2 (mezzanine) tranche of the 144A notes issued by the Apollo-managed entity that buys Nvidia chips and servers and leases them to SpaceX (xAI) under the ~$40B GPU financing disclosed on 26 October 2026. The lease itself is spacex-apollo-2026-10-gpu-finance-lease.",
    "summary_zh": "据彭博报道，PIMCO（品浩）认购了 40 亿美元的 A2（夹层）档 144A 票据，发行方是阿波罗管理的实体，该实体购买英伟达芯片和服务器并租给 SpaceX（xAI），对应 2026 年 10 月 26 日披露的约 400 亿美元 GPU 融资。租约本身另列为一条租赁边。",
+   "note_en": "Since 20 Nov 2026 the A2 notes are counted inside the ~$44B note sale (bond-investors-apollo-spacex-gpu-lessor-2026-11-notes), so PIMCO's $4B is no longer counted on this edge.",
+   "note_zh": "自 2026 年 11 月 20 日起，A2 票据计入约 440 亿美元的票据发行（bond-investors-apollo-spacex-gpu-lessor-2026-11-notes），因此 PIMCO 的 40 亿美元不再在本条边计入。",
    "sources": [
     {
      "url": "https://www.investing.com/news/stock-market-news/pimco-buys-4-billion-of-spacex-ai-debt-package-led-by-apollo--bloomberg-93CH-4973850",
@@ -1610,7 +1663,7 @@
    ],
    "subkind_zh": "为 GPU 出租实体融资的 144A 票据（A2 夹层档）",
    "origin": "curated",
-   "counted_usd": 4000000000,
+   "counted_usd": 0,
    "contingent_usd": 0
   },
   {

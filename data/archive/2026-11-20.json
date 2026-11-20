@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T21:02:34Z",
+ "generated_at": "2026-11-20T22:45:29Z",
  "monitor": {
   "last_run": "2026-11-20T21:01:56Z",
   "sec_items": 246,
@@ -1189,7 +1189,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 4000000000,
+     "debt": 44000000000,
      "lease": 40000000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1205,7 +1205,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 1,
+     "debt": 2,
      "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1220,33 +1220,33 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 40000000000,
+     "signed": 84000000000,
      "in_progress": 0,
      "completed": 0,
-     "reported": 4000000000
+     "reported": 0
     },
-    "confirmed_usd": 0,
-    "binding_usd": 40000000000,
-    "last_edge": "2026-10-26",
-    "last_source": "2026-11-05",
-    "counterparties": 2,
-    "inflow_total_usd": 44000000000,
+    "confirmed_usd": 44000000000,
+    "binding_usd": 84000000000,
+    "last_edge": "2026-11-20",
+    "last_source": "2026-11-20",
+    "counterparties": 3,
+    "inflow_total_usd": 84000000000,
     "outflow_total_usd": 0,
     "top_counterparties": [
      {
-      "id": "spacex",
-      "usd": 40000000000,
-      "share": 0.9090909090909091
+      "id": "bond-investors",
+      "usd": 44000000000,
+      "share": 0.5238095238095238
      },
      {
-      "id": "pimco",
-      "usd": 4000000000,
-      "share": 0.09090909090909091
+      "id": "spacex",
+      "usd": 40000000000,
+      "share": 0.47619047619047616
      }
     ],
     "concentration_top3": 1.0
@@ -2327,7 +2327,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 625270000000,
+     "debt": 669270000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2343,58 +2343,58 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 75,
+     "debt": 76,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 75,
-    "degree_curated": 75,
+    "degree": 76,
+    "degree_curated": 76,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 48850000000,
+     "signed": 92850000000,
      "in_progress": 0,
      "completed": 576420000000,
      "reported": 0
     },
-    "confirmed_usd": 330712000000,
-    "binding_usd": 625270000000,
-    "last_edge": "2026-11-12",
-    "last_source": "2026-11-13",
-    "counterparties": 28,
+    "confirmed_usd": 374712000000,
+    "binding_usd": 669270000000,
+    "last_edge": "2026-11-20",
+    "last_source": "2026-11-20",
+    "counterparties": 29,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 625270000000,
+    "outflow_total_usd": 669270000000,
     "top_counterparties": [
      {
       "id": "alphabet",
       "usd": 116130000000,
-      "share": 0.18572776560525853
+      "share": 0.1735174144963916
      },
      {
       "id": "amazon",
       "usd": 113360000000,
-      "share": 0.1812976794024981
+      "share": 0.16937857665814993
      },
      {
       "id": "meta",
       "usd": 80050000000,
-      "share": 0.12802469333248037
+      "share": 0.11960793102933047
      },
      {
       "id": "oracle",
       "usd": 53000000000,
-      "share": 0.08476338221888144
+      "share": 0.07919076008188025
      },
      {
-      "id": "beignet-investor",
-      "usd": 27300000000,
-      "share": 0.04366113838821629
+      "id": "apollo-spacex-gpu-lessor",
+      "usd": 44000000000,
+      "share": 0.06574327252080625
      }
     ],
-    "concentration_top3": 0.49505013834023703
+    "concentration_top3": 0.462503922183872
    }
   },
   {
@@ -8125,7 +8125,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 4000000000,
+     "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -8156,7 +8156,7 @@
      "signed": 0,
      "in_progress": 0,
      "completed": 0,
-     "reported": 4000000000
+     "reported": 0
     },
     "confirmed_usd": 0,
     "binding_usd": 0,
@@ -8164,15 +8164,9 @@
     "last_source": "2026-10-26",
     "counterparties": 3,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 4000000000,
-    "top_counterparties": [
-     {
-      "id": "apollo-spacex-gpu-lessor",
-      "usd": 4000000000,
-      "share": 1.0
-     }
-    ],
-    "concentration_top3": 1.0
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
    }
   },
   {
@@ -10883,6 +10877,53 @@
  ],
  "edges": [
   {
+   "id": "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
+   "kind": "debt",
+   "subkind": "senior and subordinated asset-backed notes (GPU lease financing)",
+   "subkind_zh": "优先及次级资产支持票据（GPU 租赁融资）",
+   "from": "bond-investors",
+   "to": "apollo-spacex-gpu-lessor",
+   "amount_usd": 44000000000,
+   "amount_text": "~$44B of senior and subordinated notes priced 20 Nov 2026 (oversubscribed and upsized), per Apollo; reported pricing: the largest slice, ~$25.2B of senior secured A3 notes due April 2033, at an 8.259% yield (Bloomberg, via Seeking Alpha); proceeds buy Nvidia Vera Rubin GPUs and equipment leased to SpaceX",
+   "amount_text_zh": "据阿波罗，约 440 亿美元优先及次级票据于 2026 年 11 月 20 日定价（超额认购并上调规模）；据报道最大一档约 252 亿美元、2033 年 4 月到期的 A3 优先担保票据收益率为 8.259%（彭博，经 Seeking Alpha）；所得资金用于购买租给 SpaceX 的英伟达 Vera Rubin GPU 及设备",
+   "announced": "2026-11-20",
+   "term": "Leases to SpaceX start on GPU delivery in H1 2027; A3 notes due April 2033",
+   "term_zh": "租约于 2027 年上半年 GPU 交付时开始；A3 票据 2033 年 4 月到期",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "~$44B of notes priced to fund the Apollo-managed lessor of SpaceX's Nvidia GPUs",
+   "title_zh": "约 440 亿美元票据定价，为阿波罗管理的 SpaceX 英伟达 GPU 出租实体融资",
+   "summary_en": "Apollo and Goldman Sachs priced about $44 billion of senior and subordinated notes on 20 November 2026 to buy Nvidia Vera Rubin GPUs and related equipment that the Apollo-managed vehicle leases to SpaceX, the largest GPU financing to date; BlackRock, Goldman Sachs Asset Management and KKR-advised accounts anchored it. The debt sits off SpaceX's balance sheet; SpaceX's lease payments (its own edge) service it.",
+   "summary_zh": "阿波罗和高盛于 2026 年 11 月 20 日为约 440 亿美元的优先及次级票据定价，用于购买由阿波罗管理的实体租给 SpaceX 的英伟达 Vera Rubin GPU 及相关设备，为迄今最大规模的 GPU 融资；贝莱德、高盛资产管理及 KKR 顾问账户担任基石投资者。该债务不计入 SpaceX 资产负债表，由 SpaceX 的租金（另列为一条边）偿付。",
+   "distinct_from": [
+    "spacex-apollo-2026-10-gpu-finance-lease"
+   ],
+   "sources": [
+    {
+     "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+     "publisher": "Apollo",
+     "date": "2026-11-20",
+     "title": "Apollo and Goldman Sachs Announce Pricing of $44 Billion SpaceX GPU Financing",
+     "type": "official"
+    },
+    {
+     "url": "https://www.investing.com/news/stock-market-news/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-5042346",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-11-20",
+     "title": "Apollo, Goldman lead $44 billion SpaceX GPU debt financing",
+     "type": "news"
+    },
+    {
+     "url": "https://seekingalpha.com/news/4675034-spacex-sells-32b-in-ai-chip-debt-above-8-yield-report",
+     "publisher": "Seeking Alpha",
+     "date": "2026-11-20",
+     "title": "SpaceX sells $32B in AI chip debt above 8% yield: report",
+     "type": "news"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "public-equity-investors-anthropic-2026-11-ipo",
    "kind": "investment",
    "subkind": "initial public offering",
@@ -12394,16 +12435,20 @@
    "subkind": "144A notes funding a GPU lessor (A2 mezzanine tranche)",
    "from": "pimco",
    "to": "apollo-spacex-gpu-lessor",
-   "amount_usd": 4000000000,
+   "amount_usd": null,
    "amount_text": "$4B of the A2 (mezzanine) tranche of the 144A notes that fund the Apollo-managed lessor behind the ~$40B SpaceX GPU lease (Bloomberg); size of the whole note programme not stated",
    "announced": "2026-10-26",
    "term": "Notes fund ~5-5.25-year GPU leases starting H1 2027",
    "status": "reported",
    "confidence": "reported",
+   "last_checked": "2026-11-20",
+   "part_of": "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
    "title_en": "PIMCO buys $4B of notes funding SpaceX's Apollo GPU lessor",
    "title_zh": "PIMCO 认购 40 亿美元票据，为 SpaceX 的阿波罗 GPU 出租实体融资",
    "summary_en": "Bloomberg reported that PIMCO bought $4B of the A2 (mezzanine) tranche of the 144A notes issued by the Apollo-managed entity that buys Nvidia chips and servers and leases them to SpaceX (xAI) under the ~$40B GPU financing disclosed on 26 October 2026. The lease itself is spacex-apollo-2026-10-gpu-finance-lease.",
    "summary_zh": "据彭博报道，PIMCO（品浩）认购了 40 亿美元的 A2（夹层）档 144A 票据，发行方是阿波罗管理的实体，该实体购买英伟达芯片和服务器并租给 SpaceX（xAI），对应 2026 年 10 月 26 日披露的约 400 亿美元 GPU 融资。租约本身另列为一条租赁边。",
+   "note_en": "Since 20 Nov 2026 the A2 notes are counted inside the ~$44B note sale (bond-investors-apollo-spacex-gpu-lessor-2026-11-notes), so PIMCO's $4B is no longer counted on this edge.",
+   "note_zh": "自 2026 年 11 月 20 日起，A2 票据计入约 440 亿美元的票据发行（bond-investors-apollo-spacex-gpu-lessor-2026-11-notes），因此 PIMCO 的 40 亿美元不再在本条边计入。",
    "sources": [
     {
      "url": "https://www.investing.com/news/stock-market-news/pimco-buys-4-billion-of-spacex-ai-debt-package-led-by-apollo--bloomberg-93CH-4973850",
@@ -26579,8 +26624,8 @@
  ],
  "stats": {
   "entities": 146,
-  "edges": 441,
-  "curated_edges": 441,
+  "edges": 442,
+  "curated_edges": 442,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -26598,9 +26643,9 @@
     "superseded": 1
    },
    "debt": {
-    "count": 137,
-    "usd": 1126254571259,
-    "undisclosed": 7,
+    "count": 138,
+    "usd": 1166254571259,
+    "undisclosed": 8,
     "cancelled": 0,
     "superseded": 4
    },
@@ -26652,21 +26697,21 @@
     "usd": 0
    }
   },
-  "total_usd": 3690420523641,
+  "total_usd": 3730420523641,
   "contingent_usd": 211321000000,
   "headline_usd": 2466510000000,
-  "broad_usd": 6368251523641,
+  "broad_usd": 6408251523641,
   "by_status_usd": {
    "announced": 9000000000,
-   "signed": 1875350733641,
+   "signed": 1919350733641,
    "in_progress": 341136000000,
    "completed": 1406333790000,
-   "reported": 58600000000
+   "reported": 54600000000
   },
-  "confirmed_usd": 2390203523641,
-  "reported_usd": 1300217000000,
-  "binding_usd": 3622820523641,
-  "announced_usd": 67600000000,
+  "confirmed_usd": 2434203523641,
+  "reported_usd": 1296217000000,
+  "binding_usd": 3666820523641,
+  "announced_usd": 63600000000,
   "circular": [
    {
     "id": "loop-nvidia-openai-oracle",
@@ -28735,12 +28780,12 @@
    {
     "month": "2026-10",
     "count": 29,
-    "usd": 461338000000,
-    "cumulative_usd": 3518493361259,
+    "usd": 457338000000,
+    "cumulative_usd": 3514493361259,
     "by_kind": {
      "order": 6400000000,
      "investment": 59200000000,
-     "debt": 166538000000,
+     "debt": 162538000000,
      "lease": 229200000000,
      "vendor_financing": 0,
      "guarantee": 0
@@ -28748,13 +28793,13 @@
    },
    {
     "month": "2026-11",
-    "count": 21,
-    "usd": 171927162382,
-    "cumulative_usd": 3690420523641,
+    "count": 22,
+    "usd": 215927162382,
+    "cumulative_usd": 3730420523641,
     "by_kind": {
      "order": 0,
      "investment": 126377162382,
-     "debt": 45550000000,
+     "debt": 89550000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -28765,7 +28810,7 @@
    "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
    "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
   },
-  "latest_announced": "2026-11-18",
+  "latest_announced": "2026-11-20",
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount that are not cancelled or superseded: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消、未被取代交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
