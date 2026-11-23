@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T08:57:56Z",
- "built_at": "2026-11-23T08:58:13Z",
+ "generated_at": "2026-11-23T10:44:42Z",
+ "built_at": "2026-11-23T10:44:59Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
   "total_usd": 3742621523641,
@@ -191,6 +191,12 @@
    "group": "other",
    "ticker": null
   },
+  "coherent": {
+   "name": "Coherent",
+   "name_zh": "Coherent（光器件制造商）",
+   "group": "other",
+   "ticker": "COHR"
+  },
   "coreweave": {
    "name": "CoreWeave",
    "name_zh": "CoreWeave",
@@ -200,12 +206,6 @@
   "crusoe": {
    "name": "Crusoe",
    "name_zh": "Crusoe",
-   "group": "neocloud",
-   "ticker": null
-  },
-  "crux-ai": {
-   "name": "Crux AI (Blackstone-Google TPU cloud)",
-   "name_zh": "Crux AI（黑石与谷歌的 TPU 云合资公司）",
    "group": "neocloud",
    "ticker": null
   },
@@ -286,6 +286,12 @@
    "name_zh": "Lambda",
    "group": "neocloud",
    "ticker": null
+  },
+  "lumentum": {
+   "name": "Lumentum",
+   "name_zh": "Lumentum（光器件制造商）",
+   "group": "other",
+   "ticker": "LITE"
   },
   "mediatek": {
    "name": "MediaTek",
@@ -2025,35 +2031,6 @@
    ]
   },
   {
-   "id": "bank-lenders-crux-ai-2026-09-tpu-loan",
-   "kind": "debt",
-   "subkind": "chip-backed bank loan",
-   "subkind_zh": null,
-   "from": "goldman-sachs",
-   "to": "crux-ai",
-   "amount_usd": null,
-   "counted_usd": 0,
-   "contingent_usd": 0,
-   "headline_usd": 22000000000,
-   "amount_text": "~$22B being lined up by 10 banks, Goldman Sachs lead (with SMBC, Barclays, BNP Paribas, Bank of Nova Scotia; Bloomberg); separate $1B revolver; not confirmed closed as of 18 Nov 2026, so no committed amount is counted",
-   "announced": "2026-09-16",
-   "status": "reported",
-   "confidence": "reported",
-   "title_en": "Goldman-led banks line up $22B chip loan for Blackstone-Google Crux AI",
-   "title_zh": "高盛牵头的银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款",
-   "summary_en": "A group of 10 banks led by Goldman Sachs is lining up about $22B of debt for Crux AI to buy Google TPUs, secured on the chips and customer contracts, Bloomberg reported; the banks are working to syndicate it and closing was not confirmed.",
-   "summary_zh": "据彭博报道，高盛牵头的 10 家银行正为 Crux AI 安排约 220 亿美元债务用于购买谷歌 TPU，以芯片和客户合同作抵押，并寻求银团分销；该融资是否已完成尚未得到确认。",
-   "source": {
-    "url": "https://pulse2.com/crux-ai-lines-up-22-billion-chip-loan-from-10-banks-to-buy-google-tpus/",
-    "publisher": "Pulse 2.0 (Bloomberg)",
-    "date": "2026-09-16"
-   },
-   "added": "2026-10-27",
-   "tags": [
-    "changed"
-   ]
-  },
-  {
    "id": "public-equity-investors-oracle-2026-atm-share-sales",
    "kind": "investment",
    "subkind": "at-the-market common stock programme",
@@ -3549,6 +3526,64 @@
    ]
   },
   {
+   "id": "nvidia-lumentum-2026-03-equity",
+   "kind": "investment",
+   "subkind": "strategic equity investment",
+   "subkind_zh": "战略股权投资",
+   "from": "nvidia",
+   "to": "lumentum",
+   "amount_usd": 2000000000,
+   "counted_usd": 2000000000,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "$2B investment; the separate multi-billion-dollar Nvidia purchase commitment for advanced laser components and future capacity rights are not counted here",
+   "announced": "2026-03-02",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "NVIDIA invests $2B in Lumentum",
+   "title_zh": "英伟达向 Lumentum 投资 20 亿美元",
+   "summary_en": "Nvidia agreed to invest $2B in the optical laser maker Lumentum to fund R&D, capacity and a new US fab, under a multi-year, non-exclusive deal that also includes a multi-billion-dollar Nvidia purchase commitment for laser components and future capacity rights. Nvidia made a…",
+   "summary_zh": "英伟达同意向光激光器制造商 Lumentum 投资 20 亿美元，用于研发、扩产和新建美国晶圆厂；这项多年期非独家协议还包括英伟达对激光器件的数十亿美元采购承诺和未来产能使用权。英伟达同日向 Coherent 投资同样的 20 亿美元（另列一条）；迈威尔科技于 2026 年 1…",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030777/lite-20260328.htm",
+    "publisher": "Lumentum (SEC 10-Q)",
+    "date": "2026-05-06"
+   },
+   "added": "2026-11-02",
+   "tags": [
+    "changed"
+   ]
+  },
+  {
+   "id": "nvidia-coherent-2026-03-equity",
+   "kind": "investment",
+   "subkind": "strategic equity investment",
+   "subkind_zh": "战略股权投资",
+   "from": "nvidia",
+   "to": "coherent",
+   "amount_usd": 2000000000,
+   "counted_usd": 2000000000,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "$2B investment; the separate multi-billion-dollar Nvidia purchase agreement for laser and optical networking products and future capacity rights are not counted here",
+   "announced": "2026-03-02",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "NVIDIA invests $2B in Coherent",
+   "title_zh": "英伟达向 Coherent 投资 20 亿美元",
+   "summary_en": "Nvidia agreed to invest $2B in the optics maker Coherent to support R&D, capacity and US manufacturing, under a multiyear, non-exclusive deal that includes a multi-billion-dollar Nvidia purchase agreement for Coherent's lasers and optical networking products and future capacity…",
+   "summary_zh": "英伟达同意向光器件制造商 Coherent 投资 20 亿美元，支持其研发、扩产和美国制造；这项多年期非独家协议包括英伟达对 Coherent 激光器和光网络产品的数十亿美元采购协议及未来产能使用权。同日英伟达还宣布向 Lumentum 投资同样的 20 亿美元（另列一条）。",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000013/iivi-20260331.htm",
+    "publisher": "Coherent (SEC 10-Q)",
+    "date": "2026-05-06"
+   },
+   "added": "2026-11-02",
+   "tags": [
+    "changed"
+   ]
+  },
+  {
    "id": "broadcom-anthropic-2026-03-convertible-note-facility",
    "kind": "vendor_financing",
    "subkind": "convertible note facility (rent financing)",
@@ -3574,7 +3609,6 @@
    },
    "added": "2026-10-29",
    "tags": [
-    "changed",
     "circular"
    ]
   },
@@ -4824,6 +4858,30 @@
  ],
  "changes": [
   {
+   "id": "nvidia-coherent-2026-03-equity",
+   "date": "2026-11-23",
+   "title_en": "NVIDIA invests $2B in Coherent",
+   "title_zh": "英伟达向 Coherent 投资 20 亿美元",
+   "fields": {
+    "status": {
+     "from": "signed",
+     "to": "completed"
+    }
+   }
+  },
+  {
+   "id": "nvidia-lumentum-2026-03-equity",
+   "date": "2026-11-23",
+   "title_en": "NVIDIA invests $2B in Lumentum",
+   "title_zh": "英伟达向 Lumentum 投资 20 亿美元",
+   "fields": {
+    "status": {
+     "from": "signed",
+     "to": "completed"
+    }
+   }
+  },
+  {
    "id": "alphabet-anthropic-2026-11-ipo-placement",
    "date": "2026-11-21",
    "title_en": "Google to buy $10.0B of Anthropic stock alongside its IPO",
@@ -4982,30 +5040,6 @@
      "to": null
     }
    }
-  },
-  {
-   "id": "bank-lenders-crux-ai-2026-09-tpu-loan",
-   "date": "2026-11-19",
-   "title_en": "Goldman-led banks line up $22B chip loan for Blackstone-Google Crux AI",
-   "title_zh": "高盛牵头的银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款",
-   "fields": {
-    "amount_usd": {
-     "from": 22000000000,
-     "to": null
-    }
-   }
-  },
-  {
-   "id": "broadcom-anthropic-2026-03-convertible-note-facility",
-   "date": "2026-11-19",
-   "title_en": "Broadcom $42B convertible note facility for Anthropic's rack rent",
-   "title_zh": "博通为 Anthropic 机架租金提供 420 亿美元可转债融资额度",
-   "fields": {
-    "amount_usd": {
-     "from": 42000000000,
-     "to": null
-    }
-   }
   }
  ],
  "by_kind": [
@@ -5054,8 +5088,8 @@
   },
   {
    "status": "signed",
-   "usd": 1813973571259,
-   "count": 151
+   "usd": 1809973571259,
+   "count": 149
   },
   {
    "status": "in_progress",
@@ -5064,8 +5098,8 @@
   },
   {
    "status": "completed",
-   "usd": 1523911952382,
-   "count": 176
+   "usd": 1527911952382,
+   "count": 178
   },
   {
    "status": "cancelled",
