@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T10:44:42Z",
- "built_at": "2026-11-23T10:44:59Z",
+ "generated_at": "2026-11-23T13:35:19Z",
+ "built_at": "2026-11-23T13:35:37Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
   "total_usd": 3742621523641,
@@ -11,22 +11,22 @@
   "confirmed_usd": 2446404523641,
   "reported_usd": 1296217000000,
   "binding_usd": 3679021523641,
-  "deals": 442,
+  "deals": 443,
   "deals_with_amount": 290,
   "companies": 146,
   "new_7d": {
-   "count": 4,
+   "count": 5,
    "usd": 135578162382
   },
   "new_30d": {
-   "count": 45,
+   "count": 46,
    "usd": 675908162382
   },
   "announced_30d": {
-   "count": 41,
+   "count": 42,
    "usd": 654208162382
   },
-  "latest_announced": "2026-11-20"
+  "latest_announced": "2026-11-23"
  },
  "entities": {
   "aip": {
@@ -505,6 +505,35 @@
   }
  },
  "deals": [
+  {
+   "id": "bond-investors-alphabet-2026-11-notes-2",
+   "kind": "debt",
+   "subkind": "senior notes (CAD)",
+   "subkind_zh": null,
+   "from": "bond-investors",
+   "to": "alphabet",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "C$6B in 4 tranches: C$2B 4.100% Notes due 2029; C$1.25B 4.800% Notes due 2034; C$1.5B 5.325% Notes due 2038; C$1.25B 6.000% Notes due 2066; USD equivalent not converted",
+   "announced": "2026-11-23",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Alphabet C$6B notes offering",
+   "title_zh": "Alphabet发行 60 亿加元票据",
+   "summary_en": "Alphabet sold C$6B of notes in 4 tranches due 2029–2066, according to its 424B2 prospectus filed on 2026-11-23. The notes are not denominated in US dollars; no USD equivalent is recorded.",
+   "summary_zh": "Alphabet于 2026 年 11 月 23 日提交 424B2 发行说明书，发行 4 档共 60 亿加元票据，2029 至 2066 年到期。该票据非美元计价，未折算美元金额。",
+   "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526470750/d115240d424b2.htm",
+    "publisher": "SEC EDGAR (Alphabet Inc. 424B2)",
+    "date": "2026-11-23"
+   },
+   "added": "2026-11-23",
+   "tags": [
+    "new"
+   ]
+  },
   {
    "id": "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
    "kind": "debt",
@@ -4832,7 +4861,8 @@
   "alphabet-crusoe-2026-11-wyoming-site-purchase",
   "tsmc-openai-2026-11-preferred-stock",
   "amazon-blackstone-2026-11-sale-leaseback",
-  "openai-tensorwave-2026-11-amd-capacity"
+  "openai-tensorwave-2026-11-amd-capacity",
+  "bond-investors-alphabet-2026-11-notes-2"
  ],
  "top_ids": [
   "openai-oracle-2025-09-cloud",
@@ -5057,9 +5087,9 @@
   },
   {
    "kind": "debt",
-   "count": 138,
+   "count": 139,
    "usd": 1166254571259,
-   "undisclosed": 8
+   "undisclosed": 9
   },
   {
    "kind": "lease",
@@ -5099,7 +5129,7 @@
   {
    "status": "completed",
    "usd": 1527911952382,
-   "count": 178
+   "count": 179
   },
   {
    "status": "cancelled",
@@ -5414,7 +5444,7 @@
   },
   {
    "month": "2026-11",
-   "count": 22,
+   "count": 23,
    "usd": 228128162382,
    "by_kind": {
     "order": 0,
@@ -5489,7 +5519,7 @@
    "out_usd": 38750000000,
    "in_usd": 297380000000,
    "borrowed_usd": 116130000000,
-   "deals": 40,
+   "deals": 41,
    "group": "hyperscaler",
    "cds": {
     "bp": 84,
@@ -5715,7 +5745,7 @@
  ],
  "debt": {
   "recent_90d": {
-   "count": 31,
+   "count": 32,
    "usd": 380208000000
   },
   "top_borrowers": [
@@ -5727,7 +5757,7 @@
    {
     "id": "alphabet",
     "usd": 116130000000,
-    "count": 9
+    "count": 10
    },
    {
     "id": "softbank",
