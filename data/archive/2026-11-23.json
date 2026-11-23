@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T13:35:19Z",
+ "generated_at": "2026-11-23T22:44:40Z",
  "monitor": {
   "last_run": "2026-11-23T13:34:51Z",
   "sec_items": 247,
@@ -481,7 +481,7 @@
     "inflow_usd": {
      "order": 131300000000,
      "investment": 49950000000,
-     "debt": 116130000000,
+     "debt": 120318000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -519,44 +519,44 @@
      "announced": 0,
      "signed": 136100000000,
      "in_progress": 20000000000,
-     "completed": 180030000000,
+     "completed": 184218000000,
      "reported": 0
     },
-    "confirmed_usd": 255250000000,
-    "binding_usd": 336130000000,
+    "confirmed_usd": 259438000000,
+    "binding_usd": 340318000000,
     "last_edge": "2026-11-23",
     "last_source": "2026-11-23",
     "counterparties": 22,
-    "inflow_total_usd": 297380000000,
+    "inflow_total_usd": 301568000000,
     "outflow_total_usd": 38750000000,
     "top_counterparties": [
      {
       "id": "anthropic",
       "usd": 154300000000,
-      "share": 0.4590485823937167
+      "share": 0.4533994675568145
      },
      {
       "id": "bond-investors",
-      "usd": 116130000000,
-      "share": 0.34549132776009284
+      "usd": 120318000000,
+      "share": 0.3535458012799793
      },
      {
       "id": "public-equity-investors",
       "usd": 39950000000,
-      "share": 0.1188528247999286
+      "share": 0.11739020563120375
      },
      {
       "id": "berkshire-hathaway",
       "usd": 10000000000,
-      "share": 0.029750394192723052
+      "share": 0.02938428176000094
      },
      {
       "id": "meta",
       "usd": 10000000000,
-      "share": 0.029750394192723052
+      "share": 0.02938428176000094
      }
     ],
-    "concentration_top3": 0.9233927349537382
+    "concentration_top3": 0.9243354744679976
    }
   },
   {
@@ -2327,7 +2327,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 669270000000,
+     "debt": 673458000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2357,44 +2357,44 @@
      "announced": 0,
      "signed": 92850000000,
      "in_progress": 0,
-     "completed": 576420000000,
+     "completed": 580608000000,
      "reported": 0
     },
-    "confirmed_usd": 374712000000,
-    "binding_usd": 669270000000,
+    "confirmed_usd": 378900000000,
+    "binding_usd": 673458000000,
     "last_edge": "2026-11-23",
     "last_source": "2026-11-23",
     "counterparties": 29,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 669270000000,
+    "outflow_total_usd": 673458000000,
     "top_counterparties": [
      {
       "id": "alphabet",
-      "usd": 116130000000,
-      "share": 0.1735174144963916
+      "usd": 120318000000,
+      "share": 0.1786570209278084
      },
      {
       "id": "amazon",
       "usd": 113360000000,
-      "share": 0.16937857665814993
+      "share": 0.16832527046972492
      },
      {
       "id": "meta",
       "usd": 80050000000,
-      "share": 0.11960793102933047
+      "share": 0.11886413109651975
      },
      {
       "id": "oracle",
       "usd": 53000000000,
-      "share": 0.07919076008188025
+      "share": 0.07869830041368578
      },
      {
       "id": "apollo-spacex-gpu-lessor",
       "usd": 44000000000,
-      "share": 0.06574327252080625
+      "share": 0.06533443807928631
      }
     ],
-    "concentration_top3": 0.462503922183872
+    "concentration_top3": 0.46584642249405306
    }
   },
   {
@@ -10880,18 +10880,28 @@
    "id": "bond-investors-alphabet-2026-11-notes-2",
    "kind": "debt",
    "subkind": "senior notes (CAD)",
+   "subkind_zh": "优先票据（加元）",
    "from": "bond-investors",
    "to": "alphabet",
-   "amount_usd": null,
-   "amount_text": "C$6B in 4 tranches: C$2B 4.100% Notes due 2029; C$1.25B 4.800% Notes due 2034; C$1.5B 5.325% Notes due 2038; C$1.25B 6.000% Notes due 2066; USD equivalent not converted",
+   "amount_usd": 4188000000,
+   "amount_text": "C$6B in 4 tranches: C$2B 4.100% Notes due 2029; C$1.25B 4.800% Notes due 2034; C$1.5B 5.325% Notes due 2038; C$1.25B 6.000% Notes due 2066; ≈ US$4.19B at an approximate 0.698 USD/CAD rate (the dollar figure reported at pricing); settlement 24 Nov 2026",
+   "amount_text_zh": "60 亿加元，共 4 档：20 亿加元 4.100% 票据（2029 年到期）；12.5 亿加元 4.800% 票据（2034 年到期）；15 亿加元 5.325% 票据（2038 年到期）；12.5 亿加元 6.000% 票据（2066 年到期）；按约 0.698 的美元兑加元汇率约合 41.9 亿美元（定价时报道的美元金额）；2026 年 11 月 24 日交割",
+   "currency": "CAD",
+   "amount_native": 6000000000,
+   "fx_rate": 0.698,
+   "fx_date": "2026-11-20",
    "announced": "2026-11-23",
    "term": "due 2029–2066",
    "status": "completed",
    "confidence": "confirmed",
-   "title_en": "Alphabet C$6B notes offering",
-   "title_zh": "Alphabet发行 60 亿加元票据",
-   "summary_en": "Alphabet sold C$6B of notes in 4 tranches due 2029–2066, according to its 424B2 prospectus filed on 2026-11-23. The notes are not denominated in US dollars; no USD equivalent is recorded.",
-   "summary_zh": "Alphabet于 2026 年 11 月 23 日提交 424B2 发行说明书，发行 4 档共 60 亿加元票据，2029 至 2066 年到期。该票据非美元计价，未折算美元金额。",
+   "title_en": "Alphabet C$6B maple bond (≈ US$4.19B)",
+   "title_zh": "Alphabet 发行 60 亿加元枫叶债券（约 41.9 亿美元）",
+   "summary_en": "Alphabet sold C$6B (about US$4.19B) of Canadian-dollar notes in 4 tranches due 2029–2066, its second maple bond of 2026 after May's record C$8.5B, according to its 424B2 prospectus filed on 2026-11-23; the dollar figure uses an approximate exchange rate.",
+   "summary_zh": "据 Alphabet 于 2026 年 11 月 23 日提交的 424B2 发行说明书，其发行 4 档共 60 亿加元（约 41.9 亿美元）加元票据，2029 至 2066 年到期，为继 5 月创纪录的 85 亿加元之后 2026 年第二次发行枫叶债券；美元金额按近似汇率折算。",
+   "distinct_from": [
+    "bond-investors-alphabet-2026-11-notes",
+    "bond-investors-alphabet-2026-11-hkd-sgd-notes"
+   ],
    "sources": [
     {
      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526470750/d115240d424b2.htm",
@@ -17489,6 +17499,7 @@
    "term": "5 years; deployments in 2027",
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-23",
    "title_en": "NVIDIA $3.4B GPU cloud contract with IREN",
    "title_zh": "英伟达与 IREN 签订 34 亿美元 GPU 云合同",
    "summary_en": "NVIDIA signed a five-year contract worth about $3.4B for dedicated GPU cloud services from IREN at its Childress, Texas campus, for NVIDIA's own AI and research workloads. The same day NVIDIA bought rights to invest up to $2.1B in IREN (separate edge).",
@@ -17667,6 +17678,7 @@
    "term": "15 years (three 5-year renewal options)",
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-23",
    "title_en": "Hut 8 leases 352 MW at Beacon Point to an investment-grade tenant, reported to be NVIDIA (~$9.8B)",
    "title_zh": "Hut 8 将 Beacon Point 352 兆瓦租给投资级租户（据报为英伟达，约 98 亿美元）",
    "summary_en": "Hut 8 signed a 15-year triple-net lease for 352 MW of critical IT capacity in Phase 1 of its Beacon Point campus in Nueces County, Texas, worth about $9.8 billion, with what it called a high-investment-grade technology company; the Financial Times reported in July that the tenant is NVIDIA (not confirmed by the companies). The build is financed by $4.25 billion of notes (separate edge).",
@@ -17973,6 +17985,7 @@
    "term": null,
    "status": "announced",
    "confidence": "reported",
+   "last_checked": "2026-11-23",
    "title_en": "Tesla picks Intel 14A for its Terafab chips",
    "title_zh": "特斯拉选择英特尔 14A 工艺生产 Terafab 芯片",
    "summary_en": "On Tesla's Q1 2026 earnings call Elon Musk said Tesla plans to make AI chips at its Terafab complex on Intel's 14A process, which would make Tesla the first major named external 14A customer.",
@@ -18107,6 +18120,7 @@
    "term_zh": "长期协议；预计 2026 年夏季开始供电",
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-23",
    "title_en": "Google long-term power supply agreement with NiSource (northern Indiana data centre)",
    "title_zh": "谷歌与 NiSource 的长期供电协议（印第安纳州北部数据中心）",
    "summary_en": "NiSource signed a long-term energy supply agreement with an Alphabet unit for a large data centre in northern Indiana, served by its GenCo model with about 340 MW of GenCo-owned generation plus up to 175 MW of seasonal market purchases, with supply expected from summer 2026. The price was not disclosed.",
@@ -18169,6 +18183,7 @@
    "term": null,
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-23",
    "title_en": "Jane Street $6B AI cloud deal with CoreWeave",
    "title_zh": "Jane Street 与 CoreWeave 签订 60 亿美元 AI 云合同",
    "summary_en": "Trading firm Jane Street committed about $6B to CoreWeave cloud services, including NVIDIA Vera Rubin capacity, and at the same time bought $1B of CoreWeave stock (separate edge).",
@@ -18233,6 +18248,7 @@
    "term": "Through 2029",
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-23",
    "title_en": "Meta commits to multi-gigawatt MTIA custom chips with Broadcom",
    "title_zh": "Meta 与博通签署数吉瓦 MTIA 定制芯片合作",
    "summary_en": "Broadcom and Meta extended their custom-silicon partnership through 2029 across several MTIA generations, with Meta committing to an initial deployment of more than 1 GW on 2nm; Hock Tan moves from Meta's board to an advisory role.",
@@ -18301,6 +18317,7 @@
    "term": "deployment underway, continuing into 2027",
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-23",
    "title_en": "Oracle fuel-cell supply deal with Bloom Energy (up to 2.8 GW)",
    "title_zh": "甲骨文与 Bloom Energy 的燃料电池供电协议（最高 2.8 吉瓦）",
    "summary_en": "Bloom Energy said it will supply Oracle with up to 2.8 GW of fuel-cell capacity for its AI and cloud data centres under an expanded master agreement, of which 1.2 GW is already contracted and being deployed. The value was not disclosed; Bloom also issued Oracle a warrant.",
@@ -18351,6 +18368,7 @@
    "term": "Multi-year",
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-23",
    "title_en": "Anthropic multi-year cloud deal with CoreWeave",
    "title_zh": "Anthropic 与 CoreWeave 的多年期云合同",
    "summary_en": "Anthropic signed a multi-year agreement to run Claude workloads on CoreWeave, a day after CoreWeave's $21B Meta expansion; terms were not disclosed.",
@@ -18450,6 +18468,7 @@
    "term": "Through Dec 2032",
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-23",
    "title_en": "Meta expands CoreWeave contract by $21B",
    "title_zh": "Meta 追加 210 亿美元 CoreWeave 合同",
    "summary_en": "Meta signed a further ~$21B of CoreWeave capacity through 2032, including early Nvidia Vera Rubin deployments for inference, taking its total CoreWeave commitments to about $35B.",
@@ -18508,6 +18527,7 @@
    "term": "Through 2031",
    "status": "signed",
    "confidence": "reported",
+   "last_checked": "2026-11-23",
    "title_en": "Google locks in Broadcom for TPUs through 2031",
    "title_zh": "谷歌与博通签署至 2031 年的 TPU 长期协议",
    "summary_en": "Broadcom disclosed in an 8-K a long-term agreement to develop and supply future generations of Google's custom TPUs, plus a supply-assurance deal for networking and other parts of Google's AI racks through 2031, alongside expanded TPU capacity for Anthropic.",
@@ -18657,6 +18677,7 @@
    "term": null,
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-23",
    "title_en": "Nscale leases computing equipment from Dell Financial Services (~$2.54B rent)",
    "title_zh": "Nscale 向戴尔金融服务租赁计算设备（租金约 25.4 亿美元）",
    "summary_en": "In April 2026 Nscale signed two Global Framework Agreements with Dell Financial Services, Dell's financing arm, which funds computing and data-centre equipment that Nscale leases; initial-term rent under them reached about $2.54B by 4 September 2026, according to Nscale's amended IPO filing.",
@@ -18749,6 +18770,7 @@
    "term": "reported maturity 2032",
    "status": "signed",
    "confidence": "confirmed",
+   "last_checked": "2026-11-23",
    "title_en": "CoreWeave $8.5B investment-grade GPU loan",
    "title_zh": "CoreWeave 获 85 亿美元投资级 GPU 抵押贷款",
    "summary_en": "The first investment-grade rated GPU-backed financing: a non-recourse $8.5B loan secured by the chips and a customer contract that Bloomberg identified as CoreWeave's Meta deal. MUFG and Morgan Stanley led, with Goldman Sachs, JPMorgan and Blackstone participating.",
@@ -26753,8 +26775,8 @@
    },
    "debt": {
     "count": 139,
-    "usd": 1166254571259,
-    "undisclosed": 9,
+    "usd": 1170442571259,
+    "undisclosed": 8,
     "cancelled": 0,
     "superseded": 4
    },
@@ -26806,20 +26828,20 @@
     "usd": 0
    }
   },
-  "total_usd": 3742621523641,
+  "total_usd": 3746809523641,
   "contingent_usd": 211321000000,
   "headline_usd": 2466510000000,
-  "broad_usd": 6420452523641,
+  "broad_usd": 6424640523641,
   "by_status_usd": {
    "announced": 9000000000,
    "signed": 1809973571259,
    "in_progress": 341136000000,
-   "completed": 1527911952382,
+   "completed": 1532099952382,
    "reported": 54600000000
   },
-  "confirmed_usd": 2446404523641,
+  "confirmed_usd": 2450592523641,
   "reported_usd": 1296217000000,
-  "binding_usd": 3679021523641,
+  "binding_usd": 3683209523641,
   "announced_usd": 63600000000,
   "circular": [
    {
@@ -28903,12 +28925,12 @@
    {
     "month": "2026-11",
     "count": 23,
-    "usd": 228128162382,
-    "cumulative_usd": 3742621523641,
+    "usd": 232316162382,
+    "cumulative_usd": 3746809523641,
     "by_kind": {
      "order": 0,
      "investment": 138578162382,
-     "debt": 89550000000,
+     "debt": 93738000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
