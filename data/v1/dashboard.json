@@ -1,30 +1,30 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-24T02:32:45Z",
- "built_at": "2026-11-24T02:33:01Z",
+ "generated_at": "2026-11-24T10:46:02Z",
+ "built_at": "2026-11-24T10:46:16Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
-  "total_usd": 3746809523641,
+  "total_usd": 3754309523641,
   "contingent_usd": 211321000000,
   "headline_usd": 2466510000000,
-  "broad_usd": 6424640523641,
+  "broad_usd": 6432140523641,
   "confirmed_usd": 2450592523641,
-  "reported_usd": 1296217000000,
-  "binding_usd": 3683209523641,
-  "deals": 443,
-  "deals_with_amount": 291,
-  "companies": 146,
+  "reported_usd": 1303717000000,
+  "binding_usd": 3690709523641,
+  "deals": 444,
+  "deals_with_amount": 292,
+  "companies": 147,
   "new_7d": {
-   "count": 3,
-   "usd": 139766162382
+   "count": 4,
+   "usd": 147266162382
   },
   "new_30d": {
-   "count": 46,
-   "usd": 680096162382
+   "count": 47,
+   "usd": 687596162382
   },
   "announced_30d": {
-   "count": 42,
-   "usd": 658396162382
+   "count": 43,
+   "usd": 665896162382
   },
   "latest_announced": "2026-11-23"
  },
@@ -207,6 +207,12 @@
    "name": "Crusoe",
    "name_zh": "Crusoe",
    "group": "neocloud",
+   "ticker": null
+  },
+  "decart": {
+   "name": "Decart",
+   "name_zh": "Decart（AI 模型与推理优化公司）",
+   "group": "model_lab",
    "ticker": null
   },
   "deepseek": {
@@ -505,6 +511,36 @@
   }
  },
  "deals": [
+  {
+   "id": "amazon-decart-2026-11-technology-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition of technology and team",
+   "subkind_zh": "收购技术与团队",
+   "from": "amazon",
+   "to": "decart",
+   "amount_usd": 7500000000,
+   "counted_usd": 7500000000,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "~$7.5B in cash and stock as reported by Bloomberg and Calcalist (Amazon did not disclose terms) for the Decart Optimization Stack and the founding team; Decart's AI models are not included; subject to regulatory clearance",
+   "announced": "2026-11-23",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Amazon buys Decart's AI chip optimisation technology and team (~$7.5B, reported)",
+   "title_zh": "亚马逊收购 Decart 的 AI 芯片优化技术与团队（据报约 75 亿美元）",
+   "summary_en": "Amazon confirmed on 23 November 2026 that it will acquire Decart's AI optimisation software, which lets models run efficiently across Nvidia GPUs, Google TPUs and Amazon's Trainium chips, and hire the startup's founders and engineers, as it prepares to sell Trainium more…",
+   "summary_zh": "亚马逊于 2026 年 11 月 23 日确认将收购 Decart 的 AI 优化软件（可让模型在英伟达 GPU、谷歌 TPU 和亚马逊 Trainium 芯片上高效运行），并招揽该初创公司的创始人和工程师，为更广泛销售 Trainium 做准备。彭博和 Calcalist 报…",
+   "source": {
+    "url": "https://www.calcalistech.com/ctechnews/article/g0mtcg4mi",
+    "publisher": "Calcalist (Ctech)",
+    "date": "2026-11-23"
+   },
+   "added": "2026-11-24",
+   "tags": [
+    "new",
+    "recent"
+   ]
+  },
   {
    "id": "bond-investors-alphabet-2026-11-notes-2",
    "kind": "debt",
@@ -4825,6 +4861,7 @@
   "bond-investors-apollo-spacex-gpu-lessor-2026-11-notes",
   "alphabet-anthropic-2026-11-ipo-placement",
   "nvidia-anthropic-2026-11-ipo-placement",
+  "amazon-decart-2026-11-technology-acquisition",
   "bond-investors-alphabet-2026-11-notes-2",
   "bond-investors-alphabet-2026-11-hkd-sgd-notes",
   "amd-anthropic-2026-11-ipo-placement",
@@ -5054,8 +5091,8 @@
   },
   {
    "kind": "investment",
-   "count": 145,
-   "usd": 962461952382,
+   "count": 146,
+   "usd": 969961952382,
    "undisclosed": 46
   },
   {
@@ -5091,8 +5128,8 @@
   },
   {
    "status": "signed",
-   "usd": 1809973571259,
-   "count": 149
+   "usd": 1817473571259,
+   "count": 150
   },
   {
    "status": "in_progress",
@@ -5417,11 +5454,11 @@
   },
   {
    "month": "2026-11",
-   "count": 23,
-   "usd": 232316162382,
+   "count": 24,
+   "usd": 239816162382,
    "by_kind": {
     "order": 0,
-    "investment": 138578162382,
+    "investment": 146078162382,
     "debt": 93738000000,
     "lease": 0,
     "vendor_financing": 0,
@@ -5450,10 +5487,10 @@
   },
   {
    "id": "amazon",
-   "out_usd": 79900000000,
+   "out_usd": 87400000000,
    "in_usd": 458860000000,
    "borrowed_usd": 210860000000,
-   "deals": 26,
+   "deals": 27,
    "group": "hyperscaler",
    "cds": {
     "bp": 80,

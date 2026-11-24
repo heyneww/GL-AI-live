@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T02:32:45Z",
+ "generated_at": "2026-11-24T10:46:02Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-24, https://heyneww.github.io/GL-AI-live/",
@@ -537,7 +537,7 @@
     },
     "outflow_usd": {
      "order": 4400000000,
-     "investment": 68000000000,
+     "investment": 75500000000,
      "debt": 0,
      "lease": 7500000000,
      "vendor_financing": 0,
@@ -553,7 +553,7 @@
     },
     "outflow_count": {
      "order": 7,
-     "investment": 4,
+     "investment": 5,
      "debt": 0,
      "lease": 4,
      "vendor_financing": 0,
@@ -561,51 +561,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 26,
-    "degree_curated": 26,
+    "degree": 27,
+    "degree_curated": 27,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 296400000000,
+     "signed": 303900000000,
      "in_progress": 53500000000,
      "completed": 188860000000,
      "reported": 0
     },
     "confirmed_usd": 460860000000,
-    "binding_usd": 538760000000,
-    "last_edge": "2026-11-11",
-    "last_source": "2026-11-16",
-    "counterparties": 15,
+    "binding_usd": 546260000000,
+    "last_edge": "2026-11-23",
+    "last_source": "2026-11-23",
+    "counterparties": 16,
     "inflow_total_usd": 458860000000,
-    "outflow_total_usd": 79900000000,
+    "outflow_total_usd": 87400000000,
     "top_counterparties": [
      {
       "id": "openai",
       "usd": 188000000000,
-      "share": 0.34894943945356005
+      "share": 0.3441584593417054
      },
      {
       "id": "anthropic",
       "usd": 128000000000,
-      "share": 0.23758259707476428
+      "share": 0.2343206531688207
      },
      {
       "id": "bond-investors",
       "usd": 113360000000,
-      "share": 0.2104090875343381
+      "share": 0.20752022846263685
      },
      {
       "id": "bank-lenders",
       "usd": 80000000000,
-      "share": 0.14848912317172766
+      "share": 0.14645040823051295
      },
      {
       "id": "citigroup",
       "usd": 17500000000,
-      "share": 0.03248199569381543
+      "share": 0.03203602680042471
      }
     ],
-    "concentration_top3": 0.7969411240626625
+    "concentration_top3": 0.7859993409731629
    }
   },
   {
@@ -3802,6 +3802,76 @@
      {
       "id": "blackstone",
       "usd": 5000000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "decart",
+   "name": "Decart",
+   "name_zh": "Decart（AI 模型与推理优化公司）",
+   "group": "model_lab",
+   "ticker": null,
+   "country": "IL",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 7500000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 7500000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 7500000000,
+    "last_edge": "2026-11-23",
+    "last_source": "2026-11-23",
+    "counterparties": 1,
+    "inflow_total_usd": 7500000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "amazon",
+      "usd": 7500000000,
       "share": 1.0
      }
     ],
