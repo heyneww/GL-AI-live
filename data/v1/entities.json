@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T09:47:27Z",
+ "generated_at": "2026-11-25T10:45:55Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-25, https://heyneww.github.io/GL-AI-live/",
@@ -536,7 +536,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 4400000000,
+     "order": 5400000000,
      "investment": 75500000000,
      "debt": 0,
      "lease": 7500000000,
@@ -552,7 +552,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 7,
+     "order": 8,
      "investment": 5,
      "debt": 0,
      "lease": 4,
@@ -561,51 +561,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 27,
-    "degree_curated": 27,
+    "degree": 28,
+    "degree_curated": 28,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 303900000000,
+     "signed": 304900000000,
      "in_progress": 53500000000,
      "completed": 188860000000,
      "reported": 0
     },
     "confirmed_usd": 460860000000,
-    "binding_usd": 546260000000,
+    "binding_usd": 547260000000,
     "last_edge": "2026-11-23",
     "last_source": "2026-11-23",
-    "counterparties": 16,
+    "counterparties": 17,
     "inflow_total_usd": 458860000000,
-    "outflow_total_usd": 87400000000,
+    "outflow_total_usd": 88400000000,
     "top_counterparties": [
      {
       "id": "openai",
       "usd": 188000000000,
-      "share": 0.3441584593417054
+      "share": 0.34352958374447246
      },
      {
       "id": "anthropic",
       "usd": 128000000000,
-      "share": 0.2343206531688207
+      "share": 0.23389248254942807
      },
      {
       "id": "bond-investors",
       "usd": 113360000000,
-      "share": 0.20752022846263685
+      "share": 0.20714102985783722
      },
      {
       "id": "bank-lenders",
       "usd": 80000000000,
-      "share": 0.14645040823051295
+      "share": 0.14618280159339253
      },
      {
       "id": "citigroup",
       "usd": 17500000000,
-      "share": 0.03203602680042471
+      "share": 0.031977487848554614
      }
     ],
-    "concentration_top3": 0.7859993409731629
+    "concentration_top3": 0.7845630961517378
    }
   },
   {
@@ -9616,6 +9616,76 @@
     "outflow_total_usd": 0,
     "top_counterparties": [],
     "concentration_top3": 0
+   }
+  },
+  {
+   "id": "synopsys",
+   "name": "Synopsys",
+   "name_zh": "新思科技（Synopsys）",
+   "group": "other",
+   "ticker": "SNPS",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 1000000000,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 1000000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 1000000000,
+    "last_edge": "2026-09-30",
+    "last_source": "2026-10-02",
+    "counterparties": 1,
+    "inflow_total_usd": 1000000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "amazon",
+      "usd": 1000000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
    }
   },
   {

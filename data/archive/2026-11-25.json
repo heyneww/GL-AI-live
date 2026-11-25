@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T09:47:27Z",
+ "generated_at": "2026-11-25T10:45:55Z",
  "monitor": {
   "last_run": "2026-11-25T09:47:04Z",
   "sec_items": 253,
@@ -577,7 +577,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 4400000000,
+     "order": 5400000000,
      "investment": 75500000000,
      "debt": 0,
      "lease": 7500000000,
@@ -593,7 +593,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 7,
+     "order": 8,
      "investment": 5,
      "debt": 0,
      "lease": 4,
@@ -602,51 +602,51 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 27,
-    "degree_curated": 27,
+    "degree": 28,
+    "degree_curated": 28,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
-     "signed": 303900000000,
+     "signed": 304900000000,
      "in_progress": 53500000000,
      "completed": 188860000000,
      "reported": 0
     },
     "confirmed_usd": 460860000000,
-    "binding_usd": 546260000000,
+    "binding_usd": 547260000000,
     "last_edge": "2026-11-23",
     "last_source": "2026-11-23",
-    "counterparties": 16,
+    "counterparties": 17,
     "inflow_total_usd": 458860000000,
-    "outflow_total_usd": 87400000000,
+    "outflow_total_usd": 88400000000,
     "top_counterparties": [
      {
       "id": "openai",
       "usd": 188000000000,
-      "share": 0.3441584593417054
+      "share": 0.34352958374447246
      },
      {
       "id": "anthropic",
       "usd": 128000000000,
-      "share": 0.2343206531688207
+      "share": 0.23389248254942807
      },
      {
       "id": "bond-investors",
       "usd": 113360000000,
-      "share": 0.20752022846263685
+      "share": 0.20714102985783722
      },
      {
       "id": "bank-lenders",
       "usd": 80000000000,
-      "share": 0.14645040823051295
+      "share": 0.14618280159339253
      },
      {
       "id": "citigroup",
       "usd": 17500000000,
-      "share": 0.03203602680042471
+      "share": 0.031977487848554614
      }
     ],
-    "concentration_top3": 0.7859993409731629
+    "concentration_top3": 0.7845630961517378
    }
   },
   {
@@ -9660,6 +9660,76 @@
    }
   },
   {
+   "id": "synopsys",
+   "name": "Synopsys",
+   "name_zh": "新思科技（Synopsys）",
+   "group": "other",
+   "ticker": "SNPS",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 1000000000,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 1000000000,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 1000000000,
+    "last_edge": "2026-09-30",
+    "last_source": "2026-10-02",
+    "counterparties": 1,
+    "inflow_total_usd": 1000000000,
+    "outflow_total_usd": 0,
+    "top_counterparties": [
+     {
+      "id": "amazon",
+      "usd": 1000000000,
+      "share": 1.0
+     }
+    ],
+    "concentration_top3": 1.0
+   }
+  },
+  {
    "id": "taalas",
    "name": "Taalas",
    "name_zh": "Taalas（AI 推理芯片初创公司）",
@@ -13369,6 +13439,43 @@
      "date": "2026-11-09",
      "title": "Constellation Reports Third Quarter 2026 Results (20-year, 690 MW PPA with Amazon)",
      "type": "filing"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amazon-synopsys-2026-09-silicon-ip-agreement",
+   "kind": "order",
+   "subkind": "chip design IP and EDA licence agreement",
+   "subkind_zh": "芯片设计 IP 与 EDA 许可协议",
+   "from": "amazon",
+   "to": "synopsys",
+   "amount_usd": 1000000000,
+   "amount_text": "More than $1B over several years (licence-plus-royalty model; payments rise with Amazon's chip volumes); Synopsys's CEO said the $1B covers licence fees only, with customisation fees and per-unit royalties on top; counted at the $1B stated",
+   "amount_text_zh": "多年期，价值超过 10 亿美元（许可费加特许权使用费模式，付款随亚马逊芯片产量增加）；新思科技首席执行官称 10 亿美元仅为许可费，定制费和按件计的特许权使用费另计；按所述 10 亿美元计入",
+   "announced": "2026-09-30",
+   "term": "Multi-year; length not disclosed",
+   "term_zh": "多年期，年限未披露",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Amazon's $1B+ chip design IP agreement with Synopsys",
+   "title_zh": "亚马逊与新思科技签订逾 10 亿美元芯片设计 IP 协议",
+   "summary_en": "On 30 September 2026 Synopsys and Amazon announced a multi-year agreement valued at more than $1 billion under which Amazon becomes lead customer for Synopsys's application-optimised silicon IP and expands its use of Synopsys design, simulation and AI tools for its Trainium, Graviton and Nitro chips. In return Synopsys adopts AWS compute, storage and Amazon Bedrock (no amount given for that side).",
+   "summary_zh": "新思科技与亚马逊于 2026 年 9 月 30 日宣布一项价值超过 10 亿美元的多年期协议：亚马逊成为新思科技应用优化型芯片 IP 的首家主要客户，并扩大在 Trainium、Graviton 和 Nitro 芯片上使用新思科技的设计、仿真和 AI 工具。作为回报，新思科技采用 AWS 计算、存储及 Amazon Bedrock（该部分未披露金额）。",
+   "sources": [
+    {
+     "url": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
+     "publisher": "Tom's Hardware",
+     "date": "2026-10-02",
+     "title": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts",
+     "type": "news"
+    },
+    {
+     "url": "https://www.verdict.co.uk/synopsys-silicon-ip-deal-amazon/",
+     "publisher": "Verdict",
+     "date": "2026-10-01",
+     "title": "Synopsys signs $1bn-plus silicon IP deal with Amazon",
+     "type": "news"
     }
    ],
    "origin": "curated"
@@ -26889,14 +26996,14 @@
   }
  ],
  "stats": {
-  "entities": 147,
-  "edges": 444,
-  "curated_edges": 444,
+  "entities": 148,
+  "edges": 445,
+  "curated_edges": 445,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 117,
-    "usd": 1274189000000,
+    "count": 118,
+    "usd": 1275189000000,
     "undisclosed": 75,
     "cancelled": 1,
     "superseded": 0
@@ -26963,20 +27070,20 @@
     "usd": 0
    }
   },
-  "total_usd": 3754309523641,
+  "total_usd": 3755309523641,
   "contingent_usd": 211321000000,
   "headline_usd": 2466510000000,
-  "broad_usd": 6432140523641,
+  "broad_usd": 6433140523641,
   "by_status_usd": {
    "announced": 9000000000,
-   "signed": 1797473571259,
+   "signed": 1798473571259,
    "in_progress": 341136000000,
    "completed": 1567899952382,
    "reported": 38800000000
   },
   "confirmed_usd": 2450592523641,
-  "reported_usd": 1303717000000,
-  "binding_usd": 3706509523641,
+  "reported_usd": 1304717000000,
+  "binding_usd": 3707509523641,
   "announced_usd": 47800000000,
   "circular": [
    {
@@ -29031,11 +29138,11 @@
    },
    {
     "month": "2026-09",
-    "count": 28,
-    "usd": 163769000000,
-    "cumulative_usd": 3057155361259,
+    "count": 29,
+    "usd": 164769000000,
+    "cumulative_usd": 3058155361259,
     "by_kind": {
-     "order": 33400000000,
+     "order": 34400000000,
      "investment": 45209000000,
      "debt": 82220000000,
      "lease": 2940000000,
@@ -29047,7 +29154,7 @@
     "month": "2026-10",
     "count": 29,
     "usd": 457338000000,
-    "cumulative_usd": 3514493361259,
+    "cumulative_usd": 3515493361259,
     "by_kind": {
      "order": 6400000000,
      "investment": 59200000000,
@@ -29061,7 +29168,7 @@
     "month": "2026-11",
     "count": 24,
     "usd": 239816162382,
-    "cumulative_usd": 3754309523641,
+    "cumulative_usd": 3755309523641,
     "by_kind": {
      "order": 0,
      "investment": 146078162382,

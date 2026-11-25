@@ -1,19 +1,19 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-25T09:47:27Z",
- "built_at": "2026-11-25T09:47:42Z",
+ "generated_at": "2026-11-25T10:45:55Z",
+ "built_at": "2026-11-25T10:46:10Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
-  "total_usd": 3754309523641,
+  "total_usd": 3755309523641,
   "contingent_usd": 211321000000,
   "headline_usd": 2466510000000,
-  "broad_usd": 6432140523641,
+  "broad_usd": 6433140523641,
   "confirmed_usd": 2450592523641,
-  "reported_usd": 1303717000000,
-  "binding_usd": 3706509523641,
-  "deals": 444,
-  "deals_with_amount": 292,
-  "companies": 147,
+  "reported_usd": 1304717000000,
+  "binding_usd": 3707509523641,
+  "deals": 445,
+  "deals_with_amount": 293,
+  "companies": 148,
   "new_7d": {
    "count": 4,
    "usd": 147266162382
@@ -448,6 +448,12 @@
    "name_zh": "STACK Infrastructure（Blue Owl 旗下）",
    "group": "datacenter",
    "ticker": null
+  },
+  "synopsys": {
+   "name": "Synopsys",
+   "name_zh": "新思科技（Synopsys）",
+   "group": "other",
+   "ticker": "SNPS"
   },
   "tencent": {
    "name": "Tencent",
@@ -1796,6 +1802,35 @@
     "date": "2026-10-01"
    },
    "added": "2026-10-29",
+   "tags": [
+    "recent"
+   ]
+  },
+  {
+   "id": "amazon-synopsys-2026-09-silicon-ip-agreement",
+   "kind": "order",
+   "subkind": "chip design IP and EDA licence agreement",
+   "subkind_zh": "芯片设计 IP 与 EDA 许可协议",
+   "from": "amazon",
+   "to": "synopsys",
+   "amount_usd": 1000000000,
+   "counted_usd": 1000000000,
+   "contingent_usd": 0,
+   "headline_usd": null,
+   "amount_text": "More than $1B over several years (licence-plus-royalty model; payments rise with Amazon's chip volumes); Synopsys's CEO said the $1B covers licence fees only, with customisation fees and per-unit royalties on top; counted at the $1B stated",
+   "announced": "2026-09-30",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Amazon's $1B+ chip design IP agreement with Synopsys",
+   "title_zh": "亚马逊与新思科技签订逾 10 亿美元芯片设计 IP 协议",
+   "summary_en": "On 30 September 2026 Synopsys and Amazon announced a multi-year agreement valued at more than $1 billion under which Amazon becomes lead customer for Synopsys's application-optimised silicon IP and expands its use of Synopsys design, simulation and AI tools for its Trainium…",
+   "summary_zh": "新思科技与亚马逊于 2026 年 9 月 30 日宣布一项价值超过 10 亿美元的多年期协议：亚马逊成为新思科技应用优化型芯片 IP 的首家主要客户，并扩大在 Trainium、Graviton 和 Nitro 芯片上使用新思科技的设计、仿真和 AI 工具。作为回报，新思科技采…",
+   "source": {
+    "url": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
+    "publisher": "Tom's Hardware",
+    "date": "2026-10-02"
+   },
+   "added": "2026-11-25",
    "tags": [
     "recent"
    ]
@@ -5043,8 +5078,8 @@
  "by_kind": [
   {
    "kind": "order",
-   "count": 117,
-   "usd": 1274189000000,
+   "count": 118,
+   "usd": 1275189000000,
    "undisclosed": 75
   },
   {
@@ -5086,8 +5121,8 @@
   },
   {
    "status": "signed",
-   "usd": 1797473571259,
-   "count": 148
+   "usd": 1798473571259,
+   "count": 149
   },
   {
    "status": "in_progress",
@@ -5386,10 +5421,10 @@
   },
   {
    "month": "2026-09",
-   "count": 28,
-   "usd": 163769000000,
+   "count": 29,
+   "usd": 164769000000,
    "by_kind": {
-    "order": 33400000000,
+    "order": 34400000000,
     "investment": 45209000000,
     "debt": 82220000000,
     "lease": 2940000000,
@@ -5445,10 +5480,10 @@
   },
   {
    "id": "amazon",
-   "out_usd": 87400000000,
+   "out_usd": 88400000000,
    "in_usd": 458860000000,
    "borrowed_usd": 210860000000,
-   "deals": 27,
+   "deals": 28,
    "group": "hyperscaler",
    "cds": {
     "bp": 80,
