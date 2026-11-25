@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T22:28:13Z",
+ "generated_at": "2026-11-25T22:45:14Z",
  "monitor": {
   "last_run": "2026-11-25T22:27:47Z",
   "sec_items": 256,
@@ -525,7 +525,7 @@
     "confirmed_usd": 259438000000,
     "binding_usd": 340318000000,
     "last_edge": "2026-11-23",
-    "last_source": "2026-11-23",
+    "last_source": "2026-11-25",
     "counterparties": 22,
     "inflow_total_usd": 301568000000,
     "outflow_total_usd": 38750000000,
@@ -705,7 +705,7 @@
     "confirmed_usd": 16786000000,
     "binding_usd": 16786000000,
     "last_edge": "2026-11-10",
-    "last_source": "2026-11-20",
+    "last_source": "2026-11-25",
     "counterparties": 12,
     "inflow_total_usd": 9750000000,
     "outflow_total_usd": 7036000000,
@@ -865,7 +865,7 @@
     "confirmed_usd": 776598162382,
     "binding_usd": 777598162382,
     "last_edge": "2026-11-18",
-    "last_source": "2026-11-20",
+    "last_source": "2026-11-25",
     "counterparties": 25,
     "inflow_total_usd": 263798162382,
     "outflow_total_usd": 523800000000,
@@ -2453,7 +2453,7 @@
     "confirmed_usd": 169700000000,
     "binding_usd": 179700000000,
     "last_edge": "2026-11-10",
-    "last_source": "2026-11-20",
+    "last_source": "2026-11-25",
     "counterparties": 9,
     "inflow_total_usd": 178700000000,
     "outflow_total_usd": 1000000000,
@@ -3632,7 +3632,7 @@
     "inflow_count": {
      "order": 7,
      "investment": 3,
-     "debt": 15,
+     "debt": 16,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3647,8 +3647,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 31,
-    "degree_curated": 31,
+    "degree": 32,
+    "degree_curated": 32,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -3659,8 +3659,8 @@
     },
     "confirmed_usd": 112709500000,
     "binding_usd": 139849500000,
-    "last_edge": "2026-09-21",
-    "last_source": "2026-11-12",
+    "last_edge": "2026-11-25",
+    "last_source": "2026-11-25",
     "counterparties": 17,
     "inflow_total_usd": 125909500000,
     "outflow_total_usd": 13940000000,
@@ -6760,7 +6760,7 @@
     "confirmed_usd": 2750000000,
     "binding_usd": 4550000000,
     "last_edge": "2026-11-10",
-    "last_source": "2026-11-20",
+    "last_source": "2026-11-25",
     "counterparties": 4,
     "inflow_total_usd": 1750000000,
     "outflow_total_usd": 2800000000,
@@ -6840,7 +6840,7 @@
     "confirmed_usd": 350300000000,
     "binding_usd": 363300000000,
     "last_edge": "2026-11-10",
-    "last_source": "2026-11-20",
+    "last_source": "2026-11-25",
     "counterparties": 13,
     "inflow_total_usd": 322200000000,
     "outflow_total_usd": 41100000000,
@@ -7205,15 +7205,15 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 9,
+     "debt": 10,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 9,
-    "degree_curated": 9,
+    "degree": 10,
+    "degree_curated": 10,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -7224,8 +7224,8 @@
     },
     "confirmed_usd": 22699000000,
     "binding_usd": 38299000000,
-    "last_edge": "2026-08-12",
-    "last_source": "2026-10-28",
+    "last_edge": "2026-11-25",
+    "last_source": "2026-11-25",
     "counterparties": 8,
     "inflow_total_usd": 0,
     "outflow_total_usd": 38299000000,
@@ -7769,7 +7769,7 @@
     "confirmed_usd": 60900000000,
     "binding_usd": 196400000000,
     "last_edge": "2026-11-10",
-    "last_source": "2026-11-20",
+    "last_source": "2026-11-25",
     "counterparties": 30,
     "inflow_total_usd": 65000000000,
     "outflow_total_usd": 139400000000,
@@ -10277,7 +10277,7 @@
     "confirmed_usd": 2500000000,
     "binding_usd": 51300000000,
     "last_edge": "2026-11-10",
-    "last_source": "2026-11-20",
+    "last_source": "2026-11-25",
     "counterparties": 7,
     "inflow_total_usd": 48800000000,
     "outflow_total_usd": 2500000000,
@@ -11017,6 +11017,44 @@
  ],
  "edges": [
   {
+   "id": "morgan-stanley-coreweave-2026-11-meta-gpu-loan",
+   "kind": "debt",
+   "subkind": "GPU-backed term loan (being arranged)",
+   "subkind_zh": "以 GPU 为抵押的定期贷款（安排中）",
+   "from": "morgan-stanley",
+   "to": "coreweave",
+   "amount_usd": null,
+   "headline_usd": 4500000000,
+   "amount_text": "Up to ~$4.5B (at least $4B) reported by Bloomberg; banks plan to sell the loan to investors as soon as the week of 30 Nov 2026 at an early yield talk of ~7%–7.5%; not yet priced or closed, so not counted",
+   "amount_text_zh": "据彭博报道最高约 45 亿美元（至少 40 亿美元）；银行计划最早于 2026 年 11 月 30 日当周向投资者出售该笔贷款，初步收益率指引约 7%–7.5%；尚未定价或完成，因此不计入总额",
+   "announced": "2026-11-25",
+   "term": "Not disclosed",
+   "term_zh": "未披露",
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "CoreWeave's ~$4.5B Meta-backed GPU loan, arranged by Morgan Stanley and MUFG (being arranged)",
+   "title_zh": "CoreWeave 约 45 亿美元以 Meta 合同为支持的 GPU 贷款，由摩根士丹利和三菱日联金融集团安排（安排中）",
+   "summary_en": "Bloomberg reported on 25 November 2026 that Morgan Stanley and MUFG are preparing to sell a loan of up to about $4.5 billion for CoreWeave, secured by the GPUs it will run for Meta at a data centre in Dalton, Georgia, and backed by its service agreement with Meta, so the loan is expected to be rated investment grade although CoreWeave itself is junk rated. Proceeds would be drawn from an escrow account; terms and timing are not final.",
+   "summary_zh": "彭博于 2026 年 11 月 25 日报道，摩根士丹利和三菱日联金融集团正准备为 CoreWeave 出售一笔最高约 45 亿美元的贷款，以其在佐治亚州多尔顿数据中心为 Meta 运行的 GPU 为抵押，并以其与 Meta 的服务协议为支持，因此尽管 CoreWeave 本身为垃圾级评级，该贷款预计将获投资级评级。贷款资金将从托管账户中提取；条款和时间尚未最终确定。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-11-25/coreweave-s-banks-to-sell-4-5-billion-meta-tied-loan-next-week",
+     "publisher": "Bloomberg",
+     "date": "2026-11-25",
+     "title": "CoreWeave's Banks to Sell $4.5 Billion Meta-Tied Loan Next Week",
+     "type": "news"
+    },
+    {
+     "url": "https://qz.com/coreweave-banks-meta-backed-loan-sale-112526",
+     "publisher": "Quartz",
+     "date": "2026-11-25",
+     "title": "CoreWeave's banks are preparing a $4.5 billion Meta-backed loan sale",
+     "type": "news"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "amazon-decart-2026-11-technology-acquisition",
    "kind": "investment",
    "subkind": "acquisition of technology and team",
@@ -11340,7 +11378,7 @@
    "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
    "status": "completed",
    "confidence": "confirmed",
-   "last_checked": "2026-11-21",
+   "last_checked": "2026-11-25",
    "title_en": "Google to buy $10.0B of Anthropic stock alongside its IPO",
    "title_zh": "谷歌将在 Anthropic IPO 同时认购 100 亿美元股票",
    "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Google will buy about $10.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
@@ -11354,6 +11392,13 @@
     "tsmc-anthropic-2026-11-ipo-placement"
    ],
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/ant-20261119.htm",
+     "publisher": "Anthropic (SEC Form 8-K)",
+     "date": "2026-11-25",
+     "title": "Form 8-K: concurrent private placement of 313,253,007 Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners (~$26.0B), completed 20 November 2026",
+     "type": "filing"
+    },
     {
      "url": "https://www.anthropic.com/news/ipo-close",
      "publisher": "Anthropic",
@@ -11386,7 +11431,7 @@
    "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
    "status": "completed",
    "confidence": "confirmed",
-   "last_checked": "2026-11-21",
+   "last_checked": "2026-11-25",
    "title_en": "AMD to buy $2.5B of Anthropic stock alongside its IPO",
    "title_zh": "AMD 将在 Anthropic IPO 同时认购 25 亿美元股票",
    "summary_en": "Anthropic's amended S-1 of 10 November 2026 says AMD will buy about $2.5B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
@@ -11400,6 +11445,13 @@
     "tsmc-anthropic-2026-11-ipo-placement"
    ],
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/ant-20261119.htm",
+     "publisher": "Anthropic (SEC Form 8-K)",
+     "date": "2026-11-25",
+     "title": "Form 8-K: concurrent private placement of 313,253,007 Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners (~$26.0B), completed 20 November 2026",
+     "type": "filing"
+    },
     {
      "url": "https://www.anthropic.com/news/ipo-close",
      "publisher": "Anthropic",
@@ -11432,7 +11484,7 @@
    "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
    "status": "completed",
    "confidence": "confirmed",
-   "last_checked": "2026-11-21",
+   "last_checked": "2026-11-25",
    "title_en": "Broadcom to buy $1.0B of Anthropic stock alongside its IPO",
    "title_zh": "博通将在 Anthropic IPO 同时认购 10 亿美元股票",
    "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Broadcom will buy about $1.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
@@ -11446,6 +11498,13 @@
     "tsmc-anthropic-2026-11-ipo-placement"
    ],
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/ant-20261119.htm",
+     "publisher": "Anthropic (SEC Form 8-K)",
+     "date": "2026-11-25",
+     "title": "Form 8-K: concurrent private placement of 313,253,007 Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners (~$26.0B), completed 20 November 2026",
+     "type": "filing"
+    },
     {
      "url": "https://www.anthropic.com/news/ipo-close",
      "publisher": "Anthropic",
@@ -11478,7 +11537,7 @@
    "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
    "status": "completed",
    "confidence": "confirmed",
-   "last_checked": "2026-11-21",
+   "last_checked": "2026-11-25",
    "title_en": "Micron to buy $1.0B of Anthropic stock alongside its IPO",
    "title_zh": "美光将在 Anthropic IPO 同时认购 10 亿美元股票",
    "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Micron will buy about $1.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
@@ -11492,6 +11551,13 @@
     "tsmc-anthropic-2026-11-ipo-placement"
    ],
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/ant-20261119.htm",
+     "publisher": "Anthropic (SEC Form 8-K)",
+     "date": "2026-11-25",
+     "title": "Form 8-K: concurrent private placement of 313,253,007 Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners (~$26.0B), completed 20 November 2026",
+     "type": "filing"
+    },
     {
      "url": "https://www.anthropic.com/news/ipo-close",
      "publisher": "Anthropic",
@@ -11524,7 +11590,7 @@
    "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
    "status": "completed",
    "confidence": "confirmed",
-   "last_checked": "2026-11-21",
+   "last_checked": "2026-11-25",
    "title_en": "Microsoft to buy $1.0B of Anthropic stock alongside its IPO",
    "title_zh": "微软将在 Anthropic IPO 同时认购 10 亿美元股票",
    "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Microsoft will buy about $1.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
@@ -11538,6 +11604,13 @@
     "tsmc-anthropic-2026-11-ipo-placement"
    ],
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/ant-20261119.htm",
+     "publisher": "Anthropic (SEC Form 8-K)",
+     "date": "2026-11-25",
+     "title": "Form 8-K: concurrent private placement of 313,253,007 Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners (~$26.0B), completed 20 November 2026",
+     "type": "filing"
+    },
     {
      "url": "https://www.anthropic.com/news/ipo-close",
      "publisher": "Anthropic",
@@ -11570,7 +11643,7 @@
    "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
    "status": "completed",
    "confidence": "confirmed",
-   "last_checked": "2026-11-21",
+   "last_checked": "2026-11-25",
    "title_en": "Nvidia to buy $10.0B of Anthropic stock alongside its IPO",
    "title_zh": "英伟达将在 Anthropic IPO 同时认购 100 亿美元股票",
    "summary_en": "Anthropic's amended S-1 of 10 November 2026 says Nvidia will buy about $10.0B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
@@ -11584,6 +11657,13 @@
     "tsmc-anthropic-2026-11-ipo-placement"
    ],
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/ant-20261119.htm",
+     "publisher": "Anthropic (SEC Form 8-K)",
+     "date": "2026-11-25",
+     "title": "Form 8-K: concurrent private placement of 313,253,007 Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners (~$26.0B), completed 20 November 2026",
+     "type": "filing"
+    },
     {
      "url": "https://www.anthropic.com/news/ipo-close",
      "publisher": "Anthropic",
@@ -11616,7 +11696,7 @@
    "term_zh": "IPO 完成后立即交割，以 IPO 完成及其他条件为前提",
    "status": "completed",
    "confidence": "confirmed",
-   "last_checked": "2026-11-21",
+   "last_checked": "2026-11-25",
    "title_en": "TSMC to buy $0.5B of Anthropic stock alongside its IPO",
    "title_zh": "台积电将在 Anthropic IPO 同时认购 5 亿美元股票",
    "summary_en": "Anthropic's amended S-1 of 10 November 2026 says TSMC, through TSMC Partners, will buy about $0.5B of non-voting Class N common stock at the IPO price in a private placement closing right after the IPO; TSMC's board approved the investment the same day. The seven buyers (Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC) are all suppliers to Anthropic and commit $26.0B in total; the placement falls away if the IPO does not complete.",
@@ -11630,6 +11710,13 @@
     "microsoft-anthropic-2026-11-ipo-placement"
    ],
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/ant-20261119.htm",
+     "publisher": "Anthropic (SEC Form 8-K)",
+     "date": "2026-11-25",
+     "title": "Form 8-K: concurrent private placement of 313,253,007 Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners (~$26.0B), completed 20 November 2026",
+     "type": "filing"
+    },
     {
      "url": "https://www.anthropic.com/news/ipo-close",
      "publisher": "Anthropic",
@@ -26997,8 +27084,8 @@
  ],
  "stats": {
   "entities": 148,
-  "edges": 445,
-  "curated_edges": 445,
+  "edges": 446,
+  "curated_edges": 446,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -27016,9 +27103,9 @@
     "superseded": 1
    },
    "debt": {
-    "count": 139,
+    "count": 140,
     "usd": 1170442571259,
-    "undisclosed": 8,
+    "undisclosed": 9,
     "cancelled": 0,
     "superseded": 4
    },
@@ -27072,8 +27159,8 @@
   },
   "total_usd": 3755309523641,
   "contingent_usd": 211321000000,
-  "headline_usd": 2466510000000,
-  "broad_usd": 6433140523641,
+  "headline_usd": 2471010000000,
+  "broad_usd": 6437640523641,
   "by_status_usd": {
    "announced": 9000000000,
    "signed": 1798473571259,
@@ -29166,7 +29253,7 @@
    },
    {
     "month": "2026-11",
-    "count": 24,
+    "count": 25,
     "usd": 239816162382,
     "cumulative_usd": 3755309523641,
     "by_kind": {
@@ -29183,7 +29270,7 @@
    "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
    "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
   },
-  "latest_announced": "2026-11-23",
+  "latest_announced": "2026-11-25",
   "notes": {
    "en": "total_usd sums curated deals with a disclosed amount that are not cancelled or superseded: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
    "zh": "total_usd 为人工核实、已披露金额且未取消、未被取代交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
