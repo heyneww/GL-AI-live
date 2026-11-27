@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T09:38:58Z",
+ "generated_at": "2026-11-27T10:44:53Z",
  "monitor": {
   "last_run": "2026-11-27T09:38:33Z",
   "sec_items": 256,
@@ -585,7 +585,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 3,
+     "order": 4,
      "investment": 0,
      "debt": 8,
      "lease": 0,
@@ -602,8 +602,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 28,
-    "degree_curated": 28,
+    "degree": 29,
+    "degree_curated": 29,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -615,8 +615,8 @@
     "confirmed_usd": 460860000000,
     "binding_usd": 547260000000,
     "last_edge": "2026-11-23",
-    "last_source": "2026-11-23",
-    "counterparties": 17,
+    "last_source": "2026-11-24",
+    "counterparties": 18,
     "inflow_total_usd": 458860000000,
     "outflow_total_usd": 88400000000,
     "top_counterparties": [
@@ -3398,6 +3398,70 @@
      }
     ],
     "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "clickhouse",
+   "name": "ClickHouse",
+   "name_zh": "ClickHouse（实时分析数据库公司）",
+   "group": "other",
+   "ticker": null,
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 0,
+    "last_edge": "2026-11-23",
+    "last_source": "2026-11-24",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
    }
   },
   {
@@ -11126,6 +11190,44 @@
     }
    ],
    "added_by": "rules",
+   "origin": "curated"
+  },
+  {
+   "id": "clickhouse-amazon-2026-11-aws-collaboration",
+   "kind": "order",
+   "subkind": "cloud strategic collaboration agreement (spending framework)",
+   "subkind_zh": "云服务战略合作协议（支出框架）",
+   "from": "clickhouse",
+   "to": "amazon",
+   "amount_usd": null,
+   "headline_usd": 1500000000,
+   "amount_text": "More than $1.5B over five years as a framework for ClickHouse's spending on AWS (customer migrations, integrations, go-to-market); no binding minimum is stated, so not counted",
+   "amount_text_zh": "五年内超过 15 亿美元，为 ClickHouse 在 AWS 上支出的框架（客户迁移、技术集成、市场推广）；未披露具约束力的最低金额，因此不计入总额",
+   "announced": "2026-11-23",
+   "term": "5 years",
+   "term_zh": "5 年",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "ClickHouse's $1.5B+ five-year AWS collaboration agreement (framework)",
+   "title_zh": "ClickHouse 与 AWS 逾 15 亿美元的五年合作协议（框架）",
+   "summary_en": "On 23 November 2026 ClickHouse announced an expanded five-year strategic collaboration agreement with AWS that sets a framework for ClickHouse to invest more than $1.5 billion to scale its analytics and AI data platform on AWS, running on Graviton by default. It extends a first agreement signed in December 2024 and raises AWS's go-to-market funding for ClickHouse.",
+   "summary_zh": "ClickHouse 于 2026 年 11 月 23 日宣布与 AWS 扩大五年期战略合作协议，确立 ClickHouse 投入超过 15 亿美元在 AWS 上扩展其分析与 AI 数据平台的框架，默认运行于 Graviton 芯片。该协议延续 2024 年 12 月签订的首份协议，并提高 AWS 对 ClickHouse 的市场推广资助。",
+   "sources": [
+    {
+     "url": "https://clickhouse.com/blog/clickhouse-expands-aws-strategic-collaboration-scale-unified-enterprise-ai-data-stack",
+     "publisher": "ClickHouse",
+     "date": "2026-11-23",
+     "title": "ClickHouse expands AWS strategic collaboration with a $1.5 billion-plus agreement to scale its unified enterprise AI data stack",
+     "type": "official"
+    },
+    {
+     "url": "https://channellife.com.au/story/clickhouse-expands-aws-deal-with-usd-1-5-billion-plan",
+     "publisher": "ChannelLife",
+     "date": "2026-11-24",
+     "title": "ClickHouse expands AWS deal with USD $1.5 billion plan",
+     "type": "news"
+    }
+   ],
    "origin": "curated"
   },
   {
@@ -29282,15 +29384,15 @@
   }
  ],
  "stats": {
-  "entities": 148,
-  "edges": 446,
-  "curated_edges": 446,
+  "entities": 149,
+  "edges": 447,
+  "curated_edges": 447,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 118,
+    "count": 119,
     "usd": 1275189000000,
-    "undisclosed": 75,
+    "undisclosed": 76,
     "cancelled": 1,
     "superseded": 0
    },
@@ -29358,8 +29460,8 @@
   },
   "total_usd": 3755309523641,
   "contingent_usd": 211321000000,
-  "headline_usd": 2471010000000,
-  "broad_usd": 6437640523641,
+  "headline_usd": 2472510000000,
+  "broad_usd": 6439140523641,
   "by_status_usd": {
    "announced": 9000000000,
    "signed": 1798473571259,
@@ -31452,7 +31554,7 @@
    },
    {
     "month": "2026-11",
-    "count": 25,
+    "count": 26,
     "usd": 239816162382,
     "cumulative_usd": 3755309523641,
     "by_kind": {

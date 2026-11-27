@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T09:38:58Z",
+ "generated_at": "2026-11-27T10:44:53Z",
  "version": 1,
  "licence": "CC BY 4.0",
  "citation": "AI Orders & Debt Map, heyneww, 2026-11-27, https://heyneww.github.io/GL-AI-live/",
@@ -544,7 +544,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 3,
+     "order": 4,
      "investment": 0,
      "debt": 8,
      "lease": 0,
@@ -561,8 +561,8 @@
     },
     "guaranteed_out_usd": 0,
     "guaranteed_in_usd": 0,
-    "degree": 28,
-    "degree_curated": 28,
+    "degree": 29,
+    "degree_curated": 29,
     "candidate_edges": 0,
     "by_status_usd": {
      "announced": 0,
@@ -574,8 +574,8 @@
     "confirmed_usd": 460860000000,
     "binding_usd": 547260000000,
     "last_edge": "2026-11-23",
-    "last_source": "2026-11-23",
-    "counterparties": 17,
+    "last_source": "2026-11-24",
+    "counterparties": 18,
     "inflow_total_usd": 458860000000,
     "outflow_total_usd": 88400000000,
     "top_counterparties": [
@@ -3357,6 +3357,70 @@
      }
     ],
     "concentration_top3": 1.0
+   }
+  },
+  {
+   "id": "clickhouse",
+   "name": "ClickHouse",
+   "name_zh": "ClickHouse（实时分析数据库公司）",
+   "group": "other",
+   "ticker": null,
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "guaranteed_out_usd": 0,
+    "guaranteed_in_usd": 0,
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "by_status_usd": {
+     "announced": 0,
+     "signed": 0,
+     "in_progress": 0,
+     "completed": 0,
+     "reported": 0
+    },
+    "confirmed_usd": 0,
+    "binding_usd": 0,
+    "last_edge": "2026-11-23",
+    "last_source": "2026-11-24",
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0,
+    "top_counterparties": [],
+    "concentration_top3": 0
    }
   },
   {

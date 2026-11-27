@@ -1,29 +1,29 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-27T09:38:58Z",
- "built_at": "2026-11-27T09:39:14Z",
+ "generated_at": "2026-11-27T10:44:53Z",
+ "built_at": "2026-11-27T10:45:10Z",
  "live_url": "https://heyneww.github.io/GL-AI-live/",
  "kpis": {
   "total_usd": 3755309523641,
   "contingent_usd": 211321000000,
-  "headline_usd": 2471010000000,
-  "broad_usd": 6437640523641,
+  "headline_usd": 2472510000000,
+  "broad_usd": 6439140523641,
   "confirmed_usd": 2450592523641,
   "reported_usd": 1304717000000,
   "binding_usd": 3707509523641,
-  "deals": 446,
+  "deals": 447,
   "deals_with_amount": 293,
-  "companies": 148,
+  "companies": 149,
   "new_7d": {
-   "count": 4,
+   "count": 5,
    "usd": 55688000000
   },
   "new_30d": {
-   "count": 47,
+   "count": 48,
    "usd": 647596162382
   },
   "announced_30d": {
-   "count": 29,
+   "count": 30,
    "usd": 372816162382
   },
   "latest_announced": "2026-11-25"
@@ -188,6 +188,12 @@
   "classiq": {
    "name": "Classiq",
    "name_zh": "Classiq（以色列量子软件公司）",
+   "group": "other",
+   "ticker": null
+  },
+  "clickhouse": {
+   "name": "ClickHouse",
+   "name_zh": "ClickHouse（实时分析数据库公司）",
    "group": "other",
    "ticker": null
   },
@@ -599,6 +605,35 @@
     "new",
     "changed",
     "recent"
+   ]
+  },
+  {
+   "id": "clickhouse-amazon-2026-11-aws-collaboration",
+   "kind": "order",
+   "subkind": "cloud strategic collaboration agreement (spending framework)",
+   "subkind_zh": "云服务战略合作协议（支出框架）",
+   "from": "clickhouse",
+   "to": "amazon",
+   "amount_usd": null,
+   "counted_usd": 0,
+   "contingent_usd": 0,
+   "headline_usd": 1500000000,
+   "amount_text": "More than $1.5B over five years as a framework for ClickHouse's spending on AWS (customer migrations, integrations, go-to-market); no binding minimum is stated, so not counted",
+   "announced": "2026-11-23",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "ClickHouse's $1.5B+ five-year AWS collaboration agreement (framework)",
+   "title_zh": "ClickHouse 与 AWS 逾 15 亿美元的五年合作协议（框架）",
+   "summary_en": "On 23 November 2026 ClickHouse announced an expanded five-year strategic collaboration agreement with AWS that sets a framework for ClickHouse to invest more than $1.5 billion to scale its analytics and AI data platform on AWS, running on Graviton by default. It extends a first…",
+   "summary_zh": "ClickHouse 于 2026 年 11 月 23 日宣布与 AWS 扩大五年期战略合作协议，确立 ClickHouse 投入超过 15 亿美元在 AWS 上扩展其分析与 AI 数据平台的框架，默认运行于 Graviton 芯片。该协议延续 2024 年 12 月签订的首份…",
+   "source": {
+    "url": "https://clickhouse.com/blog/clickhouse-expands-aws-strategic-collaboration-scale-unified-enterprise-ai-data-stack",
+    "publisher": "ClickHouse",
+    "date": "2026-11-23"
+   },
+   "added": "2026-11-27",
+   "tags": [
+    "new"
    ]
   },
   {
@@ -4860,6 +4895,7 @@
   "tsmc-openai-2026-11-preferred-stock",
   "amazon-blackstone-2026-11-sale-leaseback",
   "openai-tensorwave-2026-11-amd-capacity",
+  "clickhouse-amazon-2026-11-aws-collaboration",
   "morgan-stanley-coreweave-2026-11-meta-gpu-loan"
  ],
  "top_ids": [
@@ -5073,9 +5109,9 @@
  "by_kind": [
   {
    "kind": "order",
-   "count": 118,
+   "count": 119,
    "usd": 1275189000000,
-   "undisclosed": 75
+   "undisclosed": 76
   },
   {
    "kind": "investment",
@@ -5117,7 +5153,7 @@
   {
    "status": "signed",
    "usd": 1798473571259,
-   "count": 149
+   "count": 150
   },
   {
    "status": "in_progress",
@@ -5442,7 +5478,7 @@
   },
   {
    "month": "2026-11",
-   "count": 25,
+   "count": 26,
    "usd": 239816162382,
    "by_kind": {
     "order": 0,
@@ -5478,7 +5514,7 @@
    "out_usd": 88400000000,
    "in_usd": 458860000000,
    "borrowed_usd": 210860000000,
-   "deals": 28,
+   "deals": 29,
    "group": "hyperscaler",
    "cds": {
     "bp": 80,
